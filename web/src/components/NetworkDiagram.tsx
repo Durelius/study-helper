@@ -55,7 +55,7 @@ export default function NetworkDiagram({ net, reveal }: { net: Network; reveal: 
         </defs>
 
         {net.activities.flatMap((a) =>
-          a.predecessors.map((p) => {
+          (a.predecessors ?? []).map((p) => {
             const from = place.get(p)!
             const to = place.get(a.name)!
             const x1 = from.x + BOX_W
@@ -63,8 +63,8 @@ export default function NetworkDiagram({ net, reveal }: { net: Network; reveal: 
             const x2 = to.x
             const y2 = to.y + BOX_H / 2
             const mid = (x1 + x2) / 2
-            const onPath =
-              reveal && net.criticalPath.includes(p) && net.criticalPath.includes(a.name)
+            const critical = net.criticalPath ?? []
+            const onPath = reveal && critical.includes(p) && critical.includes(a.name)
             return (
               <path
                 key={`${p}-${a.name}`}

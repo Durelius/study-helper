@@ -110,10 +110,17 @@ func Solve(in []Activity) (*Network, error) {
 		a.Critical = a.Float == 0
 	}
 
-	net := &Network{Duration: duration}
+	// Empty slices rather than nil: these cross the wire as JSON, and a nil slice
+	// marshals to `null`, which the diagram then tries to iterate. An activity with no
+	// predecessors has an empty list of them, not a missing one.
+	net := &Network{Duration: duration, CriticalPath: []string{}}
 	for _, name := range sorted {
-		net.Activities = append(net.Activities, *byName[name])
-		if byName[name].Critical {
+		a := *byName[name]
+		if a.Predecessors == nil {
+			a.Predecessors = []string{}
+		}
+		net.Activities = append(net.Activities, a)
+		if a.Critical {
 			net.CriticalPath = append(net.CriticalPath, name)
 		}
 	}

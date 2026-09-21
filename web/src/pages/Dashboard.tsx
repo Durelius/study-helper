@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Countdown from '../components/Countdown'
-import { api, type Plan, type Session, type Topic } from '../lib/api'
+import { api, type Mode, type Plan, type Session, type Step, type Topic } from '../lib/api'
 import { accuracy, ago, duration, percent } from '../lib/format'
 
 export default function Dashboard({ name }: { name: string }) {
@@ -9,15 +9,17 @@ export default function Dashboard({ name }: { name: string }) {
   const [plan, setPlan] = useState<Plan | null>(null)
   const [topics, setTopics] = useState<Topic[]>([])
   const [board, setBoard] = useState<Session[]>([])
+  const [modes, setModes] = useState<Mode[]>([])
   const [error, setError] = useState('')
   const [tick, setTick] = useState(0)
 
   useEffect(() => {
-    Promise.all([api.plan(name), api.topics(name), api.leaderboard()])
-      .then(([p, t, l]) => {
+    Promise.all([api.plan(name), api.topics(name), api.leaderboard(), api.modes()])
+      .then(([p, t, l, m]) => {
         setPlan(p)
         setTopics(t)
         setBoard(l.top.slice(0, 6))
+        setModes(m)
       })
       .catch((e: Error) => setError(e.message))
   }, [name])
@@ -40,31 +42,31 @@ export default function Dashboard({ name }: { name: string }) {
         <Countdown seconds={seconds} />
 
         {next && (
-          <section className="mt-8 border-l-2 border-critical bg-surface p-4">
-            <p className="text-[0.8rem] text-ink-soft">Do this next</p>
-            <h2 className="mt-1 text-lg">{next.label}</h2>
-            <p className="mt-1.5 max-w-[52ch] text-[0.92rem] leading-relaxed text-ink-soft">{next.why}</p>
-            <button
-              onClick={() => (next.action === 'read' ? nav(`/read/${next.topic}`) : start(next.mode!, next.topic ?? ''))}
-              className="mt-3 border border-ink bg-ink px-4 py-2 text-[0.9rem] font-medium text-paper"
-            >
-              {next.action === 'read' ? 'Open the notes' : 'Start'}
-            </button>
+          <section className="mt-8 border border-line bg-surface">
+            <p className="border-b border-line px-4 py-1.5 text-[0.76rem] text-ink-soft">Do this next</p>
+            <div className="p-4">
+              <h2 className="text-lg">{next.label}</h2>
+              <p className="mt-1.5 max-w-[52ch] text-[0.92rem] leading-relaxed text-ink-soft">{next.why}</p>
+              <button onClick={() => run(next)} className="btn mt-3.5">
+                {next.action === 'read' ? 'Open the notes' : 'Start the quiz'}
+              </button>
+            </div>
           </section>
         )}
 
         {plan.steps.length > 1 && (
           <section className="mt-6">
             <h3 className="text-[0.82rem] text-ink-soft">Then</h3>
-            <ul className="mt-2 divide-y divide-line border-y border-line">
-              {plan.steps.slice(1).map((s, i) => (
+            <ul className="mt-2 space-y-1.5">
+              {plan.steps.slice(1).map((step, i) => (
                 <li key={i}>
-                  <button
-                    onClick={() => (s.action === 'read' ? nav(`/read/${s.topic}`) : start(s.mode!, s.topic ?? ''))}
-                    className="w-full py-2.5 text-left"
-                  >
-                    <span className="text-[0.92rem]">{s.label}</span>
-                    <span className="mt-0.5 block max-w-[52ch] text-[0.82rem] text-ink-faint">{s.why}</span>
+                  <button onClick={() => run(step)} className="action-row">
+                    <span className="action-chip">{kindOf(step)}</span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-[0.92rem]">{step.label}</span>
+                      <span className="mt-0.5 block text-[0.8rem] leading-snug text-ink-faint">{step.why}</span>
+                    </span>
+                    <span className="action-go">{step.action === 'read' ? 'Read' : 'Start'}</span>
                   </button>
                 </li>
               ))}
@@ -125,6 +127,17 @@ export default function Dashboard({ name }: { name: string }) {
       </div>
     </div>
   )
+
+  // The chip names the actual drill, so a row says what pressing it will do.
+  function kindOf(step: Step): string {
+    if (step.action === 'read') return 'Read'
+    return modes.find((m) => m.id === step.mode)?.title ?? 'Quiz'
+  }
+
+  function run(step: Step) {
+    if (step.action === 'read') nav(`/read/${step.topic}`)
+    else void start(step.mode!, step.topic ?? '')
+  }
 
   async function start(mode: string, topic: string) {
     try {

@@ -109,7 +109,17 @@ function Check({ question }: { question: Question }) {
                         : 'transparent',
                   }}
                 >
-                  <span className="text-ink-faint">{'ABCD'[i]}</span>
+                  <span
+                    style={{
+                      color: isAnswer
+                        ? 'var(--slack-ink)'
+                        : isWrongPick
+                          ? 'var(--critical-ink)'
+                          : 'var(--ink-faint)',
+                    }}
+                  >
+                    {'ABCD'[i]}
+                  </span>
                   <span>{c}</span>
                 </button>
               </li>

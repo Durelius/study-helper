@@ -1,6 +1,8 @@
 package generate
 
 import (
+	"bytes"
+	"encoding/json"
 	"math/rand"
 	"testing"
 )
@@ -192,5 +194,30 @@ func TestSolveMatchesTheDecksOwnExample(t *testing.T) {
 	}
 	if got := net.CriticalPath; len(got) != 2 || got[0] != "F" || got[1] != "G" {
 		t.Errorf("critical path = %v, want [F G]", got)
+	}
+}
+
+// TestSolveNeverReturnsNilSlices guards the JSON contract: a nil slice marshals to
+// `null`, and the browser's diagram iterates both of these. A start activity has an
+// empty predecessor list, not a missing one.
+func TestSolveNeverReturnsNilSlices(t *testing.T) {
+	net, err := Solve(fixture())
+	if err != nil {
+		t.Fatalf("Solve: %v", err)
+	}
+	if net.CriticalPath == nil {
+		t.Error("CriticalPath is nil; it must marshal as an array")
+	}
+	for _, a := range net.Activities {
+		if a.Predecessors == nil {
+			t.Errorf("%s has nil Predecessors; it must marshal as an array", a.Name)
+		}
+	}
+	raw, err := json.Marshal(net)
+	if err != nil {
+		t.Fatalf("Marshal: %v", err)
+	}
+	if bytes.Contains(raw, []byte(`"predecessors":null`)) || bytes.Contains(raw, []byte(`"criticalPath":null`)) {
+		t.Errorf("serialised network contains a null array: %s", raw)
 	}
 }

@@ -212,7 +212,20 @@ export default function Runner() {
                   borderWidth: picked || isAnswer || wrongPick ? 2 : 1,
                 }}
               >
-                <span className="w-4 shrink-0 text-[0.85rem] text-ink-faint">{i + 1}</span>
+                <span
+                  className="w-4 shrink-0 text-[0.85rem]"
+                  // The marker has to sit on the verdict tint once the answer is in,
+                  // so it takes the matching ink rather than the neutral grey.
+                  style={{
+                    color: isAnswer
+                      ? 'var(--slack-ink)'
+                      : wrongPick
+                        ? 'var(--critical-ink)'
+                        : 'var(--ink-faint)',
+                  }}
+                >
+                  {i + 1}
+                </span>
                 <span className="text-[0.96rem]">{c}</span>
               </button>
             </li>
@@ -227,14 +240,14 @@ export default function Runner() {
           <button
             onClick={() => submit(true)}
             disabled={!chosen.length}
-            className="flex-1 border border-ink bg-ink px-4 py-2.5 font-medium text-paper disabled:opacity-40"
+            className="btn flex-1"
           >
             I'm sure
           </button>
           <button
             onClick={() => submit(false)}
             disabled={!chosen.length}
-            className="flex-1 border border-line-strong px-4 py-2.5 disabled:opacity-40"
+            className="btn btn-quiet flex-1"
           >
             Not sure
           </button>
@@ -256,7 +269,7 @@ export default function Runner() {
           <button
             onClick={next}
             autoFocus
-            className="mt-4 w-full border border-ink bg-ink px-4 py-2.5 font-medium text-paper"
+            className="btn mt-4 w-full"
           >
             {index + 1 >= run.questions.length ? 'See how you did' : 'Next question'}
           </button>

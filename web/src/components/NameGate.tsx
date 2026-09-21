@@ -34,7 +34,7 @@ export default function NameGate({ onName }: { onName: (name: string) => void })
         <button
           type="submit"
           disabled={!value.trim()}
-          className="border border-ink bg-ink px-4 py-2 font-medium text-paper disabled:opacity-40"
+          className="btn"
         >
           Start
         </button>

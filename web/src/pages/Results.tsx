@@ -44,10 +44,10 @@ export default function Results() {
       </p>
 
       <div className="mt-5 flex gap-2">
-        <Link to="/quiz" className="border border-ink bg-ink px-4 py-2 text-[0.9rem] font-medium text-paper">
+        <Link to="/quiz" className="btn">
           Another run
         </Link>
-        <Link to="/" className="border border-line-strong px-4 py-2 text-[0.9rem]">
+        <Link to="/" className="btn btn-quiet">
           Back to the plan
         </Link>
       </div>

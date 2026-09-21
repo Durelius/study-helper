@@ -14,8 +14,8 @@
   --surface: #ffffff;
   --sunken: #e9ece4;
   --ink: #16201c;
-  --ink-soft: #5d6b64;
-  --ink-faint: #8b968f;
+  --ink-soft: #47534c;
+  --ink-faint: #616b64;
   --line: #d7ddd2;
   --line-strong: #b9c2b4;
 
@@ -45,8 +45,8 @@
     --surface: #191f1b;
     --sunken: #0d1210;
     --ink: #e8ece7;
-    --ink-soft: #9aa79f;
-    --ink-faint: #6b7872;
+    --ink-soft: #b0bdb5;
+    --ink-faint: #7c8a84;
     --line: #2a332e;
     --line-strong: #3d4842;
 
@@ -58,7 +58,6 @@
     --slack-soft: #13322c;
     --slack-ink: #8fd8c8;
 
-    --warn: #d99b २0;
     --warn: #d99b20;
     --warn-soft: #33280f;
 
@@ -71,8 +70,8 @@
   --surface: #191f1b;
   --sunken: #0d1210;
   --ink: #e8ece7;
-  --ink-soft: #9aa79f;
-  --ink-faint: #6b7872;
+  --ink-soft: #b0bdb5;
+  --ink-faint: #7c8a84;
   --line: #2a332e;
   --line-strong: #3d4842;
   --critical: #e8705f;
@@ -107,40 +106,44 @@
   --font-read: 'Source Serif 4', ui-serif, Georgia, serif;
 }
 
-* { box-sizing: border-box; }
+/* These are base styles, and they must stay in Tailwind's `base` layer.
 
-html, body, #root { height: 100%; }
+   Anything written outside a layer beats every layered rule no matter how specific, so
+   an unlayered `button { color: inherit }` silently overrides `text-paper` on a button
+   and there is no specificity you can add to win it back. That mistake produced a white
+   button with white text on the dashboard. Element defaults belong in `base`; utilities
+   live in `utilities` and must be free to override them. */
+@layer base {
+  * { box-sizing: border-box; }
 
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: 'Archivo', ui-sans-serif, system-ui, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-variant-numeric: tabular-nums;
-}
+  html, body, #root { height: 100%; }
 
-h1, h2, h3, h4 {
-  font-family: 'Archivo', ui-sans-serif, system-ui, sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  margin: 0;
-  text-wrap: balance;
-}
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-variant-numeric: tabular-nums;
+  }
 
-a { color: inherit; }
+  h1, h2, h3, h4 {
+    font-family: 'Archivo', ui-sans-serif, system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
 
-button, input, select {
-  font: inherit;
-  color: inherit;
-}
+  a { color: inherit; }
 
-:focus-visible {
-  outline: 2px solid var(--focus);
-  outline-offset: 2px;
-  border-radius: 2px;
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -150,65 +153,140 @@ button, input, select {
   }
 }
 
-/* The reading view is long-form, so it gets a serif and a measure — the notes are
-   meant to be read properly, not skimmed like UI text. */
-.prose {
-  font-family: 'Source Serif 4', ui-serif, Georgia, serif;
-  font-size: 1.0625rem;
-  line-height: 1.68;
-  max-width: 68ch;
+@layer components {
+  /* Buttons are defined once, here, rather than as a string of utilities repeated at
+     every call site — which is how the disabled state ended up as a bare opacity
+     fade that made the label vanish into the fill. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    border: 1px solid var(--ink);
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0.55rem 1.05rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.12s ease, border-color 0.12s ease;
+  }
+  .btn:hover:not(:disabled) { background: var(--ink-soft); border-color: var(--ink-soft); }
+
+  .btn-quiet {
+    border-color: var(--line-strong);
+    background: var(--surface);
+    color: var(--ink);
+  }
+  .btn-quiet:hover:not(:disabled) { background: var(--sunken); border-color: var(--ink-soft); }
+
+  /* Disabled has to stay readable: a disabled control still has to say what it is. */
+  .btn:disabled {
+    background: var(--sunken);
+    border-color: var(--line-strong);
+    color: var(--ink-faint);
+    cursor: not-allowed;
+  }
+
+  /* A row that is really a button. The chip on the left says what kind of work it is
+     and the pill on the right says it can be pressed, because a bare line of text on a
+     page does not read as a control. */
+  .action-row {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 0.75rem;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    padding: 0.7rem 0.8rem;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.12s ease, border-color 0.12s ease;
+  }
+  .action-row:hover { background: var(--sunken); border-color: var(--line-strong); }
+  .action-row:hover .action-go { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+  .action-chip {
+    flex-shrink: 0;
+    border: 1px solid var(--line-strong);
+    background: var(--sunken);
+    color: var(--ink-soft);
+    padding: 0.12rem 0.45rem;
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+
+  .action-go {
+    flex-shrink: 0;
+    align-self: center;
+    border: 1px solid var(--line-strong);
+    color: var(--ink-soft);
+    padding: 0.25rem 0.6rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
+    transition: background-color 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+  }
+
+  /* The reading view is long-form, so it gets a serif and a measure — the notes are
+     meant to be read properly, not skimmed like UI text. */
+  .prose {
+    font-family: 'Source Serif 4', ui-serif, Georgia, serif;
+    font-size: 1.0625rem;
+    line-height: 1.68;
+    max-width: 68ch;
+  }
+  .prose > * + * { margin-top: 1.1em; }
+  .prose h2 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.35rem;
+    margin-top: 2.4em;
+    padding-top: 0.9rem;
+    border-top: 2px solid var(--ink);
+  }
+  .prose h3 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.05rem;
+    margin-top: 1.8em;
+  }
+  .prose strong { font-weight: 600; }
+  .prose ul, .prose ol { padding-left: 1.3em; }
+  .prose li + li { margin-top: 0.35em; }
+  .prose code {
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.82em;
+    background: var(--sunken);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 0.1em 0.4em;
+    color: var(--ink-soft);
+  }
+  .prose blockquote {
+    border-left: 3px solid var(--critical);
+    background: var(--critical-soft);
+    color: var(--critical-ink);
+    padding: 0.8rem 1.1rem;
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+  .prose blockquote p + p { margin-top: 0.6em; }
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.9rem;
+    display: block;
+    overflow-x: auto;
+  }
+  .prose th, .prose td {
+    border: 1px solid var(--line);
+    padding: 0.5rem 0.7rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  .prose th {
+    background: var(--sunken);
+    font-weight: 600;
+  }
+  .prose hr { border: 0; border-top: 1px solid var(--line); }
 }
-.prose > * + * { margin-top: 1.1em; }
-.prose h2 {
-  font-family: 'Archivo', sans-serif;
-  font-size: 1.35rem;
-  margin-top: 2.4em;
-  padding-top: 0.9rem;
-  border-top: 2px solid var(--ink);
-}
-.prose h3 {
-  font-family: 'Archivo', sans-serif;
-  font-size: 1.05rem;
-  margin-top: 1.8em;
-}
-.prose strong { font-weight: 600; }
-.prose ul, .prose ol { padding-left: 1.3em; }
-.prose li + li { margin-top: 0.35em; }
-.prose code {
-  font-family: 'Archivo', sans-serif;
-  font-size: 0.82em;
-  background: var(--sunken);
-  border: 1px solid var(--line);
-  border-radius: 2px;
-  padding: 0.1em 0.4em;
-  color: var(--ink-soft);
-}
-.prose blockquote {
-  border-left: 3px solid var(--critical);
-  background: var(--critical-soft);
-  color: var(--critical-ink);
-  padding: 0.8rem 1.1rem;
-  font-family: 'Archivo', sans-serif;
-  font-size: 0.94rem;
-  line-height: 1.55;
-}
-.prose blockquote p + p { margin-top: 0.6em; }
-.prose table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: 'Archivo', sans-serif;
-  font-size: 0.9rem;
-  display: block;
-  overflow-x: auto;
-}
-.prose th, .prose td {
-  border: 1px solid var(--line);
-  padding: 0.5rem 0.7rem;
-  text-align: left;
-  vertical-align: top;
-}
-.prose th {
-  background: var(--sunken);
-  font-weight: 600;
-}
-.prose hr { border: 0; border-top: 1px solid var(--line); }
