@@ -10,10 +10,33 @@ An `A` record for `valuechain.wilhelm.my` pointing at the Linode.
 
 ```sh
 sudo install -d -o wilhelm -g wilhelm /var/www/chulavaluechain
-sudo cp deploy/valuechain.service /etc/systemd/system/chulavaluechain.service
+sudo install -o root -g root -m 644 deploy/valuechain.service \
+    /etc/systemd/system/chulavaluechain.service
+sudo restorecon -v /etc/systemd/system/chulavaluechain.service
 sudo systemctl daemon-reload
 sudo systemctl enable chulavaluechain
 ```
+
+### SELinux
+
+This host enforces SELinux, and it is the one thing that will silently stop the deploy.
+Two labels have to be right, and neither is by default:
+
+- **The unit file.** Copying it in through `/tmp` leaves it labelled `user_tmp_t`, and
+  systemd answers `Failed to open …: Permission denied`. Use `install` from the repo as
+  above, or `restorecon` after moving it.
+- **The binary.** `/var/www` defaults to `httpd_sys_content_t`, which systemd will not
+  execute — the failure is `status=203/EXEC`, again "Permission denied". The binary
+  needs `bin_t`, and a persistent rule keeps it that way through future deploys and any
+  full relabel:
+
+  ```sh
+  sudo semanage fcontext -a -t bin_t "/var/www/chulavaluechain/chulavaluechain"
+  sudo restorecon -v /var/www/chulavaluechain/chulavaluechain
+  ```
+
+  `deploy.sh` runs `restorecon` after every upload, which is what makes that rule take
+  effect on the replacement binary.
 
 `StateDirectory=chulavaluechain` creates `/var/lib/chulavaluechain` on first start and
 keeps it writable while the rest of the filesystem is read-only to the process. The
@@ -23,12 +46,15 @@ deploys — the binary is replaced, the database is not.
 ## 3. Apache
 
 ```sh
-sudo cp deploy/valuechain-vhost.conf /etc/httpd/conf.d/valuechain.conf
+sudo install -o root -g root -m 644 deploy/valuechain-vhost.conf \
+    /etc/httpd/conf.d/valuechain.conf
+sudo restorecon -v /etc/httpd/conf.d/valuechain.conf
 sudo apachectl configtest && sudo systemctl reload httpd
 sudo certbot --apache -d valuechain.wilhelm.my
 ```
 
-SELinux has to allow the proxy to reach the loopback port, the same as the courts app:
+The proxy also has to be allowed to reach the loopback port. It was already on for the
+courts app, so this is usually a no-op:
 
 ```sh
 sudo setsebool -P httpd_can_network_connect 1
@@ -39,6 +65,9 @@ sudo setsebool -P httpd_can_network_connect 1
 ```sh
 ./deploy/deploy.sh
 ```
+
+**Done on 2026-09-21.** Live at https://valuechain.wilhelm.my, on `127.0.0.1:8093`,
+certificate expiring 2026-12-20 and renewing on certbot's existing timer.
 
 ## Backing up the leaderboard
 

@@ -30,6 +30,10 @@ ssh -i "$KEY" "$HOST" "sudo install -d -o wilhelm -g wilhelm $DIR"
 # be overwritten, but it can be replaced.
 scp -i "$KEY" dist/chulavaluechain "$HOST:$DIR/chulavaluechain.new"
 ssh -i "$KEY" "$HOST" "mv $DIR/chulavaluechain.new $DIR/chulavaluechain && chmod 755 $DIR/chulavaluechain"
+# A file arriving by scp lands with the uploading user's SELinux context, and /var/www
+# defaults to web content — which systemd refuses to execute. The semanage rule from
+# INSTALL.md says what the label should be; this applies it to the new file.
+ssh -i "$KEY" "$HOST" "sudo restorecon -v $DIR/chulavaluechain"
 
 echo "==> restarting $SERVICE"
 ssh -i "$KEY" "$HOST" "sudo systemctl restart $SERVICE && sleep 1 && systemctl is-active $SERVICE"
