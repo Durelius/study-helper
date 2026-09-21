@@ -1,0 +1,969 @@
+[
+  {
+    "id": "pmf-001",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which of these matches the deck's definition of a project?",
+    "choices": [
+      "A temporary endeavor undertaken to create a unique product, service, or result.",
+      "A repetitive activity that sustains daily operations.",
+      "Any activity performed by a team of specialists.",
+      "A permanent function within an organization's structure."
+    ],
+    "answer": [0],
+    "explanation": "Slide 7 gives the definition directly, breaking it into Temporary (beginning and end), Unique (specific outcome) and Purposeful (created to achieve an objective). Options B and D describe operations, not projects.",
+    "source": { "deck": "new 04", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["project-definition"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-002",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A railway system project takes 10+ years to complete. Why is it still classified as 'temporary' in the deck's sense?",
+    "choices": [
+      "Because it is short in duration compared to other projects.",
+      "Because temporary means the project has a defined end point, not that it is brief.",
+      "Because the deck defines any project longer than 5 years as permanent, not temporary.",
+      "Because railway systems are technically classified as operations once built."
+    ],
+    "answer": [1],
+    "explanation": "Slide 8, 'Temporary Does Not Mean Short', lists durations from a 2-week student event to a 10+ year railway system — all still projects, because temporary means it has an end, not that it is brief.",
+    "source": { "deck": "new 04", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["project-definition", "temporary"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-003",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Per the deck, which of the following is NOT one of the four conditions under which a project ends?",
+    "choices": [
+      "The objective is achieved.",
+      "The project is no longer needed.",
+      "The project's budget doubles unexpectedly.",
+      "The sponsor decides to terminate it."
+    ],
+    "answer": [2],
+    "explanation": "Slide 9 lists exactly four end conditions: objective achieved, project no longer needed, objective cannot be achieved, or the sponsor terminates it. A budget increase alone is not listed as an end condition.",
+    "source": { "deck": "new 04", "slide": 9 },
+    "difficulty": 1,
+    "tags": ["project-definition"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-004",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Many hotels already have mobile booking apps. A boutique hotel now builds its own app for its guests. Why does the deck still call this a 'unique' project?",
+    "choices": [
+      "Because building a mobile app has never been done by anyone before.",
+      "Because the hotel is the first business in its industry to adopt technology.",
+      "Because unique projects must use patented, novel technology.",
+      "Because uniqueness means a unique combination of objective, customer, location, requirements, resources and context — not that the idea is unprecedented."
+    ],
+    "answer": [3],
+    "explanation": "Slide 10, 'Unique Does Not Mean Never Done Before', uses exactly this example: many hotels use mobile apps, but implementing one for a particular hotel is still a unique project because uniqueness comes from the combination of objective, customer, location, requirements, resources and context.",
+    "source": { "deck": "new 04", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["project-definition", "uniqueness"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-005",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The older deck's fuller definition describes a project as a complex, non-routine, one-time effort limited by time, budget, resource and specifications, that typically involves:",
+    "choices": [
+      "People from several disciplines, a life cycle, and specific time/cost/performance requirements.",
+      "A single department working alone with no defined end.",
+      "Only senior management, since projects are decided at the top.",
+      "A permanent team dedicated solely to that one initiative forever."
+    ],
+    "answer": [0],
+    "explanation": "Old deck slide 9 lists a defined lifespan, a well-defined objective, people from several disciplines, a life cycle, and specific time/cost/performance requirements as the working definition of a project.",
+    "source": { "deck": "old 04", "slide": 9 },
+    "difficulty": 1,
+    "tags": ["project-definition"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-006",
+    "topic": "pm-foundations",
+    "type": "tf",
+    "stem": "True or False: In the deck's hotel example, 'Checking in guests' is an operation while 'Developing the hotel app' is a project, because operations RUN the business and projects CHANGE the business.",
+    "choices": ["True", "False"],
+    "answer": [0],
+    "explanation": "Slide 5, 'Projects CHANGE Operations', explicitly lists check-in guests, clean rooms, serve food, process bookings and manage daily inventory as operations, versus develop hotel app, install new booking system, renovate lobby, implement smart-energy system and redesign guest process as projects.",
+    "source": { "deck": "new 04", "slide": 5 },
+    "difficulty": 1,
+    "tags": ["projects-vs-operations"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-007",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Using the deck's Projects vs. Operations comparison table, which pairing is correct?",
+    "choices": [
+      "Project output = Repetitive; Operation output = Unique.",
+      "Project team = Usually stable; Operation team = Often temporary.",
+      "Project duration = Temporary; Operation duration = Ongoing.",
+      "Project end = Continues; Operation end = Objective achieved."
+    ],
+    "answer": [2],
+    "explanation": "Slide 13's table gives Duration as Temporary (project) vs Ongoing (operation), Output as Unique vs Repetitive, Team as Often temporary vs Usually stable, and End as Objective achieved vs Continues — the other three options each reverse the table.",
+    "source": { "deck": "new 04", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["projects-vs-operations", "comparison-table"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-008",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The older deck adds an 'Authority of Manager' row to its projects-vs-operations comparison table. What does it say?",
+    "choices": [
+      "Both project managers and operations managers always have full, formal line authority.",
+      "Neither project managers nor operations managers have any real authority.",
+      "A project manager has more formal authority than an operations manager because projects are more important.",
+      "A project manager generally has minimal or no direct line authority, which varies by organizational structure; an operations manager generally has formal, direct line authority."
+    ],
+    "answer": [3],
+    "explanation": "Old deck slide 16's full comparison table states that a project manager's authority 'varies by organizational structure, generally minimal, if any, direct line authority', while an operations manager has 'generally formal, direct line authority'.",
+    "source": { "deck": "old 04", "slide": 16 },
+    "difficulty": 2,
+    "tags": ["projects-vs-operations", "roles"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-009",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A company has 'poor inventory visibility' (a business problem). This produces the improvement idea 'we need real-time information'. Which project does the deck say this leads to?",
+    "choices": [
+      "Implementing an inventory-management system.",
+      "Running payroll every month.",
+      "Processing bookings.",
+      "Cleaning rooms."
+    ],
+    "answer": [0],
+    "explanation": "Slide 6, 'From Business Problem to Project', shows exactly this chain: Business Problem (poor inventory visibility) → Improvement Idea (need real-time information) → Project (implement inventory-management system). The other options are routine, repeating operations.",
+    "source": { "deck": "new 04", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["business-problem-to-project"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-010",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The deck lists four reasons organizations start projects. Which of the following is NOT one of them?",
+    "choices": [
+      "Problem",
+      "Coincidence",
+      "Requirement",
+      "Strategy"
+    ],
+    "answer": [1],
+    "explanation": "Slide 14 lists Problem (something is not working), Opportunity (something could create value), Requirement (something must change) and Strategy (moving in a new direction). 'Coincidence' is not one of the four.",
+    "source": { "deck": "new 04", "slide": 14 },
+    "difficulty": 1,
+    "tags": ["strategy"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-011",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which sequence correctly reflects the deck's 'From Strategy to Project' chain?",
+    "choices": [
+      "Strategy → Projects → Objectives → Initiatives → Benefits → Deliverables",
+      "Objectives → Strategy → Projects → Initiatives → Deliverables → Benefits",
+      "Strategy → Objectives → Initiatives → Projects → Deliverables → Benefits",
+      "Strategy → Initiatives → Objectives → Projects → Benefits → Deliverables"
+    ],
+    "answer": [2],
+    "explanation": "Slide 15 gives the chain: Strategy (where do we want to go?) → Objectives (what must we achieve?) → Initiatives (what could we change?) → Projects (what will we implement?) → Deliverables (what will the project create?) → Benefits (what value should result?).",
+    "source": { "deck": "new 04", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["strategy-chain"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-012",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "How does the deck define 'project selection'?",
+    "choices": [
+      "The process of writing a project charter.",
+      "The process of closing out a finished project.",
+      "The process of assigning a project manager to a team.",
+      "The process of evaluating potential projects and deciding which projects should receive organizational resources."
+    ],
+    "answer": [3],
+    "explanation": "Slide 17 defines project selection exactly this way, because budget, people, time, technology and management attention are all limited.",
+    "source": { "deck": "new 04", "slide": 17 },
+    "difficulty": 1,
+    "tags": ["project-selection"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-013",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A manager asks, 'Do we have the people with the right skills, and the time and technology to do this?' Which of project selection's three key questions is this?",
+    "choices": [
+      "Can we? (feasibility)",
+      "Should we? (strategic alignment)",
+      "Is it worth it? (value versus cost and risk)",
+      "Will we? (final approval)"
+    ],
+    "answer": [0],
+    "explanation": "Slide 17 lists 'Can we?' under Feasibility, with exactly these bullet points (skills, time, technology, technical/organizational feasibility). 'Should we?' covers strategic alignment, and 'Is it worth it?' covers value versus cost and risk.",
+    "source": { "deck": "new 04", "slide": 17 },
+    "difficulty": 2,
+    "tags": ["project-selection"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-014",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Using the deck's simple project scoring model (Strategic Alignment 30%, Customer/Business Value 25%, Financial Benefit 20%, Feasibility 15%, Risk 10%), a project scores 5, 4, 3, 4 and 2 on these five criteria respectively (1 = low, 5 = high). What is its weighted score?",
+    "choices": [
+      "3.3",
+      "3.9",
+      "4.2",
+      "18"
+    ],
+    "answer": [1],
+    "explanation": "Weighted Score = Σ(Weight × Score) = 0.30(5) + 0.25(4) + 0.20(3) + 0.15(4) + 0.10(2) = 1.5 + 1.0 + 0.6 + 0.6 + 0.2 = 3.9. Choice D (18) is just the raw sum of the scores, not weighted.",
+    "source": { "deck": "new 04", "slide": 19 },
+    "difficulty": 3,
+    "tags": ["scoring-model", "computation"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-015",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which of the following is NOT one of the six sections in the deck's business case template?",
+    "choices": [
+      "Business Need",
+      "Estimated Costs/Resources",
+      "Detailed Gantt chart with daily tasks",
+      "Major Risks"
+    ],
+    "answer": [2],
+    "explanation": "Slide 21 lists Business Need, Strategic Alignment, Expected Benefits, Estimated Costs/Resources, Major Risks and Feasibility. A day-by-day Gantt chart is detailed schedule planning, not a business-case element.",
+    "source": { "deck": "new 04", "slide": 21 },
+    "difficulty": 1,
+    "tags": ["business-case"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-016",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The Hotel Digital Transformation business case estimates a cost of ฿3 million. Which of the following is listed as a major risk?",
+    "choices": [
+      "Currency exchange fluctuation.",
+      "Rising raw-material prices.",
+      "Labor union strikes.",
+      "Low adoption by guests."
+    ],
+    "answer": [3],
+    "explanation": "Slide 22 lists the major risks as low adoption, integration problems, staff resistance and cybersecurity.",
+    "source": { "deck": "new 04", "slide": 22 },
+    "difficulty": 2,
+    "tags": ["business-case", "hotel-case"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-017",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "One team is comparing four candidate projects to decide which to fund given a limited budget. A separate team is asking whether one specific project — AI Demand Forecasting — is worth doing at all. Which of these two activities is 'project selection' and which is a 'business case'?",
+    "choices": [
+      "The first (comparing several projects for funding) is project selection; the second (justifying one project) is a business case.",
+      "Both are project selection, since both compare cost and benefit.",
+      "The first is a business case; the second is project selection.",
+      "Business case and project selection are the same activity performed at different times."
+    ],
+    "answer": [0],
+    "explanation": "Slide 23 draws exactly this line: a business case answers 'Is this project worth doing?' for one project (need, benefits, cost, risks), while project selection answers 'Which projects should we do?' across several projects (compare, prioritize, allocate resources).",
+    "source": { "deck": "new 04", "slide": 23 },
+    "difficulty": 3,
+    "tags": ["business-case-vs-selection"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-018",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "In the deck's Idea → Approved Project sequence, at which stage is the project charter created?",
+    "choices": [
+      "Idea",
+      "Approved Project",
+      "Business Case",
+      "Evaluation"
+    ],
+    "answer": [1],
+    "explanation": "Slide 20 shows that at the 'Approved Project' stage the project is formally authorized and funded, the project charter is created, and planning and execution begin. Earlier stages (Idea, Business Case, Evaluation) come before authorization.",
+    "source": { "deck": "new 04", "slide": 20 },
+    "difficulty": 2,
+    "tags": ["idea-to-approved-project"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-019",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "In the deck's four-phase project life cycle, in which phase are schedules, budgets, resources, risks and staffing decided?",
+    "choices": [
+      "Defining",
+      "Executing",
+      "Planning",
+      "Closing"
+    ],
+    "answer": [2],
+    "explanation": "The life-cycle diagram lists Planning's work as schedules, budgets, resources, risks and staffing. Defining covers goals/specifications/tasks/responsibilities; Executing covers status reports/changes/quality/forecasts; Closing covers training/documents/resources/lessons learned.",
+    "source": { "deck": "new 04", "slide": 24 },
+    "difficulty": 1,
+    "tags": ["life-cycle"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-020",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "According to the level-of-effort curve in the deck's project life cycle diagram, in which phase does effort peak?",
+    "choices": [
+      "Defining",
+      "Planning",
+      "Closing",
+      "Executing"
+    ],
+    "answer": [3],
+    "explanation": "The four overlapping curves (Defining, Planning, Executing, Closing) show effort rising through Defining and Planning, peaking during Executing, then tailing off in Closing.",
+    "source": { "deck": "new 04", "slide": 24 },
+    "difficulty": 1,
+    "tags": ["life-cycle"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-021",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Across Initiation → Planning → Execution → Closing, how do uncertainty and the cost of making a change typically move, per the deck?",
+    "choices": [
+      "Uncertainty falls over time; cost of change rises over time.",
+      "Uncertainty rises over time; cost of change falls over time.",
+      "Both uncertainty and cost of change fall over time.",
+      "Both uncertainty and cost of change stay constant."
+    ],
+    "answer": [0],
+    "explanation": "Slide 25's three characteristics: uncertainty is high at the beginning and falls, knowledge increases through the project, and the cost of change usually increases over time — the lesson being that early decisions matter.",
+    "source": { "deck": "new 04", "slide": 25 },
+    "difficulty": 2,
+    "tags": ["life-cycle-characteristics"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-022",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A team discovers a design flaw during the Closing phase instead of during Planning. Based on the deck's life-cycle characteristics, what is the most likely consequence?",
+    "choices": [
+      "Fixing it will be cheaper than if it had been found during Planning.",
+      "Fixing it will typically be more expensive, because the cost of change increases over the life cycle.",
+      "There will be no cost difference regardless of when it is found.",
+      "It cannot be fixed once the project reaches Closing."
+    ],
+    "answer": [1],
+    "explanation": "Slide 25 states the cost of change usually increases over time, so 'early decisions matter, because later changes are usually more expensive.'",
+    "source": { "deck": "new 04", "slide": 25 },
+    "difficulty": 3,
+    "tags": ["life-cycle-characteristics", "cost-of-change"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-023",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which of these activities belongs to the 'Closing' phase of the project life cycle, per the deck?",
+    "choices": [
+      "Goals and specifications.",
+      "Status reports and forecasts.",
+      "Train customer and transfer documents.",
+      "Schedules and budgets."
+    ],
+    "answer": [2],
+    "explanation": "Closing's listed work is: train customer, transfer documents, release resources, evaluation, lessons learned. The other options belong to Defining, Executing, and Planning respectively.",
+    "source": { "deck": "new 04", "slide": 24 },
+    "difficulty": 1,
+    "tags": ["life-cycle"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-024",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which of these is one of the three characteristics that run across the whole project life cycle, per the deck?",
+    "choices": [
+      "Team size stays exactly constant.",
+      "Budget is fixed and never estimated until Closing.",
+      "Risk disappears completely after Initiation.",
+      "Knowledge increases through the project."
+    ],
+    "answer": [3],
+    "explanation": "Slide 25 lists uncertainty (falls over time), knowledge (increases through the project) and cost of change (usually increases over time) as the three life-cycle characteristics.",
+    "source": { "deck": "new 04", "slide": 25 },
+    "difficulty": 1,
+    "tags": ["life-cycle-characteristics"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-025",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "PMBOK 6 is organized around two key structures. What are they?",
+    "choices": [
+      "5 process groups and 10 knowledge areas.",
+      "4 life-cycle phases and 5 constraints.",
+      "10 process groups and 5 knowledge areas.",
+      "3 roles and 5 process groups."
+    ],
+    "answer": [0],
+    "explanation": "Slide 26 states PMBOK 6 is organized around TWO key structures: 5 process groups (what PMs need to do) and 10 knowledge areas (what they need to manage).",
+    "source": { "deck": "new 04", "slide": 26 },
+    "difficulty": 1,
+    "tags": ["pmbok-framework"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-026",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which of these lists the five PMBOK 6 process groups in the correct order?",
+    "choices": [
+      "Planning, Initiating, Executing, Closing, Monitoring & Controlling.",
+      "Initiating, Planning, Executing, Monitoring & Controlling, Closing.",
+      "Initiating, Executing, Planning, Closing, Monitoring & Controlling.",
+      "Initiating, Planning, Monitoring & Controlling, Executing, Closing."
+    ],
+    "answer": [1],
+    "explanation": "Slide 27, 'PMBOK 6: Five Process Groups', gives the order: Initiating, Planning, Executing, Monitoring & Controlling, Closing.",
+    "source": { "deck": "new 04", "slide": 27 },
+    "difficulty": 1,
+    "tags": ["process-groups"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-027",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "What does the 'Initiating' process group do, per the deck?",
+    "choices": [
+      "Track performance and make adjustments.",
+      "Perform the work.",
+      "Define and authorize a new project or phase.",
+      "Complete the project or phase."
+    ],
+    "answer": [2],
+    "explanation": "Slide 27 describes Initiating as 'Authorize the project' (defining/authorizing a new project or phase).",
+    "source": { "deck": "new 04", "slide": 27 },
+    "difficulty": 1,
+    "tags": ["process-groups"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-028",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "What does the 'Executing' process group do, per the deck?",
+    "choices": [
+      "Authorize the project.",
+      "Define how the work will be done.",
+      "Close the project.",
+      "Perform the work."
+    ],
+    "answer": [3],
+    "explanation": "Slide 27 describes Executing as 'Perform the work.' Authorizing the project is Initiating; defining how the work is done is Planning; closing is Closing.",
+    "source": { "deck": "new 04", "slide": 27 },
+    "difficulty": 1,
+    "tags": ["process-groups"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-029",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "In the deck's process-groups diagram, how is 'Monitoring & Controlling' drawn relative to Planning and Executing?",
+    "choices": [
+      "As a box wrapping around Planning and Executing, with two-way arrows, running continuously alongside them.",
+      "As a stage that happens only after Executing finishes.",
+      "As the very first process group, before Initiating.",
+      "It is not connected to Planning or Executing at all."
+    ],
+    "answer": [0],
+    "explanation": "Slide 27's diagram draws Monitoring & Controlling wrapping around Planning and Executing with bidirectional arrows — it tracks, compares and adjusts continuously, it is not a stage that comes after Executing.",
+    "source": { "deck": "new 04", "slide": 27 },
+    "difficulty": 2,
+    "tags": ["process-groups"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-030",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "What does the 'Closing' process group do, per the deck?",
+    "choices": [
+      "Perform the work.",
+      "Complete the project or phase.",
+      "Track, compare and adjust.",
+      "Define how the work will be done."
+    ],
+    "answer": [1],
+    "explanation": "Slide 27 describes Closing as 'Complete the project or phase.' Performing the work is Executing; tracking/comparing/adjusting is Monitoring & Controlling; defining how work will be done is Planning.",
+    "source": { "deck": "new 04", "slide": 27 },
+    "difficulty": 1,
+    "tags": ["process-groups"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-031",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "What key distinction does the deck draw between the 'project life cycle' and the 'PMBOK process groups'?",
+    "choices": [
+      "They are two names for exactly the same thing.",
+      "Process groups happen once, while the life cycle repeats continuously.",
+      "The life cycle describes where the project is in its journey; the process groups describe what project-management activities are being performed, and repeat inside every phase.",
+      "The life cycle only applies to IT projects, while process groups apply to all projects."
+    ],
+    "answer": [2],
+    "explanation": "Slide 28 devotes a whole slide to this: the project life cycle describes where the project is in its journey, while process groups describe what PM activities are being performed — and they repeat inside every phase of the life cycle.",
+    "source": { "deck": "new 04", "slide": 28 },
+    "difficulty": 2,
+    "tags": ["life-cycle-vs-process-groups"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-032",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A project's stages are described as 'Concept → Design → Build → Launch.' Based on the deck's explicit example, is this a project life cycle or a set of PMBOK process groups?",
+    "choices": [
+      "It is a set of process groups, since it has four stages instead of five.",
+      "It is both, since life cycle and process groups are interchangeable terms.",
+      "It is neither, since only PMBOK-certified projects have stages.",
+      "It is a life cycle, since it describes where the project is in its journey, not the five PMBOK process groups."
+    ],
+    "answer": [3],
+    "explanation": "Slide 28 gives 'Concept → Design → Build → Launch' as its explicit life-cycle example, contrasted with the five PMBOK process groups (Initiating, Planning, Executing, Monitoring & Controlling, Closing).",
+    "source": { "deck": "new 04", "slide": 28 },
+    "difficulty": 3,
+    "tags": ["life-cycle-vs-process-groups"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-033",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "How many knowledge areas does PMBOK 6 organize project management into, according to the deck?",
+    "choices": [
+      "10",
+      "5",
+      "7",
+      "12"
+    ],
+    "answer": [0],
+    "explanation": "Slide 29, 'PMBOK 6: Ten Knowledge Areas', lists Integration, Scope, Schedule, Cost, Quality, Resource, Communications, Risk, Procurement and Stakeholder Management — 10 areas.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 1,
+    "tags": ["knowledge-areas"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-034",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A project manager pulls the schedule, budget and quality plan into a single integrated project management plan, and evaluates how a change request would ripple across the whole project. Which knowledge area is this?",
+    "choices": [
+      "Scope Management",
+      "Integration Management",
+      "Communications Management",
+      "Risk Management"
+    ],
+    "answer": [1],
+    "explanation": "Integration Management is about pulling everything together: the charter, the single project management plan, and integrated change control across all other areas.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-integration"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-035",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The team writes detailed requirements and a work breakdown structure (WBS) so that a client's late request for 'one more feature' does not quietly expand the project without approval. Which knowledge area is this?",
+    "choices": [
+      "Stakeholder Management",
+      "Cost Management",
+      "Scope Management",
+      "Procurement Management"
+    ],
+    "answer": [2],
+    "explanation": "Scope Management covers what is in and out of the project, requirements, the WBS, and preventing scope creep.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-scope"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-036",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A project manager sequences activities, estimates durations and identifies the critical path to determine the project's finish date. Which knowledge area is this?",
+    "choices": [
+      "Cost Management",
+      "Quality Management",
+      "Resource Management",
+      "Schedule Management"
+    ],
+    "answer": [3],
+    "explanation": "Schedule Management covers activities, sequencing, durations, the critical path and dates. The older deck calls this same area 'Time Management' — same content, older PMBOK edition's name.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-schedule"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-037",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Finance flags that actual spend on a project phase is already 15% over its approved budget. Estimating and tracking spend against budget falls under which knowledge area?",
+    "choices": [
+      "Cost Management",
+      "Quality Management",
+      "Procurement Management",
+      "Integration Management"
+    ],
+    "answer": [0],
+    "explanation": "Cost Management covers estimating, budgeting, and tracking spend against the budget.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-cost"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-038",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The team defines acceptance criteria for the new booking system and runs tests to catch defects before go-live. Which knowledge area is this?",
+    "choices": [
+      "Risk Management",
+      "Quality Management",
+      "Scope Management",
+      "Communications Management"
+    ],
+    "answer": [1],
+    "explanation": "Quality Management covers acceptance criteria, standards, testing and defects.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-quality"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-039",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A project manager recruits two developers from the company's internal IT department and arranges training so they can do the work. Which knowledge area is this?",
+    "choices": [
+      "Procurement Management",
+      "Communications Management",
+      "Resource Management",
+      "Stakeholder Management"
+    ],
+    "answer": [2],
+    "explanation": "Resource Management covers internal people and equipment: acquiring, developing and managing the team. Procurement (the tempting distractor) covers external suppliers and vendors, not internal staff.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-resource"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-040",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The project manager sets up a weekly status report for the sponsor and a daily stand-up for the team, deciding what information each group receives, in what format, and how often. Which knowledge area is this?",
+    "choices": [
+      "Stakeholder Management",
+      "Integration Management",
+      "Quality Management",
+      "Communications Management"
+    ],
+    "answer": [3],
+    "explanation": "Communications Management covers who gets what information, how, and how often — reports and meetings. Stakeholder Management (the tempting distractor) is about identifying and engaging the people affected, not deciding the information flow itself.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-communications"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-041",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The team identifies that a key vendor might go bankrupt mid-project, analyzes how likely and severe that would be, and plans a response. Which knowledge area is this?",
+    "choices": [
+      "Risk Management",
+      "Procurement Management",
+      "Quality Management",
+      "Cost Management"
+    ],
+    "answer": [0],
+    "explanation": "Risk Management covers uncertain future events: identify, analyze, plan responses, monitor.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-risk"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-042",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A hotel project needs an outside IT vendor to build the mobile app, so the project manager negotiates and signs a contract with that external company. Which knowledge area is this?",
+    "choices": [
+      "Resource Management",
+      "Procurement Management",
+      "Cost Management",
+      "Integration Management"
+    ],
+    "answer": [1],
+    "explanation": "Procurement Management covers external suppliers: contracts, vendors, purchasing. Resource Management (the tempting distractor) is for internal people and equipment, not outside vendors.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-procurement"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-043",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Before launch, the project manager maps out who is affected by the new guest app (front-desk staff, OTAs, guests, regulators) and builds a plan to win their support. Which knowledge area is this?",
+    "choices": [
+      "Communications Management",
+      "Scope Management",
+      "Stakeholder Management",
+      "Quality Management"
+    ],
+    "answer": [2],
+    "explanation": "Stakeholder Management covers identifying, analyzing and engaging the people affected by the project.",
+    "source": { "deck": "new 04", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["knowledge-area-stakeholder"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-044",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The older deck's knowledge-area list names 'Project Time Management' and 'Project Human Resource Management' where the newer deck says 'Schedule Management' and 'Resource Management'. What does this naming difference reflect?",
+    "choices": [
+      "Two completely different frameworks with different content.",
+      "The older deck adds two extra knowledge areas the new deck lacks.",
+      "'Time Management' and 'Schedule Management' are unrelated knowledge areas that both exist in PMBOK 6.",
+      "The same PMBOK content under an earlier edition's terminology, carried over from the older deck."
+    ],
+    "answer": [3],
+    "explanation": "Old deck slide 21 lists Project Time Management and Project Human Resource Management; the new deck (slide 29) uses PMBOK 6's current names, Schedule Management and Resource Management, for the same content — same areas, older labels.",
+    "source": { "deck": "old 04", "slide": 21 },
+    "difficulty": 3,
+    "tags": ["knowledge-area-naming"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-045",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "In the deck's triple-constraint triangle, what sits at the center, surrounded by Scope, Schedule and Cost?",
+    "choices": [
+      "Quality / Value",
+      "Risk",
+      "Resources",
+      "Stakeholders"
+    ],
+    "answer": [0],
+    "explanation": "Slide 31 draws Scope, Schedule and Cost as the triangle's corners with Quality / Value at the center, and lists Resources and Risk as other important constraints.",
+    "source": { "deck": "new 04", "slide": 31 },
+    "difficulty": 1,
+    "tags": ["constraints"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-046",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Management asks the team to 'add AI recommendations to the hotel app.' Per the deck's trade-off logic, what does this scope increase usually require?",
+    "choices": [
+      "Nothing else changes — scope is free to increase.",
+      "Usually more time and/or cost, since scope, schedule and cost trade off against each other.",
+      "Automatically less risk, since more features reduce uncertainty.",
+      "A reduction in quality standards to compensate."
+    ],
+    "answer": [1],
+    "explanation": "Slide 32, 'Constraints Are Trade-off', uses exactly this example: scope up usually means time up and/or cost up (more effort and investment).",
+    "source": { "deck": "new 04", "slide": 32 },
+    "difficulty": 2,
+    "tags": ["constraints-tradeoff"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-047",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A client asks the team to shorten the schedule duration without reducing project scope. What does the older deck call this pressure?",
+    "choices": [
+      "Scope creep",
+      "Budget compression",
+      "Schedule compression",
+      "Quality assurance"
+    ],
+    "answer": [2],
+    "explanation": "Old deck slide 18 defines schedule compression as shortening the duration without reducing scope — distinct from scope creep (uncontrolled scope expansion without adjusting time, cost and resources) and budget compression (cutting the budget without reducing scope).",
+    "source": { "deck": "old 04", "slide": 18 },
+    "difficulty": 2,
+    "tags": ["constraints", "scope-creep"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-048",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "A new booking system is delivered on time and on budget, but almost no guests or staff actually use it. Per the deck's 'business view' of project success, was this project successful?",
+    "choices": [
+      "Yes — hitting time and budget is the only thing that matters.",
+      "Yes, because project delivery and business success are the same thing.",
+      "No project can ever be judged successful once it is delivered.",
+      "Not fully — the traditional view (scope/time/budget) was met, but the business view asks whether the deliverable is actually used and benefits realized, which failed here."
+    ],
+    "answer": [3],
+    "explanation": "Slide 33 states 'Project delivery is not the same as business success... a system delivered on time and on budget that nobody uses has failed in business terms.'",
+    "source": { "deck": "new 04", "slide": 33 },
+    "difficulty": 2,
+    "tags": ["project-success"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-049",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which role 'owns the business justification, provides support and resources, and makes major decisions' on a project, per the deck?",
+    "choices": [
+      "Sponsor",
+      "Project Team",
+      "Project Manager",
+      "Vendor"
+    ],
+    "answer": [0],
+    "explanation": "Slide 34 assigns the Sponsor the WHY/SHOULD question, owning business justification, providing support/resources, and making major decisions. The PM owns HOW (integrates, coordinates), and the Team owns DO (performs the work).",
+    "source": { "deck": "new 04", "slide": 34 },
+    "difficulty": 1,
+    "tags": ["roles"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-050",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "The deck describes the project manager as 'the integrator.' What does this mean?",
+    "choices": [
+      "The PM performs all the technical work personally instead of the team.",
+      "The PM is the hub that keeps scope, schedule, cost, quality, resources, communications, risk, procurement and stakeholders aligned with each other.",
+      "The PM only integrates financial reports, leaving other areas to the sponsor.",
+      "The PM's only job is to integrate new software tools into the project."
+    ],
+    "answer": [1],
+    "explanation": "Slide 35 shows the PM at the center of a hub connecting stakeholders, scope, schedule, cost, quality, resources, communications, risk and procurement — integrating, coordinating and keeping everything aligned.",
+    "source": { "deck": "new 04", "slide": 35 },
+    "difficulty": 2,
+    "tags": ["pm-integrator"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-051",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "In the Hotel Digital Transformation case, which of these is one of the three business goals driving the project?",
+    "choices": [
+      "Increase dependence on OTAs.",
+      "Eliminate mobile check-in.",
+      "Reduce dependence on OTAs.",
+      "Reduce the number of guest rooms."
+    ],
+    "answer": [2],
+    "explanation": "Slide 4 states the boutique hotel's goals: improve guest experience, increase operational efficiency, and reduce dependence on OTAs (online travel agencies).",
+    "source": { "deck": "new 04", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["hotel-case"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-052",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "Which feature is part of the hotel's proposed 'Digital Guest Service Platform'?",
+    "choices": [
+      "Automated payroll processing.",
+      "Supplier contract negotiation.",
+      "Warehouse inventory tracking.",
+      "In-room ordering."
+    ],
+    "answer": [3],
+    "explanation": "Slide 4 lists the platform's features as direct booking, mobile check-in/out, in-room ordering, and guest feedback.",
+    "source": { "deck": "new 04", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["hotel-case"],
+    "examFocus": false
+  },
+  {
+    "id": "pmf-053",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "FreshMart's average delivery time has grown from 2 to 4 hours and inventory accuracy sits at only 88%, while online orders are up 30%. Which of FreshMart's four candidate projects directly targets the inventory-accuracy problem?",
+    "choices": [
+      "Project A — Real-Time Inventory System",
+      "Project B — New Urban Fulfillment Center",
+      "Project C — AI Demand Forecasting",
+      "Project D — Customer Mobile App Upgrade"
+    ],
+    "answer": [0],
+    "explanation": "Slide 37 shows Project A raising inventory accuracy from 88% to 97% for ฿6 million over 9 months. Project D, by contrast, is explicitly flagged as not directly solving the inventory problem.",
+    "source": { "deck": "new 04", "slide": 37 },
+    "difficulty": 2,
+    "tags": ["freshmart-case"],
+    "examFocus": true
+  },
+  {
+    "id": "pmf-054",
+    "topic": "pm-foundations",
+    "type": "mcq",
+    "stem": "FreshMart has a maximum budget of ฿8 million. Project B (New Urban Fulfillment Center) scores highest on strategic alignment and expected benefits but costs ฿8 million with a 'Very High Cost' rating. What is the key trade-off management faces if it funds Project B first?",
+    "choices": [
+      "None — Project B is strictly better on every criterion including cost and risk.",
+      "Funding Project B alone consumes the entire ฿8 million budget, leaving nothing for the other three candidate projects this cycle.",
+      "Project B is the cheapest option, so funding it frees up budget for the others.",
+      "Project B has no risks, unlike the other three projects."
+    ],
+    "answer": [1],
+    "explanation": "The Student Challenge table shows Project B needs ฿8 million (Very High Cost) against a total budget of ฿8 million, and rates worst on cost and among the worst on risk, even though it scores highest on Strategic Alignment and Expected Benefits — funding it first would use the whole budget.",
+    "source": { "deck": "new 04", "slide": 41 },
+    "difficulty": 3,
+    "tags": ["freshmart-case", "project-selection"],
+    "examFocus": true
+  }
+]

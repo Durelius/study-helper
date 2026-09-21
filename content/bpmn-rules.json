@@ -1,0 +1,142 @@
+[
+  {
+    "id": "activity-in-lane",
+    "rule": "Every activity must sit completely inside a lane, so the model says which role performs the work.",
+    "violation": "An activity box is drawn straddling the dividing line between two lanes (or floats in the pool outside any lane), e.g. 'Write an Acceptance Letter' half in the Manager lane and half in the Staff lane.",
+    "source": { "deck": "old 02", "slide": 23 },
+    "examFocus": true
+  },
+  {
+    "id": "activity-name-verb-object",
+    "rule": "An activity name must be in 'do something' form: a verb plus an object.",
+    "violation": "A task box labelled with a noun phrase or a state, e.g. 'Invoice Approval' or 'Order confirmed', instead of 'Approve the invoice'.",
+    "source": { "deck": "old 02", "slide": 11 },
+    "examFocus": true
+  },
+  {
+    "id": "activity-name-unique",
+    "rule": "Activity names must be unique within the model.",
+    "violation": "Two different task boxes in two lanes both labelled 'Manage Booking' instead of 'Manage Ticket Booking' and 'Manage Hotel Booking'.",
+    "source": { "deck": "old 02", "slide": 11 },
+    "examFocus": true
+  },
+  {
+    "id": "task-vs-subprocess",
+    "rule": "A task is atomic; a sub-process is compound, carries a + marker and expands into its own process with its own start and end events.",
+    "violation": "A compound step that clearly contains several activities is drawn as a plain task with no + marker, or a + marker is put on an atomic step.",
+    "source": { "deck": "old 02", "slide": 11 },
+    "examFocus": true
+  },
+  {
+    "id": "start-and-end-event",
+    "rule": "Each process must have at least one start event and at least one end event.",
+    "violation": "A pool whose flow begins directly at an activity and stops at an activity, e.g. 'Prepare Order' to 'Deliver Order' with no circles at either end.",
+    "source": { "deck": "old 02", "slide": 13 },
+    "examFocus": true
+  },
+  {
+    "id": "event-name-something-done",
+    "rule": "An event name must be unique and in 'something done' form (a completed state), e.g. 'Order Received', 'PO Fulfilled'.",
+    "violation": "An end event labelled with a verb phrase such as 'Send the confirmation' instead of 'Confirmation sent'.",
+    "source": { "deck": "old 02", "slide": 13 },
+    "examFocus": true
+  },
+  {
+    "id": "event-notation",
+    "rule": "Start events have a thin border, intermediate events a double border and end events a thick border; a 'message received' start event carries an open envelope and a 'message sent' end event a filled envelope.",
+    "violation": "An end event drawn with a thin single border, or an intermediate timer drawn as a single-bordered circle.",
+    "source": { "deck": "old 02", "slide": 12 },
+    "examFocus": true
+  },
+  {
+    "id": "gateway-only-when-needed",
+    "rule": "A gateway represents control; if the flow does not need to be controlled, no gateway is used.",
+    "violation": "A gateway with exactly one incoming and one outgoing sequence flow inserted between two activities that always run one after the other.",
+    "source": { "deck": "old 02", "slide": 14 },
+    "examFocus": true
+  },
+  {
+    "id": "gateway-prefer-xor-and",
+    "rule": "Prefer XOR or AND gateways over OR gateways.",
+    "violation": "An OR gateway used for a plain either/or decision where exactly one branch can ever be taken, which should be an XOR.",
+    "source": { "deck": "old 02", "slide": 19 },
+    "examFocus": true
+  },
+  {
+    "id": "gateway-pairing",
+    "rule": "Use gateways as a pair: every split must have a matching join of the same type.",
+    "violation": "An AND split after 'Check stock' whose two branches each run into their own separate end event, with no AND join anywhere; or an XOR split closed by an AND join, which deadlocks.",
+    "source": { "deck": "old 02", "slide": 19 },
+    "examFocus": true
+  },
+  {
+    "id": "gateway-fan",
+    "rule": "Each gateway is either '1 in, multiple out' or 'multiple in, 1 out' — never 'multiple in, multiple out'.",
+    "violation": "One XOR gateway that takes incoming flows from Task 3, Task 4 and Task 5 and also has outgoing flows to Task 6 and Task 7.",
+    "source": { "deck": "old 02", "slide": 19 },
+    "examFocus": true
+  },
+  {
+    "id": "xor-semantics",
+    "rule": "XOR (exclusive): the split takes exactly one branch; the join proceeds when one branch has completed.",
+    "violation": "An XOR split whose branch conditions can both be true at once (e.g. an order containing products from two warehouses), which needs an OR.",
+    "source": { "deck": "old 02", "slide": 18 },
+    "examFocus": true
+  },
+  {
+    "id": "and-semantics",
+    "rule": "AND (parallel): the split takes all branches; the join proceeds when all incoming branches have completed.",
+    "violation": "An AND split described as 'choose one of the two branches', or an AND join described as continuing as soon as the first branch finishes.",
+    "source": { "deck": "old 02", "slide": 18 },
+    "examFocus": true
+  },
+  {
+    "id": "or-semantics",
+    "rule": "OR (inclusive): the split takes one or several branches; the join proceeds when all active incoming branches have completed.",
+    "violation": "An OR join drawn as waiting for every incoming branch regardless of whether it was activated, which deadlocks when only one branch was taken.",
+    "source": { "deck": "old 02", "slide": 18 },
+    "examFocus": true
+  },
+  {
+    "id": "branch-condition-on-flow",
+    "rule": "The condition of a branch is written as a label on the gateway's outgoing sequence flow, not modelled as an activity.",
+    "violation": "An XOR split with unlabelled outgoing flows leading to boxes reading 'Customer has a Membership Code' and 'Customer does not have a Membership Code'.",
+    "source": { "deck": "old 02", "slide": 25 },
+    "examFocus": true
+  },
+  {
+    "id": "sequence-flow-within-pool",
+    "rule": "A sequence flow (solid line, filled arrowhead) shows the order of activities within one process or pool and must stay inside that pool.",
+    "violation": "A solid filled arrow drawn from 'Send the order' in the Retailer pool to 'Receive the order' in the Supplier pool.",
+    "source": { "deck": "old 02", "slide": 20 },
+    "examFocus": true
+  },
+  {
+    "id": "message-flow-across-pools",
+    "rule": "A message flow (dashed line, open arrowhead) shows an exchange between different processes or pools and is used only across pool boundaries.",
+    "violation": "A dashed open-arrow line connecting 'Check invoice for mismatches' to 'Post invoice' inside the same Accounting pool.",
+    "source": { "deck": "old 02", "slide": 20 },
+    "examFocus": true
+  },
+  {
+    "id": "association-no-order",
+    "rule": "An association (dotted line) links artifacts such as text annotations and data objects to flow objects and never affects execution order.",
+    "violation": "A dotted line drawn from 'Check credit' to 'Approve loan' to mean that the second task is performed next.",
+    "source": { "deck": "old 02", "slide": 20 },
+    "examFocus": true
+  },
+  {
+    "id": "pool-is-participant-lane-is-role",
+    "rule": "A pool is a participant or organisation taking part in the process; a lane is a function, department, sub-division or actor role within that pool.",
+    "violation": "Two separate pools drawn for 'Sales' and 'Finance' of the same company, when these are lanes inside one organisation's pool.",
+    "source": { "deck": "old 02", "slide": 21 },
+    "examFocus": true
+  },
+  {
+    "id": "black-box-pool-empty",
+    "rule": "A pool shown as a black box is an empty box with no flow objects and no lanes; its message flows link to the pool boundary.",
+    "violation": "A 'Customer' pool declared a black box that nevertheless contains lanes or tasks, with message flows attached to those inner elements instead of the boundary.",
+    "source": { "deck": "old 02", "slide": 22 },
+    "examFocus": true
+  }
+]

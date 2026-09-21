@@ -1,0 +1,127 @@
+{
+  "id": "freshmart",
+  "title": "FreshMart Direct goes online",
+  "topics": ["value-chain", "operations", "scm"],
+  "scenario": "FreshMart is a 42-store Thai supermarket chain based in Bangkok, now six months into launching FreshMart Direct, its online grocery arm. All online orders for the Bangkok metro area are fulfilled from a single dedicated fulfillment center in Bang Na, run by operations manager Khun Anong.\n\nEvery weekday morning at 5 a.m., refrigerated trucks from FreshMart's growers arrive at the Bang Na dock. Staff check each truck's temperature log, then move the produce and dairy into the cold room before it goes to the picking floor. Last month, FreshMart's procurement director, Khun Preecha, signed a two-year exclusive supply agreement with the Ratchaburi Vegetable Growers Cooperative, locking in fixed prices for tomatoes, cucumbers and leafy greens regardless of market swings.\n\nTo speed up fulfillment, FreshMart's 12-person software team spent four months building Pickr, an app that assigns each online order to whichever picker is currently closest to the next item on the pick list. Every one of FreshMart Direct's roughly 4,500 daily online orders — whether it is three bags of rice or a produce-and-dairy basket — is picked using the identical seven-step Pickr sequence: scan tote, follow the optimized path, pick each SKU, verify weight, pack, seal, and route to the dispatch bay. There is no customization step; the sequence never changes from order to order.\n\nAnong tracks four stages of the fulfillment process. Order intake and payment can process 220 orders/hour. Pickr-guided picking can process 90 orders/hour. Packing and sealing can process 130 orders/hour. Last-mile van dispatch can load and send 150 orders/hour. During the 6-8 p.m. dinner rush, FreshMart Direct receives 108 orders per hour, and Anong has watched totes pile up on the picking floor every evening during that window.\n\nFreshMart Direct sells two very different kinds of goods through the same app. Fresh produce and dairy have a shelf life of only two to three days, and online demand for them swings unpredictably — some days three times normal volume, other days barely any. Packaged staples such as rice, cooking oil and canned goods have stable, predictable demand; FreshMart restocks its Bang Na shelves for these items twice a week based on a rolling forecast, not on individual customer orders, so the stock is already sitting on the shelf before any online order for it arrives.\n\nThe board has asked Anong and Preecha to present a plan for FreshMart Direct's operating model at next month's strategy review.",
+  "questions": [
+    {
+      "id": "case-freshmart-01",
+      "topic": "value-chain",
+      "type": "mcq",
+      "stem": "Khun Preecha's two-year exclusive supply agreement with the Ratchaburi Vegetable Growers Cooperative belongs to which activity in FreshMart's value chain?",
+      "choices": ["Procurement", "Inbound Logistics", "Operations", "Marketing & Sales"],
+      "answer": [0],
+      "explanation": "Negotiating and signing the supply contract is deciding and acquiring — Procurement. Inbound Logistics is the physical handling once the produce arrives, such as checking the temperature log and moving it into the cold room.",
+      "source": { "deck": "new 01", "slide": 20 },
+      "difficulty": 2,
+      "tags": ["value-chain", "procurement", "inbound-logistics"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-02",
+      "topic": "value-chain",
+      "type": "mcq",
+      "stem": "The Bang Na dock's morning routine — checking each truck's temperature log and moving produce into the cold room before it reaches the picking floor — belongs to which value-chain activity?",
+      "choices": ["Operations", "Inbound Logistics", "Procurement", "Outbound Logistics"],
+      "answer": [1],
+      "explanation": "This is the physical receiving and storing of inputs before they are used — the definition of Inbound Logistics. Procurement is the earlier step of deciding and contracting for the produce; Operations is the transformation that happens once the goods move onto the picking floor.",
+      "source": { "deck": "new 01", "slide": 20 },
+      "difficulty": 2,
+      "tags": ["value-chain", "inbound-logistics"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-03",
+      "topic": "value-chain",
+      "type": "mcq",
+      "stem": "FreshMart's software team spent four months building Pickr, the route-optimization app used to guide pickers around the warehouse. Building Pickr itself belongs to which value-chain activity?",
+      "choices": ["Operations", "Technology Development", "Procurement", "Firm Infrastructure"],
+      "answer": [1],
+      "explanation": "Building the tool — the app itself — is Technology Development. Operations is the picking floor's use of Pickr to actually fulfill orders, not the act of building the software; the same distinction the deck draws between building an AI inventory dashboard and brewing the drinks.",
+      "source": { "deck": "new 01", "slide": 17 },
+      "difficulty": 2,
+      "tags": ["value-chain", "technology-development", "operations"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-04",
+      "topic": "operations",
+      "type": "mcq",
+      "stem": "Every one of FreshMart Direct's roughly 4,500 daily orders is picked with the identical seven-step Pickr sequence, regardless of what is in the basket. Which process type best describes this picking operation?",
+      "choices": ["Job shop", "Batch", "Project", "Flow / Line"],
+      "answer": [3],
+      "explanation": "High volume (thousands of orders per day) with a standardized, non-varying sequence for every unit is the Flow/Line pattern, like an assembly line. Job shop and batch both assume more variety or customization, and a project is a one-off, unique undertaking.",
+      "source": { "deck": "old 02", "slide": 6 },
+      "difficulty": 2,
+      "tags": ["process-types", "operations"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-05",
+      "topic": "operations",
+      "type": "mcq",
+      "stem": "Anong's fulfillment process has four sequential stages: order intake & payment (220 orders/hour), Pickr-guided picking (90 orders/hour), packing & sealing (130 orders/hour), and last-mile dispatch (150 orders/hour). Where is the process bottleneck?",
+      "choices": ["Pickr-guided picking", "Packing & sealing", "Order intake & payment", "Last-mile dispatch"],
+      "answer": [0],
+      "explanation": "The capacity of a serial process is limited by its lowest-capacity step. Picking, at 90 orders/hour, is the minimum of the four stages, so it constrains the whole process even though the other three stages have more room to spare.",
+      "source": { "deck": "new 02", "slide": 26 },
+      "difficulty": 3,
+      "tags": ["bottleneck", "capacity", "operations"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-06",
+      "topic": "operations",
+      "type": "mcq",
+      "stem": "During the 6-8 p.m. rush, FreshMart Direct receives 108 orders per hour against the picking stage's 90 orders/hour capacity. What is picking's utilization during the rush, and what does it predict?",
+      "choices": [
+        "83%, unused capacity with no waiting",
+        "120%, demand exceeds capacity, producing queues and possible lost sales",
+        "96%, efficient but very sensitive to variation",
+        "133%, calculated against the wrong stage's capacity"
+      ],
+      "answer": [1],
+      "explanation": "Utilization = Demand ÷ Capacity = 108 ÷ 90 = 120%. Above 100%, demand exceeds capacity, which is exactly why totes pile up on the picking floor every evening — queues, delay and possible lost sales.",
+      "source": { "deck": "new 02", "slide": 28 },
+      "difficulty": 3,
+      "tags": ["utilization", "capacity", "operations"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-07",
+      "topic": "scm",
+      "type": "mcq",
+      "stem": "Fresh produce and dairy have a 2-3 day shelf life and online demand that swings unpredictably day to day. Which supply-chain strategy best fits FreshMart Direct's produce and dairy line?",
+      "choices": [
+        "Efficient — minimize cost, build to a stable forecast",
+        "Agile — flexible small batches for high-variety niche products",
+        "Responsive — prioritize speed and availability under uncertain, short-life-cycle demand",
+        "Push — produce in advance regardless of demand signals"
+      ],
+      "answer": [2],
+      "explanation": "Short shelf life plus unpredictable day-to-day demand is exactly the responsive profile — the deck's own contrast between fashion-like demand and commodity demand. Efficient strategies assume predictable, stable demand, which does not describe this product line.",
+      "source": { "deck": "new 03", "slide": 15 },
+      "difficulty": 2,
+      "tags": ["scm-strategy", "responsive", "efficient"],
+      "examFocus": true
+    },
+    {
+      "id": "case-freshmart-08",
+      "topic": "scm",
+      "type": "mcq",
+      "stem": "FreshMart restocks its Bang Na shelves for staples such as rice and cooking oil twice a week based on a rolling forecast, before any specific online order arrives. Is this a push or a pull system, and why?",
+      "choices": [
+        "Pull, because the stock is triggered by the customer's app order",
+        "Pull, because it uses a rolling forecast",
+        "Push, because it matches produce's two-to-three day shelf life",
+        "Push, because replenishment is triggered by forecast and happens before demand is known"
+      ],
+      "answer": [3],
+      "explanation": "Push is triggered by forecast, with inventory built before demand occurs — restocking staple shelves twice a week from a rolling forecast is the textbook push (make-to-stock) pattern. Pull would mean replenishment happens only after the customer's order is known.",
+      "source": { "deck": "new 03", "slide": 23 },
+      "difficulty": 2,
+      "tags": ["push-pull", "scm"],
+      "examFocus": true
+    }
+  ]
+}

@@ -1,0 +1,1253 @@
+[
+  {
+    "term": "Value",
+    "definition": "The perceived benefits a customer is willing to pay for, not simply the cost of producing the product or service.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Margin",
+    "definition": "The residual left when the cost of creating value is subtracted from the value created: Value Created minus Cost of Creating Value equals Margin.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Value chain",
+    "definition": "The full range of internal activities a company undertakes to bring a product or service from initial conception to end use and beyond, an inward-looking umbrella concept in contrast to the outward-looking supply chain.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Porter's Value Chain",
+    "definition": "A framework mapping a firm's internal activities — five ordered primary activities and four unordered support activities — into a single arrow that ends in margin.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Primary activities",
+    "definition": "The five value-chain activities that directly develop inputs into outputs, happen in a fixed order, and are the source of cost advantage.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Support activities",
+    "definition": "The four value-chain activities that make the primary activities more efficient, have no fixed order, and are the source of differentiation advantage.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Inbound Logistics",
+    "definition": "The primary activity of receiving, storing and distributing the inputs a business uses, such as receiving a raw-material delivery.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Operations (value chain activity)",
+    "definition": "The primary activity of transforming inputs into finished products or services, such as cooking meals or manufacturing phones.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Outbound Logistics",
+    "definition": "The primary activity of delivering the finished product or service to customers, such as running a delivery service or shipping to retailers.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Marketing & Sales",
+    "definition": "The primary activity of creating awareness of a product and persuading customers to buy it, such as through advertising or in-store promotions.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Service (value chain activity)",
+    "definition": "The primary activity of supporting the customer after the sale, such as through warranty, tech support or loyalty programs.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Firm Infrastructure",
+    "definition": "The support activity covering company structure, finance, legal and strategy, such as the accounting system.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Human Resource Management (value chain)",
+    "definition": "The support activity of hiring, training and retaining people, such as employee onboarding.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Technology Development",
+    "definition": "The support activity of innovation, R&D and building the tools that improve a process, such as a POS system, as distinct from Operations, which runs the transformation itself.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Procurement",
+    "definition": "The support activity of deciding and acquiring resources such as raw materials or tools — negotiating and choosing suppliers — as distinct from Inbound Logistics, which is the physical handling once the input is already owned.",
+    "topic": "value-chain",
+    "source": {
+      "deck": "new 01",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Operations Management",
+    "definition": "Designing, running, measuring and improving the processes that transform inputs into outputs.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Process",
+    "definition": "A sequence of activities that transforms inputs into outputs, one level more detailed than a value-chain activity.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 6
+    }
+  },
+  {
+    "term": "SIPOC",
+    "definition": "A framework — Supplier, Input, Process, Output, Customer — used to define what is inside and outside a process boundary before mapping it.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Value-adding activity",
+    "definition": "A process step that changes the product or service in a way the customer values, such as brewing the coffee.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Waste (process)",
+    "definition": "A process step that consumes resources without creating value and could be deleted with nothing lost but cost and delay, such as waiting for an unavailable cup.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Capacity",
+    "definition": "The maximum output a process or resource can produce in a given period, always expressed as a quantity per unit of time, such as 25 drinks per hour.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Bottleneck",
+    "definition": "The step in a serial process with the lowest capacity, which constrains the throughput of the whole process.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Utilisation",
+    "definition": "Demand divided by capacity, expressed as a percentage, showing how much of a process's available capacity is being used.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Throughput rate",
+    "definition": "The number of units a process completes per unit of time.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 30
+    }
+  },
+  {
+    "term": "Work-in-process (WIP)",
+    "definition": "The number of units currently in a process at a given moment.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 30
+    }
+  },
+  {
+    "term": "Little's Law",
+    "definition": "In a stable process, Work-in-process equals Throughput Rate multiplied by Flow Time (WIP = Throughput x Flow Time).",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 30
+    }
+  },
+  {
+    "term": "KPI",
+    "definition": "A performance signal derived from a business objective through a process driver to a measurable target, used to understand, decide and improve, not just a raw number.",
+    "topic": "operations",
+    "source": {
+      "deck": "new 02",
+      "slide": 33
+    }
+  },
+  {
+    "term": "Project (process type)",
+    "definition": "A process type producing unique, one-time work in low volume with high variety, such as constructing a building.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Job shop",
+    "definition": "A process type producing custom, small-batch work, such as a tailor shop.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Batch process",
+    "definition": "A process type producing medium-volume, repeated batches of output, such as a bakery.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Flow/Line process",
+    "definition": "A process type producing high-volume, standardized output, such as an assembly line.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Continuous process",
+    "definition": "A process type running 24/7 at high volume with no variety, such as an oil refinery.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 5
+    }
+  },
+  {
+    "term": "BPMN",
+    "definition": "Business Process Model and Notation, a flowchart-based OMG standard since 2005 (now BPMN 2.0) used for both conceptual and executable process models.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 8
+    }
+  },
+  {
+    "term": "Task (BPMN)",
+    "definition": "An atomic, indivisible unit of work in BPMN, drawn as a plain rounded rectangle.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Sub-process",
+    "definition": "A compound BPMN activity, drawn as a rounded rectangle with a + marker, that expands into its own process with its own start and end events.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Event (BPMN)",
+    "definition": "Something that happens during a BPMN process — a trigger or a result that starts, interrupts or ends the flow — named in \"something done\" (past-participle) form.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Gateway",
+    "definition": "A BPMN element that controls how sequence flows converge and diverge, needed only when the flow actually requires control.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 14
+    }
+  },
+  {
+    "term": "XOR gateway",
+    "definition": "An exclusive BPMN gateway whose split takes exactly one outgoing branch and whose join proceeds once that one branch has completed.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 14
+    }
+  },
+  {
+    "term": "AND gateway",
+    "definition": "A parallel BPMN gateway whose split takes every outgoing branch at once and whose join waits until all incoming branches have completed.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 14
+    }
+  },
+  {
+    "term": "OR gateway",
+    "definition": "An inclusive BPMN gateway whose split can take one or several outgoing branches depending on conditions, and whose join waits only for the branches actually taken.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 14
+    }
+  },
+  {
+    "term": "Sequence flow",
+    "definition": "A solid line with a filled arrowhead showing the order of activities within the same BPMN process or pool.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Message flow",
+    "definition": "A dashed line with an open circle and open arrowhead showing the exchange of messages between different BPMN pools.",
+    "topic": "process-mapping",
+    "source": {
+      "deck": "old 02",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Supply chain (SC)",
+    "definition": "A flow of materials, information and money across suppliers, manufacturers and customers, coordinated across multiple organisations rather than managed within one firm.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 2
+    }
+  },
+  {
+    "term": "Supply Chain Management (SCM)",
+    "definition": "Managing the flow of materials, information and money across a supply chain efficiently and strategically.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 2
+    }
+  },
+  {
+    "term": "Efficient supply chain strategy",
+    "definition": "A supply-chain strategy that prioritises cost and high utilisation for stable, predictable demand, such as Walmart or Big C.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Responsive supply chain strategy",
+    "definition": "A supply-chain strategy that prioritises speed and availability for uncertain, short-life-cycle demand, such as Zara.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Agile supply chain strategy",
+    "definition": "A supply-chain strategy that prioritises flexibility and adaptability for highly uncertain, varied demand, using small batches, flexible suppliers and postponement, such as Louis Vuitton or Dell.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Hybrid/leagile supply chain strategy",
+    "definition": "A supply-chain strategy that pushes to forecast upstream and pulls to real demand downstream, placing a push-pull boundary and segmenting customers and products to balance cost and responsiveness.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Demand planning",
+    "definition": "The cross-functional process of estimating future customer demand — by volume, timing, location and segment — to support inventory, production, sourcing and transport decisions.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Stockout",
+    "definition": "The shortfall that results when actual demand exceeds the forecast, causing lost sales, expedited shipments and dissatisfied customers.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Push strategy (SCM)",
+    "definition": "An approach triggered by forecast in which inventory is produced and shipped in advance of demand, best when demand is predictable and lead times are long.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Pull strategy (SCM)",
+    "definition": "An approach triggered by actual customer demand or order in which inventory is built only after demand is known, best when demand is uncertain and customisation matters.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Push-pull boundary",
+    "definition": "The point in a supply chain where the process switches from forecast-driven push to demand-driven pull, typically where postponement and final customisation happen.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Order batching",
+    "definition": "A bullwhip cause in which large, infrequent orders rather than small, frequent ones create artificial demand spikes upstream.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 32
+    }
+  },
+  {
+    "term": "Bullwhip effect",
+    "definition": "The phenomenon in which small changes in customer demand create progressively larger order fluctuations further upstream in the supply chain.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 32
+    }
+  },
+  {
+    "term": "Beer Game",
+    "definition": "A supply-chain simulation with four roles (Retailer, Wholesaler, Distributor, Manufacturer) across 20 weekly rounds that demonstrates how withholding demand information amplifies the bullwhip effect.",
+    "topic": "scm",
+    "source": {
+      "deck": "new 03",
+      "slide": 35
+    }
+  },
+  {
+    "term": "Devil's Quadrangle",
+    "definition": "A model showing that a firm cannot simultaneously maximise Cost, Speed, Flexibility and Quality performance, so a strategy must prioritise some dimensions and accept limits on others.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 3
+    }
+  },
+  {
+    "term": "Differentiation strategy (order fulfillment)",
+    "definition": "A value-chain strategy that prioritises customer experience and responsiveness in order fulfillment — speed, accuracy and flexibility — to justify premium pricing.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 3
+    }
+  },
+  {
+    "term": "Cost leadership strategy (order fulfillment)",
+    "definition": "A value-chain strategy that prioritises efficient, low-cost order fulfillment that minimises waste, labour cost and shipping errors.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 3
+    }
+  },
+  {
+    "term": "SCOR",
+    "definition": "The Supply Chain Operations Reference model, which judges a whole supply-chain network on five performance attributes: Reliability, Responsiveness, Agility, Cost and Asset Management Efficiency.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Reliability (SCOR)",
+    "definition": "The SCOR attribute measuring consistent, accurate and dependable supply-chain outcomes.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Responsiveness (SCOR)",
+    "definition": "The SCOR attribute measuring how fast the supply chain delivers to customers.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Agility (SCOR)",
+    "definition": "The SCOR attribute measuring a supply chain's ability to adapt to changes in demand or supply.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Digital supply chain strategy",
+    "definition": "A supply-chain strategy built on data-driven optimisation for e-commerce and tech-savvy firms, such as Amazon or JD.com.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Green (sustainable) supply chain strategy",
+    "definition": "A supply-chain strategy prioritising environmental and ethical impact, suited to eco-conscious brands such as Patagonia or IKEA.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Nearshoring",
+    "definition": "Moving sourcing closer to the target market to reduce the lead-time and disruption risk that comes with global sourcing.",
+    "topic": "logistics",
+    "source": {
+      "deck": "old 03",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Project",
+    "definition": "A temporary endeavour undertaken to create a unique product, service or result, ending when its objective is achieved, no longer needed, unachievable, or terminated by the sponsor.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Project life cycle",
+    "definition": "The sequence of phases describing where a project is in its journey — Defining, Planning, Executing, Closing — across which uncertainty falls, knowledge grows, and the cost of change rises.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Initiating (process group)",
+    "definition": "The PMBOK process group that defines and authorises a new project or phase.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Planning (process group)",
+    "definition": "The PMBOK process group that defines how the project's work will be done.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Executing (process group)",
+    "definition": "The PMBOK process group that performs the work defined by the plan.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Monitoring & Controlling (process group)",
+    "definition": "The PMBOK process group that tracks performance and compares and adjusts, running continuously alongside Planning and Executing rather than after them.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Closing (process group)",
+    "definition": "The PMBOK process group that formally completes the project or phase.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Integration Management",
+    "definition": "The PMBOK knowledge area that pulls everything together: the charter, the single project management plan, integrated change control and trade-offs across other knowledge areas.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Scope Management (knowledge area)",
+    "definition": "The PMBOK knowledge area covering what is in and out of the project, requirements, the WBS and preventing scope creep.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Schedule Management (knowledge area)",
+    "definition": "The PMBOK knowledge area covering activities, sequencing, durations, the critical path and dates.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Cost Management (knowledge area)",
+    "definition": "The PMBOK knowledge area covering estimating, budgeting, and tracking spend against budget.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Quality Management (PMBOK knowledge area)",
+    "definition": "The PMBOK knowledge area covering acceptance criteria, standards, testing and defects.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Resource Management (knowledge area)",
+    "definition": "The PMBOK knowledge area covering acquiring, developing and managing the project's internal people and equipment, called Human Resource Management in the older PMBOK edition.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Communications Management",
+    "definition": "The PMBOK knowledge area deciding what information goes to whom, in what format and how often.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Risk Management (PMBOK knowledge area)",
+    "definition": "The PMBOK knowledge area covering identifying, analysing, planning responses to, and monitoring uncertain future events.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Procurement Management",
+    "definition": "The PMBOK knowledge area covering contracts, vendors and purchasing from external suppliers, as distinct from Resource Management, which covers people from inside the organisation.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Stakeholder Management (knowledge area)",
+    "definition": "The PMBOK knowledge area covering identifying, analysing and engaging the people affected by the project.",
+    "topic": "pm-foundations",
+    "source": {
+      "deck": "new 04",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Project charter",
+    "definition": "A short, high-level document that formally authorises a project and empowers the project manager to lead it, covering purpose, objective, high-level scope, deliverables, sponsor/PM, milestones/budget and major risks.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Stakeholder",
+    "definition": "A person, group or organisation that can affect, be affected by, or perceive itself to be affected by the project.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Requirement",
+    "definition": "A stakeholder need stated precisely enough to be built and tested, which then becomes a deliverable or feature.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Functional requirement",
+    "definition": "A requirement stating what the deliverable must do, such as updating store inventory after every transaction.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Project scope",
+    "definition": "The work required to create a project's agreed deliverables, answering what is delivered, what is included and what is excluded.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Product scope",
+    "definition": "The features and functions that describe the result a project creates, as distinct from project scope, which describes the work required to create that result.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Scope statement",
+    "definition": "The document defining a project's objective, deliverables, requirements, in-scope work, out-of-scope work and acceptance criteria.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Acceptance criteria",
+    "definition": "The specific, measurable conditions that determine whether a deliverable is acceptable, without which a deliverable is difficult to control.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Scope creep",
+    "definition": "The uncontrolled expansion of project scope without a corresponding adjustment to time, cost or resources.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Gold plating",
+    "definition": "Adding extra features or enhancements to a deliverable that are not necessary, done on the project team's own initiative.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Work Breakdown Structure (WBS)",
+    "definition": "A hierarchical decomposition of the project scope into smaller, manageable components down to the work package, which carries no sequencing information.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 28
+    }
+  },
+  {
+    "term": "Work package",
+    "definition": "The lowest, most manageable level of a Work Breakdown Structure, small enough to be estimated, assigned to one owner, monitored and accepted.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 28
+    }
+  },
+  {
+    "term": "100% rule",
+    "definition": "The WBS principle that its components together represent 100% of the project scope, with no missing work and no work duplicated.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 28
+    }
+  },
+  {
+    "term": "RACI",
+    "definition": "A responsibility matrix assigning Responsible (does the work), Accountable (owns the result), Consulted (gives input) and Informed (needs updates) to each work package, with exactly one Accountable owner per item.",
+    "topic": "initiation",
+    "source": {
+      "deck": "new 05",
+      "slide": 34
+    }
+  },
+  {
+    "term": "Activity (schedule)",
+    "definition": "A defined piece of project work that consumes time and usually resources, one level below a work package.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 14
+    }
+  },
+  {
+    "term": "Milestone",
+    "definition": "A significant project event or checkpoint with zero duration that marks a moment rather than consuming time.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 14
+    }
+  },
+  {
+    "term": "Finish-to-Start (FS)",
+    "definition": "A dependency in which the successor activity cannot start until the predecessor activity finishes; the default and most common dependency type.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Start-to-Start (SS)",
+    "definition": "A dependency in which the successor activity cannot start until the predecessor activity starts.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Finish-to-Finish (FF)",
+    "definition": "A dependency in which the successor activity cannot finish until the predecessor activity finishes.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Start-to-Finish (SF)",
+    "definition": "A dependency in which the successor activity cannot finish until the predecessor activity starts.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Lead",
+    "definition": "A schedule overlap in which the successor activity starts before its predecessor has completely finished, compressing the schedule.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Lag",
+    "definition": "A deliberate wait inserted between two activities, stretching the schedule.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Effort",
+    "definition": "The amount of work an activity requires, such as 40 person-hours, which is not the same number or unit as its duration.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Duration",
+    "definition": "How long an activity takes on the calendar, such as 5 working days, distinct from the effort it requires.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Gantt chart",
+    "definition": "A visual bar chart of activities against time, used to communicate schedule information such as start/finish, duration, lead/lag and milestones.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Earliest Start (ES)",
+    "definition": "The earliest an activity can begin, computed on the forward pass as the maximum earliest finish of all its predecessors.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Earliest Finish (EF)",
+    "definition": "The earliest an activity can finish, computed on the forward pass as EF = ES + Duration.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Latest Start (LS)",
+    "definition": "The latest an activity can begin without delaying the project, computed on the backward pass as LS = LF - Duration.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Latest Finish (LF)",
+    "definition": "The latest an activity can finish without delaying the project, computed on the backward pass as the minimum latest start of all its successors.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Total float",
+    "definition": "The amount of time an activity can be delayed without delaying project completion, equal to LS - ES (or LF - EF); a critical activity has a float of zero.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Critical path",
+    "definition": "The longest sequence of dependent activities in a project network, made up of activities with zero float, where any delay pushes back the whole project.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Cost baseline",
+    "definition": "The approved, time-phased budget used as the reference point for measuring actual project spend, plotted as a cumulative S-curve.",
+    "topic": "schedule-cost",
+    "source": {
+      "deck": "new 06",
+      "slide": 43
+    }
+  },
+  {
+    "term": "Risk (project risk)",
+    "definition": "An uncertain future event or condition that may affect one or more project objectives, positively or negatively.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Issue",
+    "definition": "A problem that is currently and actually affecting the project, as distinct from a risk, which is only a future possibility.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Constraint",
+    "definition": "A limiting factor that restricts project options or decisions and is always present, such as a fixed three-month deadline.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Assumption",
+    "definition": "Something believed to be true without proof and used for planning, paired with the risk that the belief turns out to be wrong.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Dependency (risk vocabulary)",
+    "definition": "A task or event that relies on another to start, continue or finish, describing an ongoing relationship rather than a single point in time.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Defect",
+    "definition": "A flaw or bug in a deliverable, discovered after creation, that fails to meet quality standards.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Financial risk (source)",
+    "definition": "A risk originating from money, such as budget overruns or resource misallocation.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Technical risk (source)",
+    "definition": "A risk originating from technology, such as technology failure, underperformance, or an unsuitable technology choice.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Performance risk (source)",
+    "definition": "A risk originating from how work is performed, such as poorly defined processes, inadequate staffing, or supplier delays.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 7
+    }
+  },
+  {
+    "term": "External risk (source)",
+    "definition": "A risk originating outside the organisation, such as regulation, market changes, or natural disasters.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Organizational risk (source)",
+    "definition": "A risk originating from the organisation's own structure or behaviour, such as scope creep, poor communication, or internal priority shifts.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Avoid (risk response)",
+    "definition": "A negative-risk response that eliminates the cause of a threat by removing the activities or people involved.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Exploit (risk response)",
+    "definition": "A positive-risk response that guarantees an opportunity occurs by adding the activities or people that cause it.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Transfer (risk response)",
+    "definition": "A negative-risk response that makes a third party accountable for a threat, such as through insurance or a fixed-price contract.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Share (risk response)",
+    "definition": "A positive-risk response that gives a third party a stake in an opportunity so they help capture it, such as through partnering.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Mitigate (risk response)",
+    "definition": "A negative-risk response that reduces a threat's probability and/or impact, such as through training or a prototype.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Enhance (risk response)",
+    "definition": "A positive-risk response that increases an opportunity's probability and/or impact, such as through incentives.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Accept (risk response)",
+    "definition": "A response, for either a threat or an opportunity, that takes no proactive action beyond acknowledging the risk.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Quality standard",
+    "definition": "The level of quality expected for a deliverable, such as sessions running on time to respect attendees' time.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 39
+    }
+  },
+  {
+    "term": "Metric (quality)",
+    "definition": "How a deliverable's performance will be measured, such as the percentage of sessions starting within 5 minutes of schedule.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 39
+    }
+  },
+  {
+    "term": "Target (quality)",
+    "definition": "The specific, numeric level a metric must reach to be acceptable, such as at least 95% of sessions starting on time.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 39
+    }
+  },
+  {
+    "term": "Quality Assurance (QA)",
+    "definition": "A preventive, process-focused check asking whether the right process is being followed.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 45
+    }
+  },
+  {
+    "term": "Quality Control (QC)",
+    "definition": "A detective, output-focused check asking whether the deliverable meets requirements.",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 45
+    }
+  },
+  {
+    "term": "Cost of Quality (CoQ)",
+    "definition": "The sum of the cost of conformance (prevention and appraisal, spent to avoid failures) and the cost of nonconformance (internal and external failure costs, spent after failures happen).",
+    "topic": "risk-comm-quality",
+    "source": {
+      "deck": "new 07",
+      "slide": 45
+    }
+  }
+]

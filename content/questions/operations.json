@@ -1,0 +1,996 @@
+[
+  {
+    "id": "ops-001",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Which of the following is the most complete definition of Operations Management?",
+    "choices": [
+      "Designing, running, measuring, and improving the processes that transform inputs into outputs",
+      "Running the day-to-day activities of a factory",
+      "Coordinating the flow of goods between a firm and its suppliers",
+      "Deciding where in the value chain a firm creates the most value"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "All four verbs — designing, running, measuring, improving — are examinable; 'running' alone is too narrow. Option C describes Supply Chain Management (Week 3) and D describes value-chain analysis (Week 1), both neighbouring but distinct topics.",
+    "source": {
+      "deck": "new 02",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "definition",
+      "transformation-model"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-002",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In a hospital's Inputs → Transformation → Outputs model, which element is the transformation itself, not an input or an output?",
+    "choices": [
+      "Patient",
+      "Diagnosis, treatment, and care",
+      "Healthcare service",
+      "Staff and information"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Patient, staff, and information are inputs; healthcare service is the output; diagnosis-treatment-care is the transformation process that adds the value.",
+    "source": {
+      "deck": "new 02",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "transformation-model",
+      "classification"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-003",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "According to the deck, a 'process' is best defined as:",
+    "choices": [
+      "A single activity that adds value",
+      "The maximum output a resource can produce",
+      "A sequence of activities that transforms inputs into outputs",
+      "A diagram showing supplier and customer boundaries"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A process transforms inputs into outputs through a sequence of activities (e.g., customer order → take order → prepare drink → serve → coffee). Option B describes capacity, and D describes a SIPOC diagram.",
+    "source": {
+      "deck": "new 02",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "definition",
+      "process"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-004",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Which statement correctly distinguishes the value chain from a process, per the deck's comparison table?",
+    "choices": [
+      "The value chain is operational; the process is strategic",
+      "The value chain shows how value is created; the process shows where value is created",
+      "The value chain and the process both describe the whole organisation",
+      "The value chain is high-level and strategic; the process is detailed and operational"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The value chain is high-level/strategic and answers 'where' value is created; the process is detailed/operational and answers 'how'. Options A and B swap these correct pairings.",
+    "source": {
+      "deck": "new 02",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "value-chain",
+      "process"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-005",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In the deck's value-chain-to-activity hierarchy, 'Prepare Drinks & Food' inside the Order-to-Coffee sequence sits at which level?",
+    "choices": [
+      "Value chain level",
+      "Process level",
+      "Activity level",
+      "Support activity level"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Receive Order, Process Payment, Prepare Drinks & Food, and Deliver/Pickup make up the Order-to-Coffee process (process level); each of these is further broken into activities such as 'Prepare' at the activity level.",
+    "source": {
+      "deck": "new 02",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "hierarchy",
+      "value-chain"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-006",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In a SIPOC diagram, which single letter represents the only element that sits inside the process boundary?",
+    "choices": [
+      "S (Supplier)",
+      "I (Input)",
+      "C (Customer)",
+      "P (Process)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Only P (the process) is inside the boundary; S and I sit outside upstream, and O and C sit outside downstream.",
+    "source": {
+      "deck": "new 02",
+      "slide": 9
+    },
+    "difficulty": 1,
+    "tags": [
+      "sipoc"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-007",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "What is the key difference between SIPOC and a process map, as taught in the deck?",
+    "choices": [
+      "SIPOC answers 'what is the process'; the process map answers 'how does it work'",
+      "SIPOC answers 'how'; the process map answers 'what'",
+      "SIPOC is only for services; process maps are only for manufacturing",
+      "SIPOC includes activities; the process map includes only suppliers"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "SIPOC defines the process boundary (what is inside/outside); the process map then shows how the process actually works step by step. Option B reverses this pairing.",
+    "source": {
+      "deck": "new 02",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "sipoc",
+      "process-map"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-008",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "BPMN (Business Process Model and Notation) is best described as:",
+    "choices": [
+      "A proprietary flowchart tool released in 2010",
+      "An OMG standard, flowchart-based, usable for both conceptual and executable models, since 2005",
+      "A method for calculating process capacity",
+      "A supply-chain coordination framework"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "BPMN (now 2.0) is an Object Management Group standard since 2005, flowchart-based, usable for conceptual and executable models, with free tools such as bpmn.io.",
+    "source": {
+      "deck": "new 02",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "bpmn"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-009",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In basic process-mapping notation, what does a diamond shape represent?",
+    "choices": [
+      "The start or end of a process",
+      "An activity or task",
+      "A delay or waiting time",
+      "A decision point where the flow diverges"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Diamond = decision (e.g., 'Payment Successful?' → Yes/No). Oval = start/end, rectangle = activity/task, clock = delay (BPMN timer event).",
+    "source": {
+      "deck": "new 02",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "bpmn",
+      "symbols"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-010",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A process map has an activity box labelled 'Payment Received' floating outside any lane. What is wrong with it, per the BPMN rules taught in the deck?",
+    "choices": [
+      "It is phrased as an event ('have-done') rather than 'do something', and it is not placed in a lane",
+      "Nothing — activities never need to sit in a lane",
+      "It should be drawn as an oval instead of a rectangle",
+      "It needs a gateway placed immediately before it"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Activities must sit in a lane and be named as 'do something' (verb + object). 'Payment Received' is a past-participle name — an event style — and it also lacks a lane; both are planted BPM errors.",
+    "source": {
+      "deck": "new 02",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "bpmn",
+      "bpm-error",
+      "activity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ops-011",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In BPMN, an 'event' is best described as something that:",
+    "choices": [
+      "Is always performed by a human worker",
+      "Happens — a trigger or a result that starts, interrupts, or ends a flow",
+      "Controls how sequence flows converge and diverge",
+      "Represents the maximum output of a resource"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "An event is something that 'happens' (a have-done) during a process — start, intermediate, or end. Option C describes a gateway and D describes capacity, both neighbouring but distinct concepts.",
+    "source": {
+      "deck": "new 02",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "bpmn",
+      "event"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-012",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A student draws a process with only two activities, 'Prepare Order' → 'Deliver Order', and no start or end symbol at all. What rule does this violate?",
+    "choices": [
+      "Every process needs at least one start and one end event",
+      "Every process needs an XOR gateway",
+      "Every activity must be modelled as a sub-process",
+      "Every arrow must pass through a diamond"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "This is one of the deck's explicitly planted BPM errors: a process must have at least a start and an end event. It has neither.",
+    "source": {
+      "deck": "new 02",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "bpmn",
+      "bpm-error",
+      "event"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ops-013",
+    "topic": "operations",
+    "type": "multi",
+    "stem": "Select all of the following that the deck identifies as planted BPM (process-mapping) errors.",
+    "choices": [
+      "An activity that is not placed in a lane",
+      "An activity named as 'do something' (verb + object)",
+      "A process with no start and/or end event",
+      "Every element in the diagram has a unique name",
+      "A gateway added where the flow does not need to be controlled"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "The deck's planted errors are an activity outside a lane, a process missing a start and/or end event, mis-named or non-unique elements, and an unnecessary gateway. Verb-phrased and unique names are the CORRECT rules, not errors.",
+    "source": {
+      "deck": "new 02",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "bpmn",
+      "bpm-error",
+      "gateway"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ops-014",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "An invoice-checking process either posts the invoice directly, re-sends it to the customer for correction, or blocks it — only ONE of these three paths is ever taken for a given invoice. Which gateway type models this?",
+    "choices": [
+      "AND (parallel) — all paths run together",
+      "XOR (exclusive) — exactly one outgoing path is taken",
+      "OR (inclusive) — one or more paths, depending on conditions",
+      "No gateway is needed here"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "This is the deck's own XOR example: exactly one of 'post invoice', 're-send to customer', or 'block invoice' is taken, based on whether mismatches exist and are correctable.",
+    "source": {
+      "deck": "new 02",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "bpmn",
+      "gateway",
+      "xor"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-015",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "An airport process requires a passenger to complete BOTH security screening and luggage screening before proceeding to the departure level. Which gateway type models this?",
+    "choices": [
+      "XOR (exclusive) — exactly one path taken",
+      "AND (parallel) — all paths run, and the join waits for all",
+      "OR (inclusive) — one or more paths",
+      "No gateway is needed here"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "This is the deck's own AND-gateway example: both security screening and luggage screening must complete before the join proceeds.",
+    "source": {
+      "deck": "new 02",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "bpmn",
+      "gateway",
+      "and"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-016",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A logistics process forwards order line items to the Amsterdam warehouse, the Hamburg warehouse, or both, depending on what the order contains. Which gateway type is this?",
+    "choices": [
+      "XOR (exclusive)",
+      "AND (parallel)",
+      "OR (inclusive) — one or more paths, depending on conditions",
+      "Sequential flow; no gateway is needed"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The OR (inclusive) gateway allows one or more paths to be taken depending on conditions, matching the deck's Amsterdam/Hamburg example. XOR would force exactly one path; AND would force both regardless of order content.",
+    "source": {
+      "deck": "new 02",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "bpmn",
+      "gateway",
+      "or"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-017",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In the deck's four-step classification of process steps, 'the customer decides hot or iced' is an example of which step type?",
+    "choices": [
+      "Waiting",
+      "Processing",
+      "Decision",
+      "Movement"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Decision = a choice that determines the next step; it adds value because it ensures the right product is made. Waiting is idle time, Processing is the actual transforming work, and Movement is transfer between locations.",
+    "source": {
+      "deck": "new 02",
+      "slide": 21
+    },
+    "difficulty": 1,
+    "tags": [
+      "process-steps",
+      "classification"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-018",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "'The order is sent to the preparation station' is which type of process step, and does it add value?",
+    "choices": [
+      "Movement — no direct value, but necessary and adds time/cost",
+      "Processing — yes, it adds value",
+      "Waiting — no value, pure idle time",
+      "Decision — yes, it ensures the right product is made"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Movement is people, information, or items moved from place to place; it does not transform the product but is necessary for the process to function, so it adds time and cost without direct value.",
+    "source": {
+      "deck": "new 02",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "process-steps",
+      "classification"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-019",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A teammate argues that payment processing should be eliminated because it is 'waste'. What is the correct classification, per the deck?",
+    "choices": [
+      "Waste — it consumes resources without creating value",
+      "Value-adding — it is why the customer came",
+      "Necessary but non-value-adding — required for the process to work, though it creates no direct customer value",
+      "It cannot be classified without a full process map"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The deck's explicit trap: payment processing is NOT waste, because the process cannot run without it. Waste is a step you could delete and lose nothing but cost and delay — e.g., waiting for an unavailable cup.",
+    "source": {
+      "deck": "new 02",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "value-adding",
+      "waste"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-020",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A café's process has four serial steps: Order 40 customers/hr, Payment 50/hr, Preparation 25/hr, Pickup 60/hr. What is the process capacity?",
+    "choices": [
+      "40 customers/hour",
+      "50 customers/hour",
+      "60 customers/hour",
+      "25 customers/hour"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The capacity of a serial process is limited by its lowest-capacity step: min(40, 50, 25, 60) = 25 customers/hour. Preparation is the bottleneck.",
+    "source": {
+      "deck": "new 02",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "capacity",
+      "computation",
+      "bottleneck"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-021",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In the same four-step café process (Order 40, Payment 50, Preparation 25, Pickup 60 customers/hr), which step is the bottleneck?",
+    "choices": [
+      "Order",
+      "Payment",
+      "Preparation",
+      "Pickup"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The bottleneck is the step that constrains the throughput of the overall process — the lowest-capacity step, Preparation at 25/hour.",
+    "source": {
+      "deck": "new 02",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "bottleneck"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-022",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Per the deck's explicit teaching point, which of these correctly expresses capacity?",
+    "choices": [
+      "\"100 units/hour\"",
+      "\"100 units\"",
+      "\"100% utilised\"",
+      "\"100 customers\""
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Capacity is always a quantity per unit of time. \"100 units\" alone is not capacity; \"100 units/hour\" is.",
+    "source": {
+      "deck": "new 02",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "capacity",
+      "definition"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-023",
+    "topic": "operations",
+    "type": "tf",
+    "stem": "True or False: If a café doubles its Payment step's capacity from 50 to 100 customers/hour, while Order (40/hr), Preparation (25/hr), and Pickup (60/hr) stay the same, the overall process capacity increases.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. Process capacity is still min(40, 100, 25, 60) = 25 customers/hour. Investing in a non-bottleneck step never raises overall throughput; only adding capacity at the bottleneck (Preparation) would.",
+    "source": {
+      "deck": "new 02",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "capacity",
+      "bottleneck",
+      "computation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-024",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A resource has a capacity of 50 customers/hour and faces demand of 48 customers/hour. What is its utilisation?",
+    "choices": [
+      "60%",
+      "96%",
+      "100%",
+      "120%"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Utilisation = Demand ÷ Capacity × 100% = 48/50 × 100% = 96% — the deck's 'high utilisation, little buffer, sensitive to variation' scenario.",
+    "source": {
+      "deck": "new 02",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "utilisation",
+      "computation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-025",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Demand of 60 customers/hour against capacity of 50 customers/hour gives a utilisation of 120%. What does the deck say this leads to?",
+    "choices": [
+      "Shorter wait times and higher flexibility",
+      "Efficient operation with almost no buffer needed",
+      "Queues, delay, frustration, and possibly lost sales",
+      "40% of capacity sitting idle"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "When demand exceeds capacity (120%), customers must wait or leave: queues, delay, frustration, and possible lost sales. Option D actually describes the 60%-utilisation (underused capacity) scenario.",
+    "source": {
+      "deck": "new 02",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "utilisation",
+      "demand"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-026",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Is 100% utilisation always desirable, per the deck's discussion?",
+    "choices": [
+      "Yes — it means zero wasted resources and no risk",
+      "No — high utilisation is efficient but leaves no buffer, so any variation immediately causes queues and lost sales",
+      "Yes, because utilisation above 100% is impossible, so 100% is always the safe target",
+      "No — utilisation should always be calculated as Capacity ÷ Demand instead"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The deck poses this question directly on a slide; the intended answer is no, because high utilisation removes slack, making the process sensitive to any variation or disruption. Option D inverts the actual formula (Demand ÷ Capacity).",
+    "source": {
+      "deck": "new 02",
+      "slide": 29
+    },
+    "difficulty": 3,
+    "tags": [
+      "utilisation",
+      "exam-focus"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-027",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Little's Law states that in a stable process:",
+    "choices": [
+      "WIP = Throughput Rate × Flow Time",
+      "WIP = Throughput Rate ÷ Flow Time",
+      "Flow Time = WIP × Throughput Rate",
+      "Throughput Rate = Capacity × Utilisation"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "WIP = Throughput Rate × Flow Time. Rearranged: Flow Time = WIP ÷ Throughput, and Throughput = WIP ÷ Flow Time. Option D mixes two unrelated formulas into a plausible-looking but wrong statement.",
+    "source": {
+      "deck": "new 02",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "littles-law",
+      "flow"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-028",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "A packing line has a throughput rate of 30 units/hour and a flow time of 2 hours. Using Little's Law, what is the average work-in-process (WIP)?",
+    "choices": [
+      "15 units",
+      "32 units",
+      "90 units",
+      "60 units"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "WIP = Throughput Rate × Flow Time = 30 × 2 = 60 units. On average, 60 units are in the system at any point in time.",
+    "source": {
+      "deck": "new 02",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "littles-law",
+      "computation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-029",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Customers are waiting too long at a coffee shop. Using Little's Law thinking, which of the following is NOT one of the three possible root causes to check?",
+    "choices": [
+      "The queue is long (high WIP)",
+      "The process is slow (low throughput)",
+      "Each unit lingers (long flow time)",
+      "The gateway type used in the BPMN diagram is XOR instead of AND"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Little's Law reframes a long wait as high WIP, low throughput, or long flow time. The BPMN gateway type used to model the process is a diagramming choice, not a flow diagnostic.",
+    "source": {
+      "deck": "new 02",
+      "slide": 32
+    },
+    "difficulty": 3,
+    "tags": [
+      "littles-law",
+      "diagnosis"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-030",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Which KPI is paired with the 'Dependability' performance objective in the deck's table?",
+    "choices": [
+      "Cycle time",
+      "Defect rate",
+      "On-time completion",
+      "Units per labour-hour"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The deck pairs Speed → Cycle time, Quality → Defect rate, Dependability → On-time completion, and Productivity → Units/labour-hour.",
+    "source": {
+      "deck": "new 02",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "kpi",
+      "performance-objective"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ops-031",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "'Defect rate' is the KPI most closely associated with which performance objective?",
+    "choices": [
+      "Quality",
+      "Speed",
+      "Capacity",
+      "Reliability"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Quality → Defect rate in the deck's table. Capacity pairs with Utilisation, and Reliability pairs with Downtime — both plausible neighbouring KPIs.",
+    "source": {
+      "deck": "new 02",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "kpi",
+      "quality"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ops-032",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "The deck lists five operations performance objectives. Which of the following is NOT one of them?",
+    "choices": [
+      "Quality",
+      "Speed",
+      "Innovation",
+      "Flexibility"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The five named objectives are Quality, Speed, Dependability, Flexibility, and Cost/Productivity. 'Innovation' is not one of the five named in this deck.",
+    "source": {
+      "deck": "new 02",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "performance-objective"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-033",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In the deck's KPI derivation chain, 'Serve customers faster' → 'Reduce preparation delay' → ? → '< 4 minutes', what fills the blank?",
+    "choices": [
+      "Business/Operational Objective",
+      "Process Driver",
+      "Average preparation time",
+      "PDCA cycle"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The chain runs Objective → Process Driver → KPI → Target. Here, the objective is 'serve customers faster', the process driver is 'reduce preparation delay', the KPI is 'average preparation time', and the target is '< 4 minutes'.",
+    "source": {
+      "deck": "new 02",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "kpi",
+      "objective-chain"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-034",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In the PDCA improvement cycle, which phase involves implementing the plan on a small scale?",
+    "choices": [
+      "Plan",
+      "Do",
+      "Check",
+      "Act"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Do = implement the plan on a small scale (execute, train, collect data, document). Plan identifies the problem and plans the solution; Check monitors and evaluates results; Act standardises what works.",
+    "source": {
+      "deck": "new 02",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "pdca",
+      "continuous-improvement"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-035",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "What is the key difference between the 5 Whys and the Fishbone (Ishikawa) diagram?",
+    "choices": [
+      "5 Whys drills down one causal chain; Fishbone explores multiple possible cause categories in breadth",
+      "5 Whys explores multiple cause categories in breadth; Fishbone drills down one causal chain",
+      "Both are identical tools with different names",
+      "5 Whys is used only in manufacturing; Fishbone only in services"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "5 Whys follows a single causal chain deeper and deeper ('why?' five times); Fishbone instead spreads out across categories (People, Machine, Method, Materials, Measurement, Environment). Option B reverses the pairing.",
+    "source": {
+      "deck": "new 02",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "root-cause",
+      "5-whys",
+      "fishbone"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-036",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "In the deck's 5-Whys example, customers wait 12 minutes for coffee because one espresso machine becomes overloaded. What is identified as the ROOT cause, after the fifth 'why'?",
+    "choices": [
+      "The menu and workflow are not balanced",
+      "Most popular drinks use the same machine",
+      "Coffee preparation is slow",
+      "The system was designed for average demand, not peak demand"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The chain drills down: slow preparation → machine overloaded → popular drinks share a machine → menu/workflow unbalanced → root cause: the system was designed for average demand, not peak demand.",
+    "source": {
+      "deck": "new 02",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "root-cause",
+      "5-whys"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-037",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "What are the five stages of the deck's Process Improvement Cycle, in order?",
+    "choices": [
+      "Plan → Do → Check → Act → Repeat",
+      "Design → Build → Test → Deploy → Monitor",
+      "Current Process → Measure → Identify Gap → Improve → New Process",
+      "Map → Analyze → Measure → Improve → Measure Again"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The named Process Improvement Cycle is Map → Analyze → Measure → Improve → Measure Again, then repeat. Option A is the separate PDCA cycle, and C is the deck's simpler continuous-improvement diagram — both real deck content, but not this cycle.",
+    "source": {
+      "deck": "new 02",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "continuous-improvement",
+      "process-improvement-cycle"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ops-038",
+    "topic": "operations",
+    "type": "mcq",
+    "stem": "Before accepting a proposed process improvement, the deck's three evaluation questions ask all of the following EXCEPT:",
+    "choices": [
+      "Does it address the bottleneck / root cause?",
+      "Which KPI should change?",
+      "Could it create a new problem elsewhere?",
+      "Does it reduce headcount by at least 10%?"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The deck's three test questions concern root cause, KPI impact, and unintended side effects elsewhere in the process. A fixed headcount-reduction target is never mentioned.",
+    "source": {
+      "deck": "new 02",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "continuous-improvement",
+      "exam-focus"
+    ],
+    "examFocus": false
+  }
+]

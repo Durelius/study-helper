@@ -1,0 +1,147 @@
+{
+  "id": "launch",
+  "title": "Chao Phraya University launches a data analytics degree",
+  "topics": ["initiation", "schedule-cost", "risk-comm-quality"],
+  "scenario": "Chao Phraya University's Faculty of Commerce is launching a new BSc in Applied Data Analytics, targeting its first intake in August 2027. The Dean is sponsoring the project; Program Director Dr. Ploy Anantasilp is running it day to day, with Associate Dean Assoc. Prof. Wichai Boonrat overseeing accreditation. The approved budget is ฿4.5 million for curriculum development, a new analytics lab and the launch marketing campaign.\n\nThe work is organised into four packages: Curriculum Design, Accreditation Submission (to Thailand's Ministry of Higher Education, Science, Research and Innovation — MHESI), Faculty Hiring, and Marketing Launch. MHESI must issue conditional approval of the curriculum before Marketing Launch can announce anything publicly — Marketing Launch cannot go out until Accreditation Submission has cleared that conditional-approval milestone. Separately, Dr. Ploy has scheduled Faculty Hiring interviews to start on the same day Accreditation Submission begins, so that new hires are recruited against the same curriculum framework MHESI is reviewing, rather than an earlier draft.\n\nFor the RACI matrix, Dr. Ploy proposed: Curriculum Design — Responsible: the five-member curriculum committee; Accountable: Dr. Ploy; Consulted: the eight-company Employer Advisory Board; Informed: the Dean. For Marketing Launch, the draft RACI lists: Responsible: the Marketing Office; Accountable: both Dr. Ploy and Assoc. Prof. Wichai; Consulted: the Employer Advisory Board; Informed: the Dean.\n\nThe curriculum committee currently has only 3 of its 5 required statistics-faculty seats filled, and recruitment hasn't closed. Separately, the Marketing Office is already drafting launch materials that assume at least 40 students will enroll in year one — nobody has actually surveyed prospective students to confirm that number. MHESI's own rule, which the programme cannot avoid, is that the full self-study report must be submitted at least six months before the first intake.\n\nTwo stakeholders dominate the steering conversations. MHESI can block the programme outright if the self-study report is rejected, and is deeply engaged in every review cycle. The Employer Advisory Board has no formal authority over the university's decisions, but is highly invested in making sure graduates are actually employable, and pushes hard for input on every curriculum draft.\n\nThree weeks before the self-study report was due to MHESI, Assoc. Prof. Wichai asked Dr. Ploy whether they could 'just add a mandatory AI Ethics minor' to the curriculum before submission, since 'the paperwork is basically the same.' Dr. Ploy has to decide how to respond before the submission deadline, fix the RACI matrix, classify the programme's open risks correctly, and confirm the stakeholder engagement plan with the Dean.",
+  "questions": [
+    {
+      "id": "case-launch-01",
+      "topic": "initiation",
+      "type": "mcq",
+      "stem": "Assoc. Prof. Wichai asks Dr. Ploy to add a mandatory AI Ethics minor to the curriculum three weeks before the MHESI submission deadline, saying 'the paperwork is basically the same.' What should Dr. Ploy do?",
+      "choices": [
+        "Assess the impact on scope, schedule, cost and risk, then approve, defer or reject the change",
+        "Add it immediately since Wichai outranks the curriculum committee",
+        "Refuse outright since the deadline is close",
+        "Add it but keep it off the record since it is a small addition"
+      ],
+      "answer": [0],
+      "explanation": "The deck's rule for any 'can we just add X' request is the same regardless of who asks: assess the scope/schedule/cost/risk impact, then formally approve, defer or reject — never simply add it or refuse it outright.",
+      "source": { "deck": "new 05", "slide": 27 },
+      "difficulty": 2,
+      "tags": ["scope-creep", "initiation"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-02",
+      "topic": "initiation",
+      "type": "mcq",
+      "stem": "What is wrong with the draft RACI row for Marketing Launch, which lists both Dr. Ploy and Assoc. Prof. Wichai as Accountable?",
+      "choices": [
+        "Nothing — large work packages should have two Accountable owners for coverage",
+        "Every work package should have exactly one Accountable owner; two A's creates ambiguity over who signs off",
+        "The Marketing Office should be Accountable, not Responsible",
+        "The Employer Advisory Board should be Accountable, since it represents the end customer"
+      ],
+      "answer": [1],
+      "explanation": "The deck's RACI rule is one clear Accountable owner per work item — several people can be Responsible, but only one is Accountable. Two A's on the same row is exactly the violation to watch for.",
+      "source": { "deck": "new 05", "slide": 35 },
+      "difficulty": 2,
+      "tags": ["raci", "initiation"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-03",
+      "topic": "initiation",
+      "type": "mcq",
+      "stem": "Which of these belongs to the launch's project scope (the work required) rather than its product scope (the result itself)?",
+      "choices": [
+        "The BSc in Applied Data Analytics degree, its courses and its new analytics lab",
+        "The programme's target enrollment of 40 students in year one",
+        "Filling the curriculum committee's two remaining statistics-faculty seats",
+        "The employer advisory board's satisfaction with graduate outcomes"
+      ],
+      "answer": [2],
+      "explanation": "Project scope is the work required to create the deliverable — hiring faculty is work. Product scope is the result itself: the degree programme, its courses and its lab are what gets built, not the work of building it.",
+      "source": { "deck": "new 05", "slide": 18 },
+      "difficulty": 2,
+      "tags": ["project-scope", "product-scope", "initiation"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-04",
+      "topic": "risk-comm-quality",
+      "type": "mcq",
+      "stem": "MHESI can block the programme outright if the self-study report is rejected, and is deeply engaged in every review cycle. On the power-interest grid, how should Dr. Ploy manage MHESI?",
+      "choices": [
+        "Monitor — low power, low interest",
+        "Keep satisfied — high power, low interest",
+        "Keep informed — low power, high interest",
+        "Manage closely — high power, high interest"
+      ],
+      "answer": [3],
+      "explanation": "MHESI has high power (it can block the programme) and high interest (it is deeply engaged in every review). High power plus high interest is the 'manage closely' quadrant — these are the key players.",
+      "source": { "deck": "new 07", "slide": 27 },
+      "difficulty": 2,
+      "tags": ["stakeholder-grid", "risk-comm-quality"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-05",
+      "topic": "risk-comm-quality",
+      "type": "mcq",
+      "stem": "The Employer Advisory Board has no formal authority over the university's decisions but is highly invested in graduate employability and pushes hard for input on every curriculum draft. Where does it sit on the power-interest grid?",
+      "choices": [
+        "Keep informed — low power, high interest",
+        "High power, high interest — manage closely",
+        "High power, low interest — keep satisfied",
+        "Low power, low interest — monitor"
+      ],
+      "answer": [0],
+      "explanation": "No formal decision authority is low power; being highly invested and vocal is high interest. Low power, high interest stakeholders should be kept informed, not managed as closely as MHESI.",
+      "source": { "deck": "new 07", "slide": 27 },
+      "difficulty": 2,
+      "tags": ["stakeholder-grid", "risk-comm-quality"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-06",
+      "topic": "risk-comm-quality",
+      "type": "mcq",
+      "stem": "MHESI's rule that the self-study report must be submitted at least six months before the first intake — a rule the programme cannot avoid — is best classified as which of the following?",
+      "choices": ["A risk", "A constraint", "An issue", "An assumption"],
+      "answer": [1],
+      "explanation": "A constraint is a fixed, always-present limiting factor on the project's options, exactly like a mandated deadline. It is not a risk (it is certain, not uncertain) and not an issue (nothing has gone wrong yet).",
+      "source": { "deck": "new 07", "slide": 5 },
+      "difficulty": 3,
+      "tags": ["constraint", "risk-comm-quality"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-07",
+      "topic": "schedule-cost",
+      "type": "mcq",
+      "stem": "Dr. Ploy scheduled Faculty Hiring interviews to begin on the same day Accreditation Submission begins, so new hires are recruited against the same curriculum framework MHESI is reviewing. What dependency type links these two activities?",
+      "choices": [
+        "Finish-to-Start (FS)",
+        "Finish-to-Finish (FF)",
+        "Start-to-Start (SS)",
+        "Start-to-Finish (SF)"
+      ],
+      "answer": [2],
+      "explanation": "Faculty Hiring cannot start until Accreditation Submission starts — both activities are tied by their start events, which is a Start-to-Start dependency, like Catering Prep to Guest Arrival in the deck.",
+      "source": { "deck": "new 06", "slide": 16 },
+      "difficulty": 2,
+      "tags": ["dependency-type", "schedule-cost"],
+      "examFocus": true
+    },
+    {
+      "id": "case-launch-08",
+      "topic": "schedule-cost",
+      "type": "mcq",
+      "stem": "MHESI's conditional approval of the curriculum, the checkpoint that must be reached before Marketing Launch can announce anything, is best described as which of the following?",
+      "choices": [
+        "An activity, because it consumes weeks of review time",
+        "A work package, because it sits at the lowest level of the WBS",
+        "A dependency, because Faculty Hiring also depends on it",
+        "A milestone, because it is a significant checkpoint with zero duration of its own"
+      ],
+      "answer": [3],
+      "explanation": "A milestone is a significant checkpoint with zero duration — it marks a moment (approval granted) rather than consuming time itself. The review work leading up to it (Accreditation Submission) is the activity; the approval moment itself is the milestone.",
+      "source": { "deck": "new 06", "slide": 14 },
+      "difficulty": 2,
+      "tags": ["milestone", "schedule-cost"],
+      "examFocus": true
+    }
+  ]
+}

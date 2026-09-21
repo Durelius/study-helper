@@ -1,0 +1,1188 @@
+[
+  {
+    "id": "sc-001",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "How does the deck define a project schedule?",
+    "choices": [
+      "A hierarchical breakdown of the deliverables, with no sequence",
+      "A plan showing what work happens, in what order, and when",
+      "A matrix of who is responsible, accountable, consulted and informed",
+      "The approved financial commitment for the project"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The schedule answers what, in what order and when. The first option is the WBS (hierarchical, no sequence), the third is RACI and the fourth is the budget.",
+    "source": {
+      "deck": "new 06",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "schedule",
+      "definition"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-002",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck's planning logic runs WBS → Activities → Dependencies → Duration → ? → Resources → Cost → Baseline. Which step is missing?",
+    "choices": [
+      "Risk register",
+      "Gantt chart",
+      "Critical path",
+      "Scope statement"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Step 5 is the critical path, which 'determines project duration' once activity durations are known. A Gantt chart is a way of drawing the schedule, not a step in the logic, and the scope statement comes before the WBS.",
+    "source": {
+      "deck": "new 06",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "planning",
+      "process"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-003",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "A team lists 'Mobile application', 'Payment module' and 'Integrate payment gateway'. Which label does the deck attach to 'Payment module'?",
+    "choices": [
+      "Deliverable",
+      "Milestone",
+      "Activity",
+      "Work package"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The deck's three-level example is deliverable = Mobile application, work package = Payment module, activity = Integrate payment gateway. The activity is the schedulable piece of work that consumes time and resources; the work package sits one level above it.",
+    "source": {
+      "deck": "new 06",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "activity",
+      "wbs"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-004",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck defines a dependency as:",
+    "choices": [
+      "A description of how one activity affects another activity",
+      "The amount of time an activity can be delayed without delaying the project",
+      "A resource shared between two activities",
+      "A deliberate waiting period inserted between two activities"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A dependency describes how one activity affects another. The second option is float/slack and the fourth is a lag — both are separate concepts in this deck.",
+    "source": {
+      "deck": "new 06",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "dependency",
+      "definition"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-005",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Finish-to-Start (FS) means:",
+    "choices": [
+      "Task B cannot start until Task A starts",
+      "Task B cannot finish until Task A finishes",
+      "Task B cannot start until Task A finishes",
+      "Task B cannot finish until Task A starts"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "FS is the default dependency: B's start waits for A's finish. The other three options are SS, FF and SF respectively — read the type name as predecessor-event to successor-event.",
+    "source": {
+      "deck": "new 06",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "dependency",
+      "fs"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-006",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Which dependency type is described by 'Task B cannot start until Task A starts'?",
+    "choices": [
+      "Start-to-Start (SS)",
+      "Finish-to-Start (FS)",
+      "Finish-to-Finish (FF)",
+      "Start-to-Finish (SF)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Both constrained events are starts, so it is SS. FS would make B wait for A to finish — the commonest wrong pick, because FS is the default type.",
+    "source": {
+      "deck": "new 06",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "dependency",
+      "ss"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-007",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Which dependency type is described by 'Task B cannot finish until Task A finishes'?",
+    "choices": [
+      "Start-to-Start (SS)",
+      "Finish-to-Finish (FF)",
+      "Start-to-Finish (SF)",
+      "Finish-to-Start (FS)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Both constrained events are finishes, so it is FF. The two activities may run at the same time; what is tied together is only their completion.",
+    "source": {
+      "deck": "new 06",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "dependency",
+      "ff"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-008",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck lists a fourth dependency type described as 'Task B cannot finish until Task A starts'. Which is it?",
+    "choices": [
+      "Finish-to-Finish (FF)",
+      "Start-to-Start (SS)",
+      "Finish-to-Start (FS)",
+      "Start-to-Finish (SF)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The predecessor's constrained event is a start and the successor's is a finish, so it reads Start-to-Finish. Note the order of the words: the first word is always the predecessor's event.",
+    "source": {
+      "deck": "new 06",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "dependency",
+      "sf"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-009",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In the deck's event examples, 'Day Shift Security → Night Shift Security' illustrates which dependency type?",
+    "choices": [
+      "Finish-to-Start (FS)",
+      "Start-to-Finish (SF)",
+      "Start-to-Start (SS)",
+      "Finish-to-Finish (FF)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The deck lists the shift handover as its Start-to-Finish example: one security shift cannot finish until the next shift starts. FS is the trap — the shifts overlap at the handover rather than one simply following the other.",
+    "source": {
+      "deck": "new 06",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "dependency",
+      "sf",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-010",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In the deck's event examples, 'Catering Prep → Guest Arrival' illustrates which dependency type?",
+    "choices": [
+      "Start-to-Start (SS)",
+      "Finish-to-Start (FS)",
+      "Finish-to-Finish (FF)",
+      "Start-to-Finish (SF)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Guests can start arriving once catering prep has started — the successor's start is tied to the predecessor's start, so SS. FS is wrong because guests do not have to wait for catering to be completely finished.",
+    "source": {
+      "deck": "new 06",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "dependency",
+      "ss",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-011",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In the deck's event examples, 'Live Band Performance → Audio Recording' illustrates which dependency type?",
+    "choices": [
+      "Start-to-Finish (SF)",
+      "Finish-to-Start (FS)",
+      "Finish-to-Finish (FF)",
+      "Start-to-Start (SS)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The recording cannot finish until the performance finishes, so the two finishes are tied: FF. SS is tempting because they also start together, but the constraint the deck names is on the finish.",
+    "source": {
+      "deck": "new 06",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "dependency",
+      "ff",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-012",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck defines a lead as:",
+    "choices": [
+      "A wait deliberately inserted between two activities",
+      "The successor starting before the predecessor completely finishes",
+      "The time an activity can slip without delaying the project",
+      "The gap between an activity's earliest and latest finish"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A lead pulls the successor forward, overlapping the two activities. The first option is a lag — the adjacent term and the classic mix-up; the third and fourth both describe float.",
+    "source": {
+      "deck": "new 06",
+      "slide": 19
+    },
+    "difficulty": 1,
+    "tags": [
+      "lead",
+      "lag"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-013",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck uses two examples: 'Bride and father dance → Everyone else dances' and 'Serve dinner → Prepare dessert'. Which is which?",
+    "choices": [
+      "Both are leads",
+      "The dance pair is a lead; the dinner pair is a lag",
+      "The dance pair is a lag; the dinner pair is a lead",
+      "Both are lags"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Everyone joins the dance floor before the first dance has finished — the successor starts early, which is a lead. The dessert pair has a deliberate wait inserted between the two activities, which is a lag.",
+    "source": {
+      "deck": "new 06",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "lead",
+      "lag",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-014",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "A task is estimated at 40 person-hours and is booked across 5 working days. Which figure is the effort and which is the duration?",
+    "choices": [
+      "40 person-hours is the duration; 5 working days is the effort",
+      "Both figures are measures of effort",
+      "Both figures are measures of duration",
+      "40 person-hours is the effort; 5 working days is the duration"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Effort is how much work there is (person-hours); duration is elapsed calendar time from start to finish. Swapping the two is the standard trap because both are expressed in time units.",
+    "source": {
+      "deck": "new 06",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "effort",
+      "duration"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-015",
+    "topic": "schedule-cost",
+    "type": "tf",
+    "stem": "Doubling the number of people assigned to an activity always halves its duration.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False — the deck states explicitly that two people do not always cut duration exactly in half, because overheads, dependencies and coordination time do not reduce proportionally.",
+    "source": {
+      "deck": "new 06",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "effort",
+      "duration"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-016",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Which statement matches the deck's definition of a milestone?",
+    "choices": [
+      "A significant project event or checkpoint with zero duration",
+      "The shortest activity in the schedule",
+      "A work package that has been fully completed and paid for",
+      "A deliverable formally handed over to the customer"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A milestone marks a moment, so it has zero duration and consumes no resources. A deliverable is an output, not a point in time, and every activity — however short — has non-zero duration.",
+    "source": {
+      "deck": "new 06",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "milestone"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-017",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck names three baselines. Which trio is correct?",
+    "choices": [
+      "Scope baseline, schedule baseline, cost baseline",
+      "Charter baseline, WBS baseline, budget baseline",
+      "Scope baseline, resource baseline, quality baseline",
+      "Schedule baseline, risk baseline, cost baseline"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The three baselines answer what (scope), when (schedule) and how much (cost). A baseline is the approved version of the plan used as the reference for later control — not a draft or a forecast.",
+    "source": {
+      "deck": "new 06",
+      "slide": 44
+    },
+    "difficulty": 1,
+    "tags": [
+      "baseline"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-018",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "How does the deck contrast a Gantt chart with a network diagram?",
+    "choices": [
+      "The Gantt chart shows dependencies; the network diagram shows calendar dates",
+      "The Gantt chart is hierarchical with no sequence; the network diagram is time-based",
+      "They are two names for the same chart",
+      "The Gantt chart communicates time; the network diagram is used to analyse logic"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The deck's own line is 'Gantt = communicate time. Network = analyze logic.' The hierarchical-with-no-sequence contrast belongs to WBS versus schedule, and saying the Gantt shows dependencies while the network shows dates reverses the two roles.",
+    "source": {
+      "deck": "new 06",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "gantt",
+      "network-diagram"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-019",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The critical path is:",
+    "choices": [
+      "The path through the network containing the most activities",
+      "The longest sequence of dependent tasks",
+      "The shortest route from start to finish",
+      "The sequence of activities with the greatest float"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Longest in total duration, not in number of boxes — a two-activity path can be critical if its durations are large. The critical path is also the one with zero float, never the greatest float.",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "cpm",
+      "critical-path"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-020",
+    "topic": "schedule-cost",
+    "type": "tf",
+    "stem": "A delay to an activity on the critical path delays the whole project.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "True — critical activities have zero float, so there is no slack to absorb a delay and the project finish moves out day for day.",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "cpm",
+      "critical-path"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-021",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In the Activity-On-Node box the deck uses, what are the three cells of the TOP row, left to right?",
+    "choices": [
+      "Latest Start | Float | Latest Finish",
+      "Earliest Start | Duration | Earliest Finish",
+      "Earliest Start | Float | Earliest Finish",
+      "Duration | Activity label | Float"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Top row is ES | Duration | EF; the middle row holds the activity label and the bottom row is LS | Float | LF. Putting Float in the top row is the usual slip — float belongs at the bottom, between LS and LF.",
+    "source": {
+      "deck": "new 06",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "aon"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-022",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In the same Activity-On-Node box, what are the three cells of the BOTTOM row, left to right?",
+    "choices": [
+      "Earliest Start | Duration | Earliest Finish",
+      "Latest Finish | Float | Latest Start",
+      "Latest Start | Float | Latest Finish",
+      "Latest Start | Duration | Latest Finish"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Bottom row is LS | Float | LF, mirroring ES | Duration | EF above it. Option 1 reverses LS and LF, which would make LF appear smaller than LS — impossible.",
+    "source": {
+      "deck": "new 06",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "aon"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-023",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "An activity has ES = 4 and a duration of 7 days. What is its EF?",
+    "choices": [
+      "3",
+      "7",
+      "11",
+      "28"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "EF = ES + Duration = 4 + 7 = 11. Subtracting (giving 3) is the backward-pass formula LS = LF − Duration applied in the wrong direction.",
+    "source": {
+      "deck": "new 06",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "forward-pass",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-024",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck defines float (slack) as:",
+    "choices": [
+      "The amount of time an activity can be delayed without delaying project completion",
+      "The waiting time deliberately scheduled between two activities",
+      "The difference between an activity's effort and its duration",
+      "The spare capacity a resource has left in a working day"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Float is schedule slack on an activity. Option 1 is a lag, which is planned in deliberately, whereas float is a by-product of the network's logic; option 3 is resource over-allocation.",
+    "source": {
+      "deck": "new 06",
+      "slide": 28
+    },
+    "difficulty": 1,
+    "tags": [
+      "cpm",
+      "float"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-025",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "An activity has ES = 4 and LS = 9. What is its total float?",
+    "choices": [
+      "0 days",
+      "4 days",
+      "5 days",
+      "9 days"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Total float = LS − ES = 9 − 4 = 5. Only an activity with float 0 is critical, so this one is not on the critical path.",
+    "source": {
+      "deck": "new 06",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "float",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-026",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "An activity has EF = 16 and LF = 20. What is its total float, and is it critical?",
+    "choices": [
+      "4 days; it is not critical",
+      "4 days; it is critical",
+      "36 days; it is not critical",
+      "0 days; it is critical"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Total float = LF − EF = 20 − 16 = 4, which gives the same answer as LS − ES. Any non-zero float means the activity is off the critical path.",
+    "source": {
+      "deck": "new 06",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "float",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-027",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Which property identifies a critical activity?",
+    "choices": [
+      "Its total float is zero",
+      "It has the longest duration in the project",
+      "It consumes the most resources",
+      "It has the largest total float"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Criticality is defined by float = 0, not by size, cost or resource load. A long or expensive activity can sit on a non-critical path with plenty of float.",
+    "source": {
+      "deck": "new 06",
+      "slide": 28
+    },
+    "difficulty": 1,
+    "tags": [
+      "cpm",
+      "float",
+      "critical-path"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-028",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "What is the order of the four CPM steps in the deck?",
+    "choices": [
+      "Backward pass → forward pass → critical path identification → float calculation",
+      "Forward pass → backward pass → float calculation → critical path identification",
+      "Float calculation → forward pass → backward pass → critical path identification",
+      "Forward pass → float calculation → backward pass → critical path identification"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "You need earliest times before latest times, and both before float can be computed; the critical path then falls out as the chain with float = 0. Float cannot be calculated before the backward pass because it needs LS or LF.",
+    "source": {
+      "deck": "new 06",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "method"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-029",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Activity H has two predecessors: C with EF = 9 and D with EF = 8. In the forward pass, what is H's ES?",
+    "choices": [
+      "8 — take the earliest predecessor finish",
+      "17 — add the predecessor finishes together",
+      "9 — take the latest predecessor finish",
+      "8.5 — take the average of the predecessor finishes"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "At a merge the forward pass takes the MAXIMUM EF of all predecessors, because H cannot start until every predecessor is finished. Taking the minimum is the single commonest CPM error — that is the backward-pass rule.",
+    "source": {
+      "deck": "new 06",
+      "slide": 29
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "forward-pass",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-030",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Activity B feeds two successors, whose latest starts are LS(D) = 7 and LS(E) = 5. In the backward pass, what is B's LF?",
+    "choices": [
+      "7 — take the later of the two",
+      "5 — take the earlier of the two",
+      "12 — add the two together",
+      "6 — take the average of the two"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "At a burst the backward pass takes the MINIMUM LS of the successors: B must be finished in time for the tightest successor, E. Taking the later value (7) would make E start late and push the project out.",
+    "source": {
+      "deck": "new 06",
+      "slide": 29
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "backward-pass",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-031",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The deck's CPM example is: START → A(6), B(4), F(10); A → C(3); B → D(4) and B → E(3); C → H(2) and D → H(2); E → G(3) and F → G(3); H and G → FINISH. What is the critical path and the project duration?",
+    "choices": [
+      "START–A–C–H–FINISH, 11 days",
+      "START–B–D–H–FINISH, 10 days",
+      "START–B–E–G–FINISH, 10 days",
+      "START–F–G–FINISH, 13 days"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The four paths total A–C–H = 6+3+2 = 11, B–D–H = 4+4+2 = 10, B–E–G = 4+3+3 = 10 and F–G = 10+3 = 13. The longest wins, so the project takes 13 days even though the critical path holds only two activities.",
+    "source": {
+      "deck": "new 06",
+      "slide": 30
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "critical-path",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-032",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In that same network (project duration 13 days), what is the total float of activity B?",
+    "choices": [
+      "0 days",
+      "2 days",
+      "3 days",
+      "4 days"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "B runs ES 0 to EF 4. Its successors D and E both have LS = 7, so LF(B) = 7 and LS(B) = 7 − 4 = 3; float = LS − ES = 3. The 2-day answer is activity A's float, on a different chain.",
+    "source": {
+      "deck": "new 06",
+      "slide": 30
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "float",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-033",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In that same network, what is the ES of activity H?",
+    "choices": [
+      "6",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "H merges C (EF = 6 + 3 = 9) and D (EF = 4 + 4 = 8); the forward pass takes the larger, so ES(H) = 9 and EF(H) = 11. Answering 8 applies the backward-pass minimum rule by mistake.",
+    "source": {
+      "deck": "new 06",
+      "slide": 30
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "forward-pass",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-034",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "In that same 13-day network, activity A overruns and takes 9 days instead of 6. By how much does the project finish late?",
+    "choices": [
+      "Not at all — A is not on the critical path",
+      "1 day",
+      "2 days",
+      "3 days"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A has 2 days of float, so the first 2 days of overrun are absorbed; the third day pushes path A–C–H to 9 + 3 + 2 = 14, one day beyond the 13-day critical path. 'Not at all' is the trap — float protects an activity only up to the size of the float.",
+    "source": {
+      "deck": "new 06",
+      "slide": 30
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "float",
+      "computation",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-035",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "The network on slide 26 is: Start → A(2) and B(4); A → C(5) and A → D(7); B → D; D → E(3); C and E → Finish. What is the critical path?",
+    "choices": [
+      "Start–A–C–Finish, 7 days",
+      "Start–B–D–Finish, 11 days",
+      "Start–A–D–E–Finish, 12 days",
+      "Start–B–D–E–Finish, 14 days"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Path totals are A–C = 7, A–D–E = 2+7+3 = 12 and B–D–E = 4+7+3 = 14, so 14 days is the critical path. Start–B–D–Finish is not even a complete path — D feeds E, and only E reaches Finish.",
+    "source": {
+      "deck": "new 06",
+      "slide": 26
+    },
+    "difficulty": 3,
+    "tags": [
+      "cpm",
+      "critical-path",
+      "computation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sc-036",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Which activities should the project manager watch most closely, according to the deck?",
+    "choices": [
+      "The activities with the largest float, because they are easiest to forget",
+      "Critical activities first, then near-critical activities, then those with larger float",
+      "The longest activities, in descending order of duration",
+      "The most expensive activities, in descending order of cost"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Attention follows float: highest attention to critical activities (float 0), some flexibility for near-critical ones, greater flexibility where float is larger. Duration and cost do not determine schedule risk.",
+    "source": {
+      "deck": "new 06",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "cpm",
+      "float",
+      "control"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-037",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Resource planning determines:",
+    "choices": [
+      "What resources are required, when they are needed, and whether they are available",
+      "How much the project will cost in total and who approves the budget",
+      "Which deliverables the customer will formally accept",
+      "How one activity affects the timing of another activity"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Its five steps run activity → resource requirement → availability → assignment → feasible schedule. Option 1 is cost planning and option 3 is a dependency.",
+    "source": {
+      "deck": "new 06",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "resources"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-038",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "A developer has a capacity of 8 hours per day and is assigned 6 hours on Project A and 5 hours on Project B on the same day. What is the over-allocation?",
+    "choices": [
+      "1 hour",
+      "2 hours",
+      "3 hours",
+      "11 hours"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Assigned 6 + 5 = 11 hours against 8 hours of capacity, so the over-allocation is 11 − 8 = 3 hours. 11 hours is the total assignment, not the excess.",
+    "source": {
+      "deck": "new 06",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "resources",
+      "computation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-039",
+    "topic": "schedule-cost",
+    "type": "multi",
+    "stem": "Select all of the actions the deck lists as ways of resolving an over-allocation through resource leveling.",
+    "choices": [
+      "Delay an activity",
+      "Reduce the project scope without approval",
+      "Add capacity",
+      "Outsource the work",
+      "Re-baseline the cost estimate"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "The deck's leveling options are reassign work, delay an activity, change sequence, add capacity and outsource. Cutting scope without approval and re-baselining costs are not leveling actions — leveling adjusts how work is staffed and sequenced, not what is delivered.",
+    "source": {
+      "deck": "new 06",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "resources",
+      "leveling"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-040",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "What is the order of the deck's five cost planning steps?",
+    "choices": [
+      "Aggregate → estimate → approve → add reserves → baseline",
+      "Estimate → aggregate → add reserves → approve → baseline",
+      "Estimate → approve → aggregate → baseline → add reserves",
+      "Baseline → estimate → aggregate → add reserves → approve"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Estimate activity costs, combine them, add contingency reserves, obtain approval, then create the cost baseline. The baseline is the last step because it is the approved reference, not a starting point.",
+    "source": {
+      "deck": "new 06",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "cost",
+      "process"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-041",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "A project pays rent, utilities and insurance on the office where the team works. How does the deck classify this cost?",
+    "choices": [
+      "A direct cost, because the team occupies the office",
+      "An indirect cost, because it supports the project but is not tied to a single deliverable",
+      "A contingency reserve, because the amount can vary",
+      "A management reserve, because it is outside the cost baseline"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Overhead such as rent and utilities is an indirect cost — it keeps the organisation running rather than building a deliverable. Direct costs are labour, materials, equipment and subcontractors that can be traced directly to the project.",
+    "source": {
+      "deck": "new 06",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "cost",
+      "direct-indirect",
+      "scenario"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-042",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "A PM costs a new house by multiplying the number of square feet, kitchens and bathrooms by standard unit rates. Which estimating method is this?",
+    "choices": [
+      "Parametric estimate",
+      "Analogous estimate",
+      "Bottom-up estimate",
+      "Three-point estimate"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Parametric estimating is rate × quantity against a measurable parameter. An analogous estimate would instead take the whole cost of a similar past project, and a bottom-up estimate would price each task individually and add them up.",
+    "source": {
+      "deck": "new 06",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "cost",
+      "estimating"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-043",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "A task is estimated as best case ฿20,000, most likely ฿30,000 and worst case ฿70,000. Using the deck's three-point formula, what is the expected cost?",
+    "choices": [
+      "฿30,000",
+      "฿35,000",
+      "฿40,000",
+      "฿120,000"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "CE = (Co + 4Cm + Cp) / 6 = (20,000 + 120,000 + 70,000) / 6 = 210,000 / 6 = ฿35,000. ฿40,000 is the plain average of the three figures, which ignores the weight of 4 on the most likely case.",
+    "source": {
+      "deck": "new 06",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "cost",
+      "estimating",
+      "computation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-044",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Design takes 40 h of a designer at ฿1,500/h, Develop takes 100 h of a developer at ฿2,000/h, and Test takes 30 h of a tester at ฿1,000/h. What is the total estimated cost?",
+    "choices": [
+      "฿170,000",
+      "฿260,000",
+      "฿290,000",
+      "฿350,000"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "60,000 + 200,000 + 30,000 = ฿290,000. ฿260,000 drops the Test line; this is bottom-up estimating, where each item is priced as rate × quantity and the results are added.",
+    "source": {
+      "deck": "new 06",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "cost",
+      "estimating",
+      "computation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sc-045",
+    "topic": "schedule-cost",
+    "type": "mcq",
+    "stem": "Which statement about the cost baseline is correct?",
+    "choices": [
+      "It is the approved expenditure plan over time; the project budget adds the management reserve on top",
+      "It is the project budget including the management reserve",
+      "It is the cost estimate before any reserves are added",
+      "It is the actual money spent to date, tracked week by week"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The build-up runs activity estimates → work packages → control accounts → cost baseline, and only then + management reserve = project budget. The baseline shows how planned expenditure accumulates over time, so it is a plan, not a record of actuals.",
+    "source": {
+      "deck": "new 06",
+      "slide": 43
+    },
+    "difficulty": 3,
+    "tags": [
+      "cost",
+      "baseline"
+    ],
+    "examFocus": false
+  }
+]

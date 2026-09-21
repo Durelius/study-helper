@@ -1,0 +1,7 @@
+node_modules/
+dist/chulavaluechain
+server
+*.db
+*.db-wal
+*.db-shm
+.DS_Store

@@ -1,0 +1,573 @@
+[
+  {
+    "id": "bpm-001",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Operations design is described along four dimensions. Which one answers the question \"Where do delays or constraints happen?\"",
+    "choices": ["Process", "Capacity", "Flow", "Bottlenecks"],
+    "answer": [3],
+    "explanation": "Bottlenecks is the dimension about delays and constraints. Flow is the adjacent trap: it asks how work moves through the system (fast, smooth, slow), not where it gets stuck.",
+    "source": { "deck": "old 02", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["operations-design", "four-dimensions"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-002",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "\"How much can we produce in a given time?\" is the question answered by which dimension of operations design?",
+    "choices": ["Flow", "Capacity", "Process", "Bottlenecks"],
+    "answer": [1],
+    "explanation": "Capacity is about volume per unit of time. Process is the adjacent trap: it asks what sequence of activities transforms inputs into outputs, not how much of it fits in a day.",
+    "source": { "deck": "old 02", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["operations-design", "four-dimensions"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-003",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "An oil refinery runs 24/7 at high efficiency with no product variety. Which process type is this?",
+    "choices": ["Batch", "Flow/Line", "Continuous", "Job shop"],
+    "answer": [2],
+    "explanation": "Continuous is the deck's oil-refinery example: 24/7, high efficiency. Flow/Line is the adjacent trap — it is also high volume and standardized, but it is an assembly line producing discrete units, not an uninterrupted flow.",
+    "source": { "deck": "old 02", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["process-types"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-004",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A tailor shop makes custom garments to each client's measurements in small batches. Which process type is this?",
+    "choices": ["Project", "Job shop", "Batch", "Flow/Line"],
+    "answer": [1],
+    "explanation": "Job shop = custom work in small batches, the deck's tailor-shop example. Project is the trap: a project is unique and one-time (construction), whereas a tailor shop repeats the same kind of custom work again and again.",
+    "source": { "deck": "old 02", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["process-types"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-005",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A bakery produces the same bread and pastries in medium volume, repeated every day. Which process type is this?",
+    "choices": ["Continuous", "Job shop", "Flow/Line", "Batch"],
+    "answer": [3],
+    "explanation": "Batch = medium volume, repeated, the deck's bakery example. Flow/Line is the trap: that is high volume and fully standardized, a step further along than a bakery's repeated batches.",
+    "source": { "deck": "old 02", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["process-types"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-006",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Which process type does the deck characterise as \"unique, one-time\", with construction as its example?",
+    "choices": ["Project", "Job shop", "Batch", "Flow/Line"],
+    "answer": [0],
+    "explanation": "Project = unique, one-time. Job shop is the adjacent trap: job-shop work is custom but repeated, while a project is run once and does not recur.",
+    "source": { "deck": "old 02", "slide": 5 },
+    "difficulty": 1,
+    "tags": ["process-types"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-007",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Which set names the four core elements of BPMN?",
+    "choices": [
+      "Pool, lane, artifact, data object",
+      "Task, sub-process, message, association",
+      "Activity/task, event, flow, gateway",
+      "Start event, intermediate event, end event, gateway"
+    ],
+    "answer": [2],
+    "explanation": "The four core elements are activity/task (rounded rectangle), event (circle), flow (arrow) and gateway (diamond). Pools and lanes organise these elements but are swimlanes, not one of the four core families.",
+    "source": { "deck": "old 02", "slide": 10 },
+    "difficulty": 1,
+    "tags": ["bpmn", "elements"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-008",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "In BPMN, what distinguishes a sub-process from a task?",
+    "choices": [
+      "A task is drawn as a diamond and a sub-process as a rounded rectangle",
+      "A task is atomic; a sub-process is compound and expands into a process of its own, shown by a + marker",
+      "A task must sit in a lane; a sub-process must sit in its own pool",
+      "A task is compound; a sub-process is the single smallest unit of work"
+    ],
+    "answer": [1],
+    "explanation": "Activities come in two kinds: the atomic task and the compound sub-process, marked with a + and expandable into its own process with its own start and end events. Both are drawn as rounded rectangles — diamonds are gateways.",
+    "source": { "deck": "old 02", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["bpmn", "activity"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-009",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Which label follows the deck's naming convention for an activity?",
+    "choices": ["Order confirmation", "Confirm the order", "Order confirmed", "Is the order confirmed?"],
+    "answer": [1],
+    "explanation": "Activity names are \"do something\" — a verb plus an object. \"Order confirmed\" is the trap: that is the convention for an event name (\"something done\"), not an activity.",
+    "source": { "deck": "old 02", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["bpmn", "activity", "naming"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-010",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Which label follows the deck's naming convention for an event?",
+    "choices": ["Receive the order", "Order received", "Receiving the order", "Order?"],
+    "answer": [1],
+    "explanation": "Event names are \"something done\" — the deck's own examples are Order Received, Invoice handled and PO Fulfilled. \"Receive the order\" is verb + object, which is the activity convention.",
+    "source": { "deck": "old 02", "slide": 13 },
+    "difficulty": 1,
+    "tags": ["bpmn", "event", "naming"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-011",
+    "topic": "process-mapping",
+    "type": "tf",
+    "stem": "Every BPMN process must have at least one start event and at least one end event.",
+    "choices": ["True", "False"],
+    "answer": [0],
+    "explanation": "The rule is \"at least a start and an end event for each process\". Note the wording: at least one — a model may legitimately have several end events, for example one per outcome of a decision.",
+    "source": { "deck": "old 02", "slide": 13 },
+    "difficulty": 1,
+    "tags": ["bpmn", "event"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-012",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "In the Company A example the flow runs: start event \"Order Received\" to \"Prepare Order\" to \"Deliver Order\", then a double-bordered circle containing a clock marked \"2 weeks\", then the end event \"Order Completed\". What is the role of that double-bordered circle?",
+    "choices": [
+      "It starts a second, parallel instance of the process",
+      "It is a gateway that decides whether to continue",
+      "It is an intermediate timer event that interrupts the flow for two weeks before the process ends",
+      "It is a sub-process that repeats every two weeks"
+    ],
+    "answer": [2],
+    "explanation": "An event is a trigger or a result that can start, interrupt or end a flow; the double border marks it as intermediate and the clock marks it as a timer. Gateways are diamonds, never circles.",
+    "source": { "deck": "old 02", "slide": 12 },
+    "difficulty": 2,
+    "tags": ["bpmn", "event"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-013",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A process finishes by sending a message to another participant. Which notation does the deck use?",
+    "choices": [
+      "A thick-bordered end-event circle containing a filled (dark) envelope",
+      "A thin-bordered start-event circle containing an open envelope",
+      "A double-bordered circle containing a clock",
+      "A diamond containing an envelope"
+    ],
+    "answer": [0],
+    "explanation": "\"Message sent\" is an end event: thick border, filled envelope. The open envelope in a thin-bordered circle is the opposite case — \"message received\" as a start event.",
+    "source": { "deck": "old 02", "slide": 12 },
+    "difficulty": 2,
+    "tags": ["bpmn", "event", "message"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-014",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "What is a gateway used for in BPMN?",
+    "choices": [
+      "To show the exchange of messages between two pools",
+      "To group activities by the department that performs them",
+      "To record how long an activity takes",
+      "To control how sequence flows converge and diverge within a process"
+    ],
+    "answer": [3],
+    "explanation": "A gateway represents control over converging and diverging sequence flows — and so, if the flow does not need to be controlled, no gateway is needed. Messages between pools are message flows; grouping by department is what lanes do.",
+    "source": { "deck": "old 02", "slide": 14 },
+    "difficulty": 1,
+    "tags": ["bpmn", "gateway"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-015",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "After \"Proceed to security check\", an AND gateway sends the token to both \"Pass security screening\" and \"Pass luggage screening\", which then meet at a second AND gateway. When does the flow continue past that AND join?",
+    "choices": [
+      "As soon as any one incoming branch has completed",
+      "When all incoming branches have completed",
+      "When all branches that were actually activated have completed",
+      "Immediately, without waiting for either branch"
+    ],
+    "answer": [1],
+    "explanation": "A parallel (AND) join proceeds when all incoming branches have completed. \"All active incoming branches\" is the OR-join wording, and \"any one branch\" is the XOR-join wording.",
+    "source": { "deck": "old 02", "slide": 18 },
+    "difficulty": 2,
+    "tags": ["bpmn", "gateway", "and"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-016",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "An order may contain Amsterdam products, Hamburg products, or both, so an OR split forwards a sub-order to one or both warehouses. When does the matching OR join let the flow proceed to \"Register order\"?",
+    "choices": [
+      "When both warehouse branches have completed, whether or not both were taken",
+      "When exactly one warehouse branch has completed",
+      "When all active incoming branches have completed",
+      "As soon as the first warehouse branch completes"
+    ],
+    "answer": [2],
+    "explanation": "An inclusive merge waits only for the branches that were actually activated; waiting for both regardless would deadlock the single-warehouse case. Waiting for all incoming branches is the AND join, and proceeding on one is the XOR join.",
+    "source": { "deck": "old 02", "slide": 18 },
+    "difficulty": 3,
+    "tags": ["bpmn", "gateway", "or"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-017",
+    "topic": "process-mapping",
+    "type": "multi",
+    "stem": "Select all of the deck's guidelines for using gateways.",
+    "choices": [
+      "Use XOR or AND rather than OR",
+      "Use gateways as a pair",
+      "Every gateway must be labelled with a question",
+      "Each gateway is either \"1 in, multiple out\" or \"multiple in, 1 out\"",
+      "A gateway may combine multiple incoming and multiple outgoing flows to save space"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "The three guidelines are: prefer XOR or AND over OR, use gateways as a pair (every split gets a matching join), and keep each gateway to one-in/many-out or many-in/one-out. \"Multiple in, multiple out\" is explicitly the forbidden case, and there is no rule requiring a question as a label.",
+    "source": { "deck": "old 02", "slide": 19 },
+    "difficulty": 2,
+    "tags": ["bpmn", "gateway", "guidelines"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-018",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Which connecting object shows the order of activities within the same process or pool?",
+    "choices": ["Message flow", "Association", "Sequence flow", "Lane divider"],
+    "answer": [2],
+    "explanation": "A sequence flow (solid line, filled arrowhead) orders work inside one pool. A message flow (dashed) is for exchanges between pools, and an association (dotted) carries no execution order at all.",
+    "source": { "deck": "old 02", "slide": 20 },
+    "difficulty": 1,
+    "tags": ["bpmn", "connecting-objects"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-019",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "What does an association flow do?",
+    "choices": [
+      "Shows the order in which two activities are executed",
+      "Carries a message from one pool to another",
+      "Marks the boundary of a black-box pool",
+      "Links artifacts such as text annotations and data objects to flow objects, without affecting execution order"
+    ],
+    "answer": [3],
+    "explanation": "An association attaches an artifact to a flow object and has no effect on execution order. The trap is treating it as a weaker sequence flow — it does not sequence anything.",
+    "source": { "deck": "old 02", "slide": 20 },
+    "difficulty": 2,
+    "tags": ["bpmn", "connecting-objects", "association"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-020",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "How does BPMN distinguish a pool from a lane?",
+    "choices": [
+      "A pool is a participant or organisation; a lane is a function, department, sub-division or actor role within that pool",
+      "A pool is a department; a lane is the company that owns it",
+      "A pool holds only events; a lane holds only activities",
+      "A pool is used for message flows; a lane is used for sequence flows"
+    ],
+    "answer": [0],
+    "explanation": "Swimlanes come in two types: the pool is the participant/organisation, the lane is the role or function inside it. The hierarchy runs pool then lane, so the second option inverts it.",
+    "source": { "deck": "old 02", "slide": 21 },
+    "difficulty": 1,
+    "tags": ["bpmn", "pool", "lane"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-021",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Little's Law, as stated in the deck, is:",
+    "choices": [
+      "Flow Time = Inventory (WIP) x Throughput Rate",
+      "Inventory (WIP) = Throughput Rate x Flow Time",
+      "Throughput Rate = Inventory (WIP) x Flow Time",
+      "Inventory (WIP) = Flow Time / Throughput Rate"
+    ],
+    "answer": [1],
+    "explanation": "WIP = throughput rate x flow time: the work in the system is how fast things flow multiplied by how long they stay. The other forms are the same three terms rearranged wrongly.",
+    "source": { "deck": "old 02", "slide": 28 },
+    "difficulty": 1,
+    "tags": ["littles-law"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-022",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A cafe produces 3 drinks per minute and a drink spends on average 2 minutes in the system from order to pickup. How many drinks are in process (WIP)?",
+    "choices": ["1.5 drinks", "5 drinks", "6 drinks", "0.67 drinks"],
+    "answer": [2],
+    "explanation": "WIP = throughput x flow time = 3 drinks/min x 2 min = 6 drinks, the deck's own numbers. 1.5 comes from dividing instead of multiplying, and 5 from adding the two figures.",
+    "source": { "deck": "old 02", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["littles-law", "calculation"],
+    "examFocus": false
+  },
+  {
+    "id": "bpm-023",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "\"Barista working 80% of the shift\" is the deck's example of which process KPI?",
+    "choices": ["Cycle time", "Utilization", "Throughput rate", "Wait time"],
+    "answer": [1],
+    "explanation": "Utilization is the percentage of a resource that is used. Throughput rate is the adjacent trap: that is output per unit time (30 drinks/hour), not how busy the resource was.",
+    "source": { "deck": "old 02", "slide": 31 },
+    "difficulty": 1,
+    "tags": ["kpi"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-024",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A model in one lane has a start event, then \"Check stock\", then an AND split. One branch runs \"Reserve the items\" and the other runs \"Notify the warehouse\"; each branch then runs straight into its own separate end event, and no gateway brings them back together. Which modelling rule is broken?",
+    "choices": [
+      "A process may have only one end event",
+      "An AND gateway may not be used to split into exactly two branches",
+      "Gateways must be used as a pair — this AND split has no matching join",
+      "The two branches must be placed in two different lanes"
+    ],
+    "answer": [2],
+    "explanation": "The guideline is \"use gateways as a pair\": every split needs a matching join of the same type. Multiple end events are the tempting wrong answer, but the rule is only that a process needs at least one start and at least one end event.",
+    "source": { "deck": "old 02", "slide": 19 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "gateway", "pairing"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-025",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "In \"Process 6\" a single XOR gateway receives three incoming sequence flows, from Task 3, Task 4 and Task 5, and has two outgoing sequence flows, to Task 6 and Task 7. Which rule does this break?",
+    "choices": [
+      "An XOR gateway may have at most two outgoing flows",
+      "Each gateway must be either \"1 in, multiple out\" or \"multiple in, 1 out\" — never \"multiple in, multiple out\"",
+      "Task 6 and Task 7 must be placed in different lanes",
+      "A gateway that merges three branches must be an OR gateway"
+    ],
+    "answer": [1],
+    "explanation": "This is the deck's own rejected example: a gateway may fan out or fan in, but not both. The fix is two gateways in sequence — a multiple-in/one-out join followed by a one-in/multiple-out split.",
+    "source": { "deck": "old 02", "slide": 19 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "gateway", "fan"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-026",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A pool named \"Process 2\" has two lanes, Manager and Staff. The start event, \"Check Application\" and the XOR gateway \"Accept?\" sit inside the Manager lane, and \"Write a Rejection Letter\" sits inside the Staff lane. \"Write an Acceptance Letter\", however, is drawn straddling the dividing line between the two lanes. Which rule does this break?",
+    "choices": [
+      "Sequence flows must never cross a lane boundary",
+      "Each lane must contain at least one end event",
+      "A gateway must sit in the same lane as the activity that follows it",
+      "Activities must sit inside a lane"
+    ],
+    "answer": [3],
+    "explanation": "\"Activities need to be in a lane\" — an activity drawn on the boundary belongs to no role, so the model does not say who does the work. Sequence flows crossing lanes is fine: they may not cross pool boundaries, but lanes are inside one pool.",
+    "source": { "deck": "old 02", "slide": 23 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "lane", "activity"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-027",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "In a travel model, an OR split sends the flow to a task called \"Manage Booking\" in the Ticket Sales lane and to a second task, also called \"Manage Booking\", in the Hotel Sales lane; an OR join then leads to \"Send Confirmation Letter to Customer\". What is the error?",
+    "choices": [
+      "Activity names must be unique",
+      "A split may not feed activities that sit in two different lanes",
+      "\"Manage Booking\" does not follow the verb-plus-object naming convention",
+      "An OR gateway may not be used when both branches are taken"
+    ],
+    "answer": [0],
+    "explanation": "\"Manage Booking\" is a perfectly good verb-plus-object name, but the rule is a unique activity name — two boxes with the same label cannot be told apart. Rename them \"Manage Ticket Booking\" and \"Manage Hotel Booking\".",
+    "source": { "deck": "old 02", "slide": 11 },
+    "difficulty": 3,
+    "tags": ["spot-the-error", "activity", "naming"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-028",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A task box in the Finance lane is labelled \"Invoice Approval\". Everything else in the model is correct. What should be changed?",
+    "choices": [
+      "Rename it \"Invoice approved\", because activity names describe a completed state",
+      "Convert it into an intermediate event, because approval is something that happens",
+      "Rename it \"Approve the invoice\", because activity names are \"do something\" — verb plus object",
+      "Move it out of the Finance lane, because an approval is a decision and belongs on a gateway"
+    ],
+    "answer": [2],
+    "explanation": "Activities are named \"do something\". \"Invoice approved\" is the trap: \"something done\" is the naming convention for events, not activities.",
+    "source": { "deck": "old 02", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "activity", "naming"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-029",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A pool named \"Company A\" contains exactly two elements: \"Prepare Order\" and \"Deliver Order\", joined by a sequence flow. Both tasks are inside a lane and both are correctly named. What is wrong with this model?",
+    "choices": [
+      "A gateway is missing between the two tasks",
+      "It has no start event and no end event",
+      "It needs a second lane for the delivery department",
+      "It needs a message flow to a customer pool"
+    ],
+    "answer": [1],
+    "explanation": "This is the deck's rejected example for the rule \"at least a start and an end event for each process\". A gateway is not required — a gateway is only needed where the flow must be controlled.",
+    "source": { "deck": "old 02", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "event"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-030",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A model finishes with a thick-bordered circle containing a filled envelope, which sends a message to the customer pool. The circle is labelled \"Send the confirmation\". Everything else is correct. What is wrong?",
+    "choices": [
+      "An end event may not send a message; a task must do that",
+      "End events may not carry a label at all",
+      "It should be a start event, because it carries an envelope",
+      "Event names should read \"something done\" — it should be \"Confirmation sent\""
+    ],
+    "answer": [3],
+    "explanation": "A thick border with a filled envelope is exactly the \"message sent\" end event, so the notation is right; only the name breaks the rule that events are named \"something done\". \"Send the confirmation\" is the activity convention.",
+    "source": { "deck": "old 02", "slide": 13 },
+    "difficulty": 3,
+    "tags": ["spot-the-error", "event", "naming"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-031",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A model has two pools, \"Retailer\" and \"Supplier\". The modeller draws a solid line with a filled arrowhead from \"Send the order\" in the Retailer pool to \"Receive the order\" in the Supplier pool. Which rule does this break?",
+    "choices": [
+      "Sequence flows stay within a pool — a link between two pools must be a message flow",
+      "An association should have been used instead",
+      "The Supplier pool must be drawn as a black box",
+      "The two tasks should be merged into a single sub-process"
+    ],
+    "answer": [0],
+    "explanation": "A solid filled arrow is a sequence flow, and sequence flows are confined to one pool; anything crossing a pool boundary is a dashed message flow. An association is only for artifacts and carries no order at all.",
+    "source": { "deck": "old 02", "slide": 23 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "sequence-flow", "pool"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-032",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "Inside the single pool \"Accounting\", the task \"Check invoice for mismatches\" is connected to the task \"Post invoice\" by a dashed line with an open arrowhead. Which rule does this break?",
+    "choices": [
+      "A dashed line may only connect two events",
+      "The two activities must first be placed in different lanes",
+      "Message flows go across pools — order of work inside one pool is a sequence flow",
+      "The dashed line is missing its condition label"
+    ],
+    "answer": [2],
+    "explanation": "A dashed line with an open arrowhead is a message flow, and message flows are for exchanges between pools. Within one pool the order of activities is always a solid sequence flow.",
+    "source": { "deck": "old 02", "slide": 23 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "message-flow", "pool"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-033",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "In the \"Any Errors?\" exercise, an XOR split after \"Request Membership Code\" has two outgoing sequence flows that carry no labels. One leads to a rounded box reading \"Customer has a Membership Code\" and the other to a rounded box reading \"Customer does not have a Membership Code\". What is the error?",
+    "choices": [
+      "An XOR split may not have exactly two outgoing branches",
+      "Those two boxes state conditions, not work — they belong as labels on the gateway's outgoing sequence flows",
+      "The two boxes should be drawn as intermediate events",
+      "The split should be an AND, because both cases have to be considered"
+    ],
+    "answer": [1],
+    "explanation": "Activities capture work and are named \"do something\"; a condition is not work. Compare the correct food-order model, where the branches are labelled \"Order includes Food\" and \"Order includes Beverage\" on the flows themselves.",
+    "source": { "deck": "old 02", "slide": 25 },
+    "difficulty": 3,
+    "tags": ["spot-the-error", "gateway", "activity", "exercise"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-034",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "To show that \"Approve loan\" is performed immediately after \"Check credit\", a modeller connects the two tasks with a dotted line. Which rule does this break?",
+    "choices": [
+      "Associations may only be drawn between two pools",
+      "\"Approve loan\" should have been modelled as a sub-process",
+      "Dotted lines may not be labelled",
+      "An association links artifacts to flow objects and carries no execution order; order of work needs a sequence flow"
+    ],
+    "answer": [3],
+    "explanation": "The dotted line is an association, which attaches artifacts such as text annotations or data objects and says nothing about sequence. Only a solid sequence flow states that one activity follows another.",
+    "source": { "deck": "old 02", "slide": 20 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "association"],
+    "examFocus": true
+  },
+  {
+    "id": "bpm-035",
+    "topic": "process-mapping",
+    "type": "mcq",
+    "stem": "A model presents the \"Customer\" pool as a black box, but the modeller has drawn two lanes inside it, \"Buyer\" and \"Payer\", and has run the message flows to those lanes rather than to the pool edge. Which rule does this break?",
+    "choices": [
+      "A black-box pool is an empty box with no flow objects and no lanes; its message flows link to the boundary",
+      "A pool may never contain more than one lane",
+      "Message flows may not be drawn to a customer pool",
+      "Every pool in a model must be shown as a white box"
+    ],
+    "answer": [0],
+    "explanation": "A black box hides all detail by definition, so lanes inside it contradict it and message flows attach to its boundary. A pool may of course have several lanes — the Order-to-Cash pool has four — but only when it is a white box.",
+    "source": { "deck": "old 02", "slide": 22 },
+    "difficulty": 2,
+    "tags": ["spot-the-error", "pool", "black-box"],
+    "examFocus": true
+  }
+]

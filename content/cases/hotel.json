@@ -1,0 +1,148 @@
+{
+  "id": "hotel",
+  "title": "Lotus Grand Hotels' digital transformation",
+  "topics": ["pm-foundations", "initiation", "schedule-cost"],
+  "scenario": "Lotus Grand Hotels, a group of 12 boutique properties across Thailand, is six weeks into its Digital Guest Experience project. Online travel agencies (OTAs) currently generate 70% of bookings and charge an 18% commission, and guests routinely wait 12 minutes at the front desk during check-in. COO Khun Ariya Suwannarat is sponsoring a project to build a direct booking engine, mobile check-in/check-out, in-room digital ordering and a guest feedback tool. She has appointed Nutchanon 'Nut' Charoensuk as project manager, approved a ฿3,000,000 budget, and set a target go-live at the flagship Sukhumvit property in 16 weeks. Nut's one-page charter names the business need (high OTA commissions, slow check-in), the objective (raise direct bookings and cut average check-in time), the high-level scope (booking engine, mobile check-in, in-room ordering, feedback tool), the sponsor and PM, the budget and 16-week target, and three major risks: low guest adoption of the mobile app, integration problems with the hotel's 8-year-old property management system (PMS), and staff resistance from front-desk teams who fear the new system threatens their jobs. Meanwhile, the daily work of checking guests in and out at the front desk, cleaning rooms and running the restaurant continues exactly as before — none of that ongoing work is part of the project.\n\nNut has broken the work into five activities. Selecting and contracting the technology vendor (A) takes 3 weeks and must finish before anything else can begin. Once the vendor is selected, configuring the booking engine and mobile check-in against the existing PMS (B) takes 6 weeks, running in parallel with training front-desk and housekeeping staff on the new workflows (C), which takes 4 weeks. Both B and C must finish before the flagship property can run a two-week pilot (D). Once the pilot finishes, the group-wide rollout to the other 11 properties (E) takes 5 weeks and closes the project.\n\nAt the steering committee meeting, the general manager of the Phuket property produced a competing breakdown for the plan: Level 1 'Digital Guest Experience Project,' Level 2 'Vendor Selection,' 'Booking Engine,' 'Pilot,' 'Group Rollout,' with Level 3 items under 'Booking Engine' listing 'Week 4: configure PMS interface' and 'Week 7: user acceptance testing' — dates attached to show exactly when each piece happens. The same GM also asked whether they could add a loyalty-points redemption feature to the mobile app before go-live, since 'it's just one more screen.' Ariya asked Nut to check whether the GM's breakdown was a valid WBS, and to decide how to handle the loyalty-points request, before either went into the plan.",
+  "questions": [
+    {
+      "id": "case-hotel-01",
+      "topic": "pm-foundations",
+      "type": "mcq",
+      "stem": "Every day, Lotus Grand's front-desk staff check guests in and out, clean rooms and run the restaurant exactly as before — none of it part of Nut's initiative. What best explains why this daily work is NOT part of the Digital Guest Experience project?",
+      "choices": [
+        "It is ongoing work that sustains the business rather than temporary work that changes it",
+        "It has a fixed end date, like the project does",
+        "It has an assigned budget, like the project does",
+        "It uses a temporary team, like the project does"
+      ],
+      "answer": [0],
+      "explanation": "Operations run the business; projects change the business. Daily check-in, cleaning and restaurant service are repetitive, ongoing activities with no defined end — the opposite of the project's temporary, unique, purposeful profile.",
+      "source": { "deck": "new 04", "slide": 11 },
+      "difficulty": 2,
+      "tags": ["project-vs-operations", "pm-foundations"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-02",
+      "topic": "pm-foundations",
+      "type": "mcq",
+      "stem": "Selecting and signing a contract with the outside technology vendor for the booking-engine software falls under which PMBOK knowledge area?",
+      "choices": ["Resource Management", "Procurement Management", "Integration Management", "Scope Management"],
+      "answer": [1],
+      "explanation": "Contracting an external vendor is Procurement Management. Resource Management covers getting people from inside the organisation — like assigning front-desk staff to training — not contracting outside suppliers.",
+      "source": { "deck": "new 04", "slide": 30 },
+      "difficulty": 2,
+      "tags": ["knowledge-areas", "procurement", "pm-foundations"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-03",
+      "topic": "initiation",
+      "type": "mcq",
+      "stem": "Which of the following would NOT belong in the one-page project charter Nut circulated?",
+      "choices": [
+        "The ฿3,000,000 budget and 16-week target",
+        "The three major risks: adoption, PMS integration, staff resistance",
+        "A day-by-day task list of who configures each PMS field and when",
+        "The sponsor's and PM's names"
+      ],
+      "answer": [2],
+      "explanation": "A charter holds high-level scope, sponsor/PM, milestones, budget and major risks — not detailed task-level work. A day-by-day configuration task list belongs in the detailed plan and schedule, built later, not the charter.",
+      "source": { "deck": "new 05", "slide": 10 },
+      "difficulty": 2,
+      "tags": ["charter", "initiation"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-04",
+      "topic": "initiation",
+      "type": "mcq",
+      "stem": "The Phuket GM's competing breakdown attaches dates to its Level 3 items — 'Week 4: configure PMS interface,' 'Week 7: user acceptance testing.' What is wrong with treating this as a valid WBS?",
+      "choices": [
+        "Nothing — a WBS should show when each work package happens",
+        "It is invalid because it has only three levels",
+        "It is invalid because it omits the vendor-selection deliverable",
+        "A WBS is a hierarchical decomposition of scope and carries no sequence or timing; those dates belong in the schedule"
+      ],
+      "answer": [3],
+      "explanation": "The WBS breaks down scope into deliverables and work packages — it carries no sequence or dates. Attaching 'Week 4' and 'Week 7' to work packages is scheduling, a separate, later step built from the WBS, not part of it.",
+      "source": { "deck": "new 05", "slide": 29 },
+      "difficulty": 3,
+      "tags": ["wbs", "initiation"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-05",
+      "topic": "initiation",
+      "type": "mcq",
+      "stem": "The Phuket GM asks Nut to add a loyalty-points redemption feature to the mobile app before go-live because 'it's just one more screen.' Per the deck's guidance, what should Nut do?",
+      "choices": [
+        "Assess the impact on scope, schedule, cost and risk, then approve, defer or reject the request",
+        "Add it immediately since the request came from a general manager",
+        "Refuse outright and close the discussion",
+        "Add it but keep it off the record since it is a small change"
+      ],
+      "answer": [0],
+      "explanation": "Good project management doesn't refuse outright or auto-accept — it controls change: assess the impact on scope/schedule/cost/risk, then formally approve, defer or reject. Adding it immediately because 'it's just one screen' is exactly how scope creep starts.",
+      "source": { "deck": "new 05", "slide": 27 },
+      "difficulty": 2,
+      "tags": ["scope-creep", "initiation"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-06",
+      "topic": "schedule-cost",
+      "type": "mcq",
+      "stem": "Using A = 3 weeks (vendor selection), B = 6 weeks (configure booking engine, after A), C = 4 weeks (train staff, after A, parallel with B), D = 2 weeks (pilot, after both B and C), E = 5 weeks (rollout, after D) — what is the length of the critical path, and which activities are on it?",
+      "choices": [
+        "13 weeks: A-C-D-E",
+        "16 weeks: A-B-D-E",
+        "20 weeks: A-B-C-D-E (all activities)",
+        "11 weeks: A-B-D"
+      ],
+      "answer": [1],
+      "explanation": "Forward pass: A finishes at week 3; B (after A) finishes at week 9; C (after A, parallel with B) finishes at week 7; D needs both B and C, so it cannot start until the later of the two, week 9, finishing at 11; E then runs 11 to 16. The critical path is the longest chain, A-B-D-E at 16 weeks; C has slack because it finishes before D actually needs it.",
+
+      "source": { "deck": "new 06", "slide": 29 },
+      "difficulty": 3,
+      "tags": ["critical-path", "cpm", "schedule-cost"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-07",
+      "topic": "schedule-cost",
+      "type": "mcq",
+      "stem": "What is the total float on Training staff (C), which runs weeks 3 to 7 while the project's critical path does not need it finished until week 9 (when the pilot, D, can start)?",
+      "choices": [
+        "0 weeks — Training is on the critical path",
+        "6 weeks",
+        "2 weeks",
+        "4 weeks"
+      ],
+      "answer": [2],
+      "explanation": "Total float = LS - ES (equivalently LF - EF). Training finishes at week 7 but doesn't need to be done until week 9 for the pilot to start, so float = 9 - 7 = 2 weeks. It can slip by up to 2 weeks without delaying the project.",
+      "source": { "deck": "new 06", "slide": 28 },
+      "difficulty": 2,
+      "tags": ["float", "cpm", "schedule-cost"],
+      "examFocus": true
+    },
+    {
+      "id": "case-hotel-08",
+      "topic": "schedule-cost",
+      "type": "mcq",
+      "stem": "The pilot (D) at the flagship property cannot begin until both the booking-engine configuration (B) and staff training (C) are completely finished. What dependency type links B and C to D?",
+      "choices": [
+        "Start-to-Start (SS)",
+        "Finish-to-Finish (FF)",
+        "Start-to-Finish (SF)",
+        "Finish-to-Start (FS)"
+      ],
+      "answer": [3],
+      "explanation": "D cannot start until B and C finish — the predecessor's finish gates the successor's start, which is the default Finish-to-Start dependency, the same pattern as Rigging & Lighting to Decor in the deck.",
+      "source": { "deck": "new 06", "slide": 15 },
+      "difficulty": 2,
+      "tags": ["dependency-type", "schedule-cost"],
+      "examFocus": true
+    }
+  ]
+}
