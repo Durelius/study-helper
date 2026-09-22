@@ -1,478 +1,748 @@
 [
-  {
-    "id": "scm-001",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "The deck defines a supply chain as a flow of three things across multiple entities. Which definition matches the slide?",
-    "choices": [
-      "The primary and support activities inside one firm that together create margin",
-      "The movement and storage of goods between locations",
-      "A flow of materials, information and money across suppliers, manufacturers and customers",
-      "The sequence of steps one company uses to turn an order into a finished product"
-    ],
-    "answer": [2],
-    "explanation": "Slide 5: a supply chain is the flow of materials, information and money across multiple entities, and SCM is managing that flow efficiently and strategically. The movement-and-storage definition is logistics, which is only one part of the chain (slide 29).",
-    "source": { "deck": "new 03", "slide": 5 },
-    "difficulty": 1,
-    "tags": ["definition", "supply-chain"],
-    "examFocus": false
+ {
+  "id": "scm-001",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "The deck defines a supply chain as a flow of three things across multiple entities. Which definition matches the slide?",
+  "choices": [
+   "The primary and support activities inside one firm that together create margin",
+   "The movement and storage of goods between locations",
+   "A flow of materials, information and money across suppliers, manufacturers and customers",
+   "The sequence of steps one company uses to turn an order into a finished product"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 5: a supply chain is the flow of materials, information and money across multiple entities, and SCM is managing that flow efficiently and strategically. The movement-and-storage definition is logistics, which is only one part of the chain (slide 29).",
+  "source": {
+   "deck": "new 03",
+   "slide": 5
   },
-  {
-    "id": "scm-002",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A cafe maps its own Order to Pay to Prepare to Pickup steps and improves the handoffs between them. Which discipline is this, as the deck draws the boundary?",
-    "choices": [
-      "Operations management, because the flow stays within one organisation",
-      "Supply chain management, because several parties are involved",
-      "Logistics management, because goods are handed over to a customer",
-      "Demand planning, because the cafe must forecast how many orders will arrive"
-    ],
-    "answer": [0],
-    "explanation": "Slide 4 draws the line by scope: operations manages flow within one organisation and one process; SCM coordinates flow across organisations (supplier to manufacturer to distributor to retailer to customer). The number of steps in the process is irrelevant to which side of the line you are on.",
-    "source": { "deck": "new 03", "slide": 4 },
-    "difficulty": 2,
-    "tags": ["operations-vs-scm", "scope"],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "definition",
+   "supply-chain"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-002",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A cafe maps its own Order to Pay to Prepare to Pickup steps and improves the handoffs between them. Which discipline is this, as the deck draws the boundary?",
+  "choices": [
+   "Operations management, because the flow stays within one organisation",
+   "Supply chain management, because several parties are involved",
+   "Logistics management, because goods are handed over to a customer",
+   "Demand planning, because the cafe must forecast how many orders will arrive"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 4 draws the line by scope: operations manages flow within one organisation and one process; SCM coordinates flow across organisations (supplier to manufacturer to distributor to retailer to customer). The number of steps in the process is irrelevant to which side of the line you are on.",
+  "source": {
+   "deck": "new 03",
+   "slide": 4
   },
-  {
-    "id": "scm-003",
-    "topic": "scm",
-    "type": "tf",
-    "stem": "According to the deck, real supply chains are best described as simple linear chains running from one supplier through to one customer.",
-    "choices": ["True", "False"],
-    "answer": [1],
-    "explanation": "Slide 7 contrasts the simplified textbook view (a straight line) with reality: multiple suppliers, multiple factories, multiple 3PL providers, multiple channels and multiple customer segments, all cross-linked. Real supply chains are networks.",
-    "source": { "deck": "new 03", "slide": 7 },
-    "difficulty": 1,
-    "tags": ["network", "structure"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "operations-vs-scm",
+   "scope"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-003",
+  "topic": "scm",
+  "type": "tf",
+  "stem": "According to the deck, real supply chains are best described as simple linear chains running from one supplier through to one customer.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 7 contrasts the simplified textbook view (a straight line) with reality: multiple suppliers, multiple factories, multiple 3PL providers, multiple channels and multiple customer segments, all cross-linked. Real supply chains are networks.",
+  "source": {
+   "deck": "new 03",
+   "slide": 7
   },
-  {
-    "id": "scm-004",
-    "topic": "scm",
-    "type": "multi",
-    "stem": "Select all of the following that the deck names as the enablers that make the supply chain work, alongside the actors.",
-    "choices": ["Marketing", "Logistics", "Technology", "Regulation", "Finance"],
-    "answer": [1, 2, 4],
-    "explanation": "Slide 6 names three enablers: logistics (right product, right place, right time), technology (information systems, data visibility, automation, collaboration platforms) and finance (working capital, trade finance, risk management, payment solutions). Marketing and regulation are not on that slide.",
-    "source": { "deck": "new 03", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["actors", "enablers"],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "network",
+   "structure"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-004",
+  "topic": "scm",
+  "type": "multi",
+  "stem": "Select all of the following that the deck names as the enablers that make the supply chain work, alongside the actors.",
+  "choices": [
+   "Marketing",
+   "Logistics",
+   "Technology",
+   "Regulation",
+   "Finance"
+  ],
+  "answer": [
+   1,
+   2,
+   4
+  ],
+  "explanation": "Slide 6 names three enablers: logistics (right product, right place, right time), technology (information systems, data visibility, automation, collaboration platforms) and finance (working capital, trade finance, risk management, payment solutions). Marketing and regulation are not on that slide.",
+  "source": {
+   "deck": "new 03",
+   "slide": 6
   },
-  {
-    "id": "scm-005",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "CP Group appears in the deck as supplier, manufacturer, distributor/logistics operator and retailer (7-Eleven, Lotus's, Makro) all at once. What point is this case making?",
-    "choices": [
-      "Vertical integration always lowers total supply-chain cost",
-      "A company should single-source in order to keep unit costs down",
-      "Retailers are the only actor that touches the end customer",
-      "One company can occupy several roles in the same chain and create value across the whole of it"
-    ],
-    "answer": [3],
-    "explanation": "Slide 8 is titled 'One Company, Multiple Roles', and slide 9 adds that the same group runs several distinct product supply chains (feed, meat, seafood, ready-to-eat, dairy, pharma). The deck never claims integration is automatically cheaper.",
-    "source": { "deck": "new 03", "slide": 8 },
-    "difficulty": 2,
-    "tags": ["case", "cp-group", "actors"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "actors",
+   "enablers"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-005",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "CP Group appears in the deck as supplier, manufacturer, distributor/logistics operator and retailer (7-Eleven, Lotus's, Makro) all at once. What point is this case making?",
+  "choices": [
+   "Vertical integration always lowers total supply-chain cost",
+   "A company should single-source in order to keep unit costs down",
+   "Retailers are the only actor that touches the end customer",
+   "One company can occupy several roles in the same chain and create value across the whole of it"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 8 is titled 'One Company, Multiple Roles', and slide 9 adds that the same group runs several distinct product supply chains (feed, meat, seafood, ready-to-eat, dairy, pharma). The deck never claims integration is automatically cheaper.",
+  "source": {
+   "deck": "new 03",
+   "slide": 8
   },
-  {
-    "id": "scm-006",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "Which of these is a supply-chain-level (SCOR) performance attribute in the deck, rather than a Week 2 process-level objective?",
-    "choices": ["Quality", "Dependability", "Asset efficiency", "Speed"],
-    "answer": [2],
-    "explanation": "Slide 11 puts quality, speed, dependability, flexibility and cost on the Week 2 process side, and reliability, responsiveness, agility, cost and asset efficiency on the Week 3 supply-chain side. Asset efficiency, the utilisation of assets across the whole chain, only exists at the network level.",
-    "source": { "deck": "new 03", "slide": 11 },
-    "difficulty": 2,
-    "tags": ["performance", "scor"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "cp-group",
+   "actors"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "scm-006",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "Which of these is a supply-chain-level (SCOR) performance attribute in the deck, rather than a Week 2 process-level objective?",
+  "choices": [
+   "Quality",
+   "Dependability",
+   "Asset efficiency",
+   "Speed"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 11 puts quality, speed, dependability, flexibility and cost on the Week 2 process side, and reliability, responsiveness, agility, cost and asset efficiency on the Week 3 supply-chain side. Asset efficiency, the utilisation of assets across the whole chain, only exists at the network level.",
+  "source": {
+   "deck": "new 03",
+   "slide": 11
   },
-  {
-    "id": "scm-007",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "Slide 14 pairs each strategic trade-off with example KPIs. Which KPI pair measures the low inventory versus high availability trade-off?",
-    "choices": [
-      "Inventory turns and fill rate",
-      "Cost per unit and order cycle time",
-      "Operating cost ratio and time to adapt",
-      "Cost per unit and fill rate"
-    ],
-    "answer": [0],
-    "explanation": "Inventory turns (higher is better) measures how lean the stock is, and fill rate (higher is better) measures availability. Cost per unit with order cycle time belongs to low cost versus high responsiveness, and operating cost ratio with time to adapt belongs to efficiency versus flexibility.",
-    "source": { "deck": "new 03", "slide": 14 },
-    "difficulty": 2,
-    "tags": ["kpi", "trade-offs"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "performance",
+   "scor"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-007",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "Which pair of KPIs measures the low-inventory versus high-availability trade-off?",
+  "choices": [
+   "Inventory turns and fill rate",
+   "Cost per unit and order cycle time",
+   "Operating cost ratio and time to adapt",
+   "Cost per unit and fill rate"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Inventory turns (higher is better) measures how lean the stock is, and fill rate (higher is better) measures availability. Cost per unit with order cycle time belongs to low cost versus high responsiveness, and operating cost ratio with time to adapt belongs to efficiency versus flexibility.",
+  "source": {
+   "deck": "new 03",
+   "slide": 14
   },
-  {
-    "id": "scm-008",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "In the deck's efficient-versus-responsive table, an efficient supply chain is characterised by which combination?",
-    "choices": [
-      "Uncertain demand, buffer inventory, flexible suppliers",
-      "Predictable demand, buffer inventory, capacity cushion",
-      "Uncertain demand, lean inventory, cost-focused suppliers",
-      "Predictable demand, lean inventory, high capacity utilisation"
-    ],
-    "answer": [3],
-    "explanation": "Slide 15: efficient means predictable demand, cost priority, lean inventory, high utilisation, cost-focused suppliers, commodity example. Buffer inventory and a capacity cushion are the responsive column, and they are what makes option B tempting.",
-    "source": { "deck": "new 03", "slide": 15 },
-    "difficulty": 1,
-    "tags": ["strategy", "efficient-responsive"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "kpi",
+   "trade-offs"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-008",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "In the deck's efficient-versus-responsive table, an efficient supply chain is characterised by which combination?",
+  "choices": [
+   "Uncertain demand, buffer inventory, flexible suppliers",
+   "Predictable demand, buffer inventory, capacity cushion",
+   "Uncertain demand, lean inventory, cost-focused suppliers",
+   "Predictable demand, lean inventory, high capacity utilisation"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 15: efficient means predictable demand, cost priority, lean inventory, high utilisation, cost-focused suppliers, commodity example. Buffer inventory and a capacity cushion are the responsive column, and they are what makes option B tempting.",
+  "source": {
+   "deck": "new 03",
+   "slide": 15
   },
-  {
-    "id": "scm-009",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A retailer sells seasonal fashion items with short life cycles and volatile demand. Following the deck's table, which supply chain should it build?",
-    "choices": [
-      "Efficient: lean inventory and suppliers chosen on cost",
-      "Responsive: buffer inventory, capacity cushion and flexible suppliers",
-      "Efficient: high capacity utilisation to spread fixed costs",
-      "Responsive: lean inventory and high utilisation to keep prices low"
-    ],
-    "answer": [1],
-    "explanation": "Uncertain demand calls for the responsive column: speed and flexibility priority, buffer stock, capacity cushion, flexible suppliers, with fashion given as the example. Option D is the trap, pairing the responsive label with efficient settings.",
-    "source": { "deck": "new 03", "slide": 15 },
-    "difficulty": 2,
-    "tags": ["strategy", "efficient-responsive"],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "strategy",
+   "efficient-responsive"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-009",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A retailer sells seasonal fashion items with short life cycles and volatile demand. Following the deck's table, which supply chain should it build?",
+  "choices": [
+   "Efficient: lean inventory and suppliers chosen on cost",
+   "Responsive: buffer inventory, capacity cushion and flexible suppliers",
+   "Efficient: high capacity utilisation to spread fixed costs",
+   "Responsive: lean inventory and high utilisation to keep prices low"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Uncertain demand calls for the responsive column: speed and flexibility priority, buffer stock, capacity cushion, flexible suppliers, with fashion given as the example. Option D is the trap, pairing the responsive label with efficient settings.",
+  "source": {
+   "deck": "new 03",
+   "slide": 15
   },
-  {
-    "id": "scm-010",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "On the Big C versus Zara strategic-fit slide, how is Zara's supply-chain approach described?",
-    "choices": [
-      "Pull-hybrid: design, make and deliver based on real demand signals",
-      "Push: efficient production and distribution planned in advance",
-      "Pure pull: nothing at all is produced until a customer order arrives",
-      "Push-hybrid: forecast-driven with occasional replenishment"
-    ],
-    "answer": [0],
-    "explanation": "Slide 16 labels Zara 'Pull-Hybrid' under a differentiation strategy with trend-driven, uncertain demand, emphasising speed and flexibility. Push with efficiency and scale is the Big C column, and pure pull overstates it because Zara still designs and produces ahead of individual customer orders.",
-    "source": { "deck": "new 03", "slide": 16 },
-    "difficulty": 3,
-    "tags": ["case", "zara", "strategic-fit", "push-pull"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "strategy",
+   "efficient-responsive"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-010",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "On the Big C versus Zara strategic-fit slide, how is Zara's supply-chain approach described?",
+  "choices": [
+   "Pull-hybrid: design, make and deliver based on real demand signals",
+   "Push: efficient production and distribution planned in advance",
+   "Pure pull: nothing at all is produced until a customer order arrives",
+   "Push-hybrid: forecast-driven with occasional replenishment"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 16 labels Zara 'Pull-Hybrid' under a differentiation strategy with trend-driven, uncertain demand, emphasising speed and flexibility. Push with efficiency and scale is the Big C column, and pure pull overstates it because Zara still designs and produces ahead of individual customer orders.",
+  "source": {
+   "deck": "new 03",
+   "slide": 16
   },
-  {
-    "id": "scm-011",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "Which KPI set does the deck give for Big C rather than for Zara?",
-    "choices": [
-      "Lead time to store, sell-through rate, stockout rate, new product contribution",
-      "Fill rate, order cycle time, time to adapt, agility index",
-      "Cost per unit, inventory turns, on-time in-full, supply chain cost percentage",
-      "Cash-to-cash cycle, days of supply, forecast accuracy, perfect order rate"
-    ],
-    "answer": [2],
-    "explanation": "Slide 16 gives Big C cost per unit, inventory turns, on-time in-full and supply chain cost percentage, all cost-leadership measures. Option A is Zara's list, and option D lists metrics that never appear in this deck.",
-    "source": { "deck": "new 03", "slide": 16 },
-    "difficulty": 2,
-    "tags": ["case", "big-c", "kpi", "strategic-fit"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "case",
+   "zara",
+   "strategic-fit",
+   "push-pull"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "scm-011",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "Which KPI set does the deck give for Big C rather than for Zara?",
+  "choices": [
+   "Lead time to store, sell-through rate, stockout rate, new product contribution",
+   "Fill rate, order cycle time, time to adapt, agility index",
+   "Cost per unit, inventory turns, on-time in-full, supply chain cost percentage",
+   "Cash-to-cash cycle, days of supply, forecast accuracy, perfect order rate"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 16 gives Big C cost per unit, inventory turns, on-time in-full and supply chain cost percentage, all cost-leadership measures. Option A is Zara's list, and option D lists metrics that never appear in this deck.",
+  "source": {
+   "deck": "new 03",
+   "slide": 16
   },
-  {
-    "id": "scm-012",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A product is forecast at 100 units but actual demand turns out to be 120. Using the deck's two forecast-error scenarios, what has happened and what follows?",
-    "choices": [
-      "Overforecast; 20 units of excess inventory, holding cost and markdown risk",
-      "Underforecast; 20 units of excess inventory that must be written off",
-      "Overforecast; 20 units of unmet demand and dissatisfied customers",
-      "Underforecast; 20 units of unmet demand, lost sales and expedited shipments"
-    ],
-    "answer": [3],
-    "explanation": "Actual above forecast is an underforecast, which leads to a stockout: 20 units of unmet demand, lost sales, dissatisfied customers and higher costs from expediting. Excess inventory, obsolescence and markdowns are the overforecast scenario, where forecast 100 meets actual 80.",
-    "source": { "deck": "new 03", "slide": 19 },
-    "difficulty": 2,
-    "tags": ["forecasting", "stockout"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "case",
+   "big-c",
+   "kpi",
+   "strategic-fit"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "scm-012",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A product is forecast at 100 units but actual demand turns out to be 120. Using the deck's two forecast-error scenarios, what has happened and what follows?",
+  "choices": [
+   "Overforecast; 20 units of excess inventory, holding cost and markdown risk",
+   "Underforecast; 20 units of excess inventory that must be written off",
+   "Overforecast; 20 units of unmet demand and dissatisfied customers",
+   "Underforecast; 20 units of unmet demand, lost sales and expedited shipments"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Actual above forecast is an underforecast, which leads to a stockout: 20 units of unmet demand, lost sales, dissatisfied customers and higher costs from expediting. Excess inventory, obsolescence and markdowns are the overforecast scenario, where forecast 100 meets actual 80.",
+  "source": {
+   "deck": "new 03",
+   "slide": 19
   },
-  {
-    "id": "scm-013",
-    "topic": "scm",
-    "type": "multi",
-    "stem": "The deck gives four reasons companies hold inventory. Select all of the following that are on that list.",
-    "choices": [
-      "Increase obsolescence risk",
-      "Buffer uncertainty",
-      "Reduce the cost of capital tied up in stock",
-      "Decouple activities",
-      "Gain purchasing or production efficiency"
-    ],
-    "answer": [1, 3, 4],
-    "explanation": "Slide 20 lists four reasons: meet customer demand, buffer uncertainty, decouple activities, and gain purchasing/production efficiency. Obsolescence risk and capital tied up are costs of holding too much inventory (slide 21), not reasons to hold it.",
-    "source": { "deck": "new 03", "slide": 20 },
-    "difficulty": 2,
-    "tags": ["inventory", "why-hold"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "forecasting",
+   "stockout"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-013",
+  "topic": "scm",
+  "type": "multi",
+  "stem": "The deck gives four reasons companies hold inventory. Select all of the following that are on that list.",
+  "choices": [
+   "Increase obsolescence risk",
+   "Buffer uncertainty",
+   "Reduce the cost of capital tied up in stock",
+   "Decouple activities",
+   "Gain purchasing or production efficiency"
+  ],
+  "answer": [
+   1,
+   3,
+   4
+  ],
+  "explanation": "Slide 20 lists four reasons: meet customer demand, buffer uncertainty, decouple activities, and gain purchasing/production efficiency. Obsolescence risk and capital tied up are costs of holding too much inventory (slide 21), not reasons to hold it.",
+  "source": {
+   "deck": "new 03",
+   "slide": 20
   },
-  {
-    "id": "scm-014",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "Where does work-in-process (WIP) inventory sit in the deck's map of the chain, and what is its stated purpose?",
-    "choices": [
-      "At the supplier, to ensure reliable supply and support economies of scale",
-      "At the warehouse, to meet customer demand and enable responsive delivery",
-      "At the factory, to keep production flowing, balance process times and absorb process variability",
-      "At the retailer, to ensure high availability and support variety and choice"
-    ],
-    "answer": [2],
-    "explanation": "Slide 22 maps raw materials to the supplier, WIP to the factory, finished goods to the warehouse and retail inventory to the retailer. WIP is items being worked on but not yet complete, so its job is keeping production flowing and absorbing process variability.",
-    "source": { "deck": "new 03", "slide": 22 },
-    "difficulty": 1,
-    "tags": ["inventory", "types"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "inventory",
+   "why-hold"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-014",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "Where does work-in-process (WIP) inventory sit in the deck's map of the chain, and what is its stated purpose?",
+  "choices": [
+   "At the supplier, to ensure reliable supply and support economies of scale",
+   "At the warehouse, to meet customer demand and enable responsive delivery",
+   "At the factory, to keep production flowing, balance process times and absorb process variability",
+   "At the retailer, to ensure high availability and support variety and choice"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 22 maps raw materials to the supplier, WIP to the factory, finished goods to the warehouse and retail inventory to the retailer. WIP is items being worked on but not yet complete, so its job is keeping production flowing and absorbing process variability.",
+  "source": {
+   "deck": "new 03",
+   "slide": 22
   },
-  {
-    "id": "scm-015",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A furniture maker cuts and assembles nothing until a customer has signed an order. In the deck's terms this is:",
-    "choices": [
-      "Push / make-to-stock, triggered by forecast",
-      "Push / make-to-order, triggered by a production schedule",
-      "Pull / make-to-stock, triggered by a replenishment signal",
-      "Pull / make-to-order, triggered by actual customer demand"
-    ],
-    "answer": [3],
-    "explanation": "Slide 23 defines pull as make-to-order: inventory is built only after demand is known, best when demand is uncertain or the product is customised, with custom furniture given as the example. Push is the forecast-triggered make-to-stock side.",
-    "source": { "deck": "new 03", "slide": 23 },
-    "difficulty": 2,
-    "tags": ["push-pull", "make-to-order"],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "inventory",
+   "types"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-015",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A furniture maker cuts and assembles nothing until a customer has signed an order. In the deck's terms this is:",
+  "choices": [
+   "Push / make-to-stock, triggered by forecast",
+   "Push / make-to-order, triggered by a production schedule",
+   "Pull / make-to-stock, triggered by a replenishment signal",
+   "Pull / make-to-order, triggered by actual customer demand"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 23 defines pull as make-to-order: inventory is built only after demand is known, best when demand is uncertain or the product is customised, with custom furniture given as the example. Push is the forecast-triggered make-to-stock side.",
+  "source": {
+   "deck": "new 03",
+   "slide": 23
   },
-  {
-    "id": "scm-016",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "What is the push-pull boundary?",
-    "choices": [
-      "The point in the supply chain where activity switches from forecast-driven to demand-driven",
-      "The point where ownership of the goods transfers from supplier to buyer",
-      "The point where safety stock is exhausted and backorders begin",
-      "The point where a product moves from domestic to international transport"
-    ],
-    "answer": [0],
-    "explanation": "Slide 24 defines it as the point where the chain stops being triggered by forecast and starts being triggered by actual customer demand, typically at postponement or final customisation. Where you place it depends on demand uncertainty, product variety, lead time and cost/service strategy.",
-    "source": { "deck": "new 03", "slide": 24 },
-    "difficulty": 2,
-    "tags": ["push-pull", "postponement"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "push-pull",
+   "make-to-order"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-016",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "What is the push-pull boundary?",
+  "choices": [
+   "The point in the supply chain where activity switches from forecast-driven to demand-driven",
+   "The point where ownership of the goods transfers from supplier to buyer",
+   "The point where safety stock is exhausted and backorders begin",
+   "The point where a product moves from domestic to international transport"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 24 defines it as the point where the chain stops being triggered by forecast and starts being triggered by actual customer demand, typically at postponement or final customisation. Where you place it depends on demand uncertainty, product variety, lead time and cost/service strategy.",
+  "source": {
+   "deck": "new 03",
+   "slide": 24
   },
-  {
-    "id": "scm-017",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "In the deck's table of supply-chain strategy types, which one is described as 'push upstream, pull downstream' with the push-pull boundary deliberately placed?",
-    "choices": ["Efficient", "Responsive", "Agile", "Hybrid / leagile"],
-    "answer": [3],
-    "explanation": "Slide 27 gives hybrid/leagile the job of balancing efficiency and responsiveness: push upstream, pull downstream, segment customers and products, put the right inventory in the right place. Agile is the high-uncertainty, high-variety strategy built on small batches, flexible suppliers and postponement.",
-    "source": { "deck": "new 03", "slide": 27 },
-    "difficulty": 2,
-    "tags": ["strategy", "leagile", "push-pull"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "push-pull",
+   "postponement"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-017",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "In the deck's table of supply-chain strategy types, which one is described as 'push upstream, pull downstream' with the push-pull boundary deliberately placed?",
+  "choices": [
+   "Efficient",
+   "Responsive",
+   "Agile",
+   "Hybrid / leagile"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 27 gives hybrid/leagile the job of balancing efficiency and responsiveness: push upstream, pull downstream, segment customers and products, put the right inventory in the right place. Agile is the high-uncertainty, high-variety strategy built on small batches, flexible suppliers and postponement.",
+  "source": {
+   "deck": "new 03",
+   "slide": 27
   },
-  {
-    "id": "scm-018",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A manufacturer that has bought a critical component from one supplier for years now qualifies two additional suppliers. Following the sourcing trade-off table, what should it expect?",
-    "choices": [
-      "Lower unit cost and simpler management, but higher supply risk",
-      "Lower cost and lower risk together, with no offsetting downside",
-      "Lower supply risk, more flexibility and stronger buying leverage, but higher cost and more complexity",
-      "Higher supply risk and less flexibility, but lower purchasing cost"
-    ],
-    "answer": [2],
-    "explanation": "Slide 26 puts multiple sourcing at higher cost and more complexity but lower supply risk, more flexibility and stronger leverage. Option A describes the single-sourcing position the firm is leaving, which is exactly the trap.",
-    "source": { "deck": "new 03", "slide": 26 },
-    "difficulty": 3,
-    "tags": ["sourcing", "supplier-relationships"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "strategy",
+   "leagile",
+   "push-pull"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-018",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A manufacturer that has bought a critical component from one supplier for years now qualifies two additional suppliers. Following the sourcing trade-off table, what should it expect?",
+  "choices": [
+   "Lower unit cost and simpler management, but higher supply risk",
+   "Lower cost and lower risk together, with no offsetting downside",
+   "Lower supply risk, more flexibility and stronger buying leverage, but higher cost and more complexity",
+   "Higher supply risk and less flexibility, but lower purchasing cost"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Slide 26 puts multiple sourcing at higher cost and more complexity but lower supply risk, more flexibility and stronger leverage. Option A describes the single-sourcing position the firm is leaving, which is exactly the trap.",
+  "source": {
+   "deck": "new 03",
+   "slide": 26
   },
-  {
-    "id": "scm-019",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "What does the deck give as the trade-off for local or nearshore sourcing?",
-    "choices": [
-      "Faster and more resilient, but potentially higher cost and limited capacity",
-      "Lower cost and broader access to capability, but longer lead times",
-      "Lower emissions and lower cost, with no capacity constraint",
-      "Shorter lead time and lower cost, but higher tariff exposure"
-    ],
-    "answer": [0],
-    "explanation": "Slide 28 states local/nearshore as faster and resilient, but potentially higher cost with limited capacity. Lower cost and access to broader capability, at the price of longer lead times, disruption and tariffs, is the global sourcing side.",
-    "source": { "deck": "new 03", "slide": 28 },
-    "difficulty": 2,
-    "tags": ["sourcing", "global-local"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "sourcing",
+   "supplier-relationships"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-019",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "What does the deck give as the trade-off for local or nearshore sourcing?",
+  "choices": [
+   "Faster and more resilient, but potentially higher cost and limited capacity",
+   "Lower cost and broader access to capability, but longer lead times",
+   "Lower emissions and lower cost, with no capacity constraint",
+   "Shorter lead time and lower cost, but higher tariff exposure"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Slide 28 states local/nearshore as faster and resilient, but potentially higher cost with limited capacity. Lower cost and access to broader capability, at the price of longer lead times, disruption and tariffs, is the global sourcing side.",
+  "source": {
+   "deck": "new 03",
+   "slide": 28
   },
-  {
-    "id": "scm-020",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A Bangkok exporter ships bulk, low-value raw material to Europe and has made sustainability a stated priority. Which mode does the deck's decision rule point to?",
-    "choices": [
-      "Air freight, because its schedules are more predictable",
-      "Ocean freight, because cost per kg and emissions per kg are both lower",
-      "Air freight, because emissions per kg are lower",
-      "Road freight, because it is the most flexible mode"
-    ],
-    "answer": [1],
-    "explanation": "Slide 31: sea is low cost per kg and low emissions per kg but slow (25 to 40 days) and more variable; air is fast (2 to 5 days) and more predictable but high cost and high emissions. Bulk, low value and sustainability-led all point to sea, and the deck's rule is to prioritise cost savings or sustainability by choosing sea.",
-    "source": { "deck": "new 03", "slide": 31 },
-    "difficulty": 2,
-    "tags": ["logistics", "transport-modes"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "sourcing",
+   "global-local"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-020",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A Bangkok exporter ships bulk, low-value raw material to Europe and has made sustainability a stated priority. Which mode does the deck's decision rule point to?",
+  "choices": [
+   "Air freight, because its schedules are more predictable",
+   "Ocean freight, because cost per kg and emissions per kg are both lower",
+   "Air freight, because emissions per kg are lower",
+   "Road freight, because it is the most flexible mode"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 31: sea is low cost per kg and low emissions per kg but slow (25 to 40 days) and more variable; air is fast (2 to 5 days) and more predictable but high cost and high emissions. Bulk, low value and sustainability-led all point to sea, and the deck's rule is to prioritise cost savings or sustainability by choosing sea.",
+  "source": {
+   "deck": "new 03",
+   "slide": 31
   },
-  {
-    "id": "scm-021",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A retailer consolidates eight regional warehouses into two large national ones. Based on the centralised-versus-decentralised table, what is the expected effect?",
-    "choices": [
-      "Higher total inventory and faster delivery",
-      "Lower total inventory and faster delivery",
-      "Higher total inventory and longer delivery",
-      "Lower total inventory and economies of scale, but longer delivery"
-    ],
-    "answer": [3],
-    "explanation": "Slide 34: centralised means fewer facilities, lower inventory, economies of scale and longer delivery; decentralised is the mirror image. Option B is the tempting one because it sounds like pure improvement, but you cannot buy both lower inventory and faster delivery from this single move.",
-    "source": { "deck": "new 03", "slide": 34 },
-    "difficulty": 3,
-    "tags": ["network-design", "centralisation"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "logistics",
+   "transport-modes"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-021",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A retailer consolidates eight regional warehouses into two large national ones. Based on the centralised-versus-decentralised table, what is the expected effect?",
+  "choices": [
+   "Higher total inventory and faster delivery",
+   "Lower total inventory and faster delivery",
+   "Higher total inventory and longer delivery",
+   "Lower total inventory and economies of scale, but longer delivery"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Slide 34: centralised means fewer facilities, lower inventory, economies of scale and longer delivery; decentralised is the mirror image. Option B is the tempting one because it sounds like pure improvement, but you cannot buy both lower inventory and faster delivery from this single move.",
+  "source": {
+   "deck": "new 03",
+   "slide": 34
   },
-  {
-    "id": "scm-022",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "How does the deck define the bullwhip effect?",
-    "choices": [
-      "Demand variability shrinks as orders move upstream because each stage smooths it",
-      "Small changes in customer demand create progressively larger order fluctuations upstream",
-      "Suppliers raise their prices whenever downstream demand becomes volatile",
-      "Retailers lose sales whenever a supplier misses an agreed delivery date"
-    ],
-    "answer": [1],
-    "explanation": "Slide 32 shows relatively stable actual customer demand, more variable retailer orders, still more variable wholesaler orders, highly variable distributor orders and extremely variable factory production: small variation downstream, large variation upstream. Option A reverses the direction of the amplification.",
-    "source": { "deck": "new 03", "slide": 32 },
-    "difficulty": 1,
-    "tags": ["bullwhip", "definition"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "network-design",
+   "centralisation"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-022",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "How does the deck define the bullwhip effect?",
+  "choices": [
+   "Demand variability shrinks as orders move upstream because each stage smooths it",
+   "Small changes in customer demand create progressively larger order fluctuations upstream",
+   "Suppliers raise their prices whenever downstream demand becomes volatile",
+   "Retailers lose sales whenever a supplier misses an agreed delivery date"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Slide 32 shows relatively stable actual customer demand, more variable retailer orders, still more variable wholesaler orders, highly variable distributor orders and extremely variable factory production: small variation downstream, large variation upstream. Option A reverses the direction of the amplification.",
+  "source": {
+   "deck": "new 03",
+   "slide": 32
   },
-  {
-    "id": "scm-023",
-    "topic": "scm",
-    "type": "multi",
-    "stem": "Select all of the following that the deck names as causes of the bullwhip effect.",
-    "choices": [
-      "Sharing real-time point-of-sale data with upstream partners",
-      "Order batching",
-      "Long lead times",
-      "Placing small, frequent replenishment orders",
-      "Poor information sharing"
-    ],
-    "answer": [1, 2, 4],
-    "explanation": "Slide 33 lists five causes: forecast updating, order batching, promotions, long lead times and poor information sharing. Sharing real point-of-sale data and ordering in small frequent lots are the opposite of two of those causes, so they damp the whip rather than crack it.",
-    "source": { "deck": "new 03", "slide": 33 },
-    "difficulty": 2,
-    "tags": ["bullwhip", "causes"],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "bullwhip",
+   "definition"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-023",
+  "topic": "scm",
+  "type": "multi",
+  "stem": "Select all of the following that the deck names as causes of the bullwhip effect.",
+  "choices": [
+   "Sharing real-time point-of-sale data with upstream partners",
+   "Order batching",
+   "Long lead times",
+   "Placing small, frequent replenishment orders",
+   "Poor information sharing"
+  ],
+  "answer": [
+   1,
+   2,
+   4
+  ],
+  "explanation": "Slide 33 lists five causes: forecast updating, order batching, promotions, long lead times and poor information sharing. Sharing real point-of-sale data and ordering in small frequent lots are the opposite of two of those causes, so they damp the whip rather than crack it.",
+  "source": {
+   "deck": "new 03",
+   "slide": 33
   },
-  {
-    "id": "scm-024",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "A distributor holds its orders back until it has enough volume to fill a full truckload, then places one large order. Which bullwhip cause is this?",
-    "choices": ["Forecast updating", "Order batching", "Promotions", "Long lead times"],
-    "answer": [1],
-    "explanation": "Order batching is placing large, infrequent orders instead of smaller, more frequent ones, which creates artificial spikes in demand upstream. Forecast updating would be each stage re-forecasting independently on limited information and overreacting to recent changes.",
-    "source": { "deck": "new 03", "slide": 33 },
-    "difficulty": 3,
-    "tags": ["bullwhip", "causes", "scenario"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "bullwhip",
+   "causes"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-024",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "A distributor holds its orders back until it has enough volume to fill a full truckload, then places one large order. Which bullwhip cause is this?",
+  "choices": [
+   "Forecast updating",
+   "Order batching",
+   "Promotions",
+   "Long lead times"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Order batching is placing large, infrequent orders instead of smaller, more frequent ones, which creates artificial spikes in demand upstream. Forecast updating would be each stage re-forecasting independently on limited information and overreacting to recent changes.",
+  "source": {
+   "deck": "new 03",
+   "slide": 33
   },
-  {
-    "id": "scm-025",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "The deck says real-time dashboards help reduce the bullwhip effect. What mechanism does it give?",
-    "choices": [
-      "They increase safety stock at every stage of the chain",
-      "They let each stage build its own forecast independently and more accurately",
-      "They lengthen order cycles so that batches even out over time",
-      "They improve visibility of live inventory, transit times and sales, so decisions use facts rather than guesses"
-    ],
-    "answer": [3],
-    "explanation": "Visibility attacks the poor-information-sharing cause from slide 33, where limited visibility of real demand and inventory leads to guesses instead of facts, and the wrap-up repeats that coordination and visibility reduce bullwhip. More independent forecasting at each stage is itself a cause of bullwhip, not a cure.",
-    "source": { "deck": "new 03", "slide": 38 },
-    "difficulty": 2,
-    "tags": ["bullwhip", "countermeasures", "visibility"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "bullwhip",
+   "causes",
+   "scenario"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-025",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "The deck says real-time dashboards help reduce the bullwhip effect. What mechanism does it give?",
+  "choices": [
+   "They increase safety stock at every stage of the chain",
+   "They let each stage build its own forecast independently and more accurately",
+   "They lengthen order cycles so that batches even out over time",
+   "They improve visibility of live inventory, transit times and sales, so decisions use facts rather than guesses"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Visibility attacks the poor-information-sharing cause from slide 33, where limited visibility of real demand and inventory leads to guesses instead of facts, and the wrap-up repeats that coordination and visibility reduce bullwhip. More independent forecasting at each stage is itself a cause of bullwhip, not a cure.",
+  "source": {
+   "deck": "new 03",
+   "slide": 38
   },
-  {
-    "id": "scm-026",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "In the Beer Game, inventory costs $0.50 per case per week and backlog costs $1.00 per case per week. A wholesaler ends week 1 with 12 cases in stock, week 2 with a backlog of 6 cases, and week 3 with 8 cases in stock. What is its total cost over the three weeks?",
-    "choices": ["$10.00", "$13.00", "$16.00", "$26.00"],
-    "answer": [2],
-    "explanation": "12 x $0.50 + 6 x $1.00 + 8 x $0.50 = $6.00 + $6.00 + $4.00 = $16.00. The $13.00 trap costs all 26 cases at the inventory rate, forgetting that backlog is priced at double; $10.00 ignores the backlog week entirely.",
-    "source": { "deck": "new 03", "slide": 35 },
-    "difficulty": 2,
-    "tags": ["beer-game", "computation", "cost"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "bullwhip",
+   "countermeasures",
+   "visibility"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-026",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "In the Beer Game, inventory costs $0.50 per case per week and backlog costs $1.00 per case per week. A wholesaler ends week 1 with 12 cases in stock, week 2 with a backlog of 6 cases, and week 3 with 8 cases in stock. What is its total cost over the three weeks?",
+  "choices": [
+   "$10.00",
+   "$13.00",
+   "$16.00",
+   "$26.00"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "12 x $0.50 + 6 x $1.00 + 8 x $0.50 = $6.00 + $6.00 + $4.00 = $16.00. The $13.00 trap costs all 26 cases at the inventory rate, forgetting that backlog is priced at double; $10.00 ignores the backlog week entirely.",
+  "source": {
+   "deck": "new 03",
+   "slide": 35
   },
-  {
-    "id": "scm-027",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "Beer Game week 1: a retailer starts with 10 cases and receives a 10-case shipment, giving 20 cases before shipping. The customer orders 14 cases and all 14 are shipped. What is the closing position and that week's cost?",
-    "choices": [
-      "6 cases in inventory; $3.00",
-      "6 cases in inventory; $6.00",
-      "4 cases in inventory; $2.00",
-      "4 cases of backlog; $4.00"
-    ],
-    "answer": [0],
-    "explanation": "The slide's worked row computes closing stock as 20 minus what was shipped, so 20 - 14 = 6 cases, charged at the $0.50 inventory rate for $3.00. The $1.00 rate applies only to backlog, and here demand was met in full.",
-    "source": { "deck": "new 03", "slide": 36 },
-    "difficulty": 2,
-    "tags": ["beer-game", "computation", "inventory"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "beer-game",
+   "computation",
+   "cost"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-027",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "Beer Game week 1: a retailer starts with 10 cases and receives a 10-case shipment, giving 20 cases before shipping. The customer orders 14 cases and all 14 are shipped. What is the closing position and that week's cost?",
+  "choices": [
+   "6 cases in inventory; $3.00",
+   "6 cases in inventory; $6.00",
+   "4 cases in inventory; $2.00",
+   "4 cases of backlog; $4.00"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The slide's worked row computes closing stock as 20 minus what was shipped, so 20 - 14 = 6 cases, charged at the $0.50 inventory rate for $3.00. The $1.00 rate applies only to backlog, and here demand was met in full.",
+  "source": {
+   "deck": "new 03",
+   "slide": 36
   },
-  {
-    "id": "scm-028",
-    "topic": "scm",
-    "type": "mcq",
-    "stem": "The Beer Game rules forbid teams from talking about demand forecasts outside of their orders. Which real-world condition does this rule simulate?",
-    "choices": [
-      "Order batching, because each player may only order once per round",
-      "Promotions, because demand is artificially inflated during the game",
-      "Poor information sharing, so each stage sees only the order from the stage below it",
-      "Long lead times between placing an order and receiving the shipment"
-    ],
-    "answer": [2],
-    "explanation": "The no-talking rule removes visibility of real customer demand, which slide 33 names as a bullwhip cause and slide 38 answers with real-time visibility. Lead time is simulated separately, by the shipping delay between stages rather than by the communication ban.",
-    "source": { "deck": "new 03", "slide": 36 },
-    "difficulty": 3,
-    "tags": ["beer-game", "bullwhip", "information-sharing"],
-    "examFocus": false
-  }
+  "difficulty": 2,
+  "tags": [
+   "beer-game",
+   "computation",
+   "inventory"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "scm-028",
+  "topic": "scm",
+  "type": "mcq",
+  "stem": "The Beer Game rules forbid teams from talking about demand forecasts outside of their orders. Which real-world condition does this rule simulate?",
+  "choices": [
+   "Order batching, because each player may only order once per round",
+   "Promotions, because demand is artificially inflated during the game",
+   "Poor information sharing, so each stage sees only the order from the stage below it",
+   "Long lead times between placing an order and receiving the shipment"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The no-talking rule removes visibility of real customer demand, which slide 33 names as a bullwhip cause and slide 38 answers with real-time visibility. Lead time is simulated separately, by the shipping delay between stages rather than by the communication ban.",
+  "source": {
+   "deck": "new 03",
+   "slide": 36
+  },
+  "difficulty": 3,
+  "tags": [
+   "beer-game",
+   "bullwhip",
+   "information-sharing"
+  ],
+  "examFocus": false
+ }
 ]

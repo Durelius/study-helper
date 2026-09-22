@@ -2,6 +2,8 @@ package content
 
 import (
 	"encoding/json"
+	"regexp"
+	"strings"
 	"testing"
 )
 
@@ -112,4 +114,34 @@ func itoa(n int) string {
 		n /= 10
 	}
 	return string(b)
+}
+
+// leansOnNeighbour matches stems that only make sense while some other question is
+// still on screen.
+var leansOnNeighbour = regexp.MustCompile(`(?i)\b(that same|the same (network|project|table|diagram|model|figure)|` +
+	`previous question|earlier question|question above|as above|shown above|` +
+	`in the (network|diagram|table|figure) above)\b`)
+
+// TestQuestionsStandAlone is the rule the bank is shuffled by: every run interleaves
+// topics and picks questions independently, so a question that says "in that same
+// network" is unanswerable — the network was in a different question that may not have
+// been asked at all.
+//
+// A question may still talk about "the network below" when it carries its own diagram.
+func TestQuestionsStandAlone(t *testing.T) {
+	set, err := Load("../../content")
+	if err != nil {
+		t.Fatalf("loading: %v", err)
+	}
+	for _, q := range set.Questions {
+		text := q.Stem + " " + strings.Join(q.Choices, " ")
+		if m := leansOnNeighbour.FindString(text); m != "" {
+			t.Errorf("%s: stem says %q, which only works if another question is on screen. "+
+				"Give it the context it needs, or its own diagram in `data`.", q.ID, m)
+		}
+		// "The network below" is a promise that something is drawn below it.
+		if regexp.MustCompile(`(?i)\b(network|diagram|model|matrix) below\b`).MatchString(q.Stem) && len(q.Data) == 0 {
+			t.Errorf("%s: promises a diagram below the stem but carries no data", q.ID)
+		}
+	}
 }
