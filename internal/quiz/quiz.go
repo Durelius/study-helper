@@ -32,6 +32,7 @@ type Mode struct {
 
 	topics    []string
 	tags      []string
+	types     []string
 	examFocus bool
 	generator string
 	// weak draws from the player's own wrong answers.
@@ -76,6 +77,11 @@ var Modes = []Mode{
 		topics: []string{"pm-foundations"}, tags: []string{"knowledge-area", "pmbok", "process-group", "life-cycle-vs"},
 		Blurb: "Which PMBOK area does this belong to?",
 		Why:   "The other half of question 2. Ten areas, and the boundaries between them are where marks are lost.",
+	},
+	{
+		ID: "visual", Title: "Spot the error", Count: 12, types: []string{"hotspot"},
+		Blurb: "Click what is wrong with the diagram.",
+		Why:   "The paper shows you a model and asks you to circle the mistake. This is the same thing: read the diagram, point at the error.",
 	},
 	{
 		ID: "bpmn", Title: "BPMN fix", Count: 12,
@@ -181,6 +187,9 @@ func candidates(set *content.Set, mode Mode, topic string) []content.Question {
 			continue
 		}
 		if len(mode.tags) > 0 && !hasAnyTag(q, mode.tags) {
+			continue
+		}
+		if len(mode.types) > 0 && !contains(mode.types, q.Type) {
 			continue
 		}
 		out = append(out, q)

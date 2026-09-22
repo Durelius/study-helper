@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vis-qual-01",
+    "topic": "risk-comm-quality",
+    "type": "hotspot",
+    "stem": "One line of this quality plan is not a usable quality requirement. Click the metric that cannot be checked.",
+    "choices": [
+      "Wait time",
+      "Major failures",
+      "Good atmosphere",
+      "Survey score"
+    ],
+    "answer": [2],
+    "explanation": "'Good atmosphere' has no measurable metric and no target, so nobody can say afterwards whether it was met. Quality planning answers four questions: what standard, what metric, what target, and how will we check. A requirement that fails any of them is a wish, not a quality requirement.",
+    "source": { "deck": "new 07", "slide": 40 },
+    "difficulty": 3,
+    "tags": ["quality", "kpi", "metric", "spot-the-error", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "matrix",
+      "columns": ["Metric", "Target", "Check method"],
+      "rows": [
+        { "id": "r1", "label": "Registration", "cells": ["Wait time", "under 5 min", "Observation"] },
+        { "id": "r2", "label": "AV system", "cells": ["Major failures", "0", "Pre-test"] },
+        { "id": "r3", "label": "Venue", "cells": ["Good atmosphere", "—", "—"] },
+        { "id": "r4", "label": "Satisfaction", "cells": ["Survey score", "at least 4/5", "Survey"] }
+      ],
+      "hotspots": [
+        { "target": "r1:0", "label": "Wait time" },
+        { "target": "r2:0", "label": "Major failures" },
+        { "target": "r3:0", "label": "Good atmosphere" },
+        { "target": "r4:0", "label": "Survey score" }
+      ]
+    }
+  },
+  {
+    "id": "vis-risk-01",
+    "topic": "risk-comm-quality",
+    "type": "hotspot",
+    "stem": "One entry in this risk register is not a risk at all. Click the row that belongs somewhere else.",
+    "choices": [
+      "R1 — the supplier may deliver the panels late",
+      "R2 — the lead developer has resigned this morning",
+      "R3 — the new tax rules may change before launch",
+      "R4 — the integration may fail load testing"
+    ],
+    "answer": [1],
+    "explanation": "R2 has already happened, so it is an issue, not a risk: a risk is an uncertain future event, while an issue is a problem affecting the project now. It needs an issue log and an immediate response, not a probability and an impact score. A risk becomes an issue the moment it occurs.",
+    "source": { "deck": "new 07", "slide": 6 },
+    "difficulty": 3,
+    "tags": ["risk", "risk-vs-issue", "classification", "spot-the-error", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "matrix",
+      "columns": ["Category", "Probability", "Impact"],
+      "rows": [
+        { "id": "r1", "label": "R1  Supplier may deliver panels late", "cells": ["Performance", "Medium", "High"] },
+        { "id": "r2", "label": "R2  Lead developer resigned this morning", "cells": ["Organizational", "High", "High"] },
+        { "id": "r3", "label": "R3  Tax rules may change before launch", "cells": ["External", "Low", "High"] },
+        { "id": "r4", "label": "R4  Integration may fail load testing", "cells": ["Technical", "Medium", "Medium"] }
+      ],
+      "hotspots": [
+        { "target": "r1", "label": "R1 — the supplier may deliver the panels late" },
+        { "target": "r2", "label": "R2 — the lead developer has resigned this morning" },
+        { "target": "r3", "label": "R3 — the new tax rules may change before launch" },
+        { "target": "r4", "label": "R4 — the integration may fail load testing" }
+      ]
+    }
+  }
+]

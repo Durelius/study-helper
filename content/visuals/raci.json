@@ -1,0 +1,70 @@
+[
+  {
+    "id": "vis-raci-01",
+    "topic": "initiation",
+    "type": "hotspot",
+    "stem": "One row of this responsibility matrix breaks the RACI rule. Click the cell that has to change.",
+    "choices": [
+      "the 'A' on 1.1 under Project Manager",
+      "the 'A' on 1.2 under Operations",
+      "the 'A' on 1.2 under Project Manager",
+      "the 'I' on 1.3 under Finance"
+    ],
+    "answer": [1],
+    "explanation": "Row 1.2 has two Accountable owners, so if the platform slips nobody is answerable — each points at the other. Exactly one A per row: one person owns the result. Several people may be Responsible for doing the work.",
+    "source": { "deck": "new 05", "slide": 34 },
+    "difficulty": 3,
+    "tags": ["raci", "spot-the-error", "responsibility", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "matrix",
+      "columns": ["Project Manager", "IT", "Operations", "Finance"],
+      "rows": [
+        { "id": "r1", "label": "1.1 Requirements & design", "cells": ["A", "R", "C", "I"] },
+        { "id": "r2", "label": "1.2 Inventory platform", "cells": ["A", "R", "A", "I"] },
+        { "id": "r3", "label": "1.3 ERP integration", "cells": ["A", "R", "C", "I"] },
+        { "id": "r4", "label": "1.4 Deployment", "cells": ["A", "C", "R", "I"] }
+      ],
+      "hotspots": [
+        { "target": "r1:0", "label": "the 'A' on 1.1 under Project Manager" },
+        { "target": "r2:2", "label": "the 'A' on 1.2 under Operations" },
+        { "target": "r2:0", "label": "the 'A' on 1.2 under Project Manager" },
+        { "target": "r3:3", "label": "the 'I' on 1.3 under Finance" }
+      ]
+    }
+  },
+  {
+    "id": "vis-raci-02",
+    "topic": "initiation",
+    "type": "hotspot",
+    "stem": "Click the row of this matrix where nobody has been assigned to do the work.",
+    "choices": [
+      "2.1 Venue & catering",
+      "2.2 Programme",
+      "2.3 Marketing",
+      "2.4 Registration system"
+    ],
+    "answer": [2],
+    "explanation": "Marketing has an Accountable owner, people Consulted and people Informed, but no R — nobody is Responsible for performing the work. Accountable owns the result; Responsible does the work, and every row needs at least one.",
+    "source": { "deck": "new 05", "slide": 34 },
+    "difficulty": 3,
+    "tags": ["raci", "spot-the-error", "responsibility", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "matrix",
+      "columns": ["Event Lead", "Comms", "Finance", "Volunteers"],
+      "rows": [
+        { "id": "r1", "label": "2.1 Venue & catering", "cells": ["A", "I", "C", "R"] },
+        { "id": "r2", "label": "2.2 Programme", "cells": ["A", "C", "I", "R"] },
+        { "id": "r3", "label": "2.3 Marketing", "cells": ["A", "C", "I", "C"] },
+        { "id": "r4", "label": "2.4 Registration system", "cells": ["A", "R", "C", "I"] }
+      ],
+      "hotspots": [
+        { "target": "r1", "label": "2.1 Venue & catering" },
+        { "target": "r2", "label": "2.2 Programme" },
+        { "target": "r3", "label": "2.3 Marketing" },
+        { "target": "r4", "label": "2.4 Registration system" }
+      ]
+    }
+  }
+]

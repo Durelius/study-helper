@@ -1,0 +1,120 @@
+[
+  {
+    "id": "vis-wbs-01",
+    "topic": "initiation",
+    "type": "hotspot",
+    "stem": "This WBS breaks the 100% rule. Click the box that breaks it.",
+    "choices": [
+      "1.1 Requirements & design",
+      "the work package 'Testing' under 1.2",
+      "the work package 'Testing' under 1.3",
+      "1.4 Deployment"
+    ],
+    "answer": [2],
+    "explanation": "'Testing' appears twice — once under Inventory platform and again under ERP integration. The 100% rule says each piece of work appears exactly once: no missing work and no duplicated work. Duplicated work gets estimated twice and owned by nobody.",
+    "source": { "deck": "new 05", "slide": 30 },
+    "difficulty": 3,
+    "tags": ["wbs", "100-percent-rule", "spot-the-error", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "wbs",
+      "width": 560,
+      "nodes": [
+        { "id": "root", "code": "1.0", "label": "Real-time inventory project", "level": 0 },
+        { "id": "d1", "code": "1.1", "label": "Requirements & design", "level": 1, "parent": "root" },
+        { "id": "d2", "code": "1.2", "label": "Inventory platform", "level": 1, "parent": "root" },
+        { "id": "d3", "code": "1.3", "label": "ERP integration", "level": 1, "parent": "root" },
+        { "id": "d4", "code": "1.4", "label": "Deployment", "level": 1, "parent": "root" },
+        { "id": "w1", "label": "Requirements approved", "level": 2, "parent": "d1" },
+        { "id": "w2", "label": "Database", "level": 2, "parent": "d2" },
+        { "id": "w3", "label": "Testing", "level": 2, "parent": "d2" },
+        { "id": "w4", "label": "Interface", "level": 2, "parent": "d3" },
+        { "id": "w5", "label": "Testing", "level": 2, "parent": "d3" },
+        { "id": "w6", "label": "Pilot", "level": 2, "parent": "d4" }
+      ],
+      "hotspots": [
+        { "target": "d1", "label": "1.1 Requirements & design" },
+        { "target": "w3", "label": "the work package 'Testing' under 1.2" },
+        { "target": "w5", "label": "the work package 'Testing' under 1.3" },
+        { "target": "d4", "label": "1.4 Deployment" }
+      ]
+    }
+  },
+  {
+    "id": "vis-wbs-02",
+    "topic": "initiation",
+    "type": "hotspot",
+    "stem": "Click the deliverable that has not been decomposed far enough to plan.",
+    "choices": [
+      "2.1 Venue & catering",
+      "2.2 Programme",
+      "2.3 Marketing",
+      "2.4 Registration system"
+    ],
+    "answer": [2],
+    "explanation": "Marketing has no work packages under it, so there is nothing to estimate, assign an owner, track or accept. Decompose until each branch ends in a work package small enough to estimate, assign to one owner, monitor and accept — not until every tiny action appears.",
+    "source": { "deck": "new 05", "slide": 33 },
+    "difficulty": 2,
+    "tags": ["wbs", "decomposition", "work-package", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "wbs",
+      "width": 560,
+      "nodes": [
+        { "id": "root", "code": "2.0", "label": "Annual conference", "level": 0 },
+        { "id": "d1", "code": "2.1", "label": "Venue & catering", "level": 1, "parent": "root" },
+        { "id": "d2", "code": "2.2", "label": "Programme", "level": 1, "parent": "root" },
+        { "id": "d3", "code": "2.3", "label": "Marketing", "level": 1, "parent": "root" },
+        { "id": "d4", "code": "2.4", "label": "Registration system", "level": 1, "parent": "root" },
+        { "id": "w1", "label": "Venue booked", "level": 2, "parent": "d1" },
+        { "id": "w2", "label": "Menu agreed", "level": 2, "parent": "d1" },
+        { "id": "w3", "label": "Speakers confirmed", "level": 2, "parent": "d2" },
+        { "id": "w6", "label": "Site built", "level": 2, "parent": "d4" },
+        { "id": "w7", "label": "Payments tested", "level": 2, "parent": "d4" }
+      ],
+      "hotspots": [
+        { "target": "d1", "label": "2.1 Venue & catering" },
+        { "target": "d2", "label": "2.2 Programme" },
+        { "target": "d3", "label": "2.3 Marketing" },
+        { "target": "d4", "label": "2.4 Registration system" }
+      ]
+    }
+  },
+  {
+    "id": "vis-wbs-03",
+    "topic": "initiation",
+    "type": "hotspot",
+    "stem": "Click a work package — the lowest manageable level of this WBS.",
+    "choices": [
+      "3.0 Campus app redesign",
+      "3.2 Build",
+      "the box 'Payments tested'",
+      "3.3 Launch"
+    ],
+    "answer": [2],
+    "explanation": "A work package is the lowest level of the WBS: small enough to estimate, assign to one accountable owner, monitor and accept. '3.2 Build' is a level-2 deliverable that still has work beneath it, and 3.0 is the project itself.",
+    "source": { "deck": "new 05", "slide": 29 },
+    "difficulty": 1,
+    "tags": ["wbs", "work-package", "levels", "visual"],
+    "examFocus": true,
+    "data": {
+      "kind": "wbs",
+      "width": 520,
+      "nodes": [
+        { "id": "root", "code": "3.0", "label": "Campus app redesign", "level": 0 },
+        { "id": "d1", "code": "3.1", "label": "Design", "level": 1, "parent": "root" },
+        { "id": "d2", "code": "3.2", "label": "Build", "level": 1, "parent": "root" },
+        { "id": "d3", "code": "3.3", "label": "Launch", "level": 1, "parent": "root" },
+        { "id": "w1", "label": "Wireframes signed off", "level": 2, "parent": "d1" },
+        { "id": "w2", "label": "Payments tested", "level": 2, "parent": "d2" },
+        { "id": "w3", "label": "Store listing live", "level": 2, "parent": "d3" }
+      ],
+      "hotspots": [
+        { "target": "root", "label": "3.0 Campus app redesign" },
+        { "target": "d2", "label": "3.2 Build" },
+        { "target": "w2", "label": "the box 'Payments tested'" },
+        { "target": "d3", "label": "3.3 Launch" }
+      ]
+    }
+  }
+]

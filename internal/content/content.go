@@ -237,6 +237,32 @@ func Load(dir string) (*Set, error) {
 		s.Cases = append(s.Cases, c)
 	}
 
+	// Visual questions live in their own directory because each one carries a whole
+	// diagram and its topic varies file by file, unlike questions/<topic>.json.
+	entries, _ = fs.ReadDir(fsys, "visuals")
+	for _, e := range entries {
+		if e.IsDir() || !strings.HasSuffix(e.Name(), ".json") {
+			continue
+		}
+		var qs []Question
+		if err := readJSON(fsys, "visuals/"+e.Name(), &qs); err != nil {
+			return nil, err
+		}
+		for _, q := range qs {
+			if !known[q.Topic] {
+				return nil, fmt.Errorf("visuals/%s: %q is not a known topic", e.Name(), q.Topic)
+			}
+			if err := validate(q); err != nil {
+				return nil, fmt.Errorf("visuals/%s: %w", e.Name(), err)
+			}
+			if _, dup := s.Questions[q.ID]; dup {
+				return nil, fmt.Errorf("visuals/%s: duplicate question id %q", e.Name(), q.ID)
+			}
+			s.Questions[q.ID] = q
+			s.ByTopic[q.Topic] = append(s.ByTopic[q.Topic], q.ID)
+		}
+	}
+
 	if err := readJSON(fsys, "glossary.json", &s.Glossary); err != nil && !os.IsNotExist(err) {
 		return nil, err
 	}
@@ -311,6 +337,15 @@ func validate(q Question) error {
 	case "multi":
 		if len(q.Answer) < 2 {
 			return fmt.Errorf("%s: a multi-answer question needs at least two answers", q.ID)
+		}
+	case "hotspot":
+		// The choices are the diagram's clickable regions, so a hotspot question
+		// without a diagram has nothing to click.
+		if len(q.Data) == 0 {
+			return fmt.Errorf("%s: a hotspot question needs a diagram in its data", q.ID)
+		}
+		if len(q.Answer) != 1 {
+			return fmt.Errorf("%s: a hotspot question needs exactly one answer", q.ID)
 		}
 	default:
 		return fmt.Errorf("%s: unknown type %q", q.ID, q.Type)

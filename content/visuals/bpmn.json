@@ -1,0 +1,932 @@
+[
+ {
+  "id": "vis-bpm-01",
+  "topic": "process-mapping",
+  "type": "hotspot",
+  "stem": "This claims process breaks one of the deck's gateway guidelines. Click the element that is wrong.",
+  "choices": [
+   "the XOR split after 'Claim received'",
+   "the task 'Assess the damage'",
+   "the second XOR gateway",
+   "the end event 'Claim rejected'"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The second gateway has three incoming flows and two outgoing flows. A gateway must be either '1 in, multiple out' or 'multiple in, 1 out' \u2014 never multiple in and multiple out. Split the joining from the branching into two gateways.",
+  "source": {
+   "deck": "old 02",
+   "slide": 19
+  },
+  "difficulty": 3,
+  "tags": [
+   "bpmn",
+   "spot-the-error",
+   "gateway",
+   "visual"
+  ],
+  "examFocus": true,
+  "data": {
+   "kind": "bpmn",
+   "width": 690,
+   "pools": [
+    {
+     "label": "Claims process",
+     "lanes": [
+      {
+       "id": "l1",
+       "label": "Insurer",
+       "h": 190
+      }
+     ]
+    }
+   ],
+   "nodes": [
+    {
+     "id": "s1",
+     "type": "start",
+     "lane": "l1",
+     "x": 30,
+     "label": "Claim received"
+    },
+    {
+     "id": "g1",
+     "type": "xor",
+     "lane": "l1",
+     "x": 110
+    },
+    {
+     "id": "t1",
+     "type": "task",
+     "lane": "l1",
+     "x": 225,
+     "dy": -62,
+     "label": "Check the policy"
+    },
+    {
+     "id": "t2",
+     "type": "task",
+     "lane": "l1",
+     "x": 225,
+     "label": "Assess the damage"
+    },
+    {
+     "id": "t3",
+     "type": "task",
+     "lane": "l1",
+     "x": 225,
+     "dy": 62,
+     "label": "Check claim history"
+    },
+    {
+     "id": "g2",
+     "type": "xor",
+     "lane": "l1",
+     "x": 345
+    },
+    {
+     "id": "t4",
+     "type": "task",
+     "lane": "l1",
+     "x": 460,
+     "dy": -36,
+     "label": "Approve the claim"
+    },
+    {
+     "id": "t5",
+     "type": "task",
+     "lane": "l1",
+     "x": 460,
+     "dy": 36,
+     "label": "Reject the claim"
+    },
+    {
+     "id": "e1",
+     "type": "end",
+     "lane": "l1",
+     "x": 585,
+     "dy": -36,
+     "label": "Claim approved"
+    },
+    {
+     "id": "e2",
+     "type": "end",
+     "lane": "l1",
+     "x": 585,
+     "dy": 36,
+     "label": "Claim rejected"
+    }
+   ],
+   "flows": [
+    {
+     "from": "s1",
+     "to": "g1"
+    },
+    {
+     "from": "g1",
+     "to": "t1"
+    },
+    {
+     "from": "g1",
+     "to": "t2"
+    },
+    {
+     "from": "g1",
+     "to": "t3"
+    },
+    {
+     "from": "t1",
+     "to": "g2"
+    },
+    {
+     "from": "t2",
+     "to": "g2"
+    },
+    {
+     "from": "t3",
+     "to": "g2"
+    },
+    {
+     "from": "g2",
+     "to": "t4"
+    },
+    {
+     "from": "g2",
+     "to": "t5"
+    },
+    {
+     "from": "t4",
+     "to": "e1"
+    },
+    {
+     "from": "t5",
+     "to": "e2"
+    }
+   ],
+   "hotspots": [
+    {
+     "target": "g1",
+     "label": "the XOR split after 'Claim received'"
+    },
+    {
+     "target": "t2",
+     "label": "the task 'Assess the damage'"
+    },
+    {
+     "target": "g2",
+     "label": "the second XOR gateway"
+    },
+    {
+     "target": "e2",
+     "label": "the end event 'Claim rejected'"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vis-bpm-02",
+  "topic": "process-mapping",
+  "type": "hotspot",
+  "stem": "One activity in this model is drawn incorrectly. Click it.",
+  "choices": [
+   "the task 'Check the application'",
+   "the XOR gateway",
+   "the task 'Write an acceptance letter'",
+   "the end event 'Application rejected'"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "'Write an acceptance letter' straddles the boundary between the Manager and Staff lanes, so the model never says whose job it is. Every activity must sit completely inside one lane. Sequence flows may cross lanes; activities may not.",
+  "source": {
+   "deck": "old 02",
+   "slide": 23
+  },
+  "difficulty": 3,
+  "tags": [
+   "bpmn",
+   "spot-the-error",
+   "lane",
+   "visual"
+  ],
+  "examFocus": true,
+  "data": {
+   "kind": "bpmn",
+   "width": 660,
+   "pools": [
+    {
+     "label": "Process 2",
+     "lanes": [
+      {
+       "id": "mgr",
+       "label": "Manager",
+       "h": 120
+      },
+      {
+       "id": "staff",
+       "label": "Staff",
+       "h": 120
+      }
+     ]
+    }
+   ],
+   "nodes": [
+    {
+     "id": "s1",
+     "type": "start",
+     "lane": "mgr",
+     "x": 35,
+     "label": "Application in",
+     "dy": -15
+    },
+    {
+     "id": "t1",
+     "type": "task",
+     "lane": "mgr",
+     "x": 145,
+     "label": "Check the application",
+     "dy": -15
+    },
+    {
+     "id": "g1",
+     "type": "xor",
+     "lane": "mgr",
+     "x": 265,
+     "label": "Accept?",
+     "dy": -15
+    },
+    {
+     "id": "t2",
+     "type": "task",
+     "lane": "mgr",
+     "x": 400,
+     "dy": 0,
+     "label": "Write an acceptance letter",
+     "straddle": true
+    },
+    {
+     "id": "t3",
+     "type": "task",
+     "lane": "staff",
+     "x": 400,
+     "dy": 10,
+     "label": "Write a rejection letter"
+    },
+    {
+     "id": "e1",
+     "type": "end",
+     "lane": "mgr",
+     "x": 555,
+     "dy": -15,
+     "label": "Application accepted"
+    },
+    {
+     "id": "e2",
+     "type": "end",
+     "lane": "staff",
+     "x": 555,
+     "dy": 10,
+     "label": "Application rejected"
+    }
+   ],
+   "flows": [
+    {
+     "from": "s1",
+     "to": "t1"
+    },
+    {
+     "from": "t1",
+     "to": "g1"
+    },
+    {
+     "from": "g1",
+     "to": "t2",
+     "label": "yes"
+    },
+    {
+     "from": "g1",
+     "to": "t3",
+     "label": "no"
+    },
+    {
+     "from": "t2",
+     "to": "e1"
+    },
+    {
+     "from": "t3",
+     "to": "e2"
+    }
+   ],
+   "hotspots": [
+    {
+     "target": "t1",
+     "label": "the task 'Check the application'"
+    },
+    {
+     "target": "g1",
+     "label": "the XOR gateway"
+    },
+    {
+     "target": "t2",
+     "label": "the task 'Write an acceptance letter'"
+    },
+    {
+     "target": "e2",
+     "label": "the end event 'Application rejected'"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vis-bpm-03",
+  "topic": "process-mapping",
+  "type": "hotspot",
+  "stem": "Two elements in this booking process share a problem the deck warns about. Click the second one.",
+  "choices": [
+   "the start event",
+   "the task in the Ticket Sales lane",
+   "the task in the Hotel Sales lane",
+   "the task 'Send confirmation to the customer'"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Both branch tasks are called 'Manage booking'. Activity names must be unique within a model, or a reader cannot tell which piece of work a box refers to. Name them for what they actually do \u2014 'Book the flight' and 'Book the hotel'.",
+  "source": {
+   "deck": "old 02",
+   "slide": 11
+  },
+  "difficulty": 2,
+  "tags": [
+   "bpmn",
+   "spot-the-error",
+   "naming",
+   "visual"
+  ],
+  "examFocus": true,
+  "data": {
+   "kind": "bpmn",
+   "width": 680,
+   "pools": [
+    {
+     "label": "Process 3",
+     "lanes": [
+      {
+       "id": "reg",
+       "label": "Register"
+      },
+      {
+       "id": "ticket",
+       "label": "Ticket Sales"
+      },
+      {
+       "id": "hotel",
+       "label": "Hotel Sales"
+      }
+     ]
+    }
+   ],
+   "nodes": [
+    {
+     "id": "s1",
+     "type": "start",
+     "lane": "reg",
+     "x": 35,
+     "label": "Travel requested"
+    },
+    {
+     "id": "t1",
+     "type": "task",
+     "lane": "reg",
+     "x": 150,
+     "label": "Register the travel"
+    },
+    {
+     "id": "g1",
+     "type": "and",
+     "lane": "reg",
+     "x": 265
+    },
+    {
+     "id": "t2",
+     "type": "task",
+     "lane": "ticket",
+     "x": 355,
+     "label": "Manage booking"
+    },
+    {
+     "id": "t3",
+     "type": "task",
+     "lane": "hotel",
+     "x": 355,
+     "label": "Manage booking"
+    },
+    {
+     "id": "g2",
+     "type": "and",
+     "lane": "ticket",
+     "x": 465
+    },
+    {
+     "id": "t4",
+     "type": "task",
+     "lane": "reg",
+     "x": 560,
+     "label": "Send confirmation to the customer"
+    },
+    {
+     "id": "e1",
+     "type": "end",
+     "lane": "reg",
+     "x": 650,
+     "label": "Travel booked"
+    }
+   ],
+   "flows": [
+    {
+     "from": "s1",
+     "to": "t1"
+    },
+    {
+     "from": "t1",
+     "to": "g1"
+    },
+    {
+     "from": "g1",
+     "to": "t2"
+    },
+    {
+     "from": "g1",
+     "to": "t3"
+    },
+    {
+     "from": "t2",
+     "to": "g2"
+    },
+    {
+     "from": "t3",
+     "to": "g2"
+    },
+    {
+     "from": "g2",
+     "to": "t4"
+    },
+    {
+     "from": "t4",
+     "to": "e1"
+    }
+   ],
+   "hotspots": [
+    {
+     "target": "s1",
+     "label": "the start event"
+    },
+    {
+     "target": "t2",
+     "label": "the task in the Ticket Sales lane"
+    },
+    {
+     "target": "t3",
+     "label": "the task in the Hotel Sales lane"
+    },
+    {
+     "target": "t4",
+     "label": "the task 'Send confirmation to the customer'"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vis-bpm-04",
+  "topic": "process-mapping",
+  "type": "hotspot",
+  "stem": "This checkout process has a modelling error the deck's own exercise uses. Click the element that should not be there.",
+  "choices": [
+   "the task 'Scan all products'",
+   "the XOR split",
+   "the box 'Customer has a membership code'",
+   "the end event"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "'Customer has a membership code' is a condition, not work, yet it is drawn as an activity box. A branch condition belongs as a label on the gateway's outgoing sequence flow. As drawn, the model claims someone performs a task called 'customer has a membership code'.",
+  "source": {
+   "deck": "old 02",
+   "slide": 25
+  },
+  "difficulty": 3,
+  "tags": [
+   "bpmn",
+   "spot-the-error",
+   "gateway",
+   "visual"
+  ],
+  "examFocus": true,
+  "data": {
+   "kind": "bpmn",
+   "width": 690,
+   "pools": [
+    {
+     "label": "Process 8",
+     "lanes": [
+      {
+       "id": "l1",
+       "label": "Checkout",
+       "h": 150
+      }
+     ]
+    }
+   ],
+   "nodes": [
+    {
+     "id": "s1",
+     "type": "start",
+     "lane": "l1",
+     "x": 30,
+     "label": "Order received"
+    },
+    {
+     "id": "t1",
+     "type": "task",
+     "lane": "l1",
+     "x": 135,
+     "label": "Scan all products"
+    },
+    {
+     "id": "g1",
+     "type": "xor",
+     "lane": "l1",
+     "x": 245
+    },
+    {
+     "id": "t2",
+     "type": "task",
+     "lane": "l1",
+     "x": 355,
+     "dy": -46,
+     "label": "Customer has a membership code"
+    },
+    {
+     "id": "t3",
+     "type": "task",
+     "lane": "l1",
+     "x": 355,
+     "dy": 46,
+     "label": "Customer has no membership code"
+    },
+    {
+     "id": "g2",
+     "type": "xor",
+     "lane": "l1",
+     "x": 470
+    },
+    {
+     "id": "t4",
+     "type": "task",
+     "lane": "l1",
+     "x": 580,
+     "label": "Take the payment"
+    },
+    {
+     "id": "e1",
+     "type": "end",
+     "lane": "l1",
+     "x": 665,
+     "label": "Order fulfilled"
+    }
+   ],
+   "flows": [
+    {
+     "from": "s1",
+     "to": "t1"
+    },
+    {
+     "from": "t1",
+     "to": "g1"
+    },
+    {
+     "from": "g1",
+     "to": "t2"
+    },
+    {
+     "from": "g1",
+     "to": "t3"
+    },
+    {
+     "from": "t2",
+     "to": "g2"
+    },
+    {
+     "from": "t3",
+     "to": "g2"
+    },
+    {
+     "from": "g2",
+     "to": "t4"
+    },
+    {
+     "from": "t4",
+     "to": "e1"
+    }
+   ],
+   "hotspots": [
+    {
+     "target": "t1",
+     "label": "the task 'Scan all products'"
+    },
+    {
+     "target": "g1",
+     "label": "the XOR split"
+    },
+    {
+     "target": "t2",
+     "label": "the box 'Customer has a membership code'"
+    },
+    {
+     "target": "e1",
+     "label": "the end event"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vis-bpm-05",
+  "topic": "process-mapping",
+  "type": "hotspot",
+  "stem": "This model breaks the gateway pairing guideline. Click the gateway that causes it.",
+  "choices": [
+   "the AND split after 'Receive the order'",
+   "the task 'Pack the order'",
+   "the task 'Print the invoice'",
+   "the end event 'Order dispatched'"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The AND split opens two parallel branches that are never brought back together \u2014 each just runs to its own end event. Gateways are used as a pair: a split needs a matching join of the same type, so an AND join should merge the branches before the process ends.",
+  "source": {
+   "deck": "old 02",
+   "slide": 19
+  },
+  "difficulty": 3,
+  "tags": [
+   "bpmn",
+   "spot-the-error",
+   "gateway",
+   "pairing",
+   "visual"
+  ],
+  "examFocus": true,
+  "data": {
+   "kind": "bpmn",
+   "width": 640,
+   "pools": [
+    {
+     "label": "Dispatch",
+     "lanes": [
+      {
+       "id": "l1",
+       "label": "Warehouse",
+       "h": 165
+      }
+     ]
+    }
+   ],
+   "nodes": [
+    {
+     "id": "s1",
+     "type": "start",
+     "lane": "l1",
+     "x": 30,
+     "label": "Order placed"
+    },
+    {
+     "id": "t0",
+     "type": "task",
+     "lane": "l1",
+     "x": 140,
+     "label": "Receive the order"
+    },
+    {
+     "id": "g1",
+     "type": "and",
+     "lane": "l1",
+     "x": 255
+    },
+    {
+     "id": "t1",
+     "type": "task",
+     "lane": "l1",
+     "x": 375,
+     "dy": -50,
+     "label": "Pack the order"
+    },
+    {
+     "id": "t2",
+     "type": "task",
+     "lane": "l1",
+     "x": 375,
+     "dy": 50,
+     "label": "Print the invoice"
+    },
+    {
+     "id": "e1",
+     "type": "end",
+     "lane": "l1",
+     "x": 500,
+     "dy": -50,
+     "label": "Order dispatched"
+    },
+    {
+     "id": "e2",
+     "type": "end",
+     "lane": "l1",
+     "x": 500,
+     "dy": 50,
+     "label": "Invoice filed"
+    }
+   ],
+   "flows": [
+    {
+     "from": "s1",
+     "to": "t0"
+    },
+    {
+     "from": "t0",
+     "to": "g1"
+    },
+    {
+     "from": "g1",
+     "to": "t1"
+    },
+    {
+     "from": "g1",
+     "to": "t2"
+    },
+    {
+     "from": "t1",
+     "to": "e1"
+    },
+    {
+     "from": "t2",
+     "to": "e2"
+    }
+   ],
+   "hotspots": [
+    {
+     "target": "g1",
+     "label": "the AND split after 'Receive the order'"
+    },
+    {
+     "target": "t1",
+     "label": "the task 'Pack the order'"
+    },
+    {
+     "target": "t2",
+     "label": "the task 'Print the invoice'"
+    },
+    {
+     "target": "e1",
+     "label": "the end event 'Order dispatched'"
+    }
+   ]
+  }
+ },
+ {
+  "id": "vis-bpm-06",
+  "topic": "process-mapping",
+  "type": "hotspot",
+  "stem": "One connection between the two pools is drawn with the wrong kind of line. Click it.",
+  "choices": [
+   "the solid arrow from 'Confirm the order' to the Supplier pool",
+   "the dashed arrow from the Supplier pool to 'Receive the goods'",
+   "the flow from the start event to 'Confirm the order'",
+   "the flow from 'Receive the goods' to the end event"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A solid arrow with a filled head is a sequence flow, and a sequence flow stays inside one pool. Anything crossing a pool boundary is an exchange between participants and must be a message flow: dashed, with an open arrowhead \u2014 like the return arrow below it.",
+  "source": {
+   "deck": "old 02",
+   "slide": 20
+  },
+  "difficulty": 3,
+  "tags": [
+   "bpmn",
+   "spot-the-error",
+   "message-flow",
+   "pool",
+   "visual"
+  ],
+  "examFocus": true,
+  "data": {
+   "kind": "bpmn",
+   "width": 640,
+   "pools": [
+    {
+     "label": "Purchasing",
+     "lanes": [
+      {
+       "id": "buy",
+       "label": "Buyer"
+      }
+     ]
+    },
+    {
+     "label": "Supplier",
+     "lanes": [
+      {
+       "id": "sup",
+       "label": ""
+      }
+     ],
+     "blackBox": true
+    }
+   ],
+   "nodes": [
+    {
+     "id": "s1",
+     "type": "start",
+     "lane": "buy",
+     "x": 30,
+     "label": "Need raised"
+    },
+    {
+     "id": "t1",
+     "type": "task",
+     "lane": "buy",
+     "x": 145,
+     "label": "Confirm the order"
+    },
+    {
+     "id": "t2",
+     "type": "task",
+     "lane": "buy",
+     "x": 330,
+     "label": "Receive the goods"
+    },
+    {
+     "id": "e1",
+     "type": "end",
+     "lane": "buy",
+     "x": 460,
+     "label": "Order closed"
+    },
+    {
+     "id": "p1",
+     "type": "anchor",
+     "lane": "sup",
+     "x": 145,
+     "dy": -18
+    },
+    {
+     "id": "p2",
+     "type": "anchor",
+     "lane": "sup",
+     "x": 330,
+     "dy": -18
+    }
+   ],
+   "flows": [
+    {
+     "from": "s1",
+     "to": "t1"
+    },
+    {
+     "from": "t1",
+     "to": "p1"
+    },
+    {
+     "from": "p2",
+     "to": "t2",
+     "kind": "message",
+     "label": "goods"
+    },
+    {
+     "from": "t2",
+     "to": "e1"
+    }
+   ],
+   "hotspots": [
+    {
+     "target": "t1>p1",
+     "label": "the solid arrow from 'Confirm the order' to the Supplier pool"
+    },
+    {
+     "target": "p2>t2",
+     "label": "the dashed arrow from the Supplier pool to 'Receive the goods'"
+    },
+    {
+     "target": "s1>t1",
+     "label": "the flow from the start event to 'Confirm the order'"
+    },
+    {
+     "target": "t2>e1",
+     "label": "the flow from 'Receive the goods' to the end event"
+    }
+   ]
+  }
+ }
+]

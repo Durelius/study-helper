@@ -206,6 +206,11 @@
   .action-row:hover { background: var(--sunken); border-color: var(--line-strong); }
   .action-row:hover .action-go { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 
+  /* Clickable regions on a diagram. The outline only appears on hover, so an
+     unanswered diagram reads as the model itself rather than as a set of boxes. */
+  .vc-hotspot rect { transition: stroke 0.1s ease; }
+  .vc-hotspot:hover rect[stroke='transparent'] { stroke: var(--ink-faint); }
+
   .action-chip {
     flex-shrink: 0;
     border: 1px solid var(--line-strong);

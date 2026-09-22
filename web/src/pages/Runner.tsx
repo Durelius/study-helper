@@ -2,7 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLocation, useNavigate, useParams } from 'react-router-dom'
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import Diagram from '../components/Diagram'
 import NetworkDiagram from '../components/NetworkDiagram'
+import type { DiagramSpec } from '../lib/diagram'
 import { api, type Mode, type Network, type Question, type Verdict } from '../lib/api'
 import { duration } from '../lib/format'
 
@@ -66,6 +68,13 @@ export default function Runner() {
     if (!question?.data) return null
     const d = question.data as Partial<Network>
     return Array.isArray(d.activities) ? (question.data as Network) : null
+  }, [question])
+
+  // A hotspot question carries a diagram whose clickable regions are its choices.
+  const diagram = useMemo(() => {
+    if (!question?.data) return null
+    const d = question.data as { kind?: string }
+    return d.kind === 'bpmn' || d.kind === 'wbs' || d.kind === 'matrix' ? (question.data as DiagramSpec) : null
   }, [question])
 
   const scenario = useMemo(() => {
@@ -176,6 +185,23 @@ export default function Runner() {
       {network && (
         <div className="mt-4 border border-line bg-surface p-3">
           <NetworkDiagram net={network} reveal={!!verdict} />
+        </div>
+      )}
+
+      {diagram && (
+        <div className="mt-4 border border-line bg-surface p-3">
+          <Diagram
+            spec={diagram}
+            selected={chosen}
+            correct={verdict?.answer ?? []}
+            revealed={!!verdict}
+            onPick={toggle}
+          />
+          <p className="mt-1 text-[0.72rem] text-ink-faint">
+            {verdict
+              ? 'The correct element is outlined in green.'
+              : 'Click the part of the diagram you think is wrong, or pick from the list below.'}
+          </p>
         </div>
       )}
 
