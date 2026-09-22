@@ -65,7 +65,7 @@
   "answer": [
    2
   ],
-  "explanation": "Continuous is the deck's oil-refinery example: 24/7, high efficiency. Flow/Line is the adjacent trap \u2014 it is also high volume and standardized, but it is an assembly line producing discrete units, not an uninterrupted flow.",
+  "explanation": "Continuous is this course's oil-refinery example: 24/7, high efficiency. Flow/Line is the adjacent trap \u2014 it is also high volume and standardized, but it is an assembly line producing discrete units, not an uninterrupted flow.",
   "source": {
    "deck": "old 02",
    "slide": 5
@@ -90,7 +90,7 @@
   "answer": [
    1
   ],
-  "explanation": "Job shop = custom work in small batches, the deck's tailor-shop example. Project is the trap: a project is unique and one-time (construction), whereas a tailor shop repeats the same kind of custom work again and again.",
+  "explanation": "Job shop = custom work in small batches, this course's tailor-shop example. Project is the trap: a project is unique and one-time (construction), whereas a tailor shop repeats the same kind of custom work again and again.",
   "source": {
    "deck": "old 02",
    "slide": 5
@@ -115,7 +115,7 @@
   "answer": [
    3
   ],
-  "explanation": "Batch = medium volume, repeated, the deck's bakery example. Flow/Line is the trap: that is high volume and fully standardized, a step further along than a bakery's repeated batches.",
+  "explanation": "Batch = medium volume, repeated, this course's bakery example. Flow/Line is the trap: that is high volume and fully standardized, a step further along than a bakery's repeated batches.",
   "source": {
    "deck": "old 02",
    "slide": 5
@@ -244,7 +244,7 @@
   "answer": [
    1
   ],
-  "explanation": "Event names are \"something done\" \u2014 the deck's own examples are Order Received, Invoice handled and PO Fulfilled. \"Receive the order\" is verb + object, which is the activity convention.",
+  "explanation": "Event names are \"something done\" \u2014 this course's own examples are Order Received, Invoice handled and PO Fulfilled. \"Receive the order\" is verb + object, which is the activity convention.",
   "source": {
    "deck": "old 02",
    "slide": 13
@@ -338,17 +338,17 @@
   "id": "bpm-014",
   "topic": "process-mapping",
   "type": "mcq",
-  "stem": "What is a gateway used for in BPMN?",
+  "stem": "A process must follow one route when an order is over \u0e3f10,000 and a different route when it is not. Which BPMN element controls that choice?",
   "choices": [
-   "To show the exchange of messages between two pools",
-   "To group activities by the department that performs them",
-   "To record how long an activity takes",
-   "To control how sequence flows converge and diverge within a process"
+   "A gateway",
+   "An intermediate event",
+   "A lane",
+   "A message flow"
   ],
   "answer": [
-   3
+   0
   ],
-  "explanation": "A gateway represents control over converging and diverging sequence flows \u2014 and so, if the flow does not need to be controlled, no gateway is needed. Messages between pools are message flows; grouping by department is what lanes do.",
+  "explanation": "A gateway controls how sequence flows converge and diverge. The condition itself is written on the outgoing flows, not inside a box \u2014 and if the flow does not actually need controlling, no gateway should be there at all.",
   "source": {
    "deck": "old 02",
    "slide": 14
@@ -418,7 +418,7 @@
   "id": "bpm-017",
   "topic": "process-mapping",
   "type": "multi",
-  "stem": "Select all of the deck's guidelines for using gateways.",
+  "stem": "Select all of this course's guidelines for using gateways.",
   "choices": [
    "Use XOR or AND rather than OR",
    "Use gateways as a pair",
@@ -528,7 +528,7 @@
   "id": "bpm-021",
   "topic": "process-mapping",
   "type": "mcq",
-  "stem": "Little's Law, as stated in the deck, is:",
+  "stem": "Little's Law, as stated in this course, is:",
   "choices": [
    "Flow Time = Inventory (WIP) x Throughput Rate",
    "Inventory (WIP) = Throughput Rate x Flow Time",
@@ -563,7 +563,7 @@
   "answer": [
    2
   ],
-  "explanation": "WIP = throughput x flow time = 3 drinks/min x 2 min = 6 drinks, the deck's own numbers. 1.5 comes from dividing instead of multiplying, and 5 from adding the two figures.",
+  "explanation": "WIP = throughput x flow time = 3 drinks/min x 2 min = 6 drinks, this course's own numbers. 1.5 comes from dividing instead of multiplying, and 5 from adding the two figures.",
   "source": {
    "deck": "old 02",
    "slide": 29
@@ -641,7 +641,7 @@
   "answer": [
    1
   ],
-  "explanation": "This is the deck's own rejected example: a gateway may fan out or fan in, but not both. The fix is two gateways in sequence \u2014 a multiple-in/one-out join followed by a one-in/multiple-out split.",
+  "explanation": "This is this course's own rejected example: a gateway may fan out or fan in, but not both. The fix is two gateways in sequence \u2014 a multiple-in/one-out join followed by a one-in/multiple-out split.",
   "source": {
    "deck": "old 02",
    "slide": 19
@@ -749,7 +749,7 @@
   "answer": [
    1
   ],
-  "explanation": "This is the deck's rejected example for the rule \"at least a start and an end event for each process\". A gateway is not required \u2014 a gateway is only needed where the flow must be controlled.",
+  "explanation": "This is this course's rejected example for the rule \"at least a start and an end event for each process\". A gateway is not required \u2014 a gateway is only needed where the flow must be controlled.",
   "source": {
    "deck": "old 02",
    "slide": 13

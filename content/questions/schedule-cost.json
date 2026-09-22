@@ -3,7 +3,7 @@
   "id": "sc-001",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "How does the deck define a project schedule?",
+  "stem": "How does this course define a project schedule?",
   "choices": [
    "A hierarchical breakdown of the deliverables, with no sequence",
    "A plan showing what work happens, in what order, and when",
@@ -29,7 +29,7 @@
   "id": "sc-002",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck's planning logic runs WBS \u2192 Activities \u2192 Dependencies \u2192 Duration \u2192 ? \u2192 Resources \u2192 Cost \u2192 Baseline. Which step is missing?",
+  "stem": "This course's planning logic runs WBS \u2192 Activities \u2192 Dependencies \u2192 Duration \u2192 ? \u2192 Resources \u2192 Cost \u2192 Baseline. Which step is missing?",
   "choices": [
    "Risk register",
    "Gantt chart",
@@ -65,7 +65,7 @@
   "answer": [
    3
   ],
-  "explanation": "The deck's three-level example is deliverable = Mobile application, work package = Payment module, activity = Integrate payment gateway. The activity is the schedulable piece of work that consumes time and resources; the work package sits one level above it.",
+  "explanation": "This course's three-level example is deliverable = Mobile application, work package = Payment module, activity = Integrate payment gateway. The activity is the schedulable piece of work that consumes time and resources; the work package sits one level above it.",
   "source": {
    "deck": "new 06",
    "slide": 14
@@ -81,17 +81,17 @@
   "id": "sc-004",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck defines a dependency as:",
+  "stem": "A schedule records that testing cannot start until development has finished. What is that relationship called?",
   "choices": [
-   "A description of how one activity affects another activity",
-   "The amount of time an activity can be delayed without delaying the project",
-   "A resource shared between two activities",
-   "A deliberate waiting period inserted between two activities"
+   "A dependency",
+   "Total float",
+   "A milestone",
+   "A lag"
   ],
   "answer": [
    0
   ],
-  "explanation": "A dependency describes how one activity affects another. The second option is float/slack and the fourth is a lag \u2014 both are separate concepts in this deck.",
+  "explanation": "A dependency describes how one activity affects another. This particular one is finish-to-start: the most common of the four types.",
   "source": {
    "deck": "new 06",
    "slide": 15
@@ -211,7 +211,7 @@
   "id": "sc-009",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "In the deck's event examples, 'Day Shift Security \u2192 Night Shift Security' illustrates which dependency type?",
+  "stem": "In this course's event examples, 'Day Shift Security \u2192 Night Shift Security' illustrates which dependency type?",
   "choices": [
    "Finish-to-Start (FS)",
    "Start-to-Finish (SF)",
@@ -221,7 +221,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck lists the shift handover as its Start-to-Finish example: one security shift cannot finish until the next shift starts. FS is the trap \u2014 the shifts overlap at the handover rather than one simply following the other.",
+  "explanation": "This course lists the shift handover as its Start-to-Finish example: one security shift cannot finish until the next shift starts. FS is the trap \u2014 the shifts overlap at the handover rather than one simply following the other.",
   "source": {
    "deck": "new 06",
    "slide": 17
@@ -238,7 +238,7 @@
   "id": "sc-010",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "In the deck's event examples, 'Catering Prep \u2192 Guest Arrival' illustrates which dependency type?",
+  "stem": "In this course's event examples, 'Catering Prep \u2192 Guest Arrival' illustrates which dependency type?",
   "choices": [
    "Start-to-Start (SS)",
    "Finish-to-Start (FS)",
@@ -265,7 +265,7 @@
   "id": "sc-011",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "In the deck's event examples, 'Live Band Performance \u2192 Audio Recording' illustrates which dependency type?",
+  "stem": "In this course's event examples, 'Live Band Performance \u2192 Audio Recording' illustrates which dependency type?",
   "choices": [
    "Start-to-Finish (SF)",
    "Finish-to-Start (FS)",
@@ -275,7 +275,7 @@
   "answer": [
    2
   ],
-  "explanation": "The recording cannot finish until the performance finishes, so the two finishes are tied: FF. SS is tempting because they also start together, but the constraint the deck names is on the finish.",
+  "explanation": "The recording cannot finish until the performance finishes, so the two finishes are tied: FF. SS is tempting because they also start together, but the constraint this course names is on the finish.",
   "source": {
    "deck": "new 06",
    "slide": 17
@@ -292,17 +292,17 @@
   "id": "sc-012",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck defines a lead as:",
+  "stem": "Decorating is allowed to start three days before painting has completely finished, to pull the schedule in. What is that overlap called?",
   "choices": [
-   "A wait deliberately inserted between two activities",
-   "The successor starting before the predecessor completely finishes",
-   "The time an activity can slip without delaying the project",
-   "The gap between an activity's earliest and latest finish"
+   "A lag",
+   "A lead",
+   "Total float",
+   "A start-to-start dependency"
   ],
   "answer": [
    1
   ],
-  "explanation": "A lead pulls the successor forward, overlapping the two activities. The first option is a lag \u2014 the adjacent term and the classic mix-up; the third and fourth both describe float.",
+  "explanation": "A lead lets the successor start before the predecessor is completely finished, overlapping the two to save time. A lag is the opposite \u2014 a deliberate wait inserted between activities, like letting concrete cure.",
   "source": {
    "deck": "new 06",
    "slide": 19
@@ -318,7 +318,7 @@
   "id": "sc-013",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck uses two examples: 'Bride and father dance \u2192 Everyone else dances' and 'Serve dinner \u2192 Prepare dessert'. Which is which?",
+  "stem": "This course uses two examples: 'Bride and father dance \u2192 Everyone else dances' and 'Serve dinner \u2192 Prepare dessert'. Which is which?",
   "choices": [
    "Both are leads",
    "The dance pair is a lead; the dinner pair is a lag",
@@ -379,7 +379,7 @@
   "answer": [
    1
   ],
-  "explanation": "False \u2014 the deck states explicitly that two people do not always cut duration exactly in half, because overheads, dependencies and coordination time do not reduce proportionally.",
+  "explanation": "False \u2014 this course states explicitly that two people do not always cut duration exactly in half, because overheads, dependencies and coordination time do not reduce proportionally.",
   "source": {
    "deck": "new 06",
    "slide": 22
@@ -395,7 +395,7 @@
   "id": "sc-016",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "Which statement matches the deck's definition of a milestone?",
+  "stem": "Which statement matches this course's definition of a milestone?",
   "choices": [
    "A significant project event or checkpoint with zero duration",
    "The shortest activity in the schedule",
@@ -445,7 +445,7 @@
   "id": "sc-018",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "How does the deck contrast a Gantt chart with a network diagram?",
+  "stem": "How does this course contrast a Gantt chart with a network diagram?",
   "choices": [
    "The Gantt chart shows dependencies; the network diagram shows calendar dates",
    "The Gantt chart is hierarchical with no sequence; the network diagram is time-based",
@@ -455,7 +455,7 @@
   "answer": [
    3
   ],
-  "explanation": "The deck's own line is 'Gantt = communicate time. Network = analyze logic.' The hierarchical-with-no-sequence contrast belongs to WBS versus schedule, and saying the Gantt shows dependencies while the network shows dates reverses the two roles.",
+  "explanation": "This course's own line is 'Gantt = communicate time. Network = analyze logic.' The hierarchical-with-no-sequence contrast belongs to WBS versus schedule, and saying the Gantt shows dependencies while the network shows dates reverses the two roles.",
   "source": {
    "deck": "new 06",
    "slide": 25
@@ -521,7 +521,7 @@
   "id": "sc-021",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "In the Activity-On-Node box the deck uses, what are the three cells of the TOP row, left to right?",
+  "stem": "In the Activity-On-Node box this course uses, what are the three cells of the TOP row, left to right?",
   "choices": [
    "Latest Start | Float | Latest Finish",
    "Earliest Start | Duration | Earliest Finish",
@@ -600,17 +600,17 @@
   "id": "sc-024",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck defines float (slack) as:",
+  "stem": "An activity can start up to four days later than planned and the project still finishes on its committed date. What are those four days called?",
   "choices": [
-   "The amount of time an activity can be delayed without delaying project completion",
-   "The waiting time deliberately scheduled between two activities",
-   "The difference between an activity's effort and its duration",
-   "The spare capacity a resource has left in a working day"
+   "Float, or slack",
+   "Lag",
+   "A lead",
+   "The activity's duration buffer"
   ],
   "answer": [
    0
   ],
-  "explanation": "Float is schedule slack on an activity. Option 1 is a lag, which is planned in deliberately, whereas float is a by-product of the network's logic; option 3 is resource over-allocation.",
+  "explanation": "Float is how long an activity can be delayed without delaying project completion \u2014 total float = LS \u2212 ES. An activity with zero float is on the critical path, so watch those first.",
   "source": {
    "deck": "new 06",
    "slide": 28
@@ -707,17 +707,17 @@
   "id": "sc-028",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "What is the order of the four CPM steps in the deck?",
+  "stem": "You have just finished the forward pass over a network and know every activity's earliest start and finish. What do you do next?",
   "choices": [
-   "Backward pass \u2192 forward pass \u2192 critical path identification \u2192 float calculation",
-   "Forward pass \u2192 backward pass \u2192 float calculation \u2192 critical path identification",
-   "Float calculation \u2192 forward pass \u2192 backward pass \u2192 critical path identification",
-   "Forward pass \u2192 float calculation \u2192 backward pass \u2192 critical path identification"
+   "The backward pass, to get the latest starts and finishes",
+   "Calculate float, then run the backward pass",
+   "Identify the critical path directly from the earliest times",
+   "Re-run the forward pass from the finish backwards"
   ],
   "answer": [
-   1
+   0
   ],
-  "explanation": "You need earliest times before latest times, and both before float can be computed; the critical path then falls out as the chain with float = 0. Float cannot be calculated before the backward pass because it needs LS or LF.",
+  "explanation": "CPM runs forward pass \u2192 backward pass \u2192 float \u2192 critical path. Float needs both the earliest and the latest times, so it cannot be computed until the backward pass is done, and the critical path is what float 0 then reveals.",
   "source": {
    "deck": "new 06",
    "slide": 29
@@ -787,7 +787,7 @@
   "id": "sc-031",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The network below is the deck's own CPM exercise. Read the durations off the boxes. What is the critical path, and how long is the project?",
+  "stem": "The network below is this course's own CPM exercise. Read the durations off the boxes. What is the critical path, and how long is the project?",
   "choices": [
    "START\u2013A\u2013C\u2013H\u2013FINISH, 11 days",
    "START\u2013B\u2013D\u2013H\u2013FINISH, 10 days",
@@ -1559,7 +1559,7 @@
    2,
    3
   ],
-  "explanation": "The deck's leveling options are reassign work, delay an activity, change sequence, add capacity and outsource. Cutting scope without approval and re-baselining costs are not leveling actions \u2014 leveling adjusts how work is staffed and sequenced, not what is delivered.",
+  "explanation": "This course's leveling options are reassign work, delay an activity, change sequence, add capacity and outsource. Cutting scope without approval and re-baselining costs are not leveling actions \u2014 leveling adjusts how work is staffed and sequenced, not what is delivered.",
   "source": {
    "deck": "new 06",
    "slide": 37
@@ -1575,17 +1575,17 @@
   "id": "sc-040",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "What is the order of the deck's five cost planning steps?",
+  "stem": "A project manager has estimated the cost of every work package. What is the next step in cost planning?",
   "choices": [
-   "Aggregate \u2192 estimate \u2192 approve \u2192 add reserves \u2192 baseline",
-   "Estimate \u2192 aggregate \u2192 add reserves \u2192 approve \u2192 baseline",
-   "Estimate \u2192 approve \u2192 aggregate \u2192 baseline \u2192 add reserves",
-   "Baseline \u2192 estimate \u2192 aggregate \u2192 add reserves \u2192 approve"
+   "Aggregate the estimates into a total project cost",
+   "Approve the budget with the sponsor",
+   "Set the cost baseline",
+   "Add contingency and management reserves"
   ],
   "answer": [
-   1
+   0
   ],
-  "explanation": "Estimate activity costs, combine them, add contingency reserves, obtain approval, then create the cost baseline. The baseline is the last step because it is the approved reference, not a starting point.",
+  "explanation": "Cost planning runs estimate \u2192 aggregate \u2192 add reserves \u2192 approve \u2192 baseline. Reserves are added to the aggregated total, and only an approved budget becomes the baseline you later measure against.",
   "source": {
    "deck": "new 06",
    "slide": 38
@@ -1601,7 +1601,7 @@
   "id": "sc-041",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "A project pays rent, utilities and insurance on the office where the team works. How does the deck classify this cost?",
+  "stem": "A project pays rent, utilities and insurance on the office where the team works. How does this course classify this cost?",
   "choices": [
    "A direct cost, because the team occupies the office",
    "An indirect cost, because it supports the project but is not tied to a single deliverable",
@@ -1654,7 +1654,7 @@
   "id": "sc-043",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "A task is estimated as best case \u0e3f20,000, most likely \u0e3f30,000 and worst case \u0e3f70,000. Using the deck's three-point formula, what is the expected cost?",
+  "stem": "A task is estimated as best case \u0e3f20,000, most likely \u0e3f30,000 and worst case \u0e3f70,000. Using this course's three-point formula, what is the expected cost?",
   "choices": [
    "\u0e3f30,000",
    "\u0e3f35,000",

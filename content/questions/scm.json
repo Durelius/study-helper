@@ -3,17 +3,17 @@
   "id": "scm-001",
   "topic": "scm",
   "type": "mcq",
-  "stem": "The deck defines a supply chain as a flow of three things across multiple entities. Which definition matches the slide?",
+  "stem": "A rice miller maps the goods arriving from farms and leaving to shops, the orders and forecasts travelling back the other way, and the payments that follow. What has it mapped, and what flows through it?",
   "choices": [
-   "The primary and support activities inside one firm that together create margin",
-   "The movement and storage of goods between locations",
-   "A flow of materials, information and money across suppliers, manufacturers and customers",
-   "The sequence of steps one company uses to turn an order into a finished product"
+   "A supply chain: materials, information and money across suppliers, manufacturers and customers",
+   "A value chain: the primary and support activities inside one firm that create margin",
+   "A logistics network: the movement and storage of goods between locations",
+   "A process map: the sequence of steps used to turn one order into a finished product"
   ],
   "answer": [
-   2
+   0
   ],
-  "explanation": "Slide 5: a supply chain is the flow of materials, information and money across multiple entities, and SCM is managing that flow efficiently and strategically. The movement-and-storage definition is logistics, which is only one part of the chain (slide 29).",
+  "explanation": "Three flows across several organisations is the supply chain. A value chain looks inside one firm at the activities that add value, and logistics is only the goods-movement part of the wider chain.",
   "source": {
    "deck": "new 03",
    "slide": 5
@@ -29,7 +29,7 @@
   "id": "scm-002",
   "topic": "scm",
   "type": "mcq",
-  "stem": "A cafe maps its own Order to Pay to Prepare to Pickup steps and improves the handoffs between them. Which discipline is this, as the deck draws the boundary?",
+  "stem": "A cafe maps its own Order to Pay to Prepare to Pickup steps and improves the handoffs between them. Which discipline is this, as this course draws the boundary?",
   "choices": [
    "Operations management, because the flow stays within one organisation",
    "Supply chain management, because several parties are involved",
@@ -55,7 +55,7 @@
   "id": "scm-003",
   "topic": "scm",
   "type": "tf",
-  "stem": "According to the deck, real supply chains are best described as simple linear chains running from one supplier through to one customer.",
+  "stem": "According to this course, real supply chains are best described as simple linear chains running from one supplier through to one customer.",
   "choices": [
    "True",
    "False"
@@ -108,7 +108,7 @@
   "id": "scm-005",
   "topic": "scm",
   "type": "mcq",
-  "stem": "CP Group appears in the deck as supplier, manufacturer, distributor/logistics operator and retailer (7-Eleven, Lotus's, Makro) all at once. What point is this case making?",
+  "stem": "CP Group appears in this course as supplier, manufacturer, distributor/logistics operator and retailer (7-Eleven, Lotus's, Makro) all at once. What point is this case making?",
   "choices": [
    "Vertical integration always lowers total supply-chain cost",
    "A company should single-source in order to keep unit costs down",
@@ -118,7 +118,7 @@
   "answer": [
    3
   ],
-  "explanation": "Slide 8 is titled 'One Company, Multiple Roles', and slide 9 adds that the same group runs several distinct product supply chains (feed, meat, seafood, ready-to-eat, dairy, pharma). The deck never claims integration is automatically cheaper.",
+  "explanation": "Slide 8 is titled 'One Company, Multiple Roles', and slide 9 adds that the same group runs several distinct product supply chains (feed, meat, seafood, ready-to-eat, dairy, pharma). This course never claims integration is automatically cheaper.",
   "source": {
    "deck": "new 03",
    "slide": 8
@@ -135,7 +135,7 @@
   "id": "scm-006",
   "topic": "scm",
   "type": "mcq",
-  "stem": "Which of these is a supply-chain-level (SCOR) performance attribute in the deck, rather than a Week 2 process-level objective?",
+  "stem": "Which of these is a supply-chain-level (SCOR) performance attribute in this course, rather than a Week 2 process-level objective?",
   "choices": [
    "Quality",
    "Dependability",
@@ -187,7 +187,7 @@
   "id": "scm-008",
   "topic": "scm",
   "type": "mcq",
-  "stem": "In the deck's efficient-versus-responsive table, an efficient supply chain is characterised by which combination?",
+  "stem": "In this course's efficient-versus-responsive table, an efficient supply chain is characterised by which combination?",
   "choices": [
    "Uncertain demand, buffer inventory, flexible suppliers",
    "Predictable demand, buffer inventory, capacity cushion",
@@ -213,7 +213,7 @@
   "id": "scm-009",
   "topic": "scm",
   "type": "mcq",
-  "stem": "A retailer sells seasonal fashion items with short life cycles and volatile demand. Following the deck's table, which supply chain should it build?",
+  "stem": "A retailer sells seasonal fashion items with short life cycles and volatile demand. Following this course's table, which supply chain should it build?",
   "choices": [
    "Efficient: lean inventory and suppliers chosen on cost",
    "Responsive: buffer inventory, capacity cushion and flexible suppliers",
@@ -295,7 +295,7 @@
   "id": "scm-012",
   "topic": "scm",
   "type": "mcq",
-  "stem": "A product is forecast at 100 units but actual demand turns out to be 120. Using the deck's two forecast-error scenarios, what has happened and what follows?",
+  "stem": "A product is forecast at 100 units but actual demand turns out to be 120. Using this course's two forecast-error scenarios, what has happened and what follows?",
   "choices": [
    "Overforecast; 20 units of excess inventory, holding cost and markdown risk",
    "Underforecast; 20 units of excess inventory that must be written off",
@@ -350,7 +350,7 @@
   "id": "scm-014",
   "topic": "scm",
   "type": "mcq",
-  "stem": "Where does work-in-process (WIP) inventory sit in the deck's map of the chain, and what is its stated purpose?",
+  "stem": "Where does work-in-process (WIP) inventory sit in this course's map of the chain, and what is its stated purpose?",
   "choices": [
    "At the supplier, to ensure reliable supply and support economies of scale",
    "At the warehouse, to meet customer demand and enable responsive delivery",
@@ -376,7 +376,7 @@
   "id": "scm-015",
   "topic": "scm",
   "type": "mcq",
-  "stem": "A furniture maker cuts and assembles nothing until a customer has signed an order. In the deck's terms this is:",
+  "stem": "A furniture maker cuts and assembles nothing until a customer has signed an order. In this course's terms this is:",
   "choices": [
    "Push / make-to-stock, triggered by forecast",
    "Push / make-to-order, triggered by a production schedule",
@@ -402,17 +402,17 @@
   "id": "scm-016",
   "topic": "scm",
   "type": "mcq",
-  "stem": "What is the push-pull boundary?",
+  "stem": "A furniture maker builds standard frames to forecast and holds them in stock, then only cuts and fits the fabric once a customer has ordered. What is the point between those two stages called?",
   "choices": [
-   "The point in the supply chain where activity switches from forecast-driven to demand-driven",
-   "The point where ownership of the goods transfers from supplier to buyer",
-   "The point where safety stock is exhausted and backorders begin",
-   "The point where a product moves from domestic to international transport"
+   "The push-pull boundary",
+   "The point where ownership transfers from supplier to buyer",
+   "The reorder point",
+   "The point where safety stock is exhausted"
   ],
   "answer": [
    0
   ],
-  "explanation": "Slide 24 defines it as the point where the chain stops being triggered by forecast and starts being triggered by actual customer demand, typically at postponement or final customisation. Where you place it depends on demand uncertainty, product variety, lead time and cost/service strategy.",
+  "explanation": "Upstream of the boundary work is pushed on a forecast; downstream it is pulled by real demand. Moving the boundary later means less finished stock at risk but a longer wait for the customer.",
   "source": {
    "deck": "new 03",
    "slide": 24
@@ -428,7 +428,7 @@
   "id": "scm-017",
   "topic": "scm",
   "type": "mcq",
-  "stem": "In the deck's table of supply-chain strategy types, which one is described as 'push upstream, pull downstream' with the push-pull boundary deliberately placed?",
+  "stem": "In this course's table of supply-chain strategy types, which one is described as 'push upstream, pull downstream' with the push-pull boundary deliberately placed?",
   "choices": [
    "Efficient",
    "Responsive",
@@ -481,7 +481,7 @@
   "id": "scm-019",
   "topic": "scm",
   "type": "mcq",
-  "stem": "What does the deck give as the trade-off for local or nearshore sourcing?",
+  "stem": "What does this course give as the trade-off for local or nearshore sourcing?",
   "choices": [
    "Faster and more resilient, but potentially higher cost and limited capacity",
    "Lower cost and broader access to capability, but longer lead times",
@@ -507,7 +507,7 @@
   "id": "scm-020",
   "topic": "scm",
   "type": "mcq",
-  "stem": "A Bangkok exporter ships bulk, low-value raw material to Europe and has made sustainability a stated priority. Which mode does the deck's decision rule point to?",
+  "stem": "A Bangkok exporter ships bulk, low-value raw material to Europe and has made sustainability a stated priority. Which mode does this course's decision rule point to?",
   "choices": [
    "Air freight, because its schedules are more predictable",
    "Ocean freight, because cost per kg and emissions per kg are both lower",
@@ -517,7 +517,7 @@
   "answer": [
    1
   ],
-  "explanation": "Slide 31: sea is low cost per kg and low emissions per kg but slow (25 to 40 days) and more variable; air is fast (2 to 5 days) and more predictable but high cost and high emissions. Bulk, low value and sustainability-led all point to sea, and the deck's rule is to prioritise cost savings or sustainability by choosing sea.",
+  "explanation": "Slide 31: sea is low cost per kg and low emissions per kg but slow (25 to 40 days) and more variable; air is fast (2 to 5 days) and more predictable but high cost and high emissions. Bulk, low value and sustainability-led all point to sea, and this course's rule is to prioritise cost savings or sustainability by choosing sea.",
   "source": {
    "deck": "new 03",
    "slide": 31
@@ -559,17 +559,17 @@
   "id": "scm-022",
   "topic": "scm",
   "type": "mcq",
-  "stem": "How does the deck define the bullwhip effect?",
+  "stem": "A shop sells two more units than usual this week. It orders ten extra from the wholesaler, who orders fifty extra from the factory, who schedules a much larger production run. What is this called?",
   "choices": [
-   "Demand variability shrinks as orders move upstream because each stage smooths it",
-   "Small changes in customer demand create progressively larger order fluctuations upstream",
-   "Suppliers raise their prices whenever downstream demand becomes volatile",
-   "Retailers lose sales whenever a supplier misses an agreed delivery date"
+   "The bullwhip effect",
+   "The push-pull boundary moving upstream",
+   "A stockout cascade",
+   "Demand smoothing"
   ],
   "answer": [
-   1
+   0
   ],
-  "explanation": "Slide 32 shows relatively stable actual customer demand, more variable retailer orders, still more variable wholesaler orders, highly variable distributor orders and extremely variable factory production: small variation downstream, large variation upstream. Option A reverses the direction of the amplification.",
+  "explanation": "Small changes in customer demand produce progressively larger order swings the further upstream you go. It is driven by forecast updating, order batching, promotions, long lead times and stages not sharing information.",
   "source": {
    "deck": "new 03",
    "slide": 32
@@ -641,7 +641,7 @@
   "id": "scm-025",
   "topic": "scm",
   "type": "mcq",
-  "stem": "The deck says real-time dashboards help reduce the bullwhip effect. What mechanism does it give?",
+  "stem": "This course says real-time dashboards help reduce the bullwhip effect. What mechanism does it give?",
   "choices": [
    "They increase safety stock at every stage of the chain",
    "They let each stage build its own forecast independently and more accurately",

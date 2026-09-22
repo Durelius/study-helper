@@ -117,7 +117,7 @@
    "id": "case-hotel-05",
    "topic": "initiation",
    "type": "mcq",
-   "stem": "The Phuket GM asks Nut to add a loyalty-points redemption feature to the mobile app before go-live because 'it's just one more screen.' Per the deck's guidance, what should Nut do?",
+   "stem": "The Phuket GM asks Nut to add a loyalty-points redemption feature to the mobile app before go-live because 'it's just one more screen.' Per this course's guidance, what should Nut do?",
    "choices": [
     "Assess the impact on scope, schedule, cost and risk, then approve, defer or reject the request",
     "Add it immediately since the request came from a general manager",
@@ -207,7 +207,7 @@
    "answer": [
     3
    ],
-   "explanation": "D cannot start until B and C finish \u2014 the predecessor's finish gates the successor's start, which is the default Finish-to-Start dependency, the same pattern as Rigging & Lighting to Decor in the deck.",
+   "explanation": "D cannot start until B and C finish \u2014 the predecessor's finish gates the successor's start, which is the default Finish-to-Start dependency, the same pattern as Rigging & Lighting to Decor in this course.",
    "source": {
     "deck": "new 06",
     "slide": 15

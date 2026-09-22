@@ -1,137 +1,224 @@
 {
-  "id": "clinic",
-  "title": "Sukhumvit Family Clinic redesigns registration",
-  "topics": ["process-mapping", "risk-comm-quality", "operations"],
-  "scenario": "Sukhumvit Family Clinic sees about 180 patients a day and is redesigning its patient-registration process after months of complaints about long waits. Clinic manager Dr. Kanokwan Phetcharat asked front-desk lead Nurse Somsri and IT consultant P'Tan to draft a BPMN model of the new process before the redesign goes live.\n\nTheir first draft: a start event 'Patient Arrives' leads into 'Register Patient' in the Front Desk lane, then 'Verify Insurance' in the Billing lane. An XOR gateway, 'Insurance Valid?', splits into two tasks: 'File Insurance Claim' (Billing lane) and 'Collect Copayment' (Front Desk lane). Both of those flow into a single XOR gateway that itself has two outgoing flows — one to a task called 'Issue Queue Number' and one to a task called 'Send Welcome SMS.' The same draft also includes a task in the Billing lane named 'Insurance Verified,' sitting right after 'Verify Insurance.' To confirm eligibility, 'Verify Insurance' also needs to reach the government's National Health Security Office (NHSO) system, drawn as a separate black-box pool alongside the clinic's own pool.\n\nTwo competing versions of a KPI for the registration redesign are on the table for the steering meeting. Version A: 'Registration should feel quick and easy for patients.' Version B: 'At least 90% of patients complete registration within 5 minutes, measured against the front-desk check-in timestamp log.'\n\nYesterday, the front-desk terminal froze for two hours and 40 patients had to be registered on paper, backing up the whole clinic for the rest of the morning. Separately, Dr. Kanokwan is worried that the Ministry of Public Health could introduce new patient-data-privacy rules before the new online check-in system launches, which would force another redesign. The redesign also assumes that at least 90% of patients own a smartphone capable of running the new check-in app, though nobody has actually surveyed the clinic's patients to confirm this.\n\nInside the process itself, the front-desk clerk photocopies each patient's insurance card for the clinic's file — a step patients find pointless but Billing insists is required to process any claim. The clerk also asks every arriving patient whether they are new or returning, because that answer sends them either to the fast returning-patient lane or to a full intake form. When registration is done, the paper file is walked from the front desk across the hall to the nurses' station before the visit can begin.\n\nDr. Kanokwan wants the redesign finalized before next month's steering committee, and has asked Somsri and P'Tan to fix any modelling errors, choose the better KPI, and be ready to classify the clinic's open risks correctly.",
-  "questions": [
-    {
-      "id": "case-clinic-01",
-      "topic": "process-mapping",
-      "type": "mcq",
-      "stem": "In the draft, the gateway that receives flows from both 'File Insurance Claim' and 'Collect Copayment' then sends flows out to both 'Issue Queue Number' and 'Send Welcome SMS.' Which modelling rule does this break?",
-      "choices": [
-        "A gateway must be either 'multiple-in, one-out' or 'one-in, multiple-out' — never both",
-        "Gateways must always be XOR, never AND or OR",
-        "Every gateway must have a matching start event",
-        "Activities must sit inside a lane"
-      ],
-      "answer": [0],
-      "explanation": "A single gateway may only be a join (multiple in, one out) or a split (one in, multiple out), never both at once. This gateway has two inputs and two outputs, which needs two separate gateways — a join immediately followed by a split.",
-      "source": { "deck": "old 02", "slide": 19 },
-      "difficulty": 3,
-      "tags": ["bpmn", "gateway", "process-mapping"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-02",
-      "topic": "process-mapping",
-      "type": "mcq",
-      "stem": "The task named 'Insurance Verified,' placed right after 'Verify Insurance' in the Billing lane, breaks which naming rule?",
-      "choices": [
-        "Events must be named 'do something,' but this is named like an outcome",
-        "Activities must be named 'do something' (verb + object); 'Insurance Verified' is phrased as 'something done,' which is the event-naming convention",
-        "The task is missing its lane assignment",
-        "The task duplicates the name of another activity elsewhere in the process"
-      ],
-      "answer": [1],
-      "explanation": "Activities must be phrased as 'do something' — verb + object, like 'Verify Insurance.' 'Insurance Verified' is phrased as 'something done' (past participle), which is the naming convention for events, not activities.",
-      "source": { "deck": "old 02", "slide": 11 },
-      "difficulty": 2,
-      "tags": ["bpmn", "naming", "process-mapping"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-03",
-      "topic": "process-mapping",
-      "type": "mcq",
-      "stem": "P'Tan needs to draw the arrow from 'Verify Insurance' in the clinic's pool to the NHSO system, shown as a separate black-box pool. What type of connector should this be?",
-      "choices": [
-        "A sequence flow, since both pools are part of the same process",
-        "An association, since it only annotates the diagram",
-        "A message flow, since it crosses from one pool to another",
-        "No connector is needed — black-box pools do not connect to anything"
-      ],
-      "answer": [2],
-      "explanation": "Sequence flows stay within one pool; connections that cross pool boundaries are message flows, drawn as a dashed line touching the black-box pool's boundary. An association only links artifacts like text notes and carries no execution meaning.",
-      "source": { "deck": "old 02", "slide": 20 },
-      "difficulty": 2,
-      "tags": ["bpmn", "pools", "process-mapping"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-04",
-      "topic": "risk-comm-quality",
-      "type": "mcq",
-      "stem": "Which of the two proposed registration KPIs is well-formed, and why?",
-      "choices": [
-        "Version A, because 'quick and easy' clearly communicates the goal to patients",
-        "Both are equally well-formed since they describe the same goal",
-        "Neither is well-formed without a cost figure attached",
-        "Version B, because it names what is measured, a numeric target, and how it will be checked"
-      ],
-      "answer": [3],
-      "explanation": "A well-formed metric names what is measured (registration time), a numeric target (at least 90% within 5 minutes) and a check method (the check-in timestamp log). 'Quick and easy' is an adjective with no number and no way to verify it.",
-      "source": { "deck": "new 07", "slide": 44 },
-      "difficulty": 2,
-      "tags": ["quality-metric", "risk-comm-quality"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-05",
-      "topic": "risk-comm-quality",
-      "type": "mcq",
-      "stem": "Yesterday's two-hour terminal freeze, which forced 40 patients onto paper registration, is best classified as which of the following?",
-      "choices": ["An issue", "A risk", "A constraint", "An assumption"],
-      "answer": [0],
-      "explanation": "This already happened and is currently affecting the clinic — that is an issue, not a risk. A risk is a future, uncertain event; this one has already occurred.",
-      "source": { "deck": "new 07", "slide": 5 },
-      "difficulty": 2,
-      "tags": ["risk-vs-issue", "risk-comm-quality"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-06",
-      "topic": "risk-comm-quality",
-      "type": "mcq",
-      "stem": "Dr. Kanokwan's worry that the Ministry of Public Health could introduce new patient-data-privacy rules before launch, forcing another redesign, is which category of risk by source?",
-      "choices": ["Financial", "External", "Technical", "Organizational"],
-      "answer": [1],
-      "explanation": "Regulatory change originating outside the organisation is an External risk. It is not Organizational — that category covers things like scope creep or internal reshuffles, not government rule changes.",
-      "source": { "deck": "new 07", "slide": 8 },
-      "difficulty": 2,
-      "tags": ["risk-source", "risk-comm-quality"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-07",
-      "topic": "operations",
-      "type": "mcq",
-      "stem": "Photocopying each patient's insurance card for Billing's file is best classified as which type of process step?",
-      "choices": [
-        "Value-adding, because Billing needs it",
-        "A defect, because it fails to meet a quality standard",
-        "Necessary but non-value-adding, because it is required for the process to work but the patient gains nothing directly from it",
-        "Waste, because the patient finds it pointless and it could be removed with no cost"
-      ],
-      "answer": [2],
-      "explanation": "Patients find it pointless, but Billing needs it to process claims — this is exactly the deck's own trap: a step is not waste just because the customer dislikes it. Waste is a step you could delete and lose nothing but cost and delay; this one cannot be deleted without breaking the claims process.",
-      "source": { "deck": "new 02", "slide": 22 },
-      "difficulty": 3,
-      "tags": ["value-adding", "waste", "operations"],
-      "examFocus": true
-    },
-    {
-      "id": "case-clinic-08",
-      "topic": "operations",
-      "type": "mcq",
-      "stem": "The front-desk clerk asking whether an arriving patient is new or returning, which sends them down a different lane accordingly, is which type of process step?",
-      "choices": ["Waiting", "Processing", "Movement", "Decision"],
-      "answer": [3],
-      "explanation": "A decision is a choice that determines the next step in the process — here, which lane the patient enters. It adds value by ensuring the right form and pathway are used, unlike movement (physically relocating something) or waiting (idle time).",
-      "source": { "deck": "new 02", "slide": 21 },
-      "difficulty": 2,
-      "tags": ["process-steps", "operations"],
-      "examFocus": true
-    }
-  ]
+ "id": "clinic",
+ "title": "Sukhumvit Family Clinic redesigns registration",
+ "topics": [
+  "process-mapping",
+  "risk-comm-quality",
+  "operations"
+ ],
+ "scenario": "Sukhumvit Family Clinic sees about 180 patients a day and is redesigning its patient-registration process after months of complaints about long waits. Clinic manager Dr. Kanokwan Phetcharat asked front-desk lead Nurse Somsri and IT consultant P'Tan to draft a BPMN model of the new process before the redesign goes live.\n\nTheir first draft: a start event 'Patient Arrives' leads into 'Register Patient' in the Front Desk lane, then 'Verify Insurance' in the Billing lane. An XOR gateway, 'Insurance Valid?', splits into two tasks: 'File Insurance Claim' (Billing lane) and 'Collect Copayment' (Front Desk lane). Both of those flow into a single XOR gateway that itself has two outgoing flows \u2014 one to a task called 'Issue Queue Number' and one to a task called 'Send Welcome SMS.' The same draft also includes a task in the Billing lane named 'Insurance Verified,' sitting right after 'Verify Insurance.' To confirm eligibility, 'Verify Insurance' also needs to reach the government's National Health Security Office (NHSO) system, drawn as a separate black-box pool alongside the clinic's own pool.\n\nTwo competing versions of a KPI for the registration redesign are on the table for the steering meeting. Version A: 'Registration should feel quick and easy for patients.' Version B: 'At least 90% of patients complete registration within 5 minutes, measured against the front-desk check-in timestamp log.'\n\nYesterday, the front-desk terminal froze for two hours and 40 patients had to be registered on paper, backing up the whole clinic for the rest of the morning. Separately, Dr. Kanokwan is worried that the Ministry of Public Health could introduce new patient-data-privacy rules before the new online check-in system launches, which would force another redesign. The redesign also assumes that at least 90% of patients own a smartphone capable of running the new check-in app, though nobody has actually surveyed the clinic's patients to confirm this.\n\nInside the process itself, the front-desk clerk photocopies each patient's insurance card for the clinic's file \u2014 a step patients find pointless but Billing insists is required to process any claim. The clerk also asks every arriving patient whether they are new or returning, because that answer sends them either to the fast returning-patient lane or to a full intake form. When registration is done, the paper file is walked from the front desk across the hall to the nurses' station before the visit can begin.\n\nDr. Kanokwan wants the redesign finalized before next month's steering committee, and has asked Somsri and P'Tan to fix any modelling errors, choose the better KPI, and be ready to classify the clinic's open risks correctly.",
+ "questions": [
+  {
+   "id": "case-clinic-01",
+   "topic": "process-mapping",
+   "type": "mcq",
+   "stem": "In the draft, the gateway that receives flows from both 'File Insurance Claim' and 'Collect Copayment' then sends flows out to both 'Issue Queue Number' and 'Send Welcome SMS.' Which modelling rule does this break?",
+   "choices": [
+    "A gateway must be either 'multiple-in, one-out' or 'one-in, multiple-out' \u2014 never both",
+    "Gateways must always be XOR, never AND or OR",
+    "Every gateway must have a matching start event",
+    "Activities must sit inside a lane"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "A single gateway may only be a join (multiple in, one out) or a split (one in, multiple out), never both at once. This gateway has two inputs and two outputs, which needs two separate gateways \u2014 a join immediately followed by a split.",
+   "source": {
+    "deck": "old 02",
+    "slide": 19
+   },
+   "difficulty": 3,
+   "tags": [
+    "bpmn",
+    "gateway",
+    "process-mapping"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-02",
+   "topic": "process-mapping",
+   "type": "mcq",
+   "stem": "The task named 'Insurance Verified,' placed right after 'Verify Insurance' in the Billing lane, breaks which naming rule?",
+   "choices": [
+    "Events must be named 'do something,' but this is named like an outcome",
+    "Activities must be named 'do something' (verb + object); 'Insurance Verified' is phrased as 'something done,' which is the event-naming convention",
+    "The task is missing its lane assignment",
+    "The task duplicates the name of another activity elsewhere in the process"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Activities must be phrased as 'do something' \u2014 verb + object, like 'Verify Insurance.' 'Insurance Verified' is phrased as 'something done' (past participle), which is the naming convention for events, not activities.",
+   "source": {
+    "deck": "old 02",
+    "slide": 11
+   },
+   "difficulty": 2,
+   "tags": [
+    "bpmn",
+    "naming",
+    "process-mapping"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-03",
+   "topic": "process-mapping",
+   "type": "mcq",
+   "stem": "P'Tan needs to draw the arrow from 'Verify Insurance' in the clinic's pool to the NHSO system, shown as a separate black-box pool. What type of connector should this be?",
+   "choices": [
+    "A sequence flow, since both pools are part of the same process",
+    "An association, since it only annotates the diagram",
+    "A message flow, since it crosses from one pool to another",
+    "No connector is needed \u2014 black-box pools do not connect to anything"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Sequence flows stay within one pool; connections that cross pool boundaries are message flows, drawn as a dashed line touching the black-box pool's boundary. An association only links artifacts like text notes and carries no execution meaning.",
+   "source": {
+    "deck": "old 02",
+    "slide": 20
+   },
+   "difficulty": 2,
+   "tags": [
+    "bpmn",
+    "pools",
+    "process-mapping"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-04",
+   "topic": "risk-comm-quality",
+   "type": "mcq",
+   "stem": "Which of the two proposed registration KPIs is well-formed, and why?",
+   "choices": [
+    "Version A, because 'quick and easy' clearly communicates the goal to patients",
+    "Both are equally well-formed since they describe the same goal",
+    "Neither is well-formed without a cost figure attached",
+    "Version B, because it names what is measured, a numeric target, and how it will be checked"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "A well-formed metric names what is measured (registration time), a numeric target (at least 90% within 5 minutes) and a check method (the check-in timestamp log). 'Quick and easy' is an adjective with no number and no way to verify it.",
+   "source": {
+    "deck": "new 07",
+    "slide": 44
+   },
+   "difficulty": 2,
+   "tags": [
+    "quality-metric",
+    "risk-comm-quality"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-05",
+   "topic": "risk-comm-quality",
+   "type": "mcq",
+   "stem": "Yesterday's two-hour terminal freeze, which forced 40 patients onto paper registration, is best classified as which of the following?",
+   "choices": [
+    "An issue",
+    "A risk",
+    "A constraint",
+    "An assumption"
+   ],
+   "answer": [
+    0
+   ],
+   "explanation": "This already happened and is currently affecting the clinic \u2014 that is an issue, not a risk. A risk is a future, uncertain event; this one has already occurred.",
+   "source": {
+    "deck": "new 07",
+    "slide": 5
+   },
+   "difficulty": 2,
+   "tags": [
+    "risk-vs-issue",
+    "risk-comm-quality"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-06",
+   "topic": "risk-comm-quality",
+   "type": "mcq",
+   "stem": "Dr. Kanokwan's worry that the Ministry of Public Health could introduce new patient-data-privacy rules before launch, forcing another redesign, is which category of risk by source?",
+   "choices": [
+    "Financial",
+    "External",
+    "Technical",
+    "Organizational"
+   ],
+   "answer": [
+    1
+   ],
+   "explanation": "Regulatory change originating outside the organisation is an External risk. It is not Organizational \u2014 that category covers things like scope creep or internal reshuffles, not government rule changes.",
+   "source": {
+    "deck": "new 07",
+    "slide": 8
+   },
+   "difficulty": 2,
+   "tags": [
+    "risk-source",
+    "risk-comm-quality"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-07",
+   "topic": "operations",
+   "type": "mcq",
+   "stem": "Photocopying each patient's insurance card for Billing's file is best classified as which type of process step?",
+   "choices": [
+    "Value-adding, because Billing needs it",
+    "A defect, because it fails to meet a quality standard",
+    "Necessary but non-value-adding, because it is required for the process to work but the patient gains nothing directly from it",
+    "Waste, because the patient finds it pointless and it could be removed with no cost"
+   ],
+   "answer": [
+    2
+   ],
+   "explanation": "Patients find it pointless, but Billing needs it to process claims \u2014 this is exactly this course's own trap: a step is not waste just because the customer dislikes it. Waste is a step you could delete and lose nothing but cost and delay; this one cannot be deleted without breaking the claims process.",
+   "source": {
+    "deck": "new 02",
+    "slide": 22
+   },
+   "difficulty": 3,
+   "tags": [
+    "value-adding",
+    "waste",
+    "operations"
+   ],
+   "examFocus": true
+  },
+  {
+   "id": "case-clinic-08",
+   "topic": "operations",
+   "type": "mcq",
+   "stem": "The front-desk clerk asking whether an arriving patient is new or returning, which sends them down a different lane accordingly, is which type of process step?",
+   "choices": [
+    "Waiting",
+    "Processing",
+    "Movement",
+    "Decision"
+   ],
+   "answer": [
+    3
+   ],
+   "explanation": "A decision is a choice that determines the next step in the process \u2014 here, which lane the patient enters. It adds value by ensuring the right form and pathway are used, unlike movement (physically relocating something) or waiting (idle time).",
+   "source": {
+    "deck": "new 02",
+    "slide": 21
+   },
+   "difficulty": 2,
+   "tags": [
+    "process-steps",
+    "operations"
+   ],
+   "examFocus": true
+  }
+ ]
 }

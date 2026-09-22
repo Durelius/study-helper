@@ -13,7 +13,7 @@
   "answer": [
    2
   ],
-  "explanation": "A defect is a flaw in a deliverable that fails to meet quality standards \u2014 its timing is 'after creation'. 'Issue' is tempting because it is a present problem, but when the problem is a flaw inside something already built, the deck calls it a defect.",
+  "explanation": "A defect is a flaw in a deliverable that fails to meet quality standards \u2014 its timing is 'after creation'. 'Issue' is tempting because it is a present problem, but when the problem is a flaw inside something already built, this course calls it a defect.",
   "source": {
    "deck": "new 07",
    "slide": 6
@@ -40,7 +40,7 @@
   "answer": [
    0
   ],
-  "explanation": "A constraint is a limiting factor that restricts project options or decisions and is always present \u2014 the deck's own example is 'project must be completed within 3 months'. Nothing has gone wrong yet, so it is not an issue.",
+  "explanation": "A constraint is a limiting factor that restricts project options or decisions and is always present \u2014 this course's own example is 'project must be completed within 3 months'. Nothing has gone wrong yet, so it is not an issue.",
   "source": {
    "deck": "new 07",
    "slide": 6
@@ -67,7 +67,7 @@
   "answer": [
    3
   ],
-  "explanation": "An assumption is something believed to be true without proof and used for planning, made before or during the project. The deck's example is almost identical: 'assuming all team members are available full-time'.",
+  "explanation": "An assumption is something believed to be true without proof and used for planning, made before or during the project. This course's example is almost identical: 'assuming all team members are available full-time'.",
   "source": {
    "deck": "new 07",
    "slide": 6
@@ -148,7 +148,7 @@
   "answer": [
    0
   ],
-  "explanation": "A dependency is a task or event that relies on another to start, continue or finish \u2014 an ongoing relationship, like the deck's 'Task B starts only after Task A is completed'. A constraint limits options in general; this is a specific link between two tasks.",
+  "explanation": "A dependency is a task or event that relies on another to start, continue or finish \u2014 an ongoing relationship, like this course's 'Task B starts only after Task A is completed'. A constraint limits options in general; this is a specific link between two tasks.",
   "source": {
    "deck": "new 07",
    "slide": 6
@@ -472,7 +472,7 @@
   "answer": [
    2
   ],
-  "explanation": "The technology itself underperforms, which the deck files under Technical risk. 'Performance risk' in this deck means weak processes, staffing or suppliers \u2014 not the performance of the technology.",
+  "explanation": "The technology itself underperforms, which this course files under Technical risk. 'Performance risk' in this deck means weak processes, staffing or suppliers \u2014 not the performance of the technology.",
   "source": {
    "deck": "new 07",
    "slide": 7
@@ -526,7 +526,7 @@
   "answer": [
    0
   ],
-  "explanation": "Resource misallocation is listed under Financial risk together with budget overruns. Performance is the tempting answer, but the deck puts misallocated resources on the financial side.",
+  "explanation": "Resource misallocation is listed under Financial risk together with budget overruns. Performance is the tempting answer, but this course puts misallocated resources on the financial side.",
   "source": {
    "deck": "new 07",
    "slide": 7
@@ -553,7 +553,7 @@
   "answer": [
    1
   ],
-  "explanation": "Both originate outside the organisation as market changes, which the deck classifies as External risk. The budget damage is the impact, not the source \u2014 do not classify a risk by the objective it hits.",
+  "explanation": "Both originate outside the organisation as market changes, which this course classifies as External risk. The budget damage is the impact, not the source \u2014 do not classify a risk by the objective it hits.",
   "source": {
    "deck": "new 07",
    "slide": 7
@@ -580,7 +580,7 @@
   "answer": [
    2
   ],
-  "explanation": "The deck lists poor communication explicitly under Organizational risk. Performance covers poorly defined processes; here the process exists but the information flow between teams failed.",
+  "explanation": "This course lists poor communication explicitly under Organizational risk. Performance covers poorly defined processes; here the process exists but the information flow between teams failed.",
   "source": {
    "deck": "new 07",
    "slide": 7
@@ -597,7 +597,7 @@
   "id": "rcq-023",
   "topic": "risk-comm-quality",
   "type": "mcq",
-  "stem": "A project has a full risk register and every listed risk is actively managed, yet the business units still disagree on what the system is for and quietly resist it. The deck calls this an example of\u2026",
+  "stem": "A project has a full risk register and every listed risk is actively managed, yet the business units still disagree on what the system is for and quietly resist it. This course calls this an example of\u2026",
   "choices": [
    "A defect",
    "A constraint",
@@ -607,7 +607,7 @@
   "answer": [
    3
   ],
-  "explanation": "Overarching risk threatens the entire project's success even when the individual identified risks are being managed. The deck's three examples are lack of stakeholder alignment, cultural resistance to change, and over-dependence on a vendor or technology.",
+  "explanation": "Overarching risk threatens the entire project's success even when the individual identified risks are being managed. This course's three examples are lack of stakeholder alignment, cultural resistance to change, and over-dependence on a vendor or technology.",
   "source": {
    "deck": "new 07",
    "slide": 8
@@ -673,17 +673,17 @@
   "id": "rcq-026",
   "topic": "risk-comm-quality",
   "type": "mcq",
-  "stem": "What is the order of the five steps of the risk management process?",
+  "stem": "A team has just finished brainstorming a long list of everything that could go wrong on the project. What comes next in the risk management process?",
   "choices": [
-   "Identify \u2192 prioritise \u2192 assess \u2192 respond \u2192 control",
-   "Assess \u2192 identify \u2192 respond \u2192 prioritise \u2192 control",
-   "Identify \u2192 assess \u2192 prioritise \u2192 respond \u2192 control",
-   "Identify \u2192 respond \u2192 assess \u2192 prioritise \u2192 control"
+   "Assess each risk's probability and impact",
+   "Decide a response for each risk",
+   "Prioritise the list before assessing anything",
+   "Begin monitoring the risks as the project runs"
   ],
   "answer": [
-   2
+   0
   ],
-  "explanation": "Risk identification, risk assessment, risk prioritization, risk response development, risk response control. Assessment (probability and impact) must come before prioritisation, because prioritisation uses the assessed scores.",
+  "explanation": "The process runs identify \u2192 assess \u2192 prioritise \u2192 respond \u2192 control. You cannot prioritise a list until each item has been assessed for probability and impact, and a response costs money you should only spend on the risks that earn it.",
   "source": {
    "deck": "new 07",
    "slide": 11
@@ -698,7 +698,7 @@
   "id": "rcq-027",
   "topic": "risk-comm-quality",
   "type": "mcq",
-  "stem": "Which description matches the Delphi method as the deck presents it?",
+  "stem": "Which description matches the Delphi method as this course presents it?",
   "choices": [
    "A facilitated group meeting where the team calls out every risk it can think of",
    "A hierarchical breakdown of risk categories for an IT project",
@@ -828,7 +828,7 @@
   "id": "rcq-032",
   "topic": "risk-comm-quality",
   "type": "mcq",
-  "stem": "A risk lands in the red zone of the probability\u2013impact matrix. What does the deck's severity matrix indicate?",
+  "stem": "A risk lands in the red zone of the probability\u2013impact matrix. What does this course's severity matrix indicate?",
   "choices": [
    "It is a major risk; those in the extreme top-right corner are candidates to avoid",
    "It should be accepted and covered by a contingency reserve",
@@ -838,7 +838,7 @@
   "answer": [
    0
   ],
-  "explanation": "Red = major risk, yellow = moderate, green = minor. The deck maps the extreme top-right corner to Avoid, the high band to reducing probability or impact, the low-likelihood/low-impact green corner to Accept, and the high-impact/low-likelihood corner to Transfer.",
+  "explanation": "Red = major risk, yellow = moderate, green = minor. This course maps the extreme top-right corner to Avoid, the high band to reducing probability or impact, the low-likelihood/low-impact green corner to Accept, and the high-impact/low-likelihood corner to Transfer.",
   "source": {
    "deck": "new 07",
    "slide": 22
@@ -864,7 +864,7 @@
   "answer": [
    1
   ],
-  "explanation": "Transfer finds a third party to be accountable or do the work; the deck's examples are insurance and a fixed-price contract. Mitigate would mean reducing probability or impact yourself, for example through training or a prototype.",
+  "explanation": "Transfer finds a third party to be accountable or do the work; this course's examples are insurance and a fixed-price contract. Mitigate would mean reducing probability or impact yourself, for example through training or a prototype.",
   "source": {
    "deck": "new 07",
    "slide": 20
@@ -1086,7 +1086,7 @@
   "id": "rcq-042",
   "topic": "risk-comm-quality",
   "type": "mcq",
-  "stem": "How does ISO 9000:2000, as quoted in the deck, define quality?",
+  "stem": "How does ISO 9000:2000, as quoted in this course, define quality?",
   "choices": [
    "The best possible standard achievable within the budget",
    "Zero defects in the final deliverable",
@@ -1096,7 +1096,7 @@
   "answer": [
    2
   ],
-  "explanation": "Quality is conformance to agreed requirements, and the deck states explicitly that it is NOT 'the best possible'. Gold-plating a deliverable beyond its requirements is therefore not higher quality.",
+  "explanation": "Quality is conformance to agreed requirements, and this course states explicitly that it is NOT 'the best possible'. Gold-plating a deliverable beyond its requirements is therefore not higher quality.",
   "source": {
    "deck": "new 07",
    "slide": 39

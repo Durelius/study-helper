@@ -55,7 +55,7 @@
   "id": "ops-003",
   "topic": "operations",
   "type": "mcq",
-  "stem": "According to the deck, a 'process' is best defined as:",
+  "stem": "According to this course, a 'process' is best defined as:",
   "choices": [
    "A single activity that adds value",
    "The maximum output a resource can produce",
@@ -81,7 +81,7 @@
   "id": "ops-004",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Which statement correctly distinguishes the value chain from a process, per the deck's comparison table?",
+  "stem": "Which statement correctly distinguishes the value chain from a process, per this course's comparison table?",
   "choices": [
    "The value chain is operational; the process is strategic",
    "The value chain shows how value is created; the process shows where value is created",
@@ -107,7 +107,7 @@
   "id": "ops-005",
   "topic": "operations",
   "type": "mcq",
-  "stem": "In the deck's value-chain-to-activity hierarchy, 'Prepare Drinks & Food' inside the Order-to-Coffee sequence sits at which level?",
+  "stem": "In this course's value-chain-to-activity hierarchy, 'Prepare Drinks & Food' inside the Order-to-Coffee sequence sits at which level?",
   "choices": [
    "Value chain level",
    "Process level",
@@ -158,17 +158,17 @@
   "id": "ops-007",
   "topic": "operations",
   "type": "mcq",
-  "stem": "What is the key difference between SIPOC and a process map, as taught in the deck?",
+  "stem": "Before drawing any steps, a team wants a one-page summary naming who supplies the process, what goes in, what comes out and who receives it. Which tool gives them that, and how does it differ from a process map?",
   "choices": [
-   "SIPOC answers 'what is the process'; the process map answers 'how does it work'",
-   "SIPOC answers 'how'; the process map answers 'what'",
-   "SIPOC is only for services; process maps are only for manufacturing",
-   "SIPOC includes activities; the process map includes only suppliers"
+   "SIPOC \u2014 it answers 'what is the process'; a process map answers 'how does it work'",
+   "SIPOC \u2014 it answers 'how does it work'; a process map answers 'what is the process'",
+   "A process map \u2014 SIPOC is only used for manufacturing",
+   "Either: they show the same information in different layouts"
   ],
   "answer": [
    0
   ],
-  "explanation": "SIPOC defines the process boundary (what is inside/outside); the process map then shows how the process actually works step by step. Option B reverses this pairing.",
+  "explanation": "SIPOC frames the process at its boundaries \u2014 suppliers, inputs, process, outputs, customers \u2014 before anyone argues about the steps. The process map is the detail of how work actually flows.",
   "source": {
    "deck": "new 02",
    "slide": 11
@@ -235,7 +235,7 @@
   "id": "ops-010",
   "topic": "operations",
   "type": "mcq",
-  "stem": "A process map has an activity box labelled 'Payment Received' floating outside any lane. What is wrong with it, per the BPMN rules taught in the deck?",
+  "stem": "A process map has an activity box labelled 'Payment Received' floating outside any lane. What is wrong with it, per the BPMN rules taught in this course?",
   "choices": [
    "It is phrased as an event ('have-done') rather than 'do something', and it is not placed in a lane",
    "Nothing \u2014 activities never need to sit in a lane",
@@ -298,7 +298,7 @@
   "answer": [
    0
   ],
-  "explanation": "This is one of the deck's explicitly planted BPM errors: a process must have at least a start and an end event. It has neither.",
+  "explanation": "This is one of this course's explicitly planted BPM errors: a process must have at least a start and an end event. It has neither.",
   "source": {
    "deck": "new 02",
    "slide": 16
@@ -328,7 +328,7 @@
    2,
    4
   ],
-  "explanation": "The deck's planted errors are an activity outside a lane, a process missing a start and/or end event, mis-named or non-unique elements, and an unnecessary gateway. Verb-phrased and unique names are the CORRECT rules, not errors.",
+  "explanation": "This course's planted errors are an activity outside a lane, a process missing a start and/or end event, mis-named or non-unique elements, and an unnecessary gateway. Verb-phrased and unique names are the CORRECT rules, not errors.",
   "source": {
    "deck": "new 02",
    "slide": 17
@@ -355,7 +355,7 @@
   "answer": [
    1
   ],
-  "explanation": "This is the deck's own XOR example: exactly one of 'post invoice', 're-send to customer', or 'block invoice' is taken, based on whether mismatches exist and are correctable.",
+  "explanation": "This is this course's own XOR example: exactly one of 'post invoice', 're-send to customer', or 'block invoice' is taken, based on whether mismatches exist and are correctable.",
   "source": {
    "deck": "new 02",
    "slide": 18
@@ -382,7 +382,7 @@
   "answer": [
    1
   ],
-  "explanation": "This is the deck's own AND-gateway example: both security screening and luggage screening must complete before the join proceeds.",
+  "explanation": "This is this course's own AND-gateway example: both security screening and luggage screening must complete before the join proceeds.",
   "source": {
    "deck": "new 02",
    "slide": 19
@@ -409,7 +409,7 @@
   "answer": [
    2
   ],
-  "explanation": "The OR (inclusive) gateway allows one or more paths to be taken depending on conditions, matching the deck's Amsterdam/Hamburg example. XOR would force exactly one path; AND would force both regardless of order content.",
+  "explanation": "The OR (inclusive) gateway allows one or more paths to be taken depending on conditions, matching this course's Amsterdam/Hamburg example. XOR would force exactly one path; AND would force both regardless of order content.",
   "source": {
    "deck": "new 02",
    "slide": 20
@@ -426,7 +426,7 @@
   "id": "ops-017",
   "topic": "operations",
   "type": "mcq",
-  "stem": "In the deck's four-step classification of process steps, 'the customer decides hot or iced' is an example of which step type?",
+  "stem": "In this course's four-step classification of process steps, 'the customer decides hot or iced' is an example of which step type?",
   "choices": [
    "Waiting",
    "Processing",
@@ -488,7 +488,7 @@
   "answer": [
    2
   ],
-  "explanation": "The deck's explicit trap: payment processing is NOT waste, because the process cannot run without it. Waste is a step you could delete and lose nothing but cost and delay \u2014 e.g., waiting for an unavailable cup.",
+  "explanation": "This course's explicit trap: payment processing is NOT waste, because the process cannot run without it. Waste is a step you could delete and lose nothing but cost and delay \u2014 e.g., waiting for an unavailable cup.",
   "source": {
    "deck": "new 02",
    "slide": 22
@@ -556,7 +556,7 @@
   "id": "ops-022",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Per the deck's explicit teaching point, which of these correctly expresses capacity?",
+  "stem": "Per this course's explicit teaching point, which of these correctly expresses capacity?",
   "choices": [
    "\"100 units/hour\"",
    "\"100 units\"",
@@ -617,7 +617,7 @@
   "answer": [
    1
   ],
-  "explanation": "Utilisation = Demand \u00f7 Capacity \u00d7 100% = 48/50 \u00d7 100% = 96% \u2014 the deck's 'high utilisation, little buffer, sensitive to variation' scenario.",
+  "explanation": "Utilisation = Demand \u00f7 Capacity \u00d7 100% = 48/50 \u00d7 100% = 96% \u2014 this course's 'high utilisation, little buffer, sensitive to variation' scenario.",
   "source": {
    "deck": "new 02",
    "slide": 28
@@ -633,7 +633,7 @@
   "id": "ops-025",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Demand of 60 customers/hour against capacity of 50 customers/hour gives a utilisation of 120%. What does the deck say this leads to?",
+  "stem": "Demand of 60 customers/hour against capacity of 50 customers/hour gives a utilisation of 120%. What does this course say this leads to?",
   "choices": [
    "Shorter wait times and higher flexibility",
    "Efficient operation with almost no buffer needed",
@@ -659,7 +659,7 @@
   "id": "ops-026",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Is 100% utilisation always desirable, per the deck's discussion?",
+  "stem": "Is 100% utilisation always desirable, per this course's discussion?",
   "choices": [
    "Yes \u2014 it means zero wasted resources and no risk",
    "No \u2014 high utilisation is efficient but leaves no buffer, so any variation immediately causes queues and lost sales",
@@ -669,7 +669,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck poses this question directly on a slide; the intended answer is no, because high utilisation removes slack, making the process sensitive to any variation or disruption. Option D inverts the actual formula (Demand \u00f7 Capacity).",
+  "explanation": "This course poses this question directly on a slide; the intended answer is no, because high utilisation removes slack, making the process sensitive to any variation or disruption. Option D inverts the actual formula (Demand \u00f7 Capacity).",
   "source": {
    "deck": "new 02",
    "slide": 29
@@ -763,7 +763,7 @@
   "id": "ops-030",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Which KPI is paired with the 'Dependability' performance objective in the deck's table?",
+  "stem": "Which KPI is paired with the 'Dependability' performance objective in this course's table?",
   "choices": [
    "Cycle time",
    "Defect rate",
@@ -773,7 +773,7 @@
   "answer": [
    2
   ],
-  "explanation": "The deck pairs Speed \u2192 Cycle time, Quality \u2192 Defect rate, Dependability \u2192 On-time completion, and Productivity \u2192 Units/labour-hour.",
+  "explanation": "This course pairs Speed \u2192 Cycle time, Quality \u2192 Defect rate, Dependability \u2192 On-time completion, and Productivity \u2192 Units/labour-hour.",
   "source": {
    "deck": "new 02",
    "slide": 35
@@ -799,7 +799,7 @@
   "answer": [
    0
   ],
-  "explanation": "Quality \u2192 Defect rate in the deck's table. Capacity pairs with Utilisation, and Reliability pairs with Downtime \u2014 both plausible neighbouring KPIs.",
+  "explanation": "Quality \u2192 Defect rate in this course's table. Capacity pairs with Utilisation, and Reliability pairs with Downtime \u2014 both plausible neighbouring KPIs.",
   "source": {
    "deck": "new 02",
    "slide": 35
@@ -840,7 +840,7 @@
   "id": "ops-033",
   "topic": "operations",
   "type": "mcq",
-  "stem": "In the deck's KPI derivation chain, 'Serve customers faster' \u2192 'Reduce preparation delay' \u2192 ? \u2192 '< 4 minutes', what fills the blank?",
+  "stem": "In this course's KPI derivation chain, 'Serve customers faster' \u2192 'Reduce preparation delay' \u2192 ? \u2192 '< 4 minutes', what fills the blank?",
   "choices": [
    "Business/Operational Objective",
    "Process Driver",
@@ -892,17 +892,17 @@
   "id": "ops-035",
   "topic": "operations",
   "type": "mcq",
-  "stem": "What is the key difference between the 5 Whys and the Fishbone (Ishikawa) diagram?",
+  "stem": "A team keeps asking 'and why did that happen?' about one failure until it reaches the root cause. Which tool is that, and how does it differ from the alternative?",
   "choices": [
-   "5 Whys drills down one causal chain; Fishbone explores multiple possible cause categories in breadth",
-   "5 Whys explores multiple cause categories in breadth; Fishbone drills down one causal chain",
-   "Both are identical tools with different names",
-   "5 Whys is used only in manufacturing; Fishbone only in services"
+   "5 Whys \u2014 it drills down one causal chain; a Fishbone explores several cause categories in breadth",
+   "5 Whys \u2014 it explores several cause categories in breadth; a Fishbone drills down one chain",
+   "A Fishbone diagram \u2014 5 Whys is only used in manufacturing",
+   "Either: they are the same technique under two names"
   ],
   "answer": [
    0
   ],
-  "explanation": "5 Whys follows a single causal chain deeper and deeper ('why?' five times); Fishbone instead spreads out across categories (People, Machine, Method, Materials, Measurement, Environment). Option B reverses the pairing.",
+  "explanation": "5 Whys goes deep on one line of causation; the Fishbone goes wide, sorting candidate causes into categories before you pick which to chase. Use the Fishbone when you do not yet know which chain to drill.",
   "source": {
    "deck": "new 02",
    "slide": 40
@@ -919,7 +919,7 @@
   "id": "ops-036",
   "topic": "operations",
   "type": "mcq",
-  "stem": "In the deck's 5-Whys example, customers wait 12 minutes for coffee because one espresso machine becomes overloaded. What is identified as the ROOT cause, after the fifth 'why'?",
+  "stem": "In this course's 5-Whys example, customers wait 12 minutes for coffee because one espresso machine becomes overloaded. What is identified as the ROOT cause, after the fifth 'why'?",
   "choices": [
    "The menu and workflow are not balanced",
    "Most popular drinks use the same machine",
@@ -945,7 +945,7 @@
   "id": "ops-037",
   "topic": "operations",
   "type": "mcq",
-  "stem": "What are the five stages of the deck's Process Improvement Cycle, in order?",
+  "stem": "What are the five stages of this course's Process Improvement Cycle, in order?",
   "choices": [
    "Plan \u2192 Do \u2192 Check \u2192 Act \u2192 Repeat",
    "Design \u2192 Build \u2192 Test \u2192 Deploy \u2192 Monitor",
@@ -955,7 +955,7 @@
   "answer": [
    3
   ],
-  "explanation": "The named Process Improvement Cycle is Map \u2192 Analyze \u2192 Measure \u2192 Improve \u2192 Measure Again, then repeat. Option A is the separate PDCA cycle, and C is the deck's simpler continuous-improvement diagram \u2014 both real deck content, but not this cycle.",
+  "explanation": "The named Process Improvement Cycle is Map \u2192 Analyze \u2192 Measure \u2192 Improve \u2192 Measure Again, then repeat. Option A is the separate PDCA cycle, and C is this course's simpler continuous-improvement diagram \u2014 both real deck content, but not this cycle.",
   "source": {
    "deck": "new 02",
    "slide": 41
@@ -971,7 +971,7 @@
   "id": "ops-038",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Before accepting a proposed process improvement, the deck's three evaluation questions ask all of the following EXCEPT:",
+  "stem": "Before accepting a proposed process improvement, this course's three evaluation questions ask all of the following EXCEPT:",
   "choices": [
    "Does it address the bottleneck / root cause?",
    "Which KPI should change?",
@@ -981,7 +981,7 @@
   "answer": [
    3
   ],
-  "explanation": "The deck's three test questions concern root cause, KPI impact, and unintended side effects elsewhere in the process. A fixed headcount-reduction target is never mentioned.",
+  "explanation": "This course's three test questions concern root cause, KPI impact, and unintended side effects elsewhere in the process. A fixed headcount-reduction target is never mentioned.",
   "source": {
    "deck": "new 02",
    "slide": 44

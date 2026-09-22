@@ -7,7 +7,7 @@ export type Question = {
   id: string
   topic: string
   topicTitle: string
-  type: 'mcq' | 'tf' | 'multi'
+  type: 'mcq' | 'tf' | 'multi' | 'hotspot'
   stem: string
   choices: string[]
   difficulty: number

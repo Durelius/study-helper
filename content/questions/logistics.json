@@ -3,7 +3,7 @@
   "id": "log-001",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "According to the deck, a firm pursuing a Differentiation Strategy focuses its outbound logistics on improving which combination of factors?",
+  "stem": "According to this course, a firm pursuing a Differentiation Strategy focuses its outbound logistics on improving which combination of factors?",
   "choices": [
    "Speed, accuracy, and flexibility",
    "Cost, volume, and automation",
@@ -13,7 +13,7 @@
   "answer": [
    0
   ],
-  "explanation": "The deck states differentiation strategy targets customer experience and responsiveness, so outbound logistics should improve speed, accuracy, and flexibility; the other options describe the cost-leadership focus instead.",
+  "explanation": "This course states differentiation strategy targets customer experience and responsiveness, so outbound logistics should improve speed, accuracy, and flexibility; the other options describe the cost-leadership focus instead.",
   "source": {
    "deck": "old 03",
    "slide": 4
@@ -57,7 +57,7 @@
   "id": "log-003",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "The deck's 'Devil's Quadrangle' compares Cost, Time (Speed), Quality, and Flexibility performance. What is its main lesson?",
+  "stem": "This course's 'Devil's Quadrangle' compares Cost, Time (Speed), Quality, and Flexibility performance. What is its main lesson?",
   "choices": [
    "A firm cannot maximize all four performance dimensions at once; a strategy means prioritizing some and accepting limits on others",
    "Cost and quality always improve together automatically",
@@ -83,7 +83,7 @@
   "id": "log-004",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "Which definition of a Supply Chain (SC) matches the deck?",
+  "stem": "Which definition of a Supply Chain (SC) matches this course?",
   "choices": [
    "A flow of materials, information, and money across suppliers, manufacturers, and customers",
    "The internal sequence of activities within one factory",
@@ -93,7 +93,7 @@
   "answer": [
    0
   ],
-  "explanation": "The deck defines SC as a flow of materials, information, and money across multiple entities (suppliers, manufacturers, customers), while SCM is managing that flow efficiently and strategically.",
+  "explanation": "This course defines SC as a flow of materials, information, and money across multiple entities (suppliers, manufacturers, customers), while SCM is managing that flow efficiently and strategically.",
   "source": {
    "deck": "old 03",
    "slide": 10
@@ -118,7 +118,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck defines Distributors/Wholesalers as buying in bulk from producers and selling smaller quantities to retailers or businesses, with fast turnover as a key interest; Retailers instead sell directly to end consumers.",
+  "explanation": "This course defines Distributors/Wholesalers as buying in bulk from producers and selling smaller quantities to retailers or businesses, with fast turnover as a key interest; Retailers instead sell directly to end consumers.",
   "source": {
    "deck": "old 03",
    "slide": 11
@@ -133,7 +133,7 @@
   "id": "log-006",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "Amazon sells products directly to consumers and also runs its own delivery network. The deck uses this to illustrate:",
+  "stem": "Amazon sells products directly to consumers and also runs its own delivery network. This course uses this to illustrate:",
   "choices": [
    "A single sourcing strategy",
    "One company performing multiple supply chain roles (Retailer + Logistics Provider)",
@@ -158,7 +158,7 @@
   "id": "log-007",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "The deck contrasts an 'old view' of the supply chain with today's reality. What is that reality called?",
+  "stem": "This course contrasts an 'old view' of the supply chain with today's reality. What is that reality called?",
   "choices": [
    "A strictly linear, one-way chain from supplier to customer",
    "A Supply Chain Network with many-to-many connections, overlapping roles, and shared logistics/information flows",
@@ -168,7 +168,7 @@
   "answer": [
    1
   ],
-  "explanation": "The old view was a one-way flow (supplier to manufacturer to customer); the deck argues the reality is a network with multiple suppliers and customers at each tier and overlapping roles.",
+  "explanation": "The old view was a one-way flow (supplier to manufacturer to customer); this course argues the reality is a network with multiple suppliers and customers at each tier and overlapping roles.",
   "source": {
    "deck": "old 03",
    "slide": 15
@@ -183,7 +183,7 @@
   "id": "log-008",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "In the SCOR performance attributes covered in the deck, which attribute is defined as 'how fast the supply chain delivers,' as distinct from the consistency of outcomes?",
+  "stem": "In the SCOR performance attributes covered in this course, which attribute is defined as 'how fast the supply chain delivers,' as distinct from the consistency of outcomes?",
   "choices": [
    "Reliability",
    "Responsiveness (Speed)",
@@ -193,7 +193,7 @@
   "answer": [
    1
   ],
-  "explanation": "Responsiveness (Speed) is how fast the chain delivers; Reliability is a separate attribute meaning consistent, accurate, dependable outcomes -- a common mix-up the deck's five-attribute wheel is testing.",
+  "explanation": "Responsiveness (Speed) is how fast the chain delivers; Reliability is a separate attribute meaning consistent, accurate, dependable outcomes -- a common mix-up this course's five-attribute wheel is testing.",
   "source": {
    "deck": "old 03",
    "slide": 17
@@ -233,7 +233,7 @@
   "id": "log-010",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "A grocery retailer sells commodity products with stable, predictable demand and competes on bulk purchasing, centralized warehousing, and low-cost transport (the deck's Walmart/Tesco example). Which SC Strategy type does this match?",
+  "stem": "A grocery retailer sells commodity products with stable, predictable demand and competes on bulk purchasing, centralized warehousing, and low-cost transport (this course's Walmart/Tesco example). Which SC Strategy type does this match?",
   "choices": [
    "Agile",
    "Efficient",
@@ -243,7 +243,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck's Efficient strategy is for commodities with stable demand and focuses on cost minimization via bulk purchasing and centralized warehousing -- exactly the Walmart/Tesco example given.",
+  "explanation": "This course's Efficient strategy is for commodities with stable demand and focuses on cost minimization via bulk purchasing and centralized warehousing -- exactly the Walmart/Tesco example given.",
   "source": {
    "deck": "old 03",
    "slide": 19
@@ -258,7 +258,7 @@
   "id": "log-011",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "A company selling fashion, collectibles, or fresh food needs fast replenishment, local sourcing, and real-time inventory to react to trend-driven demand (the deck's Pop Mart example). This best matches which SC Strategy type, rather than Agile?",
+  "stem": "A company selling fashion, collectibles, or fresh food needs fast replenishment, local sourcing, and real-time inventory to react to trend-driven demand (this course's Pop Mart example). This best matches which SC Strategy type, rather than Agile?",
   "choices": [
    "Responsive",
    "Agile",
@@ -268,7 +268,7 @@
   "answer": [
    0
   ],
-  "explanation": "Responsive strategy targets speed and flexibility for fashion, collectibles, and fresh food via fast replenishment and local sourcing. Agile is similar but the deck ties it to customization for luxury/niche markets (Louis Vuitton, Dell), not fast-moving trend goods.",
+  "explanation": "Responsive strategy targets speed and flexibility for fashion, collectibles, and fresh food via fast replenishment and local sourcing. Agile is similar but this course ties it to customization for luxury/niche markets (Louis Vuitton, Dell), not fast-moving trend goods.",
   "source": {
    "deck": "old 03",
    "slide": 19
@@ -283,7 +283,7 @@
   "id": "log-012",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "In a Pull system, as shown in the deck's Push vs. Pull table, what triggers production or ordering?",
+  "stem": "In a Pull system, as shown in this course's Push vs. Pull table, what triggers production or ordering?",
   "choices": [
    "A sales forecast",
    "Actual customer demand",
@@ -293,7 +293,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck's table lists Push as forecast-triggered and Pull as customer-demand-triggered -- Pull only produces or orders once real demand appears.",
+  "explanation": "This course's table lists Push as forecast-triggered and Pull as customer-demand-triggered -- Pull only produces or orders once real demand appears.",
   "source": {
    "deck": "old 03",
    "slide": 20
@@ -308,7 +308,7 @@
   "id": "log-013",
   "topic": "logistics",
   "type": "tf",
-  "stem": "True or False: According to the deck's Push vs. Pull comparison table, a Push (make-to-stock) system typically carries lower inventory than a Pull (make-to-order) system.",
+  "stem": "True or False: According to this course's Push vs. Pull comparison table, a Push (make-to-stock) system typically carries lower inventory than a Pull (make-to-order) system.",
   "choices": [
    "True",
    "False"
@@ -331,7 +331,7 @@
   "id": "log-014",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "On the deck's Push/Pull Supply Chain diagram, the 'Push-Pull Boundary' separates which two segments?",
+  "stem": "On this course's Push/Pull Supply Chain diagram, the 'Push-Pull Boundary' separates which two segments?",
   "choices": [
    "An Inbound Segment and an Outbound Segment",
    "A Push Segment (forecast-driven, upstream) and a Pull Segment (demand-driven, downstream, toward the consumer)",
@@ -356,7 +356,7 @@
   "id": "log-015",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "In the deck's Big C vs. Zara comparison, Big C runs a Push model driven by predictable demand. What SC model does Zara run, driven by trend-driven demand?",
+  "stem": "In this course's Big C vs. Zara comparison, Big C runs a Push model driven by predictable demand. What SC model does Zara run, driven by trend-driven demand?",
   "choices": [
    "Pull/Hybrid",
    "Push",
@@ -391,7 +391,7 @@
   "answer": [
    3
   ],
-  "explanation": "The deck's four listed factors are cost, delivery speed, customer location, and risk management; advertising spend is not mentioned as a network-design factor.",
+  "explanation": "This course's four listed factors are cost, delivery speed, customer location, and risk management; advertising spend is not mentioned as a network-design factor.",
   "source": {
    "deck": "old 03",
    "slide": 24
@@ -406,7 +406,7 @@
   "id": "log-017",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "A manufacturer relies on exactly one trusted supplier for a critical part to keep coordination simple and cost low. According to the deck's Sourcing Strategies table, what is the main risk of this approach?",
+  "stem": "A manufacturer relies on exactly one trusted supplier for a critical part to keep coordination simple and cost low. According to this course's Sourcing Strategies table, what is the main risk of this approach?",
   "choices": [
    "Higher coordination cost",
    "Vulnerable to disruptions",
@@ -431,7 +431,7 @@
   "id": "log-018",
   "topic": "logistics",
   "type": "mcq",
-  "stem": "The deck's Global Sourcing Strategy slide lists lead time, disruption, and tariffs as risks of sourcing internationally. Which two strategies does it name to manage these risks?",
+  "stem": "This course's Global Sourcing Strategy slide lists lead time, disruption, and tariffs as risks of sourcing internationally. Which two strategies does it name to manage these risks?",
   "choices": [
    "Using multiple suppliers and nearshoring",
    "Switching entirely to a single supplier and centralizing all warehouses",
@@ -441,7 +441,7 @@
   "answer": [
    0
   ],
-  "explanation": "The deck names using multiple suppliers and nearshoring as strategies to offset the lead-time, disruption, and tariff risks of global sourcing.",
+  "explanation": "This course names using multiple suppliers and nearshoring as strategies to offset the lead-time, disruption, and tariff risks of global sourcing.",
   "source": {
    "deck": "old 03",
    "slide": 26
@@ -456,7 +456,7 @@
   "id": "log-019",
   "topic": "logistics",
   "type": "multi",
-  "stem": "Select all causes of the Bullwhip Effect named in the deck.",
+  "stem": "Select all causes of the Bullwhip Effect named in this course.",
   "choices": [
    "Lack of visibility into real demand",
    "Poor forecasting",
@@ -469,7 +469,7 @@
    1,
    2
   ],
-  "explanation": "The deck names lack of visibility, poor forecasting, promotions, and batch ordering as causes of the bullwhip effect. Real-time dashboards are presented later as a fix that reduces the bullwhip effect, not a cause, and single sourcing is a separate sourcing-strategy topic.",
+  "explanation": "This course names lack of visibility, poor forecasting, promotions, and batch ordering as causes of the bullwhip effect. Real-time dashboards are presented later as a fix that reduces the bullwhip effect, not a cause, and single sourcing is a separate sourcing-strategy topic.",
   "source": {
    "deck": "old 03",
    "slide": 27

@@ -3,7 +3,7 @@
   "id": "vc-001",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "According to the deck's opening definition, 'value' is best understood as:",
+  "stem": "According to this course's opening definition, 'value' is best understood as:",
   "choices": [
    "The perceived benefits that the customer is willing to pay for",
    "The total cost incurred to produce a good or service",
@@ -13,7 +13,7 @@
   "answer": [
    0
   ],
-  "explanation": "The deck explicitly rejects a cost-based definition and defines value as the perceived benefit the customer is willing to pay for; cost is a separate term in the margin equation, not value itself.",
+  "explanation": "This course explicitly rejects a cost-based definition and defines value as the perceived benefit the customer is willing to pay for; cost is a separate term in the margin equation, not value itself.",
   "source": {
    "deck": "new 01",
    "slide": 7
@@ -29,7 +29,7 @@
   "id": "vc-002",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "Per the deck's core identity on value, which equation defines Margin?",
+  "stem": "Per this course's core identity on value, which equation defines Margin?",
   "choices": [
    "Margin = Cost of Creating Value \u2212 Value Created",
    "Margin = Value Created \u2212 Cost of Creating Value",
@@ -39,7 +39,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck states Margin = Value Created \u2212 Cost of Creating Value; raising value or cutting cost both push margin up.",
+  "explanation": "This course states Margin = Value Created \u2212 Cost of Creating Value; raising value or cutting cost both push margin up.",
   "source": {
    "deck": "new 01",
    "slide": 7
@@ -81,7 +81,7 @@
   "id": "vc-004",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "The deck asks why Pop Mart doesn't simply raise prices to capture the full margin seen in the resale market. What is the best explanation, given the supply-and-demand diagram on the same slide?",
+  "stem": "This course asks why Pop Mart doesn't simply raise prices to capture the full margin seen in the resale market. What is the best explanation, given the supply-and-demand diagram on the same slide?",
   "choices": [
    "Raising price always increases margin because it increases the per-unit spread (P\u2212C)",
    "Chinese law prohibits toy companies from adjusting prices",
@@ -108,17 +108,17 @@
   "id": "vc-005",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "The deck defines the Value Chain as:",
+  "stem": "A hotel group maps its own inbound logistics, operations, marketing and after-sales service to find where inside the business value is added and where margin leaks. Which framework is it using?",
   "choices": [
-   "The full range of activities a company undertakes (internal operations) to bring a product or service from its initial conception to its end use and beyond",
-   "The external flow of goods, materials and information from suppliers to the company to the customer",
-   "A tool used to execute specific improvements on time and on budget",
-   "The row of Suppliers \u2192 Company \u2192 Distributors \u2192 Users"
+   "Porter's value chain \u2014 the activities inside one firm that bring a product from creation to the customer",
+   "The supply chain \u2014 the external flow of goods, information and money between organisations",
+   "A process map \u2014 the sequence of steps in one workflow",
+   "The value system \u2014 the chain of firms upstream and downstream of it"
   ],
   "answer": [
    0
   ],
-  "explanation": "This is the deck's definition of the value chain; the other options describe the supply chain (external flow / supplier-to-user row) or project management (delivery tool).",
+  "explanation": "The value chain looks inward at one firm's own primary and support activities and the margin they create. The supply chain looks outward at the flows between organisations \u2014 the commonest mix-up in this course.",
   "source": {
    "deck": "new 01",
    "slide": 9
@@ -134,7 +134,7 @@
   "id": "vc-006",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "In the deck's diagram, the row 'Suppliers \u2192 Company \u2192 Distributors \u2192 Users' is labeled as:",
+  "stem": "In this course's diagram, the row 'Suppliers \u2192 Company \u2192 Distributors \u2192 Users' is labeled as:",
   "choices": [
    "Porter's Value Chain",
    "The Project Life Cycle",
@@ -144,7 +144,7 @@
   "answer": [
    3
   ],
-  "explanation": "The deck labels this row Supply Chain (External Logistics) \u2014 the outward-looking external flow of goods, materials and information, distinct from the umbrella value chain above it.",
+  "explanation": "This course labels this row Supply Chain (External Logistics) \u2014 the outward-looking external flow of goods, materials and information, distinct from the umbrella value chain above it.",
   "source": {
    "deck": "new 01",
    "slide": 9
@@ -160,7 +160,7 @@
   "id": "vc-007",
   "topic": "value-chain",
   "type": "tf",
-  "stem": "True or False: According to the deck, the supply chain is the broader concept, and the value chain is a part of it.",
+  "stem": "True or False: According to this course, the supply chain is the broader concept, and the value chain is a part of it.",
   "choices": [
    "True",
    "False"
@@ -248,7 +248,7 @@
   "answer": [
    0
   ],
-  "explanation": "The deck defines Porter's Value Chain as a framework to map out internal activities that add value to your customers, visualized as primary activities along the bottom and support activities across the top, with margin as the arrowhead.",
+  "explanation": "This course defines Porter's Value Chain as a framework to map out internal activities that add value to your customers, visualized as primary activities along the bottom and support activities across the top, with margin as the arrowhead.",
   "source": {
    "deck": "new 01",
    "slide": 10
@@ -274,7 +274,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck states primary activities directly transform inputs into outputs and are the source of cost advantage, while support activities make primary activities more efficient and are the source of differentiation advantage \u2014 getting this reversed is the classic exam trap.",
+  "explanation": "This course states primary activities directly transform inputs into outputs and are the source of cost advantage, while support activities make primary activities more efficient and are the source of differentiation advantage \u2014 getting this reversed is the classic exam trap.",
   "source": {
    "deck": "new 01",
    "slide": 11
@@ -396,7 +396,7 @@
   "id": "vc-016",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "The deck notes a wrinkle in Pop Mart's value chain: 3D design & prototyping and quality control (QC) are filed under which activity, even though they might look like R&D?",
+  "stem": "This course notes a wrinkle in Pop Mart's value chain: 3D design & prototyping and quality control (QC) are filed under which activity, even though they might look like R&D?",
   "choices": [
    "Technology Development",
    "Procurement",
@@ -406,7 +406,7 @@
   "answer": [
    2
   ],
-  "explanation": "For Pop Mart, 3D design & prototyping and QC are the firm's actual transformation step, so the deck classifies them as Operations, while its Technology Development is customer data analytics and digital commerce tech.",
+  "explanation": "For Pop Mart, 3D design & prototyping and QC are the firm's actual transformation step, so this course classifies them as Operations, while its Technology Development is customer data analytics and digital commerce tech.",
   "source": {
    "deck": "new 01",
    "slide": 16
@@ -598,7 +598,7 @@
   "answer": [
    2
   ],
-  "explanation": "Hiring, training and retaining people is Human Resource Management, per the deck's support-activities table.",
+  "explanation": "Hiring, training and retaining people is Human Resource Management, per this course's support-activities table.",
   "source": {
    "deck": "new 01",
    "slide": 13
@@ -623,7 +623,7 @@
   "answer": [
    1
   ],
-  "explanation": "Acquiring resources such as raw materials or tools \u2014 finding and sourcing suppliers \u2014 is Procurement, per the deck's own example.",
+  "explanation": "Acquiring resources such as raw materials or tools \u2014 finding and sourcing suppliers \u2014 is Procurement, per this course's own example.",
   "source": {
    "deck": "new 01",
    "slide": 13
@@ -677,7 +677,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck states primary activities are the source of cost advantage, so cost-leadership improvements target the primary chain (inbound logistics through service), while differentiation is built through the support activities.",
+  "explanation": "This course states primary activities are the source of cost advantage, so cost-leadership improvements target the primary chain (inbound logistics through service), while differentiation is built through the support activities.",
   "source": {
    "deck": "new 01",
    "slide": 11
@@ -694,7 +694,7 @@
   "id": "vc-027",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "A firm pursuing a differentiation strategy would, per the deck, look to build its advantage primarily through:",
+  "stem": "A firm pursuing a differentiation strategy would, per this course, look to build its advantage primarily through:",
   "choices": [
    "Support activities",
    "Primary activities",
@@ -704,7 +704,7 @@
   "answer": [
    0
   ],
-  "explanation": "Support activities (Firm Infrastructure, HRM, Technology Development, Procurement) are the deck's stated source of differentiation advantage.",
+  "explanation": "Support activities (Firm Infrastructure, HRM, Technology Development, Procurement) are this course's stated source of differentiation advantage.",
   "source": {
    "deck": "new 01",
    "slide": 11
@@ -720,7 +720,7 @@
   "id": "vc-028",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "Which statement matches the deck's opening point about value and cost?",
+  "stem": "Which statement matches this course's opening point about value and cost?",
   "choices": [
    "Value and cost of production are the same thing",
    "Cost of production always exceeds value created for a profitable firm",
@@ -746,7 +746,7 @@
   "id": "vc-029",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "The deck notes that Porter's Value Chain was originally designed for what kind of company, and what caveat follows for firms today?",
+  "stem": "This course notes that Porter's Value Chain was originally designed for what kind of company, and what caveat follows for firms today?",
   "choices": [
    "Manufacturing-heavy companies in the 1980s; not all companies need all five primary activities today, and some execute them through partners or platforms",
    "Digital-native startups in the 2010s; all five primary activities are now mandatory",
@@ -756,7 +756,7 @@
   "answer": [
    0
   ],
-  "explanation": "Porter's framework was designed for manufacturing-heavy companies in the 1980s; the deck notes that value creation today is often digital, decentralized or service-based, so not every company needs all five primary activities and some execute them through partners or platforms.",
+  "explanation": "Porter's framework was designed for manufacturing-heavy companies in the 1980s; this course notes that value creation today is often digital, decentralized or service-based, so not every company needs all five primary activities and some execute them through partners or platforms.",
   "source": {
    "deck": "new 01",
    "slide": 14
@@ -772,7 +772,7 @@
   "id": "vc-030",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "After mapping out the sub-activities that create value for all primary and support activities, what is the deck's recommended next step in building your own value chain?",
+  "stem": "After mapping out the sub-activities that create value for all primary and support activities, what is this course's recommended next step in building your own value chain?",
   "choices": [
    "Immediately hire a project manager to execute changes",
    "Analyze the sub-activities to make sure each provides more value than its cost",
@@ -782,7 +782,7 @@
   "answer": [
    1
   ],
-  "explanation": "The deck's three steps are: (1) map out sub-activities, (2) analyze them to ensure each provides more value than its cost, and (3) examine and optimize the linkages among activities \u2014 analysis is the required middle step, not linkage optimization or a price change.",
+  "explanation": "This course's three steps are: (1) map out sub-activities, (2) analyze them to ensure each provides more value than its cost, and (3) examine and optimize the linkages among activities \u2014 analysis is the required middle step, not linkage optimization or a price change.",
   "source": {
    "deck": "new 01",
    "slide": 14
@@ -808,7 +808,7 @@
   "answer": [
    2
   ],
-  "explanation": "The deck's four payoffs are: understand how value is created, identify innovation opportunities, drive strategic innovation, and enable cross-functional collaboration; the other options are not listed and misrepresent the framework's purpose.",
+  "explanation": "This course's four payoffs are: understand how value is created, identify innovation opportunities, drive strategic innovation, and enable cross-functional collaboration; the other options are not listed and misrepresent the framework's purpose.",
   "source": {
    "deck": "new 01",
    "slide": 23

@@ -197,11 +197,15 @@ export default function Runner() {
             revealed={!!verdict}
             onPick={toggle}
           />
-          <p className="mt-1 text-[0.72rem] text-ink-faint">
-            {verdict
-              ? 'The correct element is outlined in green.'
-              : 'Click the part of the diagram you think is wrong, or pick from the list below.'}
-          </p>
+          {/* Only a hotspot question has anything to click; other questions just
+              carry a table or a network for reference. */}
+          {question.type === 'hotspot' && (
+            <p className="mt-1 text-[0.72rem] text-ink-faint">
+              {verdict
+                ? 'The correct element is outlined in green.'
+                : 'Click the part of the diagram you think is wrong, or pick from the list below.'}
+            </p>
+          )}
         </div>
       )}
 

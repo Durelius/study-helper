@@ -3,7 +3,7 @@
   "id": "ini-001",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "After a project is approved, the deck says it must still be defined through four moves before detailed planning begins. What are they?",
+  "stem": "After a project is approved, this course says it must still be defined through four moves before detailed planning begins. What are they?",
   "choices": [
    "Authorize, understand, define, decompose",
    "Plan, execute, monitor, close",
@@ -29,17 +29,17 @@
   "id": "ini-002",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "What is a project charter?",
+  "stem": "A project manager is told to start work, but has no document naming her, setting the high-level budget, or giving her the right to call on other departments' people. Which document is missing?",
   "choices": [
-   "A log of stakeholder complaints raised during execution",
-   "A document that formally authorizes the project and gives the project manager authority to lead it",
-   "A cost-benefit analysis showing why the project is worth funding",
-   "A detailed breakdown of every task and its schedule"
+   "The project charter",
+   "The scope statement",
+   "The WBS dictionary",
+   "The business case"
   ],
   "answer": [
-   1
+   0
   ],
-  "explanation": "The charter's job is authorization and empowerment, not investment justification (that's the business case) or detailed task planning (that's the WBS/schedule).",
+  "explanation": "The charter is what authorises the project and appoints the project manager, giving her the authority to draw on organisational resources. The business case argues why the project is worth doing and comes before it; the scope statement and WBS describe the work and come after.",
   "source": {
    "deck": "new 05",
    "slide": 6
@@ -130,7 +130,7 @@
   "id": "ini-006",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "The deck reduces the charter to three verbs. Which pairing is correct?",
+  "stem": "This course reduces the charter to three verbs. Which pairing is correct?",
   "choices": [
    "Authorize = WBS is built; Align = RACI is assigned; Empower = charter is signed",
    "Authorize = the project may begin; Align = sponsor and PM share understanding; Empower = the PM receives authority to coordinate the work",
@@ -178,7 +178,7 @@
   "id": "ini-008",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "Which definition matches 'stakeholder' as used in the deck?",
+  "stem": "Which definition matches 'stakeholder' as used in this course?",
   "choices": [
    "Only the project team members doing the work",
    "Anyone mentioned in the project charter",
@@ -203,7 +203,7 @@
   "id": "ini-009",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "What two questions does the deck say you must ask about every stakeholder?",
+  "stem": "What two questions does this course say you must ask about every stakeholder?",
   "choices": [
    "Who pays? Who approves?",
    "Who reports? Who signs off?",
@@ -213,7 +213,7 @@
   "answer": [
    3
   ],
-  "explanation": "The deck frames stakeholder analysis as 'who cares?' and 'what do they need?' \u2014 the basis for later deriving requirements.",
+  "explanation": "This course frames stakeholder analysis as 'who cares?' and 'what do they need?' \u2014 the basis for later deriving requirements.",
   "source": {
    "deck": "new 05",
    "slide": 13
@@ -289,7 +289,7 @@
   "answer": [
    2
   ],
-  "explanation": "Performance/quality requirements answer 'how well must it perform?' \u2014 a numeric accuracy target is the deck's own example.",
+  "explanation": "Performance/quality requirements answer 'how well must it perform?' \u2014 a numeric accuracy target is this course's own example.",
   "source": {
    "deck": "new 05",
    "slide": 16
@@ -304,17 +304,17 @@
   "id": "ini-013",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "What is the key difference between product scope and project scope?",
+  "stem": "'The app must support Thai and English' and 'Translate and test every screen, then hand over to support' describe two different things. Which is which?",
   "choices": [
-   "Product scope is the work required to build the result; project scope is the result's features",
-   "They are two names for the same thing",
-   "Product scope applies only to physical goods, project scope only to software",
-   "Product scope describes the features and functions of the result (WHAT); project scope describes the work required to create it (WORK)"
+   "The first is product scope (the features of the result); the second is project scope (the work to deliver it)",
+   "The first is project scope; the second is product scope",
+   "Both are product scope, stated at different levels of detail",
+   "Both are project scope, since both describe the app"
   ],
   "answer": [
-   3
+   0
   ],
-  "explanation": "Product scope = WHAT (features/functions of the result); project scope = WORK (requirements, design, integration, testing, training, deployment).",
+  "explanation": "Product scope is WHAT the result does; project scope is the WORK needed to produce it. Product scope is accepted against requirements, project scope against the plan.",
   "source": {
    "deck": "new 05",
    "slide": 18
@@ -454,17 +454,17 @@
   "id": "ini-019",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "What is scope creep?",
+  "stem": "Over three months a customer asks for five small extras. Each is quietly absorbed by the team, none goes through a change request, and the deadline and budget are never revisited. What has happened?",
   "choices": [
-   "The process of decomposing scope into work packages",
-   "The uncontrolled expansion of project scope without a corresponding adjustment to time, cost, or resources",
-   "Any approved change to the project plan",
-   "A deliverable that fails its acceptance criteria"
+   "Scope creep",
+   "Gold plating",
+   "Controlled change",
+   "Progressive elaboration"
   ],
   "answer": [
-   1
+   0
   ],
-  "explanation": "Scope creep is specifically uncontrolled growth with no matching adjustment to time/cost/resources \u2014 an approved, assessed change is controlled change, not creep.",
+  "explanation": "Scope creep is scope expanding without a matching adjustment to time, cost or resources. Each request was reasonable on its own; what makes it creep is that nothing else moved to pay for them.",
   "source": {
    "deck": "new 05",
    "slide": 24
@@ -505,17 +505,17 @@
   "id": "ini-021",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "What is the key distinction between gold plating and the broader concept of scope creep?",
+  "stem": "A developer adds a dark mode nobody asked for, because she thinks the client will like it. What is this specifically?",
   "choices": [
-   "Gold plating always increases cost while scope creep never does",
-   "Gold plating is approved by the sponsor while scope creep is never approved",
-   "They are identical terms used interchangeably in the deck",
-   "Gold plating is extras the team adds on its own initiative; scope creep is the broader uncontrolled growth, often driven by stakeholder requests"
+   "Gold plating \u2014 extras the team adds on its own initiative",
+   "Scope creep requested by the customer",
+   "Controlled change, since the team agreed to it internally",
+   "Progressive elaboration of the requirements"
   ],
   "answer": [
-   3
+   0
   ],
-  "explanation": "The deck lists gold plating as one of five causes of scope creep, but the exam-relevant distinction is that gold plating originates from the team itself, while scope creep more broadly comes from uncontrolled requests and other causes.",
+  "explanation": "Gold plating comes from inside the team; scope creep is the broader uncontrolled growth, usually pushed from outside. Both consume time and cost that nobody budgeted, and neither was accepted against a requirement.",
   "source": {
    "deck": "new 05",
    "slide": 25
@@ -531,7 +531,7 @@
   "id": "ini-022",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "Which of the following is NOT one of the five causes of scope creep named in the deck?",
+  "stem": "Which of the following is NOT one of the five causes of scope creep named in this course?",
   "choices": [
    "A signed project charter",
    "Unclear requirements",
@@ -582,7 +582,7 @@
   "id": "ini-024",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "Management asks, 'Can we add AI demand forecasting to the inventory project?' Per the deck's recommended response, what should the PM do first?",
+  "stem": "Management asks, 'Can we add AI demand forecasting to the inventory project?' Per this course's recommended response, what should the PM do first?",
   "choices": [
    "Refuse outright with no analysis",
    "Ignore the request until the project closes",
@@ -732,7 +732,7 @@
   "id": "ini-030",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "According to the deck, when should you stop decomposing a work package further?",
+  "stem": "According to this course, when should you stop decomposing a work package further?",
   "choices": [
    "Only when every single tiny action has its own line item",
    "As soon as the project charter is signed",
@@ -782,7 +782,7 @@
   "id": "ini-032",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "What rule does the deck state about the 'A' role in RACI?",
+  "stem": "What rule does this course state about the 'A' role in RACI?",
   "choices": [
    "The Accountable role is optional if the Responsible role is filled",
    "There must be exactly one clear Accountable owner per work item",
@@ -857,7 +857,7 @@
   "id": "ini-035",
   "topic": "initiation",
   "type": "mcq",
-  "stem": "According to the deck's closing summary, what must be defined before schedule, resources, and cost can be planned?",
+  "stem": "According to this course's closing summary, what must be defined before schedule, resources, and cost can be planned?",
   "choices": [
    "Scope, broken down into work packages via the WBS",
    "The final invoice",

@@ -3,7 +3,7 @@
   "id": "pmf-001",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Which of these matches the deck's definition of a project?",
+  "stem": "Which of these matches this course's definition of a project?",
   "choices": [
    "A temporary endeavor undertaken to create a unique product, service, or result.",
    "A repetitive activity that sustains daily operations.",
@@ -28,7 +28,7 @@
   "id": "pmf-002",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "A railway system project takes 10+ years to complete. Why is it still classified as 'temporary' in the deck's sense?",
+  "stem": "A railway system project takes 10+ years to complete. Why is it still classified as 'temporary' in this course's sense?",
   "choices": [
    "Because it is short in duration compared to other projects.",
    "Because temporary means the project has a defined end point, not that it is brief.",
@@ -54,7 +54,7 @@
   "id": "pmf-003",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Per the deck, which of the following is NOT one of the four conditions under which a project ends?",
+  "stem": "Per this course, which of the following is NOT one of the four conditions under which a project ends?",
   "choices": [
    "The objective is achieved.",
    "The project is no longer needed.",
@@ -79,7 +79,7 @@
   "id": "pmf-004",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Many hotels already have mobile booking apps. A boutique hotel now builds its own app for its guests. Why does the deck still call this a 'unique' project?",
+  "stem": "Many hotels already have mobile booking apps. A boutique hotel now builds its own app for its guests. Why does this course still call this a 'unique' project?",
   "choices": [
    "Because building a mobile app has never been done by anyone before.",
    "Because the hotel is the first business in its industry to adopt technology.",
@@ -130,7 +130,7 @@
   "id": "pmf-006",
   "topic": "pm-foundations",
   "type": "tf",
-  "stem": "True or False: In the deck's hotel example, 'Checking in guests' is an operation while 'Developing the hotel app' is a project, because operations RUN the business and projects CHANGE the business.",
+  "stem": "True or False: In this course's hotel example, 'Checking in guests' is an operation while 'Developing the hotel app' is a project, because operations RUN the business and projects CHANGE the business.",
   "choices": [
    "True",
    "False"
@@ -153,7 +153,7 @@
   "id": "pmf-007",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Using the deck's Projects vs. Operations comparison table, which pairing is correct?",
+  "stem": "Using this course's Projects vs. Operations comparison table, which pairing is correct?",
   "choices": [
    "Project output = Repetitive; Operation output = Unique.",
    "Project team = Usually stable; Operation team = Often temporary.",
@@ -205,7 +205,7 @@
   "id": "pmf-009",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "A company has 'poor inventory visibility' (a business problem). This produces the improvement idea 'we need real-time information'. Which project does the deck say this leads to?",
+  "stem": "A company has 'poor inventory visibility' (a business problem). This produces the improvement idea 'we need real-time information'. Which project does this course say this leads to?",
   "choices": [
    "Implementing an inventory-management system.",
    "Running payroll every month.",
@@ -255,7 +255,7 @@
   "id": "pmf-011",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Which sequence correctly reflects the deck's 'From Strategy to Project' chain?",
+  "stem": "Which sequence correctly reflects this course's 'From Strategy to Project' chain?",
   "choices": [
    "Strategy \u2192 Projects \u2192 Objectives \u2192 Initiatives \u2192 Benefits \u2192 Deliverables",
    "Objectives \u2192 Strategy \u2192 Projects \u2192 Initiatives \u2192 Deliverables \u2192 Benefits",
@@ -280,7 +280,7 @@
   "id": "pmf-012",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "How does the deck define 'project selection'?",
+  "stem": "How does this course define 'project selection'?",
   "choices": [
    "The process of writing a project charter.",
    "The process of closing out a finished project.",
@@ -330,7 +330,7 @@
   "id": "pmf-014",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Using the deck's simple project scoring model (Strategic Alignment 30%, Customer/Business Value 25%, Financial Benefit 20%, Feasibility 15%, Risk 10%), a project scores 5, 4, 3, 4 and 2 on these five criteria respectively (1 = low, 5 = high). What is its weighted score?",
+  "stem": "Using the project scoring model (Strategic Alignment 30%, Expected Benefits 25%, Feasibility 20%, Cost 15%, Risk 10%), a project scores 5, 4, 3, 4 and 2 on those five criteria in that order (1 = low, 5 = high). What is its weighted score?",
   "choices": [
    "3.3",
    "3.9",
@@ -356,7 +356,7 @@
   "id": "pmf-015",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Which of the following is NOT one of the six sections in the deck's business case template?",
+  "stem": "Which of the following is NOT one of the six sections in this course's business case template?",
   "choices": [
    "Business Need",
    "Estimated Costs/Resources",
@@ -457,7 +457,7 @@
   "id": "pmf-019",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "In the deck's four-phase project life cycle, in which phase are schedules, budgets, resources, risks and staffing decided?",
+  "stem": "In this course's four-phase project life cycle, in which phase are schedules, budgets, resources, risks and staffing decided?",
   "choices": [
    "Defining",
    "Executing",
@@ -482,17 +482,17 @@
   "id": "pmf-020",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "According to the level-of-effort curve in the deck's project life cycle diagram, in which phase does effort peak?",
+  "stem": "Across a project's four phases, the effort the team puts in ramps up, peaks, then tails off. In which phase does it peak?",
   "choices": [
    "Defining",
    "Planning",
-   "Closing",
-   "Executing"
+   "Executing",
+   "Closing"
   ],
   "answer": [
-   3
+   2
   ],
-  "explanation": "The four overlapping curves (Defining, Planning, Executing, Closing) show effort rising through Defining and Planning, peaking during Executing, then tailing off in Closing.",
+  "explanation": "Effort peaks during Executing, when the work is actually being produced. Defining and Planning are comparatively light on effort but heavy on influence \u2014 decisions taken there are cheap to change and expensive to reverse later.",
   "source": {
    "deck": "new 04",
    "slide": 24
@@ -532,7 +532,7 @@
   "id": "pmf-022",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "A team discovers a design flaw during the Closing phase instead of during Planning. Based on the deck's life-cycle characteristics, what is the most likely consequence?",
+  "stem": "A team discovers a design flaw during the Closing phase instead of during Planning. Based on this course's life-cycle characteristics, what is the most likely consequence?",
   "choices": [
    "Fixing it will be cheaper than if it had been found during Planning.",
    "Fixing it will typically be more expensive, because the cost of change increases over the life cycle.",
@@ -708,17 +708,17 @@
   "id": "pmf-029",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "In the deck's process-groups diagram, how is 'Monitoring & Controlling' drawn relative to Planning and Executing?",
+  "stem": "In PMBOK 6, how does the Monitoring & Controlling process group relate to Planning and Executing?",
   "choices": [
-   "As a box wrapping around Planning and Executing, with two-way arrows, running continuously alongside them.",
-   "As a stage that happens only after Executing finishes.",
-   "As the very first process group, before Initiating.",
-   "It is not connected to Planning or Executing at all."
+   "It wraps around both, running continuously alongside them and feeding changes back into planning",
+   "It happens only after Executing has finished",
+   "It is the first process group, before Initiating",
+   "It is independent of both and runs only at phase gates"
   ],
   "answer": [
    0
   ],
-  "explanation": "Slide 27's diagram draws Monitoring & Controlling wrapping around Planning and Executing with bidirectional arrows \u2014 it tracks, compares and adjusts continuously, it is not a stage that comes after Executing.",
+  "explanation": "Monitoring & Controlling is not a stage you reach; it runs the whole time, comparing what is happening against the plan and sending changes back into Planning. That feedback loop is why it is drawn around the other two rather than after them.",
   "source": {
    "deck": "new 04",
    "slide": 27
@@ -758,7 +758,7 @@
   "id": "pmf-031",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "What key distinction does the deck draw between the 'project life cycle' and the 'PMBOK process groups'?",
+  "stem": "What key distinction does this course draw between the 'project life cycle' and the 'PMBOK process groups'?",
   "choices": [
    "They are two names for exactly the same thing.",
    "Process groups happen once, while the life cycle repeats continuously.",
@@ -783,7 +783,7 @@
   "id": "pmf-032",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "A project's stages are described as 'Concept \u2192 Design \u2192 Build \u2192 Launch.' Based on the deck's explicit example, is this a project life cycle or a set of PMBOK process groups?",
+  "stem": "A project's stages are described as 'Concept \u2192 Design \u2192 Build \u2192 Launch.' Based on this course's explicit example, is this a project life cycle or a set of PMBOK process groups?",
   "choices": [
    "It is a set of process groups, since it has four stages instead of five.",
    "It is both, since life cycle and process groups are interchangeable terms.",
@@ -1108,9 +1108,9 @@
   "id": "pmf-045",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "In the deck's triple-constraint triangle, what sits at the center, surrounded by Scope, Schedule and Cost?",
+  "stem": "In the triple constraint, Scope, Schedule and Cost sit at the three corners. What sits in the middle, affected by all three?",
   "choices": [
-   "Quality / Value",
+   "Quality, or value",
    "Risk",
    "Resources",
    "Stakeholders"
@@ -1118,7 +1118,7 @@
   "answer": [
    0
   ],
-  "explanation": "Slide 31 draws Scope, Schedule and Cost as the triangle's corners with Quality / Value at the center, and lists Resources and Risk as other important constraints.",
+  "explanation": "Quality sits in the middle because it is what gives way when one of the three corners is squeezed and the others are held fixed. Cut the schedule without cutting scope or adding cost, and quality absorbs the difference.",
   "source": {
    "deck": "new 04",
    "slide": 31
@@ -1133,7 +1133,7 @@
   "id": "pmf-046",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Management asks the team to 'add AI recommendations to the hotel app.' Per the deck's trade-off logic, what does this scope increase usually require?",
+  "stem": "Management asks the team to 'add AI recommendations to the hotel app.' Per this course's trade-off logic, what does this scope increase usually require?",
   "choices": [
    "Nothing else changes \u2014 scope is free to increase.",
    "Usually more time and/or cost, since scope, schedule and cost trade off against each other.",
@@ -1184,7 +1184,7 @@
   "id": "pmf-048",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "A new booking system is delivered on time and on budget, but almost no guests or staff actually use it. Per the deck's 'business view' of project success, was this project successful?",
+  "stem": "A new booking system is delivered on time and on budget, but almost no guests or staff actually use it. Per this course's 'business view' of project success, was this project successful?",
   "choices": [
    "Yes \u2014 hitting time and budget is the only thing that matters.",
    "Yes, because project delivery and business success are the same thing.",
@@ -1234,7 +1234,7 @@
   "id": "pmf-050",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "The deck describes the project manager as 'the integrator.' What does this mean?",
+  "stem": "This course describes the project manager as 'the integrator.' What does this mean?",
   "choices": [
    "The PM performs all the technical work personally instead of the team.",
    "The PM is the hub that keeps scope, schedule, cost, quality, resources, communications, risk, procurement and stakeholders aligned with each other.",
@@ -1334,17 +1334,17 @@
   "id": "pmf-054",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "FreshMart has a maximum budget of \u0e3f8 million. Project B (New Urban Fulfillment Center) scores highest on strategic alignment and expected benefits but costs \u0e3f8 million with a 'Very High Cost' rating. What is the key trade-off management faces if it funds Project B first?",
+  "stem": "FreshMart can spend \u0e3f8 million this cycle and cannot do every project. Project B scores highest on strategic alignment and expected benefits. What is the key trade-off if management funds it first?",
   "choices": [
-   "None \u2014 Project B is strictly better on every criterion including cost and risk.",
-   "Funding Project B alone consumes the entire \u0e3f8 million budget, leaving nothing for the other three candidate projects this cycle.",
-   "Project B is the cheapest option, so funding it frees up budget for the others.",
-   "Project B has no risks, unlike the other three projects."
+   "Project B alone consumes the entire \u0e3f8 million, so nothing is left for A, C or D this cycle",
+   "Project B is the cheapest option, so funding it frees budget for the others",
+   "There is no trade-off: Project B scores highest on every criterion including cost and risk",
+   "Project B is the fastest to deliver, so the others can start sooner"
   ],
   "answer": [
-   1
+   0
   ],
-  "explanation": "The Student Challenge table shows Project B needs \u0e3f8 million (Very High Cost) against a total budget of \u0e3f8 million, and rates worst on cost and among the worst on risk, even though it scores highest on Strategic Alignment and Expected Benefits \u2014 funding it first would use the whole budget.",
+  "explanation": "B rates best on alignment and benefits but costs the whole budget, is the least feasible and the riskiest. C and D together cost \u0e3f7 million, fit inside the budget and both rate High on feasibility \u2014 so the real decision is one ambitious project against two safer ones, which is what project selection is for: prioritising limited resources.",
   "source": {
    "deck": "new 04",
    "slide": 41
@@ -1354,6 +1354,88 @@
    "freshmart-case",
    "project-selection"
   ],
-  "examFocus": true
+  "examFocus": true,
+  "data": {
+   "kind": "matrix",
+   "columns": [
+    "A  Inventory system",
+    "B  Fulfilment centre",
+    "C  AI forecasting",
+    "D  App upgrade"
+   ],
+   "rows": [
+    {
+     "id": "inv",
+     "label": "Investment",
+     "cells": [
+      "\u0e3f6M",
+      "\u0e3f8M",
+      "\u0e3f4M",
+      "\u0e3f3M"
+     ]
+    },
+    {
+     "id": "dur",
+     "label": "Duration",
+     "cells": [
+      "9 mo",
+      "12 mo",
+      "6 mo",
+      "5 mo"
+     ]
+    },
+    {
+     "id": "align",
+     "label": "Strategic alignment",
+     "cells": [
+      "High",
+      "Very high",
+      "High",
+      "Medium"
+     ]
+    },
+    {
+     "id": "ben",
+     "label": "Expected benefits",
+     "cells": [
+      "High",
+      "Very high",
+      "High",
+      "Medium"
+     ]
+    },
+    {
+     "id": "cost",
+     "label": "Cost (lower is better)",
+     "cells": [
+      "High",
+      "Very high",
+      "Moderate",
+      "Low"
+     ]
+    },
+    {
+     "id": "feas",
+     "label": "Feasibility",
+     "cells": [
+      "Medium",
+      "Low\u2013medium",
+      "High",
+      "High"
+     ]
+    },
+    {
+     "id": "risk",
+     "label": "Risk (lower is better)",
+     "cells": [
+      "Med\u2013high",
+      "High",
+      "Medium",
+      "Medium"
+     ]
+    }
+   ],
+   "hotspots": []
+  }
  }
 ]

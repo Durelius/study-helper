@@ -3,7 +3,7 @@
   "id": "vis-bpm-01",
   "topic": "process-mapping",
   "type": "hotspot",
-  "stem": "This claims process breaks one of the deck's gateway guidelines. Click the element that is wrong.",
+  "stem": "This claims process breaks one of this course's gateway guidelines. Click the element that is wrong.",
   "choices": [
    "the XOR split after 'Claim received'",
    "the task 'Assess the damage'",
@@ -341,7 +341,7 @@
   "id": "vis-bpm-03",
   "topic": "process-mapping",
   "type": "hotspot",
-  "stem": "Two elements in this booking process share a problem the deck warns about. Click the second one.",
+  "stem": "Two elements in this booking process share a problem this course warns about. Click the second one.",
   "choices": [
    "the start event",
    "the task in the Ticket Sales lane",
@@ -500,7 +500,7 @@
   "id": "vis-bpm-04",
   "topic": "process-mapping",
   "type": "hotspot",
-  "stem": "This checkout process has a modelling error the deck's own exercise uses. Click the element that should not be there.",
+  "stem": "This checkout process has a modelling error this course's own exercise uses. Click the element that should not be there.",
   "choices": [
    "the task 'Scan all products'",
    "the XOR split",
