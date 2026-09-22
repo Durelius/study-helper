@@ -109,6 +109,18 @@ export type Activity = {
 
 export type Network = { activities: Activity[]; duration: number; criticalPath: string[] }
 
+export type Episode = {
+  topic: string
+  index: number
+  title: string
+  file: string
+  seconds: number
+  bytes: number
+  url: string
+  positionSec: number
+  listenedSec: number
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(path, {
     ...init,
@@ -139,6 +151,16 @@ export const api = {
     request<Verdict>(`/api/quiz/${id}/answer`, {
       method: 'POST',
       body: JSON.stringify({ questionId, given, confident, ms }),
+    }),
+  episodes: (player: string) =>
+    request<{ episodes: Episode[]; minutes: number }>(`/api/episodes?player=${encodeURIComponent(player)}`),
+  // Reported while playing, as a delta rather than a total, so a seek adds nothing.
+  listen: (player: string, episode: string, position: number, delta: number) =>
+    fetch('/api/listen', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ player, episode, position, delta }),
+      keepalive: true,
     }),
   finish: (id: string) =>
     request<{ session: Session; review: Review[]; breakdown: { topic: string; title: string; seen: number; correct: number }[] }>(

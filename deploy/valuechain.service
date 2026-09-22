@@ -10,7 +10,8 @@ WorkingDirectory=/var/www/chulavaluechain
 ExecStart=/var/www/chulavaluechain/chulavaluechain \
     -addr 127.0.0.1:8093 \
     -behind-proxy \
-    -db /var/lib/chulavaluechain/study.db
+    -db /var/lib/chulavaluechain/study.db \
+    -audio /var/www/chulavaluechain/audio
 User=wilhelm
 Restart=always
 RestartSec=10

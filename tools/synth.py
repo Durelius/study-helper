@@ -33,6 +33,7 @@ def main():
     pipe = KPipeline(lang_code='a')
     total_audio = 0.0
     started = time.time()
+    manifest = []
 
     for topic, lecture in sorted(script.items(), key=lambda kv: kv[1]['index']):
         if only and topic != only:
@@ -65,9 +66,22 @@ def main():
             '-metadata', f'track={index}/9',
             str(m4a)], check=True)
         wav.unlink()
+        manifest.append({
+            'topic': topic,
+            'index': index,
+            'title': lecture['title'],
+            'file': m4a.name,
+            'seconds': round(seconds, 1),
+            'bytes': m4a.stat().st_size,
+        })
         print(f'{index}. {lecture["title"]} -> {seconds / 60:.1f} min '
               f'({(time.time() - started) / 60:.1f} min elapsed)', flush=True)
 
+    # The server reads this rather than probing the files, so it needs no media
+    # library and can list episodes before anyone presses play.
+    if not only and not limit:
+        manifest.sort(key=lambda e: e['index'])
+        (dest / 'manifest.json').write_text(json.dumps(manifest, indent=1))
     print(f'DONE: {total_audio / 60:.1f} minutes of audio in '
           f'{(time.time() - started) / 60:.1f} minutes')
 

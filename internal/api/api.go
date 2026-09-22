@@ -17,6 +17,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/wilhelmdurelius/chula-valuechain/internal/audio"
 	"github.com/wilhelmdurelius/chula-valuechain/internal/content"
 	"github.com/wilhelmdurelius/chula-valuechain/internal/quiz"
 	"github.com/wilhelmdurelius/chula-valuechain/internal/store"
@@ -24,15 +25,16 @@ import (
 
 // Server holds everything the handlers need.
 type Server struct {
-	Set  *content.Set
-	DB   *store.DB
-	Log  *slog.Logger
-	Exam time.Time
+	Set   *content.Set
+	DB    *store.DB
+	Log   *slog.Logger
+	Exam  time.Time
+	Audio *audio.Library
 }
 
 // New returns a Server.
-func New(set *content.Set, db *store.DB, log *slog.Logger, exam time.Time) *Server {
-	return &Server{Set: set, DB: db, Log: log, Exam: exam}
+func New(set *content.Set, db *store.DB, log *slog.Logger, exam time.Time, lib *audio.Library) *Server {
+	return &Server{Set: set, DB: db, Log: log, Exam: exam, Audio: lib}
 }
 
 // Routes registers the API.
@@ -48,6 +50,8 @@ func (s *Server) Routes(mux *http.ServeMux) {
 	mux.HandleFunc("POST /api/quiz/{id}/finish", s.handleFinish)
 	mux.HandleFunc("GET /api/quiz/{id}", s.handleGetQuiz)
 	mux.HandleFunc("POST /api/check", s.handleCheck)
+	mux.HandleFunc("GET /api/episodes", s.handleEpisodes)
+	mux.HandleFunc("POST /api/listen", s.handleListen)
 }
 
 // publicQuestion is a question as the browser is allowed to see it: no answer key, no
@@ -486,4 +490,63 @@ func Secure(next http.Handler) http.Handler {
 		w.Header().Set("Referrer-Policy", "same-origin")
 		next.ServeHTTP(w, r)
 	})
+}
+
+
+// handleEpisodes lists the audiobook with the caller's progress through it.
+func (s *Server) handleEpisodes(w http.ResponseWriter, r *http.Request) {
+	player := strings.TrimSpace(r.URL.Query().Get("player"))
+	progress := map[string]store.Listen{}
+	if player != "" {
+		rows, err := s.DB.Listening(player)
+		if err != nil {
+			s.fail(w, err)
+			return
+		}
+		for _, row := range rows {
+			progress[row.Episode] = row
+		}
+	}
+	type episodeView struct {
+		audio.Episode
+		PositionSec float64 `json:"positionSec"`
+		ListenedSec float64 `json:"listenedSec"`
+	}
+	out := []episodeView{}
+	for _, e := range s.Audio.Episodes {
+		p := progress[e.Topic]
+		out = append(out, episodeView{Episode: e, PositionSec: p.PositionSec, ListenedSec: p.ListenedSec})
+	}
+	writeJSON(w, http.StatusOK, map[string]any{"episodes": out, "minutes": s.Audio.Minutes()})
+}
+
+type listenRequest struct {
+	Player   string  `json:"player"`
+	Episode  string  `json:"episode"`
+	Position float64 `json:"position"`
+	// Delta is seconds played since the last report, not a running total.
+	Delta float64 `json:"delta"`
+}
+
+func (s *Server) handleListen(w http.ResponseWriter, r *http.Request) {
+	var req listenRequest
+	if err := json.NewDecoder(http.MaxBytesReader(w, r.Body, 2<<10)).Decode(&req); err != nil {
+		writeError(w, http.StatusBadRequest, "That request did not parse.")
+		return
+	}
+	// A delta larger than the reporting interval means a stall or a tab left open, not
+	// listening, so it is capped rather than trusted.
+	if req.Delta > 60 {
+		req.Delta = 60
+	}
+	playerID, _, err := s.DB.Player(req.Player)
+	if err != nil {
+		writeError(w, http.StatusBadRequest, "A name is needed to keep your place.")
+		return
+	}
+	if err := s.DB.RecordListening(playerID, req.Episode, req.Position, req.Delta); err != nil {
+		s.fail(w, err)
+		return
+	}
+	w.WriteHeader(http.StatusNoContent)
 }

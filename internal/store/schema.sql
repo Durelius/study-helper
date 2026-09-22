@@ -38,3 +38,15 @@ CREATE TABLE IF NOT EXISTS answers (
 CREATE INDEX IF NOT EXISTS answers_by_question ON answers (question_id);
 CREATE INDEX IF NOT EXISTS sessions_by_player  ON sessions (player_id, finished_at);
 CREATE INDEX IF NOT EXISTS sessions_finished   ON sessions (finished_at);
+
+-- How much of each episode someone has actually listened to. Position is where to
+-- resume; listened is the total time spent, which is the honest measure — scrubbing to
+-- the end is not listening.
+CREATE TABLE IF NOT EXISTS listening (
+    player_id    INTEGER NOT NULL REFERENCES players(id),
+    episode      TEXT    NOT NULL,
+    position_sec REAL    NOT NULL DEFAULT 0,
+    listened_sec REAL    NOT NULL DEFAULT 0,
+    updated_at   INTEGER NOT NULL,
+    PRIMARY KEY (player_id, episode)
+);

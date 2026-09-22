@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import NameGate from './components/NameGate'
 import Dashboard from './pages/Dashboard'
+import Audio from './pages/Audio'
 import Leaderboard from './pages/Leaderboard'
 import Read from './pages/Read'
 import Notes from './pages/Notes'
@@ -14,6 +15,7 @@ const tabs = [
   { to: '/', label: 'Plan', end: true },
   { to: '/read', label: 'Read', end: false },
   { to: '/quiz', label: 'Quiz', end: false },
+  { to: '/audio', label: 'Audio', end: false },
   { to: '/leaderboard', label: 'Leaderboard', end: false },
 ]
 
@@ -69,6 +71,7 @@ export default function App() {
           <Route path="/quiz" element={<QuizPicker name={name} />} />
           <Route path="/quiz/:id" element={<Runner />} />
           <Route path="/results/:id" element={<Results />} />
+          <Route path="/audio" element={<Audio name={name} />} />
           <Route path="/leaderboard" element={<Leaderboard name={name} />} />
           <Route
             path="*"

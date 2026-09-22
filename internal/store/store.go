@@ -313,3 +313,52 @@ func (d *DB) Mastered(name string) (map[string]bool, error) {
 	}
 	return out, rows.Err()
 }
+
+// Listen is how far through an episode someone is.
+type Listen struct {
+	Episode     string  `json:"episode"`
+	PositionSec float64 `json:"positionSec"`
+	ListenedSec float64 `json:"listenedSec"`
+	UpdatedAt   int64   `json:"updatedAt"`
+}
+
+// RecordListening moves the resume point and adds to the time listened.
+//
+// The delta is accumulated rather than set, because the honest measure of listening is
+// time actually spent playing — scrubbing to the end of an episode is not listening to
+// it. The client sends small deltas while playing, so a seek adds nothing.
+func (d *DB) RecordListening(playerID int64, episode string, position, delta float64) error {
+	if delta < 0 {
+		delta = 0
+	}
+	_, err := d.sql.Exec(
+		`INSERT INTO listening (player_id, episode, position_sec, listened_sec, updated_at)
+		 VALUES (?, ?, ?, ?, ?)
+		 ON CONFLICT (player_id, episode) DO UPDATE SET
+		     position_sec = excluded.position_sec,
+		     listened_sec = listening.listened_sec + excluded.listened_sec,
+		     updated_at   = excluded.updated_at`,
+		playerID, episode, position, delta, time.Now().UnixMilli())
+	return err
+}
+
+// Listening returns a player's progress through every episode they have started.
+func (d *DB) Listening(name string) ([]Listen, error) {
+	rows, err := d.sql.Query(
+		`SELECT episode, position_sec, listened_sec, updated_at
+		   FROM listening l JOIN players p ON p.id = l.player_id
+		  WHERE p.name = ?`, name)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	out := []Listen{}
+	for rows.Next() {
+		var l Listen
+		if err := rows.Scan(&l.Episode, &l.PositionSec, &l.ListenedSec, &l.UpdatedAt); err != nil {
+			return nil, err
+		}
+		out = append(out, l)
+	}
+	return out, rows.Err()
+}

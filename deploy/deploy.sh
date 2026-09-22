@@ -35,6 +35,19 @@ ssh -i "$KEY" "$HOST" "mv $DIR/chulavaluechain.new $DIR/chulavaluechain && chmod
 # INSTALL.md says what the label should be; this applies it to the new file.
 ssh -i "$KEY" "$HOST" "sudo restorecon -v $DIR/chulavaluechain"
 
+# The audiobook is over a hundred megabytes and changes far less often than the code,
+# so it ships separately and only when it differs. Skipped entirely if nothing has
+# been rendered locally.
+AUDIO=${AUDIO:-$HOME/Desktop/valuechain-audiobook}
+if [ -f "$AUDIO/manifest.json" ]; then
+  echo "==> syncing the audiobook"
+  ssh -i "$KEY" "$HOST" "sudo install -d -o wilhelm -g wilhelm $DIR/audio"
+  rsync -av --delete -e "ssh -i $KEY" "$AUDIO/" "$HOST:$DIR/audio/" | tail -3
+  ssh -i "$KEY" "$HOST" "sudo restorecon -R $DIR/audio"
+else
+  echo "==> no audiobook rendered locally, leaving the server's copy alone"
+fi
+
 echo "==> restarting $SERVICE"
 ssh -i "$KEY" "$HOST" "sudo systemctl restart $SERVICE && sleep 1 && systemctl is-active $SERVICE"
 
