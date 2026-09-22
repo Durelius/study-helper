@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { api, type Episode } from '../lib/api'
+import { api, type Episode, type Topic } from '../lib/api'
 import { clock, megabytes } from '../lib/format'
 import { forgetDownload, loadDownloads, rememberDownload, type DownloadRecord } from '../lib/downloads'
 
@@ -11,6 +11,7 @@ const REPORT_EVERY = 15
 export default function AudioPage({ name }: { name: string }) {
   const [episodes, setEpisodes] = useState<Episode[]>([])
   const [minutes, setMinutes] = useState(0)
+  const [topics, setTopics] = useState<Topic[]>([])
   const [current, setCurrent] = useState<Episode | null>(null)
   const [playing, setPlaying] = useState(false)
   const [position, setPosition] = useState(0)
@@ -35,6 +36,7 @@ export default function AudioPage({ name }: { name: string }) {
         for (const e of d.episodes) listened.current[e.topic] = e.listenedSec
       })
       .catch((e: Error) => setError(e.message))
+    api.topics(name).then(setTopics).catch(() => setTopics([]))
   }, [name])
 
   const report = useCallback(
@@ -159,6 +161,8 @@ export default function AudioPage({ name }: { name: string }) {
   }
 
   const totalListened = Object.values(listened.current).reduce((a, b) => a + b, 0)
+  const recorded = new Set(episodes.map((e) => e.topic))
+  const pending = topics.filter((t) => t.hasNotes && !recorded.has(t.id)).length
 
   if (error && episodes.length === 0) return <p className="text-critical">{error}</p>
 
@@ -178,9 +182,13 @@ export default function AudioPage({ name }: { name: string }) {
     <div className="pb-28">
       <h1 className="text-xl">The lectures, read aloud</h1>
       <p className="mt-1 max-w-[62ch] text-[0.92rem] leading-relaxed text-ink-soft">
-        All nine lectures spoken, {Math.round(minutes)} minutes in total. The questions in the notes are
-        read out too, with a pause to answer before you hear why. Download an episode and it plays with
-        no signal.
+        {/* Episodes are rendered one lecture at a time, so the count here is whatever
+            is actually available rather than what the full book will be. */}
+        {pending > 0
+          ? `${episodes.length} of ${episodes.length + pending} lectures are ready, ${Math.round(minutes)} minutes so far. The rest are still being recorded.`
+          : `All ${episodes.length} lectures spoken, ${Math.round(minutes)} minutes in total.`}{' '}
+        The questions in the notes are read out too, with a pause to answer before you hear why.
+        Download an episode and it plays with no signal.
       </p>
       <p className="mt-2 text-[0.85rem] text-ink-soft">
         You have listened for <strong>{clock(totalListened)}</strong>

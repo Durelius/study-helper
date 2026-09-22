@@ -38,6 +38,11 @@ render a short sample instead of all nine lectures.
 Output is one `.m4a` per lecture with track metadata, so a phone lists them in order.
 Roughly 150 minutes in total, and synthesis runs about 8x faster than real time.
 
+Episodes appear one lecture at a time, so `deploy/sync-audio.sh` ships whatever has
+rendered so far without rebuilding the app: it rewrites the manifest from what is on
+disk, rsyncs only the new files and restarts the service, which reads the manifest at
+startup.
+
 To check a voice before committing to a full run, `audiobook.py --dump <topic>` prints
 the speech text with its pauses, which is also the fastest way to catch a symbol that
 would read badly.
