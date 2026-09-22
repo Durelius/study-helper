@@ -3,6 +3,7 @@ import { NavLink, Route, Routes } from 'react-router-dom'
 import NameGate from './components/NameGate'
 import Dashboard from './pages/Dashboard'
 import Audio from './pages/Audio'
+import { AudioProvider, useAudio } from './components/AudioPlayer'
 import Leaderboard from './pages/Leaderboard'
 import Read from './pages/Read'
 import Notes from './pages/Notes'
@@ -23,6 +24,19 @@ export default function App() {
   const [name, setName] = useState(storedName)
 
   if (!name) return <NameGate onName={setName} />
+
+  // The provider sits above the router so the audio element survives navigation: that
+  // is what lets "read" be an ordinary link to the notes instead of a second copy of
+  // them rendered inside the Audio tab.
+  return (
+    <AudioProvider name={name}>
+      <Shell name={name} setName={setName} />
+    </AudioProvider>
+  )
+}
+
+function Shell({ name, setName }: { name: string; setName: (n: string) => void }) {
+  const { current } = useAudio()
 
   return (
     <div className="min-h-full">
@@ -63,7 +77,8 @@ export default function App() {
         </nav>
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 py-8">
+      {/* Room for the player pinned to the bottom, when there is one. */}
+      <main className={`mx-auto max-w-5xl px-4 py-8 ${current ? 'pb-32' : ''}`}>
         <Routes>
           <Route path="/" element={<Dashboard name={name} />} />
           <Route path="/read" element={<Read name={name} />} />
@@ -71,7 +86,7 @@ export default function App() {
           <Route path="/quiz" element={<QuizPicker name={name} />} />
           <Route path="/quiz/:id" element={<Runner />} />
           <Route path="/results/:id" element={<Results />} />
-          <Route path="/audio" element={<Audio name={name} />} />
+          <Route path="/audio" element={<Audio />} />
           <Route path="/leaderboard" element={<Leaderboard name={name} />} />
           <Route
             path="*"

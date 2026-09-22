@@ -1,132 +1,24 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
-import PlayerControls from '../components/PlayerControls'
-import ReadingView from '../components/ReadingView'
-import { api, type Episode, type Topic } from '../lib/api'
+import { useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
+import ConfirmDialog from '../components/ConfirmDialog'
+import { useAudio } from '../components/AudioPlayer'
+import type { Episode } from '../lib/api'
 import { clock, megabytes } from '../lib/format'
 import { forgetDownload, loadDownloads, rememberDownload, type DownloadRecord } from '../lib/downloads'
 
-// How often playing time is reported. Short enough that closing the tab loses almost
-// nothing, long enough not to write to the database every second.
-const REPORT_EVERY = 15
-
-export default function AudioPage({ name }: { name: string }) {
-  const [episodes, setEpisodes] = useState<Episode[]>([])
-  const [minutes, setMinutes] = useState(0)
-  const [topics, setTopics] = useState<Topic[]>([])
-  const [current, setCurrent] = useState<Episode | null>(null)
-  const [playing, setPlaying] = useState(false)
-  const [position, setPosition] = useState(0)
-  const [rate, setRate] = useState(1)
+// Just the episode list: the player itself lives in the app shell, so this page can be
+// navigated away from without interrupting anything.
+export default function AudioPage() {
+  const { episodes, minutes, current, playing, listened, play } = useAudio()
   const [downloads, setDownloads] = useState<Record<string, DownloadRecord>>(loadDownloads)
   const [saving, setSaving] = useState<Record<string, number>>({})
+  const [confirming, setConfirming] = useState(false)
+  const [bulk, setBulk] = useState<{ done: number; total: number } | null>(null)
+  const [cancelBulk, setCancelBulk] = useState(false)
+  // A ref, not state: the download loop reads this between episodes and would never
+  // see a state update captured in its own closure.
+  const stopRequested = useRef(false)
   const [error, setError] = useState('')
-  // The topic whose notes are shown in place of the episode list. Staying on this
-  // route is what keeps the audio element mounted and playing.
-  const [reading, setReading] = useState<string | null>(null)
-
-  const audio = useRef<HTMLAudioElement | null>(null)
-  // Listening time is accumulated from playback, not from wall-clock time, so a paused
-  // tab or a scrub through the episode adds nothing.
-  const lastTime = useRef(0)
-  const unreported = useRef(0)
-  const listened = useRef<Record<string, number>>({})
-
-  useEffect(() => {
-    api
-      .episodes(name)
-      .then((d) => {
-        setEpisodes(d.episodes)
-        setMinutes(d.minutes)
-        for (const e of d.episodes) listened.current[e.topic] = e.listenedSec
-      })
-      .catch((e: Error) => setError(e.message))
-    api.topics(name).then(setTopics).catch(() => setTopics([]))
-  }, [name])
-
-  const report = useCallback(
-    (episode: string, pos: number, delta: number) => {
-      if (delta <= 0 && pos <= 0) return
-      void api.listen(name, episode, pos, delta)
-    },
-    [name],
-  )
-
-  // Anything still unreported when the tab closes would otherwise be lost.
-  useEffect(() => {
-    function flush() {
-      if (current && unreported.current > 0) {
-        report(current.topic, position, unreported.current)
-        unreported.current = 0
-      }
-    }
-    window.addEventListener('pagehide', flush)
-    return () => {
-      flush()
-      window.removeEventListener('pagehide', flush)
-    }
-  }, [current, position, report])
-
-  function choose(ep: Episode) {
-    if (current?.topic === ep.topic) {
-      toggle()
-      return
-    }
-    if (current && unreported.current > 0) {
-      report(current.topic, position, unreported.current)
-      unreported.current = 0
-    }
-    setCurrent(ep)
-    setPosition(ep.positionSec)
-    lastTime.current = ep.positionSec
-    setPlaying(true)
-    // The element needs the new source before it can be told where to start.
-    requestAnimationFrame(() => {
-      const el = audio.current
-      if (!el) return
-      el.playbackRate = rate
-      // Resume where they stopped, unless they were basically at the end.
-      if (ep.positionSec > 5 && ep.positionSec < ep.seconds - 10) el.currentTime = ep.positionSec
-      void el.play().catch(() => setPlaying(false))
-    })
-  }
-
-  function toggle() {
-    const el = audio.current
-    if (!el) return
-    if (el.paused) void el.play().catch(() => setPlaying(false))
-    else el.pause()
-  }
-
-  function onTimeUpdate() {
-    const el = audio.current
-    if (!el || !current) return
-    const now = el.currentTime
-    const delta = now - lastTime.current
-    lastTime.current = now
-    setPosition(now)
-    // Normal playback advances by well under a second per tick. A larger jump is a
-    // seek, and a negative one is a rewind; neither is time spent listening.
-    if (delta > 0 && delta < 2) {
-      unreported.current += delta
-      listened.current[current.topic] = (listened.current[current.topic] ?? 0) + delta
-      if (unreported.current >= REPORT_EVERY) {
-        report(current.topic, now, unreported.current)
-        unreported.current = 0
-      }
-    }
-  }
-
-  function skip(seconds: number) {
-    const el = audio.current
-    if (!el) return
-    el.currentTime = Math.max(0, Math.min(el.duration || 0, el.currentTime + seconds))
-    lastTime.current = el.currentTime
-  }
-
-  function changeRate(next: number) {
-    setRate(next)
-    if (audio.current) audio.current.playbackRate = next
-  }
 
   // Fetching the file rather than linking it means the progress is real and the
   // "downloaded" mark records something that actually happened.
@@ -164,11 +56,29 @@ export default function AudioPage({ name }: { name: string }) {
     }
   }
 
-  const totalListened = Object.values(listened.current).reduce((a, b) => a + b, 0)
-  const recorded = new Set(episodes.map((e) => e.topic))
-  const pending = topics.filter((t) => t.hasNotes && !recorded.has(t.id)).length
+  // Downloading the whole book means nine separate saves, so it runs one at a time and
+  // can be stopped part-way. Anything already on disk is skipped rather than refetched.
+  async function downloadAll() {
+    setConfirming(false)
+    setCancelBulk(false)
+    stopRequested.current = false
+    const pending = episodes.filter((e) => !downloads[e.topic])
+    setBulk({ done: 0, total: pending.length })
+    for (const [i, ep] of pending.entries()) {
+      if (stopRequested.current) break
+      await download(ep)
+      setBulk({ done: i + 1, total: pending.length })
+      // A breath between saves: browsers throttle a burst of downloads, and some ask
+      // permission once before allowing the rest.
+      await new Promise((r) => setTimeout(r, 400))
+    }
+    setBulk(null)
+    setCancelBulk(false)
+  }
 
-  if (error && episodes.length === 0) return <p className="text-critical">{error}</p>
+  const totalListened = Object.values(listened).reduce((a, b) => a + b, 0)
+  const notSaved = episodes.filter((e) => !downloads[e.topic])
+  const notSavedBytes = notSaved.reduce((sum, e) => sum + e.bytes, 0)
 
   if (episodes.length === 0) {
     return (
@@ -183,41 +93,44 @@ export default function AudioPage({ name }: { name: string }) {
   }
 
   return (
-    <div className="pb-28">
-      {!reading && (
-        <>
+    <div>
       <h1 className="text-xl">The lectures, read aloud</h1>
       <p className="mt-1 max-w-[62ch] text-[0.92rem] leading-relaxed text-ink-soft">
-        {/* Episodes are rendered one lecture at a time, so the count here is whatever
-            is actually available rather than what the full book will be. */}
-        {pending > 0
-          ? `${episodes.length} of ${episodes.length + pending} lectures are ready, ${Math.round(minutes)} minutes so far. The rest are still being recorded.`
-          : `All ${episodes.length} lectures spoken, ${Math.round(minutes)} minutes in total.`}{' '}
-        The questions in the notes are read out too, with a pause to answer before you hear why.
-        Download an episode and it plays with no signal.
+        All {episodes.length} lectures spoken, {Math.round(minutes)} minutes in total. The questions in
+        the notes are read out too, with a pause to answer before you hear why. Open the notes while an
+        episode plays and it keeps playing.
       </p>
       <p className="mt-2 text-[0.85rem] text-ink-soft">
         You have listened for <strong>{clock(totalListened)}</strong>
         {totalListened > 0 && ` · ${Math.round((totalListened / (minutes * 60)) * 100)}% of the book`}
       </p>
-        </>
-      )}
 
-      {reading ? (
-        <ReadingView
-          topic={reading}
-          onBack={() => setReading(null)}
-          isPlaying={current?.topic === reading}
-          onPlay={() => {
-            const ep = episodes.find((e) => e.topic === reading)
-            if (ep) choose(ep)
-          }}
-        />
-      ) : (
-        <>
-      <ul className="mt-6 space-y-1.5">
+      <div className="mt-5 flex flex-wrap items-center gap-3">
+        {notSaved.length > 0 ? (
+          <button onClick={() => setConfirming(true)} disabled={!!bulk} className="btn btn-quiet">
+            {bulk ? `Saving ${bulk.done} of ${bulk.total}…` : `Download all (${megabytes(notSavedBytes)})`}
+          </button>
+        ) : (
+          <span className="text-[0.85rem]" style={{ color: 'var(--slack)' }}>
+            Every episode is saved on this device.
+          </span>
+        )}
+        {bulk && (
+          <button
+            onClick={() => {
+              setCancelBulk(true)
+              stopRequested.current = true
+            }}
+            className="text-[0.82rem] text-ink-soft underline underline-offset-4"
+          >
+            {cancelBulk ? 'Stopping…' : 'Stop after this one'}
+          </button>
+        )}
+      </div>
+
+      <ul className="mt-4 space-y-1.5">
         {episodes.map((ep) => {
-          const heard = listened.current[ep.topic] ?? ep.listenedSec
+          const heard = listened[ep.topic] ?? ep.listenedSec
           const done = heard / ep.seconds
           const isCurrent = current?.topic === ep.topic
           const progress = saving[ep.topic]
@@ -226,7 +139,7 @@ export default function AudioPage({ name }: { name: string }) {
             <li key={ep.topic} className="border border-line bg-surface">
               <div className="flex items-start gap-3 p-3">
                 <button
-                  onClick={() => choose(ep)}
+                  onClick={() => play(ep)}
                   aria-label={isCurrent && playing ? `Pause ${ep.title}` : `Play ${ep.title}`}
                   className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center border"
                   style={{
@@ -262,12 +175,9 @@ export default function AudioPage({ name }: { name: string }) {
                       </>
                     )}
                     <span>·</span>
-                    <button
-                      onClick={() => setReading(ep.topic)}
-                      className="underline underline-offset-2"
-                    >
-                      read along
-                    </button>
+                    <Link to={`/read/${ep.topic}`} className="underline underline-offset-2">
+                      read
+                    </Link>
                   </div>
                   {heard > 0 && (
                     <div className="mt-2 h-1.5 bg-sunken" aria-hidden="true">
@@ -305,69 +215,38 @@ export default function AudioPage({ name }: { name: string }) {
         })}
       </ul>
 
-        </>
+      {confirming && (
+        <ConfirmDialog
+          title="Download the whole audiobook?"
+          confirmLabel={`Download ${notSaved.length}`}
+          onCancel={() => setConfirming(false)}
+          onConfirm={downloadAll}
+          body={
+            <>
+              <p>
+                {notSaved.length} {notSaved.length === 1 ? 'episode' : 'episodes'},{' '}
+                <strong>{megabytes(notSavedBytes)}</strong> in total, saved one at a time to this
+                device. Worth doing on wifi rather than mobile data.
+              </p>
+              {episodes.length - notSaved.length > 0 && (
+                <p className="mt-2">
+                  The {episodes.length - notSaved.length} you already have will be skipped.
+                </p>
+              )}
+              <p className="mt-2">
+                Your browser may ask once whether to allow multiple downloads. Say yes, or only the
+                first will be saved.
+              </p>
+            </>
+          }
+        />
       )}
 
       {error && <p className="mt-4 text-[0.85rem] text-critical">{error}</p>}
-
-      {current && (
-        <div className="fixed inset-x-0 bottom-0 border-t border-line-strong bg-surface">
-          <div className="mx-auto max-w-5xl px-4 py-2.5">
-            {reading !== current.topic && (
-              <button
-                onClick={() => setReading(current.topic)}
-                className="mb-1.5 text-[0.76rem] text-ink-soft underline underline-offset-4"
-              >
-                Read along with this episode
-              </button>
-            )}
-            <PlayerControls
-              episode={current}
-              playing={playing}
-              position={position}
-              rate={rate}
-              onToggle={toggle}
-              onSkip={skip}
-              onRate={changeRate}
-              onSeek={(seconds) => {
-                const el = audio.current
-                if (!el) return
-                el.currentTime = seconds
-                lastTime.current = seconds
-                setPosition(seconds)
-              }}
-            />
-          </div>
-        </div>
-      )}
-
-      <audio
-        ref={audio}
-        src={current?.url}
-        onTimeUpdate={onTimeUpdate}
-        onPlay={() => setPlaying(true)}
-        onPause={() => {
-          setPlaying(false)
-          if (current && unreported.current > 0) {
-            report(current.topic, position, unreported.current)
-            unreported.current = 0
-          }
-        }}
-        onEnded={() => {
-          setPlaying(false)
-          if (current) report(current.topic, current.seconds, unreported.current)
-          unreported.current = 0
-          // Roll straight into the next lecture, the way a podcast app would.
-          const next = episodes.find((e) => e.index === (current?.index ?? 0) + 1)
-          if (next) choose(next)
-        }}
-        preload="metadata"
-      />
     </div>
   )
 }
 
-// Kept here for the play button on each episode row.
 function PlayIcon() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true">
