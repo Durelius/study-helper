@@ -230,7 +230,7 @@
   "id": "pmf-010",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "The deck lists four reasons organizations start projects. Which of the following is NOT one of them?",
+  "stem": "There are four reasons organizations start projects. Which of the following is NOT one of them?",
   "choices": [
    "Problem",
    "Coincidence",
@@ -381,22 +381,22 @@
   "id": "pmf-016",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "The Hotel Digital Transformation business case estimates a cost of \u0e3f3 million. Which of the following is listed as a major risk?",
+  "stem": "A boutique hotel is investing \u0e3f3 million in mobile check-in and a direct booking platform, expecting to recover it through lower commission and faster service. Which is the most significant risk to that benefits case?",
   "choices": [
-   "Currency exchange fluctuation.",
-   "Rising raw-material prices.",
-   "Labor union strikes.",
-   "Low adoption by guests."
+   "Currency exchange fluctuation",
+   "Rising raw-material prices",
+   "Guests do not adopt the new channels",
+   "Labour union strikes"
   ],
   "answer": [
-   3
+   2
   ],
-  "explanation": "Slide 22 lists the major risks as low adoption, integration problems, staff resistance and cybersecurity.",
+  "explanation": "Every benefit in the case depends on guests actually booking direct and checking in on their phones. If they keep using the agencies, the spend happens and none of the savings arrive. The other three barely touch a hotel software project.",
   "source": {
    "deck": "new 04",
    "slide": 22
   },
-  "difficulty": 2,
+  "difficulty": 3,
   "tags": [
    "business-case",
    "hotel-case"
@@ -507,7 +507,7 @@
   "id": "pmf-021",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Across Initiation \u2192 Planning \u2192 Execution \u2192 Closing, how do uncertainty and the cost of making a change typically move, per the deck?",
+  "stem": "Across Initiation \u2192 Planning \u2192 Execution \u2192 Closing, how do uncertainty and the cost of making a change typically move?",
   "choices": [
    "Uncertainty falls over time; cost of change rises over time.",
    "Uncertainty rises over time; cost of change falls over time.",
@@ -558,7 +558,7 @@
   "id": "pmf-023",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Which of these activities belongs to the 'Closing' phase of the project life cycle, per the deck?",
+  "stem": "Which of these activities belongs to the 'Closing' phase of the project life cycle?",
   "choices": [
    "Goals and specifications.",
    "Status reports and forecasts.",
@@ -583,7 +583,7 @@
   "id": "pmf-024",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Which of these is one of the three characteristics that run across the whole project life cycle, per the deck?",
+  "stem": "Which of these is one of the three characteristics that run across the whole project life cycle?",
   "choices": [
    "Team size stays exactly constant.",
    "Budget is fixed and never estimated until Closing.",
@@ -658,7 +658,7 @@
   "id": "pmf-027",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "What does the 'Initiating' process group do, per the deck?",
+  "stem": "What does the 'Initiating' process group do?",
   "choices": [
    "Track performance and make adjustments.",
    "Perform the work.",
@@ -683,7 +683,7 @@
   "id": "pmf-028",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "What does the 'Executing' process group do, per the deck?",
+  "stem": "What does the 'Executing' process group do?",
   "choices": [
    "Authorize the project.",
    "Define how the work will be done.",
@@ -733,7 +733,7 @@
   "id": "pmf-030",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "What does the 'Closing' process group do, per the deck?",
+  "stem": "What does the 'Closing' process group do?",
   "choices": [
    "Perform the work.",
    "Complete the project or phase.",
@@ -808,7 +808,7 @@
   "id": "pmf-033",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "How many knowledge areas does PMBOK 6 organize project management into, according to the deck?",
+  "stem": "How many knowledge areas does PMBOK 6 organise project management into?",
   "choices": [
    "10",
    "5",
@@ -1209,7 +1209,7 @@
   "id": "pmf-049",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "Which role 'owns the business justification, provides support and resources, and makes major decisions' on a project, per the deck?",
+  "stem": "Which role 'owns the business justification, provides support and resources, and makes major decisions' on a project?",
   "choices": [
    "Sponsor",
    "Project Team",
@@ -1259,22 +1259,22 @@
   "id": "pmf-051",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "In the Hotel Digital Transformation case, which of these is one of the three business goals driving the project?",
+  "stem": "A boutique hotel pays high commission on most of its bookings through online travel agencies, and guests queue at reception to check in. Which of these belongs in its business case as a goal?",
   "choices": [
-   "Increase dependence on OTAs.",
-   "Eliminate mobile check-in.",
-   "Reduce dependence on OTAs.",
-   "Reduce the number of guest rooms."
+   "Install a new property management system",
+   "Reduce dependence on online travel agencies",
+   "Increase the commission paid to travel agencies",
+   "Reduce the number of guest rooms"
   ],
   "answer": [
-   2
+   1
   ],
-  "explanation": "Slide 4 states the boutique hotel's goals: improve guest experience, increase operational efficiency, and reduce dependence on OTAs (online travel agencies).",
+  "explanation": "A goal states the outcome the business wants \u2014 less commission leaking to OTAs. Installing a property management system is a solution, not a goal: it is one possible way to reach the outcome, and writing it into the business case decides the answer before the options have been compared.",
   "source": {
    "deck": "new 04",
    "slide": 4
   },
-  "difficulty": 1,
+  "difficulty": 3,
   "tags": [
    "hotel-case"
   ],

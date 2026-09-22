@@ -478,7 +478,7 @@
   "id": "ops-019",
   "topic": "operations",
   "type": "mcq",
-  "stem": "A teammate argues that payment processing should be eliminated because it is 'waste'. What is the correct classification, per the deck?",
+  "stem": "A teammate argues that payment processing should be eliminated because it is 'waste'. What is the correct classification?",
   "choices": [
    "Waste \u2014 it consumes resources without creating value",
    "Value-adding \u2014 it is why the customer came",
@@ -815,7 +815,7 @@
   "id": "ops-032",
   "topic": "operations",
   "type": "mcq",
-  "stem": "The deck lists five operations performance objectives. Which of the following is NOT one of them?",
+  "stem": "There are five operations performance objectives. Which of the following is NOT one of them?",
   "choices": [
    "Quality",
    "Speed",

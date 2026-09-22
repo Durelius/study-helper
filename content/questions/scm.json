@@ -79,7 +79,7 @@
   "id": "scm-004",
   "topic": "scm",
   "type": "multi",
-  "stem": "Select all of the following that the deck names as the enablers that make the supply chain work, alongside the actors.",
+  "stem": "Select all of the following that are the enablers that make the supply chain work, alongside the actors.",
   "choices": [
    "Marketing",
    "Logistics",
@@ -267,7 +267,7 @@
   "id": "scm-011",
   "topic": "scm",
   "type": "mcq",
-  "stem": "Which KPI set does the deck give for Big C rather than for Zara?",
+  "stem": "A large hypermarket competes on cost leadership with predictable, staple demand and a push-based supply chain. Which set of KPIs fits that strategy?",
   "choices": [
    "Lead time to store, sell-through rate, stockout rate, new product contribution",
    "Fill rate, order cycle time, time to adapt, agility index",
@@ -277,12 +277,12 @@
   "answer": [
    2
   ],
-  "explanation": "Slide 16 gives Big C cost per unit, inventory turns, on-time in-full and supply chain cost percentage, all cost-leadership measures. Option A is Zara's list, and option D lists metrics that never appear in this deck.",
+  "explanation": "An efficient supply chain is measured on cost and asset use, because that is what it is built to win on. The first set \u2014 lead time to store, sell-through, new product contribution \u2014 is how a responsive fashion chain measures itself, where speed to market matters more than cost per unit.",
   "source": {
    "deck": "new 03",
    "slide": 16
   },
-  "difficulty": 2,
+  "difficulty": 3,
   "tags": [
    "case",
    "big-c",
@@ -321,7 +321,7 @@
   "id": "scm-013",
   "topic": "scm",
   "type": "multi",
-  "stem": "The deck gives four reasons companies hold inventory. Select all of the following that are on that list.",
+  "stem": "There are four reasons companies hold inventory. Select all of the following that are on that list.",
   "choices": [
    "Increase obsolescence risk",
    "Buffer uncertainty",
@@ -585,7 +585,7 @@
   "id": "scm-023",
   "topic": "scm",
   "type": "multi",
-  "stem": "Select all of the following that the deck names as causes of the bullwhip effect.",
+  "stem": "Select all of the following that are causes of the bullwhip effect.",
   "choices": [
    "Sharing real-time point-of-sale data with upstream partners",
    "Order batching",

@@ -211,7 +211,7 @@
   "id": "vc-009",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "Which pairing correctly matches each concept with its direction/focus, per the deck?",
+  "stem": "Which pairing correctly matches each concept with its direction/focus?",
   "choices": [
    "Value chain \u2013 outward looking; Supply chain \u2013 inward looking",
    "Value chain \u2013 delivery vehicle; Project management \u2013 umbrella concept",
@@ -667,7 +667,7 @@
   "id": "vc-026",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "A firm pursuing a cost-leadership strategy would, according to the deck's framework, focus process improvements primarily on:",
+  "stem": "A firm pursuing a cost-leadership strategy would focus its process improvements primarily on:",
   "choices": [
    "Support activities, since they are the source of cost advantage",
    "Primary activities, since they are the source of cost advantage",
@@ -798,7 +798,7 @@
   "id": "vc-031",
   "topic": "value-chain",
   "type": "mcq",
-  "stem": "The deck lists four payoffs for building a value chain. Which of the following is one of them?",
+  "stem": "There are four payoffs for building a value chain. Which of the following is one of them?",
   "choices": [
    "Guaranteeing annual revenue growth of 20%",
    "Eliminating the need for a marketing department",

@@ -55,7 +55,7 @@
   "id": "sc-003",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "A team lists 'Mobile application', 'Payment module' and 'Integrate payment gateway'. Which label does the deck attach to 'Payment module'?",
+  "stem": "A team lists 'Mobile application', 'Payment module' and 'Integrate payment gateway'. Which label belongs to 'Payment module'?",
   "choices": [
    "Deliverable",
    "Milestone",
@@ -185,7 +185,7 @@
   "id": "sc-008",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck lists a fourth dependency type described as 'Task B cannot finish until Task A starts'. Which is it?",
+  "stem": "A fourth dependency type is described as 'Task B cannot finish until Task A starts'. Which is it?",
   "choices": [
    "Finish-to-Finish (FF)",
    "Start-to-Start (SS)",
@@ -420,7 +420,7 @@
   "id": "sc-017",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "The deck names three baselines. Which trio is correct?",
+  "stem": "There are three baselines. Which trio is correct?",
   "choices": [
    "Scope baseline, schedule baseline, cost baseline",
    "Charter baseline, WBS baseline, budget baseline",
@@ -1468,7 +1468,7 @@
   "id": "sc-036",
   "topic": "schedule-cost",
   "type": "mcq",
-  "stem": "Which activities should the project manager watch most closely, according to the deck?",
+  "stem": "Which activities should the project manager watch most closely?",
   "choices": [
    "The activities with the largest float, because they are easiest to forget",
    "Critical activities first, then near-critical activities, then those with larger float",
@@ -1546,7 +1546,7 @@
   "id": "sc-039",
   "topic": "schedule-cost",
   "type": "multi",
-  "stem": "Select all of the actions the deck lists as ways of resolving an over-allocation through resource leveling.",
+  "stem": "Select all of the actions that resolve an over-allocation through resource levelling.",
   "choices": [
    "Delay an activity",
    "Reduce the project scope without approval",

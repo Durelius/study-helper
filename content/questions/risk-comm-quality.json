@@ -1,758 +1,1325 @@
 [
-  {
-    "id": "rcq-001",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The testing team reports that the payment screen of the newly delivered mobile app crashes whenever a discount code is entered. Which term fits best?",
-    "choices": ["Issue", "Risk", "Defect", "Dependency"],
-    "answer": [2],
-    "explanation": "A defect is a flaw in a deliverable that fails to meet quality standards — its timing is 'after creation'. 'Issue' is tempting because it is a present problem, but when the problem is a flaw inside something already built, the deck calls it a defect.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 3,
-    "tags": ["risk-vs-issue", "classification", "defect"],
-    "examFocus": true
+ {
+  "id": "rcq-001",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The testing team reports that the payment screen of the newly delivered mobile app crashes whenever a discount code is entered. Which term fits best?",
+  "choices": [
+   "Issue",
+   "Risk",
+   "Defect",
+   "Dependency"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A defect is a flaw in a deliverable that fails to meet quality standards \u2014 its timing is 'after creation'. 'Issue' is tempting because it is a present problem, but when the problem is a flaw inside something already built, the deck calls it a defect.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-002",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The approved business case states that the new clinic wing must open before the academic year begins on 1 June, and the date cannot be moved. This is a…",
-    "choices": ["Constraint", "Assumption", "Issue", "Risk"],
-    "answer": [0],
-    "explanation": "A constraint is a limiting factor that restricts project options or decisions and is always present — the deck's own example is 'project must be completed within 3 months'. Nothing has gone wrong yet, so it is not an issue.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "constraint"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "defect"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-002",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The approved business case states that the new clinic wing must open before the academic year begins on 1 June, and the date cannot be moved. This is a\u2026",
+  "choices": [
+   "Constraint",
+   "Assumption",
+   "Issue",
+   "Risk"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A constraint is a limiting factor that restricts project options or decisions and is always present \u2014 the deck's own example is 'project must be completed within 3 months'. Nothing has gone wrong yet, so it is not an issue.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-003",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "While building the schedule the PM writes down 'both contract developers will be available full-time from March'. Nobody has confirmed this in writing. This is a…",
-    "choices": ["Constraint", "Dependency", "Issue", "Assumption"],
-    "answer": [3],
-    "explanation": "An assumption is something believed to be true without proof and used for planning, made before or during the project. The deck's example is almost identical: 'assuming all team members are available full-time'.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "assumption"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "constraint"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-003",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "While building the schedule the PM writes down 'both contract developers will be available full-time from March'. Nobody has confirmed this in writing. This is a\u2026",
+  "choices": [
+   "Constraint",
+   "Dependency",
+   "Issue",
+   "Assumption"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "An assumption is something believed to be true without proof and used for planning, made before or during the project. The deck's example is almost identical: 'assuming all team members are available full-time'.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-004",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The LED panel supplier calls to say the shipment cleared customs two weeks late, so installation cannot start today. This is a…",
-    "choices": ["Risk", "Issue", "Constraint", "Assumption"],
-    "answer": [1],
-    "explanation": "An issue is a problem that is currently affecting the project — present and actual. Had the shipment merely been in danger of being late, it would still be a risk (future, potential); a risk becomes an issue when it actually happens.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "issue"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "assumption"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-004",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The LED panel supplier calls to say the shipment cleared customs two weeks late, so installation cannot start today. This is a\u2026",
+  "choices": [
+   "Risk",
+   "Issue",
+   "Constraint",
+   "Assumption"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "An issue is a problem that is currently affecting the project \u2014 present and actual. Had the shipment merely been in danger of being late, it would still be a risk (future, potential); a risk becomes an issue when it actually happens.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-005",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Ten years of weather records show that heavy monsoon rain in September could halt outdoor concreting. It is currently March. This is a…",
-    "choices": ["Issue", "Defect", "Risk", "Constraint"],
-    "answer": [2],
-    "explanation": "A risk is an uncertain future event that may affect the project. It only becomes an issue once the rain actually stops the work.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "risk"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "issue"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-005",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Ten years of weather records show that heavy monsoon rain in September could halt outdoor concreting. It is currently March. This is a\u2026",
+  "choices": [
+   "Issue",
+   "Defect",
+   "Risk",
+   "Constraint"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "A risk is an uncertain future event that may affect the project. It only becomes an issue once the rain actually stops the work.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-006",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The data-migration script cannot be run until the infrastructure team has commissioned the new database server. This relationship is a…",
-    "choices": ["Dependency", "Constraint", "Assumption", "Issue"],
-    "answer": [0],
-    "explanation": "A dependency is a task or event that relies on another to start, continue or finish — an ongoing relationship, like the deck's 'Task B starts only after Task A is completed'. A constraint limits options in general; this is a specific link between two tasks.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "dependency"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "risk"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-006",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The data-migration script cannot be run until the infrastructure team has commissioned the new database server. This relationship is a\u2026",
+  "choices": [
+   "Dependency",
+   "Constraint",
+   "Assumption",
+   "Issue"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A dependency is a task or event that relies on another to start, continue or finish \u2014 an ongoing relationship, like the deck's 'Task B starts only after Task A is completed'. A constraint limits options in general; this is a specific link between two tasks.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-007",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The customer has already signed off the reporting module, but three of its printed reports show the wrong currency symbol. This is a…",
-    "choices": ["Risk", "Assumption", "Constraint", "Defect"],
-    "answer": [3],
-    "explanation": "The deliverable exists and fails to meet the quality standard, so it is a defect (timing: after creation). Sign-off does not change the classification — it only means the defect escaped inspection.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 3,
-    "tags": ["risk-vs-issue", "classification", "defect"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "dependency"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-007",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The customer has already signed off the reporting module, but three of its printed reports show the wrong currency symbol. This is a\u2026",
+  "choices": [
+   "Risk",
+   "Assumption",
+   "Constraint",
+   "Defect"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The deliverable exists and fails to meet the quality standard, so it is a defect (timing: after creation). Sign-off does not change the classification \u2014 it only means the defect escaped inspection.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-008",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The sponsor confirms the project may not spend more than THB 2 million under any circumstances. This is a…",
-    "choices": ["Issue", "Constraint", "Risk", "Dependency"],
-    "answer": [1],
-    "explanation": "A fixed budget ceiling is a limiting factor that restricts options and is always present — a constraint. A cost overrun that had already occurred would instead be an issue.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "constraint"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "defect"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-008",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The sponsor confirms the project may not spend more than THB 2 million under any circumstances. This is a\u2026",
+  "choices": [
+   "Issue",
+   "Constraint",
+   "Risk",
+   "Dependency"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A fixed budget ceiling is a limiting factor that restricts options and is always present \u2014 a constraint. A cost overrun that had already occurred would instead be an issue.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-009",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The plan is built on the belief that the import tariff will not change during the 8-month build. Which classification is correct?",
-    "choices": [
-      "It is a risk; the related issue is a tariff change",
-      "It is a constraint; the related defect is a price rise",
-      "It is an assumption; the related risk is that the tariff changes",
-      "It is a dependency; the related issue is customs clearance"
-    ],
-    "answer": [2],
-    "explanation": "The belief held without proof is the assumption; the uncertain future event that the belief turns out to be false is the risk. Assumptions and risks come as a pair but are not the same term.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 3,
-    "tags": ["risk-vs-issue", "classification", "assumption"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "constraint"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-009",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The plan is built on the belief that the import tariff will not change during the 8-month build. Which classification is correct?",
+  "choices": [
+   "It is a risk; the related issue is a tariff change",
+   "It is a constraint; the related defect is a price rise",
+   "It is an assumption; the related risk is that the tariff changes",
+   "It is a dependency; the related issue is customs clearance"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The belief held without proof is the assumption; the uncertain future event that the belief turns out to be false is the risk. Assumptions and risks come as a pair but are not the same term.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-010",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Two of the five developers resigned this morning and the current sprint is now short-staffed. As of today this is a…",
-    "choices": ["Issue", "Risk", "Assumption", "Dependency"],
-    "answer": [0],
-    "explanation": "It is already affecting the project, so it is an issue (present, actual). 'Key staff may resign' was the risk while it was still uncertain.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 2,
-    "tags": ["risk-vs-issue", "classification", "issue"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "assumption"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-010",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Two of the five developers resigned this morning and the current sprint is now short-staffed. As of today this is a\u2026",
+  "choices": [
+   "Issue",
+   "Risk",
+   "Assumption",
+   "Dependency"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "It is already affecting the project, so it is an issue (present, actual). 'Key staff may resign' was the risk while it was still uncertain.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-011",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which term is matched with the correct timing from the comparison table?",
-    "choices": [
-      "Risk – present (actual)",
-      "Assumption – after creation",
-      "Constraint – future (potential)",
-      "Defect – after creation"
-    ],
-    "answer": [3],
-    "explanation": "The timings are: Risk = future (potential), Issue = present (actual), Constraint = always present, Assumption = before or during, Dependency = ongoing relationship, Defect = after creation.",
-    "source": { "deck": "new 07", "slide": 6 },
-    "difficulty": 1,
-    "tags": ["risk-vs-issue", "terminology", "timing"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-vs-issue",
+   "classification",
+   "issue"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-011",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which term is matched with the correct timing from the comparison table?",
+  "choices": [
+   "Risk \u2013 present (actual)",
+   "Assumption \u2013 after creation",
+   "Constraint \u2013 future (potential)",
+   "Defect \u2013 after creation"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The timings are: Risk = future (potential), Issue = present (actual), Constraint = always present, Assumption = before or during, Dependency = ongoing relationship, Defect = after creation.",
+  "source": {
+   "deck": "new 07",
+   "slide": 6
   },
-  {
-    "id": "rcq-012",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "At the halfway milestone, finance reports that 80% of the approved budget is spent with 40% of the work still to do. By source, this risk is…",
-    "choices": ["Financial", "Organizational", "Performance", "External"],
-    "answer": [0],
-    "explanation": "Budget overruns are listed under Financial risk. Performance risk covers weak processes, staffing and suppliers, not the money itself.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "financial"],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "risk-vs-issue",
+   "terminology",
+   "timing"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-012",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "At the halfway milestone, finance reports that 80% of the approved budget is spent with 40% of the work still to do. By source, this risk is\u2026",
+  "choices": [
+   "Financial",
+   "Organizational",
+   "Performance",
+   "External"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Budget overruns are listed under Financial risk. Performance risk covers weak processes, staffing and suppliers, not the money itself.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-013",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The new CRM cannot exchange customer records with the existing ERP without a custom middleware layer. By source this is…",
-    "choices": ["Performance", "Technical", "External", "Financial"],
-    "answer": [1],
-    "explanation": "Integration issues are listed under Technical risk, alongside technology failure or underperformance and unsuitable technology choices.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 2,
-    "tags": ["risk-types", "classification", "technical"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "financial"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-013",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The new CRM cannot exchange customer records with the existing ERP without a custom middleware layer. By source this is\u2026",
+  "choices": [
+   "Performance",
+   "Technical",
+   "External",
+   "Financial"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Integration issues are listed under Technical risk, alongside technology failure or underperformance and unsuitable technology choices.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-014",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A new national data-protection law forces the system to keep all personal data on servers inside the country. By source this is…",
-    "choices": ["Organizational", "Technical", "External", "Performance"],
-    "answer": [2],
-    "explanation": "Regulations sit under External risk, together with market changes and natural disasters. The technical rework it causes is an impact, not the source.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 2,
-    "tags": ["risk-types", "classification", "external"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-types",
+   "classification",
+   "technical"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-014",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A new national data-protection law forces the system to keep all personal data on servers inside the country. By source this is\u2026",
+  "choices": [
+   "Organizational",
+   "Technical",
+   "External",
+   "Performance"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Regulations sit under External risk, together with market changes and natural disasters. The technical rework it causes is an impact, not the source.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-015",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "After a company reorganisation the sponsor is moved to another division and the project slips down the priority list. By source this is…",
-    "choices": ["External", "Financial", "Performance", "Organizational"],
-    "answer": [3],
-    "explanation": "Internal organizational changes or priority shifts are Organizational risk. External risk is reserved for changes outside the company, such as regulation or the market.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "organizational"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-types",
+   "classification",
+   "external"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-015",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "After a company reorganisation the sponsor is moved to another division and the project slips down the priority list. By source this is\u2026",
+  "choices": [
+   "External",
+   "Financial",
+   "Performance",
+   "Organizational"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Internal organizational changes or priority shifts are Organizational risk. External risk is reserved for changes outside the company, such as regulation or the market.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-016",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Nobody on the team has ever configured the chosen cloud platform, and recruitment is slow. By source this is…",
-    "choices": ["Performance", "Technical", "Organizational", "Financial"],
-    "answer": [0],
-    "explanation": "Inadequate staffing or skill shortages are listed under Performance risk. Technical is tempting, but Technical means the technology itself failing or being the wrong choice — not the people operating it.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "performance"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "organizational"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-016",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Nobody on the team has ever configured the chosen cloud platform, and recruitment is slow. By source this is\u2026",
+  "choices": [
+   "Performance",
+   "Technical",
+   "Organizational",
+   "Financial"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Inadequate staffing or skill shortages are listed under Performance risk. Technical is tempting, but Technical means the technology itself failing or being the wrong choice \u2014 not the people operating it.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-017",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The contracted server vendor announces that delivery will be six weeks later than agreed. By source this is…",
-    "choices": ["External", "Performance", "Financial", "Technical"],
-    "answer": [1],
-    "explanation": "Supplier delays or failures are listed under Performance risk in this deck. External covers only regulations, market changes and natural disasters.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "performance"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "performance"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-017",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The contracted server vendor announces that delivery will be six weeks later than agreed. By source this is\u2026",
+  "choices": [
+   "External",
+   "Performance",
+   "Financial",
+   "Technical"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Supplier delays or failures are listed under Performance risk in this deck. External covers only regulations, market changes and natural disasters.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-018",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The chosen machine-learning model reaches only 62% accuracy in trials against the 90% the design assumed. By source this is…",
-    "choices": ["Performance", "Financial", "Technical", "Organizational"],
-    "answer": [2],
-    "explanation": "The technology itself underperforms, which the deck files under Technical risk. 'Performance risk' in this deck means weak processes, staffing or suppliers — not the performance of the technology.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "technical"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "performance"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-018",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The chosen machine-learning model reaches only 62% accuracy in trials against the 90% the design assumed. By source this is\u2026",
+  "choices": [
+   "Performance",
+   "Financial",
+   "Technical",
+   "Organizational"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The technology itself underperforms, which the deck files under Technical risk. 'Performance risk' in this deck means weak processes, staffing or suppliers \u2014 not the performance of the technology.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-019",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Stakeholders keep adding 'small' extras and the approved scope has grown by a third since baseline. By source this is…",
-    "choices": ["Performance", "External", "Technical", "Organizational"],
-    "answer": [3],
-    "explanation": "Scope creep is listed under Organizational risk, next to poor communication and internal priority shifts.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "organizational"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "technical"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-019",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Stakeholders keep adding 'small' extras and the approved scope has grown by a third since baseline. By source this is\u2026",
+  "choices": [
+   "Performance",
+   "External",
+   "Technical",
+   "Organizational"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Scope creep is listed under Organizational risk, next to poor communication and internal priority shifts.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-020",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Two senior engineers spent three weeks on a low-value reporting tweak while a critical-path activity waited for them. By source this is…",
-    "choices": ["Financial", "Performance", "Organizational", "External"],
-    "answer": [0],
-    "explanation": "Resource misallocation is listed under Financial risk together with budget overruns. Performance is the tempting answer, but the deck puts misallocated resources on the financial side.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "financial"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "organizational"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-020",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Two senior engineers spent three weeks on a low-value reporting tweak while a critical-path activity waited for them. By source this is\u2026",
+  "choices": [
+   "Financial",
+   "Performance",
+   "Organizational",
+   "External"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Resource misallocation is listed under Financial risk together with budget overruns. Performance is the tempting answer, but the deck puts misallocated resources on the financial side.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-021",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A currency devaluation makes imported equipment 20% dearer, and in the same month a competitor launches a rival product. By source these two risks are…",
-    "choices": [
-      "Financial and Organizational",
-      "External for both",
-      "Technical and External",
-      "Performance and Financial"
-    ],
-    "answer": [1],
-    "explanation": "Both originate outside the organisation as market changes, which the deck classifies as External risk. The budget damage is the impact, not the source — do not classify a risk by the objective it hits.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "external"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "financial"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-021",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A currency devaluation makes imported equipment 20% dearer, and in the same month a competitor launches a rival product. By source these two risks are\u2026",
+  "choices": [
+   "Financial and Organizational",
+   "External for both",
+   "Technical and External",
+   "Performance and Financial"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Both originate outside the organisation as market changes, which the deck classifies as External risk. The budget damage is the impact, not the source \u2014 do not classify a risk by the objective it hits.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-022",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Handover meetings are repeatedly missed and two teams build the same interface twice because neither knew what the other was doing. By source this is…",
-    "choices": [
-      "Poorly defined workflow — Performance risk",
-      "Integration issue — Technical risk",
-      "Poor communication — Organizational risk",
-      "Resource misallocation — Financial risk"
-    ],
-    "answer": [2],
-    "explanation": "The deck lists poor communication explicitly under Organizational risk. Performance covers poorly defined processes; here the process exists but the information flow between teams failed.",
-    "source": { "deck": "new 07", "slide": 7 },
-    "difficulty": 3,
-    "tags": ["risk-types", "classification", "organizational"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "external"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-022",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Handover meetings are repeatedly missed and two teams build the same interface twice because neither knew what the other was doing. By source this is\u2026",
+  "choices": [
+   "Poorly defined workflow \u2014 Performance risk",
+   "Integration issue \u2014 Technical risk",
+   "Poor communication \u2014 Organizational risk",
+   "Resource misallocation \u2014 Financial risk"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The deck lists poor communication explicitly under Organizational risk. Performance covers poorly defined processes; here the process exists but the information flow between teams failed.",
+  "source": {
+   "deck": "new 07",
+   "slide": 7
   },
-  {
-    "id": "rcq-023",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A project has a full risk register and every listed risk is actively managed, yet the business units still disagree on what the system is for and quietly resist it. The deck calls this an example of…",
-    "choices": ["A defect", "A constraint", "Residual performance risk", "Overarching risk"],
-    "answer": [3],
-    "explanation": "Overarching risk threatens the entire project's success even when the individual identified risks are being managed. The deck's three examples are lack of stakeholder alignment, cultural resistance to change, and over-dependence on a vendor or technology.",
-    "source": { "deck": "new 07", "slide": 8 },
-    "difficulty": 3,
-    "tags": ["risk-types", "overarching-risk"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "classification",
+   "organizational"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-023",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A project has a full risk register and every listed risk is actively managed, yet the business units still disagree on what the system is for and quietly resist it. The deck calls this an example of\u2026",
+  "choices": [
+   "A defect",
+   "A constraint",
+   "Residual performance risk",
+   "Overarching risk"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Overarching risk threatens the entire project's success even when the individual identified risks are being managed. The deck's three examples are lack of stakeholder alignment, cultural resistance to change, and over-dependence on a vendor or technology.",
+  "source": {
+   "deck": "new 07",
+   "slide": 8
   },
-  {
-    "id": "rcq-024",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A sponsor's utility curve rises steeply at first and then flattens as the potential payoff grows. This sponsor is…",
-    "choices": ["Risk-averse", "Risk-neutral", "Risk-seeking", "Risk-indifferent"],
-    "answer": [0],
-    "explanation": "A concave (flattening) utility curve means each extra unit of payoff is worth less, so certainty is preferred — risk-averse. A straight line is risk-neutral; a convex (steepening) curve is risk-seeking.",
-    "source": { "deck": "new 07", "slide": 9 },
-    "difficulty": 2,
-    "tags": ["risk-preference"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "risk-types",
+   "overarching-risk"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-024",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A sponsor's utility curve rises steeply at first and then flattens as the potential payoff grows. This sponsor is\u2026",
+  "choices": [
+   "Risk-averse",
+   "Risk-neutral",
+   "Risk-seeking",
+   "Risk-indifferent"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A concave (flattening) utility curve means each extra unit of payoff is worth less, so certainty is preferred \u2014 risk-averse. A straight line is risk-neutral; a convex (steepening) curve is risk-seeking.",
+  "source": {
+   "deck": "new 07",
+   "slide": 9
   },
-  {
-    "id": "rcq-025",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "What does the risk event graph show as a project moves from defining and planning towards delivering?",
-    "choices": [
-      "Both the chance of a risk occurring and the cost to fix it fall",
-      "The chance of a risk occurring falls while the cost to fix a risk event rises",
-      "The chance of a risk occurring rises while the cost to fix it falls",
-      "Both the chance and the cost rise together"
-    ],
-    "answer": [1],
-    "explanation": "Risks are most likely early, when little is settled, but they are cheapest to fix then; late on, few risks remain uncertain yet fixing one is expensive. The crossover is the argument for front-loading risk work.",
-    "source": { "deck": "new 07", "slide": 10 },
-    "difficulty": 2,
-    "tags": ["risk-event-graph"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-preference"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-025",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "What does the risk event graph show as a project moves from defining and planning towards delivering?",
+  "choices": [
+   "Both the chance of a risk occurring and the cost to fix it fall",
+   "The chance of a risk occurring falls while the cost to fix a risk event rises",
+   "The chance of a risk occurring rises while the cost to fix it falls",
+   "Both the chance and the cost rise together"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Risks are most likely early, when little is settled, but they are cheapest to fix then; late on, few risks remain uncertain yet fixing one is expensive. The crossover is the argument for front-loading risk work.",
+  "source": {
+   "deck": "new 07",
+   "slide": 10
   },
-  {
-    "id": "rcq-026",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "What is the order of the five steps of the risk management process?",
-    "choices": [
-      "Identify → prioritise → assess → respond → control",
-      "Assess → identify → respond → prioritise → control",
-      "Identify → assess → prioritise → respond → control",
-      "Identify → respond → assess → prioritise → control"
-    ],
-    "answer": [2],
-    "explanation": "Risk identification, risk assessment, risk prioritization, risk response development, risk response control. Assessment (probability and impact) must come before prioritisation, because prioritisation uses the assessed scores.",
-    "source": { "deck": "new 07", "slide": 11 },
-    "difficulty": 1,
-    "tags": ["risk-process"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-event-graph"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-026",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "What is the order of the five steps of the risk management process?",
+  "choices": [
+   "Identify \u2192 prioritise \u2192 assess \u2192 respond \u2192 control",
+   "Assess \u2192 identify \u2192 respond \u2192 prioritise \u2192 control",
+   "Identify \u2192 assess \u2192 prioritise \u2192 respond \u2192 control",
+   "Identify \u2192 respond \u2192 assess \u2192 prioritise \u2192 control"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Risk identification, risk assessment, risk prioritization, risk response development, risk response control. Assessment (probability and impact) must come before prioritisation, because prioritisation uses the assessed scores.",
+  "source": {
+   "deck": "new 07",
+   "slide": 11
   },
-  {
-    "id": "rcq-027",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which description matches the Delphi method as the deck presents it?",
-    "choices": [
-      "A facilitated group meeting where the team calls out every risk it can think of",
-      "A hierarchical breakdown of risk categories for an IT project",
-      "A four-cell grid of internal/external against positive/negative factors",
-      "Rounds of questionnaires to selected experts, summarised and re-rated until consensus is reached"
-    ],
-    "answer": [3],
-    "explanation": "Delphi runs problem identification → selection of experts → open-ended questionnaire → analysis → rating questionnaire → analysis → consensus check, looping until consensus. The other three choices describe brainstorming, the RBS and SWOT.",
-    "source": { "deck": "new 07", "slide": 13 },
-    "difficulty": 2,
-    "tags": ["risk-identification", "delphi"],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "risk-process"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-027",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which description matches the Delphi method as the deck presents it?",
+  "choices": [
+   "A facilitated group meeting where the team calls out every risk it can think of",
+   "A hierarchical breakdown of risk categories for an IT project",
+   "A four-cell grid of internal/external against positive/negative factors",
+   "Rounds of questionnaires to selected experts, summarised and re-rated until consensus is reached"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Delphi runs problem identification \u2192 selection of experts \u2192 open-ended questionnaire \u2192 analysis \u2192 rating questionnaire \u2192 analysis \u2192 consensus check, looping until consensus. The other three choices describe brainstorming, the RBS and SWOT.",
+  "source": {
+   "deck": "new 07",
+   "slide": 13
   },
-  {
-    "id": "rcq-028",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "In the SWOT for an IT project, 'skill gaps in new technology' appears as a…",
-    "choices": [
-      "Weakness (internal, negative)",
-      "Threat (external, negative)",
-      "Opportunity (external, positive)",
-      "Constraint"
-    ],
-    "answer": [0],
-    "explanation": "SWOT splits internal/external against positive/negative. A skill gap is inside the organisation and unhelpful, so it is a weakness; 'a new competitor launching soon' is the external negative, i.e. the threat.",
-    "source": { "deck": "new 07", "slide": 14 },
-    "difficulty": 2,
-    "tags": ["risk-identification", "swot"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-identification",
+   "delphi"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-028",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "In the SWOT for an IT project, 'skill gaps in new technology' appears as a\u2026",
+  "choices": [
+   "Weakness (internal, negative)",
+   "Threat (external, negative)",
+   "Opportunity (external, positive)",
+   "Constraint"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "SWOT splits internal/external against positive/negative. A skill gap is inside the organisation and unhelpful, so it is a weakness; 'a new competitor launching soon' is the external negative, i.e. the threat.",
+  "source": {
+   "deck": "new 07",
+   "slide": 14
   },
-  {
-    "id": "rcq-029",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which of these is the best-formed risk statement?",
-    "choices": [
-      "The conference might have problems.",
-      "Because the venue has limited backup power, a power outage may occur, disrupting the schedule and leaving participants dissatisfied.",
-      "The venue has limited backup power.",
-      "Participants will be dissatisfied."
-    ],
-    "answer": [1],
-    "explanation": "A good risk statement links cause → risk event → impact. The third choice gives only the cause and the fourth only the impact, so neither can be assessed or responded to; the first is too vague to act on at all.",
-    "source": { "deck": "new 07", "slide": 15 },
-    "difficulty": 3,
-    "tags": ["risk-statement"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "risk-identification",
+   "swot"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-029",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which of these is the best-formed risk statement?",
+  "choices": [
+   "The conference might have problems.",
+   "Because the venue has limited backup power, a power outage may occur, disrupting the schedule and leaving participants dissatisfied.",
+   "The venue has limited backup power.",
+   "Participants will be dissatisfied."
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "A good risk statement links cause \u2192 risk event \u2192 impact. The third choice gives only the cause and the fourth only the impact, so neither can be assessed or responded to; the first is too vague to act on at all.",
+  "source": {
+   "deck": "new 07",
+   "slide": 15
   },
-  {
-    "id": "rcq-030",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "In a risk register, what is a trigger?",
-    "choices": [
-      "The person accountable for watching the risk",
-      "The response strategy chosen for the risk",
-      "The sign that tells the team the risk may be occurring",
-      "The product of probability and impact"
-    ],
-    "answer": [2],
-    "explanation": "Owner answers 'who watches the risk?', trigger answers 'what tells us the risk may be occurring?' — e.g. a forecast showing more than 70% chance of rain. The probability × impact product is the risk severity score.",
-    "source": { "deck": "new 07", "slide": 24 },
-    "difficulty": 2,
-    "tags": ["risk-register", "trigger", "owner"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "risk-statement"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-030",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "In a risk register, what is a trigger?",
+  "choices": [
+   "The person accountable for watching the risk",
+   "The response strategy chosen for the risk",
+   "The sign that tells the team the risk may be occurring",
+   "The product of probability and impact"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Owner answers 'who watches the risk?', trigger answers 'what tells us the risk may be occurring?' \u2014 e.g. a forecast showing more than 70% chance of rain. The probability \u00d7 impact product is the risk severity score.",
+  "source": {
+   "deck": "new 07",
+   "slide": 24
   },
-  {
-    "id": "rcq-031",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Using FMEA (Impact × Probability × Detection), 'Interface problems' scores likelihood 4, impact 4, detection difficulty 4, and 'System freezing' scores likelihood 2, impact 5, detection difficulty 5. Which has the higher risk score, and by how much?",
-    "choices": ["They are equal", "System freezing, by 14", "Interface problems, by 24", "Interface problems, by 14"],
-    "answer": [3],
-    "explanation": "4 × 4 × 4 = 64 versus 2 × 5 × 5 = 50, a difference of 14. Note that the risk with the higher impact is not automatically the higher priority once detection difficulty is multiplied in.",
-    "source": { "deck": "new 07", "slide": 19 },
-    "difficulty": 2,
-    "tags": ["fmea", "risk-assessment"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-register",
+   "trigger",
+   "owner"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-031",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Using FMEA (Impact \u00d7 Probability \u00d7 Detection), 'Interface problems' scores likelihood 4, impact 4, detection difficulty 4, and 'System freezing' scores likelihood 2, impact 5, detection difficulty 5. Which has the higher risk score, and by how much?",
+  "choices": [
+   "They are equal",
+   "System freezing, by 14",
+   "Interface problems, by 24",
+   "Interface problems, by 14"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "4 \u00d7 4 \u00d7 4 = 64 versus 2 \u00d7 5 \u00d7 5 = 50, a difference of 14. Note that the risk with the higher impact is not automatically the higher priority once detection difficulty is multiplied in.",
+  "source": {
+   "deck": "new 07",
+   "slide": 19
   },
-  {
-    "id": "rcq-032",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A risk lands in the red zone of the probability–impact matrix. What does the deck's severity matrix indicate?",
-    "choices": [
-      "It is a major risk; those in the extreme top-right corner are candidates to avoid",
-      "It should be accepted and covered by a contingency reserve",
-      "It should be transferred, because red-zone risks are always insurable",
-      "It should be left alone until its trigger fires"
-    ],
-    "answer": [0],
-    "explanation": "Red = major risk, yellow = moderate, green = minor. The deck maps the extreme top-right corner to Avoid, the high band to reducing probability or impact, the low-likelihood/low-impact green corner to Accept, and the high-impact/low-likelihood corner to Transfer.",
-    "source": { "deck": "new 07", "slide": 22 },
-    "difficulty": 2,
-    "tags": ["risk-matrix", "risk-response"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "fmea",
+   "risk-assessment"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-032",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A risk lands in the red zone of the probability\u2013impact matrix. What does the deck's severity matrix indicate?",
+  "choices": [
+   "It is a major risk; those in the extreme top-right corner are candidates to avoid",
+   "It should be accepted and covered by a contingency reserve",
+   "It should be transferred, because red-zone risks are always insurable",
+   "It should be left alone until its trigger fires"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Red = major risk, yellow = moderate, green = minor. The deck maps the extreme top-right corner to Avoid, the high band to reducing probability or impact, the low-likelihood/low-impact green corner to Accept, and the high-impact/low-likelihood corner to Transfer.",
+  "source": {
+   "deck": "new 07",
+   "slide": 22
   },
-  {
-    "id": "rcq-033",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Buying insurance or signing a fixed-price contract so that a third party carries the consequence is which risk response?",
-    "choices": ["Mitigate", "Transfer", "Avoid", "Accept"],
-    "answer": [1],
-    "explanation": "Transfer finds a third party to be accountable or do the work; the deck's examples are insurance and a fixed-price contract. Mitigate would mean reducing probability or impact yourself, for example through training or a prototype.",
-    "source": { "deck": "new 07", "slide": 20 },
-    "difficulty": 2,
-    "tags": ["risk-response", "transfer"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-matrix",
+   "risk-response"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-033",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Buying insurance or signing a fixed-price contract so that a third party carries the consequence is which risk response?",
+  "choices": [
+   "Mitigate",
+   "Transfer",
+   "Avoid",
+   "Accept"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Transfer finds a third party to be accountable or do the work; the deck's examples are insurance and a fixed-price contract. Mitigate would mean reducing probability or impact yourself, for example through training or a prototype.",
+  "source": {
+   "deck": "new 07",
+   "slide": 20
   },
-  {
-    "id": "rcq-034",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which pairing of a negative response strategy with its positive counterpart is correct?",
-    "choices": ["Avoid ↔ Enhance", "Mitigate ↔ Exploit", "Transfer ↔ Share", "Accept ↔ Avoid"],
-    "answer": [2],
-    "explanation": "The pairs are grouped by what they act on: Avoid ↔ Exploit act on the cause, Transfer ↔ Share outsource to a third party, Mitigate ↔ Enhance change probability and/or impact. Accept is the single strategy that applies to both negative and positive risks.",
-    "source": { "deck": "new 07", "slide": 20 },
-    "difficulty": 2,
-    "tags": ["risk-response"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-response",
+   "transfer"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-034",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which pairing of a negative response strategy with its positive counterpart is correct?",
+  "choices": [
+   "Avoid \u2194 Enhance",
+   "Mitigate \u2194 Exploit",
+   "Transfer \u2194 Share",
+   "Accept \u2194 Avoid"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The pairs are grouped by what they act on: Avoid \u2194 Exploit act on the cause, Transfer \u2194 Share outsource to a third party, Mitigate \u2194 Enhance change probability and/or impact. Accept is the single strategy that applies to both negative and positive risks.",
+  "source": {
+   "deck": "new 07",
+   "slide": 20
   },
-  {
-    "id": "rcq-035",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Risk: the keynote speaker may cancel. The team confirms the booking repeatedly and prepares backup content. Which response is this?",
-    "choices": ["Avoid", "Transfer", "Accept", "Mitigate"],
-    "answer": [3],
-    "explanation": "Mitigate reduces probability and/or impact. Avoiding would mean eliminating the cause by choosing another already-confirmed speaker; contracting an agency obliged to supply a replacement would be Transfer; simply planning an alternative session if it happens would be Accept.",
-    "source": { "deck": "new 07", "slide": 21 },
-    "difficulty": 3,
-    "tags": ["risk-response", "mitigate"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "risk-response"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-035",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Risk: the keynote speaker may cancel. The team confirms the booking repeatedly and prepares backup content. Which response is this?",
+  "choices": [
+   "Avoid",
+   "Transfer",
+   "Accept",
+   "Mitigate"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Mitigate reduces probability and/or impact. Avoiding would mean eliminating the cause by choosing another already-confirmed speaker; contracting an agency obliged to supply a replacement would be Transfer; simply planning an alternative session if it happens would be Accept.",
+  "source": {
+   "deck": "new 07",
+   "slide": 21
   },
-  {
-    "id": "rcq-036",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A project holds one fund for the risks listed in its register and a separate fund the sponsor releases for surprises nobody foresaw. These are, in that order…",
-    "choices": [
-      "Contingency reserve and management reserve",
-      "Management reserve and contingency reserve",
-      "Two contingency reserves",
-      "Cost baseline and budget at completion"
-    ],
-    "answer": [0],
-    "explanation": "Contingency reserve covers identified risks — 'known unknowns'. Management reserve covers unforeseen uncertainty — 'unknown unknowns'.",
-    "source": { "deck": "new 07", "slide": 25 },
-    "difficulty": 2,
-    "tags": ["reserves", "contingency"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "risk-response",
+   "mitigate"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-036",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A project holds one fund for the risks listed in its register and a separate fund the sponsor releases for surprises nobody foresaw. These are, in that order\u2026",
+  "choices": [
+   "Contingency reserve and management reserve",
+   "Management reserve and contingency reserve",
+   "Two contingency reserves",
+   "Cost baseline and budget at completion"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Contingency reserve covers identified risks \u2014 'known unknowns'. Management reserve covers unforeseen uncertainty \u2014 'unknown unknowns'.",
+  "source": {
+   "deck": "new 07",
+   "slide": 25
   },
-  {
-    "id": "rcq-037",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which set of columns does the example communication plan use?",
-    "choices": [
-      "Audience, Risk, Budget, Owner, Status",
-      "Stakeholder, Information, Frequency, Method, Owner",
-      "Who, What, Why, Where, When",
-      "Deliverable, Standard, Metric, Target, Check method"
-    ],
-    "answer": [1],
-    "explanation": "The communication plan records stakeholder, information, frequency, method and owner — e.g. Sponsor | status & major risks | weekly | meeting | PM. The last choice is the quality plan's columns, not the communication plan's.",
-    "source": { "deck": "new 07", "slide": 34 },
-    "difficulty": 2,
-    "tags": ["communication-plan"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "reserves",
+   "contingency"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-037",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which set of columns does the example communication plan use?",
+  "choices": [
+   "Audience, Risk, Budget, Owner, Status",
+   "Stakeholder, Information, Frequency, Method, Owner",
+   "Who, What, Why, Where, When",
+   "Deliverable, Standard, Metric, Target, Check method"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The communication plan records stakeholder, information, frequency, method and owner \u2014 e.g. Sponsor | status & major risks | weekly | meeting | PM. The last choice is the quality plan's columns, not the communication plan's.",
+  "source": {
+   "deck": "new 07",
+   "slide": 34
   },
-  {
-    "id": "rcq-038",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A production outage needs an immediate joint decision from three managers. Which channel does the deck recommend, and why?",
-    "choices": [
-      "Asynchronous — a written record is more accountable",
-      "Asynchronous — email reaches everyone at once",
-      "Synchronous — urgent or complex matters need real time",
-      "Synchronous — routine updates belong in meetings"
-    ],
-    "answer": [2],
-    "explanation": "Urgent or complex → more synchronous (meeting, call, video conference, live chat). Routine or documented → more asynchronous (email, report, dashboard, shared document). The last choice inverts the rule.",
-    "source": { "deck": "new 07", "slide": 35 },
-    "difficulty": 2,
-    "tags": ["communication", "synchronous"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "communication-plan"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-038",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A production outage needs an immediate joint decision from three managers. Which channel is recommended, and why?",
+  "choices": [
+   "Asynchronous \u2014 a written record is more accountable",
+   "Asynchronous \u2014 email reaches everyone at once",
+   "Synchronous \u2014 urgent or complex matters need real time",
+   "Synchronous \u2014 routine updates belong in meetings"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Urgent or complex \u2192 more synchronous (meeting, call, video conference, live chat). Routine or documented \u2192 more asynchronous (email, report, dashboard, shared document). The last choice inverts the rule.",
+  "source": {
+   "deck": "new 07",
+   "slide": 35
   },
-  {
-    "id": "rcq-039",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "The PM needs a scope decision recorded so it can be relied on in a later contract dispute. This calls for…",
-    "choices": [
-      "Informal communication, for speed",
-      "A quick call, because it builds the relationship",
-      "Asynchronous chat, because it is written",
-      "Formal communication, for accountability and records"
-    ],
-    "answer": [3],
-    "explanation": "Formal channels — approvals, status reports, steering committee, contracts — exist for accountability and records. Informal channels (chat, quick call, informal discussion) are for speed and relationship building; note that formal/informal is a different axis from synchronous/asynchronous.",
-    "source": { "deck": "new 07", "slide": 36 },
-    "difficulty": 2,
-    "tags": ["communication", "formal-informal"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "communication",
+   "synchronous"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-039",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "The PM needs a scope decision recorded so it can be relied on in a later contract dispute. This calls for\u2026",
+  "choices": [
+   "Informal communication, for speed",
+   "A quick call, because it builds the relationship",
+   "Asynchronous chat, because it is written",
+   "Formal communication, for accountability and records"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Formal channels \u2014 approvals, status reports, steering committee, contracts \u2014 exist for accountability and records. Informal channels (chat, quick call, informal discussion) are for speed and relationship building; note that formal/informal is a different axis from synchronous/asynchronous.",
+  "source": {
+   "deck": "new 07",
+   "slide": 36
   },
-  {
-    "id": "rcq-040",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which situation does the deck list as a reason to escalate?",
-    "choices": [
-      "The approved baseline is threatened",
-      "A team member asks for clarification on a task",
-      "The weekly status report is due",
-      "A supplier sends a routine delivery note"
-    ],
-    "answer": [0],
-    "explanation": "Escalate when an issue exceeds your authority, a major risk occurs, the baseline is threatened, or a stakeholder conflict cannot be resolved. Routine information flows through the normal communication plan instead.",
-    "source": { "deck": "new 07", "slide": 37 },
-    "difficulty": 3,
-    "tags": ["communication", "escalation"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "communication",
+   "formal-informal"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-040",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which situation is a reason to escalate?",
+  "choices": [
+   "The approved baseline is threatened",
+   "A team member asks for clarification on a task",
+   "The weekly status report is due",
+   "A supplier sends a routine delivery note"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Escalate when an issue exceeds your authority, a major risk occurs, the baseline is threatened, or a stakeholder conflict cannot be resolved. Routine information flows through the normal communication plan instead.",
+  "source": {
+   "deck": "new 07",
+   "slide": 37
   },
-  {
-    "id": "rcq-041",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "In the STATUS / VARIANCE / RISKS & ISSUES / DECISION status-report structure, which section answers 'what needs management action?'",
-    "choices": ["Status", "Variance", "Risks & issues", "Decision"],
-    "answer": [3],
-    "explanation": "Status = what happened, Variance = where we are off plan, Risks & issues = what needs attention, Decision = what needs management action. A report that stops at status informs but does not direct attention.",
-    "source": { "deck": "new 07", "slide": 38 },
-    "difficulty": 2,
-    "tags": ["communication", "status-report"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "communication",
+   "escalation"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-041",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "In the STATUS / VARIANCE / RISKS & ISSUES / DECISION status-report structure, which section answers 'what needs management action?'",
+  "choices": [
+   "Status",
+   "Variance",
+   "Risks & issues",
+   "Decision"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Status = what happened, Variance = where we are off plan, Risks & issues = what needs attention, Decision = what needs management action. A report that stops at status informs but does not direct attention.",
+  "source": {
+   "deck": "new 07",
+   "slide": 38
   },
-  {
-    "id": "rcq-042",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "How does ISO 9000:2000, as quoted in the deck, define quality?",
-    "choices": [
-      "The best possible standard achievable within the budget",
-      "Zero defects in the final deliverable",
-      "The degree to which a set of inherent characteristics fulfils requirements",
-      "Customer delight beyond stated expectations"
-    ],
-    "answer": [2],
-    "explanation": "Quality is conformance to agreed requirements, and the deck states explicitly that it is NOT 'the best possible'. Gold-plating a deliverable beyond its requirements is therefore not higher quality.",
-    "source": { "deck": "new 07", "slide": 39 },
-    "difficulty": 1,
-    "tags": ["quality", "definition", "iso9000"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "communication",
+   "status-report"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-042",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "How does ISO 9000:2000, as quoted in the deck, define quality?",
+  "choices": [
+   "The best possible standard achievable within the budget",
+   "Zero defects in the final deliverable",
+   "The degree to which a set of inherent characteristics fulfils requirements",
+   "Customer delight beyond stated expectations"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Quality is conformance to agreed requirements, and the deck states explicitly that it is NOT 'the best possible'. Gold-plating a deliverable beyond its requirements is therefore not higher quality.",
+  "source": {
+   "deck": "new 07",
+   "slide": 39
   },
-  {
-    "id": "rcq-043",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Quality planning answers four questions. Which of these is NOT one of them?",
-    "choices": ["What standard?", "What will it cost to fix?", "What metric?", "How will we check?"],
-    "answer": [1],
-    "explanation": "The four quality planning questions are: what standard, what metric, what target, and how will we check. The cost of fixing defects belongs to cost of quality, not to quality planning.",
-    "source": { "deck": "new 07", "slide": 41 },
-    "difficulty": 1,
-    "tags": ["quality", "quality-planning"],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "quality",
+   "definition",
+   "iso9000"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-043",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Quality planning answers four questions. Which of these is NOT one of them?",
+  "choices": [
+   "What standard?",
+   "What will it cost to fix?",
+   "What metric?",
+   "How will we check?"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The four quality planning questions are: what standard, what metric, what target, and how will we check. The cost of fixing defects belongs to cost of quality, not to quality planning.",
+  "source": {
+   "deck": "new 07",
+   "slide": 41
   },
-  {
-    "id": "rcq-044",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "'At least 95% of sessions start within 5 minutes of schedule.' In the requirement → quality standard → metric → acceptance criterion → check method chain, this statement is the…",
-    "choices": ["Acceptance criterion", "Requirement", "Quality standard", "Metric"],
-    "answer": [0],
-    "explanation": "The metric is '% of sessions starting within 5 minutes of schedule'; adding the specific target that must be met (at least 95%) turns it into the acceptance criterion. The requirement would be the plain-language 'presentations should start on schedule'.",
-    "source": { "deck": "new 07", "slide": 42 },
-    "difficulty": 2,
-    "tags": ["quality", "acceptance-criterion", "kpi"],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "quality",
+   "quality-planning"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-044",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "'At least 95% of sessions start within 5 minutes of schedule.' In the requirement \u2192 quality standard \u2192 metric \u2192 acceptance criterion \u2192 check method chain, this statement is the\u2026",
+  "choices": [
+   "Acceptance criterion",
+   "Requirement",
+   "Quality standard",
+   "Metric"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The metric is '% of sessions starting within 5 minutes of schedule'; adding the specific target that must be met (at least 95%) turns it into the acceptance criterion. The requirement would be the plain-language 'presentations should start on schedule'.",
+  "source": {
+   "deck": "new 07",
+   "slide": 42
   },
-  {
-    "id": "rcq-045",
-    "topic": "risk-comm-quality",
-    "type": "multi",
-    "stem": "Select all of the following that are well-formed quality metrics with a usable acceptance criterion.",
-    "choices": [
-      "Registration waiting time under 5 minutes",
-      "The system should be fast",
-      "Post-event satisfaction survey score of at least 4 out of 5",
-      "High customer satisfaction",
-      "Good-quality catering for everyone"
-    ],
-    "answer": [0, 2],
-    "explanation": "A usable metric names what is measured and the numeric target that must be met, and can be checked. 'Fast', 'high' and 'good-quality' are judgements with no measure, no number and no check method, so nobody can say whether they were achieved.",
-    "source": { "deck": "new 07", "slide": 43 },
-    "difficulty": 3,
-    "tags": ["quality", "quality-metric", "kpi"],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "quality",
+   "acceptance-criterion",
+   "kpi"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-045",
+  "topic": "risk-comm-quality",
+  "type": "multi",
+  "stem": "Select all of the following that are well-formed quality metrics with a usable acceptance criterion.",
+  "choices": [
+   "Registration waiting time under 5 minutes",
+   "The system should be fast",
+   "Post-event satisfaction survey score of at least 4 out of 5",
+   "High customer satisfaction",
+   "Good-quality catering for everyone"
+  ],
+  "answer": [
+   0,
+   2
+  ],
+  "explanation": "A usable metric names what is measured and the numeric target that must be met, and can be checked. 'Fast', 'high' and 'good-quality' are judgements with no measure, no number and no check method, so nobody can say whether they were achieved.",
+  "source": {
+   "deck": "new 07",
+   "slide": 43
   },
-  {
-    "id": "rcq-046",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A team proposes this quality plan row — Deliverable: mobile app | Standard: reliable | Metric: 'users are happy' | Target: (blank) | Check method: (blank). What is the main problem?",
-    "choices": [
-      "The standard is too strict for a first release",
-      "The deliverable should have been the whole project",
-      "The metric is not measurable, and no target or check method is given",
-      "Reliability belongs in the risk register, not the quality plan"
-    ],
-    "answer": [2],
-    "explanation": "Every quality plan row needs deliverable, standard, metric, target and check method — as in 'AV system | reliable | major failures | 0 | pre-test'. Without a measurable metric, a target and a way to verify it, nobody can decide whether the deliverable is acceptable.",
-    "source": { "deck": "new 07", "slide": 44 },
-    "difficulty": 3,
-    "tags": ["quality", "quality-plan", "kpi"],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "quality",
+   "quality-metric",
+   "kpi"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-046",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A team proposes this quality plan row \u2014 Deliverable: mobile app | Standard: reliable | Metric: 'users are happy' | Target: (blank) | Check method: (blank). What is the main problem?",
+  "choices": [
+   "The standard is too strict for a first release",
+   "The deliverable should have been the whole project",
+   "The metric is not measurable, and no target or check method is given",
+   "Reliability belongs in the risk register, not the quality plan"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Every quality plan row needs deliverable, standard, metric, target and check method \u2014 as in 'AV system | reliable | major failures | 0 | pre-test'. Without a measurable metric, a target and a way to verify it, nobody can decide whether the deliverable is acceptable.",
+  "source": {
+   "deck": "new 07",
+   "slide": 44
   },
-  {
-    "id": "rcq-047",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Qualifying suppliers, writing clear requirements and training the team before work starts are examples of…",
-    "choices": ["Inspection", "Prevention", "Acceptance testing", "Quality control"],
-    "answer": [1],
-    "explanation": "Prevention means doing it right before failure occurs: clear requirements, training, standards, supplier qualification. Inspection checks whether the output is correct afterwards — testing, review, inspection, acceptance testing.",
-    "source": { "deck": "new 07", "slide": 45 },
-    "difficulty": 2,
-    "tags": ["quality", "prevention-inspection"],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "quality",
+   "quality-plan",
+   "kpi"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "rcq-047",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Qualifying suppliers, writing clear requirements and training the team before work starts are examples of\u2026",
+  "choices": [
+   "Inspection",
+   "Prevention",
+   "Acceptance testing",
+   "Quality control"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Prevention means doing it right before failure occurs: clear requirements, training, standards, supplier qualification. Inspection checks whether the output is correct afterwards \u2014 testing, review, inspection, acceptance testing.",
+  "source": {
+   "deck": "new 07",
+   "slide": 45
   },
-  {
-    "id": "rcq-048",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Which question does Quality Control answer?",
-    "choices": [
-      "Does the deliverable meet requirements?",
-      "Are we following the right process?",
-      "Is the process improving over time?",
-      "Are our standards preventive enough?"
-    ],
-    "answer": [0],
-    "explanation": "QC is detective and output-focused: it inspects and evaluates the final deliverables. QA is preventive and process-focused and asks 'are we following the right process?'",
-    "source": { "deck": "new 07", "slide": 47 },
-    "difficulty": 2,
-    "tags": ["quality", "qa-vs-qc"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "quality",
+   "prevention-inspection"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-048",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Which question does Quality Control answer?",
+  "choices": [
+   "Does the deliverable meet requirements?",
+   "Are we following the right process?",
+   "Is the process improving over time?",
+   "Are our standards preventive enough?"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "QC is detective and output-focused: it inspects and evaluates the final deliverables. QA is preventive and process-focused and asks 'are we following the right process?'",
+  "source": {
+   "deck": "new 07",
+   "slide": 47
   },
-  {
-    "id": "rcq-049",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "A defect is discovered by the customer after release and the company pays for a recall. This cost belongs to…",
-    "choices": ["Prevention cost", "Appraisal cost", "Internal failure cost", "External failure cost"],
-    "answer": [3],
-    "explanation": "Cost of nonconformance splits into internal failure (defects found before reaching the customer) and external failure (found after). Prevention and appraisal are costs of conformance, spent to avoid failures in the first place.",
-    "source": { "deck": "new 07", "slide": 46 },
-    "difficulty": 2,
-    "tags": ["quality", "cost-of-quality"],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "quality",
+   "qa-vs-qc"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-049",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "A defect is discovered by the customer after release and the company pays for a recall. This cost belongs to\u2026",
+  "choices": [
+   "Prevention cost",
+   "Appraisal cost",
+   "Internal failure cost",
+   "External failure cost"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Cost of nonconformance splits into internal failure (defects found before reaching the customer) and external failure (found after). Prevention and appraisal are costs of conformance, spent to avoid failures in the first place.",
+  "source": {
+   "deck": "new 07",
+   "slide": 46
   },
-  {
-    "id": "rcq-050",
-    "topic": "risk-comm-quality",
-    "type": "mcq",
-    "stem": "Total Cost of Quality is the sum of…",
-    "choices": [
-      "Prevention and appraisal costs only",
-      "Internal and external failure costs only",
-      "Cost of conformance and cost of nonconformance",
-      "Appraisal costs and rework costs"
-    ],
-    "answer": [2],
-    "explanation": "CoQ = cost of conformance (prevention, appraisal, measurement and test equipment) + cost of nonconformance (internal and external failure). As quality level rises, failure cost falls while conformance cost rises, and total CoQ is lowest at the optimal quality level.",
-    "source": { "deck": "new 07", "slide": 46 },
-    "difficulty": 2,
-    "tags": ["quality", "cost-of-quality"],
-    "examFocus": false
-  }
+  "difficulty": 2,
+  "tags": [
+   "quality",
+   "cost-of-quality"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "rcq-050",
+  "topic": "risk-comm-quality",
+  "type": "mcq",
+  "stem": "Total Cost of Quality is the sum of\u2026",
+  "choices": [
+   "Prevention and appraisal costs only",
+   "Internal and external failure costs only",
+   "Cost of conformance and cost of nonconformance",
+   "Appraisal costs and rework costs"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "CoQ = cost of conformance (prevention, appraisal, measurement and test equipment) + cost of nonconformance (internal and external failure). As quality level rises, failure cost falls while conformance cost rises, and total CoQ is lowest at the optimal quality level.",
+  "source": {
+   "deck": "new 07",
+   "slide": 46
+  },
+  "difficulty": 2,
+  "tags": [
+   "quality",
+   "cost-of-quality"
+  ],
+  "examFocus": false
+ }
 ]

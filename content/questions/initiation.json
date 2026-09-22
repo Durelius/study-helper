@@ -1,883 +1,883 @@
 [
-  {
-    "id": "ini-001",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "After a project is approved, the deck says it must still be defined through four moves before detailed planning begins. What are they?",
-    "choices": [
-      "Authorize, understand, define, decompose",
-      "Plan, execute, monitor, close",
-      "Initiate, plan, schedule, budget",
-      "Approve, fund, staff, build"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "The four moves after approval are authorize (who has authority?), understand (who needs what?), define (what is included?), and decompose (what work must be done?) — 'approval gives permission, scope gives clarity.'",
-    "source": {
-      "deck": "new 05",
-      "slide": 5
-    },
-    "difficulty": 1,
-    "tags": [
-      "overview",
-      "initiation"
-    ],
-    "examFocus": false
+ {
+  "id": "ini-001",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "After a project is approved, the deck says it must still be defined through four moves before detailed planning begins. What are they?",
+  "choices": [
+   "Authorize, understand, define, decompose",
+   "Plan, execute, monitor, close",
+   "Initiate, plan, schedule, budget",
+   "Approve, fund, staff, build"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The four moves after approval are authorize (who has authority?), understand (who needs what?), define (what is included?), and decompose (what work must be done?) \u2014 'approval gives permission, scope gives clarity.'",
+  "source": {
+   "deck": "new 05",
+   "slide": 5
   },
-  {
-    "id": "ini-002",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What is a project charter?",
-    "choices": [
-      "A log of stakeholder complaints raised during execution",
-      "A document that formally authorizes the project and gives the project manager authority to lead it",
-      "A cost-benefit analysis showing why the project is worth funding",
-      "A detailed breakdown of every task and its schedule"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "The charter's job is authorization and empowerment, not investment justification (that's the business case) or detailed task planning (that's the WBS/schedule).",
-    "source": {
-      "deck": "new 05",
-      "slide": 6
-    },
-    "difficulty": 1,
-    "tags": [
-      "charter"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "overview",
+   "initiation"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-002",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What is a project charter?",
+  "choices": [
+   "A log of stakeholder complaints raised during execution",
+   "A document that formally authorizes the project and gives the project manager authority to lead it",
+   "A cost-benefit analysis showing why the project is worth funding",
+   "A detailed breakdown of every task and its schedule"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The charter's job is authorization and empowerment, not investment justification (that's the business case) or detailed task planning (that's the WBS/schedule).",
+  "source": {
+   "deck": "new 05",
+   "slide": 6
   },
-  {
-    "id": "ini-003",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "A team is weighing whether to fund a new project at all, assessing benefits, cost, risk, and feasibility. Which document are they producing, and does it come before or after project approval?",
-    "choices": [
-      "Scope statement, before approval",
-      "WBS, after approval",
-      "Business case, before approval",
-      "Project charter, after approval"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "The business case answers WHY should we invest (need, benefits, cost, risk, feasibility) and is produced before approval; the charter answers WHAT are we authorizing and comes after approval.",
-    "source": {
-      "deck": "new 05",
-      "slide": 7
-    },
-    "difficulty": 2,
-    "tags": [
-      "charter",
-      "business-case"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "charter"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-003",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "A team is weighing whether to fund a new project at all, assessing benefits, cost, risk, and feasibility. Which document are they producing, and does it come before or after project approval?",
+  "choices": [
+   "Scope statement, before approval",
+   "WBS, after approval",
+   "Business case, before approval",
+   "Project charter, after approval"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The business case answers WHY should we invest (need, benefits, cost, risk, feasibility) and is produced before approval; the charter answers WHAT are we authorizing and comes after approval.",
+  "source": {
+   "deck": "new 05",
+   "slide": 7
   },
-  {
-    "id": "ini-004",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Which of the following would you expect to find in a project charter?",
-    "choices": [
-      "A day-by-day activity schedule with resource assignments",
-      "Full risk response plans for every identified risk",
-      "A complete work breakdown structure down to work packages",
-      "The sponsor, the PM, high-level milestones and budget, and major risks"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "The charter is high level: objective, high-level scope, sponsor, PM, key milestones, major risks, high-level budget. Detailed schedule, WBS, and risk responses come later in detailed planning.",
-    "source": {
-      "deck": "new 05",
-      "slide": 9
-    },
-    "difficulty": 2,
-    "tags": [
-      "charter"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "charter",
+   "business-case"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-004",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Which of the following would you expect to find in a project charter?",
+  "choices": [
+   "A day-by-day activity schedule with resource assignments",
+   "Full risk response plans for every identified risk",
+   "A complete work breakdown structure down to work packages",
+   "The sponsor, the PM, high-level milestones and budget, and major risks"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The charter is high level: objective, high-level scope, sponsor, PM, key milestones, major risks, high-level budget. Detailed schedule, WBS, and risk responses come later in detailed planning.",
+  "source": {
+   "deck": "new 05",
+   "slide": 9
   },
-  {
-    "id": "ini-005",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "In the FreshMart charter example, who is the sponsor and what is the budget?",
-    "choices": [
-      "COO; ฿6 million",
-      "IT Manager; ฿3 million",
-      "CEO; ฿9 million",
-      "Store Manager; ฿1 million"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "FreshMart's charter names the COO as sponsor with a ฿6 million budget and a 9-month target.",
-    "source": {
-      "deck": "new 05",
-      "slide": 8
-    },
-    "difficulty": 1,
-    "tags": [
-      "charter"
-    ],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "charter"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-005",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "A project charter names a sponsor. What does naming them achieve?",
+  "choices": [
+   "It records who will perform the work packages",
+   "It identifies who authorises the project and provides its funding and authority",
+   "It fixes the detailed schedule and the budget breakdown",
+   "It lists the acceptance criteria for each deliverable"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The charter authorises the project, and the sponsor is the person doing the authorising: they fund it and give the project manager authority to draw on the organisation's resources. Who performs the work is the RACI's job, and the detailed schedule and budget come later in planning.",
+  "source": {
+   "deck": "new 05",
+   "slide": 8
   },
-  {
-    "id": "ini-006",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "The deck reduces the charter to three verbs. Which pairing is correct?",
-    "choices": [
-      "Authorize = WBS is built; Align = RACI is assigned; Empower = charter is signed",
-      "Authorize = the project may begin; Align = sponsor and PM share understanding; Empower = the PM receives authority to coordinate the work",
-      "Authorize = budget is fixed; Align = schedule is fixed; Empower = risks are closed",
-      "Authorize = team is hired; Align = vendor is selected; Empower = scope is frozen"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Charter = AUTHORIZATION, built from Authorize, Align, Empower — nothing about hiring, vendor selection, or the WBS.",
-    "source": {
-      "deck": "new 05",
-      "slide": 6
-    },
-    "difficulty": 2,
-    "tags": [
-      "charter"
-    ],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "charter"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-006",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "The deck reduces the charter to three verbs. Which pairing is correct?",
+  "choices": [
+   "Authorize = WBS is built; Align = RACI is assigned; Empower = charter is signed",
+   "Authorize = the project may begin; Align = sponsor and PM share understanding; Empower = the PM receives authority to coordinate the work",
+   "Authorize = budget is fixed; Align = schedule is fixed; Empower = risks are closed",
+   "Authorize = team is hired; Align = vendor is selected; Empower = scope is frozen"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Charter = AUTHORIZATION, built from Authorize, Align, Empower \u2014 nothing about hiring, vendor selection, or the WBS.",
+  "source": {
+   "deck": "new 05",
+   "slide": 6
   },
-  {
-    "id": "ini-007",
-    "topic": "initiation",
-    "type": "tf",
-    "stem": "The project charter includes the same level of detail as the project schedule and WBS.",
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "The charter is high-level (why, what, who, major boundaries); detailed requirements, WBS, schedule, resources, budget and risk responses come later. 'Authorize first, detail later.'",
-    "source": {
-      "deck": "new 05",
-      "slide": 10
-    },
-    "difficulty": 1,
-    "tags": [
-      "charter"
-    ],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "charter"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-007",
+  "topic": "initiation",
+  "type": "tf",
+  "stem": "The project charter includes the same level of detail as the project schedule and WBS.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The charter is high-level (why, what, who, major boundaries); detailed requirements, WBS, schedule, resources, budget and risk responses come later. 'Authorize first, detail later.'",
+  "source": {
+   "deck": "new 05",
+   "slide": 10
   },
-  {
-    "id": "ini-008",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Which definition matches 'stakeholder' as used in the deck?",
-    "choices": [
-      "Only the project team members doing the work",
-      "Anyone mentioned in the project charter",
-      "A person, group, or organization that can affect, be affected by, or perceive itself to be affected by the project",
-      "Only the people who pay for the project"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "The stakeholder definition is broad and includes anyone who perceives itself to be affected, not just those who pay or do the work.",
-    "source": {
-      "deck": "new 05",
-      "slide": 13
-    },
-    "difficulty": 1,
-    "tags": [
-      "stakeholders"
-    ],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "charter"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-008",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Which definition matches 'stakeholder' as used in the deck?",
+  "choices": [
+   "Only the project team members doing the work",
+   "Anyone mentioned in the project charter",
+   "A person, group, or organization that can affect, be affected by, or perceive itself to be affected by the project",
+   "Only the people who pay for the project"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The stakeholder definition is broad and includes anyone who perceives itself to be affected, not just those who pay or do the work.",
+  "source": {
+   "deck": "new 05",
+   "slide": 13
   },
-  {
-    "id": "ini-009",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What two questions does the deck say you must ask about every stakeholder?",
-    "choices": [
-      "Who pays? Who approves?",
-      "Who reports? Who signs off?",
-      "Who builds? Who tests?",
-      "Who cares? What do they need?"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "The deck frames stakeholder analysis as 'who cares?' and 'what do they need?' — the basis for later deriving requirements.",
-    "source": {
-      "deck": "new 05",
-      "slide": 13
-    },
-    "difficulty": 1,
-    "tags": [
-      "stakeholders"
-    ],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "stakeholders"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-009",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What two questions does the deck say you must ask about every stakeholder?",
+  "choices": [
+   "Who pays? Who approves?",
+   "Who reports? Who signs off?",
+   "Who builds? Who tests?",
+   "Who cares? What do they need?"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The deck frames stakeholder analysis as 'who cares?' and 'what do they need?' \u2014 the basis for later deriving requirements.",
+  "source": {
+   "deck": "new 05",
+   "slide": 13
   },
-  {
-    "id": "ini-010",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "A store manager needs to 'know real stock levels.' In the stakeholder-to-requirement chain, which item is the requirement (not the need or the deliverable)?",
-    "choices": [
-      "Inventory updates within X minutes",
-      "Store manager",
-      "Know real stock levels",
-      "Real-time inventory dashboard"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "A need is vague and human ('know real stock levels'); the requirement states it precisely enough to build and test ('updates within X minutes'); the dashboard is the resulting deliverable/feature.",
-    "source": {
-      "deck": "new 05",
-      "slide": 15
-    },
-    "difficulty": 2,
-    "tags": [
-      "stakeholders",
-      "requirements"
-    ],
-    "examFocus": false
+  "difficulty": 1,
+  "tags": [
+   "stakeholders"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-010",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "A store manager needs to 'know real stock levels.' In the stakeholder-to-requirement chain, which item is the requirement (not the need or the deliverable)?",
+  "choices": [
+   "Inventory updates within X minutes",
+   "Store manager",
+   "Know real stock levels",
+   "Real-time inventory dashboard"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "A need is vague and human ('know real stock levels'); the requirement states it precisely enough to build and test ('updates within X minutes'); the dashboard is the resulting deliverable/feature.",
+  "source": {
+   "deck": "new 05",
+   "slide": 15
   },
-  {
-    "id": "ini-011",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "'The system must integrate with the existing ERP' is which type of requirement?",
-    "choices": [
-      "Acceptance criterion",
-      "Constraint",
-      "Functional",
-      "Performance/quality"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Constraints state what the solution must comply with; integrating with an existing system is a constraint, not a behavior (functional) or a performance target.",
-    "source": {
-      "deck": "new 05",
-      "slide": 16
-    },
-    "difficulty": 2,
-    "tags": [
-      "requirements"
-    ],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "stakeholders",
+   "requirements"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-011",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "'The system must integrate with the existing ERP' is which type of requirement?",
+  "choices": [
+   "Acceptance criterion",
+   "Constraint",
+   "Functional",
+   "Performance/quality"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Constraints state what the solution must comply with; integrating with an existing system is a constraint, not a behavior (functional) or a performance target.",
+  "source": {
+   "deck": "new 05",
+   "slide": 16
   },
-  {
-    "id": "ini-012",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "'Inventory accuracy must be ≥ 97%' is an example of which requirement type?",
-    "choices": [
-      "Functional",
-      "Out of scope",
-      "Performance/quality",
-      "Constraint"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Performance/quality requirements answer 'how well must it perform?' — a numeric accuracy target is the deck's own example.",
-    "source": {
-      "deck": "new 05",
-      "slide": 16
-    },
-    "difficulty": 1,
-    "tags": [
-      "requirements"
-    ],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "requirements"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-012",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "'Inventory accuracy must be \u2265 97%' is an example of which requirement type?",
+  "choices": [
+   "Functional",
+   "Out of scope",
+   "Performance/quality",
+   "Constraint"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Performance/quality requirements answer 'how well must it perform?' \u2014 a numeric accuracy target is the deck's own example.",
+  "source": {
+   "deck": "new 05",
+   "slide": 16
   },
-  {
-    "id": "ini-013",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What is the key difference between product scope and project scope?",
-    "choices": [
-      "Product scope is the work required to build the result; project scope is the result's features",
-      "They are two names for the same thing",
-      "Product scope applies only to physical goods, project scope only to software",
-      "Product scope describes the features and functions of the result (WHAT); project scope describes the work required to create it (WORK)"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Product scope = WHAT (features/functions of the result); project scope = WORK (requirements, design, integration, testing, training, deployment).",
-    "source": {
-      "deck": "new 05",
-      "slide": 18
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "requirements"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-013",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What is the key difference between product scope and project scope?",
+  "choices": [
+   "Product scope is the work required to build the result; project scope is the result's features",
+   "They are two names for the same thing",
+   "Product scope applies only to physical goods, project scope only to software",
+   "Product scope describes the features and functions of the result (WHAT); project scope describes the work required to create it (WORK)"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Product scope = WHAT (features/functions of the result); project scope = WORK (requirements, design, integration, testing, training, deployment).",
+  "source": {
+   "deck": "new 05",
+   "slide": 18
   },
-  {
-    "id": "ini-014",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "For FreshMart, 'ERP synchronization' described as a feature of the finished system is an example of...?",
-    "choices": [
-      "Product scope",
-      "Project scope",
-      "A work package",
-      "An acceptance criterion"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "ERP synchronization is a feature of the delivered product — product scope. The work to build it (integration, testing) is project scope.",
-    "source": {
-      "deck": "new 05",
-      "slide": 18
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "scope"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-014",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "For FreshMart, 'ERP synchronization' described as a feature of the finished system is an example of...?",
+  "choices": [
+   "Product scope",
+   "Project scope",
+   "A work package",
+   "An acceptance criterion"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "ERP synchronization is a feature of the delivered product \u2014 product scope. The work to build it (integration, testing) is project scope.",
+  "source": {
+   "deck": "new 05",
+   "slide": 18
   },
-  {
-    "id": "ini-015",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "'Testing the ERP interface' belongs to which category?",
-    "choices": [
-      "Acceptance criteria",
-      "Project scope",
-      "Product scope",
-      "Out of scope"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Testing is work required to create the result, so it falls under project scope's example list (requirements, design, integration, testing, training, deployment), not a feature of the product itself.",
-    "source": {
-      "deck": "new 05",
-      "slide": 18
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "scope"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-015",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "'Testing the ERP interface' belongs to which category?",
+  "choices": [
+   "Acceptance criteria",
+   "Project scope",
+   "Product scope",
+   "Out of scope"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Testing is work required to create the result, so it falls under project scope's example list (requirements, design, integration, testing, training, deployment), not a feature of the product itself.",
+  "source": {
+   "deck": "new 05",
+   "slide": 18
   },
-  {
-    "id": "ini-016",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Put these in the correct downward order, from highest to most granular: deliverables, objective, scope, work packages.",
-    "choices": [
-      "Work packages -> Scope -> Deliverables -> Objective",
-      "Deliverables -> Objective -> Work packages -> Scope",
-      "Objective -> Deliverables -> Scope -> Work packages",
-      "Scope -> Objective -> Work packages -> Deliverables"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "The chain runs objective (raise accuracy to 97%) -> deliverables (platform, integration, dashboard, training) -> scope (work required) -> work packages (manageable pieces).",
-    "source": {
-      "deck": "new 05",
-      "slide": 19
-    },
-    "difficulty": 1,
-    "tags": [
-      "scope"
-    ],
-    "examFocus": false
+  "difficulty": 2,
+  "tags": [
+   "scope"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-016",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Put these in the correct downward order, from highest to most granular: deliverables, objective, scope, work packages.",
+  "choices": [
+   "Work packages -> Scope -> Deliverables -> Objective",
+   "Deliverables -> Objective -> Work packages -> Scope",
+   "Objective -> Deliverables -> Scope -> Work packages",
+   "Scope -> Objective -> Work packages -> Deliverables"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The chain runs objective (raise accuracy to 97%) -> deliverables (platform, integration, dashboard, training) -> scope (work required) -> work packages (manageable pieces).",
+  "source": {
+   "deck": "new 05",
+   "slide": 19
   },
-  {
-    "id": "ini-017",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Which of these is NOT one of the six components of a scope statement?",
-    "choices": [
-      "In scope",
-      "Out of scope",
-      "Acceptance criteria",
-      "Risk register"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "The six components are objective, deliverables, requirements, in scope, out of scope, and acceptance criteria. A risk register is a separate document.",
-    "source": {
-      "deck": "new 05",
-      "slide": 20
-    },
-    "difficulty": 1,
-    "tags": [
-      "scope-statement"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "scope"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-017",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Which of these is NOT one of the six components of a scope statement?",
+  "choices": [
+   "In scope",
+   "Out of scope",
+   "Acceptance criteria",
+   "Risk register"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The six components are objective, deliverables, requirements, in scope, out of scope, and acceptance criteria. A risk register is a separate document.",
+  "source": {
+   "deck": "new 05",
+   "slide": 20
   },
-  {
-    "id": "ini-018",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "In FreshMart's scope statement, 'replacing the ERP' and 'a new warehouse' are listed under which component?",
-    "choices": [
-      "Out of scope",
-      "In scope",
-      "Deliverables",
-      "Acceptance criteria"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "FreshMart explicitly excludes replacing the ERP, building a new warehouse, and redesigning the customer mobile app — these are out of scope, not deliverables to be produced.",
-    "source": {
-      "deck": "new 05",
-      "slide": 21
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope-statement"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "scope-statement"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-018",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "A real-time inventory project's scope statement records 'replacing the ERP' and 'building a new warehouse' as work the project will not do. Under which component do they belong?",
+  "choices": [
+   "Out of scope",
+   "In scope",
+   "Deliverables",
+   "Acceptance criteria"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Naming what the project will not deliver is as much a part of the scope statement as naming what it will. An explicit out-of-scope list is the defence against scope creep: without it, 'while you're in there, replace the ERP' sounds reasonable.",
+  "source": {
+   "deck": "new 05",
+   "slide": 21
   },
-  {
-    "id": "ini-019",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What is scope creep?",
-    "choices": [
-      "The process of decomposing scope into work packages",
-      "The uncontrolled expansion of project scope without a corresponding adjustment to time, cost, or resources",
-      "Any approved change to the project plan",
-      "A deliverable that fails its acceptance criteria"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Scope creep is specifically uncontrolled growth with no matching adjustment to time/cost/resources — an approved, assessed change is controlled change, not creep.",
-    "source": {
-      "deck": "new 05",
-      "slide": 24
-    },
-    "difficulty": 1,
-    "tags": [
-      "scope-creep"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "scope-statement"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-019",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What is scope creep?",
+  "choices": [
+   "The process of decomposing scope into work packages",
+   "The uncontrolled expansion of project scope without a corresponding adjustment to time, cost, or resources",
+   "Any approved change to the project plan",
+   "A deliverable that fails its acceptance criteria"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Scope creep is specifically uncontrolled growth with no matching adjustment to time/cost/resources \u2014 an approved, assessed change is controlled change, not creep.",
+  "source": {
+   "deck": "new 05",
+   "slide": 24
   },
-  {
-    "id": "ini-020",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "A developer adds a fancy animated chart to the dashboard that no stakeholder requested, just because it seemed impressive. What is this an example of?",
-    "choices": [
-      "Scope validation",
-      "A necessary constraint",
-      "Gold plating",
-      "Scope creep caused by unclear requirements"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Gold plating is extras the team adds on its own initiative that are not necessary — one of the five causes of scope creep, but distinct from creep driven by stakeholder requests or unclear requirements.",
-    "source": {
-      "deck": "new 05",
-      "slide": 25
-    },
-    "difficulty": 3,
-    "tags": [
-      "scope-creep",
-      "gold-plating"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "scope-creep"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-020",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "A developer adds a fancy animated chart to the dashboard that no stakeholder requested, just because it seemed impressive. What is this an example of?",
+  "choices": [
+   "Scope validation",
+   "A necessary constraint",
+   "Gold plating",
+   "Scope creep caused by unclear requirements"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Gold plating is extras the team adds on its own initiative that are not necessary \u2014 one of the five causes of scope creep, but distinct from creep driven by stakeholder requests or unclear requirements.",
+  "source": {
+   "deck": "new 05",
+   "slide": 25
   },
-  {
-    "id": "ini-021",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What is the key distinction between gold plating and the broader concept of scope creep?",
-    "choices": [
-      "Gold plating always increases cost while scope creep never does",
-      "Gold plating is approved by the sponsor while scope creep is never approved",
-      "They are identical terms used interchangeably in the deck",
-      "Gold plating is extras the team adds on its own initiative; scope creep is the broader uncontrolled growth, often driven by stakeholder requests"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "The deck lists gold plating as one of five causes of scope creep, but the exam-relevant distinction is that gold plating originates from the team itself, while scope creep more broadly comes from uncontrolled requests and other causes.",
-    "source": {
-      "deck": "new 05",
-      "slide": 25
-    },
-    "difficulty": 3,
-    "tags": [
-      "scope-creep",
-      "gold-plating"
-    ],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "scope-creep",
+   "gold-plating"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-021",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What is the key distinction between gold plating and the broader concept of scope creep?",
+  "choices": [
+   "Gold plating always increases cost while scope creep never does",
+   "Gold plating is approved by the sponsor while scope creep is never approved",
+   "They are identical terms used interchangeably in the deck",
+   "Gold plating is extras the team adds on its own initiative; scope creep is the broader uncontrolled growth, often driven by stakeholder requests"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "The deck lists gold plating as one of five causes of scope creep, but the exam-relevant distinction is that gold plating originates from the team itself, while scope creep more broadly comes from uncontrolled requests and other causes.",
+  "source": {
+   "deck": "new 05",
+   "slide": 25
   },
-  {
-    "id": "ini-022",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Which of the following is NOT one of the five causes of scope creep named in the deck?",
-    "choices": [
-      "A signed project charter",
-      "Unclear requirements",
-      "Users involved too late",
-      "Weak change control"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "The five causes are unclear requirements, users involved too late, underestimated complexity, weak change control, and gold plating. A signed charter is not a cause of scope creep.",
-    "source": {
-      "deck": "new 05",
-      "slide": 25
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope-creep"
-    ],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "scope-creep",
+   "gold-plating"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-022",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Which of the following is NOT one of the five causes of scope creep named in the deck?",
+  "choices": [
+   "A signed project charter",
+   "Unclear requirements",
+   "Users involved too late",
+   "Weak change control"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The five causes are unclear requirements, users involved too late, underestimated complexity, weak change control, and gold plating. A signed charter is not a cause of scope creep.",
+  "source": {
+   "deck": "new 05",
+   "slide": 25
   },
-  {
-    "id": "ini-023",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What distinguishes controlled change from scope creep?",
-    "choices": [
-      "There is no real difference; both increase scope equally",
-      "Controlled change follows request -> impact analysis -> decision -> update the plan; scope creep is request -> 'just add it' -> work changes with no adjustment to time or cost",
-      "Controlled change is always rejected while scope creep is always approved",
-      "Controlled change happens only during initiation while scope creep only happens during closing"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "Good project management doesn't prevent change, it controls it: every change request gets an impact analysis and a decision before the plan is updated.",
-    "source": {
-      "deck": "new 05",
-      "slide": 26
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope-creep",
-      "change-control"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "scope-creep"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-023",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What distinguishes controlled change from scope creep?",
+  "choices": [
+   "There is no real difference; both increase scope equally",
+   "Controlled change follows request -> impact analysis -> decision -> update the plan; scope creep is request -> 'just add it' -> work changes with no adjustment to time or cost",
+   "Controlled change is always rejected while scope creep is always approved",
+   "Controlled change happens only during initiation while scope creep only happens during closing"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "Good project management doesn't prevent change, it controls it: every change request gets an impact analysis and a decision before the plan is updated.",
+  "source": {
+   "deck": "new 05",
+   "slide": 26
   },
-  {
-    "id": "ini-024",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Management asks, 'Can we add AI demand forecasting to the inventory project?' Per the deck's recommended response, what should the PM do first?",
-    "choices": [
-      "Refuse outright with no analysis",
-      "Ignore the request until the project closes",
-      "Assess the impact on scope, schedule, cost, and risk, then approve, defer, or reject",
-      "Add it immediately since management asked"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "The correct response to any 'can we just add...' prompt is impact analysis across scope/schedule/cost/risk, followed by approve (now), defer (future phase), or reject — never an unassessed yes or a flat no.",
-    "source": {
-      "deck": "new 05",
-      "slide": 27
-    },
-    "difficulty": 3,
-    "tags": [
-      "scope-creep",
-      "change-control"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "scope-creep",
+   "change-control"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-024",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Management asks, 'Can we add AI demand forecasting to the inventory project?' Per the deck's recommended response, what should the PM do first?",
+  "choices": [
+   "Refuse outright with no analysis",
+   "Ignore the request until the project closes",
+   "Assess the impact on scope, schedule, cost, and risk, then approve, defer, or reject",
+   "Add it immediately since management asked"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "The correct response to any 'can we just add...' prompt is impact analysis across scope/schedule/cost/risk, followed by approve (now), defer (future phase), or reject \u2014 never an unassessed yes or a flat no.",
+  "source": {
+   "deck": "new 05",
+   "slide": 27
   },
-  {
-    "id": "ini-025",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "Which pair correctly separates a deliverable from an activity?",
-    "choices": [
-      "Deliverable = 'develop interface' (work); Activity = 'ERP interface' (output)",
-      "Deliverable and activity are the same thing",
-      "Deliverable = the acceptance criteria; Activity = the requirement",
-      "Deliverable = 'ERP interface' (an output that exists); Activity = 'develop interface' (work being done)"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Deliverables are outputs — what exists (inventory dashboard, ERP interface, training package). Activities are work — what we do (design dashboard, develop interface, conduct training).",
-    "source": {
-      "deck": "new 05",
-      "slide": 22
-    },
-    "difficulty": 1,
-    "tags": [
-      "deliverable-vs-activity"
-    ],
-    "examFocus": false
+  "difficulty": 3,
+  "tags": [
+   "scope-creep",
+   "change-control"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-025",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "Which pair correctly separates a deliverable from an activity?",
+  "choices": [
+   "Deliverable = 'develop interface' (work); Activity = 'ERP interface' (output)",
+   "Deliverable and activity are the same thing",
+   "Deliverable = the acceptance criteria; Activity = the requirement",
+   "Deliverable = 'ERP interface' (an output that exists); Activity = 'develop interface' (work being done)"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Deliverables are outputs \u2014 what exists (inventory dashboard, ERP interface, training package). Activities are work \u2014 what we do (design dashboard, develop interface, conduct training).",
+  "source": {
+   "deck": "new 05",
+   "slide": 22
   },
-  {
-    "id": "ini-026",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What does the 100% rule for a WBS require?",
-    "choices": [
-      "The WBS must include all required work, with no missing work and no duplicated work",
-      "The WBS must show the sequence in which all work happens",
-      "At least 100% of work packages must be assigned before planning starts",
-      "Every work package must take exactly 100 hours to estimate"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "The 100% rule means the WBS = 100% of project scope: all required work is included, nothing is missing, and nothing is duplicated. It says nothing about sequence, hours, or assignment status.",
-    "source": {
-      "deck": "new 05",
-      "slide": 30
-    },
-    "difficulty": 1,
-    "tags": [
-      "wbs"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "deliverable-vs-activity"
+  ],
+  "examFocus": false
+ },
+ {
+  "id": "ini-026",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What does the 100% rule for a WBS require?",
+  "choices": [
+   "The WBS must include all required work, with no missing work and no duplicated work",
+   "The WBS must show the sequence in which all work happens",
+   "At least 100% of work packages must be assigned before planning starts",
+   "Every work package must take exactly 100 hours to estimate"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "The 100% rule means the WBS = 100% of project scope: all required work is included, nothing is missing, and nothing is duplicated. It says nothing about sequence, hours, or assignment status.",
+  "source": {
+   "deck": "new 05",
+   "slide": 30
   },
-  {
-    "id": "ini-027",
-    "topic": "initiation",
-    "type": "tf",
-    "stem": "A Work Breakdown Structure shows the order in which activities must be performed.",
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "False — the WBS is a breakdown, not a schedule. It does NOT show sequence; order and dependencies are determined later during schedule planning.",
-    "source": {
-      "deck": "new 05",
-      "slide": 30
-    },
-    "difficulty": 2,
-    "tags": [
-      "wbs"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "wbs"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-027",
+  "topic": "initiation",
+  "type": "tf",
+  "stem": "A Work Breakdown Structure shows the order in which activities must be performed.",
+  "choices": [
+   "True",
+   "False"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "False \u2014 the WBS is a breakdown, not a schedule. It does NOT show sequence; order and dependencies are determined later during schedule planning.",
+  "source": {
+   "deck": "new 05",
+   "slide": 30
   },
-  {
-    "id": "ini-028",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "How does a Product Breakdown Structure (PBS) differ from a Work Breakdown Structure (WBS)?",
-    "choices": [
-      "A PBS only exists for software projects",
-      "A PBS decomposes the product ('what are we building?'); a WBS decomposes the project work ('what work is required?')",
-      "A PBS decomposes the project work; a WBS decomposes the product",
-      "They are the same document under two names"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "PBS answers 'what are we building?' (e.g., Inventory System -> dashboard, database, ERP interface, alerts); WBS answers 'what work is required?' (e.g., ERP Interface -> define requirements, build API, test, deploy).",
-    "source": {
-      "deck": "new 05",
-      "slide": 31
-    },
-    "difficulty": 2,
-    "tags": [
-      "wbs",
-      "pbs"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "wbs"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-028",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "How does a Product Breakdown Structure (PBS) differ from a Work Breakdown Structure (WBS)?",
+  "choices": [
+   "A PBS only exists for software projects",
+   "A PBS decomposes the product ('what are we building?'); a WBS decomposes the project work ('what work is required?')",
+   "A PBS decomposes the project work; a WBS decomposes the product",
+   "They are the same document under two names"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "PBS answers 'what are we building?' (e.g., Inventory System -> dashboard, database, ERP interface, alerts); WBS answers 'what work is required?' (e.g., ERP Interface -> define requirements, build API, test, deploy).",
+  "source": {
+   "deck": "new 05",
+   "slide": 31
   },
-  {
-    "id": "ini-029",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "A student breaks down 'ERP Integration' into work packages including 'Test synchronization,' and then also lists 'Test synchronization' again under the 'Deployment' branch. What WBS rule does this violate?",
-    "choices": [
-      "The rule that deliverables must equal activities",
-      "Nothing — duplication across branches is expected in a WBS",
-      "The 100% rule's 'no duplicated work' requirement",
-      "The rule that a WBS must show sequence"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Each piece of work must appear only once in the WBS. Listing 'test synchronization' under two different branches breaks the no-duplicated-work part of the 100% rule.",
-    "source": {
-      "deck": "new 05",
-      "slide": 30
-    },
-    "difficulty": 3,
-    "tags": [
-      "wbs"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "wbs",
+   "pbs"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-029",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "A student breaks down 'ERP Integration' into work packages including 'Test synchronization,' and then also lists 'Test synchronization' again under the 'Deployment' branch. What WBS rule does this violate?",
+  "choices": [
+   "The rule that deliverables must equal activities",
+   "Nothing \u2014 duplication across branches is expected in a WBS",
+   "The 100% rule's 'no duplicated work' requirement",
+   "The rule that a WBS must show sequence"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Each piece of work must appear only once in the WBS. Listing 'test synchronization' under two different branches breaks the no-duplicated-work part of the 100% rule.",
+  "source": {
+   "deck": "new 05",
+   "slide": 30
   },
-  {
-    "id": "ini-030",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "According to the deck, when should you stop decomposing a work package further?",
-    "choices": [
-      "Only when every single tiny action has its own line item",
-      "As soon as the project charter is signed",
-      "Never — a WBS should never reach a stopping point",
-      "When it can be reasonably estimated, assigned to one accountable owner, monitored, and accepted"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "Decompose until the work package is small enough to estimate, assign, monitor, and accept — not until every tiny action appears.",
-    "source": {
-      "deck": "new 05",
-      "slide": 33
-    },
-    "difficulty": 2,
-    "tags": [
-      "wbs"
-    ],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "wbs"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-030",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "According to the deck, when should you stop decomposing a work package further?",
+  "choices": [
+   "Only when every single tiny action has its own line item",
+   "As soon as the project charter is signed",
+   "Never \u2014 a WBS should never reach a stopping point",
+   "When it can be reasonably estimated, assigned to one accountable owner, monitored, and accepted"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "Decompose until the work package is small enough to estimate, assign, monitor, and accept \u2014 not until every tiny action appears.",
+  "source": {
+   "deck": "new 05",
+   "slide": 33
   },
-  {
-    "id": "ini-031",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "In a RACI matrix, what does the letter 'A' stand for and what does it mean?",
-    "choices": [
-      "Accountable — the person who owns the result",
-      "Assigned — the person who is given the task first",
-      "Approved — the task has passed review",
-      "Available — the person who has time to help"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "R = Responsible (does the work), A = Accountable (owns the result), C = Consulted (provides input), I = Informed (needs updates).",
-    "source": {
-      "deck": "new 05",
-      "slide": 35
-    },
-    "difficulty": 1,
-    "tags": [
-      "raci"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "wbs"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-031",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "In a RACI matrix, what does the letter 'A' stand for and what does it mean?",
+  "choices": [
+   "Accountable \u2014 the person who owns the result",
+   "Assigned \u2014 the person who is given the task first",
+   "Approved \u2014 the task has passed review",
+   "Available \u2014 the person who has time to help"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "R = Responsible (does the work), A = Accountable (owns the result), C = Consulted (provides input), I = Informed (needs updates).",
+  "source": {
+   "deck": "new 05",
+   "slide": 35
   },
-  {
-    "id": "ini-032",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "What rule does the deck state about the 'A' role in RACI?",
-    "choices": [
-      "The Accountable role is optional if the Responsible role is filled",
-      "There must be exactly one clear Accountable owner per work item",
-      "Every work item must have at least two Accountable owners for checks and balances",
-      "The Accountable person must also be the Responsible person"
-    ],
-    "answer": [
-      1
-    ],
-    "explanation": "The rule is one clear Accountable owner per work item — several people may be Responsible, but exactly one is Accountable.",
-    "source": {
-      "deck": "new 05",
-      "slide": 35
-    },
-    "difficulty": 2,
-    "tags": [
-      "raci"
-    ],
-    "examFocus": true
+  "difficulty": 1,
+  "tags": [
+   "raci"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-032",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "What rule does the deck state about the 'A' role in RACI?",
+  "choices": [
+   "The Accountable role is optional if the Responsible role is filled",
+   "There must be exactly one clear Accountable owner per work item",
+   "Every work item must have at least two Accountable owners for checks and balances",
+   "The Accountable person must also be the Responsible person"
+  ],
+  "answer": [
+   1
+  ],
+  "explanation": "The rule is one clear Accountable owner per work item \u2014 several people may be Responsible, but exactly one is Accountable.",
+  "source": {
+   "deck": "new 05",
+   "slide": 35
   },
-  {
-    "id": "ini-033",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "In FreshMart's RACI, the 'ERP Interface' work package has both IT and the vendor doing the work, while the PM signs off on the result and the sponsor just needs updates. How should the letters be assigned to IT, Vendor, PM, and Sponsor respectively?",
-    "choices": [
-      "IT = C, Vendor = C, PM = R, Sponsor = A",
-      "IT = I, Vendor = I, PM = A, Sponsor = R",
-      "IT = R, Vendor = R, PM = A, Sponsor = I",
-      "IT = A, Vendor = A, PM = R, Sponsor = C"
-    ],
-    "answer": [
-      2
-    ],
-    "explanation": "Two people can be Responsible for the same work package (IT and the vendor both do the work), but there is still exactly one Accountable owner (the PM), with the sponsor merely Informed.",
-    "source": {
-      "deck": "new 05",
-      "slide": 36
-    },
-    "difficulty": 3,
-    "tags": [
-      "raci"
-    ],
-    "examFocus": true
+  "difficulty": 2,
+  "tags": [
+   "raci"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-033",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "In FreshMart's RACI, the 'ERP Interface' work package has both IT and the vendor doing the work, while the PM signs off on the result and the sponsor just needs updates. How should the letters be assigned to IT, Vendor, PM, and Sponsor respectively?",
+  "choices": [
+   "IT = C, Vendor = C, PM = R, Sponsor = A",
+   "IT = I, Vendor = I, PM = A, Sponsor = R",
+   "IT = R, Vendor = R, PM = A, Sponsor = I",
+   "IT = A, Vendor = A, PM = R, Sponsor = C"
+  ],
+  "answer": [
+   2
+  ],
+  "explanation": "Two people can be Responsible for the same work package (IT and the vendor both do the work), but there is still exactly one Accountable owner (the PM), with the sponsor merely Informed.",
+  "source": {
+   "deck": "new 05",
+   "slide": 36
   },
-  {
-    "id": "ini-034",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "On the 'Approval' row of FreshMart's RACI, the roles flip compared to every other row. Who is Accountable and who is merely Responsible?",
-    "choices": [
-      "The PM is Accountable; the sponsor is Responsible",
-      "IT is Accountable; Store Ops is Responsible",
-      "The vendor is Accountable; the PM is Responsible",
-      "The sponsor is Accountable; the PM is Responsible"
-    ],
-    "answer": [
-      3
-    ],
-    "explanation": "On Approval, the sponsor becomes Accountable (owns the sign-off decision) while the PM is only Responsible — everywhere else in the FreshMart RACI, the PM holds the A.",
-    "source": {
-      "deck": "new 05",
-      "slide": 36
-    },
-    "difficulty": 3,
-    "tags": [
-      "raci"
-    ],
-    "examFocus": true
+  "difficulty": 3,
+  "tags": [
+   "raci"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-034",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "On the 'Approval' row of FreshMart's RACI, the roles flip compared to every other row. Who is Accountable and who is merely Responsible?",
+  "choices": [
+   "The PM is Accountable; the sponsor is Responsible",
+   "IT is Accountable; Store Ops is Responsible",
+   "The vendor is Accountable; the PM is Responsible",
+   "The sponsor is Accountable; the PM is Responsible"
+  ],
+  "answer": [
+   3
+  ],
+  "explanation": "On Approval, the sponsor becomes Accountable (owns the sign-off decision) while the PM is only Responsible \u2014 everywhere else in the FreshMart RACI, the PM holds the A.",
+  "source": {
+   "deck": "new 05",
+   "slide": 36
   },
-  {
-    "id": "ini-035",
-    "topic": "initiation",
-    "type": "mcq",
-    "stem": "According to the deck's closing summary, what must be defined before schedule, resources, and cost can be planned?",
-    "choices": [
-      "Scope, broken down into work packages via the WBS",
-      "The final invoice",
-      "The team's annual performance reviews",
-      "The marketing plan"
-    ],
-    "answer": [
-      0
-    ],
-    "explanation": "Scope -> WBS (work packages) -> only then schedule, resources, and cost. Schedule and cost are built from defined work, not guessed independently.",
-    "source": {
-      "deck": "new 05",
-      "slide": 37
-    },
-    "difficulty": 2,
-    "tags": [
-      "scope",
-      "wbs",
-      "planning-sequence"
-    ],
-    "examFocus": false
-  }
+  "difficulty": 3,
+  "tags": [
+   "raci"
+  ],
+  "examFocus": true
+ },
+ {
+  "id": "ini-035",
+  "topic": "initiation",
+  "type": "mcq",
+  "stem": "According to the deck's closing summary, what must be defined before schedule, resources, and cost can be planned?",
+  "choices": [
+   "Scope, broken down into work packages via the WBS",
+   "The final invoice",
+   "The team's annual performance reviews",
+   "The marketing plan"
+  ],
+  "answer": [
+   0
+  ],
+  "explanation": "Scope -> WBS (work packages) -> only then schedule, resources, and cost. Schedule and cost are built from defined work, not guessed independently.",
+  "source": {
+   "deck": "new 05",
+   "slide": 37
+  },
+  "difficulty": 2,
+  "tags": [
+   "scope",
+   "wbs",
+   "planning-sequence"
+  ],
+  "examFocus": false
+ }
 ]
