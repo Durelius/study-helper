@@ -105,7 +105,7 @@
   "id": "pmf-005",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "The older deck's fuller definition describes a project as a complex, non-routine, one-time effort limited by time, budget, resource and specifications, that typically involves:",
+  "stem": "A project is a complex, non-routine, one-time effort limited by time, budget, resources and specifications. Such an effort typically involves:",
   "choices": [
    "People from several disciplines, a life cycle, and specific time/cost/performance requirements.",
    "A single department working alone with no defined end.",
@@ -172,32 +172,6 @@
   "tags": [
    "projects-vs-operations",
    "comparison-table"
-  ],
-  "examFocus": true
- },
- {
-  "id": "pmf-008",
-  "topic": "pm-foundations",
-  "type": "mcq",
-  "stem": "The older deck adds an 'Authority of Manager' row to its projects-vs-operations comparison table. What does it say?",
-  "choices": [
-   "Both project managers and operations managers always have full, formal line authority.",
-   "Neither project managers nor operations managers have any real authority.",
-   "A project manager has more formal authority than an operations manager because projects are more important.",
-   "A project manager generally has minimal or no direct line authority, which varies by organizational structure; an operations manager generally has formal, direct line authority."
-  ],
-  "answer": [
-   3
-  ],
-  "explanation": "Old deck slide 16's full comparison table states that a project manager's authority 'varies by organizational structure, generally minimal, if any, direct line authority', while an operations manager has 'generally formal, direct line authority'.",
-  "source": {
-   "deck": "old 04",
-   "slide": 16
-  },
-  "difficulty": 2,
-  "tags": [
-   "projects-vs-operations",
-   "roles"
   ],
   "examFocus": true
  },
@@ -1080,31 +1054,6 @@
   "examFocus": true
  },
  {
-  "id": "pmf-044",
-  "topic": "pm-foundations",
-  "type": "mcq",
-  "stem": "The older deck's knowledge-area list names 'Project Time Management' and 'Project Human Resource Management' where the newer deck says 'Schedule Management' and 'Resource Management'. What does this naming difference reflect?",
-  "choices": [
-   "Two completely different frameworks with different content.",
-   "The older deck adds two extra knowledge areas the new deck lacks.",
-   "'Time Management' and 'Schedule Management' are unrelated knowledge areas that both exist in PMBOK 6.",
-   "The same PMBOK content under an earlier edition's terminology, carried over from the older deck."
-  ],
-  "answer": [
-   3
-  ],
-  "explanation": "Old deck slide 21 lists Project Time Management and Project Human Resource Management; the new deck (slide 29) uses PMBOK 6's current names, Schedule Management and Resource Management, for the same content \u2014 same areas, older labels.",
-  "source": {
-   "deck": "old 04",
-   "slide": 21
-  },
-  "difficulty": 3,
-  "tags": [
-   "knowledge-area-naming"
-  ],
-  "examFocus": true
- },
- {
   "id": "pmf-045",
   "topic": "pm-foundations",
   "type": "mcq",
@@ -1158,7 +1107,7 @@
   "id": "pmf-047",
   "topic": "pm-foundations",
   "type": "mcq",
-  "stem": "A client asks the team to shorten the schedule duration without reducing project scope. What does the older deck call this pressure?",
+  "stem": "A client asks the team to shorten the schedule without reducing scope. What is this pressure called?",
   "choices": [
    "Scope creep",
    "Budget compression",

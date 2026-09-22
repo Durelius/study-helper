@@ -213,7 +213,7 @@
   "id": "scm-009",
   "topic": "scm",
   "type": "mcq",
-  "stem": "A retailer sells seasonal fashion items with short life cycles and volatile demand. Following this course's table, which supply chain should it build?",
+  "stem": "A retailer sells seasonal fashion items with short life cycles and volatile demand. Which kind of supply chain should it build?",
   "choices": [
    "Efficient: lean inventory and suppliers chosen on cost",
    "Responsive: buffer inventory, capacity cushion and flexible suppliers",
@@ -428,7 +428,7 @@
   "id": "scm-017",
   "topic": "scm",
   "type": "mcq",
-  "stem": "In this course's table of supply-chain strategy types, which one is described as 'push upstream, pull downstream' with the push-pull boundary deliberately placed?",
+  "stem": "Which supply-chain strategy is described as 'push upstream, pull downstream', with the push-pull boundary deliberately placed?",
   "choices": [
    "Efficient",
    "Responsive",

@@ -763,7 +763,7 @@
   "id": "ops-030",
   "topic": "operations",
   "type": "mcq",
-  "stem": "Which KPI is paired with the 'Dependability' performance objective in this course's table?",
+  "stem": "Which KPI measures the 'Dependability' performance objective?",
   "choices": [
    "Cycle time",
    "Defect rate",

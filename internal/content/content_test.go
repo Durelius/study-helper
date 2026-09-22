@@ -145,3 +145,31 @@ func TestQuestionsStandAlone(t *testing.T) {
 		}
 	}
 }
+
+// asksAboutTheDocument matches stems that quiz the reader on the teaching material
+// itself — which edition of the slides, what a particular table row said, what was on
+// the same slide — rather than on the subject.
+var asksAboutTheDocument = regexp.MustCompile(`(?i)\b(the deck\b|older deck|newer deck|older version|earlier edition|` +
+	`adds an? [^.]{0,24}row|which row\b|what does it say|what does it state|` +
+	`opening definition|closing summary|on the same slide|slide \d)`)
+
+// TestQuestionsAskAboutTheSubject keeps the bank pointed at the material rather than at
+// the slides that carry it.
+//
+// A question asking what an "Authority of Manager" row said in one edition of the deck
+// tests whether you had that file open, which is not what the exam does and not what
+// revision is for. Naming the course is fine — several definitions here differ from
+// general practice, and the reader needs to know whose answer is wanted — but the
+// question has to be answerable by someone who understands the topic.
+func TestQuestionsAskAboutTheSubject(t *testing.T) {
+	set, err := Load("../../content")
+	if err != nil {
+		t.Fatalf("loading: %v", err)
+	}
+	for _, q := range set.Questions {
+		if m := asksAboutTheDocument.FindString(q.Stem); m != "" {
+			t.Errorf("%s: stem says %q, which asks about the teaching material rather than the subject. "+
+				"Rewrite it as a situation, or drop it.", q.ID, m)
+		}
+	}
+}
