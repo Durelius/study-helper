@@ -1,0 +1,842 @@
+[
+  {
+    "term": "Artificial Intelligence (AI)",
+    "definition": "A system approximating the interactive or behavioural intelligence of a species; in this course it also reaches beyond machine learning to include symbolic systems, search and planning that involve no learning at all.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 15 }
+  },
+  {
+    "term": "Generative AI (GAI)",
+    "definition": "A system that captures the underlying probability distribution of a dataset in order to synthesise new samples that appear to originate from that same distribution.",
+    "topic": "concepts",
+    "source": { "deck": "GAI Lit 06", "slide": 8 }
+  },
+  {
+    "term": "Artificial General Intelligence (AGI)",
+    "definition": "Human-level breadth of intelligence across every task a person can do. The G is General, not Generative, and AGI is explicitly out of scope for this course.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 24 }
+  },
+  {
+    "term": "Predictive AI",
+    "definition": "AI judged on accuracy against verifiable ground truths; it asks 'what will be?', learning a mapping x to y that you then crank by supplying new inputs.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 29 }
+  },
+  {
+    "term": "Imitation game",
+    "definition": "Turing's 1950 test: if the quality of interaction is so human-like that you cannot tell machine from person, the question of whether it thinks is set aside. It tests only the human-like sense of intelligence, not correctness.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 19 }
+  },
+  {
+    "term": "Business Intelligence",
+    "definition": "'Intelligence' in the sense of extracted information of tactical or strategic value — the same sense as military intelligence, and not the sense used in 'AI'.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 53 }
+  },
+  {
+    "term": "Computational Intelligence",
+    "definition": "'Intelligence' in the sense of an optimal solution path or method for a complex problem, as in digital or computational intelligence.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 53 }
+  },
+  {
+    "term": "Artifact / artifice",
+    "definition": "The first sense of the A in AI: a machine creation made by humans rather than found in nature. True of every AI system, so it never distinguishes one case from another.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 19 }
+  },
+  {
+    "term": "Artificial semblance",
+    "definition": "The second sense of the A in AI: the standard by which 'seems about right' will do — the standard a generated image is held to.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 21 }
+  },
+  {
+    "term": "Artful creation",
+    "definition": "The third sense of the A in AI: 'truth manufactured', shaped by whatever is trending.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 21 }
+  },
+  {
+    "term": "Generate",
+    "definition": "Unpacked three ways in this course: simulate (draw from a distributional prior), connect (graph or network adjacency), and create (integrated innovation).",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 23 }
+  },
+  {
+    "term": "Extrapolative map",
+    "definition": "What generation is: a mapping into territory never explicitly observed, which is why it is called imagination rather than validation.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 32 }
+  },
+  {
+    "term": "Verifiable ground truth",
+    "definition": "A known correct answer against which a prediction can be scored. Predictive AI is evaluated against these; generative AI has none, which is why it is judged differently.",
+    "topic": "concepts",
+    "source": { "deck": "2024 midterm", "slide": 1 }
+  },
+  {
+    "term": "Plausible context relevance",
+    "definition": "The standard generative AI is judged by: whether the output is convincing and relevant to its context, since there is no ground truth for something newly invented.",
+    "topic": "concepts",
+    "source": { "deck": "2024 midterm", "slide": 1 }
+  },
+  {
+    "term": "Machine learning",
+    "definition": "Programming a system to calibrate its model parameters from data rather than writing if-then rules by hand. Its methods reach far outside AI, into statistics, optimisation and forecasting.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 76 }
+  },
+  {
+    "term": "Supervised learning",
+    "definition": "Learning from labelled targets by error correction — the paradigm behind an MLP classifier.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 76 }
+  },
+  {
+    "term": "Unsupervised learning",
+    "definition": "Learning structure from data with no labels supplied, as cluster analysis does.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 76 }
+  },
+  {
+    "term": "Reinforcement learning",
+    "definition": "Learning a policy by optimising against a reward signal rather than against labelled answers.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 76 }
+  },
+  {
+    "term": "Intelligent Being",
+    "definition": "Nacaskul's five-element framework: corporal form, valenced feeling, cognitive faculty, mental formation, and consciousness marker.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 18 }
+  },
+  {
+    "term": "Valenced feeling and graded sensation",
+    "definition": "The second element of the Intelligent Being: grading sensed input on a preferential scale from very negative through neutral to very positive, which acts as feedback to the learning algorithm and conditions future behaviour.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 18 }
+  },
+  {
+    "term": "Corporal form and physical embodiment",
+    "definition": "The first element of the Intelligent Being: a physical body with sensors and some autonomy, letting the agent interactively explore and learn from its environment.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 18 }
+  },
+  {
+    "term": "Cognitive faculty and pattern recognition",
+    "definition": "The third element of the Intelligent Being: learning an internal model of reality, forming memory, classifying and predicting — hence predictive AI.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 18 }
+  },
+  {
+    "term": "Mental formation and projective generation",
+    "definition": "The fourth element of the Intelligent Being: generatively imagining realistic scenarios, shapes and ideas — hence generative AI.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 18 }
+  },
+  {
+    "term": "Consciousness marker and program register",
+    "definition": "The fifth element of the Intelligent Being: momentary, sequential awareness of the computation step being performed, and the hook for the machine-consciousness debate.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 18 }
+  },
+  {
+    "term": "AI Literacy",
+    "definition": "Appreciating how AI got where it is, how it is trained from data, and both the capability and the pitfalls of AI solutions — so as not to apply AI blindly.",
+    "topic": "concepts",
+    "source": { "deck": "2025 midterm", "slide": 2 }
+  },
+  {
+    "term": "Artificial Literacy",
+    "definition": "The failure mode of AI literacy: outsourcing your essay, your pitch and your reading to a chatbot, so the competence never forms.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 38 }
+  },
+  {
+    "term": "Integrated Innovation",
+    "definition": "Designing an innovation to work within an integrated reality — not the integration of impressive features bolted together.",
+    "topic": "concepts",
+    "source": { "deck": "2025 midterm", "slide": 2 }
+  },
+  {
+    "term": "Applied",
+    "definition": "Working under real-world constraints rather than simplified ones, which is why applied mathematics is harder than theoretical mathematics, not easier.",
+    "topic": "concepts",
+    "source": { "deck": "GAI Lit 02", "slide": 6 }
+  },
+  {
+    "term": "Discriminative modelling",
+    "definition": "Learning p(y given x) — the probability of a label given an input. The predictive side of the arc.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 1 }
+  },
+  {
+    "term": "Generative modelling",
+    "definition": "Learning p(x), or p(x given a condition c) — the distribution of the data itself, so that new samples can be drawn from it.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 1 }
+  },
+  {
+    "term": "Abstraction",
+    "definition": "Pulling a generality out of specific experiences so it can be applied to new situations. Animals do it adaptively, humans deliberately, and AI at scale — 'AI did not invent abstraction; it industrialized it'.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 5 }
+  },
+  {
+    "term": "Computing Machinery and Intelligence",
+    "definition": "Turing's 1950 paper, which opens the language-AI timeline and introduces the imitation game.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 58 }
+  },
+  {
+    "term": "Dartmouth workshop",
+    "definition": "The 1956 summer workshop at Dartmouth College generally treated as the founding of AI as an academic field.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 02", "slide": 14 }
+  },
+  {
+    "term": "Symbolic AI",
+    "definition": "Rule-based formal logic over symbols: hand-written if-then rules, no learning from data. The dominant approach from the 1950s until the neural revival.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 59 }
+  },
+  {
+    "term": "GOFAI",
+    "definition": "Good Old-Fashioned AI — the retronym applied to symbolic, rule-based AI once neural approaches took the name 'AI' for themselves.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 59 }
+  },
+  {
+    "term": "Retronym",
+    "definition": "A new name for an older thing, coined because a newer thing took the original name. Expert systems became 'GOFAI'; ordinary AI became 'predictive AI'.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 59 }
+  },
+  {
+    "term": "Expert system",
+    "definition": "A rule-based program encoding a specialist's knowledge as if-then rules, from about 1965; early success in medical diagnosis.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "MYCIN",
+    "definition": "A 1975 expert system that diagnosed bacterial infections at about 65% accuracy — the standard example of what rule-based AI could and could not do.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "LISP and Prolog",
+    "definition": "The two programming languages associated with the symbolic-AI era and with expert systems.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "METEO",
+    "definition": "The Canadian system that from 1981 translated weather reports between English and French — early natural-language processing that actually shipped.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 02", "slide": 14 }
+  },
+  {
+    "term": "Deep Blue",
+    "definition": "IBM's chess program, which beat the world champion in 1997 using search and hand-built evaluation rather than learning from data.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 02", "slide": 14 }
+  },
+  {
+    "term": "word2vec",
+    "definition": "Mikolov's 2013 method for turning English words into vectors of numbers, trained by guessing a missing word from its neighbours. It made word algebra possible and made words usable as network input.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 68 }
+  },
+  {
+    "term": "Attention Is All You Need",
+    "definition": "Vaswani and colleagues' 2017 paper introducing the Transformer, and the source of the T in GPT. The title's claim is that recurrence and convolution can be dropped entirely.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 70 }
+  },
+  {
+    "term": "McCulloch and Pitts",
+    "definition": "The 1943 mathematical model of a neuron, which opens the neurocomputational thread.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 61 }
+  },
+  {
+    "term": "Connectionist AI",
+    "definition": "The claim that the brain has no central processor — it is just neurons connected to neurons — so intelligence should be built by replicating that mechanism rather than the outward behaviour.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 63 }
+  },
+  {
+    "term": "Biological neural network (BNN)",
+    "definition": "The actual brain: nerve cells connected in a network, passing stimulus between them.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 63 }
+  },
+  {
+    "term": "Artificial neural network (ANN)",
+    "definition": "A mathematical model of a biological neural network. Every modern AI system is built from ANNs.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 63 }
+  },
+  {
+    "term": "Hubel and Wiesel",
+    "definition": "The researchers who, around 1959, recorded from a cat's striate cortex and found neurons that fired for oriented lines rather than for whole objects — the finding the CNN is built on.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 71 }
+  },
+  {
+    "term": "Neocognitron",
+    "definition": "Fukushima's 1980 network, the first convolutional architecture and the direct descendant of the cat experiment.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 72 }
+  },
+  {
+    "term": "LeNet",
+    "definition": "LeCun's 1998 convolutional network, which cracked handwritten character recognition.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 73 }
+  },
+  {
+    "term": "ImageNet",
+    "definition": "The large labelled image dataset built from 2010 by Fei-Fei Li — the missing ingredient that made deep vision models trainable.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "AlexNet",
+    "definition": "Krizhevsky, Sutskever and Hinton's 2012 convolutional network, which cut ImageNet error from about 25% to single digits and started the deep-learning era in vision.",
+    "topic": "timelines",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "Minsky and Papert",
+    "definition": "Their 1969 result showed a single perceptron cannot learn XOR, which stalled neural research until multi-layer networks and backpropagation arrived.",
+    "topic": "timelines",
+    "source": { "deck": "lec 1", "slide": 65 }
+  },
+  {
+    "term": "Perceptron",
+    "definition": "A mathematical-computational model of a generic neuron: it sums weighted incoming signals, excitatory or inhibitory, and fires if the sum exceeds an internal threshold.",
+    "topic": "neural-networks",
+    "source": { "deck": "2025 midterm", "slide": 2 }
+  },
+  {
+    "term": "Multilayer perceptron (MLP)",
+    "definition": "Feedforward layers of perceptrons stacked, each layer's output becoming the next layer's input. No recurrence and no skipping layers.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Feedforward network (FFN)",
+    "definition": "A network in which the signal travels one way only, from input towards output.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Recurrent neural network (RNN)",
+    "definition": "A network in which the signal loops back, so earlier outputs feed later computation.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Weight",
+    "definition": "A learned number scaling one input to a neuron. Weight, coefficient and parameter all mean the same thing in this course.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Bias",
+    "definition": "The learned number added to a neuron's weighted sum, which shifts its decision threshold — as opposed to the weights, which scale the inputs.",
+    "topic": "neural-networks",
+    "source": { "deck": "GAI Lit 03", "slide": 6 }
+  },
+  {
+    "term": "Parameter",
+    "definition": "A number learned from data during training, as opposed to an input you supply or a hyperparameter you set beforehand.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Hyperparameter",
+    "definition": "A setting fixed before training begins — layer sizes, learning rate — rather than learned from the data.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Variable selection",
+    "definition": "Choosing which x variables to feed the model, given what you want to predict and what your data contains.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Feature engineering",
+    "definition": "Building a new input from existing ones by a logical function, such as dividing one variable by another, before the data reaches the model.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Activation function",
+    "definition": "The nonlinearity applied to a neuron's weighted sum. Without it, stacking layers gains nothing, because a chain of linear maps is still linear.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Sigmoid",
+    "definition": "An activation that squashes any real input into the range 0 to 1. It suffers from vanishing gradients in deep networks, which is why ReLU displaced it.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 4 }
+  },
+  {
+    "term": "ReLU",
+    "definition": "The rectified linear unit, or ramp: returns its input if positive and zero otherwise. A cheap nonlinearity and the modern default.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 2 }
+  },
+  {
+    "term": "Softmax",
+    "definition": "Converts a vector of raw activations into a probability distribution over classes, summing to one. Sigmoid squashes a single value; softmax works across a whole vector.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 2 }
+  },
+  {
+    "term": "Linearly separable",
+    "definition": "Data that a single straight boundary can divide correctly. A single perceptron can only handle this case, which is why XOR requires layers.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 4 }
+  },
+  {
+    "term": "XOR problem",
+    "definition": "The classic counterexample to the single perceptron: no one straight line separates the true cases from the false ones, so layers are needed.",
+    "topic": "neural-networks",
+    "source": { "deck": "GAI Lit 03", "slide": 9 }
+  },
+  {
+    "term": "Loss function",
+    "definition": "A single number measuring how far the network's output is from the target. Training minimises it.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 5 }
+  },
+  {
+    "term": "RMSE",
+    "definition": "Root Mean Squared Error — one specific loss function, natural when the target is a quantity. The loss is the general idea; RMSE is an instance of it.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 2 }
+  },
+  {
+    "term": "Gradient",
+    "definition": "The vector giving the direction of steepest ascent of the loss. Training steps against it.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 2 }
+  },
+  {
+    "term": "Gradient descent",
+    "definition": "The iterative, stepwise optimiser: from wherever you are, find the direction that reduces the loss fastest, take a small step, and repeat.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 2 }
+  },
+  {
+    "term": "Backpropagation",
+    "definition": "A specialisation of the gradient descent algorithm, applied to minimise prediction error for a multilayer perceptron by tweaking its weights and biases, sending the error backwards through the layers.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 5 }
+  },
+  {
+    "term": "ADAM",
+    "definition": "Adaptive Moment Estimation — a refinement of plain gradient descent that adapts the size of each step.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 2 }
+  },
+  {
+    "term": "One-hot encoding",
+    "definition": "A representation in which exactly one slot is on and all the rest are off — the standard output format for a classifier over a fixed set of classes.",
+    "topic": "neural-networks",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Universal approximation",
+    "definition": "The result that a sufficiently wide network can represent essentially any function. It does not promise that training will find it, or that the result will generalise.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 6 }
+  },
+  {
+    "term": "Deep learning",
+    "definition": "Neural networks with many layers, trained end to end. Not a new architecture but the multilayer perceptron idea at depth and scale.",
+    "topic": "neural-networks",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "Overfitting",
+    "definition": "Training error continues to fall while validation error plateaus or rises — the model is learning the training set rather than the pattern.",
+    "topic": "neural-networks",
+    "source": { "deck": "Wolfram CNN", "slide": 9 }
+  },
+  {
+    "term": "Underfitting",
+    "definition": "Both training and validation error stay high: the model lacks the capacity or the training to capture the pattern at all.",
+    "topic": "neural-networks",
+    "source": { "deck": "Wolfram CNN", "slide": 9 }
+  },
+  {
+    "term": "Convolutional neural network (CNN)",
+    "definition": "A network built from convolutional layers, designed for grid-structured data such as images by exploiting locality and weight sharing.",
+    "topic": "cnn-vision",
+    "source": { "deck": "2025 midterm", "slide": 2 }
+  },
+  {
+    "term": "Convolution layer",
+    "definition": "A layer of convolution matrices with trainable entries, slid across a grid of pixel values to detect underlying visual patterns.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 5 }
+  },
+  {
+    "term": "Weight sharing",
+    "definition": "Applying the same learned filter at every position in the image, so a feature is detected wherever it appears and the parameter count does not grow with image size.",
+    "topic": "cnn-vision",
+    "source": { "deck": "lec 5", "slide": 1 }
+  },
+  {
+    "term": "Translational covariance",
+    "definition": "The network processes every region with the same learned filters, so features are detected consistently across locations.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 5 }
+  },
+  {
+    "term": "Scale covariance",
+    "definition": "Handling the same object at different apparent sizes, because distance from the camera changes how large it appears.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 5 }
+  },
+  {
+    "term": "Rotation invariance",
+    "definition": "The property that the predicted label does not change when the input is rotated — though symmetry sometimes matters, since flipping 'bp' gives 'qd'.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 1 }
+  },
+  {
+    "term": "Hierarchy of features",
+    "definition": "Small features combining into larger ones: edges into shapes into objects, leaves into trees into forest. Borrowed directly from the cat's visual cortex.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 1 }
+  },
+  {
+    "term": "Colour correlation length",
+    "definition": "The tendency of neighbouring pixels in natural images to have similar colours, with the similarity falling off as distance grows.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 2 }
+  },
+  {
+    "term": "Feature binding",
+    "definition": "The brain's binding of spatially aligned features into a single perceived object; one of the vision principles CNN design borrows.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 1 }
+  },
+  {
+    "term": "Pooling",
+    "definition": "A layer that reduces the size of the representation, summarising each small neighbourhood into a single value.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 7 }
+  },
+  {
+    "term": "Flattening",
+    "definition": "Converting the three-dimensional tensor produced by the convolutional stack into a one-dimensional vector that fully-connected layers can consume.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 4 }
+  },
+  {
+    "term": "Tensor",
+    "definition": "The multi-dimensional array that a network's numbers live in.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 4 }
+  },
+  {
+    "term": "Encoder (vision)",
+    "definition": "The component that converts raw image data into the normalised numeric arrays a neural network can take as input.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 3 }
+  },
+  {
+    "term": "Cross-entropy loss",
+    "definition": "The distance between the predicted class probabilities and the true one-hot encoded label — the natural loss when the target is a class rather than a quantity.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 8 }
+  },
+  {
+    "term": "Dropout",
+    "definition": "Randomly switching off a fraction of units during training so the network cannot rely on any single path; a regulariser against overfitting.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 10 }
+  },
+  {
+    "term": "Data augmentation",
+    "definition": "Manufacturing extra plausible training examples by flipping or slightly translating the originals, forcing the model to generalise.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 10 }
+  },
+  {
+    "term": "Receptive field",
+    "definition": "The region of the input image a given neuron can actually see. It widens with depth, which is why early layers detect edges and deep layers detect objects.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 12 }
+  },
+  {
+    "term": "Sensitivity map",
+    "definition": "A map showing which input pixels most affect a given output for a particular image — measurement, as opposed to the receptive field, which is architecture.",
+    "topic": "cnn-vision",
+    "source": { "deck": "Wolfram CNN", "slide": 12 }
+  },
+  {
+    "term": "Autoencoder",
+    "definition": "A network trained to reproduce its own input after forcing it through a narrow middle layer. It needs no labels, because the target is the input itself.",
+    "topic": "autoencoders",
+    "source": { "deck": "GAI Lit 06", "slide": 8 }
+  },
+  {
+    "term": "Bottleneck",
+    "definition": "The narrow middle layer of an autoencoder, holding fewer numbers than the input, which forces the network to discard accidents and keep structure.",
+    "topic": "autoencoders",
+    "source": { "deck": "GAI Lit 06", "slide": 8 }
+  },
+  {
+    "term": "Latent space",
+    "definition": "The compressed internal representation at an autoencoder's bottleneck, in which each point stands for an input and nearby points stand for similar inputs.",
+    "topic": "autoencoders",
+    "source": { "deck": "GAI Lit 07", "slide": 6 }
+  },
+  {
+    "term": "Variational autoencoder (VAE)",
+    "definition": "An autoencoder whose encoder outputs a probability distribution over the latent space rather than a single point, so a new point can be sampled and decoded into a new, realistic example.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "Encoder-decoder",
+    "definition": "An architecture that compresses the input into a representation and then expands that representation into the target — which may be the input, a translation of it, or a mask over it.",
+    "topic": "autoencoders",
+    "source": { "deck": "GAI Lit 07", "slide": 5 }
+  },
+  {
+    "term": "Decoder",
+    "definition": "The half of an autoencoder that turns a latent code back into data. Once the latent space is one you can sample from, the decoder is the generator.",
+    "topic": "autoencoders",
+    "source": { "deck": "GAI Lit 07", "slide": 5 }
+  },
+  {
+    "term": "U-Net",
+    "definition": "An encoder-decoder CNN with skip connections carrying fine spatial detail across the bottleneck; used for segmentation, reconstruction and medical imaging.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 3 }
+  },
+  {
+    "term": "Skip connection",
+    "definition": "A direct link from an encoder stage to the matching decoder stage, restoring the fine detail that downsampling destroyed. It is what gives the U-Net its shape.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 3 }
+  },
+  {
+    "term": "Dimensionality reduction",
+    "definition": "Representing data with fewer numbers while keeping what matters. An autoencoder does it by learning, rather than by a fixed rule.",
+    "topic": "autoencoders",
+    "source": { "deck": "GAI Lit 06", "slide": 8 }
+  },
+  {
+    "term": "Anomaly detection",
+    "definition": "Spotting unusual inputs by their reconstruction error: an autoencoder trained on normal examples reconstructs them well and everything else badly.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 3 }
+  },
+  {
+    "term": "Reconstruction loss",
+    "definition": "The half of a VAE's objective that keeps the decoded output close to the original input, balanced against latent regularisation.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "Representation bridge",
+    "definition": "The middle stage of the six-architecture arc — VAE and U-Net — which learns compact structured representations and so serves both prediction and generation.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 3 }
+  },
+  {
+    "term": "Transformer",
+    "definition": "The 2017 architecture built from token embeddings, positional encoding, self-attention layers and feedforward blocks, with no recurrence and no convolution.",
+    "topic": "transformers",
+    "source": { "deck": "GAI Lit 07", "slide": 7 }
+  },
+  {
+    "term": "Token",
+    "definition": "The unit a sentence is chopped into before embedding — usually a word or a fragment of one, drawn from a fixed vocabulary.",
+    "topic": "transformers",
+    "source": { "deck": "GAI Lit 07", "slide": 7 }
+  },
+  {
+    "term": "Embedding",
+    "definition": "The learned vector that carries an item's meaning, in which similar items sit close together. It supplies global-context meaning, as against attention's local-context interpretation.",
+    "topic": "transformers",
+    "source": { "deck": "lec 1", "slide": 68 }
+  },
+  {
+    "term": "Word algebra",
+    "definition": "The property that directions in embedding space correspond to consistent relationships, so king minus male plus female lands near queen.",
+    "topic": "transformers",
+    "source": { "deck": "lec 1", "slide": 68 }
+  },
+  {
+    "term": "Attention",
+    "definition": "The mechanism that weighs how much every other token should inform each token's interpretation, supplying local context within the particular sentence.",
+    "topic": "transformers",
+    "source": { "deck": "lec 1", "slide": 70 }
+  },
+  {
+    "term": "Self-attention",
+    "definition": "Attention in which queries, keys and values all come from the same sequence: every token weighing every other token in its own sentence.",
+    "topic": "transformers",
+    "source": { "deck": "GAI Lit 07", "slide": 7 }
+  },
+  {
+    "term": "Query, key and value",
+    "definition": "The three roles attention is built from: the query is what a token is looking for, the key is what each other token offers, and the value is the content passed along when they match.",
+    "topic": "transformers",
+    "source": { "deck": "GAI Lit 07", "slide": 7 }
+  },
+  {
+    "term": "Positional encoding",
+    "definition": "Information added to each token's vector recording where it sits in the sequence, since attention itself is order-blind.",
+    "topic": "transformers",
+    "source": { "deck": "GAI Lit 07", "slide": 7 }
+  },
+  {
+    "term": "GPT",
+    "definition": "Generative Pre-trained Transformer: generative because it produces new text, pre-trained because it learns from an internet-scale corpus before any task, transformer because attention weighs every other token.",
+    "topic": "transformers",
+    "source": { "deck": "lec 1", "slide": 70 }
+  },
+  {
+    "term": "Large language model (LLM)",
+    "definition": "A very large transformer pre-trained on internet-scale text to predict the next token, then used to generate language.",
+    "topic": "transformers",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "Generative adversarial network (GAN)",
+    "definition": "Two networks in a minimax game: a generator makes fakes and a discriminator judges real against fake, each improving as the other does. Goodfellow and colleagues, 2014.",
+    "topic": "generative-models",
+    "source": { "deck": "lec 5", "slide": 7 }
+  },
+  {
+    "term": "Generator",
+    "definition": "The half of a GAN that produces fakes from random input, learning only from how well it fools the discriminator.",
+    "topic": "generative-models",
+    "source": { "deck": "lec 5", "slide": 7 }
+  },
+  {
+    "term": "Discriminator",
+    "definition": "The half of a GAN that judges real against fake — an ordinary predictive classifier, and the only training signal the generator gets.",
+    "topic": "generative-models",
+    "source": { "deck": "lec 5", "slide": 7 }
+  },
+  {
+    "term": "Deepfake",
+    "definition": "A convincing fake video or image of a real person produced by generative models; the application that made adversarial networks famous.",
+    "topic": "generative-models",
+    "source": { "deck": "GAI Lit 02", "slide": 14 }
+  },
+  {
+    "term": "Diffusion model",
+    "definition": "A model that learns to reverse a fixed noising process, so generation starts from pure noise and iteratively denoises into data.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "Forward process",
+    "definition": "In a diffusion model, the prescribed step-by-step corruption of data with Gaussian noise. It is designed rather than learned, which is what makes the reverse a supervised problem.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "Flow matching",
+    "definition": "Defining a probability path from a simple distribution to the data and learning the vector field that transports samples along it; generation means starting from noise and following the learned flow.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "Conditioning",
+    "definition": "Steering a generative model with extra input, such as a text embedding consulted at every denoising step of a text-to-image model.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 3 }
+  },
+  {
+    "term": "Manifold",
+    "definition": "The low-dimensional, structured surface that real data occupy within the space of all possible values — the assumption that makes a mapping from a simple distribution possible at all.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "PRNG",
+    "definition": "The pseudo-random number generator you 'crank' to produce a new sample: the randomness supplies variation while the learned mapping supplies structure.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 2 }
+  },
+  {
+    "term": "Cycle GAN",
+    "definition": "An adversarial architecture for unpaired image-to-image translation, learning a mapping between two image collections with no matched example pairs.",
+    "topic": "generative-models",
+    "source": { "deck": "Wolfram CNN", "slide": 23 }
+  },
+  {
+    "term": "Six foundational architectures",
+    "definition": "MLP, CNN, VAE, U-Net, Transformer and Diffusion — predictive, representation bridge, then generative.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 3 }
+  },
+  {
+    "term": "Five principles of modern deep learning",
+    "definition": "Representation, relation, parameterisation, optimisation and architecture: not ever more complicated mathematics, but increasingly ingenious orchestration.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 10 }
+  },
+  {
+    "term": "AI slop",
+    "definition": "Low-value, mass-produced AI-generated content flooding the web, cheap enough to produce that its volume swamps material worth reading.",
+    "topic": "ethics-impact",
+    "source": { "deck": "playlist", "slide": 21 }
+  },
+  {
+    "term": "Cognitive offloading",
+    "definition": "Handing thinking work to an external tool. Offloading the reasoning itself is the risky case, because the judgement needed to check the answer never develops.",
+    "topic": "ethics-impact",
+    "source": { "deck": "lec 1", "slide": 40 }
+  },
+  {
+    "term": "Collective stupidity",
+    "definition": "The population-level effect of everyone offloading their reasoning: critical thinking weakens at the same rate answers become easier to get.",
+    "topic": "ethics-impact",
+    "source": { "deck": "playlist", "slide": 21 }
+  },
+  {
+    "term": "Hallucination",
+    "definition": "A fluent invention stated as fact by a generative model — the direct consequence of optimising for plausible context relevance rather than for accuracy.",
+    "topic": "ethics-impact",
+    "source": { "deck": "lec 1", "slide": 30 }
+  },
+  {
+    "term": "Algorithmic bias",
+    "definition": "A model reproducing the bias in its training data, because parameters are calibrated from a record of what people did rather than of what was right.",
+    "topic": "ethics-impact",
+    "source": { "deck": "lec 1", "slide": 36 }
+  },
+  {
+    "term": "Training-data degradation",
+    "definition": "The loop in which machine-generated content fills the corpus that future models train on, so distortions are amplified rather than corrected.",
+    "topic": "ethics-impact",
+    "source": { "deck": "playlist", "slide": 21 }
+  },
+  {
+    "term": "RAG",
+    "definition": "Retrieval-Augmented Generation: retrieve relevant documents first, then generate grounded on them, for factual verifiability. Mapped to the term project rather than this exam.",
+    "topic": "ethics-impact",
+    "source": { "deck": "GAI Lit 07", "slide": 2 }
+  }
+]

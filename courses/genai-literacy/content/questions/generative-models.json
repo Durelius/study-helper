@@ -32,7 +32,7 @@
     "explanation": "Predict what is most likely, represent the underlying structure, generate what could be. The same core idea — a network learning useful representations — powers all three; each stage only adds a capability.",
     "source": { "deck": "infographics", "slide": 3 },
     "difficulty": 2,
-    "tags": ["six-architectures", "predictive-generative", "distinction"],
+    "tags": ["six-architectures", "predictive-generative", "distinction", "architecture"],
     "examFocus": true
   },
   {
@@ -186,7 +186,7 @@
     "explanation": "Same destination, three routes. Each one constructs a mapping between a simple distribution and the data, turns that into a supervised learning task, and generates by sampling the simple distribution and applying what it learned.",
     "source": { "deck": "infographics", "slide": 4 },
     "difficulty": 3,
-    "tags": ["vae-diffusion", "flow-matching", "distinction"],
+    "tags": ["vae-diffusion", "flow-matching", "distinction", "architecture"],
     "examFocus": true
   },
   {
@@ -258,7 +258,7 @@
     "explanation": "Sequence generation is the transformer's task and high-quality image generation is the diffusion model's. They are the two generative architectures of the six, and their typical tasks are what separates them.",
     "source": { "deck": "infographics", "slide": 3 },
     "difficulty": 2,
-    "tags": ["six-architectures", "scenario", "distinction"],
+    "tags": ["six-architectures", "scenario", "distinction", "architecture"],
     "examFocus": true
   },
   {
@@ -311,7 +311,7 @@
     "explanation": "Transformer and diffusion are the generative pair. MLP and CNN are predictive; U-Net sits on the bridge with the VAE, learning a representation that serves both prediction and generation.",
     "source": { "deck": "infographics", "slide": 3 },
     "difficulty": 2,
-    "tags": ["six-architectures", "distinction"],
+    "tags": ["six-architectures", "distinction", "architecture"],
     "examFocus": true
   },
   {

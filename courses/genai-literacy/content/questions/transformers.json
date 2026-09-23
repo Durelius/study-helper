@@ -14,7 +14,7 @@
     "explanation": "Tokenise, then embed. Tokenising chops the text into units the model has a vocabulary for; embedding maps each unit to a vector, so that words with related meanings sit near one another.",
     "source": { "deck": "lec 1", "slide": 68 },
     "difficulty": 2,
-    "tags": ["embedding", "tokenization", "distinction"],
+    "tags": ["embedding", "tokenization", "distinction", "architecture"],
     "examFocus": true
   },
   {
@@ -100,7 +100,7 @@
     "explanation": "Embed, position, attend, then a distribution over the vocabulary. The model never chooses a word outright: it produces probabilities for all of them and one is sampled, which is why the same prompt can give different answers.",
     "source": { "deck": "GAI Lit 07", "slide": 7 },
     "difficulty": 2,
-    "tags": ["transformer", "attention", "generation"],
+    "tags": ["transformer", "attention", "generation", "architecture"],
     "examFocus": true
   },
   {
@@ -241,7 +241,7 @@
     "explanation": "Architecture plus scale plus objective: a transformer, very large, trained to predict the next token on a very large corpus. Everything it appears to know is a by-product of getting good at that one prediction task.",
     "source": { "deck": "GAI Lit 03", "slide": 5 },
     "difficulty": 2,
-    "tags": ["llm", "definition"],
+    "tags": ["llm", "definition", "architecture"],
     "examFocus": true
   },
   {
@@ -259,7 +259,7 @@
     "explanation": "The shape of the task sets the shape of the model. Two sequences in two languages call for encoder and decoder; one continuing sequence calls for a single stack predicting the next token.",
     "source": { "deck": "GAI Lit 07", "slide": 7 },
     "difficulty": 3,
-    "tags": ["transformer", "encoder-decoder", "distinction"],
+    "tags": ["transformer", "encoder-decoder", "distinction", "architecture"],
     "examFocus": false
   },
   {

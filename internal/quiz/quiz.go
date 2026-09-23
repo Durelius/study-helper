@@ -50,7 +50,7 @@ var generic = []Mode{
 	{
 		ID: "exam", Title: "Exam simulation", Count: 30, TimeLimitSec: 45 * 60,
 		Blurb: "Timed, and shaped like the real paper.",
-		Why:   "Weighted toward the five named questions: critical path, risk and knowledge areas, BPM and quality, a case, and project planning.",
+		Why:   "Questions are drawn across topics in proportion to the marks each one carries, so the mix matches what you will actually sit.",
 	},
 	{
 		ID: "weak", Title: "Weak spots", Count: 12, weak: true,
@@ -70,31 +70,59 @@ var generic = []Mode{
 	{
 		ID: "visual", Title: "Spot the error", Count: 12, types: []string{"hotspot"},
 		Blurb: "Click what is wrong with the diagram.",
-		Why:   "The paper shows you a model and asks you to circle the mistake. This is the same thing: read the diagram, point at the error.",
+		Why:   "Read the diagram and point at the error, rather than picking a sentence that describes it.",
 	},
 	{
 		ID: "glossary", Title: "Glossary sprint", Count: 15, generator: "glossary",
 		Blurb: "Term to definition, fast.",
-		Why:   "Cheap recall practice for the true/false and ABCD bulk of the paper.",
+		Why:   "Cheap recall practice, and the quickest way to find the terms you cannot yet state.",
 	},
 	{
 		ID: "case", Title: "Case study", Count: 0, generator: "case",
 		Blurb: "A scenario with questions hanging off it.",
-		Why:   "Question 4. Read the case once, then answer without scrolling back — that is the exam condition.",
+		Why:   "Read the case once, then answer without scrolling back — that is the exam condition.",
 	},
 }
 
 // Modes is the catalogue for one course: the generic drills, plus the ones its config
 // defines, minus any computed drill the course does not teach.
 func Modes(c *course.Course) []Mode {
+	// A course may redefine a built-in mode by using its id — to say how long its own
+	// exam simulation should be, or to describe it in terms of its own paper.
+	overrides := map[string]course.Mode{}
+	for _, m := range c.Modes {
+		overrides[m.ID] = m
+	}
+
 	out := []Mode{}
 	for _, m := range generic {
 		if m.generator != "" && m.generator != "glossary" && m.generator != "case" && !c.Has(m.generator) {
 			continue
 		}
+		if o, ok := overrides[m.ID]; ok {
+			if o.Title != "" {
+				m.Title = o.Title
+			}
+			if o.Count > 0 {
+				m.Count = o.Count
+			}
+			if o.Blurb != "" {
+				m.Blurb = o.Blurb
+			}
+			if o.Why != "" {
+				m.Why = o.Why
+			}
+			if o.TimeLimitSec > 0 {
+				m.TimeLimitSec = o.TimeLimitSec
+			}
+			delete(overrides, m.ID)
+		}
 		out = append(out, m)
 	}
 	for _, m := range c.Modes {
+		if _, isOverride := overrides[m.ID]; !isOverride {
+			continue // already merged into a built-in above
+		}
 		out = append(out, Mode{
 			ID: m.ID, Title: m.Title, Count: m.Count, Blurb: m.Blurb, Why: m.Why,
 			topics: m.Topics, tags: m.Tags, types: m.Types, examFocus: m.ExamFocus,

@@ -82,7 +82,7 @@
     "explanation": "A point versus a distribution. Because the VAE's encoder outputs a distribution rather than a single code, the latent space is filled in continuously, so a point you draw at random still decodes to something realistic.",
     "source": { "deck": "infographics", "slide": 4 },
     "difficulty": 2,
-    "tags": ["ae-vae", "distinction", "latent-space"],
+    "tags": ["ae-vae", "distinction", "latent-space", "architecture"],
     "examFocus": true
   },
   {
@@ -190,7 +190,7 @@
     "explanation": "Compressing to a bottleneck destroys exactly the pixel-level precision a segmentation mask needs. The skip connections hand that detail straight across, which is where the U in the diagram comes from.",
     "source": { "deck": "infographics", "slide": 3 },
     "difficulty": 2,
-    "tags": ["u-net", "skip-connections", "distinction"],
+    "tags": ["u-net", "skip-connections", "distinction", "architecture"],
     "examFocus": true
   },
   {
@@ -222,7 +222,7 @@
     "explanation": "Image segmentation is the U-Net's signature task, and medical imaging is where it was introduced. The output has the shape of the input, which is why the decoder must be handed back the detail the encoder discarded.",
     "source": { "deck": "infographics", "slide": 3 },
     "difficulty": 2,
-    "tags": ["u-net", "segmentation", "scenario"],
+    "tags": ["u-net", "segmentation", "scenario", "architecture"],
     "examFocus": false
   },
   {

@@ -34,6 +34,9 @@ type Mode struct {
 	Topics []string `json:"topics"`
 	Tags   []string `json:"tags"`
 	Types  []string `json:"types"`
+	// TimeLimitSec puts a clock on the mode. Used when a course redefines the built-in
+	// exam simulation to match the length of its own paper.
+	TimeLimitSec int `json:"timeLimitSec"`
 	// ExamFocus restricts the mode to questions flagged as exam-critical.
 	ExamFocus bool `json:"examFocus"`
 }

@@ -14,12 +14,14 @@ import { api, type CourseInfo } from './lib/api'
 import { normaliseName } from './lib/name'
 import { rememberName, storedName } from './lib/player'
 
+// Audio only appears for a course that has an audiobook rendered, so a course without
+// one does not advertise an empty tab.
 const tabs = [
-  { to: '/', label: 'Plan', end: true },
-  { to: '/read', label: 'Read', end: false },
-  { to: '/quiz', label: 'Quiz', end: false },
-  { to: '/audio', label: 'Audio', end: false },
-  { to: '/leaderboard', label: 'Leaderboard', end: false },
+  { to: '/', label: 'Plan', end: true, always: true },
+  { to: '/read', label: 'Read', end: false, always: true },
+  { to: '/quiz', label: 'Quiz', end: false, always: true },
+  { to: '/audio', label: 'Audio', end: false, always: false },
+  { to: '/leaderboard', label: 'Leaderboard', end: false, always: true },
 ]
 
 export default function App() {
@@ -38,7 +40,7 @@ export default function App() {
 }
 
 function Shell({ name, setName }: { name: string; setName: (n: string) => void }) {
-  const { current } = useAudio()
+  const { current, episodes } = useAudio()
   // The course names itself, so one build serves every course.
   const [course, setCourse] = useState<CourseInfo | null>(null)
   useEffect(() => {
@@ -73,7 +75,7 @@ function Shell({ name, setName }: { name: string; setName: (n: string) => void }
         {/* The tabs are drawn as lanes, which is the structural motif the whole app
             borrows from the course's own swimlane diagrams. */}
         <nav className="mx-auto flex max-w-5xl gap-1 px-4">
-          {tabs.map((t) => (
+          {tabs.filter((t) => t.always || episodes.length > 0).map((t) => (
             <NavLink
               key={t.to}
               to={t.to}

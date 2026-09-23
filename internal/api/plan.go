@@ -12,6 +12,18 @@ import (
 	"github.com/wilhelmdurelius/chulastudy/internal/store"
 )
 
+// heaviestTopic is the topic with the largest share of the exam, used when a course
+// has no computed drill to fall back on.
+func (s *Server) heaviestTopic() string {
+	best, bestWeight := "", 0.0
+	for id, w := range s.Set.Course().Weights() {
+		if w > bestWeight {
+			best, bestWeight = id, w
+		}
+	}
+	return best
+}
+
 // step is one recommended action on the dashboard.
 type step struct {
 	Action string `json:"action"` // read | quiz
@@ -113,12 +125,21 @@ func (s *Server) handlePlan(w http.ResponseWriter, r *http.Request) {
 		})
 	}
 
-	// The two procedural questions repay drilling right up to the door.
-	steps = append(steps, step{
-		Action: "quiz", Mode: "cpm",
-		Label: "Critical path lab",
-		Why:   "Question 1 is a critical path problem and the networks here are generated fresh, so it is real practice rather than recall.",
-	})
+	// A computed drill only exists where the course teaches it — suggesting the
+	// critical-path lab to a course with no critical path was a real bug.
+	if s.Set.Course().Has("cpm") {
+		steps = append(steps, step{
+			Action: "quiz", Mode: "cpm",
+			Label: "Critical path lab",
+			Why:   "Question 1 is a critical path problem and the networks here are generated fresh, so it is real practice rather than recall.",
+		})
+	} else if heaviest := s.heaviestTopic(); heaviest != "" {
+		steps = append(steps, step{
+			Action: "quiz", Mode: "topic", Topic: heaviest,
+			Label: "Drill " + s.Set.Title(heaviest),
+			Why:   "The topic carrying the most marks on this paper, so it repays practice right up to the door.",
+		})
+	}
 
 	if remaining < 12*time.Hour && remaining > 0 {
 		steps = append([]step{{
@@ -127,6 +148,20 @@ func (s *Server) handlePlan(w http.ResponseWriter, r *http.Request) {
 			Why:   "Under twelve hours to go. Stop learning new material and rehearse the paper instead — timed, mixed, no notes.",
 		}}, steps...)
 	}
+
+	// Two rules can land on the same suggestion — the weakest topic is often also the
+	// heaviest one — and a list that says the same thing twice reads like a bug.
+	suggested := map[string]bool{}
+	unique := steps[:0]
+	for _, st := range steps {
+		key := st.Action + "|" + st.Mode + "|" + st.Topic
+		if suggested[key] {
+			continue
+		}
+		suggested[key] = true
+		unique = append(unique, st)
+	}
+	steps = unique
 
 	// Overall accuracy, counted across topics rather than sessions, so retrying the
 	// same question does not flatter it.
