@@ -121,7 +121,7 @@ func (s *Server) handlePlan(w http.ResponseWriter, r *http.Request) {
 		steps = append(steps, step{
 			Action: "quiz", Mode: "weak",
 			Label: fmt.Sprintf("Weak spots — %d confident mistakes", confidentlyWrong),
-			Why:   "You were sure and wrong on these. Those are the answers you will put down again on Wednesday unless you overwrite them now.",
+			Why:   "You were sure and wrong on these. Those are the answers you will put down again in the exam unless you overwrite them now.",
 		})
 	}
 

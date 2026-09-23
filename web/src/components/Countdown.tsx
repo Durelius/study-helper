@@ -1,12 +1,17 @@
 import { countdown } from '../lib/format'
 
-// The hero is the one thing this app is really about: how much float is left before
-// Wednesday. It is drawn as a schedule bar running into a milestone diamond, which is
+// The hero is the one thing this app is really about: how much float is left before the
+// exam. It is drawn as a schedule bar running into a milestone diamond, which is
 // how the course itself draws a deadline — and the bar turns critical as the slack
 // runs out, for the same reason an activity does.
 const WINDOW_HOURS = 72
 
-export default function Countdown({ seconds }: { seconds: number }) {
+export default function Countdown({ seconds, exam }: { seconds: number; exam?: string }) {
+  // The day and time come from the course, not from whichever course was built first.
+  const when = exam
+    ? new Date(exam).toLocaleString(undefined, { weekday: 'long', hour: '2-digit', minute: '2-digit', hour12: false })
+    : ''
+
   const { hours, minutes, past } = countdown(seconds)
   const remaining = Math.max(0, Math.min(1, seconds / (WINDOW_HOURS * 3600)))
   const spent = 1 - remaining
@@ -14,7 +19,7 @@ export default function Countdown({ seconds }: { seconds: number }) {
 
   return (
     <section aria-label="Time until the midterm">
-      <p className="text-[0.8rem] text-ink-soft">Midterm · Wednesday 09:00</p>
+      <p className="text-[0.8rem] text-ink-soft">{when ? `Midterm · ${when}` : 'Midterm'}</p>
       <p
         className="mt-1 font-semibold tracking-tight"
         style={{ fontSize: 'clamp(2.4rem, 7vw, 4rem)', lineHeight: 1, color: critical ? 'var(--critical)' : 'var(--ink)' }}
