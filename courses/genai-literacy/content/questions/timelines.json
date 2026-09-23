@@ -101,7 +101,7 @@
       "Around 1998, Yann LeCun"
     ],
     "answer": [2],
-    "explanation": "Hubel and Wiesel published on receptive fields in the cat's striate cortex around 1959 to 1962 — the course's own notes give both years, so 'late 1950s' is a safe answer. Fukushima's Neocognitron in 1980 is the architecture built on the finding, not the finding itself.",
+    "explanation": "Hubel and Wiesel published on receptive fields in the cat's striate cortex around 1959 to 1962 — the course's own notes give both years, so 'late 1950s' is a safe answer. Fukushima's Neocognitron in 1979/1980 (Japanese paper, then English) is the architecture built on the finding, not the finding itself.",
     "source": { "deck": "lec 1", "slide": 58 },
     "difficulty": 1,
     "tags": ["timeline", "who", "vision"],
@@ -728,5 +728,61 @@
     "difficulty": 1,
     "tags": ["bert", "who", "timeline", "transformer"],
     "examFocus": false
+  },
+  {
+    "id": "tim-044",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Around 2014 a phone could tell a cat from a dog, and face recognition became reliable enough for Facebook's DeepFace and later the iPhone's Face ID (2017). What machine learning was the groundwork?",
+    "choices": [
+      "Symbolic expert systems with hand-written rules for eyes, nose and mouth",
+      "Word embeddings, which turned faces into vectors in the same way word2vec turned words into vectors",
+      "Generative adversarial networks, which invented face recognition in order to make fakes",
+      "The vision timeline's convolutional networks: Hubel and Wiesel's line detectors, then the Neocognitron, then CNNs trained on ImageNet-scale labelled data with GPUs after AlexNet in 2012"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Face recognition is predictive AI on the vision timeline. The hierarchy of lines to curves to shapes to faces that was found in the cat became the Neocognitron and then the CNN. After AlexNet in 2012, data plus GPUs made CNNs deep enough, and by around 2014 the capability had reached ordinary hardware. Rules for 'what a face looks like' never worked, because a face that moves or changes lighting breaks them.",
+    "source": {
+      "deck": "class notes (Shayan)",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "vision",
+      "face-recognition",
+      "cnn"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "tim-045",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "How does reliable face recognition, arriving around 2014, connect to the change in what the G in GAI means?",
+    "choices": [
+      "It does not: face recognition is predictive, so it has nothing to do with generative AI",
+      "Face recognition replaced GANs",
+      "A strong face recogniser is a discriminator. The GAN (2014) set a generator against such a judge, producing fake faces (the fake Obama) that the judge had to catch, so both improved and 'generative' took on its modern meaning",
+      "Face recognition was the first large language model"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Recognition came first and generation was measured against it. The adversarial set-up was devised to sharpen the predictive face model, and its side effect, a generator good enough to fool it, is what made 'generative' famous. That is the predictive-to-generative loop in one example.",
+    "source": {
+      "deck": "class notes (Shayan)",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "timeline",
+      "gan",
+      "face-recognition",
+      "predictive-vs-generative"
+    ],
+    "examFocus": true
   }
 ]

@@ -71,7 +71,7 @@ Getting a computer to recognise what it is looking at.
 | **1998** | **LeCun**, **LeNet** | CNNs crack handwritten character recognition |
 | **2010–** | **ImageNet** (**Fei-Fei Li**) | A large **labelled** dataset — the missing ingredient |
 | **2012** | **AlexNet** (Krizhevsky, Sutskever, Hinton) | Error falls from **~25% to single digits** |
-| ~2014 | Phones tell a cat from a dog | The capability reaches ordinary hardware |
+| ~2014 | Phones tell a cat from a dog; **face recognition** reaches near-human accuracy (Facebook's DeepFace, 2014), and **Face ID** follows on the iPhone in 2017 | The CNN line reaches ordinary hardware, and the face recogniser is the judge that GANs were built to fool |
 
 The cat experiment is the one to be able to describe cold. **The cat's neurons did not fire
 when it saw a mouse; they fired when it saw a line.** Two line detectors combine into a

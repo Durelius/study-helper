@@ -813,3 +813,42 @@ Items the lecturer marked "Exam notice" in the student's own notes that had **no
    incoming connection plus one bias per neuron; inputs and hyperparameters do not count.** The
    worked example dictated in class — *two inputs, one output, three parameters* — is row one.
 4. **Buddhism and symbolism** → deliberately not examined; see above.
+
+---
+
+## 15. A second classmate's notes (Shayan's, typed, read 23 Sept)
+
+**[EVIDENCE]** Typed notes covering lectures 1–7. **Most of it is already in the bank.** The
+lecture 1–5 pages carry the same material as `lec5/summarized_notes.md` (the "VIKTIGT" page),
+which was already mined, and the lecture 6 pages overlap with `lec6/during.md`. Lecture 7 is
+two lines. Questions sourced here cite `{"deck": "class notes (Shayan)", "slide": N}` with **N
+as the lecture number**.
+
+### What they confirm
+Lecture 6 lists the architectures as **MLP · CNN · VAE · U-Net** (the lecture got through four
+of the six), which is a **third witness for H1**. The notes also corroborate ML ⊂ AI vs AI ⊂ ML,
+embodied AI, the five elements, the three senses of I/A/G, simulate/connect/create, the
+application triads, the fake-Obama GAN, word algebra, 12288 (written "1288"), ADAM,
+ReLU/pooling/softmax and the Wolfram vision principles.
+
+### What they add
+
+| Finding | Where it went |
+|---|---|
+| **A parameter is a variable that gets fixed**: f = x² + 6x + C, and once trained only x varies | `nn-054` |
+| **The derivative is the speedometer, not the trip average**, which is why the gradient is local | `nn-055`, `neural-networks.md` |
+| **Recognition that leads to prediction**: the dog smells rain and runs inside | `con-047` |
+| **The bow-tie bottleneck; the VAE's latent space is "circular, so harder to walk off"** | `ae-033` |
+| **~2014: phones tell cat from dog, and face recognition becomes reliable** (DeepFace 2014, Face ID 2017). The groundwork is the CNN line, and the face recogniser is the judge the GAN was built to fool. This was discussed repeatedly in class | `tim-044`, `tim-045`, `timelines.md` |
+| **Neocognitron 1979** (the bank said 1980). Both are right: the Japanese paper came first, then the English one | `tim-006` explanation |
+
+### Left out
+*"GPT — why is it a CNN"* (lecture 7, garbled). *"AI < ML, teacher's view"* (the direction is
+ambiguous, and `con-045` already covers the debate).
+
+### Repeated most often across all class notes
+Three things come up again and again, in your notes, Noa's and Shayan's: **the cat seeing
+lines, not the mouse** (`tim-005`, `tim-006`, `tim-007`, `tim-022`, `cnn-007`); **~2014, the
+phone telling cat from dog and face recognition** (`tim-044`, `tim-045`); and **Vaswani 2017,
+the T in GPT** (`tra-004`, `tra-012`, `tra-022`). All three are marked `examFocus`. Treat them
+as near-certain, and be able to say each one in two lines.

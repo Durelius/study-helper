@@ -380,7 +380,7 @@
     "source": { "deck": "lec 1", "slide": 70 },
     "difficulty": 3,
     "tags": ["transformer", "attention", "timeline", "distinction"],
-    "examFocus": false
+    "examFocus": true
   },
   {
     "id": "tra-023",

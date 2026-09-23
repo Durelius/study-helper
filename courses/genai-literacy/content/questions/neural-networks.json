@@ -921,5 +921,58 @@
     "difficulty": 3,
     "tags": ["classification", "threshold", "distinction"],
     "examFocus": true
+  },
+  {
+    "id": "nn-054",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "During training the weights are what the algorithm adjusts. What are they once training ends and the network is used?",
+    "choices": [
+      "Fixed numbers: the parameters are frozen, and the input x is now the only thing that varies",
+      "Still variables — the network keeps adjusting them on every new input",
+      "Inputs, because the next layer receives them",
+      "Hyperparameters, because they no longer change"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A parameter is a variable that gets fixed. In f(x) = x² + 6x + C the coefficients shape the function and x is what you feed it. Training searches for the coefficients. Once they are set, the architecture plus those numbers is the model, and only x varies.",
+    "source": {
+      "deck": "class notes (Shayan)",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "parameters",
+      "vocabulary",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nn-055",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Why does the course reach for differential calculus rather than averages when it explains how a network learns?",
+    "choices": [
+      "Because averages cannot be computed on large datasets",
+      "Because derivatives remove the need for a loss function",
+      "Because an average would always point uphill",
+      "Because the derivative gives the rate of change at one point, like a speedometer rather than the trip average, and gradient descent needs exactly that local slope to know which way to step from where it is now"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "A trip's average speed says nothing about how fast you are going at this moment, but the speedometer does. The derivative is the speedometer. Gradient descent only ever asks which way is downhill from the current weights, so it needs the local slope and not a global average.",
+    "source": {
+      "deck": "class notes (Shayan)",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "gradient",
+      "calculus",
+      "distinction"
+    ]
   }
 ]

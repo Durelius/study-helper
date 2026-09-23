@@ -811,5 +811,32 @@
     "difficulty": 2,
     "tags": ["predictive-vs-generative", "distinction"],
     "examFocus": true
+  },
+  {
+    "id": "con-047",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "A dog smells the air and runs inside before the rain starts. Which of the course's distinctions is that example used to illustrate?",
+    "choices": [
+      "Generation: the dog imagines a storm that never happens",
+      "Recognition that leads to prediction: it recognises a pattern it has met before and acts on what will follow, without generating anything new",
+      "Symbolic reasoning: the dog applies an if-then rule it was taught",
+      "Embodied AI: the dog is a robot with a body"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The lecture sets generative against recognition. Recognising a familiar signal and inferring what comes next is predictive, and animals do it too. Generating means producing a possibility that was never observed, and that is the step the course reserves for 'what COULD be'.",
+    "source": {
+      "deck": "class notes (Shayan)",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "predictive-vs-generative",
+      "recognition",
+      "distinction"
+    ],
+    "examFocus": true
   }
 ]

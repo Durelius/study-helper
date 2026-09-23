@@ -188,6 +188,7 @@ Four steps, and each one is a sentence:
 
 1. **Differential calculus** gives the **rate of change** of a one-variable function. Positive
    derivative, the function is rising; negative, falling; zero, a stationary point.
+   It is the rate *at a point*, not an average: the speedometer, not the trip's mean speed.
 2. For a function of **many** variables the **gradient** — the vector of partial derivatives —
    gives the **direction of greatest increase**. Its negative gives the greatest decrease.
 3. **Gradient descent** walks in that decreasing direction: **w ← w − η∇L(w)**, repeatedly.

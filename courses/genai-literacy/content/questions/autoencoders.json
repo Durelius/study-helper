@@ -552,5 +552,33 @@
     "difficulty": 3,
     "tags": ["latent-space", "vae", "autoencoder", "distinction"],
     "examFocus": true
+  },
+  {
+    "id": "ae-033",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "An autoencoder is drawn as a bow-tie. Why is the VAE's latent space, pulled into a compact round cloud, 'harder to walk off' than a plain autoencoder's?",
+    "choices": [
+      "Because the VAE's latent space has more dimensions",
+      "Because the VAE stores every training image in its latent space",
+      "Because the regularisation packs the codes into one continuous region around the origin with no empty gaps, so a random or nearby point still decodes to something realistic",
+      "Because the VAE has no bottleneck"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The bow-tie's knot is the bottleneck: high-dimensional pixels squeezed into a few latent numbers (two are enough for the digit demo) and then expanded again. A plain autoencoder scatters its codes with meaningless gaps in between. The VAE's pull toward a standard normal distribution makes the space round and gap-free, so sampling it stays on the data.",
+    "source": {
+      "deck": "class notes (Shayan)",
+      "slide": 6
+    },
+    "difficulty": 3,
+    "tags": [
+      "latent-space",
+      "vae",
+      "autoencoder",
+      "distinction"
+    ],
+    "examFocus": true
   }
 ]
