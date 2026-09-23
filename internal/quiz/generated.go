@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/wilhelmdurelius/chula-valuechain/internal/content"
-	"github.com/wilhelmdurelius/chula-valuechain/internal/generate"
+	"github.com/wilhelmdurelius/chulastudy/internal/content"
+	"github.com/wilhelmdurelius/chulastudy/internal/generate"
 )
 
 // choose assembles a multiple choice from one right answer and some wrong ones, drops

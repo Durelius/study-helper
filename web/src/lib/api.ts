@@ -109,6 +109,14 @@ export type Activity = {
 
 export type Network = { activities: Activity[]; duration: number; criticalPath: string[] }
 
+export type CourseInfo = {
+  id: string
+  title: string
+  code: string
+  shortName: string
+  exam: string
+}
+
 export type Episode = {
   topic: string
   index: number
@@ -134,6 +142,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
+  course: () => request<CourseInfo>('/api/course'),
   topics: (player: string) => request<Topic[]>(`/api/topics?player=${encodeURIComponent(player)}`),
   modes: () => request<Mode[]>('/api/modes'),
   notes: (topic: string) => request<Notes>(`/api/notes/${topic}`),

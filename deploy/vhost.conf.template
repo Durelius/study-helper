@@ -1,21 +1,24 @@
-# Apache vhost for valuechain.wilhelm.my.
+# Apache vhost template. One per course: copy it, replace COURSE and PORT, install as
+# /etc/httpd/conf.d/<course>.conf, then let certbot add the TLS vhost.
+#
+#   sed -e s/COURSE/valuechain/g -e s/PORT/8093/ deploy/vhost.conf.template > /tmp/v.conf
 #
 # Install as /etc/httpd/conf.d/valuechain.conf, then let certbot add the TLS vhost:
-#   sudo certbot --apache -d valuechain.wilhelm.my
+#   sudo certbot --apache -d COURSE.wilhelm.my
 # certbot rewrites this file to redirect :80 to :443 and writes the matching
 # <VirtualHost *:443> with the certificate paths.
 
 <VirtualHost *:80>
-    ServerName valuechain.wilhelm.my
+    ServerName COURSE.wilhelm.my
     ServerAdmin wilhelm@durelius.se
 
-    ErrorLog logs/valuechain-error_log
-    CustomLog logs/valuechain-access_log common
+    ErrorLog logs/COURSE-error_log
+    CustomLog logs/COURSE-access_log common
 
     # The whole app is the Go process: the SPA, its assets and /api all come from it.
     ProxyPreserveHost On
-    ProxyPass / http://127.0.0.1:8093/
-    ProxyPassReverse / http://127.0.0.1:8093/
+    ProxyPass / http://127.0.0.1:PORT/
+    ProxyPassReverse / http://127.0.0.1:PORT/
 
     RequestHeader set X-Forwarded-Proto "https"
 

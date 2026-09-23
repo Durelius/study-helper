@@ -1,0 +1,57 @@
+{
+  "id": "valuechain",
+  "title": "Value Chain Excellence & Project Management",
+  "code": "5601203",
+  "shortName": "Value Chain",
+  "exam": "2026-09-23T09:00:00+07:00",
+  "generators": ["cpm"],
+  "topics": [
+    { "id": "value-chain", "title": "Value Chain Fundamentals", "weight": 0.06 },
+    { "id": "operations", "title": "Operations Management", "weight": 0.05 },
+    { "id": "process-mapping", "title": "Process Mapping & BPMN", "weight": 0.12 },
+    { "id": "scm", "title": "Supply Chain Management", "weight": 0.03 },
+    { "id": "logistics", "title": "Supply Chain Strategy & Global Logistics", "weight": 0.02 },
+    { "id": "pm-foundations", "title": "PM Foundations & PMBOK", "weight": 0.16 },
+    { "id": "initiation", "title": "Project Initiation & Scope", "weight": 0.10 },
+    { "id": "schedule-cost", "title": "Schedule & Cost Planning", "weight": 0.24 },
+    { "id": "risk-comm-quality", "title": "Risk, Communication & Quality", "weight": 0.22 }
+  ],
+  "modes": [
+    {
+      "id": "risk",
+      "title": "Risk triage",
+      "count": 15,
+      "topics": ["risk-comm-quality"],
+      "tags": ["risk", "classification", "defect", "issue", "constraint", "assumption", "dependency"],
+      "blurb": "Risk, issue, constraint — and which source.",
+      "why": "Question 2 of the exam hands you a situation and asks what kind of risk it is."
+    },
+    {
+      "id": "knowledge-areas",
+      "title": "Knowledge areas",
+      "count": 12,
+      "topics": ["pm-foundations"],
+      "tags": ["knowledge-area", "pmbok", "process-group", "life-cycle-vs"],
+      "blurb": "Which PMBOK area does this belong to?",
+      "why": "The other half of question 2. Ten areas, and the boundaries between them are where marks are lost."
+    },
+    {
+      "id": "bpmn",
+      "title": "BPMN fix",
+      "count": 12,
+      "topics": ["process-mapping"],
+      "examFocus": true,
+      "blurb": "Spot the broken modelling rule.",
+      "why": "Question 3 shows you a process model with one error in it."
+    },
+    {
+      "id": "quality",
+      "title": "Quality & KPIs",
+      "count": 10,
+      "topics": ["risk-comm-quality"],
+      "tags": ["quality", "kpi", "metric", "cost-of-quality"],
+      "blurb": "Is that a real metric or a wish?",
+      "why": "The second half of question 3: a quality statement is only worth marks if it has a metric, a target and a check."
+    }
+  ]
+}

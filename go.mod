@@ -1,4 +1,4 @@
-module github.com/wilhelmdurelius/chula-valuechain
+module github.com/wilhelmdurelius/chulastudy
 
 go 1.25.0
 

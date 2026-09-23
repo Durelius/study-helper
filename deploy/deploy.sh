@@ -1,54 +1,53 @@
 #!/usr/bin/env bash
-# Build for the Linode and ship it. Run from the repository root.
+# Build and ship. Run from the repository root.
 #
-#   ./deploy/deploy.sh
+#   ./deploy/deploy.sh                 # binary + every course's content
+#   ./deploy/deploy.sh valuechain      # binary + one course
 #
-# The server has no Go toolchain, so the binary is cross-compiled here. The frontend is
-# built first because it is embedded in the binary, and so is the study material — a
-# deploy ships the questions along with the code.
+# One binary serves every course, so a fix deploys to all of them at once. Each course
+# is a directory of content that rsyncs separately and restarts only its own instance.
 set -euo pipefail
 
 HOST=${HOST:-wilhelm@172.232.147.147}
 KEY=${KEY:-$HOME/.ssh/id_ed25519_nopass}
-DIR=${DIR:-/var/www/chulavaluechain}
-SERVICE=chulavaluechain
+DIR=${DIR:-/var/www/chulastudy}
 
 cd "$(dirname "$0")/.."
 
-echo "==> checking the question bank"
+COURSES=("$@")
+if [ ${#COURSES[@]} -eq 0 ]; then
+  COURSES=()
+  for d in courses/*/; do COURSES+=("$(basename "$d")"); done
+fi
+
+echo "==> checking the content"
 go test ./... >/dev/null
 
 echo "==> building the frontend"
 (cd web && npm ci --silent && npm run build)
 
 echo "==> cross-compiling for linux/amd64"
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags='-s -w' -o dist/chulavaluechain ./cmd/server
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -trimpath -ldflags='-s -w' -o dist/chulastudy ./cmd/server
 
-echo "==> uploading"
-ssh -i "$KEY" "$HOST" "sudo install -d -o wilhelm -g wilhelm $DIR"
-# Upload beside the live binary, then move it into place: a running executable cannot
-# be overwritten, but it can be replaced.
-scp -i "$KEY" dist/chulavaluechain "$HOST:$DIR/chulavaluechain.new"
-ssh -i "$KEY" "$HOST" "mv $DIR/chulavaluechain.new $DIR/chulavaluechain && chmod 755 $DIR/chulavaluechain"
-# A file arriving by scp lands with the uploading user's SELinux context, and /var/www
-# defaults to web content — which systemd refuses to execute. The semanage rule from
-# INSTALL.md says what the label should be; this applies it to the new file.
-ssh -i "$KEY" "$HOST" "sudo restorecon -v $DIR/chulavaluechain"
+echo "==> uploading the binary"
+ssh -i "$KEY" "$HOST" "sudo install -d -o wilhelm -g wilhelm $DIR $DIR/courses"
+# A running executable cannot be overwritten, but it can be replaced.
+scp -q -i "$KEY" dist/chulastudy "$HOST:$DIR/chulastudy.new"
+ssh -i "$KEY" "$HOST" "mv $DIR/chulastudy.new $DIR/chulastudy && chmod 755 $DIR/chulastudy && sudo restorecon -v $DIR/chulastudy"
 
-# The audiobook is over a hundred megabytes and changes far less often than the code,
-# so it ships separately and only when it differs. Skipped entirely if nothing has
-# been rendered locally.
-AUDIO=${AUDIO:-$HOME/Desktop/valuechain-audiobook}
-if [ -f "$AUDIO/manifest.json" ]; then
-  echo "==> syncing the audiobook"
-  ssh -i "$KEY" "$HOST" "sudo install -d -o wilhelm -g wilhelm $DIR/audio"
-  rsync -av --delete -e "ssh -i $KEY" "$AUDIO/" "$HOST:$DIR/audio/" | tail -3
-  ssh -i "$KEY" "$HOST" "sudo restorecon -R $DIR/audio"
-else
-  echo "==> no audiobook rendered locally, leaving the server's copy alone"
-fi
+for course in "${COURSES[@]}"; do
+  echo "==> $course: syncing content"
+  ssh -i "$KEY" "$HOST" "sudo install -d -o wilhelm -g wilhelm $DIR/courses/$course"
+  # The audiobook lives outside the repo and changes far less often than the text, so
+  # it is excluded here and shipped by sync-audio.sh.
+  rsync -a --delete --exclude 'audio/' -e "ssh -i $KEY" \
+    "courses/$course/" "$HOST:$DIR/courses/$course/"
+  ssh -i "$KEY" "$HOST" "sudo restorecon -R $DIR/courses/$course"
+done
 
-echo "==> restarting $SERVICE"
-ssh -i "$KEY" "$HOST" "sudo systemctl restart $SERVICE && sleep 1 && systemctl is-active $SERVICE"
+for course in "${COURSES[@]}"; do
+  echo "==> $course: restarting"
+  ssh -i "$KEY" "$HOST" "sudo systemctl restart chulastudy@$course && sleep 1 && systemctl is-active chulastudy@$course"
+done
 
-echo "==> done: https://valuechain.wilhelm.my"
+echo "==> done"

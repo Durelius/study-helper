@@ -5,12 +5,24 @@ import (
 	"regexp"
 	"strings"
 	"testing"
+
+	"github.com/wilhelmdurelius/chulastudy/internal/course"
 )
+
+// loadTestCourse loads the real valuechain material, which is what these tests guard.
+func loadTestCourse(t *testing.T) (*Set, error) {
+	t.Helper()
+	c, err := course.Load("../../courses/valuechain")
+	if err != nil {
+		t.Fatalf("loading the course: %v", err)
+	}
+	return Load(c)
+}
 
 // TestRealContentLoads is the guard that makes an authoring mistake a failed build
 // rather than a wrong mark during someone's revision.
 func TestRealContentLoads(t *testing.T) {
-	set, err := Load("../../content")
+	set, err := loadTestCourse(t)
 	if err != nil {
 		t.Fatalf("loading the real content: %v", err)
 	}
@@ -50,7 +62,7 @@ type hotspotDiagram struct {
 // An earlier question listed a choice naming a task that did not appear in its own
 // diagram, which is unanswerable by clicking and misleading by reading.
 func TestHotspotQuestionsAreAnswerable(t *testing.T) {
-	set, err := Load("../../content")
+	set, err := loadTestCourse(t)
 	if err != nil {
 		t.Fatalf("loading: %v", err)
 	}
@@ -129,7 +141,7 @@ var leansOnNeighbour = regexp.MustCompile(`(?i)\b(that same|the same (network|pr
 //
 // A question may still talk about "the network below" when it carries its own diagram.
 func TestQuestionsStandAlone(t *testing.T) {
-	set, err := Load("../../content")
+	set, err := loadTestCourse(t)
 	if err != nil {
 		t.Fatalf("loading: %v", err)
 	}
@@ -162,7 +174,7 @@ var asksAboutTheDocument = regexp.MustCompile(`(?i)\b(the deck\b|older deck|newe
 // general practice, and the reader needs to know whose answer is wanted — but the
 // question has to be answerable by someone who understands the topic.
 func TestQuestionsAskAboutTheSubject(t *testing.T) {
-	set, err := Load("../../content")
+	set, err := loadTestCourse(t)
 	if err != nil {
 		t.Fatalf("loading: %v", err)
 	}

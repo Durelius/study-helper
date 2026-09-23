@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wilhelmdurelius/chula-valuechain/internal/audio"
-	"github.com/wilhelmdurelius/chula-valuechain/internal/content"
-	"github.com/wilhelmdurelius/chula-valuechain/internal/quiz"
-	"github.com/wilhelmdurelius/chula-valuechain/internal/store"
+	"github.com/wilhelmdurelius/chulastudy/internal/audio"
+	"github.com/wilhelmdurelius/chulastudy/internal/content"
+	"github.com/wilhelmdurelius/chulastudy/internal/quiz"
+	"github.com/wilhelmdurelius/chulastudy/internal/store"
 )
 
 // Server holds everything the handlers need.
@@ -39,6 +39,7 @@ func New(set *content.Set, db *store.DB, log *slog.Logger, exam time.Time, lib *
 
 // Routes registers the API.
 func (s *Server) Routes(mux *http.ServeMux) {
+	mux.HandleFunc("GET /api/course", s.handleCourse)
 	mux.HandleFunc("GET /api/topics", s.handleTopics)
 	mux.HandleFunc("GET /api/modes", s.handleModes)
 	mux.HandleFunc("GET /api/notes/{topic}", s.handleNotes)
@@ -68,9 +69,9 @@ type publicQuestion struct {
 	Data       json.RawMessage `json:"data,omitempty"`
 }
 
-func public(q content.Question) publicQuestion {
+func (s *Server) public(q content.Question) publicQuestion {
 	return publicQuestion{
-		ID: q.ID, Topic: q.Topic, TopicTitle: content.Title(q.Topic), Type: q.Type,
+		ID: q.ID, Topic: q.Topic, TopicTitle: s.Set.Title(q.Topic), Type: q.Type,
 		Stem: q.Stem, Choices: q.Choices, Difficulty: q.Difficulty,
 		ExamFocus: q.ExamFocus, Data: q.Data,
 	}
@@ -84,10 +85,20 @@ func (s *Server) handleModes(w http.ResponseWriter, r *http.Request) {
 		Available int `json:"available"`
 	}
 	out := []modeInfo{}
-	for _, m := range quiz.Modes {
+	for _, m := range quiz.Modes(s.Set.Course()) {
 		out = append(out, modeInfo{Mode: m, Available: quiz.Available(s.Set, m)})
 	}
 	writeJSON(w, http.StatusOK, out)
+}
+
+// handleCourse tells the browser which course it is serving, so the title, the course
+// code and the countdown are not compiled into the frontend.
+func (s *Server) handleCourse(w http.ResponseWriter, r *http.Request) {
+	c := s.Set.Course()
+	writeJSON(w, http.StatusOK, map[string]any{
+		"id": c.ID, "title": c.Title, "code": c.Code, "shortName": c.ShortName,
+		"exam": s.Exam.Format(time.RFC3339),
+	})
 }
 
 func (s *Server) handleTopics(w http.ResponseWriter, r *http.Request) {
@@ -134,7 +145,7 @@ func (s *Server) handleNotes(w http.ResponseWriter, r *http.Request) {
 		}
 		id := strings.TrimSpace(strings.TrimPrefix(line, "?check id="))
 		if q, ok := s.Set.Questions[id]; ok {
-			checks[id] = public(q)
+			checks[id] = s.public(q)
 		}
 	}
 	writeJSON(w, http.StatusOK, struct {
@@ -189,7 +200,7 @@ func (s *Server) handleStats(w http.ResponseWriter, r *http.Request) {
 		if !ok {
 			continue
 		}
-		out = append(out, missView{Miss: m, Question: public(q), Explanation: q.Explanation, Source: q.Source})
+		out = append(out, missView{Miss: m, Question: s.public(q), Explanation: q.Explanation, Source: q.Source})
 	}
 	writeJSON(w, http.StatusOK, map[string]any{"topics": topics, "misses": out})
 }
@@ -207,7 +218,7 @@ func (s *Server) handleStartQuiz(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusBadRequest, "That request did not parse.")
 		return
 	}
-	mode, ok := quiz.ModeByID(req.Mode)
+	mode, ok := quiz.ModeByID(s.Set.Course(), req.Mode)
 	if !ok {
 		writeError(w, http.StatusBadRequest, "Unknown quiz mode.")
 		return
@@ -248,7 +259,7 @@ func (s *Server) handleStartQuiz(w http.ResponseWriter, r *http.Request) {
 
 	out := make([]publicQuestion, 0, len(questions))
 	for _, q := range questions {
-		out = append(out, public(q))
+		out = append(out, s.public(q))
 	}
 	writeJSON(w, http.StatusOK, map[string]any{
 		"id": id, "player": name, "mode": mode, "questions": out,
@@ -281,14 +292,14 @@ func (s *Server) handleGetQuiz(w http.ResponseWriter, r *http.Request) {
 	}
 	out := make([]publicQuestion, 0, len(questions))
 	for _, q := range questions {
-		out = append(out, public(q))
+		out = append(out, s.public(q))
 	}
 	answered, err := s.DB.Answered(id)
 	if err != nil {
 		s.fail(w, err)
 		return
 	}
-	mode, _ := quiz.ModeByID(sess.Mode)
+	mode, _ := quiz.ModeByID(s.Set.Course(), sess.Mode)
 	writeJSON(w, http.StatusOK, map[string]any{
 		"id": sess.ID, "player": sess.Player, "mode": mode,
 		"questions": out, "answered": make([]string, answered), "session": sess,
@@ -393,14 +404,14 @@ func (s *Server) handleFinish(w http.ResponseWriter, r *http.Request) {
 	}{}
 	out := []review{}
 	for _, q := range questions {
-		out = append(out, review{public(q), q.Answer, q.Explanation, q.Source})
+		out = append(out, review{s.public(q), q.Answer, q.Explanation, q.Source})
 		if _, ok := byTopic[q.Topic]; !ok {
 			byTopic[q.Topic] = &struct {
 				Topic   string `json:"topic"`
 				Title   string `json:"title"`
 				Seen    int    `json:"seen"`
 				Correct int    `json:"correct"`
-			}{Topic: q.Topic, Title: content.Title(q.Topic)}
+			}{Topic: q.Topic, Title: s.Set.Title(q.Topic)}
 		}
 		byTopic[q.Topic].Seen++
 	}

@@ -1,10 +1,23 @@
-# Value Chain midterm trainer
+# Chula study
 
-A study tool for *5601203 Value Chain Excellence and Project Management*: the nine
-lectures condensed into something readable, and 337 questions that make you retrieve
-them instead of re-reading them.
+A study tool for Chulalongkorn courses: the lectures condensed into something readable,
+and a question bank that makes you retrieve them instead of re-reading them.
 
-One Go binary serves the React app, the API and the leaderboard.
+One Go binary serves the React app, the API and the leaderboard. **One process serves
+one course.** Several courses means running the same binary several times with a
+different `-course`, database and port — so a fix reaches every course at once, while a
+broken question file only stops the course it belongs to.
+
+```
+courses/
+  valuechain/        course.json + content/ + audio/     348 questions, live
+  genai-literacy/    course.json + content/              skeleton
+```
+
+Everything that differs between courses is in its `course.json`: the topics and their
+weight in the exam simulation, the drills specific to that syllabus, the countdown
+target, and what the app calls itself. Adding a course is a directory and a vhost, never
+a code change. `courses/genai-literacy/README.md` is the walkthrough.
 
 ## Why it is built this way
 
@@ -57,23 +70,23 @@ waste the time.
 
 ```sh
 cd web && npm install && npm run build   # writes into internal/web/dist
-cd .. && go build ./cmd/server && ./server
+cd .. && go build -o chulastudy ./cmd/server
+./chulastudy -course courses/valuechain
 ```
 
-Then open http://localhost:8080.
+Then open http://localhost:8080. Serve a different course with `-course`, and run two
+at once by giving the second another `-addr`.
 
 ### Development
 
 ```sh
-go run ./cmd/server -dev -content ./content   # API only, on :8080, reading content from disk
-cd web && npm run dev                         # UI on :5173, proxying /api to :8080
+go run ./cmd/server -dev -course courses/valuechain   # API only, on :8080
+cd web && npm run dev                                  # UI on :5173, proxying to :8080
 ```
 
-`-content ./content` reads the material from disk instead of the embedded copy, so
-editing a question file only needs a server restart rather than a rebuild.
-
-Other flags: `-db` (SQLite path, default `study.db`), `-exam` (the countdown target,
-default `2026-09-23T09:00:00+07:00`), `-addr`, `-behind-proxy`.
+The material is read from disk, so editing a question file needs a restart rather than a
+rebuild. Other flags: `-db` (default `<course>/study.db`), `-audio` (default
+`<course>/audio`), `-exam` to override the countdown, `-addr`, `-behind-proxy`.
 
 ## Tests
 

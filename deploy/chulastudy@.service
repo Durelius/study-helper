@@ -1,0 +1,47 @@
+# A systemd template: one instance per course.
+#
+#   systemctl enable --now chulastudy@valuechain
+#   systemctl enable --now chulastudy@genai-literacy
+#
+# Each instance reads /etc/chulastudy/<course>.env for its port and database, so adding
+# a course is a config file and a vhost — never a code change. Running them as separate
+# processes is deliberate: a broken question file fails one course's startup and leaves
+# the others serving.
+[Unit]
+Description=Chula study — %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/var/www/chulastudy
+EnvironmentFile=/etc/chulastudy/%i.env
+ExecStart=/var/www/chulastudy/chulastudy \
+    -course /var/www/chulastudy/courses/%i \
+    -addr 127.0.0.1:${PORT} \
+    -db ${DB} \
+    -behind-proxy
+User=wilhelm
+Restart=always
+RestartSec=10
+SyslogIdentifier=chulastudy-%i
+
+# The leaderboard has to survive a restart, so the process gets exactly one writable
+# directory and nothing else.
+StateDirectory=chulastudy
+StateDirectoryMode=0750
+
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadOnlyPaths=/var/www/chulastudy
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_INET AF_INET6
+RestrictNamespaces=yes
+LockPersonality=yes
+
+[Install]
+WantedBy=multi-user.target

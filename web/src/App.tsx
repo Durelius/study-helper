@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import NameGate from './components/NameGate'
 import Dashboard from './pages/Dashboard'
@@ -10,6 +10,7 @@ import Notes from './pages/Notes'
 import QuizPicker from './pages/QuizPicker'
 import Runner from './pages/Runner'
 import Results from './pages/Results'
+import { api, type CourseInfo } from './lib/api'
 import { rememberName, storedName } from './lib/player'
 
 const tabs = [
@@ -37,13 +38,20 @@ export default function App() {
 
 function Shell({ name, setName }: { name: string; setName: (n: string) => void }) {
   const { current } = useAudio()
+  // The course names itself, so one build serves every course.
+  const [course, setCourse] = useState<CourseInfo | null>(null)
+  useEffect(() => {
+    api.course().then(setCourse).catch(() => setCourse(null))
+  }, [])
 
   return (
     <div className="min-h-full">
       <header className="border-b border-line bg-surface">
         <div className="mx-auto flex max-w-5xl items-baseline gap-4 px-4 pt-4">
-          <span className="font-semibold tracking-tight">Value Chain</span>
-          <span className="text-[0.8rem] text-ink-faint">5601203 midterm</span>
+          <span className="font-semibold tracking-tight">{course?.shortName ?? '…'}</span>
+          <span className="text-[0.8rem] text-ink-faint">
+            {course?.code ? `${course.code} midterm` : ''}
+          </span>
           <button
             onClick={() => {
               const next = window.prompt('Leaderboard name', name)?.trim()

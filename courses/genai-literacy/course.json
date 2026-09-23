@@ -1,0 +1,14 @@
+{
+  "id": "genai-literacy",
+  "title": "Generative AI Literacy",
+  "code": "TBC",
+  "shortName": "GenAI Literacy",
+  "exam": "2026-12-16T09:00:00+07:00",
+  "generators": [],
+  "topics": [
+    { "id": "foundations", "title": "Foundations", "weight": 1 },
+    { "id": "prompting", "title": "Prompting & Evaluation", "weight": 1 },
+    { "id": "ethics", "title": "Ethics, Bias & Governance", "weight": 1 }
+  ],
+  "modes": []
+}

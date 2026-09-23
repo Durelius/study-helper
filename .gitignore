@@ -1,7 +1,11 @@
 node_modules/
-dist/chulavaluechain
+dist/chulastudy
 server
+chulastudy
 *.db
 *.db-wal
 *.db-shm
 .DS_Store
+
+# Rendered audiobooks are ~140 MB per course and ship by rsync, not git.
+courses/*/audio/

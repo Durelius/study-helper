@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wilhelmdurelius/chula-valuechain/internal/content"
-	"github.com/wilhelmdurelius/chula-valuechain/internal/store"
+	"github.com/wilhelmdurelius/chulastudy/internal/content"
+	"github.com/wilhelmdurelius/chulastudy/internal/store"
 )
 
 // step is one recommended action on the dashboard.

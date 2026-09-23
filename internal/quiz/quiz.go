@@ -12,7 +12,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/wilhelmdurelius/chula-valuechain/internal/content"
+	"github.com/wilhelmdurelius/chulastudy/internal/content"
+	"github.com/wilhelmdurelius/chulastudy/internal/course"
 )
 
 // Mode is one thing a person can sit down and do.
@@ -39,8 +40,8 @@ type Mode struct {
 	weak bool
 }
 
-// Modes is the catalogue, in the order the picker shows them.
-var Modes = []Mode{
+// generic are the modes every course gets, whatever it teaches.
+var generic = []Mode{
 	{
 		ID: "quick", Title: "Quick 10", Count: 10,
 		Blurb: "Ten questions, every topic mixed.",
@@ -67,33 +68,9 @@ var Modes = []Mode{
 		Why:   "Question 1 of the exam. Generated, so you have to run the forward and backward pass rather than recognise an answer.",
 	},
 	{
-		ID: "risk", Title: "Risk triage", Count: 15,
-		topics: []string{"risk-comm-quality"}, tags: []string{"risk", "classification", "defect", "issue", "constraint", "assumption", "dependency"},
-		Blurb: "Risk, issue, constraint — and which source.",
-		Why:   "Question 2 of the exam hands you a situation and asks what kind of risk it is.",
-	},
-	{
-		ID: "knowledge-areas", Title: "Knowledge areas", Count: 12,
-		topics: []string{"pm-foundations"}, tags: []string{"knowledge-area", "pmbok", "process-group", "life-cycle-vs"},
-		Blurb: "Which PMBOK area does this belong to?",
-		Why:   "The other half of question 2. Ten areas, and the boundaries between them are where marks are lost.",
-	},
-	{
 		ID: "visual", Title: "Spot the error", Count: 12, types: []string{"hotspot"},
 		Blurb: "Click what is wrong with the diagram.",
 		Why:   "The paper shows you a model and asks you to circle the mistake. This is the same thing: read the diagram, point at the error.",
-	},
-	{
-		ID: "bpmn", Title: "BPMN fix", Count: 12,
-		topics: []string{"process-mapping"}, examFocus: true,
-		Blurb: "Spot the broken modelling rule.",
-		Why:   "Question 3 shows you a process model with one error in it.",
-	},
-	{
-		ID: "quality", Title: "Quality & KPIs", Count: 10,
-		topics: []string{"risk-comm-quality"}, tags: []string{"quality", "kpi", "metric", "cost-of-quality"},
-		Blurb: "Is that a real metric or a wish?",
-		Why:   "The second half of question 3: a quality statement is only worth marks if it has a metric, a target and a check.",
 	},
 	{
 		ID: "glossary", Title: "Glossary sprint", Count: 15, generator: "glossary",
@@ -107,28 +84,33 @@ var Modes = []Mode{
 	},
 }
 
-// ModeByID finds a mode, reporting whether it exists.
-func ModeByID(id string) (Mode, bool) {
-	for _, m := range Modes {
+// Modes is the catalogue for one course: the generic drills, plus the ones its config
+// defines, minus any computed drill the course does not teach.
+func Modes(c *course.Course) []Mode {
+	out := []Mode{}
+	for _, m := range generic {
+		if m.generator != "" && m.generator != "glossary" && m.generator != "case" && !c.Has(m.generator) {
+			continue
+		}
+		out = append(out, m)
+	}
+	for _, m := range c.Modes {
+		out = append(out, Mode{
+			ID: m.ID, Title: m.Title, Count: m.Count, Blurb: m.Blurb, Why: m.Why,
+			topics: m.Topics, tags: m.Tags, types: m.Types, examFocus: m.ExamFocus,
+		})
+	}
+	return out
+}
+
+// ModeByID finds a mode in a course's catalogue, reporting whether it exists.
+func ModeByID(c *course.Course, id string) (Mode, bool) {
+	for _, m := range Modes(c) {
 		if m.ID == id {
 			return m, true
 		}
 	}
 	return Mode{}, false
-}
-
-// examWeights shapes the simulation like the real paper: the five named questions carry
-// most of the marks, and the rest is spread over everything else.
-var examWeights = map[string]float64{
-	"schedule-cost":     0.24,
-	"risk-comm-quality": 0.22,
-	"pm-foundations":    0.16,
-	"process-mapping":   0.12,
-	"initiation":        0.10,
-	"value-chain":       0.06,
-	"operations":        0.05,
-	"scm":               0.03,
-	"logistics":         0.02,
 }
 
 // History is what the app knows about one player, used to order their practice.
@@ -263,9 +245,10 @@ func weakSpots(set *content.Set, pool []content.Question, hist History, count in
 	return out
 }
 
-// examPaper draws a weighted spread across topics and leans on the exam-focus flag, so
-// a simulation feels like the real thing rather than a random sample.
+// examPaper draws a weighted spread across topics, using each topic's share from the
+// course config, so a simulation is shaped like that course's real paper.
 func examPaper(set *content.Set, count int, hist History, rnd *rand.Rand) []content.Question {
+	examWeights := set.Course().Weights()
 	var out []content.Question
 	taken := map[string]bool{}
 

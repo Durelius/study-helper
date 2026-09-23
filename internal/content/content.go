@@ -15,7 +15,7 @@ import (
 	"strconv"
 	"strings"
 
-	valuechain "github.com/wilhelmdurelius/chula-valuechain"
+	"github.com/wilhelmdurelius/chulastudy/internal/course"
 )
 
 // Source is the slide a fact came from, so a wrong answer can send the reader back to it.
@@ -102,20 +102,6 @@ type Topic struct {
 	HasNotes  bool   `json:"hasNotes"`
 }
 
-// order is the canonical topic order and the authority on titles. A question file for
-// an unknown topic is a mistake worth noticing, so loading rejects it.
-var order = []Topic{
-	{ID: "value-chain", Title: "Value Chain Fundamentals"},
-	{ID: "operations", Title: "Operations Management"},
-	{ID: "process-mapping", Title: "Process Mapping & BPMN"},
-	{ID: "scm", Title: "Supply Chain Management"},
-	{ID: "logistics", Title: "Supply Chain Strategy & Global Logistics"},
-	{ID: "pm-foundations", Title: "PM Foundations & PMBOK"},
-	{ID: "initiation", Title: "Project Initiation & Scope"},
-	{ID: "schedule-cost", Title: "Schedule & Cost Planning"},
-	{ID: "risk-comm-quality", Title: "Risk, Communication & Quality"},
-}
-
 // Set is the whole loaded library.
 type Set struct {
 	Topics    []Topic
@@ -126,6 +112,8 @@ type Set struct {
 	Glossary  []Term
 	// BPMNRules feeds the spot-the-error generator.
 	BPMNRules []BPMNRule
+	// course is the configuration this material was loaded against.
+	course *course.Course
 }
 
 // BPMNRule is one modelling rule from the process-mapping deck.
@@ -136,27 +124,20 @@ type BPMNRule struct {
 	Source    Source `json:"source"`
 }
 
-// Load reads the library. An empty dir uses the embedded copy; otherwise dir is read
-// from disk, which is what `-content ./content` is for during authoring.
-func Load(dir string) (*Set, error) {
-	var fsys fs.FS
-	if dir == "" {
-		sub, err := fs.Sub(valuechain.Files, "content")
-		if err != nil {
-			return nil, err
-		}
-		fsys = sub
-	} else {
-		fsys = os.DirFS(dir)
-	}
+// Load reads one course's material from disk. The topics it is allowed to contain
+// come from the course config, so a question filed under a topic this course does not
+// teach is a startup failure rather than a question nobody is ever asked.
+func Load(c *course.Course) (*Set, error) {
+	fsys := os.DirFS(c.ContentDir())
 
 	s := &Set{
 		Lectures:  map[string]Lecture{},
 		Questions: map[string]Question{},
 		ByTopic:   map[string][]string{},
+		course:    c,
 	}
 	known := map[string]bool{}
-	for _, t := range order {
+	for _, t := range c.Topics {
 		known[t.ID] = true
 	}
 
@@ -270,7 +251,7 @@ func Load(dir string) (*Set, error) {
 		return nil, err
 	}
 
-	for _, t := range order {
+	for _, t := range c.Topics {
 		ids := s.ByTopic[t.ID]
 		sort.Strings(ids)
 		s.ByTopic[t.ID] = ids
@@ -280,16 +261,12 @@ func Load(dir string) (*Set, error) {
 	return s, nil
 }
 
+// Course is the configuration this material belongs to.
+func (s *Set) Course() *course.Course { return s.course }
+
 // Title returns a topic's display name, falling back to the id for generated drills
 // that have no lecture of their own.
-func Title(id string) string {
-	for _, t := range order {
-		if t.ID == id {
-			return t.Title
-		}
-	}
-	return id
-}
+func (s *Set) Title(id string) string { return s.course.TopicTitle(id) }
 
 func readJSON(fsys fs.FS, name string, into any) error {
 	raw, err := fs.ReadFile(fsys, name)
