@@ -78,15 +78,21 @@ func (s *Server) public(q content.Question) publicQuestion {
 }
 
 func (s *Server) handleModes(w http.ResponseWriter, r *http.Request) {
-	// A mode with nothing to draw on is worse than a missing one: it looks available
-	// and then fails. Report how many questions back each so the UI can grey it out.
+	// A mode with nothing behind it is not offered at all. Showing it greyed out
+	// advertised drills that do not apply to the course — a course with no diagram
+	// questions has no "spot the error" to write, so it should not look like an
+	// omission.
 	type modeInfo struct {
 		quiz.Mode
 		Available int `json:"available"`
 	}
 	out := []modeInfo{}
 	for _, m := range quiz.Modes(s.Set.Course()) {
-		out = append(out, modeInfo{Mode: m, Available: quiz.Available(s.Set, m)})
+		available := quiz.Available(s.Set, m)
+		if available == 0 {
+			continue
+		}
+		out = append(out, modeInfo{Mode: m, Available: available})
 	}
 	writeJSON(w, http.StatusOK, out)
 }

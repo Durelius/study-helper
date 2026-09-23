@@ -61,18 +61,17 @@ export default function QuizPicker({ name }: { name: string }) {
 
       <ul className="mt-6 grid gap-3 sm:grid-cols-2">
         {modes.map((m) => {
-          const empty = m.available === 0
           return (
             <li key={m.id}>
               <button
-                disabled={empty || busy !== ''}
+                disabled={busy !== ''}
                 onClick={() => (m.needsTopic ? setPicking(m) : start(m))}
                 className="flex h-full w-full flex-col border border-line bg-surface p-4 text-left disabled:opacity-45"
               >
                 <span className="flex items-baseline gap-2">
                   <span className="font-medium">{m.title}</span>
                   <span className="text-[0.76rem] text-ink-faint">
-                    {empty ? 'not written yet' : m.count > 0 ? `${m.count} questions` : 'a full case'}
+                    {m.count > 0 ? `${m.count} questions` : 'a full case'}
                     {m.timeLimitSec > 0 && ` · ${Math.round(m.timeLimitSec / 60)} min`}
                   </span>
                 </span>
