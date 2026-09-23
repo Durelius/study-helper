@@ -7,6 +7,7 @@ import NetworkDiagram from '../components/NetworkDiagram'
 import type { DiagramSpec } from '../lib/diagram'
 import { api, type Mode, type Network, type Question, type Verdict } from '../lib/api'
 import { duration } from '../lib/format'
+import { toggleChoice } from '../lib/choices'
 
 type RunState = { id: string; player: string; mode: Mode; questions: Question[] }
 
@@ -87,13 +88,7 @@ export default function Runner() {
   const toggle = useCallback(
     (i: number) => {
       if (verdict || !question) return
-      setChosen((prev) =>
-        question.type === 'multi'
-          ? prev.includes(i)
-            ? prev.filter((x) => x !== i)
-            : [...prev, i]
-          : [i],
-      )
+      setChosen((prev) => toggleChoice(question.type, prev, i))
     },
     [question, verdict],
   )
