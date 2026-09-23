@@ -1,0 +1,456 @@
+[
+  {
+    "id": "con-001",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "A bank says its new dashboard delivers 'business intelligence'. In which of the course's three senses is the word 'intelligence' being used?",
+    "choices": [
+      "Human-like — the dashboard could pass for a person in conversation",
+      "Advantageous information of strategic or tactical value",
+      "A clever solution method for a hard computational problem",
+      "General intelligence across every task a human can do"
+    ],
+    "answer": [1],
+    "explanation": "Business Intelligence uses 'intelligence' the way military intelligence does: extracted information of tactical value. The 'I' in AI means human-like; the 'I' in Computational Intelligence means an optimal solution method for a complex problem.",
+    "source": { "deck": "lec 1", "slide": 53 },
+    "difficulty": 2,
+    "tags": ["i-in-ai", "distinction", "bi-ci"],
+    "examFocus": true
+  },
+  {
+    "id": "con-002",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Turing's imitation game tests which of the three senses of the 'I' in 'AI'?",
+    "choices": [
+      "Human-like — quality of interaction good enough that you cannot tell machine from person",
+      "Advantageous information, as in military or business intelligence",
+      "Optimal solution path, as in computational or digital intelligence",
+      "Self-awareness, as in the consciousness marker"
+    ],
+    "answer": [0],
+    "explanation": "Turing's test is purely the human-like sense: a system passes if its interaction cannot be told apart from a person's, even an unintelligent one. It says nothing about accuracy, insight or problem-solving.",
+    "source": { "deck": "lec 1", "slide": 19 },
+    "difficulty": 1,
+    "tags": ["i-in-ai", "turing", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-003",
+    "topic": "concepts",
+    "type": "multi",
+    "stem": "Select all three senses this course gives to the 'A' in 'AI'.",
+    "choices": [
+      "Artifact or artifice — a machine creation made by humans",
+      "Autonomous — operating without any human supervision",
+      "Artificial semblance — when 'seems about right' will do",
+      "Adaptive — retuning its parameters as new data arrives",
+      "Artful creation — 'truth manufactured' by whatever is trending"
+    ],
+    "answer": [0, 2, 4],
+    "explanation": "The three A's are artifact/artifice, artificial semblance, and artful creation. Autonomy and adaptivity are real properties of AI systems but they are not what the letter A stands for here.",
+    "source": { "deck": "lec 1", "slide": 19 },
+    "difficulty": 1,
+    "tags": ["a-in-ai", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-004",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "An image generator produces a plausible-looking but entirely invented photograph. Which sense of the 'A' in 'AI' does that best illustrate?",
+    "choices": [
+      "Artifact — it was built by human engineers rather than found in nature",
+      "Autonomy — it ran without a human in the loop",
+      "Artificial semblance — the output only has to seem about right",
+      "Accuracy — it matches a verifiable ground truth"
+    ],
+    "answer": [2],
+    "explanation": "Artificial semblance is the sense in which 'seems about right' is the whole standard. Artifact is true of every AI system and so does not distinguish this case, and accuracy against ground truth is the predictive-AI standard, not the generative one.",
+    "source": { "deck": "lec 1", "slide": 21 },
+    "difficulty": 2,
+    "tags": ["a-in-ai", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "con-005",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "What is the difference between GAI and AGI?",
+    "choices": [
+      "GAI is the hardware layer; AGI is the software layer built on top of it",
+      "GAI is Generative AI, which creates new content; AGI is Artificial General Intelligence, human-level breadth across tasks",
+      "GAI is Artificial General Intelligence; AGI is Generative AI — the acronyms are simply written in different orders",
+      "GAI is any AI trained on data; AGI is any AI written as hand-coded rules"
+    ],
+    "answer": [1],
+    "explanation": "The G in GAI is Generative; the G in AGI is General. Generative AI creates new content, while Artificial General Intelligence means human-level breadth and is explicitly out of scope for this course.",
+    "source": { "deck": "lec 1", "slide": 24 },
+    "difficulty": 1,
+    "tags": ["gai-agi", "distinction", "acronym"],
+    "examFocus": true
+  },
+  {
+    "id": "con-006",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "There are two different 'generatives' behind the G in today's GAI. Which pair names them?",
+    "choices": [
+      "Generative grammar and generative design",
+      "Generative programming and generative art",
+      "Generative modelling of a data distribution, and the Generative Adversarial Network that gave the word its modern currency",
+      "Generative pre-training and generative fine-tuning"
+    ],
+    "answer": [2],
+    "explanation": "One G is generative modelling — learning a distribution so you can sample new instances. The other is Goodfellow's Generative Adversarial Network, which is where the word 'generative' entered popular use before GPT took it over.",
+    "source": { "deck": "lec 1", "slide": 24 },
+    "difficulty": 2,
+    "tags": ["g-in-gai", "gan", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "con-007",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Predictive AI and generative AI are judged by different standards. Which pairing is correct?",
+    "choices": [
+      "Predictive AI is judged on accuracy against verifiable ground truths; generative AI on plausible context relevance",
+      "Predictive AI is judged on plausible context relevance; generative AI on accuracy against verifiable ground truths",
+      "Both are judged on accuracy against verifiable ground truths, but generative AI is allowed a wider tolerance",
+      "Neither can be judged, because both produce outputs no one has seen before"
+    ],
+    "answer": [0],
+    "explanation": "Predictive AI is scored on accuracy against verifiable ground truths, as an MLP classifier is. Generative AI is scored on its ability to produce a response with a high degree of plausible context relevance, as GPT is.",
+    "source": { "deck": "2024 midterm", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["predictive-generative", "distinction", "evaluation"],
+    "examFocus": true
+  },
+  {
+    "id": "con-008",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "In the 'instinct to imagination' framing, predictive intelligence asks 'What WILL be?'. What does generative intelligence ask?",
+    "choices": [
+      "'What was?' — reconstructing the past from present evidence",
+      "'What is?' — classifying the situation in front of it",
+      "'What should be?' — choosing the ethically preferable outcome",
+      "'What COULD be?' — abstracting the structure of a domain and imagining plausible new instances"
+    ],
+    "answer": [3],
+    "explanation": "Predictive asks 'what WILL be' — from many throws, abstract the law of motion and predict where the ball lands. Generative asks 'what COULD be' — from many faces, abstract the essence of faceness and imagine a new one.",
+    "source": { "deck": "infographics", "slide": 5 },
+    "difficulty": 1,
+    "tags": ["predictive-generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-009",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "'Learn x to y, then crank the input' summarises predictive AI. What is the matching one-line summary of generative AI?",
+    "choices": [
+      "Learn y to x, then invert the function analytically",
+      "Learn z to x, then crank the pseudo-random number generator",
+      "Learn x to y, then crank the output backwards through the network",
+      "Learn x to x, then keep cranking until the reconstruction is exact"
+    ],
+    "answer": [1],
+    "explanation": "A generative model learns a map from a simple distribution z to data x; generation means sampling z from the PRNG and pushing it through the learned map. Randomness supplies the variation, and the learned map supplies the structure.",
+    "source": { "deck": "infographics", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["predictive-generative", "distinction", "prng"],
+    "examFocus": true
+  },
+  {
+    "id": "con-010",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "In this course's vocabulary of the mind, recognition is an interpolative map. What kind of map is generation?",
+    "choices": [
+      "An iterative map, repeating the same step until it converges",
+      "A bijective map, because every output has exactly one input",
+      "An extrapolative map, into territory that was never explicitly observed",
+      "A degenerate map, because several inputs give the same output"
+    ],
+    "answer": [2],
+    "explanation": "Recognition interpolates within known territory and can be checked against ground truth. Generation extrapolates into unexplored territory, which is why the course calls it imagination rather than validation.",
+    "source": { "deck": "lec 1", "slide": 32 },
+    "difficulty": 2,
+    "tags": ["generation-recognition", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-011",
+    "topic": "concepts",
+    "type": "multi",
+    "stem": "'Generate' is unpacked into three meanings in this course. Select all three.",
+    "choices": [
+      "Simulate — draw from a distributional prior",
+      "Connect — graph or network adjacency",
+      "Compress — reduce data to fewer dimensions",
+      "Create — integrated innovation",
+      "Classify — assign an item to a predefined label"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "Generate maps to simulate, connect and create. Compression is what the encoder half of an autoencoder does, and classification is a predictive task — neither is a meaning of 'generate'.",
+    "source": { "deck": "lec 1", "slide": 23 },
+    "difficulty": 2,
+    "tags": ["g-in-gai", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-012",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "A discriminative model learns p(y|x). What does a generative model learn?",
+    "choices": [
+      "p(x), or p(x|c) when the generation is conditioned on something",
+      "p(y), the distribution of labels on their own",
+      "The inverse function x = f-inverse(y), computed exactly",
+      "Nothing probabilistic — it memorises the training set and replays it"
+    ],
+    "answer": [0],
+    "explanation": "Discriminative modelling gives the probability of a label given an input, p(y|x). Generative modelling gives the distribution of the data itself, p(x), or p(x|c) when conditioned on a prompt or class.",
+    "source": { "deck": "infographics", "slide": 1 },
+    "difficulty": 3,
+    "tags": ["predictive-generative", "distinction", "probability"],
+    "examFocus": true
+  },
+  {
+    "id": "con-013",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "What does the claim 'ML builds AI' actually mean?",
+    "choices": [
+      "Machine learning is a subfield of AI, so every ML result is also an AI result",
+      "Machine learning supplies the training data that AI engineers then hand-code into rules",
+      "AI cannot be programmed with traditional if-then constructs, so it is instead programmed to calibrate its model parameters from data — which is a machine-learning algorithm",
+      "Machine learning builds the hardware that AI models are trained on"
+    ],
+    "answer": [2],
+    "explanation": "The point is that intelligence cannot be pre-programmed as if-then rules; the parameters have to be calibrated from data, and that calibration is machine learning. Supervised, unsupervised and reinforcement learning are its three principal paradigms.",
+    "source": { "deck": "2024 midterm", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["ml-ai", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-014",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "In what way is machine learning larger than artificial intelligence?",
+    "choices": [
+      "ML is faster, so it can process more data in the same time",
+      "ML methods calibrate parameters from data in fields far outside AI — statistics, optimisation, forecasting, any data-driven modelling",
+      "ML includes rule-based expert systems, which AI does not",
+      "ML covers both software and robotics, while AI covers software only"
+    ],
+    "answer": [1],
+    "explanation": "ML is a generalisation of algorithmic parameter calibration, so it reaches into statistics, optimisation and forecasting that nobody would call AI. The trap is assuming one field simply contains the other.",
+    "source": { "deck": "lec 1", "slide": 76 },
+    "difficulty": 2,
+    "tags": ["ml-ai", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-015",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "In what way is artificial intelligence larger than machine learning?",
+    "choices": [
+      "AI has more parameters, so it can represent more complicated functions",
+      "AI includes deep learning, which is not part of machine learning",
+      "AI is a commercial category while ML is an academic one",
+      "AI also includes rule-based symbolic systems, search, planning and robotics that involve no learning from data at all"
+    ],
+    "answer": [3],
+    "explanation": "GOFAI expert systems, search and planning are AI and contain no learning whatsoever, so AI reaches outside ML. Neither field contains the other; they overlap.",
+    "source": { "deck": "lec 1", "slide": 59 },
+    "difficulty": 2,
+    "tags": ["ml-ai", "distinction", "gofai"],
+    "examFocus": true
+  },
+  {
+    "id": "con-016",
+    "topic": "concepts",
+    "type": "multi",
+    "stem": "Select the three principal machine-learning paradigms named in this course.",
+    "choices": [
+      "Adversarial learning",
+      "Supervised learning",
+      "Unsupervised learning",
+      "Federated learning",
+      "Reinforcement learning"
+    ],
+    "answer": [1, 2, 4],
+    "explanation": "Supervised, unsupervised and reinforcement learning are the three principal paradigms, with representation learning added as a fourth modality in the course glossary. Adversarial training is a technique used inside a GAN, not a paradigm in this list.",
+    "source": { "deck": "lec 1", "slide": 76 },
+    "difficulty": 1,
+    "tags": ["ml-paradigms", "definition"],
+    "examFocus": false
+  },
+  {
+    "id": "con-017",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "A retailer groups its customers into segments without ever being told what the correct segments are. Which learning paradigm is that, and which predictive-AI example from the course matches it?",
+    "choices": [
+      "Unsupervised learning — cluster analysis, which gives segmentation insights rather than predictions against labels",
+      "Supervised learning — a multilayer perceptron trained on labelled targets",
+      "Reinforcement learning — a policy optimised against a reward signal",
+      "Generative learning — a transformer sampling plausible customer descriptions"
+    ],
+    "answer": [0],
+    "explanation": "No labels are supplied, so the structure has to come from the data itself: unsupervised learning, exemplified by cluster analysis. An MLP classifier would be the supervised example of predictive AI.",
+    "source": { "deck": "2024 midterm", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["ml-paradigms", "distinction", "scenario"],
+    "examFocus": false
+  },
+  {
+    "id": "con-018",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Define 'valenced feeling and graded sensation' as an element of an intelligent being.",
+    "choices": [
+      "The ability to report in words what it is currently sensing",
+      "Evaluating sensed input on a preferential scale from very negative to very positive, which feeds back into the learning algorithm and conditions future behaviour",
+      "The physical body and sensor array that lets an agent explore its environment",
+      "A momentary awareness of which computation step is being performed"
+    ],
+    "answer": [1],
+    "explanation": "Valence is the preferential scale — negative through neutral to positive — placed on what is sensed, and it matters because it is the feedback signal that shapes later behaviour. The body is corporal form; step awareness is the consciousness marker.",
+    "source": { "deck": "lec 1", "slide": 18 },
+    "difficulty": 2,
+    "tags": ["intelligent-being", "valenced", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-019",
+    "topic": "concepts",
+    "type": "multi",
+    "stem": "Select all of the following that are elements of the course's five-part Intelligent Being.",
+    "choices": [
+      "Corporal form and physical embodiment",
+      "Linguistic competence and grammar parsing",
+      "Cognitive faculty and pattern recognition",
+      "Mental formation and projective generation",
+      "Economic agency and resource ownership"
+    ],
+    "answer": [0, 2, 3],
+    "explanation": "The five are corporal form, valenced feeling, cognitive faculty, mental formation and consciousness marker. Language competence is an AI task, not an element of the being, and economic agency is not in the framework at all.",
+    "source": { "deck": "lec 1", "slide": 18 },
+    "difficulty": 2,
+    "tags": ["intelligent-being", "definition"],
+    "examFocus": false
+  },
+  {
+    "id": "con-020",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Which two elements of the Intelligent Being correspond to predictive AI and generative AI respectively?",
+    "choices": [
+      "Corporal form for predictive, valenced feeling for generative",
+      "Valenced feeling for predictive, consciousness marker for generative",
+      "Cognitive faculty and pattern recognition for predictive; mental formation and projective generation for generative",
+      "Consciousness marker for predictive, corporal form for generative"
+    ],
+    "answer": [2],
+    "explanation": "Predictive AI mimics element (iii), cognition and pattern recognition; generative AI mimics element (iv), mental formation and projective generation. That is the framework's whole reason for existing.",
+    "source": { "deck": "lec 1", "slide": 54 },
+    "difficulty": 3,
+    "tags": ["intelligent-being", "predictive-generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-021",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Why does 'corporal form and physical embodiment' matter for an artificial intelligence, according to this course?",
+    "choices": [
+      "It makes the system faster, because computation happens close to the sensors",
+      "It is the only way to give a system a valenced scale of feeling",
+      "It proves the system is conscious rather than merely reactive",
+      "A body with sensors and some autonomy lets the agent interactively explore its environment and learn from that interaction"
+    ],
+    "answer": [3],
+    "explanation": "Embodiment is about the loop between acting and sensing: without a body you cannot learn to swim, and without eyes you cannot learn colour. It is not a claim about speed or about consciousness.",
+    "source": { "deck": "lec 1", "slide": 18 },
+    "difficulty": 2,
+    "tags": ["intelligent-being", "embodied-ai"],
+    "examFocus": false
+  },
+  {
+    "id": "con-022",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "A student has ChatGPT write her essay, prepare her pitch and summarise her reading. In this course's vocabulary, what is that?",
+    "choices": [
+      "Artificial Literacy — the failure mode of AI Literacy, outsourcing the thinking rather than learning to code, safeguard and explore",
+      "AI Literacy — using the tool fluently is exactly what literacy means",
+      "Artificial Application — relying on agentic AI to run content channels",
+      "Integrated Innovation — combining several capabilities into one workflow"
+    ],
+    "answer": [0],
+    "explanation": "AI Literacy means you can code, can safeguard, and can explore or exploit the technology. Artificial Literacy is the ironic opposite: leaning on the model so the competence never forms. Artificial Application is the same failure applied to agentic tools, not to study.",
+    "source": { "deck": "lec 1", "slide": 38 },
+    "difficulty": 2,
+    "tags": ["literacy", "distinction", "ethics"],
+    "examFocus": false
+  },
+  {
+    "id": "con-023",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "What was the 'hard part' about applied mathematics, in the sense this course uses the word 'applied'?",
+    "choices": [
+      "The mathematics itself is more advanced than in theoretical work",
+      "You have to implement everything in code rather than on paper",
+      "The conclusion has to conform to real-world constraints, which is why applied is harder than theoretical rather than simpler",
+      "Applied mathematics uses approximations, so the answers are always slightly wrong"
+    ],
+    "answer": [2],
+    "explanation": "Applied does not mean simplified. It means the result must hold under the constraints of the real situation you operate in, and that is exactly what makes it harder than the theoretical version.",
+    "source": { "deck": "GAI Lit 02", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["application", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "con-024",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "'GOFAI' is a retronym. What does that mean?",
+    "choices": [
+      "An acronym whose letters no longer stand for anything",
+      "A new name given to an older thing because a newer thing took over the original name",
+      "A name invented in retrospect by historians rather than by practitioners",
+      "A brand name that has become the generic term for a whole category"
+    ],
+    "answer": [1],
+    "explanation": "Expert systems were simply called AI until neural approaches claimed the name, so they were renamed 'Good Old-Fashioned AI'. The same move renamed ordinary AI as 'predictive AI' once generative AI arrived.",
+    "source": { "deck": "lec 1", "slide": 59 },
+    "difficulty": 1,
+    "tags": ["retronym", "gofai", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-025",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "This course groups everything neural networks do into three function modes. Which set is correct?",
+    "choices": [
+      "Training, validation and testing",
+      "Encoding, decoding and sampling",
+      "Supervised, unsupervised and reinforcement",
+      "Prediction, representation and generation"
+    ],
+    "answer": [3],
+    "explanation": "Prediction, representation and generation are the three function modes, and they are the spine of the six-architecture story: MLP and CNN predict, VAE and U-Net represent, Transformer and Diffusion generate. Supervised, unsupervised and reinforcement are learning paradigms, a different axis.",
+    "source": { "deck": "lec 1", "slide": 43 },
+    "difficulty": 2,
+    "tags": ["function-modes", "architecture", "distinction"],
+    "examFocus": true
+  }
+]

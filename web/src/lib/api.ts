@@ -7,7 +7,7 @@ export type Question = {
   id: string
   topic: string
   topicTitle: string
-  type: 'mcq' | 'tf' | 'multi' | 'hotspot'
+  type: 'mcq' | 'tf' | 'multi' | 'hotspot' | 'text'
   stem: string
   choices: string[]
   difficulty: number
@@ -51,6 +51,8 @@ export type Session = {
 export type Verdict = {
   correct: boolean
   answer: number[]
+  /** The answers a free-text question would have taken. */
+  accept?: string[]
   explanation: string
   source: Source
 }
@@ -156,10 +158,10 @@ export const api = {
       method: 'POST',
       body: JSON.stringify({ player, mode, topic, count }),
     }),
-  answer: (id: string, questionId: string, given: number[], confident: boolean, ms: number) =>
+  answer: (id: string, questionId: string, given: number[], confident: boolean, ms: number, text = '') =>
     request<Verdict>(`/api/quiz/${id}/answer`, {
       method: 'POST',
-      body: JSON.stringify({ questionId, given, confident, ms }),
+      body: JSON.stringify({ questionId, given, text, confident, ms }),
     }),
   episodes: (player: string) =>
     request<{ episodes: Episode[]; minutes: number }>(`/api/episodes?player=${encodeURIComponent(player)}`),

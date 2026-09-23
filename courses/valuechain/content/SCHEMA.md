@@ -75,7 +75,8 @@ A JSON array. Question ids are `<prefix>-NNN` with a per-topic prefix
 Field rules:
 
 - `type`: `"mcq"` (exactly one correct, 4 choices), `"tf"` (choices are exactly
-  `["True", "False"]`), or `"multi"` (2-3 correct out of 5, stem must say "Select all").
+  `["True", "False"]`), `"multi"` (2-3 correct out of 5, stem must say "Select all"),
+  `"text"` (a typed one-word answer — see below), or `"hotspot"` (click the diagram).
 - `answer`: array of **0-based** indices into `choices`. One element unless `multi`.
 - `explanation`: one or two sentences saying *why*, and for a wrong-answer trap, why the
   tempting choice is wrong. This is the single most valuable field in the file — the
@@ -97,6 +98,44 @@ Quality bar:
   delivery deadline. This is a…"), spot-the-error, and computation where the deck
   supports it.
 - At least 40% `difficulty >= 2`. A bank of pure recall will not pass this exam.
+
+### Free-text questions (`type: "text"`)
+
+For a one-word recall answer, which is the closest thing the app has to a short-answer
+exam question. There are no `choices`; `accept` lists the answers that count.
+
+```json
+{
+  "id": "tra-004",
+  "topic": "transformers",
+  "type": "text",
+  "stem": "What does the T in ChatGPT stand for?",
+  "choices": [],
+  "answer": [],
+  "accept": ["transformer"],
+  "explanation": "Transformer — the architecture underneath. GPT is Generative Pre-trained Transformer: generative because it produces new text, pre-trained because it learns from a corpus before any task, transformer because attention lets it weigh every other token when choosing the next one.",
+  "source": { "deck": "new 06", "slide": 12 },
+  "difficulty": 1,
+  "tags": ["transformer", "gpt"],
+  "examFocus": true
+}
+```
+
+Grading is deliberately generous, because the point is whether the term is in your head,
+not whether you can spell it under time pressure. Case, punctuation, surrounding
+whitespace and a leading "the"/"a" are all ignored, and the answer is accepted within an
+edit distance of 20% of its length, with a floor of one edit so short words survive a
+slip. Transposition counts as one edit, since "bais" for "bias" is the commonest typo
+there is. So `transformer` accepts *Transformer*, *transfomer*, *transformr*,
+*transformers* and *the transformer.* — but not *transducer*.
+
+Write `accept` with every form you would give a mark for in a real exam: alternate
+spellings, the expansion as well as the acronym, and the singular where you wrote the
+plural. Do not rely on the fuzz to cover a genuinely different word.
+
+Use this type for terms worth recalling cold. Do not use it where the answer is a
+phrase, a number, or anything with more than one reasonable wording — use `mcq` there,
+since the reader cannot guess which wording you had in mind.
 
 ## `cases/<name>.json`
 

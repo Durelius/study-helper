@@ -33,6 +33,10 @@ type Question struct {
 	Stem        string   `json:"stem"`
 	Choices     []string `json:"choices"`
 	Answer      []int    `json:"answer"`
+	// Accept lists the answers a free-text question will take. Grading is liberal:
+	// case, punctuation and near misses all pass. Never sent to the browser before
+	// the reader has answered.
+	Accept      []string `json:"accept,omitempty"`
 	Explanation string   `json:"explanation"`
 	Source      Source   `json:"source"`
 	Difficulty  int      `json:"difficulty"`
@@ -285,6 +289,17 @@ func readJSON(fsys fs.FS, name string, into any) error {
 func validate(q Question) error {
 	if q.ID == "" {
 		return fmt.Errorf("question with no id")
+	}
+	if q.Type == "text" {
+		if len(q.Accept) == 0 {
+			return fmt.Errorf("%s: a text question needs at least one accepted answer", q.ID)
+		}
+		for _, a := range q.Accept {
+			if strings.TrimSpace(a) == "" {
+				return fmt.Errorf("%s: an accepted answer is blank", q.ID)
+			}
+		}
+		return nil
 	}
 	if len(q.Choices) < 2 {
 		return fmt.Errorf("%s: needs at least two choices", q.ID)

@@ -19,6 +19,7 @@ export default function Runner() {
   const [run, setRun] = useState<RunState | null>(passed)
   const [index, setIndex] = useState(0)
   const [chosen, setChosen] = useState<number[]>([])
+  const [typed, setTyped] = useState('')
   const [verdict, setVerdict] = useState<Verdict | null>(null)
   const [score, setScore] = useState(0)
   const [error, setError] = useState('')
@@ -102,8 +103,11 @@ export default function Runner() {
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (!question) return
-      const n = Number(e.key)
-      if (n >= 1 && n <= question.choices.length) toggle(n - 1)
+      // On a free-text question the number keys are part of the answer, not a choice.
+      if (question.type !== 'text') {
+        const n = Number(e.key)
+        if (n >= 1 && n <= question.choices.length) toggle(n - 1)
+      }
       if (e.key === 'Enter' && verdict) next()
     }
     window.addEventListener('keydown', onKey)
@@ -123,9 +127,11 @@ export default function Runner() {
   if (!run || !question) return <p className="text-ink-soft">Loading…</p>
 
   async function submit(confident: boolean) {
-    if (!chosen.length || verdict || !question || !run) return
+    if (verdict || !question || !run) return
+    const isText = question.type === 'text'
+    if (isText ? !typed.trim() : !chosen.length) return
     try {
-      const res = await api.answer(id, question.id, chosen, confident, Date.now() - startedAt.current)
+      const res = await api.answer(id, question.id, chosen, confident, Date.now() - startedAt.current, typed)
       setVerdict(res)
       if (res.correct) setScore((s) => s + 1)
     } catch (e) {
@@ -141,6 +147,7 @@ export default function Runner() {
     }
     setIndex((i) => i + 1)
     setChosen([])
+    setTyped('')
     setVerdict(null)
     startedAt.current = Date.now()
     window.scrollTo({ top: 0 })
@@ -213,6 +220,56 @@ export default function Runner() {
         <p className="mt-3 text-[0.82rem] text-ink-faint">Pick every answer that applies.</p>
       )}
 
+      {question.type === 'text' ? (
+        <div className="mt-4">
+          <label htmlFor="answer" className="block text-[0.82rem] text-ink-soft">
+            Type your answer
+          </label>
+          <input
+            id="answer"
+            autoFocus
+            autoComplete="off"
+            autoCapitalize="off"
+            spellCheck={false}
+            value={typed}
+            disabled={!!verdict}
+            onChange={(e) => setTyped(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && !verdict && typed.trim()) submit(true)
+            }}
+            placeholder="one word is enough"
+            className="mt-1.5 w-full border px-3 py-2.5 text-[1.05rem]"
+            style={{
+              borderColor: verdict
+                ? verdict.correct
+                  ? 'var(--slack)'
+                  : 'var(--critical)'
+                : 'var(--line-strong)',
+              background: verdict
+                ? verdict.correct
+                  ? 'var(--slack-soft)'
+                  : 'var(--critical-soft)'
+                : 'var(--surface)',
+              borderWidth: verdict ? 2 : 1,
+            }}
+          />
+          <p className="mt-1 text-[0.76rem] text-ink-faint">
+            Spelling is marked generously — capitals, punctuation and a slipped letter are fine.
+          </p>
+          {verdict && !verdict.correct && verdict.accept && verdict.accept.length > 0 && (
+            <p className="mt-2 text-[0.92rem]">
+              <span className="text-ink-soft">The answer was </span>
+              <strong style={{ color: 'var(--slack)' }}>{verdict.accept[0]}</strong>
+              {verdict.accept.length > 1 && (
+                <span className="text-ink-faint">
+                  {' '}
+                  (also accepted: {verdict.accept.slice(1).join(', ')})
+                </span>
+              )}
+            </p>
+          )}
+        </div>
+      ) : (
       <ul className="mt-4 space-y-1.5">
         {question.choices.map((c, i) => {
           const picked = chosen.includes(i)
@@ -262,6 +319,7 @@ export default function Runner() {
           )
         })}
       </ul>
+      )}
 
       {!verdict ? (
         // Two buttons rather than a checkbox: committing to "sure" or "not sure" is
@@ -269,14 +327,14 @@ export default function Runner() {
         <div className="mt-5 flex gap-2">
           <button
             onClick={() => submit(true)}
-            disabled={!chosen.length}
+            disabled={question.type === 'text' ? !typed.trim() : !chosen.length}
             className="btn flex-1"
           >
             I'm sure
           </button>
           <button
             onClick={() => submit(false)}
-            disabled={!chosen.length}
+            disabled={question.type === 'text' ? !typed.trim() : !chosen.length}
             className="btn btn-quiet flex-1"
           >
             Not sure

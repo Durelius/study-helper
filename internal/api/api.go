@@ -323,9 +323,11 @@ func (s *Server) handleCheck(w http.ResponseWriter, r *http.Request) {
 		writeError(w, http.StatusNotFound, "No such question.")
 		return
 	}
+	correct, _ := s.grade(q, req)
 	writeJSON(w, http.StatusOK, map[string]any{
-		"correct":     q.Correct(req.Given),
+		"correct":     correct,
 		"answer":      q.Answer,
+		"accept":      q.Accept,
 		"explanation": q.Explanation,
 		"source":      q.Source,
 	})
@@ -334,8 +336,10 @@ func (s *Server) handleCheck(w http.ResponseWriter, r *http.Request) {
 type answerRequest struct {
 	QuestionID string `json:"questionId"`
 	Given      []int  `json:"given"`
-	Confident  bool   `json:"confident"`
-	MS         int64  `json:"ms"`
+	// Text carries a free-text answer. Graded liberally — see internal/content/text.go.
+	Text      string `json:"text"`
+	Confident bool   `json:"confident"`
+	MS        int64  `json:"ms"`
 }
 
 func (s *Server) handleAnswer(w http.ResponseWriter, r *http.Request) {
@@ -351,8 +355,8 @@ func (s *Server) handleAnswer(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	correct := q.Correct(req.Given)
-	if err := s.DB.RecordAnswer(id, q.ID, q.Topic, joinInts(req.Given), correct, req.Confident, req.MS); err != nil {
+	correct, given := s.grade(q, req)
+	if err := s.DB.RecordAnswer(id, q.ID, q.Topic, given, correct, req.Confident, req.MS); err != nil {
 		s.fail(w, err)
 		return
 	}
@@ -361,6 +365,7 @@ func (s *Server) handleAnswer(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{
 		"correct":     correct,
 		"answer":      q.Answer,
+		"accept":      q.Accept,
 		"explanation": q.Explanation,
 		"source":      q.Source,
 	})
@@ -428,6 +433,14 @@ func (s *Server) handleFinish(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{
 		"session": sess, "review": out, "breakdown": breakdown,
 	})
+}
+
+// grade marks one answer and returns what the reader gave, for the record.
+func (s *Server) grade(q content.Question, req answerRequest) (bool, string) {
+	if q.Type == "text" {
+		return q.CorrectText(req.Text), strings.TrimSpace(req.Text)
+	}
+	return q.Correct(req.Given), joinInts(req.Given)
 }
 
 // question pulls one question out of a session's stored payload. Reading it from there
