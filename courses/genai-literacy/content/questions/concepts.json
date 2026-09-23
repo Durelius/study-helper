@@ -420,16 +420,12 @@
   {
     "id": "con-024",
     "topic": "concepts",
-    "type": "mcq",
-    "stem": "'GOFAI' is a retronym. What does that mean?",
-    "choices": [
-      "An acronym whose letters no longer stand for anything",
-      "A new name given to an older thing because a newer thing took over the original name",
-      "A name invented in retrospect by historians rather than by practitioners",
-      "A brand name that has become the generic term for a whole category"
-    ],
-    "answer": [1],
-    "explanation": "Expert systems were simply called AI until neural approaches claimed the name, so they were renamed 'Good Old-Fashioned AI'. The same move renamed ordinary AI as 'predictive AI' once generative AI arrived.",
+    "type": "text",
+    "stem": "One word: what do you call a new name given to an older thing because a newer thing has taken over the original name — as when expert systems became 'GOFAI'?",
+    "choices": [],
+    "answer": [],
+    "accept": ["retronym", "retronyme"],
+    "explanation": "A retronym. Expert systems were simply called AI until neural approaches claimed the name, so they were renamed Good Old-Fashioned AI; the same move renamed ordinary AI as 'predictive AI' once generative AI arrived.",
     "source": { "deck": "lec 1", "slide": 59 },
     "difficulty": 1,
     "tags": ["retronym", "gofai", "definition"],
@@ -451,6 +447,34 @@
     "source": { "deck": "lec 1", "slide": 43 },
     "difficulty": 2,
     "tags": ["function-modes", "architecture", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-026",
+    "topic": "concepts",
+    "type": "text",
+    "stem": "What does the G in 'GAI' stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": ["generative"],
+    "explanation": "Generative. GAI is Generative Artificial Intelligence, which creates new content; the G in AGI is General, meaning human-level breadth across tasks, and that is explicitly outside this course.",
+    "source": { "deck": "lec 1", "slide": 24 },
+    "difficulty": 1,
+    "tags": ["gai-agi", "acronym", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-027",
+    "topic": "concepts",
+    "type": "text",
+    "stem": "One word completes the second element of the Intelligent Being: '____ feeling and graded sensation'.",
+    "choices": [],
+    "answer": [],
+    "accept": ["valenced", "valence"],
+    "explanation": "Valenced. It means grading what is sensed on a preferential scale from very negative through neutral to very positive, which then acts as feedback to the learning algorithm and conditions future behaviour.",
+    "source": { "deck": "lec 1", "slide": 18 },
+    "difficulty": 1,
+    "tags": ["intelligent-being", "valenced", "definition"],
     "examFocus": true
   }
 ]

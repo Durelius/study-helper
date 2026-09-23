@@ -1,0 +1,463 @@
+[
+  {
+    "id": "nn-001",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What is a perceptron?",
+    "choices": [
+      "A layer of trainable convolution matrices applied to a grid of pixels",
+      "A mathematical-computational model of a generic neuron: it sums weighted incoming signals and fires once the total passes an internal threshold",
+      "The compressed internal code at the narrowest point of an autoencoder",
+      "A rule that maps a symbol to a response, as in an expert system"
+    ],
+    "answer": [1],
+    "explanation": "A perceptron sums excitatory and inhibitory inputs, each scaled by a weight, and fires when that weighted sum exceeds its threshold. The convolution matrix is the CNN's building block, not the neuron.",
+    "source": { "deck": "lec 1", "slide": 60 },
+    "difficulty": 1,
+    "tags": ["perceptron", "definition", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-002",
+    "topic": "neural-networks",
+    "type": "text",
+    "stem": "What does the P in MLP stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": ["perceptron", "perceptrons"],
+    "explanation": "Perceptron. MLP is Multilayer Perceptron, and the perceptron is the mathematical model of a generic neuron: it sums weighted incoming signals and fires when that sum exceeds an internal threshold.",
+    "source": { "deck": "2025 midterm", "slide": 2 },
+    "difficulty": 1,
+    "tags": ["perceptron", "acronym", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-003",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What is the difference between a perceptron and a multilayer perceptron?",
+    "choices": [
+      "A perceptron learns from data; a multilayer perceptron has its weights set by hand",
+      "A perceptron handles images; a multilayer perceptron handles text",
+      "A perceptron is a single artificial neuron and can only separate linearly separable data; an MLP stacks layers of them, each layer's output feeding the next",
+      "A perceptron is biological; a multilayer perceptron is artificial"
+    ],
+    "answer": [2],
+    "explanation": "One perceptron draws one straight boundary, which is why XOR defeats it. Stacking layers is what buys the nonlinear decision boundaries, and in an MLP there is no recurrence and no skipping of layers.",
+    "source": { "deck": "lec 5", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["perceptron", "mlp", "distinction", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-004",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Why is XOR the classic argument for stacking layers of neurons?",
+    "choices": [
+      "XOR requires more inputs than a single neuron can accept",
+      "XOR is not linearly separable, so no single straight boundary — and therefore no single perceptron — can compute it",
+      "XOR needs recurrence, because the output depends on previous inputs",
+      "XOR produces continuous outputs, and a perceptron produces only binary ones"
+    ],
+    "answer": [1],
+    "explanation": "AND and OR can each be separated by one straight line, so one perceptron suffices; XOR cannot, so you need a layer to bend the boundary. This is the limitation Minsky and Papert made famous in 1969.",
+    "source": { "deck": "GAI Lit 03", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["perceptron", "xor", "linear-separability", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-005",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "In a neuron's weighted sum, what job does the bias do that the weights do not?",
+    "choices": [
+      "It scales each incoming signal according to how important that input is",
+      "It introduces the nonlinearity that lets the network learn curved boundaries",
+      "It normalises the inputs so they all lie on the same scale",
+      "It shifts the decision threshold — how large the weighted sum has to be before the neuron fires"
+    ],
+    "answer": [3],
+    "explanation": "Weights scale the inputs; the bias moves the threshold. Push the bias all the way up and the neuron becomes almost impossible to fire, which is exactly how it behaves as a decision threshold. The nonlinearity comes from the activation function, not the bias.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["bias", "weight", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-006",
+    "topic": "neural-networks",
+    "type": "text",
+    "stem": "One word: which parameter of a neuron shifts its decision threshold, as opposed to scaling an input?",
+    "choices": [],
+    "answer": [],
+    "accept": ["bias"],
+    "explanation": "The bias. Weights scale each incoming signal according to its importance; the bias shifts how large the weighted sum must be before the neuron fires, which is why the course states flatly that bias equals decision threshold.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 1,
+    "tags": ["bias", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-007",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What makes up the trainable parameters of a single neuron with two inputs?",
+    "choices": [
+      "One weight per input plus one bias for the neuron",
+      "One weight per input only — the bias is fixed before training",
+      "One weight for the whole neuron plus one bias per input",
+      "Two weights and two biases, one pair per input"
+    ],
+    "answer": [0],
+    "explanation": "Each incoming connection carries its own weight, and the neuron carries a single bias — so a two-input neuron has three trainable numbers. The inputs themselves are given data, not parameters.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["parameter", "weight", "bias", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-008",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A student uses 'weight', 'coefficient', 'parameter', 'input' and 'hyperparameter' interchangeably. Which correction is right?",
+    "choices": [
+      "All five mean the same thing in a neural network",
+      "Weight, coefficient and parameter are the same learned numbers; inputs are the x variables you supply; hyperparameters are set before training begins",
+      "Weight and coefficient are learned; parameter and hyperparameter are both set before training; inputs are outputs of the previous layer",
+      "Parameter and input are the same thing; weight, coefficient and hyperparameter are all learned"
+    ],
+    "answer": [1],
+    "explanation": "Weights, coefficients and parameters are three names for the numbers learned from data. Inputs are the x variables chosen by variable selection, and hyperparameters — layer count, learning rate — are fixed before training starts.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["parameter", "vocabulary", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-009",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What is the difference between variable selection and feature engineering?",
+    "choices": [
+      "Variable selection happens during training; feature engineering happens after it",
+      "Variable selection reduces the number of layers; feature engineering increases it",
+      "Variable selection chooses which x variables to use; feature engineering builds a new input out of existing ones by a logical function, such as one variable divided by another",
+      "They are two names for the same preprocessing step"
+    ],
+    "answer": [2],
+    "explanation": "Selection picks from what you already have; engineering manufactures something new out of it. Both happen before training, which is why they are easy to confuse.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["feature-engineering", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-010",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What is the difference between a biological neural network and an artificial one?",
+    "choices": [
+      "A BNN is the actual brain; an ANN is a mathematical model of it, and every modern AI is built from ANNs",
+      "A BNN learns; an ANN only stores rules that engineers wrote",
+      "A BNN has layers; an ANN has none",
+      "They are the same thing described at different levels of detail"
+    ],
+    "answer": [0],
+    "explanation": "The BNN is the real tissue; the ANN is the mathematical abstraction of how those neurons connect and communicate. The abstraction, not the biology, is what every modern AI system is actually built from.",
+    "source": { "deck": "lec 1", "slide": 60 },
+    "difficulty": 1,
+    "tags": ["bnn-ann", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-011",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What distinguishes a feedforward network from a recurrent one?",
+    "choices": [
+      "Feedforward networks are trained by backpropagation; recurrent ones are not trained at all",
+      "In a feedforward network the signal travels one way only; in a recurrent network it loops back into the network",
+      "Feedforward networks handle images; recurrent networks handle numbers",
+      "Feedforward networks have one layer; recurrent networks have many"
+    ],
+    "answer": [1],
+    "explanation": "The whole distinction is the direction of travel: forward only, or fed back in. An MLP is feedforward — no recurrence and no skipping over layers.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 1,
+    "tags": ["ffn-rnn", "distinction", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-012",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What does a loss function actually return, and what is done with it?",
+    "choices": [
+      "The network's confidence in its answer, which is reported to the user",
+      "A gradient vector, which is added directly to the weights",
+      "A single number measuring how far the output is from the ground truth, which training then minimises by adjusting weights and biases",
+      "A probability distribution over classes, from which the prediction is sampled"
+    ],
+    "answer": [2],
+    "explanation": "The loss is one number saying how wrong the network currently is — the course's phrase is that it tells you how far you are from the truth. Minimising it by gradient descent is the whole of training.",
+    "source": { "deck": "lec 5", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["loss", "training", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-013",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "How do a loss function and RMSE relate to each other?",
+    "choices": [
+      "RMSE is the general notion of error; a loss function is one particular way of computing RMSE",
+      "The loss function L is the general 'how wrong am I' number, and RMSE — root mean squared error — is one specific choice of it",
+      "They are unrelated: RMSE measures accuracy, the loss function measures speed",
+      "RMSE is used for generative models, loss functions for predictive ones"
+    ],
+    "answer": [1],
+    "explanation": "L is the general object; RMSE is one instance, and cross-entropy is another used for classification. Saying 'the loss function is RMSE' is only right for the particular model that happens to use it.",
+    "source": { "deck": "lec 5", "slide": 2 },
+    "difficulty": 2,
+    "tags": ["loss", "rmse", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-014",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A gradient points in the direction of steepest ascent. What does gradient descent therefore do with it?",
+    "choices": [
+      "Follows it, because the loss surface is inverted before training",
+      "Ignores it and searches randomly until the loss stops falling",
+      "Solves for the point where it equals zero, in a single analytic step",
+      "Takes a small step against it, then recomputes, repeating until the loss stops falling"
+    ],
+    "answer": [3],
+    "explanation": "Negate the gradient and you have the direction of steepest descent; the algorithm is stepwise and iterative, like a ball rolling down a surface. It is not a one-shot analytic solution, which is why it only ever reaches a local minimum.",
+    "source": { "deck": "lec 5", "slide": 2 },
+    "difficulty": 2,
+    "tags": ["gradient-descent", "training", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-015",
+    "topic": "neural-networks",
+    "type": "text",
+    "stem": "One word: what do you call the vector that gives the direction of steepest ascent of the loss, and which training steps against?",
+    "choices": [],
+    "answer": [],
+    "accept": ["gradient", "the gradient"],
+    "explanation": "The gradient. It points uphill, so the algorithm negates it and takes a small step downhill, recomputes, and repeats — the ball-rolling-down-a-surface picture of training.",
+    "source": { "deck": "lec 5", "slide": 2 },
+    "difficulty": 1,
+    "tags": ["gradient-descent", "training"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-016",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "State the relationship between gradient descent and backpropagation.",
+    "choices": [
+      "Backpropagation is a specialisation of the gradient descent algorithm, applied to minimise prediction error for a multilayer perceptron by tweaking its weights and biases",
+      "Gradient descent is a specialisation of backpropagation, applied when the network has only one layer",
+      "They are alternative optimisers: you choose one or the other for a given network",
+      "Backpropagation computes the loss; gradient descent computes the prediction"
+    ],
+    "answer": [0],
+    "explanation": "That first sentence is the one to memorise verbatim. Gradient descent is the general 'step downhill' optimiser; backprop is what it becomes once the thing being optimised is a layered network and the error has to travel backwards through it.",
+    "source": { "deck": "lec 1", "slide": 61 },
+    "difficulty": 2,
+    "tags": ["backpropagation", "gradient-descent", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-017",
+    "topic": "neural-networks",
+    "type": "text",
+    "stem": "One word: name the algorithm that specialises gradient descent to a multilayer perceptron by sending prediction error backwards through the layers.",
+    "choices": [],
+    "answer": [],
+    "accept": ["backpropagation", "back-propagation", "back propagation", "backprop"],
+    "explanation": "Backpropagation. The sentence to memorise: backpropagation is a specialisation of the gradient descent algorithm, applied to minimise prediction error for a multilayer perceptron by tweaking weights and biases.",
+    "source": { "deck": "lec 1", "slide": 61 },
+    "difficulty": 1,
+    "tags": ["backpropagation", "gradient-descent"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-018",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "ADAM is named in the course as a refinement of plain gradient descent. What does the name stand for?",
+    "choices": [
+      "Automatic Differentiation And Minimisation",
+      "Adaptive Descent Across Minima",
+      "Adaptive Moment Estimation",
+      "Averaged Directional Approximation Method"
+    ],
+    "answer": [2],
+    "explanation": "Adaptive Moment Estimation: it keeps running estimates of the gradient's moments so each parameter gets its own adapting step size, rather than one fixed step for all. It is still gradient descent underneath.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["adam", "gradient-descent", "acronym"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-019",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Why did ReLU displace the sigmoid as the default activation in deep networks?",
+    "choices": [
+      "Sigmoid outputs negative numbers, which networks cannot propagate",
+      "Sigmoid squashes everything into a narrow range, so gradients vanish as they pass back through many layers; ReLU passes positive values through untouched",
+      "ReLU is nonlinear and sigmoid is linear, so only ReLU can bend a decision boundary",
+      "ReLU can be computed in parallel on a GPU and sigmoid cannot"
+    ],
+    "answer": [1],
+    "explanation": "Both are nonlinear; the difference is the gradient. Sigmoid saturates, so the error signal shrinks towards nothing over many layers — the vanishing gradient problem — while ReLU returns its input when positive and zero otherwise, keeping the gradient alive and costing almost nothing to compute.",
+    "source": { "deck": "infographics", "slide": 6 },
+    "difficulty": 3,
+    "tags": ["relu", "sigmoid", "distinction", "activation"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-020",
+    "topic": "neural-networks",
+    "type": "text",
+    "stem": "Name the activation function, also called the ramp, that returns its input when positive and zero otherwise.",
+    "choices": [],
+    "answer": [],
+    "accept": ["relu", "rectified linear unit", "ramp"],
+    "explanation": "ReLU, the rectified linear unit — 'ramp' in Mathematica's vocabulary. It supplies cheap nonlinearity and, unlike the sigmoid, does not squash the gradient away in deep networks.",
+    "source": { "deck": "lec 5", "slide": 2 },
+    "difficulty": 1,
+    "tags": ["relu", "activation"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-021",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What separates softmax from sigmoid?",
+    "choices": [
+      "Softmax squashes a single value into the range 0 to 1; sigmoid turns a vector into class probabilities",
+      "Softmax is used during training, sigmoid only at inference time",
+      "Softmax turns a vector of raw activations into a probability distribution across classes that sums to 1; sigmoid squashes one value into the range 0 to 1",
+      "They compute the same thing; softmax is simply the faster implementation"
+    ],
+    "answer": [2],
+    "explanation": "Softmax is a whole-vector operation with the constraint that the outputs sum to one, which is what makes them class probabilities. Sigmoid acts on one number at a time and carries no such constraint.",
+    "source": { "deck": "Wolfram CNN", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["softmax", "sigmoid", "distinction", "activation"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-022",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "In the canonical handwritten-digit network, what happens across successive layers?",
+    "choices": [
+      "Each layer repeats the same computation, and depth only adds numerical precision",
+      "Raw pixels become edges, edges become patterns such as loops and strokes, and the final layer identifies the digit",
+      "The first layer identifies the digit and later layers check that answer",
+      "Each layer discards a fixed fraction of the pixels until only the digit remains"
+    ],
+    "answer": [1],
+    "explanation": "Depth buys hierarchical abstraction: pixels to edges to patterns to identity. It is the same hierarchy Hubel and Wiesel found in the cat — lines, then curves, then shapes, then objects.",
+    "source": { "deck": "infographics", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["mlp", "hierarchy", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-023",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A trained network reaches high accuracy on its test set. What does the course warn you not to conclude from that?",
+    "choices": [
+      "That it will run fast enough to deploy",
+      "That the training data was large enough",
+      "That it has found a human-like abstraction of the problem — it has only settled into one local minimum of the loss surface that happens to work",
+      "That the loss function was correctly chosen"
+    ],
+    "answer": [2],
+    "explanation": "Gradient descent finds a local minimum, not the truth. High accuracy means the parameters work on the data you have, not that the network has learned the concept the way a person would.",
+    "source": { "deck": "infographics", "slide": 6 },
+    "difficulty": 3,
+    "tags": ["training", "gradient-descent", "limits"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-024",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What does the universal approximation result say, and what does it not say?",
+    "choices": [
+      "It says a neural network can represent very complex mappings; it does not say that training will find the right parameters, which still needs data, architecture, optimisation and regularisation",
+      "It says any network will converge to the global minimum given enough steps",
+      "It says every function can be learned exactly with enough training data",
+      "It says deeper networks always outperform shallower ones"
+    ],
+    "answer": [0],
+    "explanation": "Universal approximation establishes representational capacity only — the function is in there somewhere. Finding it is a separate, empirical problem, which is why the infographic pairs it with gradient-based learning as the other half of the common AI engine.",
+    "source": { "deck": "infographics", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["universal-approximation", "training", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-025",
+    "topic": "neural-networks",
+    "type": "tf",
+    "stem": "Deep learning names a genuinely new architecture, unrelated to the multilayer perceptron of the 1980s.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "False. The course glossary calls deep learning a modern rebranding of the MLP; what changed was the compute available, the algorithmic tweaks that stop weights degenerating across many layers, and the size of the datasets.",
+    "source": { "deck": "lec 1", "slide": 76 },
+    "difficulty": 2,
+    "tags": ["deep-learning", "mlp", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-026",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What is one-hot encoding?",
+    "choices": [
+      "Scaling every input so it lies between 0 and 1",
+      "Representing a category as a list of slots in which exactly one is on and all the rest are off",
+      "Turning a word into a dense vector of several hundred numbers",
+      "Discarding the least useful input variables before training"
+    ],
+    "answer": [1],
+    "explanation": "One slot lit out of ten, like the digit displays in the course's example. It is the opposite of an embedding, which is dense and learned and puts similar items close together; a one-hot vector says nothing about similarity.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["one-hot", "encoding", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-027",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "How is overfitting detected?",
+    "choices": [
+      "The training error stops falling while the validation error keeps improving",
+      "Both the training error and the validation error stay high",
+      "The training error keeps falling while the validation error plateaus or starts rising",
+      "The loss oscillates instead of decreasing smoothly"
+    ],
+    "answer": [2],
+    "explanation": "Overfitting is the gap opening between the two curves: the model keeps fitting the training set better while generalising worse. Both errors staying high is underfitting — the model simply lacks capacity.",
+    "source": { "deck": "Wolfram CNN", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["overfitting", "distinction", "training"],
+    "examFocus": true
+  }
+]

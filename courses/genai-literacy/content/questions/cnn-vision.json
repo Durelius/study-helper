@@ -1,0 +1,378 @@
+[
+  {
+    "id": "cnn-001",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What does CNN stand for, and what is actually inside the layer the C names?",
+    "choices": [
+      "Connected Neural Network — a layer in which every neuron is wired to every neuron in the layer below",
+      "Convolutional Neural Network — a layer of convolution matrices with trainable entries, slid over a grid of pixel values to detect visual patterns",
+      "Cognitive Neural Network — a layer that stores remembered images and compares new ones against them",
+      "Cascading Neural Network — a layer that passes its output to several later layers at once"
+    ],
+    "answer": [1],
+    "explanation": "Convolutional Neural Network. A convolutional layer is a set of small convolution matrices, or filters, whose entries are learned; sliding them across the pixel grid is what detects edges, curves and textures.",
+    "source": { "deck": "2025 midterm", "slide": 2 },
+    "difficulty": 1,
+    "tags": ["cnn", "acronym", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-002",
+    "topic": "cnn-vision",
+    "type": "text",
+    "stem": "What does the C in CNN stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": ["convolutional", "convolution", "convolutional neural network"],
+    "explanation": "Convolutional. The convolutional layer is a bank of small matrices with trainable entries that are slid across the grid of pixel values, and sliding one filter over every position is what makes it a convolution rather than a plain weighted sum.",
+    "source": { "deck": "2025 midterm", "slide": 2 },
+    "difficulty": 1,
+    "tags": ["cnn", "acronym"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-003",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Why can a convolutional network recognise an object wherever it appears in the image, when a plain MLP fed raw pixels cannot?",
+    "choices": [
+      "The CNN is deeper, so it has enough parameters to memorise every position the object could occupy",
+      "The CNN normalises the image so the object is always moved to the centre before classification",
+      "A CNN slides the same learned filters over every region, so a feature is detected wherever it sits; an MLP gives each pixel position its own weight, so a shifted object looks like a completely different input",
+      "A CNN converts the image to greyscale first, which removes the effect of position"
+    ],
+    "answer": [2],
+    "explanation": "Weight sharing is the whole answer: one filter, applied everywhere, gives translational covariance. An MLP treats pixel 1 and pixel 250,000 as unrelated inputs, so moving the object changes every number it sees.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["cnn", "mlp", "distinction", "covariance"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-004",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What does translational covariance mean in an image classifier?",
+    "choices": [
+      "The network processes every region of the image with the same set of learned filters, so features are detected consistently wherever they appear",
+      "The label the network predicts is unchanged when the image is rotated",
+      "The network can translate its findings into a text caption",
+      "The network shifts the image a few pixels at a time during training to make it more robust"
+    ],
+    "answer": [0],
+    "explanation": "Translational covariance is the property that comes from sharing one filter across all positions: shift the feature and the response shifts with it. Rotation invariance is the neighbouring idea — that the label does not change when the input is turned.",
+    "source": { "deck": "Wolfram CNN", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["covariance", "distinction", "vision-principles"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-005",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Rotation invariance is a design principle borrowed from natural vision, but the course warns that symmetry sometimes matters. What is the warning?",
+    "choices": [
+      "Rotating an image always destroys the colour correlation between neighbouring pixels",
+      "A rotated cat is a different species of cat, so the label genuinely changes",
+      "For some inputs the transformed version is a different thing entirely — flip 'bp' and you get 'qd', so the classifier must not be blind to the flip",
+      "Rotation is impossible to simulate during training because it needs interpolation"
+    ],
+    "answer": [2],
+    "explanation": "Usually a tilted object is still the same object, so invariance helps. But for letters and digits the mirror image is a different symbol — 'bp' flipped becomes 'qd' — so full symmetry invariance would destroy the very distinction you want.",
+    "source": { "deck": "Wolfram CNN", "slide": 1 },
+    "difficulty": 3,
+    "tags": ["invariance", "distinction", "vision-principles"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-006",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Why do convolutional networks process images at several scales rather than one?",
+    "choices": [
+      "Because the training set contains images saved at different file resolutions",
+      "Because objects appear at different sizes depending on how far they are from the camera, so the same object must be detectable large or small",
+      "Because small filters are cheaper to compute than large ones",
+      "Because colour and shape have to be processed at different resolutions"
+    ],
+    "answer": [1],
+    "explanation": "Scale covariance exists because distance changes apparent size: the same cat is 40 pixels across in one photo and 400 in another. Multiple scales let one learned feature fire for both.",
+    "source": { "deck": "Wolfram CNN", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["scale", "vision-principles"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-007",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What does the phrase 'hierarchy of features' describe in a convolutional network, and where did the idea come from?",
+    "choices": [
+      "The ordering of training images from easiest to hardest, borrowed from how children learn",
+      "The ranking of filters by how much they reduce the loss, borrowed from decision trees",
+      "The order in which classes are predicted, borrowed from taxonomy",
+      "Early layers detect small parts like edges, later layers combine them into shapes and whole objects — leaves make trees make forests — borrowed from the cat's visual cortex, where line detectors combine into curve detectors"
+    ],
+    "answer": [3],
+    "explanation": "Hubel and Wiesel found neurons that fired for oriented lines, not whole objects, and lines combine upward into curves, shapes and objects. The CNN copies that ladder directly: edges, then textures, then parts, then the object.",
+    "source": { "deck": "Wolfram CNN", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["hierarchy", "hubel-wiesel", "vision-principles"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-008",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "'Colour correlation length' is listed as a property of natural images that network design exploits. What does it mean?",
+    "choices": [
+      "Each colour channel needs a different number of filters",
+      "Neighbouring pixels tend to have similar colours, and that similarity falls off as the distance between them grows",
+      "Images with longer exposure have more correlated colours",
+      "The correlation between colour and class label is the strongest signal in the image"
+    ],
+    "answer": [1],
+    "explanation": "Natural images are locally smooth: a pixel is a good predictor of its neighbours, and a poor one of a pixel far away. That is exactly why a small local filter is enough, and why a fully-connected layer over raw pixels is wasteful.",
+    "source": { "deck": "Wolfram CNN", "slide": 2 },
+    "difficulty": 2,
+    "tags": ["vision-principles", "locality"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-009",
+    "topic": "cnn-vision",
+    "type": "multi",
+    "stem": "Select all of the following that the course names as guiding principles of natural vision that CNN design copies.",
+    "choices": [
+      "Hierarchy of features — small parts combine into larger ones",
+      "Feature binding — spatially aligned features are bound into a single object",
+      "Lossless compression of the raw pixel array",
+      "Motion detection — movement directs attention",
+      "Exhaustive comparison of the image against every stored template"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "The list is translational and scale covariance, rotation invariance, symmetry transformations, inherent scale of features, hierarchy of features, colour correlation length, motion detection and feature binding. Lossless compression and template matching are not on it; template matching is precisely the pre-neural approach that failed.",
+    "source": { "deck": "Wolfram CNN", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["vision-principles"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-010",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "A convolution layer detects patterns. What does a pooling layer do?",
+    "choices": [
+      "It reduces the size of the representation, summarising each small neighbourhood into a single value",
+      "It combines the outputs of several networks into one prediction",
+      "It normalises pixel values so they fall between 0 and 1",
+      "It groups the training images into batches"
+    ],
+    "answer": [0],
+    "explanation": "Pooling shrinks the representation, keeping the strongest response in each small region and discarding exact position. Convolution finds the feature; pooling throws away the detail of where it was, which is part of why position stops mattering.",
+    "source": { "deck": "Wolfram CNN", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["pooling", "distinction", "layers"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-011",
+    "topic": "cnn-vision",
+    "type": "text",
+    "stem": "One word: name the layer type that reduces the size of the image representation as it passes up through a convolutional network.",
+    "choices": [],
+    "answer": [],
+    "accept": ["pooling", "pool", "max pooling", "maxpooling"],
+    "explanation": "Pooling. It summarises each small neighbourhood into one value, so the representation shrinks with depth while the features it carries become more abstract and less tied to an exact position.",
+    "source": { "deck": "Wolfram CNN", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["pooling", "layers"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-012",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Why is a flattening step needed between the convolutional stack and the fully-connected layers that follow it?",
+    "choices": [
+      "To average the feature maps so that only the strongest feature survives",
+      "To remove the colour channels, which the classifier does not need",
+      "To convert the three-dimensional tensor produced by the convolutional layers into a one-dimensional vector, which is what a fully-connected layer consumes",
+      "To rescale the activations into the range a softmax can accept"
+    ],
+    "answer": [2],
+    "explanation": "The convolutional stack outputs a stack of two-dimensional feature maps — a 3-D tensor. A fully-connected layer takes a plain vector, so the tensor is unrolled into one long list first. Nothing is computed; the numbers are only rearranged.",
+    "source": { "deck": "Wolfram CNN", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["tensor", "layers"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-013",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Softmax and cross-entropy sit next to each other at the end of a classifier. What is the difference between them?",
+    "choices": [
+      "Softmax turns raw activations into a probability distribution over the classes; cross-entropy measures the distance between that distribution and the true one-hot label",
+      "Softmax measures the error; cross-entropy converts the error into a probability",
+      "They are two names for the same operation, one used in vision and one in language",
+      "Softmax is applied during training only; cross-entropy is applied at prediction time"
+    ],
+    "answer": [0],
+    "explanation": "Softmax is the output transform: raw scores in, probabilities summing to one out. Cross-entropy is the loss: it scores how far those probabilities are from the label, and training minimises it.",
+    "source": { "deck": "Wolfram CNN", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["softmax", "cross-entropy", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-014",
+    "topic": "cnn-vision",
+    "type": "text",
+    "stem": "Name the loss function used for classification, which measures the distance between the predicted class probabilities and the true one-hot encoded label.",
+    "choices": [],
+    "answer": [],
+    "accept": ["cross-entropy", "cross entropy", "crossentropy", "cross-entropy loss"],
+    "explanation": "Cross-entropy. RMSE is the natural loss when the target is a number; cross-entropy is the natural loss when the target is a class, because it compares two probability distributions rather than two quantities.",
+    "source": { "deck": "Wolfram CNN", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["cross-entropy", "loss", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-015",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What is a neuron's receptive field, and why does it widen with depth?",
+    "choices": [
+      "The set of classes the neuron can vote for; it widens because deeper layers have more outputs",
+      "The range of activation values the neuron can output; it widens because activations accumulate",
+      "The number of filters the neuron shares with its neighbours; it widens because filters are reused",
+      "The region of the input image the neuron can actually see; each layer pools information from the layer below, so the region grows — which is why early layers detect edges and deep layers detect whole objects"
+    ],
+    "answer": [3],
+    "explanation": "A first-layer neuron sees only a small patch of pixels. A neuron two layers up sees a patch of patches, so its window on the original image is larger. Depth buys field of view, and field of view is what lets a neuron represent an object rather than an edge.",
+    "source": { "deck": "Wolfram CNN", "slide": 12 },
+    "difficulty": 2,
+    "tags": ["receptive-field", "depth"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-016",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "How does a sensitivity map differ from a receptive field?",
+    "choices": [
+      "A sensitivity map is measured on the training set; a receptive field is measured on the test set",
+      "The receptive field is a fixed property of the architecture — the region a neuron can see. A sensitivity map is measured on a particular image and shows which input pixels most affect a given output",
+      "The receptive field applies to convolutional layers; the sensitivity map applies to fully-connected layers",
+      "They are the same thing, drawn at different scales"
+    ],
+    "answer": [1],
+    "explanation": "The receptive field is geometry: what could influence this neuron at all. The sensitivity map is measurement: what actually did influence this output for this image, found by looking at the gradient with respect to the input pixels.",
+    "source": { "deck": "Wolfram CNN", "slide": 12 },
+    "difficulty": 3,
+    "tags": ["receptive-field", "sensitivity-map", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-017",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What does a dropout layer do during training, and what is it for?",
+    "choices": [
+      "It drops the training images the network already classifies correctly, to save time",
+      "It drops the layers that contribute least to the output, shrinking the network",
+      "It randomly switches off a fraction of the units on each pass, so the network cannot come to rely on any single path — a regulariser against overfitting",
+      "It drops the learning rate whenever the validation error rises"
+    ],
+    "answer": [2],
+    "explanation": "Dropout forces redundancy: because any unit may vanish on any pass, the network has to spread the representation across many units. That is what stops it memorising the training set through one fragile route.",
+    "source": { "deck": "Wolfram CNN", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["dropout", "overfitting"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-018",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Dropout and data augmentation both fight overfitting. What is the difference in how they do it?",
+    "choices": [
+      "Dropout changes the network during training; data augmentation manufactures extra plausible training data, such as flips and small translations",
+      "Dropout changes the data; data augmentation changes the network",
+      "Dropout is applied after training; data augmentation is applied before it",
+      "Dropout reduces the number of parameters; data augmentation increases them"
+    ],
+    "answer": [0],
+    "explanation": "Two different levers on the same problem. Dropout attacks the model, removing units at random so no single path is depended on. Augmentation attacks the dataset, synthesising variation the network must learn to ignore.",
+    "source": { "deck": "Wolfram CNN", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["dropout", "augmentation", "distinction", "overfitting"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-019",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "A classifier's training error and validation error are both high and neither is improving. What is that, and how does it differ from overfitting?",
+    "choices": [
+      "Overfitting in its early stage — train longer and the training error will separate from the validation error",
+      "Underfitting: the model lacks the capacity or training to capture the pattern at all. Overfitting is the opposite shape — training error falling while validation error plateaus or rises",
+      "Vanishing gradients, which always show up as two high error curves",
+      "Data leakage, because the validation set must contain training images"
+    ],
+    "answer": [1],
+    "explanation": "Read the two curves together. Both high means the model has not learned the pattern — underfitting. Training low and validation rising means it has learned the training set rather than the pattern — overfitting.",
+    "source": { "deck": "Wolfram CNN", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["overfitting", "underfitting", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-020",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "In the vision material, what is an encoder, and how does that differ from an embedding?",
+    "choices": [
+      "An encoder is a compression format for images; an embedding is a compression format for text",
+      "An encoder hides data inside an image; an embedding reveals it",
+      "An encoder is the component that converts raw data such as pixels into the numeric arrays, or tensors, a network can consume. An embedding is the learned vector that carries an item's meaning",
+      "An encoder is trained; an embedding is fixed in advance"
+    ],
+    "answer": [2],
+    "explanation": "The encoder is plumbing: it turns pictures into numbers of the right shape before any learning happens. An embedding is a result of learning: a vector whose position expresses what the item means.",
+    "source": { "deck": "Wolfram CNN", "slide": 3 },
+    "difficulty": 3,
+    "tags": ["encoder", "embedding", "tensor", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-021",
+    "topic": "cnn-vision",
+    "type": "tf",
+    "stem": "A convolutional network needs a separate copy of each filter for every position in the image.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "False, and this is the point of the architecture. One filter's trainable entries are reused at every position, so the parameter count depends on the filter size and the number of filters, not on how big the image is.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["weight-sharing", "cnn", "parameters"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-022",
+    "topic": "cnn-vision",
+    "type": "text",
+    "stem": "Name the 2012 convolutional network that cut the ImageNet error rate from about 25% to single digits.",
+    "choices": [],
+    "answer": [],
+    "accept": ["alexnet", "alex net"],
+    "explanation": "AlexNet, from Krizhevsky, Sutskever and Hinton. It is the moment deep CNNs beat every hand-engineered vision method, and it needed the labelled data of ImageNet and GPU compute as much as it needed the architecture.",
+    "source": { "deck": "GAI Lit 03", "slide": 5 },
+    "difficulty": 1,
+    "tags": ["alexnet", "timeline", "imagenet"],
+    "examFocus": true
+  }
+]

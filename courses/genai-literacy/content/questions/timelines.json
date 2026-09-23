@@ -1,0 +1,392 @@
+[
+  {
+    "id": "tim-001",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "This course tells the story of AI as two task timelines plus a third thread. What are they?",
+    "choices": [
+      "Hardware, software and data",
+      "Language AI and Vision AI, plus the neurocomputational or connectionist thread",
+      "Academic research, military research and commercial research",
+      "Supervised, unsupervised and reinforcement learning"
+    ],
+    "answer": [1],
+    "explanation": "The two task timelines are Language AI and Vision AI; the third is the neuroscience-inspired connectionist thread running McCulloch and Pitts to Rosenblatt to Rumelhart. Hardware and compute is best described as the enabler that let the other three pay off.",
+    "source": { "deck": "lec 1", "slide": 29 },
+    "difficulty": 2,
+    "tags": ["timeline", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-002",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Which paper opens the Language AI timeline, and what did it propose?",
+    "choices": [
+      "Mikolov et al. (2013), 'Efficient Estimation of Word Representations in Vector Space', proposing word2vec",
+      "Vaswani et al. (2017), 'Attention Is All You Need', proposing the Transformer",
+      "Turing (1950), 'Computing Machinery and Intelligence', proposing the imitation game",
+      "McCarthy (1959), 'Programs with Common Sense', proposing symbolic reasoning"
+    ],
+    "answer": [2],
+    "explanation": "Turing's 1950 paper is the start of the language thread: it replaces 'can machines think?' with the imitation game, a test of interaction quality. Word2vec and the Transformer come sixty years later on the same timeline.",
+    "source": { "deck": "lec 1", "slide": 30 },
+    "difficulty": 1,
+    "tags": ["timeline", "who", "language"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-003",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Between Turing in 1950 and word2vec in 2013, what dominated language-focused AI, and what happened to it?",
+    "choices": [
+      "Statistical translation, which was superseded once neural translation proved more accurate",
+      "Symbolic AI and rule-based expert systems, which stalled, contributed to the AI winter, and were later retronymed GOFAI",
+      "Recurrent neural networks, which were abandoned because they could not be trained",
+      "Nothing — the field was empty until the 2010s"
+    ],
+    "answer": [1],
+    "explanation": "Hand-written if-then logic over symbols had early success, especially in medical diagnosis, but it could not learn from data and eventually stalled into the AI winter. The effort in between was relentless; it simply did not break through until words became vectors.",
+    "source": { "deck": "lec 1", "slide": 59 },
+    "difficulty": 2,
+    "tags": ["timeline", "gofai", "language"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-004",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "What did Mikolov's 2013 work make possible that the language timeline had been waiting for?",
+    "choices": [
+      "Turning words into vectors of numbers, so a network could take language as input and words acquired measurable relations to each other",
+      "Weighing how much each word in a sentence should inform every other word",
+      "Training a single model on internet-scale text before any specific task",
+      "Generating a whole paragraph from a one-line prompt"
+    ],
+    "answer": [0],
+    "explanation": "Word2vec is the representation step: words become vectors, so closeness is measurable and word algebra works — king minus male plus female lands near queen. Weighing words against each other is attention, four years later.",
+    "source": { "deck": "lec 1", "slide": 65 },
+    "difficulty": 2,
+    "tags": ["timeline", "word2vec", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-005",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "What did Hubel and Wiesel observe in the cat's visual cortex, and why does it matter for AI?",
+    "choices": [
+      "Neurons fired for whole objects such as mice, showing that recognition is holistic rather than built up from parts",
+      "Neurons fired for oriented lines rather than for objects, and line detectors combine upward into curves, shapes and objects — the hierarchy of features that CNNs copy",
+      "Neurons fired only when the cat was awake, establishing that attention is required for vision",
+      "Neurons fired in a single layer, showing that depth is unnecessary for vision"
+    ],
+    "answer": [1],
+    "explanation": "The famous accident was that the cat responded to the straight edge of the slide being pushed in, not to the picture on it. Lines to curves to shapes to objects is the hierarchy that the Neocognitron and then the CNN were built to imitate.",
+    "source": { "deck": "lec 1", "slide": 50 },
+    "difficulty": 2,
+    "tags": ["timeline", "vision", "hubel-wiesel", "who"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-006",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Roughly when was the cat striate-cortex experiment, and who ran it?",
+    "choices": [
+      "Around 1980, Kunihiko Fukushima",
+      "Around 1986, Rumelhart, Hinton and Williams",
+      "Around 1959 to 1962, Hubel and Wiesel",
+      "Around 1998, Yann LeCun"
+    ],
+    "answer": [2],
+    "explanation": "Hubel and Wiesel published on receptive fields in the cat's striate cortex around 1959 to 1962 — the course's own notes give both years, so 'late 1950s' is a safe answer. Fukushima's Neocognitron in 1980 is the architecture built on the finding, not the finding itself.",
+    "source": { "deck": "lec 1", "slide": 58 },
+    "difficulty": 1,
+    "tags": ["timeline", "who", "vision"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-007",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Place these vision milestones in order: AlexNet, the Neocognitron, LeNet, and the cat's visual cortex.",
+    "choices": [
+      "Neocognitron, cat's visual cortex, LeNet, AlexNet",
+      "Cat's visual cortex, Neocognitron, LeNet, AlexNet",
+      "Cat's visual cortex, LeNet, Neocognitron, AlexNet",
+      "LeNet, cat's visual cortex, Neocognitron, AlexNet"
+    ],
+    "answer": [1],
+    "explanation": "The biology comes first (Hubel and Wiesel, around 1959), then Fukushima's Neocognitron in 1980, then LeCun's LeNet in 1998, then AlexNet in 2012. The whole point of the ordering is that the architecture follows the neuroscience.",
+    "source": { "deck": "lec 1", "slide": 63 },
+    "difficulty": 2,
+    "tags": ["timeline", "vision", "ordering"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-008",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Why did mobile phones start recognising images in the 2010s?",
+    "choices": [
+      "A single mathematical breakthrough in convolution made the computation tractable",
+      "Phone cameras improved enough that images finally carried sufficient detail",
+      "Three things converged: large labelled datasets such as ImageNet, GPUs fast enough for the matrix multiplications, and deep convolutional architectures",
+      "Cloud connectivity let phones send every photo to a mainframe for classification"
+    ],
+    "answer": [2],
+    "explanation": "It was a convergence, not one breakthrough: data, compute and architecture arrived together, and AlexNet in 2012 cut ImageNet error from about 25% to single digits. Naming only one of the three loses the mark.",
+    "source": { "deck": "GAI Lit 02", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["timeline", "vision", "alexnet", "causal"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-009",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "What was ImageNet, and who built it?",
+    "choices": [
+      "A large collection of labelled images, built by Fei-Fei Li from 2010 onward",
+      "A convolutional network architecture, built by Alex Krizhevsky in 2012",
+      "A GPU programming toolkit, released by NVIDIA in 2007",
+      "A benchmark for language translation, built at Google in 2014"
+    ],
+    "answer": [0],
+    "explanation": "ImageNet is the labelled dataset and the competition around it; Fei-Fei Li built it. AlexNet is the network Krizhevsky, Sutskever and Hinton entered into that competition — dataset and model are constantly confused.",
+    "source": { "deck": "GAI Lit 03", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["timeline", "who", "distinction", "vision"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-010",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "The third, neurocomputational thread runs from McCulloch and Pitts to Rosenblatt to Rumelhart, Hinton and Williams. What does each of those three contribute?",
+    "choices": [
+      "The perceptron in 1943, the logical calculus in 1958, convolution in 1986",
+      "A logical calculus of neural activity in 1943, the Perceptron in 1958, and multilayer networks trained by backpropagation in 1986",
+      "Cybernetics in 1943, expert systems in 1958, the Transformer in 1986",
+      "Backpropagation in 1943, the Neocognitron in 1958, GPUs in 1986"
+    ],
+    "answer": [1],
+    "explanation": "McCulloch and Pitts (1943) modelled the neuron logically, Rosenblatt (1958) implemented the Perceptron as hardware, and Rumelhart, Hinton and Williams (1986) made multilayer networks trainable via back-propagating errors. That is the connectionist spine.",
+    "source": { "deck": "lec 1", "slide": 50 },
+    "difficulty": 2,
+    "tags": ["timeline", "who", "connectionist"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-011",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "What is the claim behind the label 'connectionist AI'?",
+    "choices": [
+      "AI systems should be connected to the internet so they can keep learning",
+      "Intelligence should be modelled by connecting symbolic rules into a logical network",
+      "The brain has no central processor — it is only neurons connected to neurons, so replicating that connectivity, rather than the outward behaviour, is the route to intelligence",
+      "Every layer of a network should be connected to every other layer"
+    ],
+    "answer": [2],
+    "explanation": "Connectionism is the claim that the mechanism matters: there is no boss neuron and no CPU, just a dense network, so the model should copy the connectivity. That is the opposite of GOFAI, which copied the outward reasoning.",
+    "source": { "deck": "lec 1", "slide": 60 },
+    "difficulty": 2,
+    "tags": ["connectionist", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-012",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the college whose 1956 summer workshop is called the birth of AI as an academic field.",
+    "choices": [],
+    "answer": [],
+    "accept": ["dartmouth", "dartmouth college"],
+    "explanation": "The Dartmouth College summer workshop of 1956 is where the field was named and organised. Turing's 1950 paper is the intellectual starting gun, but Dartmouth is the founding of a discipline.",
+    "source": { "deck": "GAI Lit 02", "slide": 14 },
+    "difficulty": 1,
+    "tags": ["timeline", "who", "marko"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-013",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the 1975 expert system that diagnosed bacterial infections at about 65% accuracy.",
+    "choices": [],
+    "answer": [],
+    "accept": ["mycin"],
+    "explanation": "MYCIN, the standard example of a rule-based expert system: hand-written if-then rules over symbols, written in the LISP and Prolog era, with no learning from data. Its roughly 65% accuracy is the number the course quotes.",
+    "source": { "deck": "GAI Lit 02", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["timeline", "gofai", "marko", "who"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-014",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the Canadian system that from 1981 translated weather reports between English and French.",
+    "choices": [],
+    "answer": [],
+    "accept": ["meteo", "météo"],
+    "explanation": "METEO, the course's example of early natural-language processing that actually worked. It succeeded because weather bulletins are a narrow, tightly constrained domain — exactly where rule-based translation can hold up.",
+    "source": { "deck": "GAI Lit 02", "slide": 14 },
+    "difficulty": 1,
+    "tags": ["timeline", "gofai", "marko"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-015",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Deep Blue beating the top human chess player in 1997 is a landmark of which kind of AI?",
+    "choices": [
+      "Generative AI, because it produced moves no human had played",
+      "Connectionist AI, because it used a deep neural network",
+      "Reinforcement learning, because it learned from self-play",
+      "Search-and-rules AI, the line running back to the 1957 Bernstein chess program — no learning from data involved"
+    ],
+    "answer": [3],
+    "explanation": "Deep Blue is the endpoint of the classical search-and-evaluation tradition begun with IBM's Bernstein program in 1957, not a neural result. It is a good example of AI that contains no machine learning at all.",
+    "source": { "deck": "GAI Lit 02", "slide": 14 },
+    "difficulty": 3,
+    "tags": ["timeline", "gofai", "ml-ai", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-016",
+    "topic": "timelines",
+    "type": "multi",
+    "stem": "The master timeline of AI runs several parallel threads down the decades. Select all that are named as threads on it.",
+    "choices": [
+      "Language and knowledge",
+      "Vision and perception",
+      "Regulation and policy",
+      "Neuroscience inspiration",
+      "Marketing and adoption"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "The threads are language and knowledge, vision and perception, neuroscience inspiration, algorithms and learning paradigms, and hardware and data enablers — with predictive AI running down one side and generative AI down the other. Regulation and marketing are not threads on it.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["timeline", "structure"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-017",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Minsky and Papert's 1969 result is a turning point on the learning-algorithms thread. What did they show?",
+    "choices": [
+      "That a single perceptron cannot solve XOR, exposing the limits of early one-layer neural nets",
+      "That neural networks can approximate any continuous function",
+      "That backpropagation converges to a global minimum",
+      "That symbolic reasoning can be implemented on a perceptron"
+    ],
+    "answer": [0],
+    "explanation": "XOR is not linearly separable, so one perceptron cannot compute it; that limitation chilled neural research until multilayer training arrived in 1986. The universal approximation result is Cybenko in 1989, and it points the other way.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["timeline", "perceptron", "xor", "who"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-018",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "GPT-1, GPT-2 and GPT-3 arrived in 2018, 2019 and 2020. What changed most dramatically across them?",
+    "choices": [
+      "The architecture, which moved from recurrent to convolutional to attention-based",
+      "The parameter count, from about 117 million to 1.5 billion to 175 billion",
+      "The training objective, which changed from classification to translation to generation",
+      "The input modality, from text to images to video"
+    ],
+    "answer": [1],
+    "explanation": "The architecture stayed a decoder-style Transformer throughout; what exploded was scale, from roughly 0.117 to 1.5 to 175 billion parameters. Scaling the same idea, not changing it, is the story of the GPT line.",
+    "source": { "deck": "lec 1", "slide": 30 },
+    "difficulty": 2,
+    "tags": ["timeline", "llm", "gpt"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-019",
+    "topic": "timelines",
+    "type": "tf",
+    "stem": "The vision timeline reaches generative capability on its own, without borrowing anything from the language timeline.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "False. The vision timeline is a recognition story up to AlexNet; text-to-image systems such as Stable Diffusion and DALL-E only appear once a language model supplies the conditioning embedding. Vision-centric AI gets prompted by language-centric AI.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 3,
+    "tags": ["timeline", "vision", "distinction", "multimodal"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-020",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "On the generative branch of the timeline, which sequence of landmarks is in the right order?",
+    "choices": [
+      "VAE, autoencoder, GAN, U-Net, diffusion",
+      "GAN, autoencoder, VAE, diffusion, U-Net",
+      "Autoencoder (2006), VAE (2013), GAN (2014), U-Net (2015), diffusion (2020)",
+      "Diffusion, GAN, VAE, autoencoder, U-Net"
+    ],
+    "answer": [2],
+    "explanation": "Hinton and Salakhutdinov's autoencoder comes first as dimensionality reduction, then Kingma and Welling's VAE makes the latent probabilistic, Goodfellow's GAN arrives the following year, Ronneberger's U-Net in 2015, and Ho, Jain and Abbeel's DDPM in 2020.",
+    "source": { "deck": "lec 1", "slide": 68 },
+    "difficulty": 2,
+    "tags": ["timeline", "who", "architecture", "ordering"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-021",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Which pairing of person to contribution is wrong?",
+    "choices": [
+      "Vaswani and colleagues — the Transformer, 2017",
+      "Fukushima — the Neocognitron, 1980",
+      "Rosenblatt — the Perceptron, implemented 1958",
+      "Goodfellow — the variational autoencoder, 2013"
+    ],
+    "answer": [3],
+    "explanation": "The VAE is Kingma and Welling (2013); Goodfellow's 2014 contribution is the Generative Adversarial Network. The other three pairings are correct as the course gives them.",
+    "source": { "deck": "lec 1", "slide": 51 },
+    "difficulty": 2,
+    "tags": ["who", "timeline", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-022",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name Kunihiko Fukushima's 1980 network, the first convolutional architecture and the direct descendant of the cat's visual cortex.",
+    "choices": [],
+    "answer": [],
+    "accept": ["neocognitron", "neo-cognitron", "the neocognitron"],
+    "explanation": "The Neocognitron: a self-organising multi-layer network for pattern recognition unaffected by shift in position. It turns Hubel and Wiesel's hierarchy of features into an architecture, and LeCun's LeNet then makes it trainable end to end.",
+    "source": { "deck": "lec 1", "slide": 63 },
+    "difficulty": 1,
+    "tags": ["timeline", "vision", "who", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-023",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "One word: name Mikolov's 2013 method for turning English words into vectors of numbers.",
+    "choices": [],
+    "answer": [],
+    "accept": ["word2vec", "word 2 vec", "word-to-vec", "word2vector"],
+    "explanation": "Word2vec, from 'Efficient Estimation of Word Representations in Vector Space'. Once a word is a vector, closeness is measurable and word algebra works: king minus male plus female lands near queen.",
+    "source": { "deck": "lec 1", "slide": 49 },
+    "difficulty": 1,
+    "tags": ["timeline", "word2vec", "language", "who"],
+    "examFocus": true
+  }
+]
