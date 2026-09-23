@@ -41,7 +41,7 @@
     "type": "mcq",
     "stem": "This course defines generative AI as a system that does what?",
     "choices": [
-      "Captures the underlying probability distribution of a dataset in order to synthesise new samples that appear to come from that same distribution",
+      "Captures the underlying probability distribution of a dataset in order to synthesise new samples that appear to come from the same distribution",
       "Produces output no human has ever thought of before",
       "Combines several trained models so their outputs can be averaged",
       "Answers any question put to it in natural language"
@@ -430,6 +430,186 @@
     "source": { "deck": "infographics", "slide": 4 },
     "difficulty": 1,
     "tags": ["diffusion", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-026",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Generative models are described with a mapping to a simple distribution and a mapping back. Which direction is used to generate, and why is the other one there at all?",
+    "choices": [
+      "The mapping to the simple distribution generates; the mapping back checks the result",
+      "Neither is used for generation; a discriminator does the generating",
+      "Both directions generate, and the results are averaged",
+      "The mapping back from the simple distribution to the data generates; the mapping to the simple distribution exists to set up a supervised learning task with known targets"
+    ],
+    "answer": [3],
+    "explanation": "The outward mapping sets the homework and the return mapping learns to solve it backwards. Because we chose or constructed the trip to the simple distribution, we know the right answer at every step and can train on it.",
+    "source": { "deck": "infographics", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["generative", "training", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-027",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "For VAE, diffusion and flow matching, which parts are learned and which are chosen by the designer?",
+    "choices": [
+      "The VAE learns both encoder and decoder; diffusion fixes the forward noising and learns the reverse denoiser; flow matching chooses the probability path and learns the vector field that transports along it",
+      "All three fix both directions and learn only the sampling step",
+      "All three learn both directions",
+      "The VAE fixes the encoder; diffusion learns both directions; flow matching fixes both"
+    ],
+    "answer": [0],
+    "explanation": "Same goal, three different divisions of labour. The rule of thumb: whatever the designer fixes is what supplies the known target the learner is trained against.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["vae-diffusion", "flow-matching", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-028",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Among the generative families, the GAN is treated as the exception. What makes it one?",
+    "choices": [
+      "It cannot generate images, only classify them",
+      "It has no explicit mapping from data to a simple distribution at all — a discriminator supplies the training signal instead of a known target",
+      "It is the only one that needs labelled data",
+      "It is the only one with a latent space"
+    ],
+    "answer": [1],
+    "explanation": "VAE, diffusion and flow matching each construct a route from data to a simple distribution and learn the way back. The GAN skips that and learns the generator purely from an adversary's verdict, which is why it trains so differently and so unstably.",
+    "source": { "deck": "infographics", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["gan", "generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-029",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "In conditional generation, the prompt is described as where to navigate and the random draw as which possibility. What does that split explain?",
+    "choices": [
+      "Why a longer prompt always produces a better image",
+      "Why the model needs a discriminator at generation time",
+      "Why prompts must be written in English",
+      "Why the same prompt run twice gives different pictures: the text steers the generator to a region of the possibility space, and the random draw picks one particular sample inside it"
+    ],
+    "answer": [3],
+    "explanation": "Semantics directs, randomness varies. The randomness is not a defect to be removed — it is what makes the model generative rather than a lookup, and the prompt is what stops it wandering anywhere at all.",
+    "source": { "deck": "infographics", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["conditioning", "diffusion", "generative"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-030",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Natural images are said to occupy a tiny high-density region of an enormous pixel space. What caveat does the course attach to calling that region a manifold?",
+    "choices": [
+      "That no such region exists and the claim is purely metaphorical",
+      "That it only applies to images, not to text or audio",
+      "That manifold is a useful modelling intuition, but the safer statement is a concentrated high-density data distribution rather than a proven low-dimensional linear subspace",
+      "That the region is actually most of the space, not a small part of it"
+    ],
+    "answer": [2],
+    "explanation": "Almost every possible arrangement of pixels is noise; real photographs cluster tightly. Calling that cluster a manifold helps you think, but the course is careful not to claim the geometry has been proved.",
+    "source": { "deck": "infographics", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["manifold", "generative", "limits"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-031",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "A variational autoencoder is trained by maximising the ELBO. What do those letters stand for?",
+    "choices": [
+      "Encoder-Latent Bayesian Optimiser",
+      "Evidence Lower Bound",
+      "Expected Loss Before Output",
+      "Entropy-Limited Backward Objective"
+    ],
+    "answer": [1],
+    "explanation": "Evidence Lower Bound. It splits into a reconstruction term that keeps the output close to the input and a regularisation term that keeps the latent close to the simple prior — the two competing halves of the VAE objective.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["vae", "acronym", "loss"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-032",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "A team can afford only one generative image model. What does each of the VAE and the diffusion model give up in choosing the other?",
+    "choices": [
+      "The VAE gives up the ability to generate at all; diffusion gives up the ability to reconstruct",
+      "Neither gives anything up; they are interchangeable",
+      "The VAE gives up sample quality; the diffusion model gives up the compact latent code and explicit likelihood, and is slow because it must be run for many steps",
+      "The VAE gives up its encoder; the diffusion model gives up its decoder"
+    ],
+    "answer": [2],
+    "explanation": "The VAE's strength is a compact, structured latent representation you can inspect and interpolate in. Diffusion's strength is empirical sample quality, paid for in a long iterative sampling loop.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["vae", "diffusion", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-033",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "The adversarial idea was described in class as a second question following a first. Which pair?",
+    "choices": [
+      "First, can two models be trained at once? Second, can they be made to agree?",
+      "First, can a model look at a photograph of a person and produce the judgement that it is that person? Second, can another engine produce an image good enough that the first model judges it a real photograph of them?",
+      "First, can a model compress an image? Second, can it rebuild it?",
+      "First, can a model add noise to an image? Second, can it remove the noise again?"
+    ],
+    "answer": [1],
+    "explanation": "Recognition first, then generation measured against that recogniser. The judge was built as a predictive model, and turning it into a training signal for a generator is what makes the GAN both ironic and effective.",
+    "source": { "deck": "class notes", "slide": 1 },
+    "difficulty": 3,
+    "tags": ["gan", "generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-034",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "What led the field from predictive AI to generative AI?",
+    "choices": [
+      "The arrival of larger datasets alone, with no change in method",
+      "The abandonment of neural networks in favour of probabilistic models",
+      "Networks learned compact representations of what the data are, and once that representation existed the same machinery could be run the other way to produce new samples — prediction and generation share one engine",
+      "The discovery that accuracy is not a useful measure"
+    ],
+    "answer": [2],
+    "explanation": "The representation bridge is the hinge: VAE and U-Net learn the structure, and Transformer and Diffusion exploit it to generate. Nothing was thrown away — the universal approximator and gradient-based learning are the same underneath both.",
+    "source": { "deck": "class notes", "slide": 15 },
+    "difficulty": 3,
+    "tags": ["predictive-vs-generative", "six-architectures", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-035",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Generative AI is described as extrapolating beyond the basis of validation. Why is that both the source of its power and the source of its danger?",
+    "choices": [
+      "Because it makes the model slower to run but more accurate",
+      "Because it needs more training data than a predictive model",
+      "Because extrapolation guarantees the output is novel and therefore always useful",
+      "Because it produces things no example in the data ever showed — which is what makes it creative, and also means there is no ground truth left to check the output against"
+    ],
+    "answer": [3],
+    "explanation": "A predictive model can be marked against a verifiable answer; a generated one cannot, because there was never a right answer to compare it with. Judging it therefore falls back on plausibility and context, and on the reader's own knowledge.",
+    "source": { "deck": "class notes", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["generative", "limits", "distinction"],
     "examFocus": true
   }
 ]

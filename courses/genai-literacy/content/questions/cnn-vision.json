@@ -377,5 +377,145 @@
     "difficulty": 1,
     "tags": ["alexnet", "timeline", "imagenet"],
     "examFocus": true
+  },
+  {
+    "id": "cnn-023",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What happened to the depth of image-classification networks between 2012 and early 2015?",
+    "choices": [
+      "Depth stayed at about eight layers throughout, and the gains came from more data",
+      "It fell, because shallower networks proved more accurate",
+      "It rose from eight layers to nineteen and twenty-two, and an attempt at thirty layers then performed worse rather than better",
+      "It rose steadily past a hundred layers with no obstacle"
+    ],
+    "answer": [2],
+    "explanation": "AlexNet's eight layers in 2012, then nineteen and twenty-two layers in 2014, then a thirty-layer attempt in 2015 that went backwards. That wall is what the residual connection was invented to break.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["cnn", "resnet", "timeline", "depth"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-024",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Trace an image forward through one convolutional layer. What comes out?",
+    "choices": [
+      "A single number scoring how likely the image is to contain an object",
+      "One activation map per learned filter — for example sixty-four maps, one for vertical edges, one for a colour, one for a texture — stacked into a tensor",
+      "The original image with its contrast enhanced",
+      "A list of object names detected in the image"
+    ],
+    "answer": [1],
+    "explanation": "Each learned kernel slides over the image and reports where its pattern occurs, producing a map. Stack the maps and you have the tensor the next layer works on; ReLU then sets the negative entries to zero so only positive evidence passes.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["cnn", "convolution", "tensor"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-025",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "In a very deep plain convolutional network with no shortcuts, what goes wrong as signal and gradient travel through the stack?",
+    "choices": [
+      "The image resolution runs out before the last layer",
+      "The network runs out of classes to predict",
+      "The filters become identical to each other",
+      "Both must pass through every layer, and they fade or become distorted, so information degrades and optimisation fails"
+    ],
+    "answer": [3],
+    "explanation": "Every layer is another multiplication the signal has to survive in both directions. A shortcut gives the signal a route that skips the weight layers entirely, which is why adding one fixed a problem that better initialisation alone did not.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["cnn", "resnet", "vanishing-gradient"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-026",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "With standard initialisation a thirty-layer network's error sat at 100% and it never learned; with a better initialisation it learned but the final error was still high. What does that pair of results show?",
+    "choices": [
+      "That initialisation was the entire problem, and it was solved",
+      "That the network needed more training data",
+      "That initialisation was a real obstacle but not the whole one — a separate degradation problem survived the fix, and that is what the residual connection addressed",
+      "That thirty layers is simply too many for any method"
+    ],
+    "answer": [2],
+    "explanation": "Two distinct failures were being confused. Fixing the first let training start; the second — deeper nets fitting worse than shallower ones — remained, and needed an architectural change rather than a numerical one.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 3,
+    "tags": ["cnn", "resnet", "training", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-027",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "What happens to error as a residual network is made deeper, compared with a plain network?",
+    "choices": [
+      "Both improve at the same rate",
+      "Both get worse, but the residual network more slowly",
+      "The plain network keeps improving while the residual one plateaus",
+      "The residual network's error keeps falling from eighteen layers out past a hundred and fifty, while the plain network's error rises with depth"
+    ],
+    "answer": [3],
+    "explanation": "For a residual network deeper really does mean better, which is what made hundred-plus-layer networks routine. The comparison against the plain network on the same depths is what shows the shortcut, not the depth, is doing the work.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["cnn", "resnet", "depth"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-028",
+    "topic": "cnn-vision",
+    "type": "text",
+    "stem": "Name the 2015 architecture from He, Zhang, Ren and Sun at Microsoft Research whose paper became the most cited of the twenty-first century.",
+    "choices": [],
+    "answer": [],
+    "accept": ["resnet", "residual network", "resnets", "deep residual network"],
+    "explanation": "ResNet, from Deep Residual Learning for Image Recognition. Twelve pages, one idea — add the input back — and it became the standard backbone for vision and much else.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 1,
+    "tags": ["resnet", "who", "cnn"],
+    "examFocus": true
+  },
+  {
+    "id": "cnn-029",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "Why is the residual connection described as having created a new backbone rather than just a better image classifier?",
+    "choices": [
+      "Because it became the standard component underneath later systems across fields — AlphaGo, AlphaFold and the large language models included",
+      "Because it removed the need for training data",
+      "Because it replaced the convolution layer entirely",
+      "Because it made networks run faster at inference time"
+    ],
+    "answer": [0],
+    "explanation": "A backbone is the part everything else is built on. Once arbitrary depth became trainable, the same trick turned up inside architectures that have nothing to do with images, which is why the paper's citation count is what it is.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 1,
+    "tags": ["resnet", "impact", "cnn"],
+    "examFocus": false
+  },
+  {
+    "id": "cnn-030",
+    "topic": "cnn-vision",
+    "type": "mcq",
+    "stem": "An early system read photographs of handwritten postal codes and turned them into digits, but broke as soon as the digits sat in a different part of the image. What did that failure force into the design?",
+    "choices": [
+      "A larger fully-connected layer",
+      "A convolutional filter layer, which applies the same learned filters everywhere — combined with the multilayer stack, that is a convolutional neural network",
+      "A recurrent connection carrying information between digits",
+      "More training examples of each digit"
+    ],
+    "answer": [1],
+    "explanation": "A plain multilayer perceptron ties every weight to a fixed pixel position, so moving the digit changes every input it sees. Sliding one shared filter across the whole image is what makes the detection position-independent.",
+    "source": { "deck": "class notes", "slide": 12 },
+    "difficulty": 2,
+    "tags": ["cnn", "convolution", "translational-covariance"],
+    "examFocus": true
   }
 ]

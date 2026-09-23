@@ -459,5 +459,467 @@
     "difficulty": 2,
     "tags": ["overfitting", "distinction", "training"],
     "examFocus": true
+  },
+  {
+    "id": "nn-028",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "How many hidden layers does the universal approximation theorem actually require?",
+    "choices": [
+      "One",
+      "Two",
+      "At least three",
+      "It depends on the number of inputs"
+    ],
+    "answer": [0],
+    "explanation": "One hidden layer with finitely many neurons suffices to approximate any continuous function on a closed bounded region to any tolerance. Depth is not needed for expressive power — it is needed because deep networks reach the same expressivity with far fewer parameters and are easier to optimise.",
+    "source": { "deck": "infographics", "slide": 12 },
+    "difficulty": 2,
+    "tags": ["universal-approximation", "architecture", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-029",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "'Expressivity is abundant; trainability is scarce.' What does that claim mean in practice?",
+    "choices": [
+      "Networks can represent almost anything, but finding the parameters that do is the hard part, which is why architecture and optimisation choices matter",
+      "Networks can be trained easily but cannot represent complex functions",
+      "Larger networks are always easier to train than smaller ones",
+      "The theory shows training will converge, so only the data matter"
+    ],
+    "answer": [0],
+    "explanation": "Universal approximation says the function is in there somewhere; it says nothing about whether gradient descent will find it. Design choices — skip connections, functional links, architectures — are inductive biases that make good solutions reachable.",
+    "source": { "deck": "infographics", "slide": 12 },
+    "difficulty": 3,
+    "tags": ["universal-approximation", "training", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-030",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A network can be given higher functional complexity in three complementary ways. Which set is right?",
+    "choices": [
+      "More data, more epochs, more regularisation",
+      "More classes, more features, more labels",
+      "Wider layers, larger batches, smaller learning rates",
+      "Enrich what the links compute, create many computational paths, and make the network deep"
+    ],
+    "answer": [3],
+    "explanation": "Functional links enrich what each connection computes; residual connections create many alternative paths; sequential stacking adds depth. They are three answers to one question — how to represent a rich set of functions — and they can be combined.",
+    "source": { "deck": "infographics", "slide": 12 },
+    "difficulty": 3,
+    "tags": ["functional-complexity", "architecture", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-031",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A functional-link network raises a shallow network's power without adding depth. How?",
+    "choices": [
+      "By adding explicit nonlinear transforms of the inputs — polynomial, radial-basis or trigonometric terms — so the basis the network works from is richer",
+      "By adding identity shortcuts between layers",
+      "By dropping units at random during training",
+      "By sharing weights across positions in the input"
+    ],
+    "answer": [0],
+    "explanation": "The functional link puts hand-chosen nonlinear features in alongside the raw inputs, which works well with little data when you know what features matter. Its cost is that you need that prior knowledge, and the input dimension can grow large.",
+    "source": { "deck": "infographics", "slide": 12 },
+    "difficulty": 2,
+    "tags": ["functional-complexity", "architecture"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-032",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "By early 2015 making networks deeper had stopped working. What exactly was going wrong?",
+    "choices": [
+      "The networks were overfitting, so training error fell while validation error rose",
+      "Beyond roughly twenty to thirty layers accuracy stalled and then got worse — a deeper model scored a higher training error than a shallower one, so it was an optimisation failure rather than overfitting",
+      "The networks ran out of memory on the available hardware",
+      "The labels in ImageNet had become too noisy"
+    ],
+    "answer": [1],
+    "explanation": "This is the degradation problem, and the giveaway is that the deeper model was worse on the training set too. Overfitting would have shown as a widening gap between training and validation, not as a worse fit to the data it had seen.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 3,
+    "tags": ["resnet", "degradation", "training", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-033",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Why was the degradation problem so confounding to the researchers who found it?",
+    "choices": [
+      "No one had a dataset large enough to test it",
+      "The deeper networks had fewer parameters than the shallower ones",
+      "A deeper network could always match a shallower one by making its extra layers identity mappings, so the solution provably existed — the optimiser simply could not find it",
+      "It only appeared on one dataset and could not be reproduced"
+    ],
+    "answer": [2],
+    "explanation": "Add sixteen pass-through layers to a trained fourteen-layer model and performance should be at least as good. That solution sits in the parameter space and gradient descent never reaches it, which is what identified the problem as optimisation rather than capacity.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 3,
+    "tags": ["resnet", "degradation", "optimization"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-034",
+    "topic": "neural-networks",
+    "type": "text",
+    "stem": "One word: the kind of connection that adds a layer's input back to its output, so the layers learn a correction rather than the whole mapping.",
+    "choices": [],
+    "answer": [],
+    "accept": ["residual", "residual connection", "shortcut", "skip"],
+    "explanation": "A residual connection, also called a shortcut. Instead of learning H(x) directly the block learns F(x) = H(x) − x, so the output is F(x) + x — refining rather than re-creating.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["resnet", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-035",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What does a residual block learn, and why is that easier?",
+    "choices": [
+      "It learns the full mapping H(x) twice and averages the two",
+      "It learns a separate weight for every input position",
+      "It learns to discard x and rebuild it from the layer below",
+      "It learns the residual F(x) = H(x) − x, so the output is F(x) + x — the block only has to learn the correction, and doing nothing is available by construction"
+    ],
+    "answer": [3],
+    "explanation": "Refine rather than re-create. If the best thing a block can do is leave the signal alone, it needs only to drive F(x) to zero, which is a far easier target than reproducing the identity through a stack of weight layers.",
+    "source": { "deck": "infographics", "slide": 10 },
+    "difficulty": 2,
+    "tags": ["resnet", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-036",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "One influential reading is that residual networks behave like ensembles of relatively shallow networks. What is the argument?",
+    "choices": [
+      "Each residual block is trained separately and the results averaged",
+      "A network with L residual blocks contains 2^L implicit input-output paths, since each block may be used or skipped; most of those paths are short, and almost all of the gradient comes from the short ones",
+      "The network is duplicated L times and the copies vote",
+      "Residual networks are trained on L different subsets of the data"
+    ],
+    "answer": [1],
+    "explanation": "Unravel the shortcuts and a 110-block network turns out to train mostly through paths of ten to thirty-odd blocks. Effective depth during training is much smaller than nominal depth, which is why very deep residual nets train at all.",
+    "source": { "deck": "infographics", "slide": 12 },
+    "difficulty": 3,
+    "tags": ["resnet", "functional-complexity", "architecture"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-037",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Do skip connections change what functions a network can represent, or how easily it can be trained?",
+    "choices": [
+      "They change what it can represent: without them the network is not a universal approximator",
+      "They change neither; they only reduce memory use",
+      "They change how easily it can be trained — they reshape the optimisation landscape and the effective depth, while the class of functions available was already unrestricted",
+      "They change both equally"
+    ],
+    "answer": [2],
+    "explanation": "Universal approximation already held for a plain network, so expressivity was never the obstacle. The shortcut is an inductive bias that makes good solutions findable, which is the practical distinction between what a model could do and what training will actually deliver.",
+    "source": { "deck": "infographics", "slide": 12 },
+    "difficulty": 3,
+    "tags": ["resnet", "universal-approximation", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-038",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Backpropagation is usually credited to Rumelhart, Hinton and Williams in 1986. What is the fuller attribution?",
+    "choices": [
+      "Werbos published the method in a 1974 doctoral dissertation; the 1986 paper made it widely known and showed it worked on useful networks",
+      "Rosenblatt published it in 1958 and the 1986 paper corrected an error in it",
+      "Cybenko published it in 1989, after the 1986 paper",
+      "Minsky and Papert published it in 1969 as a response to their own criticism"
+    ],
+    "answer": [0],
+    "explanation": "Werbos had the algorithm in 1974; the 1986 Nature paper is where it entered the field. The distinction matters for a names-and-dates question: 1986 is the popularisation, not the invention.",
+    "source": { "deck": "infographics", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["backpropagation", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-039",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "What does the chain rule do for backpropagation?",
+    "choices": [
+      "It guarantees that the loss will reach zero",
+      "It converts the loss surface into a convex one",
+      "It chooses the learning rate automatically",
+      "It lets the derivative of the loss with respect to a deep weight be assembled from a product of local derivatives, so one backward sweep yields the gradient for every weight in the network"
+    ],
+    "answer": [3],
+    "explanation": "A feedforward network is a composition of functions, and the chain rule differentiates a composition. That is the whole trick: without it you would have to perturb each weight separately, which for thirteen thousand weights would be hopeless and for a billion impossible.",
+    "source": { "deck": "infographics", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["backpropagation", "gradient-descent"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-040",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "In training a network, what is computed on the forward pass and what on the backward pass?",
+    "choices": [
+      "Forward computes the gradients; backward computes the prediction",
+      "Forward computes the activations layer by layer to produce the prediction and hence the loss; backward computes the gradients of that loss with respect to every weight",
+      "Forward computes the loss; backward computes the learning rate",
+      "Both compute the same quantities, once in each direction, as a check"
+    ],
+    "answer": [1],
+    "explanation": "Forward: activations and loss. Backward: gradients. Gradient descent then uses those gradients to update the weights — backprop computes the direction, gradient descent takes the step.",
+    "source": { "deck": "infographics", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["backpropagation", "gradient-descent", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-041",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "In the gradient descent update rule, what is the learning rate?",
+    "choices": [
+      "The proportion of the training data used at each step",
+      "The rate at which the loss is guaranteed to fall",
+      "The number of passes made over the training set",
+      "The step size that multiplies the gradient, deciding how far the parameters move each iteration"
+    ],
+    "answer": [3],
+    "explanation": "It is a hyperparameter, set before training rather than learned. Too small and training crawls; too large and the update overshoots the valley it was meant to descend.",
+    "source": { "deck": "infographics", "slide": 13 },
+    "difficulty": 1,
+    "tags": ["gradient-descent", "hyperparameter"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-042",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "Batch, stochastic, mini-batch, momentum, RMSProp and Adam are all listed as one kind of thing. Which of these does not belong on that list?",
+    "choices": [
+      "Momentum",
+      "RMSProp",
+      "Mini-batch",
+      "Backpropagation"
+    ],
+    "answer": [3],
+    "explanation": "The others are variants of gradient descent, differing in how much data each step uses or how the step size adapts. Backpropagation is not an alternative to them — it is how the gradient they all consume gets computed.",
+    "source": { "deck": "infographics", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["gradient-descent", "backpropagation", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-043",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "In the canonical handwritten-digit network, how is the cost function defined?",
+    "choices": [
+      "The sum of squared differences between the actual output activations and the desired ones, averaged over tens of thousands of training examples",
+      "The largest single output activation, which should be close to one",
+      "The number of digits misclassified in the test set",
+      "The distance between the input image and the reconstructed image"
+    ],
+    "answer": [0],
+    "explanation": "One example gives a squared-error measure of how lousy the output is; the cost is that averaged over the whole training set. Training then means adjusting the weights and biases to bring that single number down.",
+    "source": { "deck": "infographics", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["loss", "training", "mlp"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-044",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A network taking a 28 by 28 image into 784 input neurons, through two hidden layers of 16, to 10 outputs has roughly how many weights and biases to tune?",
+    "choices": [
+      "About 800",
+      "About 13,000",
+      "About 150,000",
+      "About 2 million"
+    ],
+    "answer": [1],
+    "explanation": "Roughly thirteen thousand knobs and dials, dominated by the 784 by 16 first layer. Training is the search for a setting of all of them at once, which is why it is done by gradient descent rather than by hand.",
+    "source": { "deck": "infographics", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["mlp", "parameters"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-045",
+    "topic": "neural-networks",
+    "type": "tf",
+    "stem": "The loss surface of a neural network is bowl-shaped, so gradient descent is guaranteed to reach the global minimum.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [1],
+    "explanation": "False. The surface is high-dimensional and non-convex, full of local minima and saddle points, and gradient descent settles in a local minimum. The practical finding is that in high dimensions those local minima are usually good enough.",
+    "source": { "deck": "infographics", "slide": 13 },
+    "difficulty": 2,
+    "tags": ["gradient-descent", "training", "limits"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-046",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A single neuron takes three inputs. How many trainable parameters does it have?",
+    "choices": [
+      "Three",
+      "Four",
+      "Six",
+      "Seven"
+    ],
+    "answer": [1],
+    "explanation": "Three weights, one per input, plus one bias — four in all. The rule to carry into the exam: one weight per incoming connection plus one bias per neuron, and the inputs themselves are data, not parameters.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["parameter", "counting", "weight", "bias"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-047",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A layer of three neurons each receives the same four inputs. How many trainable parameters does that layer hold?",
+    "choices": [
+      "Twelve",
+      "Fifteen",
+      "Seven",
+      "Sixteen"
+    ],
+    "answer": [1],
+    "explanation": "Four weights for each of the three neurons is twelve, plus one bias each is three — fifteen. Forgetting the biases is the standard slip, and it costs you three here.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["parameter", "counting", "mlp"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-048",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A network takes two inputs into a hidden layer of two neurons, then into a single output neuron. How many parameters must training tune?",
+    "choices": [
+      "Six",
+      "Seven",
+      "Nine",
+      "Twelve"
+    ],
+    "answer": [2],
+    "explanation": "Hidden layer: two neurons times two weights plus two biases is six. Output: two weights plus one bias is three. Six and three is nine. Count layer by layer and add the biases as you go.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 3,
+    "tags": ["parameter", "counting", "mlp"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-049",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "When you count a network's parameters, which things count and which do not?",
+    "choices": [
+      "Weights and biases count because they are learned; the inputs are given data and the hyperparameters are fixed before training, so neither counts",
+      "Weights, biases and inputs all count, because all three are numbers the network uses",
+      "Only the weights count; a bias is a constant and is not trained",
+      "Weights, biases and hyperparameters count, because all three affect the output"
+    ],
+    "answer": [0],
+    "explanation": "A parameter is something training changes. That excludes the x values you supply and the learning rate or layer count you chose in advance — which is the same weight-versus-input-versus-hyperparameter distinction in a different disguise.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["parameter", "hyperparameter", "counting", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-050",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A hard threshold fires or does not fire. Why is it replaced by a smooth S-shaped function?",
+    "choices": [
+      "To make the neuron faster to evaluate",
+      "To let the neuron accept negative inputs",
+      "To keep the output bounded between zero and one for interpretation as a probability, only",
+      "To make the model differentiable, so its parameters can be tuned by gradient-based learning — a step has no useful derivative"
+    ],
+    "answer": [3],
+    "explanation": "A step function's derivative is zero everywhere it exists, so gradient descent has nothing to follow. Smoothing the edge is what makes the whole architecture learnable, which is why the optimization principle depends on it.",
+    "source": { "deck": "GAI Lit 03", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["sigmoid", "activation", "gradient-descent", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "nn-051",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "The bias is often written as a weight w₀ attached to an input x₀ that is permanently set to 1. Why bother?",
+    "choices": [
+      "It lets the bias be trained while the weights are frozen",
+      "It makes the bias act as a learning rate",
+      "It folds the bias into the weight vector, so the neuron's whole computation becomes one dot product of weights against inputs",
+      "It prevents the bias from growing too large"
+    ],
+    "answer": [2],
+    "explanation": "A tidy bookkeeping trick, not a change of substance: with x₀ = 1 the sum of weights times inputs already includes the bias. The bias still does its own job — shifting the decision threshold — and still counts as a parameter.",
+    "source": { "deck": "GAI Lit 03", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["bias", "weight", "parameter"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-052",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A one-dimensional line separates a two-dimensional plane. A dataset with thirty input variables is separated by what?",
+    "choices": [
+      "A thirty-dimensional hyperplane",
+      "A twenty-nine-dimensional hyperplane",
+      "A one-dimensional line, as always",
+      "A thirty-one-dimensional hyperplane"
+    ],
+    "answer": [1],
+    "explanation": "The separating surface always has one dimension fewer than the space it cuts: n − 1. The picture generalises exactly — what changes with dimension is only how impossible it becomes to draw.",
+    "source": { "deck": "class notes", "slide": 11 },
+    "difficulty": 3,
+    "tags": ["perceptron", "linearly-separable", "geometry"],
+    "examFocus": false
+  },
+  {
+    "id": "nn-053",
+    "topic": "neural-networks",
+    "type": "mcq",
+    "stem": "A classifier's threshold is moved so that fewer cases are flagged. A civil court would want that; a military command would not. What does the contrast show?",
+    "choices": [
+      "That false positives are errors and false negatives are not",
+      "That accuracy is the only figure that matters",
+      "That moving the threshold removes errors altogether",
+      "That false positives and false negatives are both errors but cost different amounts, so the threshold is set by which error you can least afford"
+    ],
+    "answer": [3],
+    "explanation": "A civil court would rather let a guilty party go than punish an innocent one, so it minimises false positives; a military command would rather investigate a harmless contact than miss a real one, so it minimises false negatives. No placement of the boundary eliminates both.",
+    "source": { "deck": "class notes", "slide": 5 },
+    "difficulty": 3,
+    "tags": ["classification", "threshold", "distinction"],
+    "examFocus": true
   }
 ]

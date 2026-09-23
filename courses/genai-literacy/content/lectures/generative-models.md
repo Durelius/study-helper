@@ -89,6 +89,42 @@ the word.
 
 ?check id=gen-005
 
+**How the idea was posed in class**, as a second question following a first:
+
+1. *Can a model look at a photograph of a person and produce the judgement that it is that
+   person?* That is **recognition** — a predictive model.
+2. *Can another engine produce an image good enough that the first model judges it a real
+   photograph of them?* That is the **GAN**.
+
+The judge was built as a predictive model, and turning its verdict into a training signal for a
+generator is what makes the adversarial network both ironic and effective.
+
+`[slides 8-10]`
+
+?check id=gen-033
+
+## What carried the field from predictive to generative
+
+A question recorded in class in those words, and worth two rehearsed lines:
+
+> Networks first learned **compact representations of what the data are**. Once that
+> representation existed, the same machinery could be run the other way — sample the simple
+> distribution and decode — so **prediction and generation turned out to share one engine**.
+
+Nothing was discarded in the move. **Universal approximation** and **gradient-based learning**
+sit under both halves of the arc; what the VAE and the U-Net added was the **representation
+bridge**, and what the Transformer and the diffusion model added was the means to exploit it.
+
+The warning that goes with it: generation **extrapolates beyond the basis of validation**. That
+is precisely what makes it creative, and precisely what means **there is no ground truth left
+to check the output against** — which is why a generative model is judged on plausible context
+relevance rather than accuracy.
+
+`[slides 1-3]`
+
+?check id=gen-034
+?check id=gen-035
+
 ## Diffusion
 
 A **fixed forward process** gradually corrupts data with **Gaussian noise**, step by step. The
@@ -129,6 +165,76 @@ autoencoder's bottleneck. **Do not study flow matching beyond the line above.**
 `[slides 14-17]`
 
 ?check id=gen-011
+
+## TO and FRO: what is chosen and what is learned
+
+The cleanest single frame for the whole generative family. Every one of these models involves
+**two mappings**:
+
+- the **TO** mapping, **data → a simple distribution**;
+- the **FRO** mapping, **simple distribution → data**.
+
+**Generation always uses FRO.** TO exists only to set up the learning problem:
+
+> **TO sets the homework; FRO learns to solve it backwards.**
+
+Because *we* chose or constructed the trip out to the simple distribution, we know the right
+answer at every step, so training a generator becomes an ordinary supervised task. That is the
+trick the whole field turns on.
+
+| | **TO** (data → simple) | **FRO** (simple → data) | Where the supervision comes from |
+|---|---|---|---|
+| **VAE** | **Learned** encoder q(z\|x) | **Learned** decoder p(x\|z) | Reconstruction + KL regularisation |
+| **Diffusion** | **Fixed** forward noising | **Learned** reverse denoiser | The noise we added ourselves |
+| **Flow matching** | **Chosen** probability path | **Learned** vector field | The target velocity we designed |
+| **GAN** | **None** — the exception | **Learned** generator | A **discriminator's** verdict (adversarial) |
+
+> **Exam focus.** The GAN is the odd one out and that is a ready-made distinction question:
+> **it has no explicit data-to-simple mapping at all.** VAE, diffusion and flow matching each
+> construct a route out and learn the route back; the GAN learns its generator purely from an
+> adversary's judgement, which is why it trains so differently and so unstably.
+
+The **VAE's objective is the ELBO — Evidence Lower Bound** — which splits into a
+**reconstruction** term keeping the output close to the input and a **latent regularisation**
+term keeping the code close to the simple prior. Those are the two competing halves.
+
+`[slides 14-17]`
+
+?check id=gen-026
+?check id=gen-028
+
+## Conditioning: where to navigate, which possibility
+
+Text-to-image is the case worth having a sentence ready for. A **text encoder** turns the
+prompt into an embedding **c**; a **PRNG** supplies a random **z**; the generator produces a
+sample from **p(x | c)**.
+
+> **The prompt is WHERE to navigate. The PRNG is WHICH possibility.**
+
+Semantics directs; randomness varies. That is why the same prompt run twice gives two
+different pictures, and why the randomness is not a defect to be engineered away — it is what
+makes the model generative rather than a lookup table.
+
+`[slides 14-17]`
+
+?check id=gen-029
+
+## Which to reach for, and what you give up
+
+- **VAE** — a compact, structured latent code you can inspect, interpolate in and sample
+  cheaply, plus an explicit likelihood. Sample quality is the weak point.
+- **Diffusion** — the best empirical sample quality and scaling, conditioned naturally on
+  text. You give up the compact latent and pay in a long iterative sampling loop.
+- **Flow matching** — a simple continuous-time view that unifies the other two. One line only.
+
+A caveat the course is careful about: data are said to live on a **manifold**, a tiny
+high-density region of an enormous space. That is a **useful modelling intuition**; the safer
+statement is a **concentrated high-density data distribution**, not a proven low-dimensional
+linear subspace.
+
+`[slides 14-17]`
+
+?check id=gen-032
 
 ## Can we have generative AI without neural networks?
 

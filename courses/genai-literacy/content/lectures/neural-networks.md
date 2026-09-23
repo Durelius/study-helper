@@ -65,6 +65,70 @@ the cat. The output uses **one-hot encoding**: exactly one of the ten slots on, 
 
 ?check id=nn-008
 
+## Counting parameters
+
+Flagged **twice** in the class notes as an exam notice, which is the strongest signal in them.
+It is arithmetic, not mathematics, so it survives "very little math".
+
+**The convention:** a parameter is a number **training changes**. So
+
+> **one weight per incoming connection, plus one bias per neuron.**
+
+The **inputs do not count** — they are the data you supply. **Hyperparameters do not count** —
+they are fixed before training starts.
+
+| Network | Weights | Biases | Total |
+|---|---|---|---|
+| One neuron, **2 inputs** | 2 | 1 | **3** |
+| One neuron, 3 inputs | 3 | 1 | **4** |
+| One layer of 3 neurons, 4 inputs each | 12 | 3 | **15** |
+| 2 inputs → hidden layer of 2 → 1 output | 4 + 2 = 6 | 2 + 1 = 3 | **9** |
+| 784 → 16 → 16 → 10 (the digit classifier) | — | — | **≈ 13,000** |
+
+The worked example dictated in class is the first row: **two input variables, one output, three
+parameters.** Forgetting the biases is the standard slip — count layer by layer and add them as
+you go.
+
+A tidy bookkeeping trick you may see: the bias is written as a weight **w₀** on an input **x₀**
+permanently set to **1**, which folds it into the weight vector so the whole neuron is a single
+dot product. It is still a parameter and still shifts the threshold.
+
+`[slides 5-8]`
+
+?check id=nn-046
+?check id=nn-048
+
+## Why the hard edge is smoothed
+
+A perceptron in its raw form fires or does not: a **step**. That is a problem, because a step
+has **no useful derivative** — zero everywhere it exists — so gradient descent has nothing to
+follow.
+
+> **The sigmoid turns a hard-edged model into a differentiable one.**
+
+That single move is what makes the whole architecture learnable, and it is the reason the
+optimization principle can get a grip at all. It is also why the network's decisions come out
+as **probabilities rather than rigid verdicts**: the smoothed boundary reports how far a point
+sits from the partition, not merely which side it is on.
+
+The geometric picture behind this: a perceptron *is* a **partition** — a line in two
+dimensions, a plane in three, and in general a **hyperplane of one dimension fewer than the
+data**. Thirty input variables are separated by a twenty-nine-dimensional hyperplane, exactly
+as a plane is cut by a line. Machine learning is then *adjusting the parameters of those
+partitions until the data are separated accurately*, and where one partition cannot do it,
+you add another — which is what a layer of neurons is.
+
+**Where the boundary sits is a judgement, not just a fit.** False positives and false negatives
+are both errors with different costs: a **civil court** would rather acquit the guilty than
+convict the innocent, so it minimises **false positives**; a **military command** would rather
+investigate a harmless contact than miss a real one, so it minimises **false negatives**. No
+placement of the line eliminates both.
+
+`[slides 9-13]`
+
+?check id=nn-050
+?check id=nn-053
+
 ## The loss function
 
 The network needs a single number saying how wrong it currently is. That number is the
@@ -118,6 +182,45 @@ the error backwards through the layers so each weight learns how much it contrib
 
 `[slides 22-24]`
 
+## The chain from calculus to backpropagation
+
+Four steps, and each one is a sentence:
+
+1. **Differential calculus** gives the **rate of change** of a one-variable function. Positive
+   derivative, the function is rising; negative, falling; zero, a stationary point.
+2. For a function of **many** variables the **gradient** — the vector of partial derivatives —
+   gives the **direction of greatest increase**. Its negative gives the greatest decrease.
+3. **Gradient descent** walks in that decreasing direction: **w ← w − η∇L(w)**, repeatedly.
+   **η is the learning rate**, the step size, and it is a **hyperparameter** — set before
+   training, not learned. Too small and training crawls; too large and the step overshoots.
+4. Applied to a **feedforward network**, which is a **composition of layers**, gradient descent
+   becomes **backpropagation**: the **chain rule** assembles the derivative of the loss with
+   respect to any weight from a product of local derivatives, so **one backward sweep yields
+   the gradient for every weight at once**.
+
+Without the chain rule you would have to perturb each weight separately — hopeless for the
+thirteen thousand weights of a digit classifier, impossible for a billion.
+
+**Forward pass computes the activations and hence the loss. Backward pass computes the
+gradients.** Backprop finds the direction; gradient descent takes the step.
+
+**Attribution worth knowing:** **Werbos published backpropagation in a 1974 doctoral
+dissertation**; **Rumelhart, Hinton & Williams (1986)** is where it became known to the field.
+1986 is the popularisation, not the invention.
+
+**Variants of gradient descent** named in this course: **batch**, **stochastic (SGD)**,
+**mini-batch**, **momentum**, **RMSProp**, **Adam**. Backpropagation is *not* one of them — it
+is how the gradient they all consume gets computed.
+
+The loss surface of a real network is **high-dimensional and non-convex**, nothing like the
+tidy bowl in the picture. Gradient descent settles in **a** local minimum; the empirical
+finding is that in high dimensions those minima are usually good enough.
+
+`[slides 22-24]`
+
+?check id=nn-040
+?check id=nn-042
+
 ## Activation functions
 
 | Function | What it does | Why it matters |
@@ -144,6 +247,85 @@ decision boundary.
 - **Universal approximation** says a sufficiently wide network *can* represent essentially any
   function. It does **not** say that gradient descent will find it, or that the result will
   generalise, or that the representation will resemble a human concept.
+
+## Universal approximation, stated precisely
+
+> For any continuous function on a closed bounded region, and any tolerance you like, there
+> exists a **one-hidden-layer** feedforward network with a **finite** number of neurons that
+> approximates it uniformly.
+
+**One hidden layer.** That is the part people get wrong. **Cybenko (1989)** proved it for the
+sigmoid, **Funahashi (1989)** for general non-polynomial activations, **Hornik (1991)** under
+broad conditions.
+
+So why go deep at all? Because depth is not about what *can* be represented, it is about what
+can be *found*:
+
+> **Expressivity is abundant; trainability is scarce.**
+
+Deep networks reach the same expressivity **far more parameter-efficiently** and are **easier
+to optimise**. The obstacle in practice is never the function class — it is optimisation and
+**inductive bias**, the design choices that make good solutions reachable.
+
+`[slides 24-26]`
+
+?check id=nn-028
+?check id=nn-029
+
+## Three ways to make a network more capable
+
+If expressivity is the question "what set of functions can this network represent?", the course
+gives **three complementary answers**, and they can be combined:
+
+| | **Enrich what the links compute** | **Create many computational paths** | **Make the network deep** |
+|---|---|---|---|
+| **Named as** | **Functional-link networks** (Pao, 1995) | **Residual networks** (He et al., 2015) | Traditional **sequential stacking** |
+| **Core idea** | Add **explicit nonlinear transforms of the input** — polynomial, radial-basis, trigonometric terms — so the basis is richer | Add **identity skip connections**; a net with L residual blocks implicitly contains **2^L** input-output paths of varying length | Stack many nonlinear layers in series so the composition becomes more expressive |
+| **Strength** | High expressivity at **shallow** depth; good with little data when you know the useful features | Trains **very deep** networks; ensemble-like robustness | Systematic hierarchical representations; scales with data and compute |
+| **Limitation** | Needs good prior knowledge; input dimension can explode | Most of the paths are short, and only those carry gradient | **Vanishing / exploding gradients** without skip connections |
+
+**None of the three changes the function class** — universal approximation already held. They
+change the **optimisation landscape and the effective depth**, which is the practical
+distinction between what a model *could* express and what training will actually deliver.
+
+## The degradation problem, and the residual fix
+
+By **early 2015** deep learning had hit a wall. Beyond roughly **twenty to thirty layers**,
+making a network deeper stopped helping and then started hurting: a **30-layer model scored
+16.59% error against a 14-layer model's 13.34%** — worse on the **training** set, not just on
+validation.
+
+That last detail is the whole diagnosis. **This is not overfitting.** Overfitting shows as a
+widening gap between training and validation error. Here the deeper model fitted the data it
+had already seen *worse*, which makes it an **optimisation failure**.
+
+And it was confounding, because the solution provably existed: **take a trained 14-layer model,
+add 16 pass-through (identity) layers, and performance must be at least as good**. That setting
+of the parameters is sitting in the space and gradient descent never finds it.
+
+**The fix, in one line:** instead of asking the layers to learn **H(x)** directly, let them
+learn the **residual F(x) = H(x) − x**, and add the input back — so the block outputs
+**H(x) = F(x) + x**.
+
+- The shortcut lets **information and gradients flow** without passing through every weight.
+- The block only has to learn a **correction**: *refine* rather than *re-create*.
+- **Identity mapping is available by construction** — to do nothing, drive F(x) to zero.
+
+The consequence was immediate: residual networks train at **18, 34, 50, 101, 152 layers and
+beyond**, with error still falling where a plain network's rises. He, Zhang, Ren and Sun's
+twelve-page **Deep Residual Learning for Image Recognition** (Microsoft Research, December
+2015) became the **most cited paper of the twenty-first century**, and the residual block is
+now the standard **backbone** underneath AlphaGo, AlphaFold and the large language models.
+
+One reading worth a line: **ResNets behave like ensembles of relatively shallow networks.**
+Unravel the shortcuts and a 110-block network trains mostly through paths of **10 to 34
+blocks**; the long paths carry almost no gradient. **Effective depth is much smaller than
+nominal depth**, which is why very deep residual networks train at all.
+
+`[slides 24-26]`
+
+?check id=nn-032
+?check id=nn-034
 
 ## Overfitting
 

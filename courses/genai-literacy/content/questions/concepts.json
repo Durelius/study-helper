@@ -476,5 +476,340 @@
     "difficulty": 1,
     "tags": ["intelligent-being", "valenced", "definition"],
     "examFocus": true
+  },
+  {
+    "id": "con-028",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Modern deep learning is summarised in this course as five enduring principles. Which set is right, in order?",
+    "choices": [
+      "Data, Model, Training, Evaluation, Deployment",
+      "Representation, Relation, Parameterization, Optimization, Architecture",
+      "Perception, Memory, Reasoning, Planning, Action",
+      "Encoding, Compression, Sampling, Decoding, Generation"
+    ],
+    "answer": [1],
+    "explanation": "Represent, relate, parameterize, learn, orchestrate. Every seminal paper on the course's list contributes to one or more of the five, and the later ones contribute to several at once.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["five-principles", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "con-029",
+    "topic": "concepts",
+    "type": "text",
+    "stem": "One word: the first of the five principles of modern deep learning, which turns information into vectors or tensors so that it becomes computable.",
+    "choices": [],
+    "answer": [],
+    "accept": ["representation", "represent"],
+    "explanation": "Representation: information becomes numerical representation. Tokens and embeddings for text, patches and tensors for images — nothing else in the pipeline can run until the data are numbers.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 1,
+    "tags": ["five-principles", "representation"],
+    "examFocus": true
+  },
+  {
+    "id": "con-030",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Which of the five principles of modern deep learning is described as the clever orchestration of the other four?",
+    "choices": [
+      "Representation",
+      "Optimization",
+      "Architecture",
+      "Relation"
+    ],
+    "answer": [2],
+    "explanation": "Architecture is the higher-level design that decides how representations, relations, parameterised operations and learning interact. It is why the course says intelligence comes from orchestration rather than from any single ingredient.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["five-principles", "architecture", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-031",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "What does this course claim the progress of deep learning actually consists of?",
+    "choices": [
+      "Steadily more complicated primitive mathematics",
+      "Steadily larger datasets, with the mathematics unchanged since 1986",
+      "Increasingly ingenious orchestration of representations, relationships, parameters and learning, rather than more complicated primitive mathematics",
+      "The replacement of statistics by a genuinely new branch of mathematics"
+    ],
+    "answer": [2],
+    "explanation": "The primitives stay simple: a weighted sum, a nonlinearity, a derivative. What changes is how ingeniously they are arranged, which is the claim the five principles are there to support.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["five-principles", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "con-032",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Attention, with its queries, keys and values, is offered as the textbook example of which principle?",
+    "choices": [
+      "Relation — expressing abstract relationships as operations among representations",
+      "Representation — encoding information as vectors",
+      "Optimization — making the system differentiable",
+      "Parameterization — many simple operations composed"
+    ],
+    "answer": [0],
+    "explanation": "Attention is a relation: it computes how strongly each representation should bear on each other one. Embedding is the representation step that must happen first, which is exactly the embedding-versus-attention distinction in another form.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 3,
+    "tags": ["five-principles", "attention", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-033",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "'Simple operations, massively parameterized and composed, can express complex functions.' Which principle is that?",
+    "choices": [
+      "Representation",
+      "Relation",
+      "Optimization",
+      "Parameterization"
+    ],
+    "answer": [3],
+    "explanation": "Parameterization: complexity is bought with learned parameters and composition, not with exotic mathematics. It is the principle that makes a 175-billion-parameter model a difference of degree rather than of kind.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["five-principles", "parameters"],
+    "examFocus": false
+  },
+  {
+    "id": "con-034",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "In the five-principle scheme, what does making a system differentiable buy you?",
+    "choices": [
+      "It guarantees the global minimum will be found",
+      "It makes the network's decisions interpretable",
+      "It removes the need for a loss function",
+      "It lets the numerical parameters be learned from data by gradient-based methods"
+    ],
+    "answer": [3],
+    "explanation": "Differentiability is the precondition for optimization, the fourth principle: no derivative, no gradient, no learning. It says nothing about whether the minimum found is the best one.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["five-principles", "optimization", "gradient-descent"],
+    "examFocus": false
+  },
+  {
+    "id": "con-035",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "The Transformer is credited against all five principles at once, where most earlier work touches only one or two. Why?",
+    "choices": [
+      "Because it is the most recent architecture on the list",
+      "Because it has more parameters than anything before it",
+      "Because it re-represents tokens as embeddings, expresses relation through attention, is massively parameterised, is trained end to end by gradient descent, and its actual contribution is the orchestration of all four",
+      "Because it can be used for both text and images"
+    ],
+    "answer": [2],
+    "explanation": "The Transformer is an architecture in the strict sense of the fifth principle: a way of arranging the other four. That is the reason it generalised from translation to language, vision, audio and code.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 3,
+    "tags": ["five-principles", "transformer", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "con-036",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "The course's literacy roadmap runs through four stages. Which are they, in order?",
+    "choices": [
+      "Words, timelines, how it works under the hood, application",
+      "Mathematics, code, architecture, deployment",
+      "History, ethics, regulation, practice",
+      "Data, model, evaluation, impact"
+    ],
+    "answer": [0],
+    "explanation": "Build the language first, then the history, then the mechanisms, then what you can do with it. The order is deliberate: you cannot ask how a thing works until you can name its parts.",
+    "source": { "deck": "infographics", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["roadmap", "structure"],
+    "examFocus": false
+  },
+  {
+    "id": "con-037",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "The roadmap names three complementary families of timeline rather than one. Which set is right?",
+    "choices": [
+      "Language, vision and audio",
+      "Academic, commercial and military",
+      "Task equivalence, computational model, and integrated autonomy",
+      "Hardware, software and data"
+    ],
+    "answer": [2],
+    "explanation": "Task-equivalence timelines track reproducing human capabilities; computational-model timelines track competing conceptions of intelligence; integrated-autonomy timelines track the move from models to real-world agency. They are complementary views, not a strict taxonomy.",
+    "source": { "deck": "infographics", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["roadmap", "timeline", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "con-038",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "The integrated-autonomy timeline runs from AI as software to what?",
+    "choices": [
+      "AI as a service, then AI as a subscription",
+      "AI as an operating system, meaning agentic AI with reasoning, planning and tool use, and then AI as hardware, meaning robotics and embodied AI",
+      "AI as a search engine, then AI as a database",
+      "AI as a compiler, then AI as an interpreter"
+    ],
+    "answer": [1],
+    "explanation": "Software means predictive then generative models; operating system means the agentic layer that plans and calls tools; hardware means a physical agent acting in the world. That last rung is where the Intelligent Being's corporal form becomes the topic.",
+    "source": { "deck": "infographics", "slide": 15 },
+    "difficulty": 3,
+    "tags": ["roadmap", "embodied-ai", "structure"],
+    "examFocus": false
+  },
+  {
+    "id": "con-039",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Chatbot, RAG, agent and wiki are distinguished by one verb each. Which set is right?",
+    "choices": [
+      "Talks with you, searches for you, does things for you, builds your knowledge",
+      "Answers for you, writes for you, decides for you, remembers for you",
+      "Chats with you, thinks for you, sells to you, teaches you",
+      "Explains to you, retrieves for you, argues with you, stores for you"
+    ],
+    "answer": [0],
+    "explanation": "A chatbot talks with you, RAG searches for you with grounded references, an agent does things for you through tool use and multi-step execution, and a wiki accumulates knowledge with you. Four words that cover the whole application layer.",
+    "source": { "deck": "infographics", "slide": 15 },
+    "difficulty": 1,
+    "tags": ["roadmap", "rag", "agent"],
+    "examFocus": false
+  },
+  {
+    "id": "con-040",
+    "topic": "concepts",
+    "type": "text",
+    "stem": "One word: the application mode that does things for you, through tool use, workflow automation and multi-step task execution.",
+    "choices": [],
+    "answer": [],
+    "accept": ["agent", "agentic", "agentic ai"],
+    "explanation": "An agent. The distinction worth holding: a chatbot talks with you, RAG searches for you, an agent does things for you, and a wiki builds knowledge with you.",
+    "source": { "deck": "infographics", "slide": 15 },
+    "difficulty": 1,
+    "tags": ["roadmap", "agent"],
+    "examFocus": false
+  },
+  {
+    "id": "con-041",
+    "topic": "concepts",
+    "type": "multi",
+    "stem": "Select all three senses this course gives to the 'I' in 'AI'.",
+    "choices": [
+      "Human-like, as in 'the most intelligent being' — the sense Turing's imitation game tests",
+      "Instinctive, as in a reflex that needs no learning",
+      "Advantageous information of strategic or tactical value, as in military or business intelligence",
+      "Immutable, as in a rule that cannot be retrained",
+      "A solution path or method for a hard problem, as in computational or digital intelligence"
+    ],
+    "answer": [0, 2, 4],
+    "explanation": "Human-like, advantageous information, and optimal solution method. Being able to name at least three forms of intelligence was flagged in class; the trap is to give only the first, which is the one everybody thinks of.",
+    "source": { "deck": "lec 1", "slide": 19 },
+    "difficulty": 1,
+    "tags": ["i-in-ai", "definition", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-042",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "Asked to name at least three forms of intelligence, which set would this course accept?",
+    "choices": [
+      "Artificial, natural and hybrid",
+      "Human-like intelligence; intelligence as advantageous information; computational or digital intelligence as an optimal solution",
+      "Narrow, general and super",
+      "Predictive, generative and adversarial"
+    ],
+    "answer": [1],
+    "explanation": "Three different words wearing one label. The imitation game tests the first, a business dashboard delivers the second, and an optimisation algorithm delivers the third — and only the first is about behaving like a person.",
+    "source": { "deck": "lec 1", "slide": 19 },
+    "difficulty": 2,
+    "tags": ["i-in-ai", "definition", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-043",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "An AI system is intelligent but cannot do anything in the world; a robot can do things but is not intelligent. What is the term for what you get by joining the two?",
+    "choices": [
+      "Artificial general intelligence",
+      "Reinforcement learning",
+      "Embodied AI — a physical form with the ability to experience and act in its environment",
+      "Agentic workflow"
+    ],
+    "answer": [2],
+    "explanation": "Embodied AI is the rung where a model acquires a body and sensors, so it can explore and learn from an environment rather than only process what it is handed. It is the reason corporal form is the first element of the Intelligent Being.",
+    "source": { "deck": "class notes", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["embodied-ai", "intelligent-being", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-044",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "'Being hungry is not an intelligent calculation — it is reading a negative signal coming from the body.' Which element of the Intelligent Being does that illustrate?",
+    "choices": [
+      "Cognitive faculty and pattern recognition",
+      "Valenced feeling and graded sensation",
+      "Mental formation and projective generation",
+      "Consciousness marker and program register"
+    ],
+    "answer": [1],
+    "explanation": "Valenced feeling and graded sensation: the being categorises its sensations as positive, negative or neutral, by degree. It is not reasoning — it is a signal with a sign attached, and that sign is what drives the being to act.",
+    "source": { "deck": "class notes", "slide": 15 },
+    "difficulty": 2,
+    "tags": ["intelligent-being", "valenced", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "con-045",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "A computer scientist and a data scientist describe the relation between AI and machine learning in opposite directions. How?",
+    "choices": [
+      "To the computer scientist, machine learning sits inside AI as one of the things AI research encompasses; to the data scientist, AI is the packaging and branding placed on top of machine learning",
+      "To the computer scientist, AI is a subfield of statistics; to the data scientist, it is a subfield of robotics",
+      "Both place machine learning inside AI; the disagreement is only about which is older",
+      "Neither uses the term machine learning; they both say AI"
+    ],
+    "answer": [0],
+    "explanation": "Two professions looking at the same stack from opposite ends, which is why the containment question has no single answer. The course's own version: neither contains the other — ML reaches outside AI into any data-driven calibration, and AI reaches outside ML into symbolic systems, search and planning.",
+    "source": { "deck": "class notes", "slide": 15 },
+    "difficulty": 3,
+    "tags": ["ml-vs-ai", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "con-046",
+    "topic": "concepts",
+    "type": "mcq",
+    "stem": "'All fiction is realistic but not real.' How does that sentence separate generative AI from predictive AI?",
+    "choices": [
+      "It does not — both produce fiction",
+      "Predictive AI produces fiction and generative AI produces fact",
+      "Predictive AI approximates reality and is checked against it; generative AI takes what it has learned and runs with it, producing something realistic that was never real",
+      "Generative AI copies real examples while predictive AI invents new ones"
+    ],
+    "answer": [2],
+    "explanation": "Approximating reality is prediction; taking a learned structure and running with it is generation. The consequence for marking is that a generative output cannot be scored against a ground truth — only for plausibility.",
+    "source": { "deck": "class notes", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["predictive-vs-generative", "distinction"],
+    "examFocus": true
   }
 ]

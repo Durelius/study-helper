@@ -220,11 +220,11 @@
       "175 billion — the number of words in the vocabulary"
     ],
     "answer": [0],
-    "explanation": "About 12,288 numbers per token. That is the width of the vector a single word occupies, which is what gives an embedding room to encode many independent aspects of meaning at once.",
+    "explanation": "About 12,288 (written 12288) numbers per token. That is the width of the vector a single word occupies, which is what gives an embedding room to encode many independent aspects of meaning at once, and it is why cat sits nearer dog than dinosaur.",
     "source": { "deck": "lec 1", "slide": 68 },
     "difficulty": 2,
-    "tags": ["embedding", "gpt", "scale"],
-    "examFocus": false
+    "tags": ["embedding", "gpt", "scale", "12288"],
+    "examFocus": true
   },
   {
     "id": "tra-014",
@@ -394,6 +394,186 @@
     "source": { "deck": "lec 1", "slide": 68 },
     "difficulty": 1,
     "tags": ["embedding", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-024",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Beside attention, each Transformer block contains a feed-forward sub-block. What is it made of?",
+    "choices": [
+      "A second attention layer with its own queries and keys",
+      "A recurrent layer that carries state between tokens",
+      "A convolution over neighbouring tokens",
+      "An up-projection into a much wider dimension, a ReLU nonlinearity, and a down-projection back to the embedding dimension"
+    ],
+    "answer": [3],
+    "explanation": "Widen, threshold, narrow again. It is an ordinary multilayer perceptron applied to each token separately — which is why the MLP is called the backbone of the Transformer rather than a relic of an older architecture.",
+    "source": { "deck": "infographics", "slide": 14 },
+    "difficulty": 2,
+    "tags": ["transformer", "mlp", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-025",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Attention and the feed-forward block inside a Transformer do different jobs. What is the division of labour?",
+    "choices": [
+      "Attention moves information between tokens; the feed-forward block acts as a key-value memory that retrieves stored facts and adds them to the token's representation",
+      "Attention stores the facts; the feed-forward block routes them between tokens",
+      "Attention handles the first half of the sentence and the feed-forward block the second",
+      "Attention trains the network while the feed-forward block runs at inference only"
+    ],
+    "answer": [0],
+    "explanation": "Attention is communication, the feed-forward block is recall. That is why work on where a language model's world knowledge lives points at the feed-forward layers rather than at attention.",
+    "source": { "deck": "infographics", "slide": 14 },
+    "difficulty": 3,
+    "tags": ["transformer", "mlp", "attention", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-026",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "In a large language model, the lower and upper layers turn out to store different things. Which way round?",
+    "choices": [
+      "Lower layers store facts and upper layers store grammar",
+      "Lower layers store syntactic and shallow patterns; upper layers store deeper semantic world knowledge and facts",
+      "Both store the same information, duplicated for robustness",
+      "Lower layers store the prompt and upper layers store the answer"
+    ],
+    "answer": [1],
+    "explanation": "Shallow patterns first, world knowledge later — the same layer-by-layer abstraction the digit network shows with pixels, edges and shapes. It is one more instance of depth buying hierarchy.",
+    "source": { "deck": "infographics", "slide": 14 },
+    "difficulty": 2,
+    "tags": ["transformer", "mlp", "hierarchy"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-027",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "What is superposition, in the context of a language model's internal representations?",
+    "choices": [
+      "Two models trained on the same data and averaged",
+      "The same token appearing twice in one sentence",
+      "Far more concepts than there are dimensions, packed as overlapping nearly-orthogonal directions in one vector space — which is why a single neuron does not correspond to a single concept",
+      "Stacking several attention heads on top of each other"
+    ],
+    "answer": [2],
+    "explanation": "A hundred-dimensional space can carry far more than a hundred distinguishable directions if you accept that they are only nearly perpendicular. The consequence for interpretability is that concepts are smeared across neurons rather than housed in them.",
+    "source": { "deck": "infographics", "slide": 14 },
+    "difficulty": 3,
+    "tags": ["transformer", "embedding", "interpretability"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-028",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "What kind of model is used to pull apart the superposed concepts inside a language model's activations?",
+    "choices": [
+      "A sparse autoencoder, which re-encodes the activations into a much wider but mostly inactive representation so individual concepts separate out",
+      "A second Transformer trained on the first one's weights",
+      "A convolutional network applied to the attention matrix",
+      "A generative adversarial network trained against the model"
+    ],
+    "answer": [0],
+    "explanation": "The autoencoder returns here in an interpretability role: force the code to be wide and sparse and each active unit tends to stand for one thing. It is the same machinery as the course's first autoencoder, used to read a model rather than to compress data.",
+    "source": { "deck": "infographics", "slide": 14 },
+    "difficulty": 2,
+    "tags": ["transformer", "autoencoder", "interpretability"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-029",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Roughly what share of a Transformer's parameters sits in the feed-forward blocks rather than in attention?",
+    "choices": [
+      "About a tenth",
+      "About a quarter",
+      "About a half",
+      "About two thirds"
+    ],
+    "answer": [3],
+    "explanation": "Attention gets the attention, but most of the parameters — and on this account most of the stored knowledge — are in the feed-forward layers. That is why they are the main target when a model is being made more efficient.",
+    "source": { "deck": "infographics", "slide": 14 },
+    "difficulty": 2,
+    "tags": ["transformer", "mlp", "parameters"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-030",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "In a Transformer that has both an encoder and a decoder, what kind of attention joins the two?",
+    "choices": [
+      "Positional attention, which aligns the two sequences by index",
+      "Cross-attention in the decoder, which attends to the encoder's representations, while self-attention operates within each side",
+      "Self-attention shared between them, with one set of weights",
+      "No attention joins them; the encoder's final vector is passed to the decoder"
+    ],
+    "answer": [1],
+    "explanation": "Self-attention relates a sequence to itself; cross-attention relates the decoder's sequence to the encoder's. Passing one final vector is the older, pre-attention design that the fixed bottleneck problem killed.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["transformer", "attention", "encoder-decoder", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-031",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Getting a machine to handle language was described in class as 'learn the vocabulary, then learn the grammar'. Which mechanism does each half correspond to?",
+    "choices": [
+      "Vocabulary is the embedding, which gives each word a meaning as a vector; grammar is attention, which works out which words bear on which in this particular sentence",
+      "Vocabulary is attention and grammar is the embedding",
+      "Vocabulary is tokenisation and grammar is positional encoding",
+      "Both halves are handled by the embedding; attention only speeds it up"
+    ],
+    "answer": [0],
+    "explanation": "Embedding is the dictionary; attention is the syntax. That is the embedding-versus-attention distinction stated as a learning order — global meaning first, local interpretation second.",
+    "source": { "deck": "class notes", "slide": 20 },
+    "difficulty": 2,
+    "tags": ["embedding", "attention", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-032",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Attention compares two vectors with a dot product. What does that number tell it?",
+    "choices": [
+      "How many characters the two words share",
+      "How far apart the two words sit in the sentence",
+      "How congruent the two vectors are — how far they point in the same direction — which becomes how strongly one token should attend to the other",
+      "How often the two words occur together in the training corpus"
+    ],
+    "answer": [2],
+    "explanation": "A dot product is a similarity score: large when two vectors align, near zero when they are unrelated. Attention turns each query-key pair into one of those scores, and those scores are the weights that decide how the value vectors are mixed.",
+    "source": { "deck": "class notes", "slide": 21 },
+    "difficulty": 2,
+    "tags": ["attention", "query-key-value", "embedding"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-033",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Why is grammar harder for a machine than vocabulary?",
+    "choices": [
+      "Grammar rules change between speakers, while vocabulary does not",
+      "A vocabulary is a fixed mapping from word to vector, but grammar needs the context — which word bears on which in this sentence — and that is what attention had to supply",
+      "Grammar requires more memory than vocabulary",
+      "Vocabulary is learned from data while grammar has to be written by hand"
+    ],
+    "answer": [1],
+    "explanation": "Word2vec gave every word a stable meaning, but a sentence is more than a bag of meanings: communication comes in sentences and cannot be recovered from distances between isolated words. Attention was the mechanism that added the missing relations.",
+    "source": { "deck": "class notes", "slide": 20 },
+    "difficulty": 3,
+    "tags": ["attention", "embedding", "distinction"],
     "examFocus": true
   }
 ]

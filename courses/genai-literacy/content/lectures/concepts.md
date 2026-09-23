@@ -38,6 +38,14 @@ system can be "intelligent" in this sense and useless in every other.
 
 ?check id=con-001
 
+> **Exam focus.** *"What are three forms (at least) of intelligence?"* was flagged in class as an
+> exam notice, in those words. The answer is the three senses above: **human-like** (Turing's
+> imitation game), **advantageous information** (military, business), and **an optimal solution
+> path** (computational, digital). The trap is giving only the first — it is the one everybody
+> thinks of, and on its own it is a third of the answer.
+
+?check id=con-041
+
 ## The three senses of "A"
 
 1. **Artifact / artifice** — a machine creation made by humans, as opposed to something
@@ -146,6 +154,112 @@ Nacaskul's framework, and the spine of the 2025 paper. Learn all five; expect at
 `[slides 16-18, 54]`
 
 ?check id=con-018
+
+## The five principles of modern deep learning
+
+The course's own compression of the whole field, and five words that cost thirty seconds:
+
+> **Representation → Relation → Parameterization → Optimization → Architecture**
+>
+> Represent → Relate → Parameterize → Learn → **Orchestrate**.
+
+| # | Principle | In one line | Example |
+|---|---|---|---|
+| 1 | **Representation** | Information → **numerical** representation: encode what matters as vectors or tensors so it becomes computable | Tokens and **embeddings**; image patches |
+| 2 | **Relation** | Relationships → **operations on** representations: express abstract relationships algebraically or geometrically | **Attention** — query, key, value |
+| 3 | **Parameterization** | Complexity → **learned parameters + composition**: simple operations, massively parameterised, express complex functions | A deep network's weights |
+| 4 | **Optimization** | Parameters → **gradient-based learning**: make the system differentiable so parameters can be learned from data | **Gradient descent**, Adam |
+| 5 | **Architecture** | Intelligence → **clever orchestration of 1–4**: design how representations, relations, parameterised operations and learning interact | The Transformer block |
+
+And the closing claim, which is the quotable sentence:
+
+> **"Not ever more complicated primitive mathematics, but increasingly ingenious orchestration
+> of representations, relationships, parameters and learning."**
+
+The primitives stay simple — a weighted sum, a nonlinearity, a derivative. What changes is how
+ingeniously they are arranged. A useful test of whether you have the scheme: **Adam serves
+optimization alone**, because it changes only how parameters are updated; **the Transformer
+serves all five at once**, because its contribution *is* the orchestration.
+
+> **Exam focus.** The examiner said to study the infographic sheets carefully, and this is the
+> newest of them. Five words in order, plus the closing sentence, is a complete two-line
+> answer — and each principle is also a ready-made "which principle is this?" question.
+
+`[slides 1-5]`
+
+?check id=con-028
+?check id=con-030
+
+## The literacy roadmap: four stages, three timeline families
+
+The lecturer's own map of the course, and a cheap source of structure answers.
+
+**Stage 1 — Words Matter.** Build the language: (Machine) Intelligence, Artificial, Generative,
+Literacy, Roadmap. Clear concepts first, because you cannot ask how a thing works until you can
+name its parts.
+
+**Stage 2 — Timelines.** **Three complementary families**, explicitly *not* a strict taxonomy:
+
+| Family | What it tracks | Landmarks |
+|---|---|---|
+| **Task equivalence** | Reproducing human **capabilities** | Turing 1950 → symbolic AI and expert systems 1960s-80s → deep learning 2010s → LLMs 2020+ |
+| **Computational model** | Competing **conceptions of intelligence** | McCulloch & Pitts 1943 → Dartmouth 1956 → connectionist models 1980s → deep learning 2010s+ |
+| **Integrated autonomy** | From models to **real-world autonomy** | AI as **software** → AI as **operating system** (agentic: reasoning, planning, tool use) → AI as **hardware** (robotics, embodied AI) |
+
+That last row ends in **Embodied AI**, described with five elements that map onto the
+Intelligent Being: **physical form** (sensing, manipulation, motion), **valenced sensing**
+(positive, negative, neutral), **cognition function** (predictive intelligence), **concept
+formation** (generative intelligence) and **experience register** (event processing).
+
+**Stage 3 — HIWUTH, "How It Works Under The Hood".** The six architectures in learning order:
+**MLP (1986) → CNN (2012) → VAE (2013) → U-Net (2015) → Transformer (2017) → Diffusion
+(2020→2022)**, running predictive → transition → generative. Note those are a **learning
+sequence**, not a claim of historical or architectural descent.
+
+**Stage 4 — Application.** Four modes, one verb each:
+
+> **Chatbot "talks with you" · RAG "searches for you" · Agent "does things for you" · Wiki
+> "builds your knowledge".**
+
+`[slides 1-5]`
+
+?check id=con-037
+?check id=con-039
+
+## How the lecturer frames these in class
+
+Not examinable in themselves — Marko sets the paper and none of this is in his decks — but
+these are the framings the lecturer uses, and they are often the clearest statement of a
+distinction that *is* examinable. Learn the distinction; the framing is just the handle.
+
+- **The five elements of the Intelligent Being are drawn loosely from the five aggregates of
+  Buddhism**: *form* (the physical body — robotics), *feeling* (categorising sensations as
+  pleasant or unpleasant), *perception* (recognising, labelling and identifying sensory inputs
+  and mental objects), *mental formations*, and *consciousness*. If you can hold the five
+  aggregates you can hold the five elements, because they are the same list.
+- **On valenced feeling:** *"Being hungry is not an intelligent calculation — it is reading a
+  negative signal coming from the body."* That is the whole element in one sentence.
+- **On embodiment:** *"AI is intelligent but cannot do things. Robots can do things but are not
+  intelligent."* **Embodied AI** is the join: a physical form with the ability to experience
+  its environment.
+- **On Integrated Innovation:** *"Integration is not simply the combination of features A + B +
+  C + D. Not a salad bowl, putting in many things at your convenience."*
+- **On generative AI:** *"Taking certain things and running with it is the premise of
+  generative AI. Approximating reality is predictive AI. All fiction is realistic but not
+  real."* And the warning that goes with it: **extrapolation beyond the basis of validation is
+  why AI is so powerful and so dangerous** — there is no ground truth left to check against.
+- **On knowing without understanding:** *"A boy can play catch without knowing Newtonian
+  mechanics."* The same point as the dog that knows where the frisbee will land: abstraction
+  can be entirely implicit.
+- **On ML and AI:** to a **computer scientist**, machine learning sits *inside* AI research; to
+  a **data scientist**, AI is the *packaging and branding* on top of machine learning. Two
+  professions looking at one stack from opposite ends — which is exactly why neither field
+  contains the other.
+
+`[slides 15-25]`
+
+?check id=con-044
+?check id=con-046
 
 ## Three more one-liners to have ready
 

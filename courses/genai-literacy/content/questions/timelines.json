@@ -388,5 +388,345 @@
     "difficulty": 1,
     "tags": ["timeline", "word2vec", "language", "who"],
     "examFocus": true
+  },
+  {
+    "id": "tim-024",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Gradient descent is far older than artificial intelligence. Who first formalised the method of steepest descent, and roughly when?",
+    "choices": [
+      "Newton, in the 1680s",
+      "Lagrange, in 1788",
+      "Gauss, in 1809",
+      "Cauchy, in 1847"
+    ],
+    "answer": [3],
+    "explanation": "Cauchy's 1847 general method is the pre-AI mathematical ancestor of every gradient-based learning rule since. The point of dating it that early is that the mathematics was waiting about 140 years before anyone had a network to apply it to.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["timeline", "who", "gradient-descent"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-025",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Roughly how long separated the first formalisation of the gradient method from backpropagation's arrival in neural networks?",
+    "choices": [
+      "About 40 years",
+      "About 90 years",
+      "About 140 years",
+      "About 200 years"
+    ],
+    "answer": [2],
+    "explanation": "1847 to 1986 is about 140 years. The mathematics of steepest descent was finished long before there was anything worth descending: what 1986 added was the chain rule applied layer by layer, not a new kind of calculus.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["timeline", "gradient-descent", "backpropagation"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-026",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the author of the 1989 proof that a single-hidden-layer network with a sigmoid nonlinearity can approximate any continuous function.",
+    "choices": [],
+    "answer": [],
+    "accept": ["cybenko", "g cybenko", "george cybenko"],
+    "explanation": "Cybenko (1989) gave the universal approximation theorem its classic form; Funahashi the same year and Hornik in 1991 broadened it beyond the sigmoid. It is the mathematical justification for calling a neural network a universal approximator.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["who", "universal-approximation", "timeline"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-027",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Hochreiter and Schmidhuber's 1997 gated architecture was built to fix one specific failure of recurrent networks. Which?",
+    "choices": [
+      "Recurrent networks could not be run on a GPU",
+      "The error signal decayed as it travelled back through time, so long-term dependencies could not be learned",
+      "Recurrent networks could not accept variable-length input",
+      "Recurrent networks had no way to represent words as numbers"
+    ],
+    "answer": [1],
+    "explanation": "Long Short-Term Memory adds gates that let the error flow survive over many steps, so a word early in a sentence can still influence one far later. That is the problem attention solved differently twenty years afterwards.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["lstm", "rnn", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-028",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the 1997 gated recurrent architecture, by Hochreiter and Schmidhuber, built to stop the error signal decaying over long sequences.",
+    "choices": [],
+    "answer": [],
+    "accept": ["lstm", "long short-term memory", "long short term memory"],
+    "explanation": "LSTM, Long Short-Term Memory. It held the sequence-modelling crown for twenty years, until attention removed the need to carry information step by step at all.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 1,
+    "tags": ["lstm", "rnn", "who"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-029",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Bahdanau, Cho and Bengio introduced attention in 2014, three years before the Transformer. What did their mechanism let a translation model do?",
+    "choices": [
+      "Train on unlabelled text for the first time",
+      "Run the encoder and decoder in parallel on separate machines",
+      "Soft-search the relevant parts of the source sentence for each word it produced, instead of reading one fixed summary vector",
+      "Generate several candidate translations and pick the most probable"
+    ],
+    "answer": [2],
+    "explanation": "Attention arrived as a fix for the encoder-decoder's fixed-length bottleneck: the decoder looks back at every encoder state and weights them per output word. The Transformer's claim in 2017 was that this mechanism alone was enough, and the recurrence could go.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 3,
+    "tags": ["attention", "who", "timeline", "encoder-decoder"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-030",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Adam (Kingma and Ba, 2014/15) is a first-order stochastic optimiser using adaptive moment estimates. Of the five principles of modern deep learning, which one does it serve, and only that one?",
+    "choices": [
+      "Representation",
+      "Relation",
+      "Parameterization",
+      "Optimization"
+    ],
+    "answer": [3],
+    "explanation": "Adam changes only how the parameters are updated, so it contributes to optimization alone. Contrast the Transformer, which contributes to all five at once because it re-represents, relates, parameterises, trains and orchestrates.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["adam", "five-principles", "optimization"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-031",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "What did Dosovitskiy and colleagues do in 2020/21 that mattered for vision?",
+    "choices": [
+      "Applied a pure Transformer directly to sequences of image patches, with no convolution",
+      "Added convolution layers inside the Transformer to make it handle images",
+      "Trained the first diffusion model on ImageNet",
+      "Replaced attention with residual connections for image classification"
+    ],
+    "answer": [0],
+    "explanation": "The Vision Transformer cuts the image into patches, treats each as a token and runs plain self-attention. It is the clearest evidence that the Transformer is a general architecture rather than a language one.",
+    "source": { "deck": "infographics", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["vision-transformer", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-032",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name Weizenbaum's 1966 program that simulated a psychotherapist and stands as the first well-known chatbot.",
+    "choices": [],
+    "answer": [],
+    "accept": ["eliza"],
+    "explanation": "ELIZA, 1966. It matched patterns in what you typed and reflected them back as questions, with no understanding at all — the earliest demonstration that fluent conversation and intelligence are separable.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["eliza", "who", "timeline", "language"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-033",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Hebb's 1949 book The Organization of Behavior sits on the neuroscience thread. What idea did it contribute?",
+    "choices": [
+      "That the brain contains a central processor coordinating the neurons",
+      "That the neuron's output is a weighted sum passed through a threshold",
+      "That vision is processed in a hierarchy of oriented-line detectors",
+      "That neurons which fire together wire together, so learning is a change in connection strength"
+    ],
+    "answer": [3],
+    "explanation": "Hebbian learning is the first account of learning as connection strengthening, and it is why unsupervised learning in this course is described as Hebbian. McCulloch and Pitts had modelled the neuron; Hebb explained how a network of them could change.",
+    "source": { "deck": "infographics", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["hebb", "who", "neuroscience", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-034",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Wiener's 1948 Cybernetics: Or Control and Communication in the Animal and the Machine predates the founding of AI by eight years. What did it establish?",
+    "choices": [
+      "The first programmable electronic computer",
+      "The idea of a stored-program architecture",
+      "A general treatment of feedback, control and information flow shared by living things and machines",
+      "The first artificial neural network"
+    ],
+    "answer": [2],
+    "explanation": "Cybernetics gave both AI and neural modelling their vocabulary of feedback and control, and its influence runs on through robotics, reinforcement learning and human-machine interaction. AI was envisioned in 1950 and named in 1956, but cybernetics laid the ground in 1948.",
+    "source": { "deck": "infographics", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["cybernetics", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-035",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "DENDRAL is dated 1965 and MYCIN to the 1970s. What did they have in common, and what does a rule in one look like?",
+    "choices": [
+      "Both were neural networks; a rule is a learned weight",
+      "Both were expert systems doing rule-based reasoning; a rule looks like IF fever AND rash THEN measles, with a confidence attached",
+      "Both were machine translation systems; a rule is a bilingual dictionary entry",
+      "Both were chess programs; a rule is a scored board position"
+    ],
+    "answer": [1],
+    "explanation": "Expert systems encoded human knowledge as hand-written if-then rules with confidence factors, and needed no training data at all. That is exactly the approach retronymed GOFAI once learned systems took the name AI.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["expert-system", "gofai", "timeline"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-036",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Which sequence puts the hardware enablers of AI in the right order?",
+    "choices": [
+      "Integrated circuits, transistors, microprocessors, GPUs, multi-core clusters",
+      "Transistors, microprocessors, integrated circuits, multi-core clusters, GPUs",
+      "Microprocessors, transistors, integrated circuits, multi-core clusters, GPUs",
+      "Transistors, integrated circuits, microprocessors, workstations and GPUs, multi-core clusters"
+    ],
+    "answer": [3],
+    "explanation": "Transistors in 1947, integrated circuits through the 1960s, the microprocessor in 1971, workstations and graphics acceleration in the 1980s-90s, then clusters and multi-core with early GPUs in the 2000s. Hardware is the thread that decides when an idea becomes practical — AlexNet is the clearest case.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["hardware", "timeline", "ordering"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-037",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Hodgkin and Huxley's 1952 model appears on the neuroscience thread. What did it describe?",
+    "choices": [
+      "How the retina detects edges",
+      "How the neuron's action potential is generated and propagates",
+      "How memory is stored in the hippocampus",
+      "How the visual cortex builds a hierarchy of features"
+    ],
+    "answer": [1],
+    "explanation": "They modelled the action potential mathematically, giving the biological neuron a quantitative description. That thread — Hebb, Hodgkin and Huxley, Hubel and Wiesel — is what the artificial neuron was abstracted from.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["neuroscience", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-038",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "What dominated computer vision through the 1990s and 2000s, before deep networks took over?",
+    "choices": [
+      "Convolutional networks trained on ImageNet",
+      "Support vector machines fed hand-designed local features such as SIFT and HOG",
+      "Expert systems encoding visual rules",
+      "Recurrent networks reading the image pixel by pixel"
+    ],
+    "answer": [1],
+    "explanation": "A human designed the features and a classifier such as an SVM did the rest. AlexNet's real break was to learn the features too, which is why 2012 is treated as a discontinuity rather than an improvement.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["vision", "timeline", "cnn"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-039",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the IBM researcher whose self-playing checkers program coined the term machine learning.",
+    "choices": [],
+    "answer": [],
+    "accept": ["samuel", "arthur samuel", "a samuel"],
+    "explanation": "Arthur Samuel, whose checkers program improved by playing itself. He named the field in the course of showing that a program could get better at a task without being told how.",
+    "source": { "deck": "infographics", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["who", "machine-learning", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-040",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Hinton, Osindero and Teh published a fast learning algorithm for deep belief nets in 2006. Why is that date a turning point?",
+    "choices": [
+      "It was the first use of a GPU to train a network",
+      "It introduced the convolution layer",
+      "Greedy layer-wise pretraining made deep networks trainable again, reopening a line of work stalled since the 1980s",
+      "It proved that a single hidden layer suffices for any function"
+    ],
+    "answer": [2],
+    "explanation": "The 2006 result is where deep learning restarts: train one layer at a time, then fine-tune the whole stack. Within six years the combination of that idea, ImageNet and GPUs produced AlexNet.",
+    "source": { "deck": "infographics", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["deep-learning", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-041",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Word embeddings are dated to 2003 on one thread and to 2013 on another. What happened in each year?",
+    "choices": [
+      "Bengio and colleagues proposed a neural probabilistic language model with learned word vectors in 2003; Mikolov's word2vec made those vectors cheap to train and widely used in 2013",
+      "Mikolov proposed the idea in 2003 and Bengio proved it correct in 2013",
+      "2003 was the first dictionary-based embedding; 2013 was the first Transformer embedding",
+      "2003 embedded characters and 2013 embedded whole sentences"
+    ],
+    "answer": [0],
+    "explanation": "The idea of representing a word as a learned vector is Bengio's in 2003; word2vec in 2013 is the engineering that made it practical at scale. That is why the language timeline waits a decade between the two.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 3,
+    "tags": ["word2vec", "embedding", "who", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tim-042",
+    "topic": "timelines",
+    "type": "mcq",
+    "stem": "Which chain shows how the neural-network ideas actually built on one another?",
+    "choices": [
+      "MLP, perceptron, backpropagation, ResNet, CNN, deep learning",
+      "Perceptron, backpropagation for feedforward nets, MLP as universal approximator, deep learning, CNN at scale, ResNet",
+      "CNN, perceptron, MLP, ResNet, backpropagation, deep learning",
+      "Backpropagation, perceptron, deep learning, MLP, CNN, ResNet"
+    ],
+    "answer": [1],
+    "explanation": "Rosenblatt's perceptron in 1957-58, backprop for feedforward nets in 1986, the universal approximation results around 1989-90, deep learning from 2006-2012, CNNs at scale from 2012, and ResNet in 2015. Each step removed the obstacle the previous one had exposed.",
+    "source": { "deck": "infographics", "slide": 9 },
+    "difficulty": 2,
+    "tags": ["timeline", "ordering", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "tim-043",
+    "topic": "timelines",
+    "type": "text",
+    "stem": "Name the 2018 language model from Devlin and colleagues that, alongside GPT, turned the Transformer into the standard for natural language processing.",
+    "choices": [],
+    "answer": [],
+    "accept": ["bert"],
+    "explanation": "BERT, 2018. GPT reads left to right and generates; BERT reads in both directions and is built for understanding tasks, which is why both appear at the same point on the timeline.",
+    "source": { "deck": "infographics", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["bert", "who", "timeline", "transformer"],
+    "examFocus": false
   }
 ]

@@ -30,6 +30,16 @@ The fix is not more layers. It is to stop giving every position its own paramete
 
 ?check id=cnn-003
 
+**The worked case from class.** An early system read photographs of handwritten **postal
+codes** in black, grey and white and turned them into digits. It worked — until the digits sat
+in a different part of the picture, at which point it could no longer recognise them at all,
+because every weight was tied to a fixed pixel position. The fix was a **convolutional filter
+layer** applying the *same* learned filters everywhere; combined with the multilayer stack,
+that is a **convolutional neural network**. LeCun's 1989 zip-code paper is the entry on the
+course's own timeline.
+
+?check id=cnn-030
+
 ## The convolutional layer
 
 A **convolutional layer** is a set of **convolution matrices — filters — with trainable
@@ -148,6 +158,34 @@ architectures: an **encoder–decoder CNN with skip connections** that preserve 
 detail. See the autoencoder notes.
 
 `[slides 15-24]`
+
+## The depth wall, and how vision got past it
+
+Worth a paragraph because it is the one story on the vision side that is not about biology.
+
+**The race to go deeper:** **AlexNet (2012) had 8 layers**; by **2014** Oxford's network had
+**19** and Google's **22**; in **early 2015** Microsoft Research tried **30** — and it got
+**worse**. Better initialisation helped: with the standard scheme a 30-layer network's error
+sat stuck at 100% and it never learned at all; with a better one it learned, but the final
+error was still high. So initialisation was **a** real obstacle, **not the** obstacle. The
+**degradation problem** survived the fix and needed an architectural answer — the **residual
+connection** (see the neural-networks lecture).
+
+Tracing an image forward through a convolutional layer, which is the other thing worth being
+able to say: **learned kernels slide over the image, each producing an activation map** — a
+vertical-edge detector responds to vertical edges, and so on. **Sixty-four filters give
+sixty-four feature maps**, stacked into a tensor; **ReLU sets the negative entries to zero**, so
+only positive evidence passes; and the next layers build more complex features on top. In a
+very deep plain network, **signal and gradient must pass through every layer and fade or become
+distorted**, which is exactly what a shortcut avoids.
+
+Once depth was trainable, **error kept falling from 18 layers out past 152**, where a plain
+network's rose. The residual block then became the standard **backbone** well beyond vision.
+
+`[slides 20-24]`
+
+?check id=cnn-023
+?check id=cnn-026
 
 ## The two-line answers to have ready
 

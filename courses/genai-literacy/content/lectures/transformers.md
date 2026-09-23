@@ -60,6 +60,14 @@ rather than the vault.
 
 ?check id=tra-003
 
+> **The class framing worth stealing: "learn the vocabulary, then learn the grammar."**
+> The **embedding is the vocabulary** — every word gets a stable meaning as a vector, and
+> *cat sits closer to dog than to refrigerator*. **Attention is the grammar** — which word
+> bears on which, in *this* sentence. Grammar is the harder half, because communication comes
+> in sentences and cannot be recovered from distances between isolated words.
+
+?check id=tra-031
+
 ## Attention, in plain terms
 
 Attention is built from three roles, written **Q, K, V**:
@@ -77,6 +85,16 @@ to contain.
 sequence: every token weighing every other token in its own sentence.
 
 `[slides 7-8]`
+
+**How the weighing is actually done.** Each token produces a **query**, a **key** and a
+**value**. A query is matched against every key by a **dot product**, which measures how
+congruent two vectors are — how far they point the same way. Those scores become the weights
+that mix the value vectors. So attention is built out of one very ordinary operation, applied
+between every pair of tokens at once.
+
+`[slides 6-8]`
+
+?check id=tra-032
 
 ## Positional encoding
 
@@ -105,6 +123,36 @@ that the sequential and local mechanisms previous sequence models were built on 
 away.
 
 `[slides 7-9]`
+
+## The MLP/FFN backbone inside the block
+
+Attention gets the name on the paper, but each Transformer block also contains a **feed-forward
+sub-block**, and it is an ordinary **multilayer perceptron applied to each token separately**:
+an **up-projection** into a much wider dimension, a **ReLU** nonlinearity, and a
+**down-projection** back to the embedding dimension.
+
+The division of labour is a clean distinction:
+
+> **Attention moves information between tokens. The feed-forward block acts as a key–value
+> memory — it retrieves stored facts and adds them to the token's representation.**
+
+Three consequences worth a line each:
+
+- **Where the knowledge lives.** On this account the feed-forward layers are the **primary
+  vault of world knowledge** in a language model, not attention. They also hold roughly
+  **two thirds** of the parameters.
+- **Layer specialisation.** **Lower layers store syntactic and shallow patterns; upper layers
+  store deeper semantic world-knowledge and facts** — the same hierarchical abstraction the
+  digit network shows with pixels, edges and shapes.
+- **Superposition.** Far more concepts are stored than there are dimensions, as **overlapping,
+  nearly-orthogonal directions** in the same space. So a single neuron does *not* stand for a
+  single concept, and **sparse autoencoders** — a wide, mostly-inactive re-encoding — are used
+  to pull the concepts apart again. The autoencoder returns here as an instrument for reading a
+  model rather than for compressing data.
+
+`[slides 8-10]`
+
+?check id=tra-025
 
 ## How a transformer decides the next word
 

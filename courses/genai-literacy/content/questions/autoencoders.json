@@ -234,7 +234,7 @@
       "Two networks compete, one producing candidates and one judging them",
       "One network compresses the input into a representation, and a second expands that representation into the target — which may be the same thing, or a translation of it, or a mask over it",
       "One network is trained first and its weights are frozen while a second is trained on top",
-      "The same network is run twice, once forwards and once in reverse"
+      "One network is run twice, once forwards and once in reverse"
     ],
     "answer": [1],
     "explanation": "Compress, then expand. The target need not be the input: encoder-decoder is how a sentence becomes its translation, an image becomes its segmentation mask, and a noisy image becomes a clean one.",
@@ -375,6 +375,182 @@
     "source": { "deck": "GAI Lit 06", "slide": 8 },
     "difficulty": 1,
     "tags": ["bottleneck", "autoencoder", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-023",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What is a denoising autoencoder trained to do, and what does that buy?",
+    "choices": [
+      "Reconstruct its own input exactly, with a tighter bottleneck than usual",
+      "Generate new examples by sampling the latent space",
+      "Remove noise from its own weights during training",
+      "Reconstruct a clean input from a deliberately corrupted copy of it, which forces the learned features to be robust rather than a memorised copy"
+    ],
+    "answer": [3],
+    "explanation": "Corrupt the input, ask for the clean version back. The network cannot simply pass the input through, so the representation it learns has to capture what the data really are — a different route to the same discipline the bottleneck imposes.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["autoencoder", "denoising", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-024",
+    "topic": "autoencoders",
+    "type": "text",
+    "stem": "One word: the kind of autoencoder trained to reconstruct a clean input from a deliberately corrupted one.",
+    "choices": [],
+    "answer": [],
+    "accept": ["denoising", "denoise"],
+    "explanation": "A denoising autoencoder. The idea reappears at the heart of diffusion models, which are trained to undo noise one step at a time.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 1,
+    "tags": ["autoencoder", "denoising"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-025",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What is required of an autoencoder that is not required of a general encoder-decoder?",
+    "choices": [
+      "That the output be the input — y = x — usually enforced with a dimensional bottleneck, whereas the general case has y different from x and needs no bottleneck at all",
+      "A probabilistic latent space",
+      "A convolutional encoder",
+      "That it be trained on labelled data"
+    ],
+    "answer": [0],
+    "explanation": "The autoencoder is the special case where the target is the input. Drop that and the same pattern — input, representation, output — covers translation, summarisation, segmentation and captioning, with no compression required.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["encoder-decoder", "autoencoder", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-026",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Sequence-to-sequence learning made the encoder-decoder famous. Why does the course insist that sequence data is historical rather than fundamental to the idea?",
+    "choices": [
+      "Because sequence models were later proved incorrect",
+      "Because the pattern is input to representation to output, and that applies equally to images, audio, graphs and video — translation merely happened to be where it became visible",
+      "Because sequences are too slow to process",
+      "Because the encoder-decoder was invented for images first"
+    ],
+    "answer": [1],
+    "explanation": "Machine translation gave the architecture its fame in 2014, but auto-associative networks had it in the 1980s and U-Nets and diffusion models use it on images. It is a general architectural pattern that sequences happened to popularise.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 3,
+    "tags": ["encoder-decoder", "architecture", "structure"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-027",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Attention is described as the end of the fixed bottleneck in encoder-decoder models. What changed?",
+    "choices": [
+      "The bottleneck was made wider, so more information fitted through it",
+      "The encoder was removed entirely",
+      "The decoder began attending to a whole sequence of encoder representations, weighted per output element, instead of reading one fixed-length summary vector",
+      "The bottleneck was moved to the decoder side"
+    ],
+    "answer": [2],
+    "explanation": "Compressing a whole sentence into one vector loses detail, and the longer the sentence the worse it gets. Attention lets the decoder look back at every encoder state and decide which matter now, which is the direct ancestor of self-attention in the Transformer.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 3,
+    "tags": ["encoder-decoder", "attention", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-028",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Where does a diffusion model sit in the encoder-decoder family?",
+    "choices": [
+      "Outside it — diffusion has neither an encoder nor a decoder",
+      "It is an encoder only, since it compresses images into noise",
+      "It is frequently formulated as an iterative encoder-decoder, often a U-Net, that takes noise in and produces data",
+      "It is a decoder only, and the encoder is replaced by a discriminator"
+    ],
+    "answer": [2],
+    "explanation": "The denoiser at each step is usually a U-Net, so the same compress-then-expand pattern runs inside every one of the many steps. That is why the course treats the encoder-decoder as a single idea spanning autoencoders, Transformers, U-Nets and diffusion alike.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["encoder-decoder", "diffusion", "u-net"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-029",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "The encoder-decoder story starts in the 1980s with auto-associative networks. What were they trained to do?",
+    "choices": [
+      "Reproduce their own inputs, with a bottleneck hidden layer that was then found to hold a learned representation",
+      "Classify images into a fixed set of categories",
+      "Translate between two languages",
+      "Predict the next item in a sequence"
+    ],
+    "answer": [0],
+    "explanation": "Train a network to output what it was given, squeeze the middle, and the middle layer becomes a compact code. Rumelhart and colleagues in 1986 and Bourlard and Kamp in 1988 established the pattern that Hinton and Salakhutdinov deepened in 2006.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["autoencoder", "encoder-decoder", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-030",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Which ordering of the encoder-decoder genealogy is correct?",
+    "choices": [
+      "Sequence-to-sequence, auto-associative networks, deep autoencoders, attention, Transformer",
+      "Attention, auto-associative networks, sequence-to-sequence, deep autoencoders, Transformer",
+      "Deep autoencoders, auto-associative networks, Transformer, attention, sequence-to-sequence",
+      "Auto-associative networks in the 1980s, deep autoencoders in 2006, denoising and sparse variants, sequence-to-sequence in 2013-14, attention in 2014-15, the Transformer in 2017"
+    ],
+    "answer": [3],
+    "explanation": "One idea, refined step by step: reproduce the input, make it deep, make it robust, make the output different from the input, remove the fixed bottleneck, then drop the recurrence. U-Net and the generative models branch off from 2015.",
+    "source": { "deck": "infographics", "slide": 11 },
+    "difficulty": 2,
+    "tags": ["encoder-decoder", "timeline", "ordering"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-031",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Houses scattered along a winding road can be located by how far along the road they sit, instead of by two map coordinates. What does that picture illustrate?",
+    "choices": [
+      "Overfitting — the description is too closely tailored to these particular houses",
+      "A latent space: a lower-dimensional description that keeps the information that matters and throws away the empty space around it",
+      "Data augmentation — new houses can be invented along the road",
+      "One-hot encoding — each house gets its own slot"
+    ],
+    "answer": [1],
+    "explanation": "The data do not fill the space they are drawn in, so fewer numbers suffice to say where each point is. That is exactly what the bottleneck discovers: ten inputs can often be carried by two, and expanded back again.",
+    "source": { "deck": "class notes", "slide": 17 },
+    "difficulty": 2,
+    "tags": ["latent-space", "bottleneck", "dimensionality-reduction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-032",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Generating a new image means picking a random point in the latent space. Why does that make a plain autoencoder's latent space a risky place to sample from?",
+    "choices": [
+      "Because the latent space is too small to hold a new image",
+      "Because sampling requires labelled data, which the autoencoder does not have",
+      "Because the decoder can only reproduce images it has already seen",
+      "Because a small step from a real example may land inside the region of realistic data or outside it, and nothing in the training makes the space between examples meaningful — which is why the VAE forces the codes into a well-behaved distribution you can sample from"
+    ],
+    "answer": [3],
+    "explanation": "A plain autoencoder is only ever asked to reproduce points it was given, so the gaps between them can decode to nonsense. The VAE's regularisation term is there precisely to fill those gaps, which is what turns a reconstructor into a generator.",
+    "source": { "deck": "class notes", "slide": 19 },
+    "difficulty": 3,
+    "tags": ["latent-space", "vae", "autoencoder", "distinction"],
     "examFocus": true
   }
 ]

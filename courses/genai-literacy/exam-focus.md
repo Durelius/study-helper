@@ -5,7 +5,7 @@ Chulalongkorn / CSII / BAScii, Autumn (Fall) 2026.
 
 Compiled 2026-09-23 from `/Users/wilhelmdurelius/chula/ailiteracy/`. Revised twice the same day: once after 14 further images arrived (**§12**), once after the student confirmed **who sets the paper** — which changed the ranking materially.
 
-Tags: **[EVIDENCE]** = stated in a course document. **[MARKO]** = written by the examiner himself, the strongest class of evidence here. **[INFERENCE]** = my reasoning. **[GUESS]** = weak. **[LOW-RES]** = read off a thumbnail where headings were legible but body text was not; structure only, nothing invented.
+Tags: **[EVIDENCE]** = stated in a course document. **[MARKO]** = written by the examiner himself, the strongest class of evidence here. **[INFERENCE]** = my reasoning. **[GUESS]** = weak. **[LOW-RES]** = *(no longer used — every image has since been read at full resolution; see §11 and §12)*.
 
 > **Two things to read first:** §1.1, the examiner's own blueprint for this paper, and §12, which contains the one finding that beats everything else in this document — **Nacaskul uploads full recordings of this year's classes to YouTube, including the pre-midterm ones**.
 
@@ -281,11 +281,12 @@ Ranking rule: a topic scores high if it appears in **Marko's blueprint** *and* h
 *Why:* Syllabus session 3; `lec5.md` item 2; `lec5/summarized_notes.md` item 1; the XMind; the newly-promoted MustWatch CNN-history video; **two dedicated timeline infographics**; and Marko's own milestone slides (H5-extra).
 **Confidence: high.**
 
-**[LOW-RES] A correction to "two timelines".** Two new thumbnails are large timeline posters whose *structure* is legible though the entries are not:
-- **`Screenshot … 13.48.18` — "MASTER TIMELINE OF AI: A Multi-Threaded Journey of Ideas, Models, Data and Hardware".** A decade spine runs 1940s → 2020s; the legend names roughly **five parallel threads — Language & Knowledge · Vision & Perception · Neuroscience Inspiration · Algorithms & Learning / Models & Training · Hardware & Compute**. A **PREDICTIVE** column runs down the left, **GENERATIVE** down the right, with arrows carrying the story left to right.
-- **`Screenshot … 13.48.27` — "FROM IDEA TO INTELLIGENCE: A Combined Timeline of Key AI & Neural Network Concepts".** Decades across the top, one row per concept lineage; the row labels I can make out are roughly **Cybernetics · Artificial Intelligence (GOFAI) · Machine Learning · Artificial Neural Network · Perceptron · Multilayer Neural Network · Deep Learning · Convolutional NN · Recurrent NN**.
+**[EVIDENCE — both posters now read at full resolution] A correction to "two timelines".** Two of the infographics are large timeline posters, and both are legible in the zip:
 
-**[INFERENCE]** The lecturer's own framing is richer than "two timelines": **two task timelines (Language, Vision) + a neuroscience-inspiration timeline + a learning-algorithm timeline + a hardware/compute timeline**, all feeding a left-to-right predictive → generative flow. Consistent with `lec5.md` ("the 2 task timelines **+1** neuroscience foundation timeline") and the XMind's three timeline families. **If asked how many timelines and what they are: two task timelines plus the neurocomputational one, with hardware/compute as the enabler** — AlexNet's GPUs are the concrete hook. *No dated entry here was taken from those posters; their body text was unreadable.* See §12 for re-export priorities.
+- **`Master Timeline of AI - v3`** (sheet 7) — *"A Multi-Threaded Journey of Ideas, Models, Data and Hardware"*. A decade spine runs 1940s → 2020s, with **five parallel threads: Language & Knowledge · Vision & Perception · Neuroscience Inspiration · Algorithms & Learning (Models & Paradigms) · Hardware & Data Enablers.** A **PREDICTIVE AI** column runs down the left (models p(y|x); goal predict outcomes; classification, regression, ranking, forecasting), **GENERATIVE AI** down the right (models p(x); goal generate realistic, novel and useful content), with arrows carrying the story left to right. Entries now usable: **Wiener 1948** (cybernetics) · **Hebb 1949** · **Hodgkin–Huxley 1952** · **Rosenblatt 1956/58** · **ELIZA 1966 (Weizenbaum)** · **Hubel & Wiesel 1962–68** · **Minsky & Papert 1969** · **DENDRAL 1965 / MYCIN 1970s** (*IF fever AND rash THEN measles*, confidence 0.8) · **backprop 1986** · **LSTM 1997** · **SIFT 1999, SURF, HOG with SVMs** · **Bengio et al. 2003** word embeddings · **RBMs 2006** · **AlexNet 2012** · **Seq2Seq 2014, Attention 2015, BERT 2018** · and the hardware chain **transistors 1947 → ICs 1960s → microprocessor 1971 → workstations and GPUs 1980s → clusters and multi-core 2000s**. It also carries two side panels: **predictive vs generative as two complementary paradigms**, and **three complementary ways to build functional complexity** (enrich the links · many paths · depth).
+- **`Fr Idea to Intelligence - v4`** (sheet 9) — one row per **concept lineage**: **Cybernetics · Artificial Intelligence · Machine Learning · Artificial Neural Network · Perceptron · Feedforward NN · Multi-Layer Perceptron · Deep Learning · Convolutional NN · Residual Network.** New names it supplies: **Samuel** (coined "machine learning", checkers from self-play) · **Widrow & Hoff 1965, ADALINE** · **Mitchell 1986**, ML as a discipline · **Hornik, Stinchcombe & White 1989**, multilayer feedforward networks are universal approximators · **LeCun et al. 1989**, backprop on handwritten zip codes · **Hinton, Osindero & Teh 2006**, deep belief nets and greedy layer-wise pretraining · **He et al. 2015**, ResNet. Its own takeaway: **"AI was envisioned in 1950 and formally launched in 1956."**
+
+**[EVIDENCE]** So the lecturer's framing is richer than "two timelines": **two task timelines (Language, Vision) + a neuroscience-inspiration thread + an algorithms-and-learning thread + a hardware-and-data thread**, all feeding a left-to-right predictive → generative flow. **If asked how many timelines and what they are: two task timelines plus the neurocomputational one, with hardware and compute as the enabler** — AlexNet's GPUs are the concrete hook. If there is room, name all five threads; the five-thread version is what the lecturer drew.
 
 **H5-extra. [MARKO] Marko's own milestone list** (`Gen AI Lit 02.pdf`, "Notes 2" and "Notes 3") — his selection, in his words: Turing 1950, the Turing test · **Dartmouth College summer workshop 1956** · Bernstein chess program (IBM) 1957; **Deep Blue beats the top human player 1997** · NLP: **METEO, Canada, 1981**, translating EN↔FR weather reports · Neural networks: **Perceptron 1943, implemented 1958, multi-layer 1980** · **Expert systems 1965, MYCIN 1975 (~65% accuracy), LISP and Prolog** · "The new AI" 2000–: **ImageNet 2010–, AlexNet, error rates 25% → single digit** · **Encoder–decoder 1997 and "deep learning" 2014, used by Google Translate** · **Generative AI 2018–, GPT**.
 **[INFERENCE]** Dartmouth 1956, Deep Blue 1997, MYCIN and METEO appear *only* in Marko's deck, not in Nacaskul's. Since Marko sets the paper, **these are worth ten minutes** even though nothing else in the folder mentions them.
@@ -392,8 +393,28 @@ Five of twenty visible 2025 questions, but it is Nacaskul's framework and the on
 
 **D3. [DEMOTED] "Unpack the acronym, explain the letter."** Know what every acronym stands for — free marks in any format — but do not expect Marko to phrase a question that way. **Content stays high; the format expectation drops to medium.**
 
-**L1. The Five Principles of Modern Deep Learning** — **Representation → Relation → Parameterization → Optimization → Architecture.** ("Not ever more complicated primitive mathematics, but increasingly ingenious **orchestration** of representations, relationships, parameters and learning.")
-*Why low-but-worth-it:* the **newest infographic (15 Sept)**, and Marko said to study the infographics carefully — but no lecture note of yours mentions it, so it may not have been taught. **Five words. Memorise them and move on.**
+**M10. [PROMOTED from L1 — the earlier reasoning here was wrong] The Five Principles of Modern Deep Learning**, and the seminal-papers list that comes with them.
+**Representation → Relation → Parameterization → Optimization → Architecture** — represent, relate, parameterize, learn, **orchestrate**. Closing line: *"Not ever more complicated primitive mathematics, but increasingly ingenious **orchestration** of representations, relationships, parameters and learning."*
+
+**The correction.** This sheet was previously ranked lowest on the grounds that *"no lecture note of yours mentions it, so it may not have been taught"*. **That reasoning was wrong and is withdrawn.** The examiner's own blueprint slide says ***"Study the infographics sheets carefully!"*** — so a dedicated sheet from the lecturer is *first-party evidence of what he considers examinable*, and the absence of a lecture note is not evidence against it. Being the **newest** sheet (15 Sept, ten days before the exam) is a point in its favour, not against.
+
+**Why it now sits at medium.** Three things:
+1. The five words are a complete, quotable answer to *"what does modern deep learning actually consist of?"* — the exact shape a two-line paper rewards.
+2. Each principle is a ready-made "which principle is this?" question, and the answers are single words.
+3. The sheet carries a **timeline of 18 seminal papers with author, year and a one-line contribution each**, colour-coded to the five principles. That is the single densest block of names-and-dates material in the whole course, and it is **the lecturer's own selection**. It is now in `content/lectures/timelines.md` as a table.
+
+**A useful self-test the sheet supports:** *Adam serves optimization alone; the Transformer serves all five, because its contribution* is *the orchestration.*
+**Confidence: medium.** Half an hour, not five minutes.
+
+**M11. [NEW] The degradation problem and the residual connection.**
+By **early 2015** deeper had stopped meaning better: beyond **20–30 layers** accuracy stalled and then reversed — a **30-layer model at 16.59% error against a 14-layer model's 13.34%**, *on the training set*. So **not overfitting**: an **optimisation** failure. The confounding part is that the solution provably existed — add 16 **identity** pass-through layers to a trained 14-layer model and it must do at least as well — and gradient descent could not find it. **The fix: learn the residual F(x) = H(x) − x and add the input back, so the block outputs H(x) = F(x) + x.** Refine rather than re-create; identity is available by construction. Depth then scaled to **152 layers and beyond**, and the residual block became the **backbone** under AlphaGo, AlphaFold and the LLMs. He, Zhang, Ren & Sun, Microsoft Research, Dec 2015 — **the most cited paper of the 21st century**.
+*Why:* a **whole dedicated infographic** (sheet 10) plus a second one covering it from the functional-complexity angle (sheet 12), and **[MARKO]** **ResNets are lesson 16 of the Wolfram U CNN course he assigned**. Two independent sources, one of them the examiner's own assigned material.
+**Confidence: medium.** The two-line answer: *deeper networks fitted worse, which was an optimisation failure rather than overfitting; adding the input back so each block learns a correction made arbitrary depth trainable.*
+
+**M12. [NEW] Universal approximation, stated properly — and why depth exists anyway.**
+**One hidden layer** with finitely many neurons approximates any continuous function on a closed bounded region to any tolerance (**Cybenko 1989**, sigmoid; Funahashi 1989; Hornik 1991). The examinable consequence is the one-liner: ***expressivity is abundant, trainability is scarce*** — the obstacle is never the function class, it is **optimisation and inductive bias**. Depth is not needed for power; it is needed for **parameter efficiency and optimisability**.
+*Why:* sheet 12 is devoted to it, sheet 8 lists Cybenko among the 18 seminal papers, and it sharpens an answer the bank already had.
+**Confidence: medium.** It also gives the cleanest available answer to *"why go deep if one layer is enough?"*
 
 **L2. Flow matching.** *(previously listed as not examinable — softened)*
 Defines a **probability path** from a simple distribution to the data distribution and learns the **vector field** that transports samples along it; generation = start from noise and **solve the learned ODE**. It is the third column of the *VAE → Diffusion → Flow Matching* infographic, which Marko told you to study, so it earns exactly one line: ***VAE, diffusion and flow matching are three different learning games with the same goal — a learnable generator mapping a simple distribution to the data distribution.*** That sentence covers it. **Do not study it further.**
@@ -437,9 +458,25 @@ Short-answer papers live on these. Two lines each. **This table is the highest-y
 | **Dropout vs data augmentation** | Both fight overfitting. Dropout randomly switches off units during training so no single path is relied on. Augmentation (flips, small translations) manufactures extra plausible training variation. |
 | **Receptive field vs sensitivity map** | The receptive field is the region of the input a given neuron can see; it widens with depth, so early layers catch edges and deep layers catch objects. A sensitivity map shows which input pixels most affect a given output. |
 | **Encoder vs embedding vs tensor** | An encoder converts raw data (pixels, words) into numbers a network can consume. An embedding is the learned vector meaning of an item. A tensor is just the multi-dimensional array those numbers live in. |
+| **Autoencoder vs general encoder–decoder** | AE: the target **is** the input (y = x), usually with a **bottleneck**. General encoder–decoder: **y ≠ x**, and **no bottleneck is required** — translation, summarisation, segmentation, captioning. |
+| **Fixed bottleneck vs attention** | Before attention the decoder read **one fixed-length vector** for the whole input, and long inputs lost detail. Attention lets it **weigh a whole sequence of encoder states per output element**. |
+| **Degradation vs overfitting** | Overfitting: training error falls while validation error rises. Degradation: the **deeper** model is worse **on the training set too** — an optimisation failure, not a capacity one. |
+| **Plain depth vs residual depth** | A plain deep net must push signal and gradient through every layer. A **residual** block adds the input back, so it learns a **correction** and identity is free — which changes **trainability**, not the function class. |
+| **Expressivity vs trainability** | Universal approximation makes expressivity **abundant** (one hidden layer suffices). What is **scarce** is finding the parameters — hence architecture and optimisation choices. |
+| **Attention vs the feed-forward block** | Attention **moves information between tokens**. The FFN is a per-token MLP acting as a **key–value memory** that adds stored facts — and holds about **two thirds** of the parameters. |
+| **TO vs FRO mapping** | TO maps **data → simple distribution**; FRO maps **simple → data**. **Generation always uses FRO**; TO exists only to create a supervised task with known targets. *TO sets the homework; FRO learns to solve it backwards.* |
+| **Prompt vs PRNG in conditional generation** | The **prompt is WHERE to navigate** — it steers the generator to a region of the possibility space. The **PRNG is WHICH possibility** — it picks one sample there, which is why the same prompt gives different images. |
+| **Backpropagation vs the gradient-descent variants** | Batch, SGD, mini-batch, momentum, RMSProp and Adam are variants of the **optimiser**. Backprop is not one of them — it is **how the gradient they all consume is computed**. |
+| **Werbos 1974 vs Rumelhart 1986** | Werbos **published** backpropagation in a 1974 dissertation; the 1986 Nature paper is where it **became known**. 1986 is the popularisation, not the invention. |
+| **False positive vs false negative** | Both are misclassifications, with different costs. A **civil court** minimises **false positives** (better to acquit the guilty than convict the innocent); a **military command** minimises **false negatives**. Moving the threshold trades one for the other; no line removes both. |
+| **Step vs sigmoid** | A step fires or does not, and has **no useful derivative** — so nothing can be learned by gradient descent. The sigmoid smooths the edge, making the model **differentiable** and its outputs graded rather than rigid. |
+| **What counts as a parameter** | **Weights and biases** count — training changes them. **Inputs** are data you supply; **hyperparameters** are set before training. Neither counts. *Two inputs, one output → three parameters.* |
+| **Embedding = vocabulary, attention = grammar** | The embedding gives each word a stable meaning (*cat is closer to dog than to refrigerator*). Attention supplies which word bears on which **in this sentence** — the harder half, because a sentence is not recoverable from distances between isolated words. |
+| **AI vs robot vs embodied AI** | AI is intelligent but cannot act. A robot can act but is not intelligent. **Embodied AI** is the join: a physical form able to experience and act in its environment. |
+| **Predictive vs generative, the one-liner** | *"Approximating reality is predictive AI. Taking certain things and running with it is generative AI. All fiction is realistic but not real."* |
 
 **Names and dates worth having ready** (the course is attribution-heavy on both sides):
-Turing 1950 (imitation game) · **Dartmouth workshop 1956** · McCulloch & Pitts 1943 · Rosenblatt 1958 (Perceptron / Mark I) · Hubel & Wiesel 1959/1962 (cat's striate cortex) · **Expert systems 1965, MYCIN 1975** · Fukushima 1980 (Neocognitron) · **METEO 1981** · Rumelhart, Hinton & Williams 1986 (backprop / MLP) · **Deep Blue 1997** · LeCun 1998 (LeNet/CNN) · Hinton & Salakhutdinov 2006 (autoencoder / dimensionality reduction) · ImageNet 2010– · Krizhevsky, Sutskever & Hinton 2012 (AlexNet) · Mikolov 2013 (word2vec) · Kingma & Welling 2013 (VAE) · Goodfellow 2014 (GAN) · Ronneberger 2015 (U-Net) · Vaswani 2017 (Transformer) · GPT 2018– · Ho, Jain & Abbeel 2020 (DDPM). Also **Fei-Fei Li** (ImageNet) and **Geoffrey Hinton**.
+**Cauchy 1847** (gradient method, ~140 years early) · Turing 1950 (imitation game) · **Dartmouth workshop 1956** · **Wiener 1948** (cybernetics) · **Hebb 1949** · **Hodgkin & Huxley 1952** · **ELIZA 1966** (Weizenbaum) · McCulloch & Pitts 1943 · Rosenblatt 1958 (Perceptron / Mark I) · Hubel & Wiesel 1959/1962 (cat's striate cortex) · **Expert systems 1965, MYCIN 1975** · Fukushima 1980 (Neocognitron) · **METEO 1981** · Rumelhart, Hinton & Williams 1986 (backprop / MLP) · **Deep Blue 1997** · LeCun 1998 (LeNet/CNN) · Hinton & Salakhutdinov 2006 (autoencoder / dimensionality reduction) · ImageNet 2010– · Krizhevsky, Sutskever & Hinton 2012 (AlexNet) · Mikolov 2013 (word2vec) · Kingma & Welling 2013 (VAE) · Goodfellow 2014 (GAN) · Ronneberger 2015 (U-Net) · Vaswani 2017 (Transformer) · GPT and **BERT** 2018– · Ho, Jain & Abbeel 2020 (DDPM). Add from the seminal-papers sheet: **Cybenko 1989** (universal approximation) · **Pao 1995** (functional-link nets) · **LSTM 1997** (Hochreiter & Schmidhuber) · **Seq2Seq 2014** (Sutskever, Vinyals & Le) · **Attention 2014** (Bahdanau, Cho & Bengio) · **Adam 2014/15** (Kingma & Ba) · **ResNet 2015** (He, Zhang, Ren & Sun) · **ViT 2020/21** (Dosovitskiy). Also **Fei-Fei Li** (ImageNet) and **Geoffrey Hinton**.
 *(The bolded ones come from **Marko's** slides specifically.)*
 
 **[Note on the cat's date]** `lec5.md` records "1958"; Nacaskul's slides say **1959** in one place and **1962** in another. Say "around 1959 / late 1950s" — the finding matters far more than the year.
@@ -576,25 +613,59 @@ Two ruled lines is **25–35 words**. Lead with the **term**, then the **mechani
 
 ## 11. Study these infographics directly
 
-**[MARKO]** *"Study the infographics sheets carefully!"* — his instruction, so these count as assigned material. The first four map onto the top predictions. All are inside `(GAI-infographics) GAI Literacy _amp_ Appl.zip`; three are also loose in the folder at full resolution.
+**[MARKO]** *"Study the infographics sheets carefully!"* — his instruction, so these count as
+assigned material, and a sheet on a topic no lecture note mentions is **still** evidence about
+the paper. That is the standard applied here.
 
-**Core four:**
-1. **`…From Prediction to Generation - 6 Key Architectures - v3.png`** — the six architectures with a key-idea line, typical tasks and a one-phrase summary each. **This is H1's answer key.**
-2. **`…From Predictive AI to Generative AI - v2.png`** *(also loose: `(2026.09.09_ChatGPT) From Predictive AI to Generative AI_0.png`)* — "Learn x→y then crank the input" vs "Learn z→x then crank the PRNG", plus the common engine (universal approximation → gradient-based learning → learned mapping).
-3. **`…From VAE to Diffusion Models to Flow Matching - v2.png`** *(also loose as `…Flow Matching_0.png`)* — VAE vs diffusion side by side with a clean comparison table. **Read the first two columns and the "Unifying View" strip; skip the third column and all the equations.**
-4. **`…Five Principles in Modern Deep Learning - v2.png`** — the newest sheet: Represent → Relate → Parameterize → Learn → Orchestrate, over a dated list of the seminal papers.
+**[RESOLVED]** All sheets are available at **full resolution** inside
+`(GAI-infographics) GAI Literacy _amp_ Appl.zip` — **15 content sheets at 1024×1536 or
+1055×1491, fully legible**, plus 11 course-icon files that carry no content. Everything in
+this document that was previously marked **[LOW-RES]** from a thumbnail has now been read from
+the original. **No re-export of anything is needed**, and the earlier request for one is
+withdrawn (§12).
 
-**Added this revision, worth a look:**
-5. **`…From Instinct to Imagination to Intelligence at Scale.png`** *(loose as `S__79970354_0.jpg`)* — "What WILL be?" vs "What COULD be?", the abstraction ladder animal → human → AI, and the line *"AI did not invent abstraction; it industrialized it."* **Read the middle strip and the key takeaways; the animal-cognition citations are decoration.**
-6. **The two 3Blue1Brown chapter summaries** (`cc_(2026.08.28_Gemini) But what is a neural network…` and `…Gradient descent, how neural networks learn…`) — these compress the two MustWatch videos onto one page each. **If short of time, read these instead of watching chapters 1 and 2.**
+All 15 have been read and folded into `content/`. Question sources cite them as
+`{"deck": "infographics", "slide": N}` with **N as the sheet number below**, so a claim can be
+traced back by hand:
 
-**Lower priority:** `The Encoder-Decoder Architecture — A Timeline & Genealogy`, `Master Timeline of AI - v3`, `From Calculus to Backprop`, `Functional Complexity in NN`, `The Story of ResNets`, `Decoding the MLP-FFN Backbone`, `Generative AI - Literacy Roadmap - v2`.
+| N | Sheet | What it gives you |
+|---|---|---|
+| 1 | *Generative AI* definition material | p(y\|x) vs p(x) |
+| 2 | **From Predictive AI to Generative AI — v2** | "Learn x→y then crank the input" vs "learn z→x then crank the PRNG"; the common engine (universal approximation → gradient-based learning → learned mapping); the **TO/FRO** table; **conditional generation: the prompt is WHERE to navigate, the PRNG is WHICH possibility**; the manifold caveat |
+| 3 | **From Prediction to Generation — 6 Key Architectures — v3** | The six, with key idea, typical tasks and a one-phrase summary each. **H1's answer key.** |
+| 4 | **From VAE to Diffusion Models to Flow Matching — v2** | The side-by-side table; ELBO; which mapping each family fixes and which it learns |
+| 5 | **From Instinct to Imagination to Intelligence at Scale** | "What WILL be?" vs "What COULD be?"; the animal → human → AI abstraction ladder; *"AI did not invent abstraction; it industrialized it."* |
+| 6 | **The two 3Blue1Brown chapter summaries** | 784 → 16 → 16 → 10 ≈ **13,000** weights and biases; the **cost function** as the averaged sum of squared differences; the ball-on-a-surface picture; 96–98% accuracy and the local-minimum caveat |
+| 7 | **Master Timeline of AI — v3** | **Five threads**: Language & Knowledge · Vision & Perception · Neuroscience Inspiration · Algorithms & Learning · **Hardware & Data Enablers**. ELIZA 1966, Hebb 1949, Hodgkin–Huxley 1952, Wiener 1948, DENDRAL 1965, the hardware chain, SVMs and SIFT, Bengio 2003, BERT 2018 |
+| 8 | **Five Principles in Modern Deep Learning — v2** | The five principles **and the 18 seminal papers** with author, year and contribution. See **M10** |
+| 9 | **From Idea to Intelligence — v4** | Ten **concept lineages** (cybernetics, AI, ML, ANN, perceptron, FNN, MLP, deep learning, CNN, ResNet) and the dependency chain showing how each step removed the previous obstacle |
+| 10 | **The Story of ResNets — v2** | The **degradation problem**, why it is not overfitting, the identity-mapping argument, H(x) = F(x) + x, and the depth race 8 → 19/22 → 30 → 152 |
+| 11 | **The Encoder–Decoder Architecture — A Timeline & Genealogy** | The one-line definition; **AE vs general encoder–decoder** (y = x and a bottleneck, versus neither); the **denoising** autoencoder; **attention as the end of the fixed bottleneck**; cross-attention |
+| 12 | **Functional Complexity in NN** | The **UAT stated precisely — one hidden layer**; *"expressivity is abundant, trainability is scarce"*; the **three ways** to build functional complexity; ResNets as ensembles of short paths |
+| 13 | **From Calculus to Backprop** | derivative → gradient → gradient descent → backpropagation; the learning rate η; forward vs backward pass; **Werbos 1974**; the non-convex loss surface |
+| 14 | **Decoding the MLP/FFN Backbone (Gemini)** | The FFN inside a Transformer block; **FFNs as key–value memories storing facts**; layer specialisation; **superposition** and sparse autoencoders; FFN ≈ two thirds of the parameters |
+| 15 | **Generative AI — Literacy Roadmap — v2** | The four stages; the **three timeline families**; the **integrated-autonomy ladder** (software → operating system → hardware); **chatbot / RAG / agent / wiki** |
 
-**The XMind** (`(folded) Generative AI - Literacy Roadmap=160.xmind`, dated 2026.09.14) is Nacaskul's own map of the course: *Words Matter* (G/A/I, Literacy, Roadmap) → *Timelines* (task-equivalence, computational-model, integrated-autonomy) → *HIWUTH* (Predictive: MLP/CNN; Transition: VAE/U-Net; Generative: Transformer/Diffusion) → *Application* (Chatbot "talks with you", RAG "searches for you", Agent "does things for you", Wiki "builds knowledge with you"). **That last four-way split is quotable and costs 60 seconds.**
+**If you only read four:** 3, 2, 4 and 8. **If you have another twenty minutes:** 10 and 12,
+because the degradation problem and "expressivity is abundant, trainability is scarce" are the
+two best two-line answers on any of them that the rest of this document did not already give
+you.
+
+**Lower priority, but now covered in `content/`:** 13 (it mostly restates H2), 14 (advanced, and
+the only sheet that goes beyond the syllabus), 15 (structure rather than mechanism).
+
+**The XMind** (`(folded) Generative AI - Literacy Roadmap=160.xmind`, dated 2026.09.14) is the
+same material as sheet 15 in outline form: *Words Matter* → *Timelines* → *HIWUTH* →
+*Application*. **The four-way application split is quotable and costs 60 seconds.**
 
 ---
 
-## 12. The 14 new images — what they are, and what to re-export
+## 12. The 14 new images — what they are
+
+**[RESOLVED 23 Sept]** Everything below that was marked **[LOW-RES]** has since been read from
+the full-resolution originals in the infographics zip. **Nothing needs re-exporting.** The
+findings are folded into §11 and into `content/`; the table is kept only as a record of where
+each image came from.
 
 ### Read at full resolution (genuinely new content)
 
@@ -629,19 +700,14 @@ Two ruled lines is **25–35 words**. Lead with the **term**, then the **mechani
 
 **[INFERENCE]** This beats any inference I can make from slides, because it is the lecturer saying the material in his own words, at the length he chose, two days before the exam. **If there is time for exactly one thing beyond §7, it is Class04a (32 min) then Class04b at 1.5×.** Check the playlist for a Class 05/06/07 that may have appeared since the screenshot.
 
-### Which thumbnails are worth re-exporting at higher resolution
+### Which thumbnails were worth re-exporting
 
-**Worth the effort, in order:**
-1. **`Screenshot 2026-09-23 at 13.48.18` — MASTER TIMELINE OF AI.** The highest-value unreadable sheet. Its five threads and predictive→generative flow bear directly on H5, and its dated entries are exactly the names-and-years material a 2-line question targets. **Re-export this one first.**
-2. **`Screenshot 2026-09-23 at 13.48.27` — FROM IDEA TO INTELLIGENCE.** Second priority, same reason: it would confirm which concept lineages the lecturer considers canonical and how he dates them.
-
-**Not worth the effort:**
-- `13.46.59` and `13.47.12` (the 3B1B sheets) — I read enough, and full-resolution copies are already in the infographics zip.
-- `13.46.41` (Krueger) — I extracted the one line that matters.
-- `13.48.41` (study psychology) — not exam content.
-- `13.48.49` (quantum playlist) — different course.
-- `13.49.12` (RMSE demo) — fully understood.
-- `messageImage…` — better to open MyCourseVille directly than to re-export a screenshot of it.
+**None — closed.** The two that mattered, `13.48.18` (**MASTER TIMELINE OF AI**) and
+`13.48.27` (**FROM IDEA TO INTELLIGENCE**), are sheets **7** and **9** in the infographics zip
+and have been read at full resolution. Their threads, lineages and dated entries are now in
+`content/lectures/timelines.md` and in the `tim-` questions. The remaining thumbnails were
+either already understood (the 3B1B sheets, the RMSE demo, Krueger) or not exam content (the
+study-psychology sheet, the quantum playlist).
 
 ---
 
@@ -651,8 +717,99 @@ Two ruled lines is **25–35 words**. Lead with the **term**, then the **mechani
 2. **Watch the class recordings.** "BAScii - Generative AI (Autumn 2026)" on `youtube.com/@poomjainacaskulph.d.4869/playlists` — Class03b, Class04a, Class04b, and anything newer. §12.
 3. **Page 1 of the 2025 midterm is not obtainable** — closed. Note only that **questions 1–10 of that paper were withheld**, so the visible sample is partial and biased toward its later questions; §2.1 explains how I compensated.
 4. ~~**The Wolfram U CNN course itself.**~~ **CLOSED.** The full lesson list has been read off the course player and folded into **M2b**; it also strengthened **H1** (U-Net, Transformer and GAN are all in the material Marko assigned). No further action needed.
-5. **The MyCourseVille supplementary-material page**, in case it holds a study guide the folder lacks. The screenshot shows the video list, but the page had expired.
+5. ~~**Re-export the two timeline posters.**~~ **CLOSED.** All 15 content sheets were in the
+   infographics zip at full resolution all along; every one has now been read and folded into
+   `content/`. See §11 for the sheet-number index used by the question sources.
+6. **The MyCourseVille supplementary-material page**, in case it holds a study guide the folder lacks. The screenshot shows the video list, but the page had expired.
 6. **Confirm the blueprint slide is Marko's**, if you can. I inferred it from the deck series (`Gen AI Lit 02`'s title slide names him; 03/06/07 continue it), and the whole ranking in §6 leans on that. If "Main topics for the midterm exam" turns out to be Nacaskul's, tell me and I will re-rank again.
 7. **Are bonus questions still a thing?** 2025 had two. With ten questions this year, unknown. If they are, the ethics/playlist-video bonus (M9) is the likely one.
 8. **Links not fetched** (inferred from titles and your notes only, flagged where it matters): the YouTube videos themselves, the Cornell VAE interactive demo, the OpenAI "how our models are developed" page. The Google Slides link is lecture 6 = `Gen AI Lit 06.pdf`, which I read.
 9. **`6901009256_hwk3.nb`** is the Mathematica `Manipulate` linear-regression exercise, matching the RMSE Gauge/Surface screenshot. No exam content beyond "a linear model is a perceptron without the activation, and the RMSE surface is the loss landscape".
+
+---
+
+## 14. A classmate's notes — an independent record of what was said in class
+
+**[EVIDENCE — 21 pages of a classmate's contemporaneous notes, read 23 Sept]** A different
+class of evidence from anything above: not a deck, not a past paper, but a record of **what was
+actually said in the room**, by someone who was in it. Her covering message: *"He talked a lot
+about being able to distinguish the concepts he's mentioned from each other for the exams."*
+That independently confirms what `lec5/summarized_notes.md` already said — **A-vs-B
+discrimination is the dominant question shape**, not free-standing definition.
+
+Questions sourced from these pages cite `{"deck": "class notes", "slide": N}`, where N is the
+page number 1–21 in filename order.
+
+### What they confirm (first-hand, from the room)
+
+- **The six architectures are the exam material.** A page headed **"6 architectures for
+  midterms"**, dated **Sep 11**, lists them by name: **MLP · CNN · VAE · U-Net · Transformer ·
+  Diffusion.** A second page, **Sep 4**, opens **"Understand 6 architectures of AI for exam"**.
+  **H1 now has a first-hand witness as well as the examiner's blueprint.**
+- **"What led the field of AI to transition from predictive to generative AI?"** — written down
+  as a question in its own right. Now `gen-034`.
+- **Parameter counting**, the "(AI =) ANN = f(θ) = architecture" identity, the
+  backprop-as-specialisation-of-GDA sentence, the cat's line-detecting neurons, word algebra,
+  ADAM, BNN vs ANN and the three senses of I and A — **all corroborated verbatim**.
+
+### What they add that the decks only glanced at
+
+| Finding | Where it went |
+|---|---|
+| **"Learn the vocabulary, then learn the grammar."** Embedding is the vocabulary (*cat is closer to dog than to refrigerator*); attention is the grammar. Grammar is harder because a sentence is not recoverable from distances between isolated words | `tra-031`, `tra-033`, `transformers.md` |
+| **The dot product** is what attention actually computes — how congruent two vectors are | `tra-032` |
+| **Why the hard edge is smoothed:** a step has no useful derivative, so the sigmoid is what makes the model *differentiable* and therefore learnable | `nn-050`, `neural-networks.md` |
+| **A perceptron is a partition**, a hyperplane of **one dimension fewer** than the data; ML is adjusting the parameters of those partitions | `nn-052` |
+| **False positives vs false negatives:** *civil courts minimise false positives; military commands minimise false negatives.* Both are errors; the threshold is a judgement about which one costs more | `nn-053` |
+| **The GAN posed as two questions:** can a model judge a photo to be Obama? — then, can an engine make an image the first model judges real? | `gen-033` |
+| **The road-and-houses picture of latent space**, and why sampling a plain autoencoder's latent space is risky | `ae-031`, `ae-032` |
+| **The postal-code system that broke when the digits moved**, forcing the convolutional filter layer | `cnn-030` |
+| **"AI is intelligent but cannot do things. Robots can do things but are not intelligent."** Embodied AI is the join | `con-043` |
+| **"Being hungry is not an intelligent calculation — it is reading a negative signal coming from the body."** The clearest statement of valenced feeling there is | `con-044` |
+| **"All fiction is realistic but not real."** Approximating reality is predictive; taking it and running with it is generative | `con-046` |
+| **Computer scientist vs data scientist** on whether ML sits inside AI or AI is branding on top of ML | `con-045` |
+| **GOFAI's one surviving niche:** heuristic medicine, because differential diagnosis genuinely is an if-then tree | `timelines.md` |
+
+### Treated as colour, not as examinable
+
+**[INFERENCE]** The **Buddhism and symbolism** material — the **five aggregates** (form,
+feeling, perception, mental formations, consciousness) that the **five elements of the
+Intelligent Being** are drawn from — appears **nowhere in any deck**. Marko sets the paper, so
+**no question was written on it**. It is recorded in `concepts.md` as a *handle* on a list that
+*is* examinable: if you can hold the five aggregates you can hold the five elements. Same for
+*"integration is not a salad bowl"* and *"a boy can play catch without knowing Newtonian
+mechanics"* — good sentences, not question material.
+
+### Deliberately left out as uncorroborated
+
+- **"Neme2Vec"**, described as a finer-grained word2vec embedding the smaller etymological parts
+  of a word. No such algorithm appears in any deck or infographic; it is most likely a garbled
+  note on **subword or morpheme tokenisation**, which is a real thing and is already covered by
+  the tokenisation material. **No question written.**
+- **"The culmination of visual processing was differential neural networks."** No deck says
+  this, and the term does not exist as written. Probably *diffusion*. **Not used.**
+- **"6 AI architectures: feedforward neural network, recurrent neural network"** on one page
+  conflicts with the same student's own **"MLP · CNN · VAE · U-Net · Transformer · Diffusion"**
+  on another, and with every deck. **The deck list wins**; the stray note is a transcription
+  slip and was ignored.
+- **The Mathematica homework page** (`Plot[...]`, `ControlPlacement`) is excluded by **"no
+  code"**.
+- **"1958 Cat Brain Test."** Her date agrees with `lec5.md`; Nacaskul's slides say 1959 in one
+  place and 1962 in another. The existing advice stands: **say "around 1959"** and spend the
+  words on the finding.
+
+### Four gaps this pass closed
+
+Items the lecturer marked "Exam notice" in the student's own notes that had **no question**:
+
+1. **"What are three forms (at least) of intelligence?"** → `con-041` (select-all) and
+   `con-042`, sourced to the lecture-1 deck's own list rather than to the notes.
+2. **12288, the ChatGPT vector size.** **Was** already covered by `tra-013` — but written
+   `12,288` with a comma, which is why a grep for `12288` missed it. `tra-013` is now marked
+   `examFocus` and its explanation carries both spellings.
+3. **Counting parameters** (flagged **twice** in `lec3.md`, the strongest signal in those
+   notes) → `nn-046` to `nn-049`, drilling 3-input, single-layer and two-layer cases, plus a
+   table in `neural-networks.md`. **The convention, stated in every explanation: one weight per
+   incoming connection plus one bias per neuron; inputs and hyperparameters do not count.** The
+   worked example dictated in class — *two inputs, one output, three parameters* — is row one.
+4. **Buddhism and symbolism** → deliberately not examined; see above.

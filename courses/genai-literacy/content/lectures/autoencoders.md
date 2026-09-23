@@ -57,6 +57,21 @@ occupied.
 
 ?check id=ae-004
 
+**The picture used in class.** Houses scattered along a winding road can be located by **how
+far along the road** each one sits, rather than by two map coordinates. One number instead of
+two, and nothing you needed is lost — what is thrown away is the **empty space** the houses
+never occupied. Ten inputs squeezed to two and expanded back is the same move: *it does not
+take ten degrees of freedom to carry the information*.
+
+**And the risk that follows.** The latent space stands for *our sense of what is realistic*, so
+generating a new example means picking a random point in it. But a plain autoencoder is only
+ever asked to reproduce the points it was shown, so a small step away from a real example may
+land inside the region of realistic data or **outside** it — and the space between examples can
+decode to nonsense. That is exactly the gap the VAE's regularisation term closes.
+
+?check id=ae-031
+?check id=ae-032
+
 ## AE vs VAE — the distinction the marks sit in
 
 | | **Autoencoder** | **Variational Autoencoder** |
@@ -113,6 +128,56 @@ Translation is where the idea became famous: the course's milestone list records
 
 `[slides 5, 10]`
 
+## The encoder–decoder genealogy
+
+One definition covers the whole family:
+
+> **An encoder–decoder architecture converts an input into a representation, and then uses
+> that representation to construct an output.** x → z = E(x) → y = D(z).
+
+Same pattern, many learning objectives and data types. The variants, and what distinguishes
+each:
+
+| Variant | Target | Distinguishing feature |
+|---|---|---|
+| **Autoencoder (AE)** | y = x | Usually a **dimensional bottleneck**; learns compact representations |
+| **Denoising autoencoder (DAE)** | y = the *clean* x | Input is **deliberately corrupted**; forces **robust** features |
+| **Variational autoencoder (VAE)** | y = x | z is a **distribution**, not a point — which is what enables generation |
+| **General encoder–decoder** | **y ≠ x** | **No bottleneck required**; works for any data type — translation, summarisation, segmentation, captioning |
+| **Attention-based encoder–decoder** | y ≠ x | The decoder attends to a **sequence** of encoder states; **removes the fixed-length bottleneck** |
+| **Transformer encoder–decoder** | y ≠ x | Attention only; **self-attention** within each side, **cross-attention** from decoder to encoder |
+| **U-Net** | y ≠ x | **Skip connections** preserve fine spatial detail |
+| **Diffusion** | x̂ from noise | An **iterative** encoder–decoder (usually a U-Net), learning a generative transformation |
+
+> **Exam focus.** The cleanest distinction here: **an autoencoder requires y = x and usually a
+> bottleneck; a general encoder–decoder requires neither.** The bottleneck is a feature of the
+> special case, not of the pattern.
+
+**The timeline.** **1980s** — auto-associative networks trained to reproduce their own inputs,
+whose bottleneck hidden layers were found to hold learned representations (Rumelhart, Hinton &
+Williams 1986; Bourlard & Kamp 1988). **2006** — **deep autoencoders**, stacked for nonlinear
+representation learning (Hinton & Salakhutdinov). **2008–2013** — **denoising** and **sparse**
+variants, for robustness. **2013–2014** — the **general encoder–decoder for sequence
+transduction**, i.e. neural machine translation (Cho et al.; Sutskever, Vinyals & Le).
+**2014–2015** — **attention and the end of the fixed bottleneck** (Bahdanau et al.; Luong et
+al.). **2017+** — the **Transformer encoder–decoder** scales the idea to large models.
+**2015+** — beyond text: U-Net, image-to-image, VAEs, diffusion, multimodal.
+
+**Attention's contribution, stated as the distinction it is:** before it, the decoder read a
+**single fixed-length vector** summarising the whole input, and the longer the input the more
+was lost. After it, the decoder **attends to every encoder state, weighted per output element**
+— so nothing has to be squeezed through one code. Self-attention in the Transformer is the
+direct descendant.
+
+A caution the course is explicit about: **sequence data gave the encoder–decoder its historical
+prominence, but the architecture is not restricted to sequences.** The same pattern runs on
+text, images, audio, graphs and video. Sequences are historical, not fundamental.
+
+`[slides 5, 10]`
+
+?check id=ae-025
+?check id=ae-027
+
 ## U-Net
 
 A **U-Net** is an **encoder–decoder CNN with skip connections**. The encoder downsamples, the
@@ -122,7 +187,7 @@ across to the matching decoder stage — which is where the **U** in the diagram
 Why it is needed: compressing to a bottleneck destroys exactly the **pixel-level precision** a
 segmentation mask requires. The skip connections hand that detail back, so the output combines
 **high-level context from the bottleneck** with **fine spatial information from the early
-layers**. Typical tasks: **image segmentation, reconstruction, denoising, medical imaging**.
+layers**. Typical tasks: **image segmentation, reconstruction, denoising, medical imaging** — and, as named in class, **autonomous vehicles**, which need the scene labelled pixel by pixel in real time.
 
 > **Exam focus.** *Encoder–decoder vs U-Net* is a distinctions-table row. Encoder–decoder
 > compresses then expands; a U-Net is an encoder–decoder CNN whose **skip connections** carry

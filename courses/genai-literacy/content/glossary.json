@@ -457,7 +457,7 @@
   },
   {
     "term": "Universal approximation",
-    "definition": "The result that a sufficiently wide network can represent essentially any function. It does not promise that training will find it, or that the result will generalise.",
+    "definition": "The result that a network with a single hidden layer and finitely many neurons can approximate any continuous function on a closed bounded region to any tolerance. It establishes representational capacity only: it does not promise that training will find the parameters, or that the result will generalise.",
     "topic": "neural-networks",
     "source": { "deck": "infographics", "slide": 6 }
   },
@@ -793,9 +793,9 @@
   },
   {
     "term": "Five principles of modern deep learning",
-    "definition": "Representation, relation, parameterisation, optimisation and architecture: not ever more complicated mathematics, but increasingly ingenious orchestration.",
-    "topic": "generative-models",
-    "source": { "deck": "infographics", "slide": 10 }
+    "definition": "Representation, Relation, Parameterization, Optimization, Architecture \u2014 represent, relate, parameterize, learn, orchestrate. Not ever more complicated primitive mathematics, but increasingly ingenious orchestration of representations, relationships, parameters and learning.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 8 }
   },
   {
     "term": "AI slop",
@@ -838,5 +838,311 @@
     "definition": "Retrieval-Augmented Generation: retrieve relevant documents first, then generate grounded on them, for factual verifiability. Mapped to the term project rather than this exam.",
     "topic": "ethics-impact",
     "source": { "deck": "GAI Lit 07", "slide": 2 }
+  },
+  {
+    "term": "Representation (principle)",
+    "definition": "The first principle: encode task-relevant information as vectors or tensors so that it becomes computable. Tokens and embeddings for text, patches and tensors for images.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Relation (principle)",
+    "definition": "The second principle: express abstract relationships as algebraic or geometric operations among representations. Attention, with its query, key and value, is the textbook example.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Parameterization (principle)",
+    "definition": "The third principle: simple operations, massively parameterised and composed, can express complex functions. Complexity is bought with learned parameters, not with exotic mathematics.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Optimization (principle)",
+    "definition": "The fourth principle: make the system differentiable so its numerical parameters can be learned from data by gradient-based methods.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Architecture (principle)",
+    "definition": "The fifth principle: the higher-level design that orchestrates the other four, deciding how representations, relations, parameterised operations and learning interact.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Literacy roadmap",
+    "definition": "The course's own four-stage map: Words Matter (build the language), Timelines (how we got here), HIWUTH (how it works under the hood), Application (what you can do with it).",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 15 }
+  },
+  {
+    "term": "Task-equivalence timeline",
+    "definition": "The timeline family tracking the reproduction of human capabilities — language, vision, problem solving, decision making — from Turing 1950 through expert systems and deep learning to large language models.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 15 }
+  },
+  {
+    "term": "Computational-model timeline",
+    "definition": "The timeline family tracking competing conceptions of intelligence: symbolic/logical, neurocomputational, statistical/data-driven and hybrid.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 15 }
+  },
+  {
+    "term": "Integrated-autonomy timeline",
+    "definition": "The timeline family running from AI as software, through AI as an operating system (agentic AI: reasoning, planning, tool use), to AI as hardware (robotics and embodied AI).",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 15 }
+  },
+  {
+    "term": "Embodied AI",
+    "definition": "A physical agent acting in the world, described with five elements: physical form, valenced sensing, cognition function (predictive intelligence), concept formation (generative intelligence) and experience register.",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 15 }
+  },
+  {
+    "term": "Agent",
+    "definition": "The application mode that does things for you: tool use, workflow automation, multi-step task execution. Distinguished from a chatbot (talks with you), RAG (searches for you) and a wiki (builds your knowledge).",
+    "topic": "concepts",
+    "source": { "deck": "infographics", "slide": 15 }
+  },
+  {
+    "term": "Cauchy's gradient method",
+    "definition": "The 1847 formalisation of steepest descent, and the pre-AI mathematical ancestor of every gradient-based learning rule — about 140 years before backpropagation put it to work in a neural network.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Cybernetics",
+    "definition": "Wiener's 1948 treatment of control, communication and feedback as one subject shared by animals and machines. It predates the founding of AI by eight years and supplied much of its vocabulary.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 9 }
+  },
+  {
+    "term": "Hebbian learning",
+    "definition": "Hebb's 1949 principle that neurons which fire together wire together, so learning is a change in connection strength. The basis for describing unsupervised learning in this course as Hebbian.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 9 }
+  },
+  {
+    "term": "ELIZA",
+    "definition": "Weizenbaum's 1966 program that simulated a psychotherapist by matching patterns in the user's text and reflecting them back. The first well-known chatbot, and an early demonstration that fluency and understanding are separable.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 7 }
+  },
+  {
+    "term": "DENDRAL",
+    "definition": "A 1965 expert system, the forerunner of MYCIN, reasoning from hand-written IF-THEN rules with confidence factors and no training data at all.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 7 }
+  },
+  {
+    "term": "LSTM",
+    "definition": "Long Short-Term Memory (Hochreiter and Schmidhuber, 1997): a gated recurrent architecture that stops the error signal decaying over long sequences, making long-term dependencies learnable.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Seq2Seq",
+    "definition": "Sequence-to-sequence learning (Sutskever, Vinyals and Le, 2014): an LSTM encodes a whole sequence into one fixed-length vector which a decoder expands into the target sequence. Its fixed bottleneck is what attention removed.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Bahdanau attention",
+    "definition": "The 2014 mechanism (Bahdanau, Cho and Bengio) letting a decoder soft-search the relevant parts of the source for each output word, instead of reading one fixed summary vector. The direct ancestor of self-attention.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "Vision Transformer (ViT)",
+    "definition": "Dosovitskiy and colleagues, 2020/21: a pure Transformer applied directly to sequences of image patches, with no convolution — the clearest evidence that the Transformer is a general architecture.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 8 }
+  },
+  {
+    "term": "BERT",
+    "definition": "Devlin and colleagues, 2018. A Transformer that reads in both directions and is built for understanding tasks, sitting alongside GPT at the point where the Transformer became the standard for NLP.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 7 }
+  },
+  {
+    "term": "Deep belief net",
+    "definition": "Hinton, Osindero and Teh, 2006. Greedy layer-wise pretraining made deep networks trainable again and is where deep learning restarts after the 1980s stall.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 9 }
+  },
+  {
+    "term": "SIFT",
+    "definition": "A 1999 hand-designed local image feature, typical of the pre-deep-learning state of the art in which a human designed the features and a classifier such as an SVM did the rest.",
+    "topic": "timelines",
+    "source": { "deck": "infographics", "slide": 7 }
+  },
+  {
+    "term": "Universal approximation theorem (UAT)",
+    "definition": "For any continuous function on a closed bounded region and any tolerance, there exists a one-hidden-layer feedforward network with finitely many neurons approximating it uniformly. Cybenko 1989 for the sigmoid, Funahashi 1989, Hornik 1991. It establishes capacity, not trainability.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 12 }
+  },
+  {
+    "term": "Inductive bias",
+    "definition": "The design choices — skip connections, functional links, convolution, architecture — that make good solutions reachable by training. Since expressivity is abundant and trainability scarce, this is where the real leverage sits.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 12 }
+  },
+  {
+    "term": "Functional-link network (FLN)",
+    "definition": "Pao, 1995. A network augmented with explicit nonlinear transforms of its inputs (polynomial, radial-basis, trigonometric), giving high expressivity at shallow depth when the useful features are known in advance.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 12 }
+  },
+  {
+    "term": "Degradation problem",
+    "definition": "The 2015 finding that beyond roughly 20-30 layers a deeper network fits worse than a shallower one, on the training set as well as validation. An optimisation failure rather than overfitting, and the problem the residual connection was invented to solve.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 10 }
+  },
+  {
+    "term": "Residual connection",
+    "definition": "A shortcut that adds a block's input back to its output, so the block learns the residual F(x) = H(x) - x and outputs H(x) = F(x) + x. It lets the block refine rather than re-create, and makes identity mapping available by construction.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 10 }
+  },
+  {
+    "term": "ResNet",
+    "definition": "He, Zhang, Ren and Sun, 2015. A network of residual blocks, trainable to 152 layers and beyond, whose twelve-page paper became the most cited of the twenty-first century and whose block is now the standard backbone across vision and beyond.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 10 }
+  },
+  {
+    "term": "Effective depth",
+    "definition": "The typical length of the paths that actually carry gradient during training. In a 110-block residual network it is 10 to 34 blocks, far less than the nominal depth — which is the sense in which ResNets behave like ensembles of shallow networks.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 12 }
+  },
+  {
+    "term": "Learning rate",
+    "definition": "The step size that multiplies the gradient in the update rule. A hyperparameter, set before training: too small and training crawls, too large and the step overshoots.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 13 }
+  },
+  {
+    "term": "Chain rule",
+    "definition": "The calculus rule for differentiating a composition, and the mechanism of backpropagation: it assembles the derivative of the loss with respect to any weight from a product of local derivatives, so one backward sweep gives every gradient.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 13 }
+  },
+  {
+    "term": "Forward pass and backward pass",
+    "definition": "The forward pass computes activations layer by layer to produce the prediction and hence the loss; the backward pass computes the gradients of that loss with respect to every weight.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 13 }
+  },
+  {
+    "term": "Non-convex loss surface",
+    "definition": "The real shape of a network's loss: high-dimensional, full of local minima and saddle points, nothing like the bowl in the diagram. Gradient descent settles in a local minimum that in high dimensions is usually good enough.",
+    "topic": "neural-networks",
+    "source": { "deck": "infographics", "slide": 13 }
+  },
+  {
+    "term": "Denoising autoencoder (DAE)",
+    "definition": "An autoencoder trained to reconstruct a clean input from a deliberately corrupted copy, so the learned features must be robust rather than a memorised copy. The same idea sits at the heart of diffusion models.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 11 }
+  },
+  {
+    "term": "Fixed bottleneck (encoder-decoder)",
+    "definition": "The single fixed-length vector through which a pre-attention encoder-decoder had to squeeze a whole input. Attention removed it by letting the decoder weigh a sequence of encoder states per output element.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 11 }
+  },
+  {
+    "term": "Auto-associative network",
+    "definition": "The 1980s ancestor of the autoencoder: a network trained to reproduce its own input, whose bottleneck hidden layer turned out to hold a useful learned representation.",
+    "topic": "autoencoders",
+    "source": { "deck": "infographics", "slide": 11 }
+  },
+  {
+    "term": "Cross-attention",
+    "definition": "The attention in a Transformer decoder that attends to the encoder's representations, as against self-attention, which relates a sequence to itself.",
+    "topic": "transformers",
+    "source": { "deck": "infographics", "slide": 11 }
+  },
+  {
+    "term": "Feed-forward block (FFN)",
+    "definition": "The multilayer perceptron inside each Transformer block — up-projection, ReLU, down-projection — applied to each token separately. It holds roughly two thirds of the parameters and acts as a key-value memory storing facts.",
+    "topic": "transformers",
+    "source": { "deck": "infographics", "slide": 14 }
+  },
+  {
+    "term": "Superposition",
+    "definition": "The packing of far more concepts than there are dimensions into one vector space, as overlapping nearly-orthogonal directions. It is why a single neuron does not correspond to a single concept.",
+    "topic": "transformers",
+    "source": { "deck": "infographics", "slide": 14 }
+  },
+  {
+    "term": "Sparse autoencoder (SAE)",
+    "definition": "A wide, mostly-inactive re-encoding of a model's activations, used to pull superposed concepts apart so they can be interpreted individually.",
+    "topic": "transformers",
+    "source": { "deck": "infographics", "slide": 14 }
+  },
+  {
+    "term": "TO and FRO mappings",
+    "definition": "The two directions every generative model involves: TO maps data to a simple distribution, FRO maps back. Generation always uses FRO; TO exists only to create a supervised task with known targets. TO sets the homework; FRO learns to solve it backwards.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 2 }
+  },
+  {
+    "term": "ELBO",
+    "definition": "Evidence Lower Bound, the VAE's training objective. It splits into a reconstruction term keeping the output close to the input and a regularisation term keeping the latent close to the simple prior.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 4 }
+  },
+  {
+    "term": "Conditional generation",
+    "definition": "Generation steered by a condition such as a text embedding. The prompt is where to navigate; the PRNG is which possibility — which is why the same prompt gives a different image each time.",
+    "topic": "generative-models",
+    "source": { "deck": "infographics", "slide": 2 }
+  },
+  {
+    "term": "Three forms of intelligence",
+    "definition": "The three senses of the 'I': human-like (Turing's imitation game), advantageous information of strategic or tactical value (military, business), and an optimal solution path for a hard problem (computational, digital). Flagged in class as an exam notice in exactly those words.",
+    "topic": "concepts",
+    "source": { "deck": "lec 1", "slide": 19 }
+  },
+  {
+    "term": "Parameter counting",
+    "definition": "One weight per incoming connection plus one bias per neuron. Inputs are given data and hyperparameters are fixed in advance, so neither counts. A two-input neuron therefore has three parameters; a layer of three neurons on four inputs has fifteen.",
+    "topic": "neural-networks",
+    "source": { "deck": "GAI Lit 03", "slide": 6 }
+  },
+  {
+    "term": "Partition (perceptron)",
+    "definition": "The geometric reading of a perceptron: a line, plane or hyperplane of one dimension fewer than the data, positioned by the weights and bias. Machine learning is then adjusting the parameters of those partitions until the data separate accurately.",
+    "topic": "neural-networks",
+    "source": { "deck": "class notes", "slide": 11 }
+  },
+  {
+    "term": "False positive vs false negative",
+    "definition": "Two ways a partition can misclassify, both errors but with different costs. A civil court minimises false positives; a military command minimises false negatives. No placement of the boundary eliminates both, so the threshold is a judgement about which error you can least afford.",
+    "topic": "neural-networks",
+    "source": { "deck": "class notes", "slide": 5 }
+  },
+  {
+    "term": "Differentiability (why sigmoid)",
+    "definition": "A hard step has no useful derivative, so gradient descent has nothing to follow. Smoothing it with a sigmoid makes the model differentiable and therefore learnable, and turns rigid verdicts into graded probabilities.",
+    "topic": "neural-networks",
+    "source": { "deck": "GAI Lit 03", "slide": 5 }
+  },
+  {
+    "term": "Dot product (attention)",
+    "definition": "The similarity measure attention is built on: it reports how congruent two vectors are, how far they point the same way. Each query is matched against every key by a dot product, and those scores become the weights that mix the value vectors.",
+    "topic": "transformers",
+    "source": { "deck": "class notes", "slide": 21 }
+  },
+  {
+    "term": "Five aggregates",
+    "definition": "Form, feeling, perception, mental formations and consciousness — the Buddhist list the lecturer draws the five elements of the Intelligent Being loosely from. Lecturer colour rather than deck material, but a useful handle on a list that is examinable.",
+    "topic": "concepts",
+    "source": { "deck": "class notes", "slide": 2 }
   }
 ]
