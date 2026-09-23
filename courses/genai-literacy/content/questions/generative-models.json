@@ -1,0 +1,435 @@
+[
+  {
+    "id": "gen-001",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Name the six foundational architectures of this course, in order from predictive to generative.",
+    "choices": [
+      "Perceptron, MLP, CNN, RNN, LSTM, Transformer",
+      "MLP, CNN, VAE, U-Net, Transformer, Diffusion",
+      "MLP, CNN, GAN, VAE, Transformer, Diffusion",
+      "CNN, RNN, GAN, VAE, U-Net, Transformer"
+    ],
+    "answer": [1],
+    "explanation": "MLP, CNN, VAE, U-Net, Transformer, Diffusion. MLP and CNN predict, VAE and U-Net form the representation bridge, and Transformer and Diffusion generate — the GAN is part of the story but not one of the six.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["six-architectures", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-002",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "The six architectures are grouped into three stages, each with its own question. Which set of questions is right?",
+    "choices": [
+      "'What is it?' for prediction, 'what is it made of?' for the bridge, 'what is it worth?' for generation",
+      "'What was?' for prediction, 'what is?' for the bridge, 'what will be?' for generation",
+      "'What is most likely?' for predictive AI, 'what is the underlying structure?' for the representation bridge, 'what could be?' for generative AI",
+      "'How accurate?' for prediction, 'how compressed?' for the bridge, 'how creative?' for generation"
+    ],
+    "answer": [2],
+    "explanation": "Predict what is most likely, represent the underlying structure, generate what could be. The same core idea — a network learning useful representations — powers all three; each stage only adds a capability.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["six-architectures", "predictive-generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-003",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "This course defines generative AI as a system that does what?",
+    "choices": [
+      "Captures the underlying probability distribution of a dataset in order to synthesise new samples that appear to come from that same distribution",
+      "Produces output no human has ever thought of before",
+      "Combines several trained models so their outputs can be averaged",
+      "Answers any question put to it in natural language"
+    ],
+    "answer": [0],
+    "explanation": "Capture the distribution, then synthesise from it. That definition covers text, images and audio at once, and it is what makes 'plausible context relevance' the right standard: a new sample cannot be checked against a ground truth that does not exist.",
+    "source": { "deck": "GAI Lit 06", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["definition", "predictive-generative"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-004",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "What is a GAN, and how do its two networks relate?",
+    "choices": [
+      "A Generalised Adaptive Network, in which one network adapts the learning rate of the other",
+      "A Generative Adversarial Network: a generator produces fakes and a discriminator judges real against fake, and both improve by playing against each other",
+      "A Grouped Attention Network, in which attention heads are split into competing groups",
+      "A Generative Autoencoder Network, in which the encoder and decoder are trained separately"
+    ],
+    "answer": [1],
+    "explanation": "Generator against discriminator, each one's improvement raising the bar for the other. The training signal is not a label but the opponent's judgement, which is what makes it adversarial.",
+    "source": { "deck": "lec 5", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["gan", "architecture", "acronym", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-005",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "What is ironic about the GAN's place in the history of generative AI?",
+    "choices": [
+      "It was invented twice independently and neither team was credited",
+      "It generates images but was designed for text",
+      "It was proposed as a joke at a conference and later taken seriously",
+      "The adversarial setup was devised as a device for sharpening a predictive, discriminative model — and the generator, the supporting act, turned out to be the star"
+    ],
+    "answer": [3],
+    "explanation": "The point of the generator was to give the discriminator harder cases to learn from. Deepfakes made the generator famous instead, and 'generative' took on its modern meaning from this architecture before GPT inherited the word.",
+    "source": { "deck": "lec 5", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["gan", "g-in-gai", "timeline"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-006",
+    "topic": "generative-models",
+    "type": "text",
+    "stem": "In a GAN, one network makes the fakes. One word: what is the other one called, the one that judges real against fake?",
+    "choices": [],
+    "answer": [],
+    "accept": ["discriminator", "the discriminator"],
+    "explanation": "The discriminator. It is an ordinary predictive classifier — real or fake — and the generator learns purely from how well it fools it, with no direct target image to copy.",
+    "source": { "deck": "lec 5", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["gan", "architecture"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-007",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "A GAN and a VAE both end up producing new images. What is the difference in how each is trained?",
+    "choices": [
+      "The GAN learns from the judgement of a second network it is competing with; the VAE learns from reconstructing its own inputs while keeping its latent space close to a simple distribution",
+      "The GAN learns from labelled images; the VAE learns from unlabelled ones",
+      "The GAN adds noise to the data and learns to remove it; the VAE does the reverse",
+      "The GAN is trained once; the VAE must be retrained for every new image it generates"
+    ],
+    "answer": [0],
+    "explanation": "Different learning games with the same end. The GAN has no reconstruction target at all, only an opponent's verdict; the VAE never sees an opponent, only its own reconstruction error and a pull towards a simple latent prior.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["gan", "vae", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-008",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "How does a diffusion model generate an image?",
+    "choices": [
+      "It assembles the image from fragments of the training images that best match the prompt",
+      "It encodes the prompt into a latent point and decodes it in a single step",
+      "A fixed forward process gradually corrupts data with noise; the model learns to reverse that, so generation starts from pure noise and iteratively denoises, optionally guided by a text embedding",
+      "It grows the image outward from a seed pixel, predicting each neighbour in turn"
+    ],
+    "answer": [2],
+    "explanation": "Destroy, then learn to undo. Because the corruption was applied deliberately, the true noise at every step is known, which turns generation into an ordinary supervised problem repeated many times over.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["diffusion", "architecture", "generation", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-009",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "In a diffusion model, which direction is learned and which is prescribed?",
+    "choices": [
+      "The forward noising is learned; the reverse denoising is prescribed by a fixed schedule",
+      "Both directions are learned, one after the other",
+      "Neither is learned; both are fixed, and only the sampling temperature is trained",
+      "The forward noising is prescribed — it is designed, not learned — and only the reverse denoising is learned"
+    ],
+    "answer": [3],
+    "explanation": "The forward process is designed, so the true noise added at each step is known exactly. That known answer is the supervision for the reverse, which is the only part the network learns.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["diffusion", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-010",
+    "topic": "generative-models",
+    "type": "text",
+    "stem": "One word: what does a diffusion model start from when it generates a brand-new image?",
+    "choices": [],
+    "answer": [],
+    "accept": ["noise", "random noise", "gaussian noise", "pure noise"],
+    "explanation": "Noise — a field of pure Gaussian randomness. The model then removes a little of it at a time, and after many steps what is left is a sample from the data distribution rather than a copy of anything in the training set.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["diffusion", "generation"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-011",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "VAE, diffusion and flow matching are presented as one family. What is the unifying view?",
+    "choices": [
+      "All three are autoencoders; only the size of the bottleneck differs",
+      "All three are trained adversarially against a discriminator",
+      "All three are different learning games with the same goal: a learnable mapping from a simple distribution to the data distribution, which you then sample by cranking a random number generator",
+      "All three require labelled training data and differ only in the label format"
+    ],
+    "answer": [2],
+    "explanation": "Same destination, three routes. Each one constructs a mapping between a simple distribution and the data, turns that into a supervised learning task, and generates by sampling the simple distribution and applying what it learned.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["vae-diffusion", "flow-matching", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-012",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Flow matching is the third member of that family. In one line, what does it do?",
+    "choices": [
+      "It matches each generated sample against the closest training example and corrects the difference",
+      "It defines a probability path from a simple distribution to the data and learns the vector field that transports samples along it, so generation means starting from noise and following the learned flow",
+      "It matches the output of several generators and averages them",
+      "It flows gradients backwards through time, as a recurrent network does"
+    ],
+    "answer": [1],
+    "explanation": "A path plus a velocity field along it. Diffusion takes many discrete denoising steps; flow matching learns a continuous transport instead, but the goal — noise in, data out — is identical.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["flow-matching", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-013",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Can we have generative AI without neural networks?",
+    "choices": [
+      "No — generation requires a learned representation, which only a neural network can hold",
+      "No — sampling from a distribution is statistics, not generation",
+      "Yes in principle: a Markov chain generates text from next-token statistics, and any sampler from a fitted distribution is generative. But without a learned representation it has no context, so the output is locally plausible and globally incoherent",
+      "Yes, and the output is indistinguishable from a neural model's, only slower to produce"
+    ],
+    "answer": [2],
+    "explanation": "Yes on the definition, no in practice. Generation only needs a fitted distribution you can sample from; what the neural network adds is context, which is the difference between plausible phrases and a coherent paragraph.",
+    "source": { "deck": "GAI Lit 02", "slide": 15 },
+    "difficulty": 3,
+    "tags": ["definition", "distinction", "markov"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-014",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "A text-to-image model is given the prompt 'a cat wearing sunglasses'. Where does the prompt enter a diffusion model?",
+    "choices": [
+      "It is embedded and used to condition the denoising at every step, so each step is steered towards images matching the description",
+      "It is used to search the training set for images with matching captions, which are then blended",
+      "It is applied once at the end, to select the best image from a batch of candidates",
+      "It replaces the initial noise, which is generated from the text instead of at random"
+    ],
+    "answer": [0],
+    "explanation": "Conditioning. The prompt is turned into an embedding that the reverse process consults at every denoising step, which is why the image steadily converges on the description rather than towards any picture at all.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 3,
+    "tags": ["diffusion", "conditioning", "multimodal"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-015",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "A team needs to write product descriptions, and another needs to create product photographs that were never shot. Which architectures fit, and why?",
+    "choices": [
+      "A transformer for both, because attention handles any modality",
+      "A U-Net for the text and a CNN for the images, because both preserve detail",
+      "A GAN for the text and a VAE for the images, because both are adversarial",
+      "A transformer for the text, because it models long-range dependencies in sequences, and a diffusion model for the images, because it turns randomness into high-quality realistic pictures"
+    ],
+    "answer": [3],
+    "explanation": "Sequence generation is the transformer's task and high-quality image generation is the diffusion model's. They are the two generative architectures of the six, and their typical tasks are what separates them.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["six-architectures", "scenario", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-016",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "In what sense is the diffusion model described as coming out of the transformer story and being 'for visuals'?",
+    "choices": [
+      "A diffusion model is a transformer with the attention layers removed",
+      "Diffusion models were first published as a chapter of the transformer paper",
+      "The two are unrelated; the diffusion model descends only from the autoencoder",
+      "Diffusion carries the generative turn across from language to images, and modern text-to-image systems use a text transformer to embed the prompt that conditions the denoising network"
+    ],
+    "answer": [3],
+    "explanation": "The lineage is about where generation went next, not about layers. Language got there first through the transformer; diffusion did the same job for pixels, and it leans on a text encoder whenever the image has to match a prompt.",
+    "source": { "deck": "lec 5", "slide": 8 },
+    "difficulty": 3,
+    "tags": ["diffusion", "transformer", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-017",
+    "topic": "generative-models",
+    "type": "tf",
+    "stem": "A diffusion model learns both the process that adds noise to an image and the process that removes it.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [1],
+    "explanation": "False. The noising process is prescribed and fixed, which is exactly why the reverse can be learned — the true answer at each step is known because the corruption was applied deliberately. A VAE is the architecture that learns both directions.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["diffusion", "vae-diffusion", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-018",
+    "topic": "generative-models",
+    "type": "multi",
+    "stem": "Select the architectures this course places on the generative side of the arc rather than on the predictive side or the representation bridge.",
+    "choices": [
+      "Transformer",
+      "Convolutional neural network",
+      "Diffusion model",
+      "Multilayer perceptron",
+      "U-Net"
+    ],
+    "answer": [0, 2],
+    "explanation": "Transformer and diffusion are the generative pair. MLP and CNN are predictive; U-Net sits on the bridge with the VAE, learning a representation that serves both prediction and generation.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["six-architectures", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-019",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "What is the key takeaway the course draws from putting all six architectures on one arc?",
+    "choices": [
+      "Each architecture replaced the one before it, so only the newest is worth learning",
+      "The same core idea — neural networks that learn useful representations — powers both predictive and generative AI, and each architecture adds one new capability on top of it",
+      "The six are entirely separate inventions that happen to be taught together",
+      "Generative architectures are simply predictive architectures with more parameters"
+    ],
+    "answer": [1],
+    "explanation": "One foundation, six capabilities. Nothing was abandoned along the way: a diffusion model still contains a CNN, and a transformer still learns by gradient descent, which is why the arc runs from understanding the world to creating new possibilities.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["six-architectures", "principles"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-020",
+    "topic": "generative-models",
+    "type": "text",
+    "stem": "One word: name the 2014 architecture whose two networks compete, and which gave 'generative' its modern popular meaning before GPT took the word over.",
+    "choices": [],
+    "answer": [],
+    "accept": ["gan", "gans", "generative adversarial network", "generative adversarial networks"],
+    "explanation": "The GAN, Generative Adversarial Network, from Goodfellow and colleagues in 2014. It was built to sharpen a discriminator and ended up the star, and deepfakes are what made it famous.",
+    "source": { "deck": "lec 5", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["gan", "acronym", "timeline"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-021",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Why can a generative model not be scored on accuracy the way a classifier is?",
+    "choices": [
+      "Because its outputs are too large to compare automatically",
+      "Because there is no verifiable ground truth for an output that was never supposed to match anything; a newly generated face is judged on plausible context relevance instead",
+      "Because generative models are never trained on labelled data",
+      "Because accuracy is only defined for numeric outputs"
+    ],
+    "answer": [1],
+    "explanation": "There is nothing to be accurate against. Predictive AI is judged on accuracy against verifiable ground truths; generative AI is judged on whether the output is plausible and relevant to its context, which is a weaker and more slippery standard.",
+    "source": { "deck": "2024 midterm", "slide": 1 },
+    "difficulty": 2,
+    "tags": ["predictive-generative", "evaluation", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-022",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "Which architecture would you reach for to convert photographs of summer landscapes into winter versions of the same scenes, without any matched pairs to learn from?",
+    "choices": [
+      "A cycle GAN, because adversarial training can learn a mapping between two image collections that are not paired up example by example",
+      "A plain MLP, because it can learn any mapping from input to output",
+      "A classifier trained to tell summer from winter, run in reverse",
+      "A U-Net trained on the summer images alone"
+    ],
+    "answer": [0],
+    "explanation": "Unpaired image-to-image translation is what the cycle GAN was built for: two adversarial pairs plus the requirement that translating there and back returns the original. Without pairs there is no reconstruction target, so an ordinary encoder-decoder has nothing to train against.",
+    "source": { "deck": "Wolfram CNN", "slide": 23 },
+    "difficulty": 3,
+    "tags": ["gan", "scenario", "architecture"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-023",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "A generative image model produces a person with six fingers. Why is this the characteristic failure of generative AI rather than a bug?",
+    "choices": [
+      "Because the training images were mislabelled",
+      "Because the model has no ground truth to check against and is optimising for plausibility, so an output can be locally convincing while globally wrong",
+      "Because the model ran out of denoising steps before it finished",
+      "Because the prompt did not specify the number of fingers"
+    ],
+    "answer": [1],
+    "explanation": "Plausible context relevance is the only standard the model is held to, and local plausibility is easier to achieve than global consistency. It is the same failure shape as a language model's confident invention of a fact.",
+    "source": { "deck": "lec 1", "slide": 30 },
+    "difficulty": 3,
+    "tags": ["predictive-generative", "evaluation", "ethics"],
+    "examFocus": true
+  },
+  {
+    "id": "gen-024",
+    "topic": "generative-models",
+    "type": "mcq",
+    "stem": "'The same reality, different routes, the same goal' summarises the generative family. What is the shared assumption about the data that makes these routes work at all?",
+    "choices": [
+      "That the data are uniformly distributed, so any point is as likely as any other",
+      "That the data are labelled, so a supervised signal always exists",
+      "That the data live on a low-dimensional, structured manifold, so there is a simple distribution a learnable mapping can connect them to",
+      "That the dataset is small enough to be memorised in full"
+    ],
+    "answer": [2],
+    "explanation": "Real images occupy a tiny, highly structured corner of all possible pixel arrangements. That is what makes it possible to map a simple distribution onto them, and it is the same assumption behind the autoencoder's bottleneck.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["latent-space", "principles", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "gen-025",
+    "topic": "generative-models",
+    "type": "text",
+    "stem": "One word: name the operation a diffusion model is trained to perform, removing a little of the corruption at each step.",
+    "choices": [],
+    "answer": [],
+    "accept": ["denoising", "denoise", "denoize", "de-noising"],
+    "explanation": "Denoising. Only the reverse direction is learned: the forward noising is prescribed, which is what makes the true answer at each step known and turns generation into an ordinary supervised problem repeated many times.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 1,
+    "tags": ["diffusion", "distinction"],
+    "examFocus": true
+  }
+]

@@ -7,7 +7,6 @@ import (
 	_ "embed"
 	"errors"
 	"fmt"
-	"strings"
 	"time"
 
 	_ "modernc.org/sqlite" // pure-Go driver: the release build cross-compiles with CGO off
@@ -40,15 +39,14 @@ func Open(path string) (*DB, error) {
 
 func (d *DB) Close() error { return d.sql.Close() }
 
-// Player returns the id for a name, creating the player on first sight. Names are
-// trimmed and capped, because they end up on a shared leaderboard.
+// Player returns the id for a name, creating the player on first sight.
+//
+// The name is normalised first, so the board carries one spelling per person however
+// they typed it, and the unique index is case-insensitive on top of that.
 func (d *DB) Player(name string) (int64, string, error) {
-	name = strings.TrimSpace(name)
-	if name == "" {
-		return 0, "", errors.New("a name is required")
-	}
-	if len([]rune(name)) > 24 {
-		name = string([]rune(name)[:24])
+	name, err := NormaliseName(name)
+	if err != nil {
+		return 0, "", err
 	}
 	if _, err := d.sql.Exec(
 		`INSERT INTO players (name, created_at) VALUES (?, ?) ON CONFLICT (name) DO NOTHING`,
@@ -57,9 +55,9 @@ func (d *DB) Player(name string) (int64, string, error) {
 	}
 	var id int64
 	var stored string
-	// The stored spelling wins, so someone typing "WILHELM" tonight does not rename
-	// yesterday's entries.
-	err := d.sql.QueryRow(`SELECT id, name FROM players WHERE name = ?`, name).Scan(&id, &stored)
+	// The stored spelling wins. Since every name is normalised on the way in, that is
+	// the same spelling anyway — this only matters for rows written before normalising.
+	err = d.sql.QueryRow(`SELECT id, name FROM players WHERE name = ?`, name).Scan(&id, &stored)
 	return id, stored, err
 }
 

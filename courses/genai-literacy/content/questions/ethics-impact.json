@@ -1,0 +1,362 @@
+[
+  {
+    "id": "eth-001",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "What does 'AI slop' refer to?",
+    "choices": [
+      "Training data that has been mislabelled or corrupted before it reaches the model",
+      "The wasted compute spent on models that are never deployed",
+      "Low-value, mass-produced AI-generated content flooding the web",
+      "The tendency of a model's accuracy to drift downward after deployment"
+    ],
+    "answer": [2],
+    "explanation": "AI slop is cheap generated content produced at volume because producing it is nearly free. The problem is not that any single piece is terrible but that the volume swamps the material that was worth reading.",
+    "source": { "deck": "playlist", "slide": 21 },
+    "difficulty": 1,
+    "tags": ["ai-slop", "definition", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-002",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "Why is AI slop described as an economic problem rather than only a quality problem?",
+    "choices": [
+      "Because the old web paid creators through clicks and advertising, and AI search now answers the question without a visit — so the incentive to produce high-quality trustworthy content evaporates",
+      "Because generating content consumes electricity, which raises costs for everyone",
+      "Because AI companies pay less tax than publishers do",
+      "Because the cost of web hosting rises as more pages are published"
+    ],
+    "answer": [0],
+    "explanation": "The mechanism is the broken payment loop: no visit means no advertising revenue, so nobody funds the good material. The models then degrade the very supply of quality content they were trained on.",
+    "source": { "deck": "playlist", "slide": 21 },
+    "difficulty": 2,
+    "tags": ["ai-slop", "economics"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-003",
+    "topic": "ethics-impact",
+    "type": "text",
+    "stem": "One word: what is the name given to the flood of low-value AI-generated content that is now filling the web?",
+    "choices": [],
+    "answer": [],
+    "accept": ["slop", "ai slop"],
+    "explanation": "Slop. The economic point matters more than the word: AI search answers without sending a visitor, the advertising that paid for good content dries up, and the incentive to write anything trustworthy goes with it.",
+    "source": { "deck": "playlist", "slide": 21 },
+    "difficulty": 1,
+    "tags": ["ai-slop", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-004",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "What is cognitive offloading, and why does the course treat it as a risk rather than a convenience?",
+    "choices": [
+      "Running a model on a remote server instead of your own machine, which risks your data leaving the country",
+      "Reducing a network's size so it fits on a phone, which risks losing accuracy",
+      "Distributing training across many GPUs, which risks inconsistent results",
+      "Handing thinking work to an external tool; it is a risk because the skill you never exercise never forms, so the dependency deepens rather than being repaid"
+    ],
+    "answer": [3],
+    "explanation": "A calculator offloads arithmetic you already understand. Offloading the reasoning itself means the judgement needed to check the answer is exactly the judgement that never develops — which is the route to what the course calls collective stupidity.",
+    "source": { "deck": "lec 1", "slide": 40 },
+    "difficulty": 2,
+    "tags": ["cognitive-offloading", "critical-thinking", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-005",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "What does it mean to achieve the bare minimum level of AI literacy?",
+    "choices": [
+      "Being able to build and train a neural network from scratch",
+      "As a global digital citizen, appreciating how AI got where it is, how it is trained from data, and both the capability and the pitfalls of AI solutions — so that you do not apply AI blindly",
+      "Having used the major chatbots often enough to have a preference between them",
+      "Knowing which tasks to delegate to AI and which to keep"
+    ],
+    "answer": [1],
+    "explanation": "History, training and pitfalls: three things, and the point of all three is the last clause. Literacy here is the ability to judge when an AI answer should not be trusted, not the ability to produce one.",
+    "source": { "deck": "2025 midterm", "slide": 2 },
+    "difficulty": 2,
+    "tags": ["literacy", "definition", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-006",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "How does adding a chatbot to an e-commerce channel qualify as an 'AI application'?",
+    "choices": [
+      "It does not qualify at all, because a chatbot involves no machine learning",
+      "It qualifies as a full AI application, because the chatbot's recommendations are optimised against sales data",
+      "It qualifies in the most basic form, relying on the chatbot's human-like conversation — without implying that its suggestions are intelligent solutions to any real problem",
+      "It qualifies only if the chatbot is built on a large language model rather than on rules"
+    ],
+    "answer": [2],
+    "explanation": "The human-like sense of intelligence is doing all the work: the system converses convincingly, which is enough to count as an application in its most basic form. It is not a claim that anything intelligent is being solved.",
+    "source": { "deck": "2025 midterm", "slide": 2 },
+    "difficulty": 3,
+    "tags": ["application", "literacy", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-007",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "What does 'Integrated Innovation' mean in this programme's sense?",
+    "choices": [
+      "Combining several impressive features into one product so that it outperforms its competitors",
+      "Integrating AI into every stage of an existing business process",
+      "Designing an innovation to work within an integrated reality, rather than bolting together a bin of impressive features and calling the result an innovation",
+      "Innovating across several companies at once through a shared platform"
+    ],
+    "answer": [2],
+    "explanation": "Integrated Innovation is not the integration of impressive features; it is designing something to work inside a reality that is already integrated. The 'and' in the programme's name means integrated, not merely added together.",
+    "source": { "deck": "2025 midterm", "slide": 2 },
+    "difficulty": 2,
+    "tags": ["integrated-innovation", "definition"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-008",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "Why does a generative model produce confident, fluent statements that are simply untrue?",
+    "choices": [
+      "Because it is optimised for plausible context relevance rather than accuracy against a verifiable ground truth, so a fluent invention scores as well as a fact",
+      "Because its training data contained deliberate falsehoods that it memorised",
+      "Because its numerical precision is too low to represent facts exactly",
+      "Because it is never shown the correct answer during training"
+    ],
+    "answer": [0],
+    "explanation": "It is the standard the model is held to, not a defect in it. A predictive model can be wrong and be caught by its ground truth; a generative model has no ground truth to fail against, which is why checking output is the reader's job.",
+    "source": { "deck": "lec 1", "slide": 30 },
+    "difficulty": 2,
+    "tags": ["hallucination", "predictive-generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-009",
+    "topic": "ethics-impact",
+    "type": "text",
+    "stem": "One word: what do we call a convincing fake video or image of a real person, made by generative models and the reason GANs became famous?",
+    "choices": [],
+    "answer": [],
+    "accept": ["deepfake", "deepfakes", "deep fake", "deep fakes"],
+    "explanation": "Deepfakes. They come straight out of the adversarial setup: the generator improves precisely because a discriminator keeps catching it, so the fakes get better until a human cannot tell either.",
+    "source": { "deck": "GAI Lit 02", "slide": 14 },
+    "difficulty": 1,
+    "tags": ["deepfake", "gan"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-010",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "What is the difference between AI literacy and what the course calls 'artificial literacy'?",
+    "choices": [
+      "AI literacy is theoretical; artificial literacy is practical experience with the tools",
+      "AI literacy means understanding how these systems work, where they fail and how to safeguard their use. Artificial literacy is the failure mode: outsourcing your essay, your pitch and your reading to a chatbot so the competence never forms",
+      "AI literacy applies to students; artificial literacy applies to professionals",
+      "AI literacy is about generative AI; artificial literacy is about predictive AI"
+    ],
+    "answer": [1],
+    "explanation": "One is a competence you gain, the other the appearance of a competence you have lost. The pun is deliberate: the literacy looks real from the outside and is entirely artificial.",
+    "source": { "deck": "lec 1", "slide": 38 },
+    "difficulty": 2,
+    "tags": ["literacy", "distinction", "cognitive-offloading"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-011",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "Why does 'the erosion of critical thinking' follow from convenient AI answers, rather than being a separate problem?",
+    "choices": [
+      "Because AI answers are usually wrong, so trusting them trains bad habits",
+      "Because critical thinking is a school subject that AI tools have replaced in the curriculum",
+      "Because critical thinking is exercised by struggling with a question, and an instant answer removes the struggle — so the capacity to evaluate the answer weakens at the same rate the answers become easier to get",
+      "Because the models are trained to be persuasive on purpose"
+    ],
+    "answer": [2],
+    "explanation": "The skill and the shortcut are in direct competition. The alarming part is the feedback loop: the weaker the judgement, the more the answer is accepted, and the less often the judgement is exercised.",
+    "source": { "deck": "lec 1", "slide": 40 },
+    "difficulty": 3,
+    "tags": ["critical-thinking", "cognitive-offloading", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-012",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "A model trained largely on text scraped after generative tools became widespread performs worse than its predecessor. What is the mechanism?",
+    "choices": [
+      "The training corpus is now full of machine-generated text, so the model is learning from its own kind's output rather than from human writing — and the errors compound",
+      "Newer text uses more informal language, which is harder to model",
+      "The corpus is larger, and larger corpora always reduce accuracy",
+      "The model has too many parameters for the amount of new data"
+    ],
+    "answer": [0],
+    "explanation": "The supply of human-written material is what the models were trained on, and slop dilutes it. Each generation learns from the previous generation's output, so distortions are amplified rather than corrected.",
+    "source": { "deck": "playlist", "slide": 21 },
+    "difficulty": 3,
+    "tags": ["ai-slop", "economics", "training-data"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-013",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "The course says countermeasures against AI slop are limited. What does it conclude follows from that?",
+    "choices": [
+      "The platforms will regulate themselves once the advertising damage becomes visible",
+      "Detection tools will eventually identify all generated content reliably",
+      "Generative models should be banned from writing anything published on the web",
+      "Consumers have to stay vigilant, because the responsibility for judging what is worth trusting has moved to the reader"
+    ],
+    "answer": [3],
+    "explanation": "There is no technical fix on offer: detection is unreliable and the economics push the other way. That shifts the burden onto the reader, which is the practical reason AI literacy matters to non-specialists.",
+    "source": { "deck": "playlist", "slide": 21 },
+    "difficulty": 2,
+    "tags": ["ai-slop", "literacy"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-014",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "What is the fear the course raises about human capability when AI does a task better than we can?",
+    "choices": [
+      "That we become passive — there is no reason to learn a language, or a craft, if the machine does it better, so the capability quietly disappears from the population",
+      "That AI will refuse to do the task once it realises it is being exploited",
+      "That the AI will lose the ability too, once it runs out of human examples",
+      "That only wealthy people will be able to afford the tools"
+    ],
+    "answer": [0],
+    "explanation": "Not that the machine takes over, but that we stop showing up. The capability is not destroyed by the machine; it is abandoned because there is no longer an everyday reason to acquire it.",
+    "source": { "deck": "lec 5", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["impact", "cognitive-offloading"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-015",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "'AI has no common sense' is a recurring warning in this course. What practical consequence does it have?",
+    "choices": [
+      "AI systems cannot be used in any safety-critical setting",
+      "The output can be fluent, internally consistent and completely at odds with how the world works, so it must be checked by someone who does know how the world works",
+      "AI can only be trusted on numerical problems, never on language",
+      "AI needs a much larger training set than a human child does"
+    ],
+    "answer": [1],
+    "explanation": "The model has the statistics of the world, not a model of it. Nothing in its training tells it that a person has five fingers or that a date must precede its consequences, so the sanity check has to come from outside.",
+    "source": { "deck": "lec 5", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["impact", "literacy", "hallucination", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-016",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "A model is trained on historical hiring decisions and then used to screen applicants. What is the problem, in this course's terms?",
+    "choices": [
+      "Generative models cannot be used for classification tasks",
+      "The model will overfit, because hiring data is always small",
+      "The ground truth is not truth but past behaviour, so whatever bias the old decisions carried is exactly what the model learns to reproduce with a machine's authority",
+      "Screening applicants requires embodied AI, which this system lacks"
+    ],
+    "answer": [2],
+    "explanation": "Parameters are calibrated from data, and the data is a record of what people did rather than what was right. Knowing how a system is trained from data is precisely the part of AI literacy that catches this.",
+    "source": { "deck": "lec 1", "slide": 36 },
+    "difficulty": 3,
+    "tags": ["bias", "literacy", "training-data"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-017",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "Which element of the Intelligent Being framework is the hook for the machine-consciousness debate, and what does the course actually claim about it?",
+    "choices": [
+      "Valenced feeling — it claims that any system with a reward signal already has feelings",
+      "The consciousness marker and program register — a momentary, sequential awareness of which computation step is being performed; the course offers it as the place the debate attaches, not as a claim that machines are conscious",
+      "Corporal form — it claims that consciousness requires a physical body and is therefore impossible in software",
+      "Cognitive faculty — it claims that pattern recognition at sufficient scale becomes awareness"
+    ],
+    "answer": [1],
+    "explanation": "The fifth element is deliberately modest: awareness of the step currently being executed. It marks where the argument would have to start, and the course does not go further than that.",
+    "source": { "deck": "lec 1", "slide": 18 },
+    "difficulty": 3,
+    "tags": ["intelligent-being", "consciousness", "impact", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-018",
+    "topic": "ethics-impact",
+    "type": "mcq",
+    "stem": "'AI did not invent abstraction; it industrialised it.' What does that sentence claim?",
+    "choices": [
+      "That abstraction is a manufacturing technique borrowed from industry",
+      "That AI research was funded by industry rather than by universities",
+      "That abstraction — pulling a generality out of specific experiences — is what animals and humans already do; what AI added is doing it algorithmically, at the scale of massive data",
+      "That AI has made abstraction obsolete, because models work directly on raw data"
+    ],
+    "answer": [2],
+    "explanation": "The ladder runs animal, human, AI: adaptive abstraction learned from experience, then deliberate abstraction taught as disciplines, then scalable abstraction extracted algorithmically. The novelty is the scale and the automation, not the operation.",
+    "source": { "deck": "infographics", "slide": 5 },
+    "difficulty": 3,
+    "tags": ["impact", "abstraction", "principles"],
+    "examFocus": false
+  },
+  {
+    "id": "eth-019",
+    "topic": "ethics-impact",
+    "type": "tf",
+    "stem": "Because a generative model produces something no one has seen before, its output cannot be checked and so should be treated as a matter of taste.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [1],
+    "explanation": "False. There is no ground truth to match, but plausible context relevance is still a standard you can fail: six fingers on a hand, or a citation to a paper that does not exist. Not verifiable is not the same as not judgeable.",
+    "source": { "deck": "lec 1", "slide": 30 },
+    "difficulty": 2,
+    "tags": ["evaluation", "literacy", "hallucination"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-020",
+    "topic": "ethics-impact",
+    "type": "text",
+    "stem": "One word completes the term for handing your thinking to a tool until the skill stops forming: cognitive ____.",
+    "choices": [],
+    "answer": [],
+    "accept": ["offloading", "offload", "off-loading", "outsourcing"],
+    "explanation": "Cognitive offloading. Offloading arithmetic you already understand is convenience; offloading the reasoning means the judgement needed to check the answer is exactly the judgement that never develops.",
+    "source": { "deck": "lec 1", "slide": 40 },
+    "difficulty": 1,
+    "tags": ["cognitive-offloading", "critical-thinking"],
+    "examFocus": true
+  },
+  {
+    "id": "eth-021",
+    "topic": "ethics-impact",
+    "type": "text",
+    "stem": "One word: what is it called when a language model states a fluent invention as though it were a fact?",
+    "choices": [],
+    "answer": [],
+    "accept": ["hallucination", "hallucinating", "hallucinations", "hallucinate"],
+    "explanation": "A hallucination. It follows from the standard the model is held to: plausible context relevance, not accuracy against a verifiable ground truth, so a convincing invention scores as well as a fact.",
+    "source": { "deck": "lec 1", "slide": 30 },
+    "difficulty": 1,
+    "tags": ["hallucination", "evaluation", "distinction"],
+    "examFocus": true
+  }
+]

@@ -1,0 +1,399 @@
+[
+  {
+    "id": "tra-001",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Neural networks take numbers, and words are not numbers. What are the two steps that get a sentence into a transformer?",
+    "choices": [
+      "Spell-check it, then translate it into English",
+      "Hash each word to an integer, then sort the integers",
+      "Split it into tokens, then embed each token as a vector of numbers whose position carries the word's meaning",
+      "Count how often each word occurs, then normalise the counts"
+    ],
+    "answer": [2],
+    "explanation": "Tokenise, then embed. Tokenising chops the text into units the model has a vocabulary for; embedding maps each unit to a vector, so that words with related meanings sit near one another.",
+    "source": { "deck": "lec 1", "slide": 68 },
+    "difficulty": 2,
+    "tags": ["embedding", "tokenization", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-002",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "What does it mean that word embeddings support 'word algebra', as in king minus male plus female giving queen?",
+    "choices": [
+      "The model stores a dictionary of analogies collected from the training text",
+      "Directions in the embedding space correspond to consistent relationships, so the offset that separates male words from female words is roughly the same vector everywhere",
+      "Words are assigned numbers in alphabetical order, so arithmetic on them preserves order",
+      "Each word is stored as the sum of the letters it contains"
+    ],
+    "answer": [1],
+    "explanation": "The geometry itself carries meaning. Because gender, tense and plurality each show up as a consistent direction, adding and subtracting vectors moves you along those relationships — which is why nothing about analogies had to be programmed in.",
+    "source": { "deck": "lec 1", "slide": 68 },
+    "difficulty": 2,
+    "tags": ["embedding", "word2vec", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-003",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "What is the difference between an embedding and attention?",
+    "choices": [
+      "An embedding is computed during training; attention is computed by hand",
+      "An embedding applies to words; attention applies to images",
+      "An embedding gives a word its global-context meaning as a vector; attention gives it a local-context interpretation relative to the other words in this particular sentence",
+      "An embedding is a layer; attention is a loss function"
+    ],
+    "answer": [2],
+    "explanation": "The embedding of 'bank' is the same wherever it appears — it carries what the word means in general. Attention is what decides that in 'the bank of the river' the neighbouring words should pull that meaning towards the shore rather than the vault.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["embedding", "attention", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-004",
+    "topic": "transformers",
+    "type": "text",
+    "stem": "What does the T in ChatGPT stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": ["transformer", "transformers"],
+    "explanation": "Transformer — the architecture underneath. GPT is Generative Pre-trained Transformer: generative because it produces new text, pre-trained because it learns from a corpus before any task, transformer because attention lets it weigh every other token when choosing the next one.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 1,
+    "tags": ["transformer", "gpt", "acronym", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-005",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "GPT stands for Generative Pre-trained Transformer. What does the 'pre-trained' part mean?",
+    "choices": [
+      "The model was trained on internet-scale text before being put to any particular task, so it arrives already knowing the language",
+      "The model was trained by a previous generation of researchers and inherited unchanged",
+      "The weights were initialised to sensible values before training rather than at random",
+      "The model is trained again from scratch before each conversation"
+    ],
+    "answer": [0],
+    "explanation": "Pre-training is the expensive general phase: predict the next token over a huge corpus, and language competence falls out. Everything after that — instruction tuning, a specific task — adapts a model that already exists.",
+    "source": { "deck": "GAI Lit 03", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["gpt", "acronym", "pretraining", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-006",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "How does a transformer decide which word it generates next?",
+    "choices": [
+      "It looks up the most common word that follows the previous one in its training corpus",
+      "It searches its training data for the closest matching sentence and copies the next word from it",
+      "It generates several complete sentences and picks the shortest",
+      "It embeds and positionally encodes the tokens, uses attention to weigh how much every other token should inform each one, and outputs a probability distribution over the whole vocabulary from which the next token is sampled"
+    ],
+    "answer": [3],
+    "explanation": "Embed, position, attend, then a distribution over the vocabulary. The model never chooses a word outright: it produces probabilities for all of them and one is sampled, which is why the same prompt can give different answers.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["transformer", "attention", "generation"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-007",
+    "topic": "transformers",
+    "type": "multi",
+    "stem": "Select the components that are genuinely main parts of a transformer as this course describes it.",
+    "choices": [
+      "Token embedding",
+      "Positional encoding",
+      "Convolutional filters slid across the token sequence",
+      "Self-attention layers",
+      "A recurrent loop that feeds each hidden state into the next step"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "Embedding, positional encoding and attention are the transformer's parts, with a feedforward block and an output softmax alongside them. Convolution belongs to the CNN, and the absence of recurrence is precisely what the transformer replaced.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["transformer", "architecture", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-008",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Attention looks at every token at once, in no particular order. What problem does positional encoding solve?",
+    "choices": [
+      "It records where the model is in the conversation so it can remember earlier turns",
+      "It stores the position of each word in the vocabulary list",
+      "It marks which tokens the model is allowed to attend to and which are masked",
+      "It tells the model where each token sits in the sequence, since without it 'the dog bit the man' and 'the man bit the dog' would be the same bag of tokens"
+    ],
+    "answer": [3],
+    "explanation": "Attention is order-blind by construction: it weighs relationships, not sequence. Positional encoding adds the missing information to each token's vector, so word order survives into the representation.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["positional-encoding", "attention", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-009",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Attention is built from three roles, usually written Q, K and V. What are they, in plain terms?",
+    "choices": [
+      "Question, knowledge and verification — the three stages of answering a prompt",
+      "Quantity, keyword and vocabulary — the three statistics kept per token",
+      "The query is what a token is looking for, the key is what each other token offers, and the value is the content passed along when a query and a key match well",
+      "Quick, keep and verbose — three decoding speeds the model can run at"
+    ],
+    "answer": [2],
+    "explanation": "Query, key, value. Matching queries against keys produces the weights, and the weighted mixture of values is what each token takes away — so attention is a learned, content-based lookup rather than a fixed wiring.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 3,
+    "tags": ["attention", "qkv", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-010",
+    "topic": "transformers",
+    "type": "text",
+    "stem": "One word: name the mechanism that lets each token in a sentence weigh how much every other token should inform its interpretation.",
+    "choices": [],
+    "answer": [],
+    "accept": ["attention", "self-attention", "self attention"],
+    "explanation": "Attention. It is what the 2017 paper title claims is all you need, and it supplies local context: the same embedded word is read differently depending on which other words are present and how strongly they weigh on it.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 1,
+    "tags": ["attention", "transformer"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-011",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Why did the transformer displace the recurrent network for language?",
+    "choices": [
+      "A recurrent network cannot be trained by backpropagation, but a transformer can",
+      "A recurrent network passes information along one step at a time, so distant words are hard to relate and the computation cannot be parallelised; attention connects every token to every other in one step",
+      "Recurrent networks cannot handle vocabularies larger than a few thousand words",
+      "The transformer needs no training data, so it scaled faster"
+    ],
+    "answer": [1],
+    "explanation": "Two wins at once: long-range dependencies become direct rather than relayed, and the sequence can be processed in parallel instead of in order. That parallelism is what made internet-scale pre-training affordable.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 3,
+    "tags": ["transformer", "rnn", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-012",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Which paper introduced the transformer, and in which year?",
+    "choices": [
+      "Mikolov and colleagues, 2013, 'Efficient Estimation of Word Representations'",
+      "Krizhevsky, Sutskever and Hinton, 2012, on ImageNet classification",
+      "Vaswani and colleagues, 2017, 'Attention Is All You Need'",
+      "Rumelhart, Hinton and Williams, 1986, on learning representations by back-propagating errors"
+    ],
+    "answer": [2],
+    "explanation": "Vaswani et al., 2017. It is the T in GPT, and it sits on the language timeline directly after word2vec in 2013 and directly before GPT in 2018.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 1,
+    "tags": ["timeline", "who", "transformer"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-013",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "What is the embedding dimension of a large GPT model, as quoted in this course, and what does that number count?",
+    "choices": [
+      "12,288 — the number of numbers used to represent a single token",
+      "12,288 — the number of tokens the model can hold in its context",
+      "512 — the number of attention layers stacked in the model",
+      "175 billion — the number of words in the vocabulary"
+    ],
+    "answer": [0],
+    "explanation": "About 12,288 numbers per token. That is the width of the vector a single word occupies, which is what gives an embedding room to encode many independent aspects of meaning at once.",
+    "source": { "deck": "lec 1", "slide": 68 },
+    "difficulty": 2,
+    "tags": ["embedding", "gpt", "scale"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-014",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "What is a large language model, in one sentence?",
+    "choices": [
+      "Any AI system that can hold a conversation, whatever is inside it",
+      "A database of language rules assembled by linguists and queried at run time",
+      "A model that translates between a large number of languages",
+      "A transformer with very many parameters, pre-trained on internet-scale text to predict the next token, which is then used to generate language"
+    ],
+    "answer": [3],
+    "explanation": "Architecture plus scale plus objective: a transformer, very large, trained to predict the next token on a very large corpus. Everything it appears to know is a by-product of getting good at that one prediction task.",
+    "source": { "deck": "GAI Lit 03", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["llm", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-015",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "A translation transformer has both an encoder and a decoder, but GPT is described as decoder-only. What does that difference reflect?",
+    "choices": [
+      "GPT is smaller, so one of the two halves was removed to save memory",
+      "GPT generates images rather than text, so it needs no encoder",
+      "Translation reads a complete source sentence and writes a different one, so it encodes then decodes. GPT continues the text it is given, so a single stack that attends to what came before and predicts what comes next is enough",
+      "The encoder is only needed when the model is trained with labels"
+    ],
+    "answer": [2],
+    "explanation": "The shape of the task sets the shape of the model. Two sequences in two languages call for encoder and decoder; one continuing sequence calls for a single stack predicting the next token.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 3,
+    "tags": ["transformer", "encoder-decoder", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-016",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "A word-level translation model reserves a special unknown token. What problem is it there to solve?",
+    "choices": [
+      "It marks the end of a sentence so the decoder knows when to stop",
+      "It hides words the model is not allowed to attend to during training",
+      "It stores words the model has not yet finished learning",
+      "It gives the model a symbol for any word outside its fixed vocabulary, so an unseen word degrades one position rather than breaking the input"
+    ],
+    "answer": [3],
+    "explanation": "A vocabulary is finite and language is not. Mapping everything unseen to one catch-all token keeps the input well-formed, at the cost of losing whatever that word meant — which is why modern models use sub-word tokens instead.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["tokenization", "vocabulary"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-017",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Why is the language timeline treated as central in this course, even for people who care about images?",
+    "choices": [
+      "Because text files are smaller than images, so more training data is available",
+      "Because language is how we communicate, and anything else — including a picture — can be described in words, so a model of language becomes a general interface",
+      "Because images cannot be tokenised",
+      "Because attention was invented for text and has never been applied to vision"
+    ],
+    "answer": [1],
+    "explanation": "Language turned out to be the general medium. Once text could be embedded and attended over, the same machinery could be pointed at images, audio and code — which is how the transformer became the backbone of multimodal models.",
+    "source": { "deck": "lec 5", "slide": 8 },
+    "difficulty": 3,
+    "tags": ["transformer", "multimodal", "timeline"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-018",
+    "topic": "transformers",
+    "type": "tf",
+    "stem": "A transformer chooses the single most probable next word every time, which is why its answers are consistent.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [1],
+    "explanation": "False. The output is a probability distribution over the vocabulary and the next token is sampled from it, so the same prompt can produce different continuations. Always taking the most probable token is one option, and it makes output repetitive rather than better.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 2,
+    "tags": ["generation", "sampling", "transformer", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-019",
+    "topic": "transformers",
+    "type": "text",
+    "stem": "One word: what are the units a sentence is chopped into before a transformer embeds it?",
+    "choices": [],
+    "answer": [],
+    "accept": ["tokens", "token", "tokenization", "tokenisation"],
+    "explanation": "Tokens. A token is usually a word or a fragment of one, drawn from a fixed vocabulary, and everything the model does — embedding, attention, prediction — happens over tokens rather than over letters or whole sentences.",
+    "source": { "deck": "GAI Lit 07", "slide": 7 },
+    "difficulty": 1,
+    "tags": ["tokenization"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-020",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "In what sense is a generative language model still doing prediction?",
+    "choices": [
+      "It predicts which of its training documents the user is thinking of",
+      "It is not predicting at all; generation and prediction are unrelated operations",
+      "It predicts the probability of the next token given everything before it, and generates by sampling that prediction and repeating — which is why the course says generative AI is built on predictive AI",
+      "It predicts the user's next question so it can prepare the answer in advance"
+    ],
+    "answer": [2],
+    "explanation": "Generation here is repeated prediction plus sampling. That is the loop the course points at when it says predictive and generative AI are not opposites: the generative model is a next-token predictor run forward.",
+    "source": { "deck": "lec 5", "slide": 1 },
+    "difficulty": 3,
+    "tags": ["predictive-generative", "distinction", "generation"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-021",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "Which sequence places the language-AI milestones in the right order?",
+    "choices": [
+      "Turing's imitation game, symbolic AI and expert systems, word2vec, the transformer, GPT",
+      "Symbolic AI, Turing's imitation game, the transformer, word2vec, GPT",
+      "Word2vec, Turing's imitation game, symbolic AI, GPT, the transformer",
+      "Turing's imitation game, word2vec, symbolic AI, GPT, the transformer"
+    ],
+    "answer": [0],
+    "explanation": "Turing 1950, then decades of rule-based expert systems later retronymed GOFAI, then word2vec in 2013 turning words into vectors, then the transformer in 2017, then GPT from 2018. Vectorising the words had to come before attention could weigh them.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 2,
+    "tags": ["timeline", "transformer"],
+    "examFocus": true
+  },
+  {
+    "id": "tra-022",
+    "topic": "transformers",
+    "type": "mcq",
+    "stem": "'Attention is all you need' is a strong claim. What was it claiming you no longer need?",
+    "choices": [
+      "Training data, because attention lets a model generalise from a handful of examples",
+      "Recurrence and convolution — the sequential and local mechanisms previous sequence models were built on",
+      "Embeddings, because attention operates directly on raw characters",
+      "A loss function, because attention weights are computed rather than learned"
+    ],
+    "answer": [1],
+    "explanation": "The title is about what was thrown away. Stripping out recurrence and convolution and keeping only attention plus feedforward layers was the move, and it is what made models trainable at scale.",
+    "source": { "deck": "lec 1", "slide": 70 },
+    "difficulty": 3,
+    "tags": ["transformer", "attention", "timeline", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "tra-023",
+    "topic": "transformers",
+    "type": "text",
+    "stem": "One word: what is the vector that carries a word's general meaning, and in which similar words sit close together, called?",
+    "choices": [],
+    "answer": [],
+    "accept": ["embedding", "embeddings", "word embedding", "word embeddings"],
+    "explanation": "An embedding. It gives a word its global-context meaning as a position in a high-dimensional space; attention is the separate mechanism that then adjusts that meaning for the particular sentence the word is in.",
+    "source": { "deck": "lec 1", "slide": 68 },
+    "difficulty": 1,
+    "tags": ["embedding", "distinction"],
+    "examFocus": true
+  }
+]

@@ -28,7 +28,7 @@
     "explanation": "Convolutional. The convolutional layer is a bank of small matrices with trainable entries that are slid across the grid of pixel values, and sliding one filter over every position is what makes it a convolution rather than a plain weighted sum.",
     "source": { "deck": "2025 midterm", "slide": 2 },
     "difficulty": 1,
-    "tags": ["cnn", "acronym"],
+    "tags": ["cnn", "acronym", "distinction"],
     "examFocus": true
   },
   {
@@ -100,7 +100,7 @@
     "explanation": "Scale covariance exists because distance changes apparent size: the same cat is 40 pixels across in one photo and 400 in another. Multiple scales let one learned feature fire for both.",
     "source": { "deck": "Wolfram CNN", "slide": 5 },
     "difficulty": 2,
-    "tags": ["scale", "vision-principles"],
+    "tags": ["scale", "vision-principles", "distinction"],
     "examFocus": false
   },
   {
@@ -118,7 +118,7 @@
     "explanation": "Hubel and Wiesel found neurons that fired for oriented lines, not whole objects, and lines combine upward into curves, shapes and objects. The CNN copies that ladder directly: edges, then textures, then parts, then the object.",
     "source": { "deck": "Wolfram CNN", "slide": 1 },
     "difficulty": 2,
-    "tags": ["hierarchy", "hubel-wiesel", "vision-principles"],
+    "tags": ["hierarchy", "hubel-wiesel", "vision-principles", "distinction"],
     "examFocus": true
   },
   {
@@ -205,7 +205,7 @@
     "explanation": "The convolutional stack outputs a stack of two-dimensional feature maps — a 3-D tensor. A fully-connected layer takes a plain vector, so the tensor is unrolled into one long list first. Nothing is computed; the numbers are only rearranged.",
     "source": { "deck": "Wolfram CNN", "slide": 4 },
     "difficulty": 2,
-    "tags": ["tensor", "layers"],
+    "tags": ["tensor", "layers", "distinction"],
     "examFocus": false
   },
   {
@@ -353,7 +353,10 @@
     "topic": "cnn-vision",
     "type": "tf",
     "stem": "A convolutional network needs a separate copy of each filter for every position in the image.",
-    "choices": ["True", "False"],
+    "choices": [
+      "True",
+      "False"
+    ],
     "answer": [1],
     "explanation": "False, and this is the point of the architecture. One filter's trainable entries are reused at every position, so the parameter count depends on the filter size and the number of filters, not on how big the image is.",
     "source": { "deck": "lec 5", "slide": 1 },

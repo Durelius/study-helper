@@ -1,0 +1,380 @@
+[
+  {
+    "id": "ae-001",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What is an autoencoder trained to do?",
+    "choices": [
+      "Classify its input into one of a fixed set of labels",
+      "Reproduce its own input at the output, after forcing it through a narrow middle layer",
+      "Predict the next item in a sequence from the items before it",
+      "Separate real examples from fakes produced by a second network"
+    ],
+    "answer": [1],
+    "explanation": "An autoencoder maps x to a compressed code and back to an approximation of x. The target is the input itself, which is why it needs no labels — and why the narrow middle is the only thing that makes the task non-trivial.",
+    "source": { "deck": "GAI Lit 06", "slide": 8 },
+    "difficulty": 1,
+    "tags": ["autoencoder", "architecture", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-002",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Without its bottleneck, an autoencoder would learn nothing useful. Why?",
+    "choices": [
+      "Because the loss function would have nothing to compare the output against",
+      "Because the decoder would have no input to work from",
+      "Because with enough width it could simply copy the input straight through, so it would never be forced to find what the data has in common",
+      "Because the gradient could not flow backwards through a wide layer"
+    ],
+    "answer": [2],
+    "explanation": "The narrow middle is the whole design. Fewer numbers than the input means the network must throw something away, and to reconstruct well it has to throw away the accidents and keep the structure.",
+    "source": { "deck": "GAI Lit 06", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["bottleneck", "autoencoder", "dimensionality-reduction", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-003",
+    "topic": "autoencoders",
+    "type": "text",
+    "stem": "One word: what is the compressed internal representation at an autoencoder's narrowest point called — the ____ space?",
+    "choices": [],
+    "answer": [],
+    "accept": ["latent", "latent space", "lantent"],
+    "explanation": "Latent. The latent space is the compressed code the encoder produces and the decoder reads; nearby points in it decode to similar outputs, which is what makes it a map of the data rather than a filing cabinet.",
+    "source": { "deck": "GAI Lit 07", "slide": 6 },
+    "difficulty": 1,
+    "tags": ["latent-space", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-004",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What is a latent space?",
+    "choices": [
+      "The compressed internal representation a network learns, in which each point stands for an input and nearby points stand for similar inputs",
+      "The unused capacity of a network — the neurons that never activate",
+      "The set of all images the network has been shown during training",
+      "The space of possible weight values the optimiser searches"
+    ],
+    "answer": [0],
+    "explanation": "The latent space is where the data lives once the accidental detail has been stripped out. Its dimensions are learned rather than chosen, and the fact that it is continuous is what lets you move through it and get sensible outputs.",
+    "source": { "deck": "GAI Lit 07", "slide": 6 },
+    "difficulty": 2,
+    "tags": ["latent-space", "definition", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-005",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What is the essential difference between an autoencoder and a variational autoencoder?",
+    "choices": [
+      "An AE has a decoder; a VAE has only an encoder",
+      "An AE is trained with labels; a VAE is trained without them",
+      "An AE encodes each input to one fixed point in the latent space; a VAE encodes it to a probability distribution over the latent space, which you can then sample from",
+      "An AE works on images; a VAE works on text"
+    ],
+    "answer": [2],
+    "explanation": "A point versus a distribution. Because the VAE's encoder outputs a distribution rather than a single code, the latent space is filled in continuously, so a point you draw at random still decodes to something realistic.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["ae-vae", "distinction", "latent-space"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-006",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Why is a variational autoencoder generative when a plain autoencoder is not?",
+    "choices": [
+      "Because the VAE is trained on far more data, so it has seen enough examples to invent new ones",
+      "Because you can sample a new point from the VAE's simple latent distribution and decode it into a new, realistic example that was never in the training set; the plain AE only has codes for inputs it was given",
+      "Because the VAE has a second network that judges whether its output looks real",
+      "Because the VAE's decoder is larger than its encoder"
+    ],
+    "answer": [1],
+    "explanation": "Generation is sampling. The VAE trains its latent space to look like a simple distribution, so drawing z from that distribution and pushing it through the decoder yields a new example. A plain AE's latent space has holes, and a point in a hole decodes to nothing meaningful.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["ae-vae", "distinction", "generation"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-007",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "After a VAE has been trained, how is a new image actually produced?",
+    "choices": [
+      "An existing image is passed through the encoder and the output is returned unchanged",
+      "The decoder is run backwards from a chosen label",
+      "The training images are averaged and noise is added to the result",
+      "A point z is drawn at random from the simple latent distribution and pushed through the decoder"
+    ],
+    "answer": [3],
+    "explanation": "Sample, then decode. Nothing is encoded at generation time: the randomness supplies the variation and the learned decoder supplies the structure, which is exactly the course's 'learn z to x, then crank the PRNG'.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 2,
+    "tags": ["vae", "generation", "prng"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-008",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "A VAE's training objective has two competing parts. What are they, and why must they compete?",
+    "choices": [
+      "A reconstruction term, keeping the output close to the input, and a regularisation term, keeping the latent distribution close to a simple prior; reconstruction alone would scatter the codes and leave the space full of holes",
+      "A classification term and a clustering term, so the latent space is organised by class",
+      "A generator term and a discriminator term, played against each other",
+      "A forward-noising term and a reverse-denoising term"
+    ],
+    "answer": [0],
+    "explanation": "Reconstruction pulls the codes apart so each input is recoverable; regularisation pushes them back together into one simple, gap-free distribution. Generation needs both — a space you can sample from and a decoder that makes something of what you sample.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["vae", "objective", "latent-space"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-009",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "An autoencoder lab is described as 'our first generative AI'. What is the honest verdict on that claim?",
+    "choices": [
+      "Yes without qualification — reconstructing an image is generating an image",
+      "No in any sense — an autoencoder is a classifier",
+      "Yes in that it is the first architecture in the course that produces an output resembling its training data and contains a decoder you could sample from, but a plain AE only reconstructs; it takes the VAE's probabilistic latent space to make it genuinely generative",
+      "Yes, because it is trained without labels, and all unsupervised learning is generative"
+    ],
+    "answer": [2],
+    "explanation": "The autoencoder is the hinge of the course: it is where a network stops mapping input to label and starts mapping a compressed representation back to data. The decoder is a generator in waiting; the VAE supplies the distribution that lets you actually crank it.",
+    "source": { "deck": "GAI Lit 06", "slide": 8 },
+    "difficulty": 3,
+    "tags": ["ae-vae", "distinction", "generation"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-010",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Where do the VAE and the U-Net sit on the arc from predictive to generative architectures?",
+    "choices": [
+      "Both are purely predictive, alongside the MLP and the CNN",
+      "Both are purely generative, alongside the Transformer and the diffusion model",
+      "They form the representation bridge — they learn compact, structured representations that capture the underlying factors of the data, which is what makes both prediction and generation possible",
+      "Neither is on the arc; they are training techniques rather than architectures"
+    ],
+    "answer": [2],
+    "explanation": "MLP and CNN predict; Transformer and diffusion generate; VAE and U-Net are the bridge in between. The bridge's question is 'what is the underlying structure?', against prediction's 'what is most likely?' and generation's 'what could be?'.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["architecture", "six-architectures", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-011",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What makes a U-Net a U-Net rather than an ordinary encoder-decoder?",
+    "choices": [
+      "Its encoder and decoder are trained separately, one after the other",
+      "Its latent space is probabilistic rather than deterministic",
+      "It has two decoders, one for shape and one for colour",
+      "Skip connections carry fine spatial detail from each encoder stage across to the matching decoder stage, so detail lost in the downsampling is restored on the way back up"
+    ],
+    "answer": [3],
+    "explanation": "Compressing to a bottleneck destroys exactly the pixel-level precision a segmentation mask needs. The skip connections hand that detail straight across, which is where the U in the diagram comes from.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["u-net", "skip-connections", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-012",
+    "topic": "autoencoders",
+    "type": "text",
+    "stem": "One word: what kind of connection carries fine spatial detail across the bottleneck of a U-Net, giving the architecture its shape?",
+    "choices": [],
+    "answer": [],
+    "accept": ["skip", "skip connection", "skip connections"],
+    "explanation": "A skip connection. It passes each encoder stage's output directly to the matching decoder stage, so high-level context from the bottleneck and fine detail from the early layers are combined when the output is reconstructed.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 1,
+    "tags": ["u-net", "skip-connections"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-013",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "A hospital needs each pixel of a scan labelled as tumour or healthy tissue. Which architecture is designed for that, and why?",
+    "choices": [
+      "A U-Net, because its skip connections preserve the fine spatial detail an output that must be pixel-accurate requires",
+      "An MLP, because every pixel can be an input and every pixel an output",
+      "A transformer, because attention lets every pixel see every other pixel",
+      "A plain autoencoder, because it reconstructs the image exactly"
+    ],
+    "answer": [0],
+    "explanation": "Image segmentation is the U-Net's signature task, and medical imaging is where it was introduced. The output has the shape of the input, which is why the decoder must be handed back the detail the encoder discarded.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 2,
+    "tags": ["u-net", "segmentation", "scenario"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-014",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "What is the general idea of an encoder-decoder architecture, beyond the autoencoder case?",
+    "choices": [
+      "Two networks compete, one producing candidates and one judging them",
+      "One network compresses the input into a representation, and a second expands that representation into the target — which may be the same thing, or a translation of it, or a mask over it",
+      "One network is trained first and its weights are frozen while a second is trained on top",
+      "The same network is run twice, once forwards and once in reverse"
+    ],
+    "answer": [1],
+    "explanation": "Compress, then expand. The target need not be the input: encoder-decoder is how a sentence becomes its translation, an image becomes its segmentation mask, and a noisy image becomes a clean one.",
+    "source": { "deck": "GAI Lit 07", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["encoder-decoder", "architecture", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-015",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "The encoder-decoder idea appears on the course's milestone list twice over, in 1997 and again around 2014. What was it used for that made it famous?",
+    "choices": [
+      "Chess, where the encoder read the board and the decoder chose the move",
+      "Expert systems, where the encoder turned symptoms into rules",
+      "Face recognition, where the encoder produced a fingerprint of each face",
+      "Machine translation, including Google Translate: the encoder compresses a sentence in one language and the decoder expands it into another"
+    ],
+    "answer": [3],
+    "explanation": "Translation is the natural encoder-decoder task, because the output is the same meaning in a different form. The course pairs the 1997 encoder-decoder with the arrival of 'deep learning' around 2014 and the rebuilt Google Translate.",
+    "source": { "deck": "GAI Lit 03", "slide": 5 },
+    "difficulty": 2,
+    "tags": ["encoder-decoder", "timeline", "translation"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-016",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "A factory trains an autoencoder on images of correctly made parts only, then watches its reconstruction error in production. What is it detecting, and how?",
+    "choices": [
+      "Anomalies: the autoencoder reconstructs what it has learned well, so a defective part reconstructs badly and the error spikes",
+      "Overfitting: a rising reconstruction error means the model has memorised the training set",
+      "Class imbalance: the error reveals which class is under-represented",
+      "Drift in the camera calibration, which the latent space measures directly"
+    ],
+    "answer": [0],
+    "explanation": "Anomaly detection is the classic use of a reconstruction error. The latent space has room only for the regularities of normal parts, so anything outside that distribution comes back distorted — and the size of the distortion is the alarm.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 3,
+    "tags": ["autoencoder", "anomaly-detection", "scenario"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-017",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "How do a VAE and a diffusion model differ in what they learn?",
+    "choices": [
+      "The VAE learns from images, the diffusion model from text descriptions",
+      "The VAE learns both directions — an encoder into a simple distribution and a decoder back out. A diffusion model prescribes the forward noising process and learns only the reverse",
+      "The VAE learns the reverse process and the diffusion model learns the forward one",
+      "Neither learns anything about the data distribution; both memorise the training set"
+    ],
+    "answer": [1],
+    "explanation": "Both end up with a map from a simple distribution to the data, but they get there by different learning games. Nothing is learned about the diffusion model's forward corruption — it is designed — and that is what makes the reverse a clean supervised target.",
+    "source": { "deck": "infographics", "slide": 4 },
+    "difficulty": 3,
+    "tags": ["vae-diffusion", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-018",
+    "topic": "autoencoders",
+    "type": "text",
+    "stem": "One word: the half of an autoencoder that turns a latent code back into data, and which becomes the generator once the latent space is one you can sample from.",
+    "choices": [],
+    "answer": [],
+    "accept": ["decoder", "the decoder"],
+    "explanation": "The decoder. The encoder compresses data into the latent space and is discarded at generation time; the decoder expands a latent point into an output, so it is the decoder alone that does the generating.",
+    "source": { "deck": "GAI Lit 07", "slide": 5 },
+    "difficulty": 1,
+    "tags": ["encoder-decoder", "vae", "generation", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "ae-019",
+    "topic": "autoencoders",
+    "type": "tf",
+    "stem": "An autoencoder needs labelled training data, because it has to be told what the correct output is.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [1],
+    "explanation": "False. The correct output is the input itself, so an autoencoder supplies its own target and needs no labels. That self-supervision is why it can be trained on any pile of unlabelled images.",
+    "source": { "deck": "GAI Lit 06", "slide": 8 },
+    "difficulty": 2,
+    "tags": ["autoencoder", "ml-paradigms", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-020",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "Both an autoencoder's bottleneck and a zip file reduce the size of the data. What is the difference in kind?",
+    "choices": [
+      "The autoencoder is faster, because it runs on a GPU",
+      "There is no difference; an autoencoder is a compression algorithm",
+      "Zip compression is lossless and general — it can restore any file exactly. The autoencoder is lossy and specific: it learns what matters in one kind of data and discards the rest, so the code is a representation rather than a copy",
+      "Zip compression is learned from data; the autoencoder's is fixed in advance"
+    ],
+    "answer": [2],
+    "explanation": "The autoencoder's loss is the point, not a defect. Discarding what does not generalise is exactly how the bottleneck ends up holding the underlying factors of the data, which a general-purpose compressor never finds.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 3,
+    "tags": ["bottleneck", "representation", "distinction"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-021",
+    "topic": "autoencoders",
+    "type": "mcq",
+    "stem": "In a two-dimensional latent space trained on handwritten digits, the points form separated clusters by digit. What does moving smoothly between two clusters produce?",
+    "choices": [
+      "An error, because the point lies between two classes and belongs to neither",
+      "The average pixel brightness of the two digits",
+      "A sequence of decoded images that morph gradually from one digit into the other, because the space is continuous and every point in it decodes to something",
+      "The same digit repeated, since the decoder rounds to the nearest cluster"
+    ],
+    "answer": [2],
+    "explanation": "A well-trained latent space is continuous, not a lookup table. That is the reason a VAE can generate: every point decodes to a plausible example, including points no training image ever occupied.",
+    "source": { "deck": "infographics", "slide": 3 },
+    "difficulty": 3,
+    "tags": ["latent-space", "generation", "vae"],
+    "examFocus": false
+  },
+  {
+    "id": "ae-022",
+    "topic": "autoencoders",
+    "type": "text",
+    "stem": "One word: what is the narrow middle layer of an autoencoder called, the one that forces the network to compress?",
+    "choices": [],
+    "answer": [],
+    "accept": ["bottleneck", "bottle neck", "bottle-neck"],
+    "explanation": "The bottleneck. It holds fewer numbers than the input, so the network cannot copy the input through and must instead keep whatever generalises — which is how a latent representation gets learned at all.",
+    "source": { "deck": "GAI Lit 06", "slide": 8 },
+    "difficulty": 1,
+    "tags": ["bottleneck", "autoencoder", "definition"],
+    "examFocus": true
+  }
+]

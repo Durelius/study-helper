@@ -11,6 +11,7 @@ import QuizPicker from './pages/QuizPicker'
 import Runner from './pages/Runner'
 import Results from './pages/Results'
 import { api, type CourseInfo } from './lib/api'
+import { normaliseName } from './lib/name'
 import { rememberName, storedName } from './lib/player'
 
 const tabs = [
@@ -54,11 +55,15 @@ function Shell({ name, setName }: { name: string; setName: (n: string) => void }
           </span>
           <button
             onClick={() => {
-              const next = window.prompt('Leaderboard name', name)?.trim()
-              if (next) {
-                rememberName(next)
-                setName(next)
+              const typed = window.prompt('Leaderboard name', name)
+              if (typed === null) return
+              const check = normaliseName(typed)
+              if (!check.ok) {
+                window.alert(check.reason)
+                return
               }
+              rememberName(check.name)
+              setName(check.name)
             }}
             className="ml-auto text-[0.82rem] text-ink-soft underline decoration-line underline-offset-4"
           >

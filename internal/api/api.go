@@ -225,7 +225,7 @@ func (s *Server) handleStartQuiz(w http.ResponseWriter, r *http.Request) {
 	}
 	playerID, name, err := s.DB.Player(req.Player)
 	if err != nil {
-		writeError(w, http.StatusBadRequest, "A name is needed before starting — it goes on the leaderboard.")
+		writeError(w, http.StatusBadRequest, err.Error())
 		return
 	}
 
@@ -565,7 +565,7 @@ func (s *Server) handleListen(w http.ResponseWriter, r *http.Request) {
 	}
 	playerID, _, err := s.DB.Player(req.Player)
 	if err != nil {
-		writeError(w, http.StatusBadRequest, "A name is needed to keep your place.")
+		writeError(w, http.StatusBadRequest, err.Error())
 		return
 	}
 	if err := s.DB.RecordListening(playerID, req.Episode, req.Position, req.Delta); err != nil {
