@@ -6,21 +6,62 @@
   "exam": "2026-09-25T13:00:00+07:00",
   "generators": [],
   "topics": [
-    { "id": "concepts", "title": "The I, the A and the G", "weight": 20 },
-    { "id": "timelines", "title": "The Language and Vision Timelines", "weight": 12 },
-    { "id": "neural-networks", "title": "How Neural Networks Learn", "weight": 18 },
-    { "id": "cnn-vision", "title": "CNNs and Machine Vision", "weight": 14 },
-    { "id": "autoencoders", "title": "Autoencoders, VAEs and Latent Space", "weight": 10 },
-    { "id": "transformers", "title": "Transformers, Attention and LLMs", "weight": 9 },
-    { "id": "generative-models", "title": "The Generative Architectures Compared", "weight": 14 },
-    { "id": "ethics-impact", "title": "Ethics and Impact", "weight": 4 }
+    {
+      "id": "concepts",
+      "title": "The I, the A and the G",
+      "weight": 20
+    },
+    {
+      "id": "timelines",
+      "title": "The Language and Vision Timelines",
+      "weight": 12
+    },
+    {
+      "id": "neural-networks",
+      "title": "How Neural Networks Learn",
+      "weight": 18
+    },
+    {
+      "id": "cnn-vision",
+      "title": "CNNs and Machine Vision",
+      "weight": 14
+    },
+    {
+      "id": "autoencoders",
+      "title": "Autoencoders, VAEs and Latent Space",
+      "weight": 10
+    },
+    {
+      "id": "transformers",
+      "title": "Transformers, Attention and LLMs",
+      "weight": 9
+    },
+    {
+      "id": "generative-models",
+      "title": "The Generative Architectures Compared",
+      "weight": 14
+    },
+    {
+      "id": "ethics-impact",
+      "title": "Ethics and Impact",
+      "weight": 4
+    }
   ],
   "modes": [
+    {
+      "id": "exam",
+      "count": 10,
+      "timeLimitSec": 900,
+      "blurb": "Ten questions, like the real paper.",
+      "why": "The real midterm is ten questions with two ruled lines each. This draws ten across the topics in proportion to their marks. The clock is for pacing practice, not the exam's real duration."
+    },
     {
       "id": "distinctions",
       "title": "Tell them apart",
       "count": 20,
-      "tags": ["distinction"],
+      "tags": [
+        "distinction"
+      ],
       "blurb": "AE or VAE? Gradient descent or backprop?",
       "why": "Two ruled lines per answer means the marks sit in the clause that separates a term from its neighbour. This is the highest-yield drill in the course."
     },
@@ -28,17 +69,33 @@
       "id": "architectures",
       "title": "The six architectures",
       "count": 16,
-      "topics": ["neural-networks", "cnn-vision", "autoencoders", "transformers", "generative-models"],
-      "tags": ["architecture"],
+      "topics": [
+        "neural-networks",
+        "cnn-vision",
+        "autoencoders",
+        "transformers",
+        "generative-models"
+      ],
+      "tags": [
+        "architecture"
+      ],
       "blurb": "MLP, CNN, VAE, U-Net, Transformer, Diffusion.",
-      "why": "The examiner's own blueprint line reads 'Architectures: Multi-Layer Perceptron, Convolutional NN, VAE, ..' — know each one's key idea and where it sits on the predictive-to-generative arc."
+      "why": "The examiner's own blueprint line reads 'Architectures: Multi-Layer Perceptron, Convolutional NN, VAE, ..' \u2014 know each one's key idea and where it sits on the predictive-to-generative arc."
     },
     {
       "id": "names-dates",
       "title": "Names and dates",
       "count": 14,
-      "topics": ["timelines", "cnn-vision", "transformers", "generative-models"],
-      "tags": ["timeline", "who"],
+      "topics": [
+        "timelines",
+        "cnn-vision",
+        "transformers",
+        "generative-models"
+      ],
+      "tags": [
+        "timeline",
+        "who"
+      ],
       "blurb": "Who did what, and roughly when.",
       "why": "The course is attribution-heavy on both sides, and a name plus a year is the cheapest half of a two-line answer."
     }
