@@ -60,6 +60,24 @@ courts app, so this is usually a no-op:
 sudo setsebool -P httpd_can_network_connect 1
 ```
 
+### Compression
+
+`AddOutputFilterByType DEFLATE` in the vhost is not optional. Without it the frontend
+bundle goes out at ~460 KB instead of ~140 KB, and on a weak mobile connection the
+transfer is cut off part-way — which presents as a blank page, not as an error, because
+the HTML and CSS arrive and only the script is truncated.
+
+**certbot copies the vhost when it creates the TLS one**, so if you add directives to
+`valuechain.conf` after running certbot, add them to `valuechain-le-ssl.conf` as well —
+that is the file actually serving traffic.
+
+Check it with:
+
+```sh
+curl -s -o /dev/null -H 'Accept-Encoding: gzip' -w '%{size_download}\n' \
+  https://valuechain.wilhelm.my/assets/<hashed>.js
+```
+
 ## 4. First deploy
 
 ```sh
