@@ -4,6 +4,7 @@ import NameGate from './components/NameGate'
 import Dashboard from './pages/Dashboard'
 import Audio from './pages/Audio'
 import { AudioProvider, useAudio } from './components/AudioPlayer'
+import { SourceProvider } from './components/SourceViewer'
 import Leaderboard from './pages/Leaderboard'
 import Read from './pages/Read'
 import Notes from './pages/Notes'
@@ -34,7 +35,9 @@ export default function App() {
   // them rendered inside the Audio tab.
   return (
     <AudioProvider name={name}>
-      <Shell name={name} setName={setName} />
+      <SourceProvider>
+        <Shell name={name} setName={setName} />
+      </SourceProvider>
     </AudioProvider>
   )
 }

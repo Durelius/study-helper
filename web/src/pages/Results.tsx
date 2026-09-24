@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { api, type Review, type Session } from '../lib/api'
 import { accuracy, duration, percent } from '../lib/format'
+import { SourceLink } from '../components/SourceViewer'
 
 type Breakdown = { topic: string; title: string; seen: number; correct: number }
 
@@ -58,7 +59,12 @@ export default function Results() {
           <li key={r.question.id} className="border-t border-line pt-4">
             <p className="text-[0.76rem] text-ink-faint">
               {i + 1} · {r.question.topicTitle}
-              {r.source.slide > 0 && ` · deck ${r.source.deck}, slide ${r.source.slide}`}
+              {r.source.slide > 0 && (
+                <>
+                  {' · '}
+                  <SourceLink source={r.source} />
+                </>
+              )}
             </p>
             <p className="mt-1.5 text-[0.98rem] leading-snug">{r.question.stem}</p>
             <ul className="mt-2 space-y-1">

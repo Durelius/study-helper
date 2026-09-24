@@ -3,6 +3,7 @@ import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import type { Notes, Question } from '../lib/api'
 import { toggleChoice } from '../lib/choices'
+import { Citation } from './SourceViewer'
 
 // NotesBody renders a lecture's markdown with its inline retrieval checks in place.
 // It is shared by the Read page and the reading panel on the Audio tab, so a question
@@ -30,7 +31,9 @@ export default function NotesBody({ notes }: { notes: Notes }) {
       {blocks.map((b, i) =>
         b.kind === 'md' ? (
           <div key={i} className="prose">
-            <Markdown remarkPlugins={[remarkGfm]}>{b.text}</Markdown>
+            <Markdown remarkPlugins={[remarkGfm]} components={{ code: (p) => cite(p, notes.deck) }}>
+              {b.text}
+            </Markdown>
           </div>
         ) : (
           <Check key={i} question={b.question} />
@@ -38,6 +41,18 @@ export default function NotesBody({ notes }: { notes: Notes }) {
       )}
     </>
   )
+}
+
+// A section ends with its sources as inline code, `[lec 1, slides 32, 59]`. Those
+// become links into the slides; any other inline code renders as code.
+function cite(
+  { children, className }: { children?: React.ReactNode; className?: string },
+  lectureDeck: string,
+) {
+  const text = typeof children === 'string' ? children : ''
+  const m = !className && text.match(/^\[(.+)\]$/)
+  if (m) return <Citation text={m[1]} lectureDeck={lectureDeck} />
+  return <code className={className}>{children}</code>
 }
 
 // Check is a question dropped into the middle of the reading. It grades on the server

@@ -1,0 +1,38 @@
+{
+  "root": "~/chula/ailiteracy",
+  "decks": [
+    { "deck": "lec 1", "title": "Lecture 1 — Nacaskul, 7 Aug", "pdf": "lec1/Nacaskul_Poomjai(2026.08.07).pdf" },
+    { "deck": "GAI Lit 02", "title": "Gen AI Lit 02 — Niinimaki", "pdf": "lec2/Gen AI Lit 02.pdf" },
+    { "deck": "GAI Lit 03", "title": "Gen AI Lit 03 — Niinimaki", "pdf": "Gen AI Lit 03.pdf" },
+    { "deck": "lec 5", "title": "Lecture 5 — summary notes", "pdf": "lec5/Generative AI Literacy and applications.pdf" },
+    { "deck": "GAI Lit 06", "title": "Gen AI Lit 06 — Niinimaki", "pdf": "Gen AI Lit 06.pdf" },
+    { "deck": "GAI Lit 07", "title": "Gen AI Lit 07 — Niinimaki", "pdf": "Gen AI Lit 07.pdf" },
+    { "deck": "2024 midterm", "title": "2024 Applied AI midterm (excerpt)", "pdf": "(excerpt) 2024 Applied AI - midterm w soln.pdf" },
+    { "deck": "2025 midterm", "title": "2025 GAI Lit midterm (excerpt)", "pdf": "(excerpt) 2025 GAI Lit _amp_ Appl - midterm w soln.pdf" },
+    {
+      "deck": "infographics",
+      "title": "Infographic sheets",
+      "label": "sheet",
+      "zip": "(GAI-infographics) GAI Literacy _amp_ Appl.zip",
+      "pages": {
+        "2": ["From Predictive AI to Generative AI - v2.png"],
+        "3": ["From Prediction to Generation - 6 Key Architectures - v3.png"],
+        "4": ["From VAE to Diffusion Models to Flow Matching - v2.png"],
+        "5": ["From Instinct to Imagination to Intelligence at Scale.png"],
+        "6": [
+          "But what is a neural network (Deep learning chapter 1) - 3Blue2Brown - v3.jpg",
+          "Gradient descent, how neural networks learn (Deep learning chapter 2) - 3Blue2Brown.jpg"
+        ],
+        "7": ["Master Timeline of AI - v3.png"],
+        "8": ["Five Principles in Modern Deep Learning - v2.png"],
+        "9": ["Fr Idea to Intelligence - A Combined Timeline of Key AI & NN Concepts - v4.png"],
+        "10": ["The Story of ResNets - Fr Stalled Deep Learning to a Breakthrough Idea - v2.png"],
+        "11": ["The Encoder-Decoder Architecture - A Timeline & Genealogy.png"],
+        "12": ["Functional Complexity in NN - Fr Universal Approx to Diverse Paths & Links.png"],
+        "13": ["From Calculus to Backprop - the Road to Learning NN.png.png"],
+        "14": ["Decoding the MLP-FFN Backbone - A Synopsis of LLM Factuality & Efficiency - v3.jpg"],
+        "15": ["Generative AI - Literacy Roadmap - v2.png"]
+      }
+    }
+  ]
+}

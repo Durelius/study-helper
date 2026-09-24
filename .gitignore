@@ -1,7 +1,7 @@
 node_modules/
 dist/chulastudy
-server
-chulastudy
+/server
+/chulastudy
 *.db
 *.db-wal
 *.db-shm
@@ -9,3 +9,7 @@ chulastudy
 
 # Rendered audiobooks are ~140 MB per course and ship by rsync, not git.
 courses/*/audio/
+
+# Rendered source slides, ~20 MB per course, rebuilt by tools/materials.py and
+# shipped with the course directory by deploy.sh.
+courses/*/materials/

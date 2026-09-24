@@ -154,6 +154,17 @@
 }
 
 @layer components {
+  /* A citation that opens its slide. Dotted rather than solid so it reads as a reference
+     you can follow, not as a call to action competing with the answer. */
+  .cite {
+    color: inherit;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--ink-faint);
+    text-underline-offset: 3px;
+    cursor: pointer;
+  }
+  .cite:hover { color: var(--ink); text-decoration-style: solid; }
+
   /* Buttons are defined once, here, rather than as a string of utilities repeated at
      every call site — which is how the disabled state ended up as a bare opacity
      fade that made the label vanish into the fill. */

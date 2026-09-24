@@ -46,3 +46,19 @@ startup.
 To check a voice before committing to a full run, `audiobook.py --dump <topic>` prints
 the speech text with its pauses, which is also the fastest way to catch a symbol that
 would read badly.
+
+## materials.py — the slides behind every citation
+
+Renders each deck a course cites into one WebP per page, so a citation in the app opens
+the slide it came from. `<course>/materials.json` maps each deck name the content uses
+(`lec 1`, `GAI Lit 07`, `infographics`) to its PDF, or for zipped images, to the file
+behind each sheet number.
+
+```sh
+brew install poppler webp
+python3 tools/materials.py courses/genai-literacy
+```
+
+Output goes to `<course>/materials/` (about 19 MB for GenAI Literacy). It is not in git;
+`deploy.sh` ships it with the rest of the course directory. A course without it shows
+citations as plain text.

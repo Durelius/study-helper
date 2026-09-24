@@ -8,6 +8,7 @@ import type { DiagramSpec } from '../lib/diagram'
 import { api, type Mode, type Network, type Question, type Verdict } from '../lib/api'
 import { duration } from '../lib/format'
 import { toggleChoice } from '../lib/choices'
+import { SourceLink } from '../components/SourceViewer'
 
 type RunState = { id: string; player: string; mode: Mode; questions: Question[] }
 
@@ -98,6 +99,9 @@ export default function Runner() {
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (!question) return
+      // A slide open over the question owns the keyboard, or Enter on its Close
+      // button would also skip to the next question.
+      if (document.querySelector('[role=dialog]')) return
       // On a free-text question the number keys are part of the answer, not a choice.
       if (question.type !== 'text') {
         const n = Number(e.key)
@@ -346,7 +350,7 @@ export default function Runner() {
           <p className="mt-1.5 text-[0.95rem] leading-relaxed text-ink-soft">{verdict.explanation}</p>
           {verdict.source.slide > 0 && (
             <p className="mt-2 text-[0.78rem] text-ink-faint">
-              Deck {verdict.source.deck}, slide {verdict.source.slide}
+              Source: <SourceLink source={verdict.source} />
             </p>
           )}
           <button

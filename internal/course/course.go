@@ -143,6 +143,8 @@ func (c *Course) Has(generator string) bool {
 	return false
 }
 
-// ContentDir and AudioDir are the conventional locations inside a course directory.
-func (c *Course) ContentDir() string { return filepath.Join(c.Dir, "content") }
-func (c *Course) AudioDir() string   { return filepath.Join(c.Dir, "audio") }
+// ContentDir, AudioDir and MaterialsDir are the conventional locations inside a course
+// directory. MaterialsDir holds the source slides rendered by tools/materials.py.
+func (c *Course) ContentDir() string   { return filepath.Join(c.Dir, "content") }
+func (c *Course) AudioDir() string     { return filepath.Join(c.Dir, "audio") }
+func (c *Course) MaterialsDir() string { return filepath.Join(c.Dir, "materials") }
