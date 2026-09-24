@@ -1,0 +1,961 @@
+[
+  {
+    "id": "core-001",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A student answers: 'Predictive AI is judged on accuracy; generative AI is judged on creativity.' Which correction turns this into a full-mark answer?",
+    "choices": [
+      "Swap them: generative AI is the one judged on accuracy, because it must reproduce its training data",
+      "Replace 'creativity' with 'novelty': generative AI is judged on how different its output is from the training data",
+      "Replace 'creativity' with 'plausible context relevance', and make 'accuracy' specifically accuracy against verifiable ground truths",
+      "Nothing needs changing; accuracy versus creativity is the course's own distinction"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The course's wording is the mark: predictive AI is evaluated on accuracy against verifiable ground truths (an MLP classifier), generative AI on plausible context relevance (GPT). 'Creativity' and 'novelty' are the tempting paraphrases, and neither is the standard the course names.",
+    "source": {
+      "deck": "2024 midterm",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "predictive-generative",
+      "distinction",
+      "evaluation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-002",
+    "topic": "exam-core",
+    "type": "multi",
+    "stem": "Select all the statements that describe predictive AI rather than generative AI.",
+    "choices": [
+      "It learns a mapping x → y, then you crank the input",
+      "It learns a mapping z → x, then you crank the pseudo-random number generator",
+      "It asks 'What WILL be?'",
+      "It models the data distribution p(x), or p(x|c) when conditioned",
+      "It is judged on accuracy against verifiable ground truths"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Predictive: learn x → y and crank the input, ask what WILL be, score against ground truth. The z → x map cranked by the PRNG and the model of p(x) are the generative side — 'what COULD be?'.",
+    "source": {
+      "deck": "infographics",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "predictive-generative",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-003",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "The question says 'give one example of each'. Which pairing of examples is correct?",
+    "choices": [
+      "Predictive: GPT; generative: an MLP classifier",
+      "Predictive: an MLP classifier, or cluster analysis; generative: GPT",
+      "Predictive: a diffusion model; generative: a CNN image classifier",
+      "Predictive: cluster analysis; generative: a CNN, because it produces feature maps"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The 2024 model answer gives an MLP (supervised) and cluster analysis (unsupervised) as predictive examples and GPT as the generative one. A CNN classifier is predictive even though it computes feature maps: producing intermediate numbers is not generating new content.",
+    "source": {
+      "deck": "2024 midterm",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "predictive-generative",
+      "example"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-004",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which grouping of the course's six foundational architectures into its three stages is right?",
+    "choices": [
+      "Predict: MLP, CNN · Represent: VAE, U-Net · Generate: Transformer, Diffusion",
+      "Predict: MLP, CNN, U-Net · Represent: VAE · Generate: Transformer, GAN",
+      "Predict: MLP · Represent: CNN, VAE · Generate: U-Net, Transformer, Diffusion",
+      "Predict: MLP, CNN · Represent: Transformer, U-Net · Generate: VAE, Diffusion"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "MLP and CNN predict ('what is most likely?'), VAE and U-Net form the representation bridge ('what is the underlying structure?'), Transformer and Diffusion generate ('what could be?'). The GAN is part of the story but is not one of the six.",
+    "source": {
+      "deck": "infographics",
+      "slide": 3
+    },
+    "difficulty": 2,
+    "tags": [
+      "architectures",
+      "six"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-005",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "Fill the gap in the course's list of six architectures, in order: MLP, CNN, VAE, ____, Transformer, Diffusion.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "u-net",
+      "unet",
+      "u net"
+    ],
+    "explanation": "U-Net, the encoder-decoder CNN whose skip connections carry fine spatial detail across the bottleneck — the other half of the representation bridge with the VAE. It is the one of the six students most often forget.",
+    "source": {
+      "deck": "infographics",
+      "slide": 3
+    },
+    "difficulty": 1,
+    "tags": [
+      "architectures",
+      "six",
+      "u-net"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-006",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Asked to tell the U-Net apart from a plain encoder-decoder, which clause earns the mark?",
+    "choices": [
+      "It compresses the input to a narrower bottleneck than any other encoder-decoder",
+      "It encodes each input to a probability distribution rather than a point",
+      "It replaces convolution with attention in the decoder half",
+      "Skip connections carry fine spatial detail from each encoder stage across to the matching decoder stage"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The skip connections are what make the U: detail destroyed on the way down is handed straight across, which is why U-Nets suit segmentation and medical imaging. Encoding to a distribution is the VAE's distinguishing clause, not the U-Net's.",
+    "source": {
+      "deck": "infographics",
+      "slide": 3
+    },
+    "difficulty": 2,
+    "tags": [
+      "architectures",
+      "u-net",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-007",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which sentence states the relationship between gradient descent and backpropagation the way the course wants it?",
+    "choices": [
+      "Backpropagation computes the gradient and gradient descent then checks whether the prediction was right",
+      "Backpropagation is a specialisation of the gradient descent algorithm, applied to minimise prediction error for a multilayer perceptron by tweaking its weights and biases",
+      "Backpropagation is an alternative to gradient descent that finds the minimum in one analytic step",
+      "Gradient descent is a specialisation of backpropagation for networks with a single layer"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "This is the 'exam sentence' dictated in class; learn it verbatim. The direction of specialisation is the trap: backprop is the special case (an MLP, error sent backwards through the layers), gradient descent is the general optimiser.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 61
+    },
+    "difficulty": 2,
+    "tags": [
+      "backprop",
+      "gradient-descent",
+      "exam-sentence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-008",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A student writes: 'Gradient descent follows the gradient downhill to the minimum.' What is wrong with it?",
+    "choices": [
+      "Nothing; that is the definition",
+      "Gradient descent does not use the gradient at all; it tries random steps",
+      "It should say 'to the global minimum', which gradient descent is guaranteed to reach",
+      "The gradient points in the direction of steepest ascent, so the algorithm steps against it, a small step at a time, repeatedly"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The gradient points uphill; training takes small steps against it and recomputes, iteratively. The distinguishing clause is 'against the gradient', and the method only ever settles in a local minimum, so 'guaranteed global minimum' is also wrong.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "gradient-descent",
+      "spot-the-error"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-009",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Backpropagation is one of the gradient-descent variants, alongside stochastic gradient descent, momentum and Adam.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. SGD, mini-batch, momentum, RMSProp and Adam are variants of the optimiser. Backpropagation is how the gradient they all consume is computed, so it sits underneath every one of them.",
+    "source": {
+      "deck": "infographics",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "backprop",
+      "gradient-descent",
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-010",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "In one clause, what separates a variational autoencoder from a plain autoencoder?",
+    "choices": [
+      "The VAE encodes each input to a probability distribution over the latent space rather than to one fixed point",
+      "The VAE has no bottleneck, so it keeps every detail of the input",
+      "The VAE is trained with labelled data, the autoencoder without",
+      "The VAE adds skip connections between the encoder and the decoder"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Point versus distribution. Because the VAE's encoder outputs a distribution, the latent space is filled in continuously and a randomly drawn point still decodes to something realistic. Skip connections are the U-Net; neither kind of autoencoder needs labels.",
+    "source": {
+      "deck": "infographics",
+      "slide": 4
+    },
+    "difficulty": 2,
+    "tags": [
+      "vae",
+      "autoencoder",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-011",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A plain autoencoder's decoder will turn any latent code into an output. Why is it still not a generator?",
+    "choices": [
+      "Its decoder is deleted after training, so nothing can produce new outputs",
+      "It can only produce outputs the same size as its inputs",
+      "Nothing trained the space between the codes of real examples, so a randomly chosen point may decode to nonsense; the VAE forces the codes into a distribution you can sample from",
+      "It produces exact copies of training images, which is prediction by definition"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Generation is sampling. A plain AE only learned codes for the inputs it was given, so its latent space has holes. The VAE's regularisation fills them, so 'sample z, then decode' yields a new, realistic example never in the training set.",
+    "source": {
+      "deck": "infographics",
+      "slide": 4
+    },
+    "difficulty": 3,
+    "tags": [
+      "vae",
+      "latent-space",
+      "generation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-012",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "The examiner's lab slide asked 'What is a ____ space?' One word: the compressed internal representation at an autoencoder's bottleneck.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "latent",
+      "latent space"
+    ],
+    "explanation": "Latent. The latent space is the learned, compressed representation in which each point stands for an input and nearby points stand for similar inputs. Its continuity is what makes moving through it, and sampling from it in a VAE, meaningful.",
+    "source": {
+      "deck": "GAI Lit 07",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "latent-space",
+      "autoencoder"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-013",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "'How does the transformer decide which word it generates next?' Which answer earns the mark?",
+    "choices": [
+      "It looks up which word most often followed the previous word in its training text and copies it",
+      "It compresses the prompt into one fixed vector and decodes the most likely sentence from it",
+      "Attention finds the single most similar word in the prompt and repeats it",
+      "It embeds and positionally encodes the tokens, uses attention to weigh how much each token should inform the others, and outputs a probability distribution over the vocabulary from which the next token is sampled"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Embed, position, attend, then a distribution over the whole vocabulary and a sample from it. The first choice is a Markov chain, the second is the fixed bottleneck attention replaced. Sampling is why the same prompt can give different answers.",
+    "source": {
+      "deck": "GAI Lit 07",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "transformer",
+      "next-token",
+      "mechanism"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-014",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "In 'she sat on the bank of the river', which mechanism pulls 'bank' towards the shore rather than the vault, and why not the other one?",
+    "choices": [
+      "Attention, because it gives each word a local-context interpretation from the other words in this sentence; the embedding of 'bank' is the same wherever the word appears",
+      "The embedding, because it stores a separate vector for every sense of every word",
+      "Positional encoding, because 'river' comes after 'bank'",
+      "The softmax, because it chooses the most probable meaning"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Embedding = global-context meaning (the vocabulary); attention = local-context interpretation (the grammar). One embedding per token is the point: it cannot know which sentence it is in. Positional encoding supplies order, not meaning.",
+    "source": {
+      "deck": "GAI Lit 07",
+      "slide": 7
+    },
+    "difficulty": 3,
+    "tags": [
+      "embedding",
+      "attention",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-015",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Where does the T in GPT come from?",
+    "choices": [
+      "Vaswani and colleagues' 2017 paper 'Attention Is All You Need', which dropped recurrence and convolution and kept attention",
+      "Turing's 1950 paper, which proposed the imitation game",
+      "Mikolov's 2013 word2vec, which turned words into vectors",
+      "Goodfellow's 2014 paper, which made 'generative' famous"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The Transformer, Vaswani et al. 2017. It sits on the language timeline after word2vec (2013) and before GPT (2018). Word2vec supplied embeddings; the Transformer supplied attention without recurrence, which is what made internet-scale pre-training possible.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 70
+    },
+    "difficulty": 1,
+    "tags": [
+      "transformer",
+      "timeline",
+      "gpt"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-016",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "In Hubel and Wiesel's experiment, what did the cat's striate-cortex neurons respond to?",
+    "choices": [
+      "The picture of a mouse projected on the slide",
+      "Any change in overall brightness, whatever its shape",
+      "Oriented lines, such as the straight edge of the slide, rather than whole objects",
+      "Faces, which were later found to have their own dedicated region"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The famous accident: the neurons fired at the edge of the slide being pushed in, not at the picture on it. Line detectors combine into curves, shapes and objects — the hierarchy of features the Neocognitron and the CNN copy. Say 'around 1959' for the date.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 50
+    },
+    "difficulty": 1,
+    "tags": [
+      "hubel-wiesel",
+      "vision",
+      "timeline"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-017",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Early layers of a trained CNN respond to edges; deep layers respond to whole objects. Which pair names the mechanism and the biological finding it mirrors?",
+    "choices": [
+      "Dropout, mirroring the brain's forgetting of unused connections",
+      "The receptive field widening with depth, mirroring the cat's line detectors combining upward into shapes and objects",
+      "Softmax, mirroring the brain's choice between competing objects",
+      "Positional encoding, mirroring the retina's map of where things are"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Each layer pools from the one below, so a deeper neuron sees a larger region of the image and can represent an object rather than an edge. That is Hubel and Wiesel's hierarchy of features — lines to curves to shapes to objects — built into the architecture.",
+    "source": {
+      "deck": "Wolfram CNN",
+      "slide": 12
+    },
+    "difficulty": 3,
+    "tags": [
+      "receptive-field",
+      "hubel-wiesel",
+      "cnn"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-018",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A digit recogniser built as a plain MLP breaks when the digit moves to another part of the image. What single change fixes it, and why?",
+    "choices": [
+      "Add more hidden layers, so the network has enough capacity to memorise every position",
+      "Switch the activation from sigmoid to ReLU, so gradients flow further",
+      "Add dropout, so the network cannot rely on any one pixel",
+      "Slide the same learned filters over every region, so a feature is detected wherever it sits — weight sharing, which gives translational covariance"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "An MLP gives every pixel position its own weight, so a shifted digit is a completely different input. A convolutional layer shares one filter across all positions, so the response simply shifts with the feature. More depth, ReLU and dropout do not touch the position problem.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "cnn",
+      "weight-sharing",
+      "mlp"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-019",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "Applying the same learned filter at every position in the image is called weight ____.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "sharing",
+      "weight sharing",
+      "shared weights"
+    ],
+    "explanation": "Weight sharing. It is why a CNN detects a feature wherever it appears (translational covariance) and why its parameter count does not grow with image size.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "cnn",
+      "weight-sharing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-020",
+    "topic": "exam-core",
+    "type": "multi",
+    "stem": "'Why did mobile phones start recognising images in the 2010s?' Select all three things the answer must name.",
+    "choices": [
+      "Large labelled datasets such as ImageNet",
+      "The Transformer, which let phones attend to every pixel at once",
+      "GPU compute fast enough for the matrix multiplications",
+      "Deep convolutional architectures, as AlexNet showed in 2012",
+      "Better hand-written rules describing what a cat or a face looks like"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Data, compute and architecture converged; naming only one loses the mark. The Transformer came in 2017 and was not the vision story of the early 2010s, and hand-written rules are exactly what failed — a face that moves or changes lighting breaks them.",
+    "source": {
+      "deck": "GAI Lit 02",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "vision",
+      "alexnet",
+      "imagenet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-021",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which sentence gets ImageNet and AlexNet the right way round?",
+    "choices": [
+      "ImageNet is the large labelled image collection built by Fei-Fei Li; AlexNet is the 2012 CNN that cut its error rate from about 25% to single digits",
+      "AlexNet is the labelled dataset; ImageNet is the 2012 network trained on it",
+      "ImageNet and AlexNet are two names for the same 2012 competition",
+      "ImageNet is Fukushima's 1980 network; AlexNet is its 2012 successor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Dataset versus model is the classic confusion. ImageNet (Fei-Fei Li, 2010 onward) is the data and the competition; AlexNet (Krizhevsky, Sutskever and Hinton) is the network entered into it. Fukushima's 1980 network is the Neocognitron.",
+    "source": {
+      "deck": "GAI Lit 03",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "imagenet",
+      "alexnet",
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-022",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "What does a single artificial neuron (perceptron) compute?",
+    "choices": [
+      "It multiplies all its inputs together and outputs the largest",
+      "It takes a weighted sum of its inputs plus a bias and passes it through an activation, firing once the threshold is passed",
+      "It stores the most recent input and repeats it to the next layer",
+      "It compares its input with every stored training example and outputs the closest"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Weighted sum plus bias, then activation: the perceptron is a mathematical model of a neuron that fires past an internal threshold. The weights scale each input; the bias shifts the threshold.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 60
+    },
+    "difficulty": 1,
+    "tags": [
+      "perceptron",
+      "neuron"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-023",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A perceptron has two inputs and one output. How many trainable parameters does it have, and what are they?",
+    "choices": [
+      "Two: one weight per input",
+      "Four: two inputs, one output and one bias",
+      "Three: two weights and one bias",
+      "One: the threshold"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Two inputs, one output, three parameters — the example dictated in class. One weight per incoming connection plus one bias per neuron. Inputs are data you supply, so they never count; forgetting the bias gives the tempting 'two'.",
+    "source": {
+      "deck": "GAI Lit 03",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "parameters",
+      "counting",
+      "perceptron"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-024",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A single perceptron can learn AND and OR but not XOR. Which clause explains why a hidden layer is needed?",
+    "choices": [
+      "XOR needs more training examples than one perceptron can store",
+      "XOR outputs negative numbers, which a perceptron cannot produce",
+      "XOR requires recurrence, which only an RNN has",
+      "XOR is not linearly separable, and one perceptron can only draw one straight boundary"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "One perceptron draws one line; AND and OR can be separated by a line, XOR cannot. Stacking layers bends the boundary, which is the whole argument for the multilayer perceptron — the limitation Minsky and Papert made famous in 1969.",
+    "source": {
+      "deck": "GAI Lit 03",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "perceptron",
+      "xor",
+      "mlp"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-025",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Turing's imitation game, Business Intelligence and Computational Intelligence each illustrate a different sense of 'intelligence'. Which set of senses matches them, in that order?",
+    "choices": [
+      "Human-like · advantageous information · solution path to a problem",
+      "Artifact · artificial semblance · artful creation",
+      "Solution path · human-like · advantageous information",
+      "Recognition · prediction · generation"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Human-like (Turing), advantageous information of tactical value (military or business intelligence), and a solution path or optimal method (computational or digital intelligence). Artifact, semblance and artful creation are the three senses of the A, not the I.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "i-in-ai",
+      "three-senses"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-026",
+    "topic": "exam-core",
+    "type": "multi",
+    "stem": "Select all three senses the course gives to the A in 'AI'.",
+    "choices": [
+      "Autonomous — acting without human input",
+      "Artful creation — 'truth manufactured'",
+      "Advantageous information — as in business intelligence",
+      "Artifact or artifice — a machine creation made by humans",
+      "Artificial semblance — when 'seems about right' will do"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "Artifact/artifice, artificial semblance and artful creation. Advantageous information is a sense of the I, the classic cross-over trap; autonomy is a property AI systems may have, not what the letter stands for.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "a-in-ai",
+      "three-senses"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-027",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "'In what way is ML larger than AI, and in what way is AI larger than ML?' Which answer earns both halves?",
+    "choices": [
+      "ML is simply a subset of AI, so AI is larger in every way",
+      "ML reaches outside AI through data-driven calibration in statistics, optimisation and forecasting; AI reaches outside ML through rule-based GOFAI, search and planning that involve no learning",
+      "AI is a subset of ML, because every AI system today is trained on data",
+      "They are the same field under two names"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Neither contains the other; they overlap. The trap is the textbook 'ML ⊂ AI' diagram, which answers only half the question. Each half needs its own example.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 76
+    },
+    "difficulty": 2,
+    "tags": [
+      "ml-ai",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-028",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which example shows AI being larger than machine learning?",
+    "choices": [
+      "A linear regression that forecasts next month's sales",
+      "A CNN trained to classify X-rays",
+      "An expert system of hand-written if-then rules for diagnosing infections",
+      "A clustering algorithm that segments customers"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The expert system is AI with no learning from data at all, so it sits outside ML. The regression and the clustering are ML used well outside anything called AI (the other direction), and the CNN is in both.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 59
+    },
+    "difficulty": 3,
+    "tags": [
+      "ml-ai",
+      "scenario",
+      "gofai"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-029",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "'What is symbolic AI (not neural networks)? Expert systems?' Which answer fits two lines and earns the mark?",
+    "choices": [
+      "Early neural networks such as the perceptron, which used symbols as inputs",
+      "AI that learns rules automatically from labelled data, as decision trees do",
+      "Hand-written if-then rules over symbols with no learning from data, e.g. MYCIN (1975) diagnosing bacterial infections at about 65% accuracy; later retronymed GOFAI",
+      "Language models that reason with logical symbols, such as GPT"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Rule-based formal logic, written by hand, no learning: that is the distinguishing clause. MYCIN is the example to name, with LISP and Prolog as its languages. It stalled into the AI winter and was renamed GOFAI once neural AI took the name.",
+    "source": {
+      "deck": "GAI Lit 02",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "symbolic-ai",
+      "expert-systems",
+      "gofai"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-030",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "Symbolic, rule-based AI was given a retronym once neural approaches took the name 'AI'. What is it? (acronym or expansion)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "gofai",
+      "good old-fashioned ai",
+      "good old fashioned ai",
+      "good old-fashioned artificial intelligence"
+    ],
+    "explanation": "GOFAI, Good Old-Fashioned AI. A retronym is a new name for an old thing, forced because something newer took the original name — the same move later turned ordinary AI into 'predictive AI'.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 59
+    },
+    "difficulty": 1,
+    "tags": [
+      "gofai",
+      "retronym"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-031",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Training error keeps falling while validation error starts to rise. What is happening, and which remedy from the assigned CNN course addresses it?",
+    "choices": [
+      "Underfitting; add dropout so more units are active",
+      "Overfitting; remove the validation set so training can continue",
+      "Underfitting; make the network larger",
+      "Overfitting; add dropout, which randomly switches off units during training so no single path is relied on"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The gap opening between the curves is overfitting; both errors staying high would be underfitting. Dropout is a regulariser: because any unit may vanish on any pass, the network must spread its representation instead of memorising through one route. Data augmentation is the other named fix.",
+    "source": {
+      "deck": "Wolfram CNN",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "overfitting",
+      "dropout"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-032",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which pairing of CNN layer to job is wrong?",
+    "choices": [
+      "ReLU — introduces nonlinearity, returning the input if positive and zero otherwise",
+      "Pooling — reduces the size of the representation",
+      "Softmax — turns raw activations into a probability distribution over the classes",
+      "Cross-entropy — randomly switches off units during training to prevent overfitting"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cross-entropy is the loss: the distance between the predicted class probabilities and the true one-hot label. Randomly switching off units is dropout. The other three pairings are the course's own definitions.",
+    "source": {
+      "deck": "Wolfram CNN",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "cnn-glossary",
+      "relu",
+      "pooling",
+      "softmax",
+      "cross-entropy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-033",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "The examiner's bonus question: 'Can we have generative AI without neural networks?' Which answer earns the mark?",
+    "choices": [
+      "No: generation is defined as something only neural networks can do",
+      "Yes in principle: a Markov chain generates text from next-token statistics; but without a learned representation it has no context, so output is locally plausible and globally incoherent",
+      "Yes, and the results match GPT, because generation only needs a large enough table of word counts",
+      "No: before neural networks, computers could only follow if-then rules"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Yes on the definition, no in practice. Any sampler from a fitted distribution is generative; what the neural network adds is context. The mark sits in the second clause — why the non-neural version falls short.",
+    "source": {
+      "deck": "GAI Lit 02",
+      "slide": 15
+    },
+    "difficulty": 3,
+    "tags": [
+      "generative",
+      "markov",
+      "marko-question"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-034",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "In a diffusion model, which process is learned and what does generation start from?",
+    "choices": [
+      "Both the noising and the denoising are learned; generation starts from a training image",
+      "The noising is learned and the denoising is fixed; generation starts from a text prompt alone",
+      "The forward noising is fixed by design and only the reverse denoising is learned; generation starts from pure noise and denoises step by step",
+      "Neither is learned; the model looks up the closest training image to the noise"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Prescribed forward, learned reverse. Because the noise was added deliberately, the true noise at every step is known, which supervises the denoiser. Generation begins from pure noise, optionally guided by a text embedding. A VAE, by contrast, learns both directions.",
+    "source": {
+      "deck": "infographics",
+      "slide": 4
+    },
+    "difficulty": 2,
+    "tags": [
+      "diffusion",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-035",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "What is ironic about the GAN's place in the history of generative AI?",
+    "choices": [
+      "It was designed to generate images, but turned out to be better at classifying them",
+      "It was the first neural network, but was forgotten for fifty years",
+      "It was invented for text, but only ever worked on images",
+      "The adversarial setup was built to sharpen a predictive discriminator, and the generator ended up being the star"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The generator was supposed to feed the discriminator harder cases. Deepfakes made the generator famous instead, and 'generative' took its modern meaning from this architecture (Goodfellow, 2014) before GPT inherited the word.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "gan",
+      "irony"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-036",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Why is AI slop an economic problem and not only a quality problem?",
+    "choices": [
+      "Because the old web paid creators through clicks and ads, and AI search now answers without a visit, so the incentive to produce trustworthy content evaporates",
+      "Because generating it costs more electricity than human writing",
+      "Because AI companies charge creators to have their content indexed",
+      "Because advertisers refuse to place ads beside any AI-generated text"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The broken payment loop: no visit, no ad revenue, no one funding quality material — which also degrades the content supply the models were trained on. Countermeasures are limited, so the consumer has to stay vigilant.",
+    "source": {
+      "deck": "playlist",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "ethics",
+      "ai-slop",
+      "bonus"
+    ],
+    "examFocus": true
+  }
+]

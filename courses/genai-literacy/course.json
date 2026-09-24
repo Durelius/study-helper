@@ -7,6 +7,16 @@
   "generators": [],
   "topics": [
     {
+      "id": "exam-core",
+      "title": "Exam Core: What Will Be Asked",
+      "weight": 0
+    },
+    {
+      "id": "abbreviations",
+      "title": "Abbreviations and Hard Terms",
+      "weight": 0
+    },
+    {
       "id": "concepts",
       "title": "The I, the A and the G",
       "weight": 20
@@ -56,6 +66,26 @@
       "why": "The real midterm is ten questions with two ruled lines each. This draws ten across the topics in proportion to their marks. The clock is for pacing practice, not the exam's real duration."
     },
     {
+      "id": "exam-core",
+      "title": "Exam core",
+      "count": 20,
+      "topics": [
+        "exam-core"
+      ],
+      "blurb": "Only what is most likely on Friday's paper.",
+      "why": "A narrow pass over the handful of questions the examiner's blueprint and past papers point at, with model two-line answers."
+    },
+    {
+      "id": "abbreviations",
+      "title": "Abbreviations",
+      "count": 20,
+      "topics": [
+        "abbreviations"
+      ],
+      "blurb": "MLP, CNN, VAE, GAN, GPT: expand it and say what the letter means.",
+      "why": "Acronym unpacking is the cheapest mark on the paper, and a misread letter (the G in AGI vs GAI) is the commonest way to lose it."
+    },
+    {
       "id": "distinctions",
       "title": "Tell them apart",
       "count": 20,
@@ -80,7 +110,7 @@
         "architecture"
       ],
       "blurb": "MLP, CNN, VAE, U-Net, Transformer, Diffusion.",
-      "why": "The examiner's own blueprint line reads 'Architectures: Multi-Layer Perceptron, Convolutional NN, VAE, ..' \u2014 know each one's key idea and where it sits on the predictive-to-generative arc."
+      "why": "The examiner's own blueprint line reads 'Architectures: Multi-Layer Perceptron, Convolutional NN, VAE, ..' — know each one's key idea and where it sits on the predictive-to-generative arc."
     },
     {
       "id": "names-dates",

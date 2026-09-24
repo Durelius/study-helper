@@ -1,0 +1,1423 @@
+[
+  {
+    "id": "abb-001",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand AGI in full.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "artificial general intelligence",
+      "artificial general intelligent"
+    ],
+    "explanation": "Artificial General Intelligence: human-level breadth across every task a person can do, and explicitly out of scope for this course. The G here is General; the G in GAI is Generative.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "gai-agi"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-002",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "A classmate writes: 'AGI, the kind of AI that generates images and text.' Which letter has he misread, and what should it be?",
+    "choices": [
+      "The A: in AGI it stands for Automated, not Artificial",
+      "The I: it stands for Imitation, after Turing's imitation game",
+      "Nothing: AGI and GAI are the same acronym with the letters in a different order",
+      "The G: in AGI it is General, meaning human-level breadth; Generative is the G in GAI"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "He has swapped GAI and AGI. Generative AI creates new content; Artificial General Intelligence means human-level breadth across tasks and is outside this course. Reading the letters in a different order changes the G's meaning, not just the word order.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "gai-agi",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-003",
+    "topic": "abbreviations",
+    "type": "multi",
+    "stem": "Select all the pairings of an 'intelligence' term with the sense of 'I' it uses that are correct.",
+    "choices": [
+      "AI: human-like, as in Turing's imitation game",
+      "Military Intelligence: an optimal solution path for a hard problem",
+      "BI (Business Intelligence): extracted information of tactical or strategic value",
+      "CI (Computational Intelligence): an optimal or clever solution path for a complex problem",
+      "AI: extracted information of strategic value"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "The three senses are human-like (the I in AI), advantageous information (military and business intelligence) and an optimal solution path (computational and digital intelligence). Military Intelligence belongs with BI, not CI, and the I in AI is the human-like sense, not the information sense.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "intelligence",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-004",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "What do the letters GOFAI stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "good old-fashioned ai",
+      "good old fashioned ai",
+      "good old-fashioned artificial intelligence",
+      "good old fashioned artificial intelligence",
+      "good oldfashioned ai"
+    ],
+    "explanation": "Good Old-Fashioned AI: the symbolic, rule-based AI of expert systems such as MYCIN, hand-written if-then rules with no learning from data.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 59
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "gofai",
+      "timeline"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-005",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Why does the course call GOFAI a retronym rather than just a nickname?",
+    "choices": [
+      "Rule-based AI was simply called 'AI' until neural approaches took over the name, so the older thing needed a new name",
+      "Its inventors at the 1956 Dartmouth workshop coined it to describe their own approach",
+      "It gives a newer technology the name of an older one, as when neural networks were called 'expert systems'",
+      "It is an acronym read backwards, which is what 'retro' refers to"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A retronym renames an older thing because a newer thing has taken its original name. Expert systems were 'AI' until the neural approach claimed the word; 'predictive AI' is the same move, made once generative AI arrived. The Dartmouth founders did not call their own work old-fashioned.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "gofai",
+      "retronym"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-006",
+    "topic": "abbreviations",
+    "type": "tf",
+    "stem": "BNN and ANN are two acronyms for the same thing: an artificial neural network.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. BNN is the Biological Neural Network, the actual brain of nerve cells passing stimulus to each other. ANN is the Artificial Neural Network, the mathematical model of it, and every modern AI system is built from ANNs.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 63
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "bnn-ann",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-007",
+    "topic": "abbreviations",
+    "type": "multi",
+    "stem": "Select all the acronyms in which one of the letters stands for 'Network'.",
+    "choices": [
+      "VAE",
+      "GAN",
+      "LSTM",
+      "CNN",
+      "RNN"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "GAN (Generative Adversarial Network), CNN (Convolutional Neural Network) and RNN (Recurrent Neural Network) all end in Network. VAE is Variational Autoencoder and LSTM is Long Short-Term Memory; both are networks, but neither acronym has a letter for the word.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "architecture"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-008",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "What does the R in RNN stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "recurrent",
+      "recurrent neural network",
+      "recurrence"
+    ],
+    "explanation": "Recurrent: the signal loops back, so earlier outputs feed later computation. Do not mix it up with the Res in ResNet, which is Residual, or with a feedforward network, where the signal travels one way only.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "rnn",
+      "ffn-rnn"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-009",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand MLP in full.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "multilayer perceptron",
+      "multi-layer perceptron",
+      "multi layer perceptron",
+      "multilayer perceptrons",
+      "multi-layer perceptrons"
+    ],
+    "explanation": "Multilayer Perceptron: feedforward layers of perceptrons stacked so that each layer's output is the next layer's input, with no recurrence and no skipping layers.",
+    "source": {
+      "deck": "2025 midterm",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "mlp",
+      "perceptron",
+      "architecture"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-010",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "A past paper asked: 'What does MLP stand for? Explain the P.' Which second line earns the mark for the P?",
+    "choices": [
+      "P is for Parameter: the weights and biases the network learns from data",
+      "P is for Propagation: the error is sent backwards through the layers to update the weights",
+      "P is for Perceptron: a mathematical model of a generic neuron that sums weighted incoming signals and fires when the sum exceeds an internal threshold",
+      "P is for Predictive: the MLP sits at the predictive end of the six-architecture arc"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The P is Perceptron, and 'explain' means describe it: weighted excitatory or inhibitory inputs summed, firing past a threshold. Parameter and propagation are real terms from the same lecture, which is why they tempt you, but they are not the letter.",
+    "source": {
+      "deck": "2025 midterm",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "mlp",
+      "perceptron",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-011",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "FFN and RNN differ by one idea. Which statement gets it right?",
+    "choices": [
+      "In an FFN the signal travels one way, input to output; in an RNN the signal loops back, so earlier outputs feed later computation",
+      "In an FFN every neuron connects to every neuron; in an RNN each block adds its input back to its output",
+      "An FFN is used for images and an RNN for tabular data",
+      "An FFN is trained by backpropagation and an RNN by gradient descent"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Feedforward means one direction only, and an MLP is a feedforward network. Recurrent means the signal loops back. Adding a block's input to its output is the residual connection of a ResNet, a different R.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "ffn-rnn",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-012",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand LSTM.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "long short-term memory",
+      "long short term memory",
+      "long shortterm memory"
+    ],
+    "explanation": "Long Short-Term Memory (Hochreiter and Schmidhuber, 1997): a gated recurrent architecture that keeps the error signal from decaying over long sequences.",
+    "source": {
+      "deck": "infographics",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "lstm",
+      "rnn"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-013",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "The letters FFN turn up in two different places in the course. Which pair of meanings is right?",
+    "choices": [
+      "The functional-link network of Pao (1995), and the flattening layer at the end of a CNN",
+      "A fully-connected network, and a feature-finding network used for edge detection",
+      "A feedforward network, and a feedback network in which the output loops back to the input",
+      "A feedforward network, where the signal travels one way (an MLP is one), and the feed-forward block inside each Transformer layer, a per-token MLP holding about two thirds of the parameters"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Both meanings share the one-way idea: the Transformer's feed-forward block is an MLP applied to each token separately. A network whose output loops back is an RNN, the opposite of feedforward, and the functional-link network is FLN, the same letters in another order.",
+    "source": {
+      "deck": "infographics",
+      "slide": 14
+    },
+    "difficulty": 3,
+    "tags": [
+      "acronym",
+      "ffn-rnn",
+      "transformer",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-014",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "What problem of the plain recurrent network did the LSTM solve?",
+    "choices": [
+      "It let a decoder soft-search the relevant parts of the source for each output word",
+      "Its gates stop the error signal decaying over long sequences, so long-term dependencies become learnable",
+      "It carried fine spatial detail across the bottleneck with skip connections",
+      "It added each block's input back to its output so very deep networks could be trained"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "LSTM's gates keep the error flowing across many steps, so a word early in a sentence can still influence a much later one. Soft-search over the source is Bahdanau attention, skip connections across a bottleneck belong to the U-Net, and adding the input back is the ResNet.",
+    "source": {
+      "deck": "infographics",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "lstm",
+      "rnn",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-015",
+    "topic": "abbreviations",
+    "type": "tf",
+    "stem": "A single perceptron and an MLP differ only in size; given enough training, either can learn XOR.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. A single perceptron draws one straight boundary, so it only separates linearly separable data, and no straight line separates XOR's true cases from its false ones. That is what the M in MLP, multiple layers, is for.",
+    "source": {
+      "deck": "GAI Lit 03",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "perceptron",
+      "mlp",
+      "xor",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-016",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Which acronym names Pao's 1995 network, which gains expressive power at shallow depth by feeding in explicit nonlinear transforms of its inputs?",
+    "choices": [
+      "FFN",
+      "UAT",
+      "FLN",
+      "ResNet"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "FLN, the functional-link network: polynomial, radial-basis or trigonometric transforms of the inputs are added, so power comes without depth. FFN is the same letters shuffled and means feedforward; UAT is the theorem, not a network; ResNet gets its power from depth made trainable.",
+    "source": {
+      "deck": "infographics",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "fln",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-017",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand CNN in full.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "convolutional neural network",
+      "convolution neural network",
+      "convolutional neural networks",
+      "convolutional neural net",
+      "convolutional network"
+    ],
+    "explanation": "Convolutional Neural Network: layers of convolution matrices with trainable entries, slid across a grid of pixel values to detect visual patterns.",
+    "source": {
+      "deck": "2025 midterm",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "cnn",
+      "architecture"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-018",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Which acronym names the predictive architecture that exploits spatial structure with local filters and weight sharing, for tasks like image classification and object detection?",
+    "choices": [
+      "MLP",
+      "U-Net",
+      "VAE",
+      "CNN"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The CNN. The U-Net is also built from convolutions, but its defining idea is an encoder-decoder with skip connections, used for segmentation rather than classification. The MLP is fully connected, with no local filters, and the VAE is a representation model.",
+    "source": {
+      "deck": "infographics",
+      "slide": 3
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "cnn",
+      "architecture"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-019",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand VAE.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "variational autoencoder",
+      "variational auto-encoder",
+      "variational auto encoder",
+      "variational autoencoders"
+    ],
+    "explanation": "Variational Autoencoder: an autoencoder whose encoder outputs a probability distribution over the latent space rather than a single point, so new points can be sampled and decoded.",
+    "source": {
+      "deck": "infographics",
+      "slide": 4
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "vae",
+      "architecture"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-020",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "What does the V in VAE add to a plain autoencoder?",
+    "choices": [
+      "Validation: a held-out set checks the reconstruction during training",
+      "The encoder outputs a probability distribution over the latent space instead of one fixed point, so you can sample a new point and decode it into a new example",
+      "Vision: it is the convolutional version of an autoencoder, used for images",
+      "Vectors: the latent code becomes a vector rather than an image"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The variational step is what turns representation into generation: a plain AE only reconstructs what you give it, and its latent space has gaps. A plain AE's code is already a vector, and the convolutional encoder-decoder for images is the U-Net.",
+    "source": {
+      "deck": "infographics",
+      "slide": 4
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "vae",
+      "ae-vae",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-021",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "An autoencoder is trained to reconstruct a clean image from a copy that has been deliberately corrupted. Which acronym names it?",
+    "choices": [
+      "VAE",
+      "SAE",
+      "DAE",
+      "GAN"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "DAE, the denoising autoencoder. Corrupting the input forces robust features rather than a memorised copy, and the idea returns in diffusion models. A VAE samples from a latent distribution, an SAE is a sparse re-encoding used for interpretation, and a GAN learns adversarially.",
+    "source": {
+      "deck": "infographics",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "dae",
+      "autoencoder",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-022",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "In the Transformer material an SAE is used to look inside a model. What is it?",
+    "choices": [
+      "A stochastic autoencoder that samples its latent code from a probability distribution",
+      "A self-attention encoder, the first half of a translation transformer",
+      "A stacked autoencoder used to pretrain deep networks one layer at a time",
+      "A sparse autoencoder: a wide, mostly-inactive re-encoding of the model's activations, which pulls superposed concepts apart so they can be read individually"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Sparse autoencoder. Superposition packs more concepts than dimensions into one space, so a single neuron means several things; the wide, mostly-inactive re-encoding separates them. Sampling the latent from a distribution is the VAE, not an SAE.",
+    "source": {
+      "deck": "infographics",
+      "slide": 14
+    },
+    "difficulty": 3,
+    "tags": [
+      "acronym",
+      "sae",
+      "transformer",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-023",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Where does the U in U-Net come from?",
+    "choices": [
+      "Unsupervised: it trains without any labels",
+      "The shape of its diagram: the encoder downsamples on one side, the decoder upsamples on the other, and skip connections cross between matching levels",
+      "Universal: like the universal approximation theorem, it can represent any function",
+      "Upsampling: it has a decoder but no encoder"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The U is the drawing. The encoder goes down one side, the decoder comes up the other, and skip connections cross between matching levels, carrying fine spatial detail past the bottleneck. It is not an acronym at all, which is exactly why people guess at a word.",
+    "source": {
+      "deck": "infographics",
+      "slide": 3
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "unet",
+      "architecture"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-024",
+    "topic": "abbreviations",
+    "type": "tf",
+    "stem": "A U-Net is an autoencoder whose encoder outputs a probability distribution over the latent space, which is why it can generate new images.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. That describes the VAE. A U-Net is an encoder-decoder CNN with skip connections carrying fine spatial detail across the bottleneck, used for segmentation, reconstruction, denoising and medical imaging.",
+    "source": {
+      "deck": "infographics",
+      "slide": 3
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "unet",
+      "vae",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-025",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand GAN.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "generative adversarial network",
+      "generative adversarial networks",
+      "generative adversarial net",
+      "generative adversarial nets"
+    ],
+    "explanation": "Generative Adversarial Network (Goodfellow, 2014): a generator makes fakes and a discriminator judges real from fake, each improving as the other does.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "gan",
+      "architecture"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-026",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "What does the A in GAN name?",
+    "choices": [
+      "Autoencoding: the network compresses an image and reconstructs it",
+      "Attention: the network weighs which parts of an image matter most",
+      "Artificial: the same A as in AI",
+      "Adversarial: a generator and a discriminator play a minimax game, each improving as the other does"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Adversarial. The generator learns only from how well it fools the discriminator, which is an ordinary predictive classifier. Compress-and-reconstruct is how an autoencoder or VAE learns, and that is the contrast with the GAN.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "gan",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-027",
+    "topic": "abbreviations",
+    "type": "multi",
+    "stem": "Select all the letters of GPT that are correctly explained.",
+    "choices": [
+      "G, Generative: it produces new text rather than labelling existing text",
+      "P, Perceptron: it is built from stacked perceptrons",
+      "P, Pre-trained: trained on internet-scale text before any particular task",
+      "T, Tokenizer: it chops text into tokens",
+      "T, Transformer: the 2017 attention-based architecture"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Generative Pre-trained Transformer. The P is not Perceptron: that is the P in MLP, the commonest swap. Tokenising is a step every language model performs, not what the T names.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 70
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "gpt",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-028",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand LLM.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "large language model",
+      "large language models"
+    ],
+    "explanation": "Large Language Model: a very large transformer pre-trained on internet-scale text to predict the next token, then used to generate language.",
+    "source": {
+      "deck": "GAI Lit 03",
+      "slide": 5
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "llm",
+      "transformer"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-029",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "How do 'LLM' and 'GPT' relate in the course's vocabulary?",
+    "choices": [
+      "An LLM is rule-based, and GPT is the neural version",
+      "An LLM only classifies text, while GPT generates it",
+      "An LLM is a very large transformer pre-trained to predict the next token; GPT is the best-known example, so the L adds scale rather than a different mechanism",
+      "An LLM is the encoder half of a transformer, and GPT is the decoder half"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "GPT names the recipe (generative, pre-trained, transformer) and LLM names that recipe at scale. Everything an LLM appears to know is a by-product of getting good at next-token prediction; it is neither rule-based nor a classifier.",
+    "source": {
+      "deck": "GAI Lit 03",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "llm",
+      "gpt",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-030",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Which acronym names a pure Transformer applied directly to sequences of image patches, with no convolution at all?",
+    "choices": [
+      "ViT",
+      "CNN",
+      "U-Net",
+      "ResNet"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "ViT, the Vision Transformer (Dosovitskiy and colleagues, 2020/21). Removing convolution entirely from a vision model is the clearest evidence that the Transformer is a general architecture, not a language-only one. The other three are all convolutional.",
+    "source": {
+      "deck": "infographics",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "vit",
+      "transformer"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-031",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "BERT and GPT both appear in 2018, where the Transformer becomes the standard for language. What sets BERT apart in the course?",
+    "choices": [
+      "It is decoder-only and generates text one token at a time",
+      "It uses gated recurrence to carry information along the sentence",
+      "It applies a Transformer to sequences of image patches",
+      "It reads in both directions and is built for understanding tasks"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "BERT (Devlin and colleagues, 2018) reads the whole sentence in both directions and is built for understanding. Decoder-only generation is GPT, gated recurrence is the LSTM, and image patches are the ViT.",
+    "source": {
+      "deck": "infographics",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "bert",
+      "gpt",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-032",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Seq2Seq (Sutskever, Vinyals and Le, 2014) is the step just before attention. What did it do, and what did attention then remove?",
+    "choices": [
+      "An LSTM encoded a whole input sequence into one fixed-length vector that a decoder expanded into the output; attention removed that fixed bottleneck by letting the decoder weigh every encoder state",
+      "It turned each word into a vector so that king minus male plus female lands near queen; attention removed the need for a vocabulary",
+      "It generated images by reversing a noising process; attention removed the need for noise",
+      "It sent the error backwards through the layers; attention replaced the chain rule"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Sequence-to-sequence squeezed the whole input through one fixed-length vector, so long inputs lost detail. Attention lets the decoder weigh a whole sequence of encoder states for each output word. Word algebra is word2vec, and reversing noise is diffusion.",
+    "source": {
+      "deck": "infographics",
+      "slide": 8
+    },
+    "difficulty": 3,
+    "tags": [
+      "acronym",
+      "seq2seq",
+      "attention",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-033",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "What does the Res in ResNet stand for, and what does it mean?",
+    "choices": [
+      "Recurrent: each block's output loops back into its own input",
+      "Residual: each block adds its input back to its output, so it learns the correction F(x) = H(x) - x",
+      "Resolution: the network works on high-resolution images",
+      "Reconstruction: the network is trained to reproduce its own input"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Residual network (He, Zhang, Ren and Sun, 2015). Because identity is free, each block only has to learn a correction, which is what made 152 layers trainable. Looping back is the R in RNN, and reproducing the input is an autoencoder.",
+    "source": {
+      "deck": "infographics",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "resnet",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-034",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand RMSE.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "root mean squared error",
+      "root mean square error",
+      "root-mean-square error",
+      "root-mean-squared error",
+      "root mean squared errors"
+    ],
+    "explanation": "Root Mean Squared Error: one specific loss function, natural when the target is a quantity. The loss is the general idea; RMSE is one instance of it.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "rmse",
+      "loss"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-035",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "A network sorts photos into ten classes, with the labels one-hot encoded. Which loss fits better, and why?",
+    "choices": [
+      "RMSE, because every loss function is a form of root mean squared error",
+      "RMSE, because it counts how many of the ten classes were right",
+      "Cross-entropy, because the target is a quantity and cross-entropy measures the size of the numerical gap",
+      "Cross-entropy, because the target is a class: it compares the predicted class probabilities with the one-hot label"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "RMSE suits a quantity; cross-entropy suits a class, because it compares two probability distributions rather than two numbers. RMSE is one loss among several, not the definition of loss.",
+    "source": {
+      "deck": "Wolfram CNN",
+      "slide": 8
+    },
+    "difficulty": 3,
+    "tags": [
+      "acronym",
+      "rmse",
+      "loss",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-036",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand ReLU.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "rectified linear unit",
+      "rectified linear units",
+      "rectified linear"
+    ],
+    "explanation": "Rectified Linear Unit, nicknamed the ramp: it returns its input if positive and zero otherwise. A cheap nonlinearity and the modern default.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "relu",
+      "activation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-037",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "ReLU is nicknamed 'the ramp'. What does it compute, and what did it replace as the default?",
+    "choices": [
+      "It turns a vector of scores into probabilities that sum to one; it replaced the step function",
+      "It squashes any input into the range 0 to 1; it replaced softmax",
+      "It returns its input if positive and zero otherwise; it displaced the sigmoid, whose gradients vanish in deep networks",
+      "It outputs 1 past a threshold and 0 otherwise; it replaced the perceptron"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The ramp is flat at zero for negative inputs and rises linearly for positive ones. Squashing into 0 to 1 is the sigmoid, which it displaced, and turning a vector into probabilities is softmax.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "relu",
+      "activation",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-038",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "The class was told: 'Backpropagation is a specialisation of the GDA.' What does GDA stand for, and what is backpropagation specialised to?",
+    "choices": [
+      "Gradient Descent Algorithm; backpropagation applies it to a multilayer perceptron, sending the prediction error backwards through the layers to tweak the weights and biases",
+      "Generative Data Augmentation; backpropagation applies it by flipping and translating training images",
+      "Gradient Descent Algorithm; backpropagation is one of its variants, alongside SGD and Adam",
+      "Global Direction of Ascent; backpropagation steps with the gradient, uphill"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "GDA is the general step-downhill optimiser; backpropagation is that optimiser specialised to a layered network. It is not a variant alongside SGD and Adam: those are optimisers, while backprop is how the gradient they all use is computed. You step against the gradient, never with it.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "gradient-descent",
+      "backprop",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-039",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "In SGD, one of the named variants of gradient descent, what does the S stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "stochastic",
+      "stochastic gradient descent"
+    ],
+    "explanation": "Stochastic. The course lists batch, stochastic, mini-batch, momentum, RMSProp and Adam as variants of the optimiser. Backpropagation is not on that list.",
+    "source": {
+      "deck": "infographics",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "gradient-descent"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-040",
+    "topic": "abbreviations",
+    "type": "tf",
+    "stem": "Backpropagation computes the gradient of the loss for every weight; gradient descent is what then takes the step.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "True. The forward pass computes the loss, and the backward pass uses the chain rule to get every weight's gradient in one sweep. Backprop finds the direction; gradient descent takes the step, w ← w − η∇L.",
+    "source": {
+      "deck": "infographics",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "backprop",
+      "gradient-descent",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-041",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "A classifier's last layer must turn ten raw scores into ten probabilities that sum to one. Which function does that?",
+    "choices": [
+      "Sigmoid",
+      "Softmax",
+      "ReLU",
+      "RMSE"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Softmax works across the whole vector and produces a distribution that sums to one. The sigmoid squashes a single value into 0 to 1, with no constraint across classes; ReLU is an activation, and RMSE is a loss.",
+    "source": {
+      "deck": "lec 5",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "softmax",
+      "activation",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-042",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "The VAE is trained by maximising the ELBO. Write out ELBO in full.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "evidence lower bound",
+      "evidence lower-bound"
+    ],
+    "explanation": "Evidence Lower Bound. It splits into a reconstruction term, which keeps the output close to the input, and a regularisation term, which keeps the latent close to the simple prior.",
+    "source": {
+      "deck": "infographics",
+      "slide": 4
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "elbo",
+      "vae"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-043",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "A text-to-image model gets the same prompt twice and produces two different pictures. In the course's shorthand, what did each of the prompt and the PRNG decide?",
+    "choices": [
+      "The prompt picked the random seed; the PRNG chose the region of possibility space",
+      "The prompt decided WHERE to navigate in the possibility space; the PRNG decided WHICH possibility was drawn there",
+      "The prompt set the model's parameters; the PRNG set its hyperparameters",
+      "The prompt supplied the ground truth; the PRNG measured the error against it"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The prompt is where to navigate and the PRNG is which possibility, so the same prompt with a fresh random draw gives a different image. Generative output has no ground truth to measure against, and the prompt changes no weights.",
+    "source": {
+      "deck": "infographics",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "prng",
+      "conditioning",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-044",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand PRNG.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "pseudo-random number generator",
+      "pseudorandom number generator",
+      "pseudo random number generator",
+      "pseudo-random number generators"
+    ],
+    "explanation": "Pseudo-Random Number Generator: what you crank to get a new sample. The randomness supplies the variation and the learned mapping supplies the structure: learn z → x, then crank the PRNG.",
+    "source": {
+      "deck": "infographics",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "prng"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-045",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Discriminative and generative modelling are written with different probabilities. Which pairing is right?",
+    "choices": [
+      "Discriminative learns p(x); generative learns p(y | x)",
+      "Both learn p(y | x); generative models simply use more data",
+      "Discriminative learns p(y | x), the label given an input; generative learns p(x), or p(x | c) given a condition, the distribution of the data itself",
+      "Discriminative learns p(z); generative learns p(x | y)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "p(y | x) is predictive: given this input, what label? p(x) is generative: learn the distribution of the data so new samples can be drawn, with c as a condition such as a text prompt. The first option is the swap people make under pressure.",
+    "source": {
+      "deck": "infographics",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "predictive-generative",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-046",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Every generative model involves a TO mapping and a FRO mapping. Which one does generation actually use?",
+    "choices": [
+      "TO, data to a simple distribution, because generation starts from the data",
+      "Both at once, one after the other, every time a sample is drawn",
+      "Neither: generation samples straight from the training set",
+      "FRO, simple distribution to data; TO exists only to set up a supervised task with known targets"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Generation always uses FRO. TO sets the homework, turning data into something simple with a known answer, and FRO learns to solve it backwards. In diffusion the TO (noising) is prescribed and only the FRO is learned.",
+    "source": {
+      "deck": "infographics",
+      "slide": 2
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "to-fro",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-047",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "METEO (1981) is the course's example of early NLP that actually shipped. What does NLP stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "natural language processing",
+      "natural-language processing"
+    ],
+    "explanation": "Natural Language Processing: getting a computer to handle human language. METEO translated Canadian weather reports between English and French, and it worked because the domain was narrow.",
+    "source": {
+      "deck": "GAI Lit 02",
+      "slide": 14
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "nlp",
+      "timeline"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-048",
+    "topic": "abbreviations",
+    "type": "text",
+    "stem": "Expand RAG.",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "retrieval-augmented generation",
+      "retrieval augmented generation",
+      "retrieval-augmented generator"
+    ],
+    "explanation": "Retrieval-Augmented Generation: retrieve relevant documents first, then generate grounded on them, for factual verifiability. The course maps it to the term project rather than this exam.",
+    "source": {
+      "deck": "GAI Lit 07",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "rag"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-049",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "The literacy roadmap's third stage is called HIWUTH. What does it stand for, and what sits in it?",
+    "choices": [
+      "How It Was Understood Through History: the language and vision timelines",
+      "How It Works Under The Hood: the six architectures, MLP to Diffusion",
+      "Human Intelligence With Unlimited Tools and Hardware: agentic AI",
+      "How Intelligent Where Unsupervised Training Helps: the learning paradigms"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "How It Works Under The Hood: MLP, CNN, VAE, U-Net, Transformer, Diffusion, taught as a learning sequence. The timelines are stage 2, before it; agents belong to stage 4, application.",
+    "source": {
+      "deck": "infographics",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "acronym",
+      "hiwuth",
+      "roadmap"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-050",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "In attention, which letter is 'what each other token offers', the thing a token's question is matched against?",
+    "choices": [
+      "Q, the query",
+      "V, the value",
+      "K, the key",
+      "E, the embedding"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The key. The query is what a token is looking for, each key is what another token offers, and the dot product of query and key says how much that token's value, the content, gets passed along. The embedding is the token's global meaning before attention starts.",
+    "source": {
+      "deck": "GAI Lit 07",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "attention",
+      "qkv",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-051",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "Two acronyms both have a P in second or third place, and the Ps are swapped more than any other letter. Which pairing is right?",
+    "choices": [
+      "The P in MLP is Pre-trained; the P in GPT is Perceptron",
+      "Both Ps stand for Perceptron",
+      "The P in MLP is Parameter; the P in GPT is Prediction",
+      "The P in MLP is Perceptron; the P in GPT is Pre-trained"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Multilayer Perceptron: a model of a neuron. Generative Pre-trained Transformer: trained on internet-scale text before any task. GPT is built on a Transformer, not on stacked perceptrons in the acronym's sense, and neither P is Parameter.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 70
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "mlp",
+      "gpt",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "abb-052",
+    "topic": "abbreviations",
+    "type": "tf",
+    "stem": "In the course's wording, generation is an interpolative map within known territory, while recognition is an extrapolative map into unexplored territory.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False: the terms are the wrong way round. Recognition is interpolative, within known territory; generation is extrapolative, into unexplored territory. That is why generation is called imagination rather than validation.",
+    "source": {
+      "deck": "lec 1",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "acronym",
+      "generation",
+      "distinction"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "abb-053",
+    "topic": "abbreviations",
+    "type": "mcq",
+    "stem": "A U-Net has skip connections and a ResNet has residual connections. Which statement separates them correctly?",
+    "choices": [
+      "They are the same thing under two names, used only in medical imaging",
+      "A U-Net's skip connection carries an encoder stage's output across to the matching decoder stage, restoring detail lost at the bottleneck; a ResNet's residual connection adds a block's input to its output, so each block learns a correction",
+      "A skip connection loops a layer's output back to its own input; a residual connection removes a layer during training",
+      "A residual connection carries detail across a bottleneck; a skip connection adds a block's input to its output"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Both are shortcuts, but they solve different problems. The U-Net's shortcut crosses the U to hand fine spatial detail back to the decoder; the ResNet's shortcut adds the input back so that depth becomes trainable. Looping back is recurrence, and switching units off in training is dropout.",
+    "source": {
+      "deck": "infographics",
+      "slide": 10
+    },
+    "difficulty": 3,
+    "tags": [
+      "acronym",
+      "unet",
+      "resnet",
+      "distinction"
+    ],
+    "examFocus": false
+  }
+]
