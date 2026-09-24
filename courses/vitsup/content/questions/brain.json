@@ -1,0 +1,756 @@
+[
+  {
+    "id": "brn-001",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "In the bio-psycho-socio-environmental model, which domain is 'the hardware of the mind'?",
+    "choices": [
+      "Biological",
+      "Psychological",
+      "Social",
+      "Environmental"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Biological (genetics, inflammation, microbiome, sleep, nutrition, hormones) is the hardware; psychological (beliefs, coping, emotional regulation) is the software.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "bpse",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-002",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "A student's anxiety is driven by noise, air pollution and constant digital exposure in Bangkok. Which domain of the model is this?",
+    "choices": [
+      "Biological",
+      "Environmental",
+      "Psychological",
+      "Social and cultural"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Environmental: physical spaces, pollution, air quality, urban stress, digital exposure, climate anxiety. Social would be family, peers, loneliness and stigma.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "bpse",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-003",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which neurotransmitter is mainly linked to pleasure, reward-seeking and drive?",
+    "choices": [
+      "Dopamine",
+      "Serotonin",
+      "Noradrenaline",
+      "GABA"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Dopamine: pleasure, reward, drive. Serotonin: mood, impulse, sleep, appetite. Noradrenaline: energy, alertness, vigilance.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "neurotransmitters",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-004",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Energy, alertness and vigilance ('the hormone of survival') belong to…",
+    "choices": [
+      "Serotonin",
+      "Dopamine",
+      "Melatonin",
+      "Noradrenaline"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Noradrenaline drives energy, alertness and vigilance; Cedric's notes call it the hormone of survival.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "neurotransmitters"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-005",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "What share of serotonin is produced in the gut?",
+    "choices": [
+      "About 10%",
+      "About 50%",
+      "About 70%",
+      "90–95%"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "90–95% of serotonin is produced in the gut, influenced by bacteria; about 50% of dopamine is too. (70% is the gut's share of immune activity.)",
+    "source": {
+      "deck": "Class 3",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "gut-brain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-006",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which is the main 'highway' carrying signals from gut to brain?",
+    "choices": [
+      "The spinal cord",
+      "The optic nerve",
+      "The vagus nerve",
+      "The bloodstream only"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The vagus nerve sends more signals from gut to brain than the reverse.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "gut-brain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-007",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Why is the enteric nervous system called the 'second brain'?",
+    "choices": [
+      "It stores memories of meals",
+      "It produces all of the body's dopamine",
+      "It is a nervous system in the gut",
+      "It controls the immune system"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The enteric nervous system lives in the gut and talks to the brain via the gut-brain axis.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "gut-brain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-008",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "What is allostatic load?",
+    "choices": [
+      "A sudden spike of adrenaline",
+      "Cumulative wear from chronic stress",
+      "The brain's glucose demand",
+      "The number of neurons lost with each year of age"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Allostatic load is the cumulative wear on body and brain from chronic stress: brain fog, emotional dysregulation, academic disengagement.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "stress"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-009",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "How does acute stress differ from chronic stress?",
+    "choices": [
+      "Acute always harms; chronic is harmless",
+      "Acute can sharpen focus; chronic damages it",
+      "Both improve memory and focus in the long run",
+      "Chronic stress lowers cortisol levels"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Acute stress: short cortisol rise, sharper focus, adaptive. Chronic stress: persistently high cortisol that impairs the prefrontal cortex, shrinks the hippocampus and leads to burnout.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "stress",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-010",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which brain region does chronic stress shrink?",
+    "choices": [
+      "The cerebellum",
+      "The hippocampus",
+      "The brainstem",
+      "The occipital lobe"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Chronic stress raises cortisol, impairs the prefrontal cortex and shrinks the hippocampus (memory).",
+    "source": {
+      "deck": "Class 3",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "stress"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-011",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "What share of the brain's omega-3 is DHA?",
+    "choices": [
+      "17%",
+      "50%",
+      "70%",
+      "97%"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "97% of the omega-3 fatty acid in the brain is DHA, critical to cortex development and maintenance.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "omega-3"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-012",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "What minimum EPA + DHA intake per day does the course suggest?",
+    "choices": [
+      "At least 50 mg",
+      "At least 5 g",
+      "Exactly 100 mg",
+      "At least 500 mg"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Oily fish at least 2 servings a week, or EPA + DHA of at least 500 mg a day.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "omega-3"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-013",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which three B vitamins work together to lower homocysteine, linked to cognitive decline?",
+    "choices": [
+      "Folic acid, B12 and B6",
+      "B1, B2 and B3",
+      "B5, B7 and B9",
+      "Biotin, niacin and thiamine"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Folic acid, B12 and B6 lower homocysteine; high homocysteine is linked to cognitive decline and dementia. B-vitamins help those with mild cognitive impairment, not healthy older adults.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "b-vitamins"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-014",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "A student can't sleep and feels anxious before exams. Which magnesium form does the course link to relaxation and sleep?",
+    "choices": [
+      "Magnesium oxide",
+      "Magnesium sulfate",
+      "Magnesium chloride flakes",
+      "Magnesium glycinate"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Glycinate: relaxation and sleep. L-threonate: mental clarity. Oxide: constipation relief. Chloride: muscle. Sulfate: bath soaks.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "magnesium",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-015",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which magnesium form is used for fast constipation relief?",
+    "choices": [
+      "Magnesium oxide",
+      "Magnesium glycinate",
+      "Magnesium L-threonate",
+      "Magnesium chloride"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Magnesium oxide draws water into the gut for constipation relief (Cedric: magnesium attracts water).",
+    "source": {
+      "deck": "Class 3",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "magnesium"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-016",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which form of vitamin D is made in the skin from sunlight and raises blood levels more effectively?",
+    "choices": [
+      "D3 (cholecalciferol)",
+      "D2 (ergocalciferol)",
+      "Calcitriol",
+      "Calcitroic acid (inactive)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "D3 comes from skin (UVB) and animal foods and is generally more effective. D2 comes from plants/UV-exposed mushrooms. Calcitriol is the active form; calcidiol is what blood tests measure.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 32
+    },
+    "difficulty": 3,
+    "tags": [
+      "vitamin-d",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-017",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which combination creates 'calm alertness', improving attention while reducing jitteriness?",
+    "choices": [
+      "Melatonin + caffeine",
+      "Ashwagandha + refined sugar",
+      "Magnesium + alcohol",
+      "L-theanine + caffeine"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "L-theanine plus caffeine improves attention and reaction time and reduces caffeine-induced anxiety. Green tea naturally contains L-theanine.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "nootropics"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-018",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which adaptogen (KSM-66, Sensoril) is described as clinically shown to reduce cortisol and improve sleep?",
+    "choices": [
+      "Ashwagandha",
+      "Lion's mane",
+      "Ginkgo biloba",
+      "Guarana"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Ashwagandha reduces cortisol, stress and anxiety and improves sleep. Lion's mane stimulates NGF; guarana supports focus.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "adaptogens"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-019",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Lion's mane mushroom is linked to cognition because it stimulates…",
+    "choices": [
+      "Nerve growth factor (NGF)",
+      "GLP-1 release in the gut",
+      "Cortisol in the adrenals",
+      "Melatonin in the pineal gland"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Lion's mane stimulates NGF for neurogenesis, improving cognition and reducing anxiety and depression.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "nootropics"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-020",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which diet specifically targets brain health with leafy greens, berries, fish, nuts and whole grains?",
+    "choices": [
+      "The DASH diet",
+      "The keto diet",
+      "The MIND diet",
+      "The carnivore diet"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "MIND (Mediterranean-DASH Intervention for Neurodegenerative Delay) targets brain health. The Mediterranean diet has strong evidence for depression prevention.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "diet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-021",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which probiotic strain is linked to lower anxiety and cortisol via GABA receptors and the vagus nerve?",
+    "choices": [
+      "L. plantarum PS128",
+      "B. breve A1",
+      "L. rhamnosus JB-1",
+      "S. boulardii"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "L. rhamnosus JB-1: anxiety and cortisol via GABA and the vagus nerve. PS128: focus and fatigue via dopamine and serotonin. B. breve A1: BDNF.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "psychobiotics"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-022",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Yakult 1000 went viral in Japan because it was…",
+    "choices": [
+      "The first sugar-free probiotic",
+      "Cheaper than every other probiotic drink",
+      "Approved for stress-reduction claims",
+      "A prescription antidepressant"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Yakult 1000 was Japan's first government-approved 'Foods with Function Claims' product for stress reduction, with a high bacterial count and cortisol-reducing effects.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "case"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-023",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "What is the Yakult Lady model?",
+    "choices": [
+      "Trained local sellers explaining the product",
+      "A celebrity endorsement campaign",
+      "A free-sample programme run through hospitals",
+      "A subscription app with quizzes"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Yakult's empire was built by trained local women selling door to door who can explain why it works; hugely successful even in Brazil's suburbs.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "case"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-024",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Meiji Bulgaria Yogurt repositioned itself in Thailand from digestion to…",
+    "choices": [
+      "Weight-loss support",
+      "Gut-brain wellness",
+      "Bone health for the elderly",
+      "Immunity during COVID"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Meiji repositioned to 'gut-brain wellness' using young influencers, gaining millions of organic views.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "case"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-025",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Of 1.5 million Thais with depression, what share seek treatment?",
+    "choices": [
+      "About 28%",
+      "About 8%",
+      "About 58%",
+      "About 88%"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Only 28% seek treatment; stigma is a primary barrier.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 49
+    },
+    "difficulty": 2,
+    "tags": [
+      "thailand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-026",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Social media drives compulsive checking by exploiting the reward system through…",
+    "choices": [
+      "Fixed-interval rewards",
+      "Negative punishment",
+      "Classical conditioning to sound",
+      "Variable-ratio reinforcement"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Platforms use variable-ratio reinforcement (unpredictable rewards), making checking compulsive, like a slot machine.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 62
+    },
+    "difficulty": 3,
+    "tags": [
+      "digital"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-027",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "Which is a strategy the course recommends against digital overload?",
+    "choices": [
+      "Turning on all notifications",
+      "Grayscale screens and no phone in bed",
+      "Scrolling in bed before sleep to unwind",
+      "Using more apps at the same time"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Environmental design: grayscale, notifications off, phone out of the bedroom, time limits. Plus cognitive strategies, behavioural replacement and social protocols.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 70
+    },
+    "difficulty": 1,
+    "tags": [
+      "digital"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-028",
+    "topic": "brain",
+    "type": "mcq",
+    "stem": "A 7-Eleven 'brain-gut' drink is marketed for focus but is very high in sugar. What is the lecturer's criticism?",
+    "choices": [
+      "Health marketing hides the sugar",
+      "Probiotics cannot survive in drinks",
+      "Brain-gut drinks are illegal",
+      "Sugar improves the gut-brain axis"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Class notes: 'hand waving, still high in sugar'; the same goes for cereals claiming health benefits.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "marketing",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-029",
+    "topic": "brain",
+    "type": "tf",
+    "stem": "Chronic stress can disrupt the gut microbiome, increasing neuroinflammation in a vicious cycle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Stress disrupts diversity (dysbiosis), raising neuroinflammation and worsening mood regulation.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "gut-brain",
+      "stress"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "brn-030",
+    "topic": "brain",
+    "type": "tf",
+    "stem": "B-vitamin supplementation has been shown to improve cognition in healthy older adults.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "In healthy older adults it does not improve cognition; in those with mild cognitive impairment it may prevent further decline.",
+    "source": {
+      "deck": "Class 3",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "b-vitamins"
+    ],
+    "examFocus": true
+  }
+]

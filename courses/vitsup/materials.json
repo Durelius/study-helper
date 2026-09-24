@@ -1,0 +1,17 @@
+{
+  "root": "~/chula/vitsup",
+  "decks": [
+    { "deck": "Class 1", "title": "Class 1 — Intro to the course", "pdf": "Class 1_Intro to course Sem 1 2026.pdf" },
+    { "deck": "Class 2", "title": "Class 2 — Macro & Micronutrients", "pdf": "Class 2 - Understanding Nutrients_ A Comprehensive Overview.pdf" },
+    { "deck": "Class 3", "title": "Class 3 — Mental Health & Food for the Brain", "pdf": "Class 3 - Mental Health _ Food for the brain.pdf" },
+    { "deck": "Class 4", "title": "Class 4 — Immunity & Anti-Inflammatory Nutrition", "pdf": "Class 4 - Supplementation for Immunity _ Anti-Inflammatory Nutrition.pdf" },
+    { "deck": "Class 5", "title": "Class 5 — Digestive System, Gut Microbiome & Weight", "pdf": "Class 5 - Essentials of the Digestive System, Gut Microbiome, _ Weight Management.pdf" },
+    { "deck": "Class 6", "title": "Class 6 — Healthy Ageing, Longevity & Antioxidants", "pdf": "Class 6 - Healthy Ageing, Longevity _ Anti-Oxidation Supplementation_compressed.pdf" },
+    { "deck": "Cedric: Key Distinctions", "title": "Cedric's notes — Intro: Key Distinctions", "pdf": "cedricnotes/Understanding the Nuances Key Distinctions.pdf" },
+    { "deck": "Cedric: Nutrients", "title": "Cedric's notes — Macro & Micronutrients", "pdf": "cedricnotes/Macronutrients and Micronutrients.pdf" },
+    { "deck": "Cedric: Immunity", "title": "Cedric's notes — Supplements & Immune System", "pdf": "cedricnotes/Supplements and Immunesystem.pdf" },
+    { "deck": "Cedric: Brain", "title": "Cedric's notes — Brain Health", "pdf": "cedricnotes/Brain health.pdf" },
+    { "deck": "Cedric: Gut", "title": "Cedric's notes — Digestive System & Microbiome", "pdf": "cedricnotes/Essentials of the Digestive System, Gut Microbiome and Gut Management.pdf" },
+    { "deck": "Cedric: Ageing", "title": "Cedric's notes — Healthy Ageing & Longevity", "pdf": "cedricnotes/Healthy Aging and Longevity.pdf" }
+  ]
+}

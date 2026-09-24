@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "nut-001",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "In the course's three-way split of nutrients, which pairing is correct?",
+    "choices": [
+      "Macronutrients support functions",
+      "Micronutrients supply energy",
+      "Functional components supply energy",
+      "Micronutrients support functions"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Macronutrients supply energy; micronutrients support functions; functional components add benefits beyond that.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "categories",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-002",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A nutrient is needed in small amounts, provides no calories, and is essential for metabolic processes. It is a…",
+    "choices": [
+      "Macronutrient",
+      "Functional component",
+      "Micronutrient",
+      "Superfood"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Vitamins and minerals are micronutrients: essential, needed in smaller amounts, calorie-free. Calories come only from macronutrients.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "categories",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-003",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which trio does the course name as complete protein sources?",
+    "choices": [
+      "Beans, lentils, quinoa",
+      "Tofu, nuts, rice",
+      "Eggs, milk, soybean",
+      "Fish, spinach, oats"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A complete source has all essential amino acids; the slide names eggs, milk and soybean. Other plant proteins need variety to cover them, which is why tofu (soy) is a trap only in the wrong company.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "protein"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-004",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A child in a famine region has swollen limbs and growth failure. Which condition is this?",
+    "choices": [
+      "Rickets",
+      "Osteomalacia",
+      "Kwashiorkor",
+      "Pellagra"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Kwashiorkor is severe protein deficiency in children: edema and growth failure. Rickets and osteomalacia are vitamin D; pellagra is B3.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "protein",
+      "deficiency",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-005",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A bodybuilder eats very high protein and drinks little water. Which organ does the course warn is put under strain?",
+    "choices": [
+      "The liver",
+      "The thyroid",
+      "The pancreas",
+      "The kidneys"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "High protein without hydration can overload kidney function (more to filter) and raise dehydration risk. The liver is the fatty-liver/fructose story; thyroid is iodine.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "protein",
+      "excess",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-006",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A client wants a protein shake to take right before sleeping. Which does the course recommend?",
+    "choices": [
+      "Whey",
+      "Casein",
+      "Maltodextrin",
+      "Cyclic dextrin"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Casein digests slowly, so it suits bedtime. Whey is fast-absorbing, for pre/post-workout. Maltodextrin and cyclic dextrin are carbohydrate supplements, not proteins.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "protein",
+      "supplements",
+      "distinction",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-007",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Why did GLP-1 drugs such as Ozempic boost protein supplement sales?",
+    "choices": [
+      "They block the absorption of dietary protein",
+      "They cause muscle loss alongside fat loss",
+      "They raise the kidneys' need for amino acids",
+      "They convert stored protein into glucose"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "GLP-1 weight loss removes lean mass as well as fat, so users are told to add protein and resistance exercise.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "protein",
+      "glp-1"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-008",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which is NOT a function of proteins in the course?",
+    "choices": [
+      "Antibodies for immunity",
+      "Enzymes for digestion",
+      "Hormones for coordination",
+      "Main fuel for the brain"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Proteins make enzymes, hormones and antibodies and build tissue. The brain's main fuel is glucose from carbohydrates.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "protein",
+      "carbohydrate"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-009",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Muscle wasting, edema and poor wound healing in an adult suggest a deficiency of…",
+    "choices": [
+      "Vitamin C",
+      "Protein",
+      "Zinc",
+      "Vitamin K"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "These three are the course's protein-deficiency list. Vitamin C and zinc both affect wound healing too, which makes them the tempting distractors, but neither causes edema and muscle wasting together.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 12
+    },
+    "difficulty": 3,
+    "tags": [
+      "protein",
+      "deficiency"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-010",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Class notes say 'more protein in the kidney means more liquid needed for filtration'. What practical advice follows?",
+    "choices": [
+      "Take protein only alongside fibre",
+      "Cut protein on days you exercise",
+      "Switch whey for casein",
+      "Drink more water on high protein"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The course's warning is specifically 'high protein intake without hydration can overload kidney function', so hydration is the fix.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "protein",
+      "excess"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-011",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "What does the course call the body's primary energy source?",
+    "choices": [
+      "Fats and lipids",
+      "Carbohydrates",
+      "Amino acids",
+      "Ketone bodies"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Carbohydrates convert into glucose, which fuels cells, especially the brain and red blood cells. Fat is an energy store at 9 kcal/g but not the primary source.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 19
+    },
+    "difficulty": 1,
+    "tags": [
+      "carbohydrate"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-012",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "According to the lecturer, what happens to fructose in the body?",
+    "choices": [
+      "It is stored as muscle glycogen",
+      "It is metabolised into fat",
+      "It is used directly by the brain",
+      "It is excreted in the urine"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Glucose is used for energy or stored as glycogen; fructose is metabolised in the liver into fat, which links high-fructose syrups to fatty liver.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "carbohydrate",
+      "fructose",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-013",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A student on an extreme diet feels dizzy and irritable by mid-morning. Which intake is most likely too low?",
+    "choices": [
+      "Iron",
+      "Vitamin B12",
+      "Protein",
+      "Carbohydrate"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Dizziness and irritability are hypoglycaemia symptoms of a 'low-carb crash' during extreme dieting.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "carbohydrate",
+      "deficiency",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-014",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Long-term excess of sugars and refined grains mainly leads to…",
+    "choices": [
+      "Kidney strain",
+      "Insulin resistance",
+      "Hypercalcaemia",
+      "Hemochromatosis"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Excess refined carbs cause weight gain and insulin resistance, raising type 2 diabetes, obesity and CVD risk. Kidney strain is excess protein; hypercalcaemia is excess vitamin D.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "carbohydrate",
+      "excess"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-015",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Why does the course link a high-GI diet to higher chronic-disease risk?",
+    "choices": [
+      "It contains more fibre per meal",
+      "It spikes blood sugar, then crashes",
+      "It releases glucose slowly all day",
+      "It lowers LDL cholesterol too far"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "High-GI foods (chips, cake, ice cream) spike blood sugar and then crash; low-GI foods (lentils, oats, wholegrain bread) release glucose slowly.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "carbohydrate",
+      "gi"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-016",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which option lists only low-GI foods from the course's chart?",
+    "choices": [
+      "Chips, biscuits, cake",
+      "Ice cream, oranges, basmati rice",
+      "Lentils, oats, wholegrain bread",
+      "Oats, cake, wholegrain bread"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The slide's low-GI group is basmati rice, vegetables, lentils, pasta, wholegrain bread, oats and oranges; chips, biscuits, cake and ice cream are high-GI.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "carbohydrate",
+      "gi"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-017",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Maltodextrin belongs to which carbohydrate class by number of sugar units?",
+    "choices": [
+      "Monosaccharides (1)",
+      "Disaccharides (2)",
+      "Oligosaccharides (3–9)",
+      "Polysaccharides (>9)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The classification table puts malto-oligosaccharides/maltodextrins at 3–9 units, produced by industrial hydrolysis of starch. Glycogen and cellulose are polysaccharides.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 31
+    },
+    "difficulty": 3,
+    "tags": [
+      "carbohydrate"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-018",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Lactose, sucrose and maltose are all…",
+    "choices": [
+      "Disaccharides",
+      "Monosaccharides",
+      "Polyols",
+      "Oligosaccharides"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Disaccharides (2 units): sucrose, lactose, maltose. Monosaccharides: glucose, galactose, fructose. Polyols: sorbitol, mannitol.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "carbohydrate"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-019",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "An athlete wants a carb supplement that digests quickly but causes less bloating. Which does the course point to?",
+    "choices": [
+      "Oat and sweet potato powder",
+      "Psyllium husk fibre powder",
+      "Whey protein isolate powder",
+      "Highly branched cyclic dextrin"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cyclic dextrin is quick-digesting with minimal bloating. Whole-food powders (oat, sweet potato) are slow-digesting; psyllium is a fibre; casein a protein.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 27
+    },
+    "difficulty": 3,
+    "tags": [
+      "carbohydrate",
+      "supplements",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-020",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Butyrate, acetate and propionate are produced when…",
+    "choices": [
+      "Gut bacteria ferment fibre",
+      "The liver converts fructose",
+      "The stomach digests protein",
+      "Fat-soluble vitamins are stored"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fibres act as prebiotics: gut bacteria ferment them into short-chain fatty acids (SCFAs), which have many health benefits.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "fibre",
+      "scfa",
+      "prebiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-021",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which is NOT a benefit of dietary fibre according to the course?",
+    "choices": [
+      "Raises HDL by adding fat",
+      "Lowers cholesterol",
+      "Stabilises blood sugar",
+      "Prevents constipation"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fibre lowers cholesterol (binds it), prevents constipation, improves glycaemic control and reduces heart-disease risk; it adds no fat.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "fibre"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-022",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A patient wants a fibre supplement that forms a gel, eases constipation and lowers cholesterol. Which fits best?",
+    "choices": [
+      "Methylcellulose",
+      "Polycarbophil",
+      "Inulin",
+      "Psyllium"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Psyllium is the soluble gel-forming fibre that does all three. Methylcellulose is synthetic and less gassy; polycarbophil is a calcium-based tablet; inulin is a prebiotic that can bloat.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 34
+    },
+    "difficulty": 3,
+    "tags": [
+      "fibre",
+      "supplements",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-023",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A client with a sensitive stomach gets bloated on a fibre gummy. Which ingredient is the likely culprit?",
+    "choices": [
+      "Methylcellulose (Citrucel)",
+      "Polycarbophil (FiberCon)",
+      "Inulin (chicory root)",
+      "Psyllium (Metamucil)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Inulin is the prebiotic added to powders and gummies that 'can cause bloating in sensitive stomachs'. Methylcellulose is noted as less gas-producing.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 34
+    },
+    "difficulty": 3,
+    "tags": [
+      "fibre",
+      "supplements",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-024",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "For a person with type 2 diabetes, fibre's main listed benefit is that it…",
+    "choices": [
+      "Replaces insulin",
+      "Converts glucose to fat",
+      "Speeds gastric emptying",
+      "Slows sugar absorption"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Who benefits from fibre: diabetes (slows sugar absorption, stabilises blood sugar), constipation (bulk), cholesterol (binds it), weight loss (fullness).",
+    "source": {
+      "deck": "Class 2",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "fibre",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-025",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "How many kilocalories does one gram of fat provide?",
+    "choices": [
+      "4",
+      "7",
+      "12",
+      "9"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Fat provides 9 kcal/g, versus 4 for carbohydrate and protein.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "fat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-026",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A patient on an extreme fat-free diet risks deficiency of which vitamin group?",
+    "choices": [
+      "B-group and C",
+      "A, D, E, K",
+      "B1, B2, B3",
+      "C and folate"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Fat is needed to absorb the fat-soluble vitamins A, D, E and K.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat",
+      "fat-soluble",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-027",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which type of dietary fat does the course say to avoid completely?",
+    "choices": [
+      "Trans fats",
+      "Saturated fats",
+      "Omega-3 fats",
+      "Monounsaturated fats"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Unsaturated fats (olive oil, avocado, nuts) are heart-healthy; saturated fats (butter, red meat) should be limited; trans fats from processed foods should be avoided completely. 'Limit' vs 'avoid' is the trap.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-028",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A fatty acid with exactly one double bond is…",
+    "choices": [
+      "Saturated",
+      "Polyunsaturated",
+      "Monounsaturated",
+      "Hydrogenated"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "No double bond: saturated. One: monounsaturated. More than one: polyunsaturated.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-029",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Excess saturated and trans fat raises heart-disease risk mainly by increasing…",
+    "choices": [
+      "HDL cholesterol",
+      "Blood calcium",
+      "LDL cholesterol",
+      "Blood sodium"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "High saturated and trans fat intake raises LDL, the 'bad' cholesterol and a major cardiovascular risk factor. HDL is the protective one.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat",
+      "excess"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-030",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Excess fat builds up in the liver of an obese, insulin-resistant patient who does not drink. This is…",
+    "choices": [
+      "NAFLD",
+      "Atherosclerosis",
+      "Hemochromatosis",
+      "Hypervitaminosis A"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Non-alcoholic fatty liver disease is linked to obesity and insulin resistance (class notes add fructose). Atherosclerosis is plaque in arteries; hemochromatosis is iron overload.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat",
+      "nafld",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-031",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Dry skin, hair loss and hormonal imbalance are listed as signs of deficiency in…",
+    "choices": [
+      "Dietary protein",
+      "Vitamin C",
+      "Dietary fat",
+      "Iodine"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Fat deficiency impairs absorption of fat-soluble vitamins, causing dry skin, hair loss and hormonal imbalance, and can hinder growth in children.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat",
+      "deficiency"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-032",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which list contains only water-soluble vitamins?",
+    "choices": [
+      "A, C, riboflavin",
+      "B12, C, folate",
+      "D, K, niacin",
+      "E, B2, folate"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Water-soluble: B-group and C. Each wrong option slips in one fat-soluble vitamin (A, D, K or E).",
+    "source": {
+      "deck": "Class 2",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamins",
+      "water-soluble",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-033",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Why are fat-soluble vitamins the ones associated with hypervitaminosis?",
+    "choices": [
+      "They are absorbed only as pills",
+      "They leave the body in urine",
+      "They compete with calcium",
+      "They are stored in fat and liver"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Fat-soluble vitamins accumulate in fatty tissue and liver; water-soluble ones are not stored and excess is excreted in urine.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamins",
+      "fat-soluble",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-034",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A patient reports poor vision in dim light and keeps catching infections. Which vitamin is most likely lacking?",
+    "choices": [
+      "Vitamin D",
+      "Vitamin E",
+      "Vitamin A",
+      "Vitamin B2"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Vitamin A is vital for dim-light vision, immunity and skin; deficiency means night blindness and infections. Vitamin D deficiency is linked to eye problems too (dry eye, myopia), but not night blindness.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-a",
+      "deficiency",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-035",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Why is there an upper limit for preformed retinol but none for provitamin A carotenoids?",
+    "choices": [
+      "Carotenoids are water-soluble",
+      "Carotenoids are not absorbed",
+      "The liver controls the conversion",
+      "Retinol comes only from pills"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "UL: 3,000 µg RAE/day of preformed retinol. There is no UL for carotenoids (carrots, sweet potato) because the liver controls their conversion to retinol.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 47
+    },
+    "difficulty": 3,
+    "tags": [
+      "vitamin-a"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-036",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Rickets in a child and osteomalacia in an adult share which cause?",
+    "choices": [
+      "Calcium excess",
+      "Vitamin C deficiency",
+      "Vitamin K deficiency",
+      "Vitamin D deficiency"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vitamin D is needed for calcium absorption; deficiency causes rickets (children) and osteomalacia (adults).",
+    "source": {
+      "deck": "Class 2",
+      "slide": 48
+    },
+    "difficulty": 1,
+    "tags": [
+      "vitamin-d",
+      "deficiency"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-037",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A person megadosing vitamin D develops nausea, weakness and kidney problems. The mechanism is…",
+    "choices": [
+      "Hyperkalaemia",
+      "Hemochromatosis",
+      "Hypercalcaemia",
+      "Hypoglycaemia"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Excess vitamin D raises blood calcium (hypercalcaemia): nausea, weakness, kidney damage. It and hypervitaminosis A are the course's two toxicity examples.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-d",
+      "excess",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-038",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which vitamin is an antioxidant whose excess may increase bleeding risk?",
+    "choices": [
+      "Vitamin K",
+      "Vitamin A",
+      "Vitamin D",
+      "Vitamin E"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vitamin E protects cells as an antioxidant; excess has anticoagulant effects that raise bleeding risk. Vitamin K is the clotting vitamin, the opposite effect, and the natural trap.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-e",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-039",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A patient on warfarin (a blood thinner) starts a huge daily kale-and-spinach smoothie. Which vitamin could interfere with the drug?",
+    "choices": [
+      "Vitamin E",
+      "Vitamin K",
+      "Vitamin C",
+      "Vitamin B9"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Vitamin K from leafy greens drives blood clotting; high intake can interfere with anticoagulant medication. Vitamin E pushes the other way (more bleeding).",
+    "source": {
+      "deck": "Class 2",
+      "slide": 52
+    },
+    "difficulty": 3,
+    "tags": [
+      "vitamin-k",
+      "scenario",
+      "interaction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-040",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Bleeding gums and joint pain in someone with no fresh fruit or vegetables point to…",
+    "choices": [
+      "Scurvy",
+      "Rickets",
+      "Beriberi",
+      "Pellagra"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Scurvy is vitamin C deficiency: bleeding gums, joint pain, anaemia, weakness. Beriberi is B1; pellagra B3; rickets D.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 58
+    },
+    "difficulty": 1,
+    "tags": [
+      "vitamin-c",
+      "deficiency",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-041",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which pairing of B vitamin and deficiency disease is correct?",
+    "choices": [
+      "B3 – beriberi",
+      "B1 – beriberi",
+      "B12 – pellagra",
+      "B1 – pellagra"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "B1 (thiamine) deficiency causes beriberi; B3 (niacin) causes pellagra; B12 causes pernicious anaemia.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 57
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-b",
+      "deficiency",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-042",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Pellagra (the '3 Ds') results from a lack of…",
+    "choices": [
+      "Niacin (B3)",
+      "Thiamine (B1)",
+      "Riboflavin (B2)",
+      "Biotin (B7)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Niacin/B3 deficiency causes pellagra. B2 deficiency causes cheilosis and glossitis; B7 deficiency (rare) causes dermatitis and alopecia.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-b",
+      "deficiency"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-043",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A woman planning pregnancy is told to supplement B9. Which outcome is it mainly meant to prevent?",
+    "choices": [
+      "Pernicious anaemia",
+      "Neonatal rickets",
+      "Neonatal goitre",
+      "Neural tube defects"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "B9 (folic acid) is for DNA synthesis and fetal development; deficiency causes neural tube defects and anaemia. Pernicious anaemia is B12.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-b",
+      "folate",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-044",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A long-term vegan feels exhausted and has tingling hands. Which nutrient does the course single out for them?",
+    "choices": [
+      "Vitamin B6",
+      "Vitamin C",
+      "Vitamin B12",
+      "Iodine"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "B12 comes from meat, dairy and fortified foods; the course says supplementing it is critical for vegans. Deficiency: pernicious anaemia, fatigue, nerve problems.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-b",
+      "b12",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-045",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A GP 'couldn't walk' after taking high-dose supplements. Which water-soluble vitamin causes nerve damage in excess?",
+    "choices": [
+      "Vitamin B12",
+      "Vitamin C",
+      "Vitamin B1",
+      "Vitamin B6"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Excess B vitamins are mostly excreted, but high-dose B6 (pyridoxine) can cause nerve damage, as in the GP's story on the slide.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 60
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-b",
+      "excess",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-046",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Someone takes several grams of vitamin C daily. What side effect does the course expect?",
+    "choices": [
+      "Liver damage and jaundice",
+      "Hypercalcaemia",
+      "Nerve damage in the feet",
+      "Diarrhoea and cramps"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vitamin C excess is excreted, so toxicity is rare, but very high doses cause GI upset: diarrhoea, nausea, cramps. Nerve damage is the B6 excess story.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-c",
+      "excess",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-047",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Vitamin C is needed to build which protein, explaining why its lack causes bleeding gums?",
+    "choices": [
+      "Haemoglobin",
+      "Keratin",
+      "Casein",
+      "Collagen"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vitamin C is vital for collagen formation and tissue repair.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-c"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-048",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which fruit does the course show with about 90 mg of vitamin C in one medium piece?",
+    "choices": [
+      "Kiwi",
+      "Orange",
+      "Banana",
+      "Mango"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Kiwifruit (medium) is 90 mg on the slide, strawberries 85 mg per cup. The lecturer also shows kiwi has about twice the vitamin C of oranges.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "vitamin-c"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-049",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Instead of 'gambling on a multivitamin', which set does the course list as the single nutrients most people need?",
+    "choices": [
+      "A, iron, sodium, vitamin E",
+      "D3, magnesium, B12, omega-3",
+      "K, iodine, B6, vitamin C",
+      "Calcium, zinc, B1, folate"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Top single nutrients: vitamin D3 (with a fatty meal), magnesium (half of adults lack it), B12 (vegans), omega-3 (brain and heart).",
+    "source": {
+      "deck": "Class 2",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "supplements",
+      "multivitamin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-050",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Why should vitamin D3 be taken with a meal containing healthy fat?",
+    "choices": [
+      "Fat prevents its excretion",
+      "Fat improves its absorption",
+      "Fat converts it to calcitriol",
+      "Fat blocks hypercalcaemia"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "D3 is fat-soluble, so taking it with fat ensures proper absorption.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-d",
+      "fat-soluble"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-051",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "What is the lecturer's main criticism of typical multivitamins?",
+    "choices": [
+      "They are usually overdosed",
+      "They are usually underdosed",
+      "They lack any minerals",
+      "They are banned in Thailand"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Class notes: multivitamins are usually underdosed (formulated for safety), so they don't deliver the benefits they claim.",
+    "source": {
+      "deck": "Cedric: Nutrients",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "multivitamin",
+      "supplements"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-052",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "An older woman is at risk of osteoporosis. Which mineral–vitamin pair works together for her bones?",
+    "choices": [
+      "Calcium and vitamin D",
+      "Iron and vitamin C",
+      "Iodine and vitamin A",
+      "Zinc and vitamin E"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Calcium maintains bones and teeth and prevents osteoporosis; vitamin D is needed to absorb it.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 65
+    },
+    "difficulty": 1,
+    "tags": [
+      "minerals",
+      "calcium",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-053",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which mineral is necessary for life, but in excess leads to hypertension?",
+    "choices": [
+      "Potassium",
+      "Sodium",
+      "Calcium",
+      "Magnesium"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Sodium: fluid balance, nerve and muscle function, but too much causes hypertension. Potassium helps lower blood pressure.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 66
+    },
+    "difficulty": 1,
+    "tags": [
+      "minerals",
+      "sodium"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-054",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Muscle cramps with an irregular heartbeat suggest a deficiency of…",
+    "choices": [
+      "Iodine",
+      "Potassium",
+      "Selenium",
+      "Zinc"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Potassium deficiency means cramps and arrhythmias; excess is dangerous in kidney disease. (Magnesium deficiency also causes palpitations, but it is not among the major minerals in this deck.)",
+    "source": {
+      "deck": "Class 2",
+      "slide": 67
+    },
+    "difficulty": 2,
+    "tags": [
+      "minerals",
+      "potassium",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-055",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which three does the course classify as trace minerals?",
+    "choices": [
+      "Calcium, sodium, potassium",
+      "Iron, iodine, zinc",
+      "Iron, calcium, magnesium",
+      "Zinc, sodium, iodine"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Major minerals: calcium, sodium, potassium. Trace: iron, iodine, zinc.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 68
+    },
+    "difficulty": 2,
+    "tags": [
+      "minerals",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-056",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A student with heavy periods is tired, weak and pale. Which deficiency should be checked first?",
+    "choices": [
+      "Iron",
+      "Iodine",
+      "Vitamin K",
+      "Zinc"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Iron makes haemoglobin for oxygen transport; deficiency causes anaemia (fatigue, weakness, pale skin). Menstruation is a classic cause, so the rule is 'check iron first'.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 69
+    },
+    "difficulty": 2,
+    "tags": [
+      "minerals",
+      "iron",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-057",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which condition involves iron excess harming organs?",
+    "choices": [
+      "Hemochromatosis",
+      "Hypothyroidism",
+      "Kwashiorkor",
+      "Osteomalacia"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Excess iron can harm organs, especially in hemochromatosis.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 69
+    },
+    "difficulty": 2,
+    "tags": [
+      "minerals",
+      "iron",
+      "excess"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-058",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Goitre, weight gain and cold sensitivity point to a lack of…",
+    "choices": [
+      "Iron",
+      "Zinc",
+      "Selenium",
+      "Iodine"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Iodine is a structural component of thyroid hormones; deficiency causes goitre and hypothyroidism. Sources: iodised salt, seafood.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 70
+    },
+    "difficulty": 1,
+    "tags": [
+      "minerals",
+      "iodine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-059",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "During pregnancy and breastfeeding, the RDA of which mineral rises to 220 µg and 290 µg?",
+    "choices": [
+      "Iron",
+      "Zinc",
+      "Iodine",
+      "Calcium"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The iodine RDA rises in pregnancy (220 µg/day) and breastfeeding (290 µg/day). Seafood is rich because marine animals concentrate iodine from seawater.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 70
+    },
+    "difficulty": 3,
+    "tags": [
+      "minerals",
+      "iodine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-060",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Excess zinc intake interferes with the absorption of…",
+    "choices": [
+      "Iodine",
+      "Sodium",
+      "Copper",
+      "Vitamin C"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Too much zinc causes nausea and vomiting and interferes with copper absorption.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 71
+    },
+    "difficulty": 2,
+    "tags": [
+      "minerals",
+      "zinc",
+      "excess"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-061",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A child in a low-income region has frequent infections, slow-healing wounds and stunted growth. Which deficiency fits best?",
+    "choices": [
+      "Iron",
+      "Iodine",
+      "Vitamin E",
+      "Zinc"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Zinc covers immune function, wound healing and growth; deficiency causes poor immunity, delayed healing and growth retardation. Iron and iodine each explain part of it, but not all three.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 71
+    },
+    "difficulty": 3,
+    "tags": [
+      "minerals",
+      "zinc",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-062",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A kilocalorie is the energy needed to raise…",
+    "choices": [
+      "1 g of water by 1 °C",
+      "1 kg of water by 10 °C",
+      "1 L of water to boiling",
+      "1 kg of water by 1 °C"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "1 kcal is the heat to raise 1 kg (1 L) of water by 1 °C; a small calorie does the same for 1 g.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 72
+    },
+    "difficulty": 2,
+    "tags": [
+      "calories"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-063",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "Which of these supplies calories?",
+    "choices": [
+      "Vitamin C",
+      "Iron",
+      "Fibre supplements",
+      "Protein"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Calories come only from the three macronutrients: carbohydrates, proteins and fats.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [
+      "calories"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-064",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A Whopper plus large fries is about 1,367 kcal and 1,850 mg sodium. What lesson does the course draw?",
+    "choices": [
+      "Fast food lacks any real protein",
+      "Sodium on labels is overstated",
+      "Compare portion with serving size",
+      "Calories matter only at dinner"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The portion-size slides: compare the label's serving size with what you actually eat, because calorie and nutrient intake scale with the real portion.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 76
+    },
+    "difficulty": 2,
+    "tags": [
+      "calories",
+      "labels",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-065",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "What share of the human body is water according to the slide?",
+    "choices": [
+      "About 16%",
+      "About 62%",
+      "About 45%",
+      "About 80%"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Water about 62%, protein about 16%.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 79
+    },
+    "difficulty": 1,
+    "tags": [
+      "water"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-066",
+    "topic": "nutrients",
+    "type": "mcq",
+    "stem": "A person on a very low-fat diet develops weak bones. Which chain does the course give as its example?",
+    "choices": [
+      "Low fat → poor vitamin D uptake → osteomalacia",
+      "Low fat → raised LDL → atherosclerosis plaques",
+      "Low fat → iodine loss → goitre",
+      "Low fat → excess protein → kidney strain"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The course's 'typical example of deficiency': a low-fat diet impairs absorption of fat-soluble vitamin D, weakening bones (osteomalacia in adults, rickets in children).",
+    "source": {
+      "deck": "Class 2",
+      "slide": 80
+    },
+    "difficulty": 3,
+    "tags": [
+      "fat",
+      "vitamin-d",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-067",
+    "topic": "nutrients",
+    "type": "tf",
+    "stem": "Vitamin C toxicity is common because it accumulates in the liver.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Vitamin C is water-soluble: excess is excreted in urine, so toxicity is rare. Liver accumulation describes fat-soluble vitamins such as A.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-c",
+      "water-soluble"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-068",
+    "topic": "nutrients",
+    "type": "tf",
+    "stem": "Excess potassium is particularly dangerous for people with kidney problems.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Excess potassium can cause dangerous heart conditions, particularly in people with kidney issues.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 67
+    },
+    "difficulty": 2,
+    "tags": [
+      "minerals",
+      "potassium"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nut-069",
+    "topic": "nutrients",
+    "type": "tf",
+    "stem": "Unsaturated fats such as olive oil should be avoided completely, like trans fats.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Unsaturated fats (olive oil, avocado, nuts) are the heart-healthy fats. Only trans fats are 'avoid completely'; saturated fats are 'limit'.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "fat"
+    ],
+    "examFocus": true
+  }
+]

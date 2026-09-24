@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "imm-001",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which describes innate immunity?",
+    "choices": [
+      "Fast, non-specific, immediate",
+      "Slow, targeted, with memory",
+      "Fast, targeted, with memory",
+      "Slow, non-specific, antibody-led"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Innate immunity is the fast, non-specific first defence. Adaptive immunity is slower, targeted, and builds memory against pathogens met before.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 9
+    },
+    "difficulty": 1,
+    "tags": [
+      "innate-adaptive",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-002",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Vaccination works because of which property of the immune system?",
+    "choices": [
+      "Adaptive memory",
+      "Innate speed",
+      "Neutrophil abundance",
+      "Interferon storage"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Adaptive immunity develops memory against a specific pathogen, so a second encounter is fought faster: the vaccination principle in class notes.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "innate-adaptive",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-003",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which immune cells produce antibodies?",
+    "choices": [
+      "B-cells",
+      "T-cells",
+      "Neutrophils",
+      "Macrophages"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "B-cells produce antibodies; T-cells execute targeted responses; neutrophils give rapid defence; macrophages destroy pathogens and start responses.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "immune-cells"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-004",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which is the most abundant white blood cell, the one the class quiz asked about?",
+    "choices": [
+      "Macrophage",
+      "Neutrophil",
+      "B-cell",
+      "T-cell"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The in-class quiz answer was the neutrophil, which provides rapid defence against infection.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "immune-cells"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-005",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "The lecturer calls this cell 'Pac-Man': it engulfs pathogens and initiates immune responses.",
+    "choices": [
+      "Macrophage",
+      "Neutrophil",
+      "B-cell",
+      "Mast cell"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Macrophages destroy (engulf) pathogens and kick off immune responses.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "immune-cells"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-006",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "In a type 1 diabetic, the immune system keeps destroying the insulin-producing cells of the pancreas. This is an example of…",
+    "choices": [
+      "Immunosenescence",
+      "A cytokine storm",
+      "Acute inflammation",
+      "Autoimmunity"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Class notes: 'cross-recognition' where the immune system misrecognises the body's own cells, as in type 1 diabetes. An over-strong or dysregulated system leads to autoimmune disease.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "balance",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-007",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What are cytokines, in the course's phrase?",
+    "choices": [
+      "The antibodies made by B-cells",
+      "The chemical language of immunity",
+      "The fats of immune cell membranes",
+      "The memory store of T-cells"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cytokines are the signalling molecules immune cells use to communicate: 'the chemical language of immunity'.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "cytokines"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-008",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which cytokines trigger and amplify inflammation, causing fever and pain?",
+    "choices": [
+      "IL-10, IL-4",
+      "Interferons and chemokines",
+      "IL-1β, IL-6, TNF-α",
+      "Chemokines only"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Pro-inflammatory: IL-1β, IL-6, TNF-α. Anti-inflammatory: IL-10, IL-4 (resolve inflammation). Interferons are antiviral; chemokines attract immune cells.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "cytokines",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-009",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which molecules provide antiviral defence?",
+    "choices": [
+      "Chemokines",
+      "IL-10",
+      "Interferons",
+      "Histamines"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Interferons provide antiviral defence; chemokines attract immune cells; IL-10 resolves inflammation; histamine drives redness and swelling.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "cytokines",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-010",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What actively resolves inflammation and halts it, clearing debris to promote healing?",
+    "choices": [
+      "Specialised pro-resolving mediators",
+      "Pro-inflammatory cytokines",
+      "Pattern recognition receptors",
+      "Advanced glycation end products (AGEs)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "SPMs (resolvins) halt inflammation and promote healing; health needs a dynamic balance of pro- and anti-inflammatory signals actively resolved by SPMs. Omega-3s generate them.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "cytokines",
+      "resolution"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-011",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What is the course's core message about immune balance?",
+    "choices": [
+      "Stronger is always better",
+      "Too weak or too strong both harm",
+      "Weak immunity prevents allergy",
+      "Balance only matters in children"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Too weak means more infections; too strong or dysregulated means chronic inflammation or autoimmune disease. Take-home: 'immunity depends on balance, not overactivation'.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "balance"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-012",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Redness, heat and swelling around a splinter wound within hours are signs of…",
+    "choices": [
+      "Chronic inflammation",
+      "Adaptive memory",
+      "Acute inflammation",
+      "Immunosenescence"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Acute inflammation is short-term, protective and self-limiting: redness, heat, swelling, fever, crucial for healing.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "inflammation",
+      "distinction",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-013",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Chronic inflammation is best described as…",
+    "choices": [
+      "A short protective response",
+      "A high fever lasting under one week",
+      "Persistent low-grade activation",
+      "Rapid neutrophil recruitment"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Chronic inflammation is persistent, low-grade activation that becomes damaging and underlies many long-term diseases.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "inflammation",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-014",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "In acute inflammation, what is the correct order of steps?",
+    "choices": [
+      "Cytokines → recognition → resolution → recruitment",
+      "Recognition → cytokines → recruitment → resolution",
+      "Recruitment → recognition → cytokines → resolution",
+      "Resolution → recruitment → cytokines → recognition"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "PRRs recognise patterns; macrophages and mast cells release cytokines and histamine (vasodilation); chemokines recruit neutrophils and monocytes; SPMs resolve.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "inflammation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-015",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Why does the course call excess adipose tissue 'biologically active'?",
+    "choices": [
+      "It stores vitamin C",
+      "It produces antibodies",
+      "It absorbs excess glucose from blood",
+      "It releases TNF-α and IL-6"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Fat tissue acts as an endocrine organ, secreting inflammatory molecules like TNF-α and IL-6 that drive insulin resistance and diabetes: a vicious cycle.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "inflammation",
+      "obesity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-016",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Atherosclerosis is classified in the course as…",
+    "choices": [
+      "A chronic inflammatory disease",
+      "An autoimmune disorder of the gut",
+      "A chronic viral infection",
+      "A fat-soluble vitamin deficiency"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Cardiovascular disease: atherosclerosis is a chronic inflammatory disease in which oxidised LDL and inflammation narrow the arteries.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "inflammation",
+      "disease"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-017",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which is NOT listed as a disease linked to chronic inflammation?",
+    "choices": [
+      "Scurvy",
+      "Type 2 diabetes",
+      "Depression",
+      "Osteoarthritis"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Chronic inflammation links to diabetes, heart disease, autoimmune disease, arthritis, IBD, depression and neurodegeneration. Scurvy is a vitamin C deficiency.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "inflammation",
+      "disease"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-018",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What are AGEs, and why do they matter for diabetics?",
+    "choices": [
+      "Antibodies the body makes against blood glucose",
+      "Fats that lower blood sugar after meals",
+      "Liver cells that store excess glycogen",
+      "Sugar stuck to proteins, driving inflammation"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Advanced glycation end products form when blood sugar sticks to proteins; they generate reactive oxygen species, inflammation and tissue damage.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "inflammation",
+      "age"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-019",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which of these does the course list as a food that causes inflammation?",
+    "choices": [
+      "Fatty fish",
+      "Artificial sweeteners",
+      "Ginger",
+      "Fermented vegetables"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Inflammatory foods: sugar, gluten, refined carbs, corn-fed meat and dairy, artificial sweeteners, trans fats, highly processed seed oils. Fatty fish, ginger and fermented foods are anti-inflammatory.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "diet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-020",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "An anti-inflammatory diet in the course is closest to which style?",
+    "choices": [
+      "High-protein carnivore",
+      "Low-fat processed",
+      "Sugar-free fasting",
+      "Mediterranean-style"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Rich in vegetables, fruit, omega-3 fatty fish, fermented foods, fibre and polyphenols: a Mediterranean-style diet.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 29
+    },
+    "difficulty": 1,
+    "tags": [
+      "diet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-021",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Ultra-processed food is inflammatory partly because of which property the course lists?",
+    "choices": [
+      "More fibre and polyphenols, less protein",
+      "More omega-3s, less salt and sugar",
+      "More vitamins, less energy per gram",
+      "More salt, sugar and energy, less fibre"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Pro-inflammatory diet: more salt, sugar and energy, less fibre, vitamins and micronutrients, plus additives and processing contaminants.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "diet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-022",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Approximately how much immune activity is associated with the gut?",
+    "choices": [
+      "About 10%",
+      "About 70%",
+      "About 30%",
+      "About 95%"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "About 70% of immune activity is associated with the gut; the microbiota regulates inflammation, barrier function and immune signalling. (90–95% is the gut's share of serotonin, a different fact.)",
+    "source": {
+      "deck": "Class 4",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "gut-immunity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-023",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which nutrient does the course list as 'supports antioxidant defence mechanisms'?",
+    "choices": [
+      "Sodium",
+      "Iodine",
+      "Vitamin K",
+      "Selenium"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Important nutrients for immunity: vitamin C, vitamin D, zinc, omega-3, selenium (antioxidant defence), polyphenols and fibre.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "nutrients"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-024",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Cedric's class quiz: which mineral is important for normal immune function?",
+    "choices": [
+      "Zinc",
+      "Sodium",
+      "Calcium",
+      "Iodine"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Zinc: an essential cofactor for T-cell development and NK cell function.",
+    "source": {
+      "deck": "Cedric: Immunity",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "nutrients",
+      "zinc"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-025",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "For vitamin D, vitamin C and zinc, what is the evidence strongest for?",
+    "choices": [
+      "Megadosing healthy people",
+      "Curing viral infections",
+      "Correcting a deficiency",
+      "Preventing all infection"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The evidence slide: vitamin D, vitamin C and zinc have strong evidence for correcting deficiency. Class notes: 'the purpose of supplementing is just to fix a deficiency'.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-026",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "How does the course rate the evidence for probiotics in immunity?",
+    "choices": [
+      "Strain-specific",
+      "Strong for all strains",
+      "Absent entirely",
+      "Strong only for curcumin"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Probiotics: strain-specific evidence for immune modulation. Effects are strain-dependent, moderate and not universally applicable.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence",
+      "probiotics"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-027",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which supplement is rated 'promising but needs more robust evidence'?",
+    "choices": [
+      "Vitamin D",
+      "Zinc",
+      "Vitamin C",
+      "Curcumin"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Curcumin: promising but needs more robust evidence. Omega-3: moderate evidence for anti-inflammatory effects. D, C, zinc: strong for deficiency correction.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence",
+      "curcumin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-028",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Omega-3 (EPA + DHA) is placed in which evidence tier for anti-inflammatory effects?",
+    "choices": [
+      "Moderate evidence",
+      "Strong evidence",
+      "No evidence",
+      "Harmful at any dose"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Omega-3: moderate evidence for anti-inflammatory effects; it generates pro-resolving mediators and lowers CRP, IL-6 and TNF-α.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence",
+      "omega-3"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-029",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What is the bioavailability of plain turmeric/curcumin extract, according to the lecturer?",
+    "choices": [
+      "About 10%",
+      "About 50%",
+      "About 1%",
+      "About 90%"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "'Absorption as extract = 1% BA (miserable!!)': eat 500 mg and only 5 mg is absorbed.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "curcumin",
+      "bioavailability"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-030",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "A customer takes 500 mg of plain curcumin extract daily. Roughly how much is absorbed?",
+    "choices": [
+      "50 mg",
+      "5 mg",
+      "250 mg",
+      "0.5 mg"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "At about 1% bioavailability, 500 mg of extract gives about 5 mg absorbed.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "curcumin",
+      "bioavailability",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-031",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "How do Meriva (phytosome) and liposomal curcumin address curcumin's weakness?",
+    "choices": [
+      "They add black-pepper piperine to it",
+      "They remove the curcuminoids",
+      "They convert it to vitamin D",
+      "They boost absorption about 50-fold"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Formulation fixes bioavailability: Meriva/phytosome is marketed at about 50× normal absorption with clinical data. Plain extract is 1%.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "curcumin",
+      "bioavailability",
+      "formulation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-032",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Why can curcumin in traditional Indian or Thai cooking still matter despite low bioavailability?",
+    "choices": [
+      "Cooking in oil raises absorption to 100%",
+      "Small doses eaten constantly for years",
+      "Curry spices contain no curcumin",
+      "Traditional recipes add Meriva"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Class notes: when it's in food and culture, the dose is low but constant over a long time.",
+    "source": {
+      "deck": "Cedric: Immunity",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "curcumin",
+      "bioavailability"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-033",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Haleon's PanaNatra ('from the makers of Panadol') combines curcumin with which ingredient for joint and muscle pain?",
+    "choices": [
+      "Boswellic acids",
+      "Glucosamine sulfate",
+      "Andrographis",
+      "Elderberry"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "PanaNatra pairs curcuminoids with boswellic acids (Boswellia serrata) for osteoarthritis. The ACR guideline had recommended against glucosamine.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "case",
+      "pananatra"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-034",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What consumer insight did Haleon use to launch PanaNatra?",
+    "choices": [
+      "Trust in the Panadol/GSK name",
+      "A lower price than plain paracetamol",
+      "Faster action than drugs",
+      "No need for clinical trials"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Consumer quotes: 'if a new product comes from GSK, I will try' (trust and legacy), and patients were ready to try new ingredients.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 44
+    },
+    "difficulty": 3,
+    "tags": [
+      "case",
+      "pananatra"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-035",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "A meta-analysis of vitamin C in COVID-19 patients found…",
+    "choices": [
+      "A 50% drop in mortality",
+      "Harm at every dose tested",
+      "No significant effect on mortality",
+      "A benefit only when zinc was added"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Zhou et al. (2025): vitamin C did not significantly improve COVID outcomes (28-day mortality RR 0.92, CI 0.72–1.17).",
+    "source": {
+      "deck": "Class 4",
+      "slide": 64
+    },
+    "difficulty": 3,
+    "tags": [
+      "covid",
+      "vitamin-c",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-036",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which supplement had the strongest COVID-19 evidence, with deficiency associated with severity?",
+    "choices": [
+      "Vitamin D3",
+      "Vitamin C",
+      "Zinc",
+      "Elderberry syrup"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Vitamin D3: strongest evidence; deficiency was strongly associated with COVID severity (64% more deficiency in severe cases). Vitamin C and zinc megadoses lacked clinical support.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 60
+    },
+    "difficulty": 2,
+    "tags": [
+      "covid",
+      "vitamin-d",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-037",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "A vitamin D meta-analysis found deficiency was NOT associated with catching COVID-19, but was associated with…",
+    "choices": [
+      "Faster recovery",
+      "Fewer hospital stays",
+      "More severe disease",
+      "Lower mortality"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Pereira et al.: deficiency did not raise infection chance (OR 1.35, CI crosses 1), but severe cases had 64% more deficiency, and insufficiency raised hospitalisation and mortality.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 69
+    },
+    "difficulty": 3,
+    "tags": [
+      "covid",
+      "vitamin-d",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-038",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What does the course say actually made severe COVID-19 dangerous?",
+    "choices": [
+      "The body's excessive inflammatory response",
+      "The virus alone destroying the lung tissue",
+      "Vitamin C overdosing in hospital",
+      "Weak innate immunity in the young"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Severe cases involved hyperinflammation and cytokine storms: 'the problem wasn't solely the virus but the body's excessive inflammatory response'.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 57
+    },
+    "difficulty": 2,
+    "tags": [
+      "covid",
+      "inflammation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-039",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Why were people with obesity and diabetes at greater risk of severe COVID-19?",
+    "choices": [
+      "They had too many neutrophils",
+      "They took far more vitamin supplements",
+      "They lacked any adaptive immunity",
+      "They already had chronic inflammation"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Obesity, diabetes and metabolic syndrome mean pre-existing chronic inflammation, which raised the risk of severe disease, hospitalisation and death.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "covid",
+      "obesity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-040",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What lesson does the course draw from COVID-era supplement buying?",
+    "choices": [
+      "Evidence drove every purchase",
+      "Supplements prevented most infections",
+      "Consumers avoided vitamins",
+      "Fear drove buying ahead of evidence"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The pandemic exposed how fear and biological plausibility can drive consumer behaviour ahead of clinical evidence.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 60
+    },
+    "difficulty": 2,
+    "tags": [
+      "covid",
+      "consumer"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-041",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Why does vitamin C powder turn brown in a half-empty jar?",
+    "choices": [
+      "It absorbs iron",
+      "It oxidises",
+      "It ferments",
+      "It crystallises"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The slide shows vitamin C oxidising and browning over two months, faster with more headspace (air). Stability is a formulation problem.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "vitamin-c",
+      "formulation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-042",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which supplement does the course call a natural zinc ionophore that enhances zinc absorption?",
+    "choices": [
+      "Quercetin + bromelain",
+      "Vitamin D3 + vitamin K2",
+      "Magnesium",
+      "Astragalus"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Quercetin + bromelain inhibits NF-κB and the NLRP3 inflammasome and acts as a natural zinc ionophore.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 72
+    },
+    "difficulty": 3,
+    "tags": [
+      "tier-1"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-043",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which Tier 1 nutrient is described as the cofactor for vitamin D activation?",
+    "choices": [
+      "Zinc",
+      "Vitamin C",
+      "Magnesium",
+      "Omega-3"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Magnesium: a cofactor for vitamin D activation that regulates NF-κB signalling; deficiency is common.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 72
+    },
+    "difficulty": 3,
+    "tags": [
+      "tier-1",
+      "magnesium"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-044",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What distinguishes the Tier 2 botanical immunomodulators from Tier 1?",
+    "choices": [
+      "Strong human RCT evidence for every single one",
+      "They are essential vitamins and minerals",
+      "Promising lab and animal data, weaker in humans",
+      "They are banned from sale in Thailand"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Tier 2 (curcumin, andrographis, elderberry, astragalus, black ginger, reishi) has interesting lab and animal data, 'but in humans not always'. Tier 1 is the foundational nutrients.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 73
+    },
+    "difficulty": 2,
+    "tags": [
+      "tier-2",
+      "evidence",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-045",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which herb did Thailand officially recommend for mild COVID-19 based on preliminary RCT data?",
+    "choices": [
+      "Black ginger (Kaempferia parviflora)",
+      "Andrographis (Fah Talai Jone)",
+      "Holy basil (Kraprao)",
+      "Turmeric (Kamin Chan)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Andrographis (fah talai jone) became Thailand's recommended option for mild COVID and its best-selling domestic herbal supplement.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 76
+    },
+    "difficulty": 2,
+    "tags": [
+      "tier-2",
+      "thailand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-046",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which botanical works by inhibiting viral haemagglutinin to prevent cell entry?",
+    "choices": [
+      "Astragalus (Astragalus membranaceus)",
+      "Reishi (Ganoderma)",
+      "Elderberry (Sambucus nigra)",
+      "Andrographis paniculata"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Elderberry inhibits viral haemagglutinin (blocking entry). Astragalus stimulates NK and T cells; reishi activates NK cells and macrophages.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 73
+    },
+    "difficulty": 3,
+    "tags": [
+      "tier-2"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-047",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Black ginger (Kaempferia parviflora) is described as…",
+    "choices": [
+      "A core Chinese TCM adaptogen root",
+      "An imported European antiviral elderberry",
+      "A Japanese medicinal mushroom",
+      "An endemic Thai anti-inflammatory herb"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Black ginger: anti-inflammatory via COX-2 and NF-κB, improves mitochondrial function, endemic Thai plant. Astragalus is the TCM adaptogen; elderberry the European import; reishi the mushroom.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 73
+    },
+    "difficulty": 3,
+    "tags": [
+      "tier-2",
+      "thailand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-048",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "HymnA Immunity uses heat-killed Lactobacillus plantarum. Why does the course call this a smart choice for Southeast Asia?",
+    "choices": [
+      "Live bacteria colonise the gut much faster",
+      "It needs no clinical evidence at all",
+      "A postbiotic survives heat and logistics",
+      "It costs less than a vitamin C tablet"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A postbiotic (dead bacteria) is stable, which addresses SEA logistics challenges for live probiotics, and it still showed NK-cell increases and fewer respiratory infections.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 79
+    },
+    "difficulty": 3,
+    "tags": [
+      "postbiotic",
+      "case",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-049",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "What did Blackmores Thailand's 'Immunity IQ' campaign demonstrate?",
+    "choices": [
+      "Fear-based messages sell best in a crisis",
+      "Influencers persuade better than doctors",
+      "Education builds durable brand equity",
+      "Price cuts drive long-term loyalty"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A transparent digital education campaign with doctors and quizzes reached 18M users and lifted sales 41%: evidence-based communication beats fear-based marketing.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 78
+    },
+    "difficulty": 2,
+    "tags": [
+      "case",
+      "marketing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-050",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "A cheaper Bacillus clausii product copies the look of Sanofi's Enterogermina. What is the core problem the course raises?",
+    "choices": [
+      "It mimics the brand without its evidence",
+      "It contains too many live bacterial spores",
+      "It is illegal to sell probiotics in Asia",
+      "It swaps the spores for a postbiotic"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Copycats imitate appearance and messaging, causing consumer confusion; Enterogermina is the original with clinical trials. This erodes trust and fair competition.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 85
+    },
+    "difficulty": 3,
+    "tags": [
+      "copycat",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-051",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Which reason does the course give for consumers preferring 'immune-boosting' pills over lifestyle change?",
+    "choices": [
+      "Pills are proven better than diet",
+      "Lifestyle change is both free and quick",
+      "Doctors prescribe supplements first",
+      "An illusion of control and less guilt"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Convenience, powerful marketing, the illusion of control (quick safety, guilt reduction) and the hard reality of lifestyle change (time, cost, exhaustion).",
+    "source": {
+      "deck": "Class 4",
+      "slide": 89
+    },
+    "difficulty": 2,
+    "tags": [
+      "consumer"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-052",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "Beta-glucans are described as trending because they…",
+    "choices": [
+      "Raise NAD+ levels for DNA repair",
+      "Prime innate immunity without inflaming",
+      "Selectively kill ageing senescent cells",
+      "Replace the need for vitamin D"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Beta-glucans (yeast/mushroom) activate innate immunity for a faster response without causing inflammation; several RCTs show fewer respiratory infections. NMN/NR raise NAD+.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 91
+    },
+    "difficulty": 3,
+    "tags": [
+      "trends"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-053",
+    "topic": "immunity",
+    "type": "mcq",
+    "stem": "A systematic review of Brand's Essence of Chicken for cognition concluded that…",
+    "choices": [
+      "It clearly improves memory in all healthy adults tested",
+      "It works only when combined with probiotics",
+      "It measurably harms cognitive function",
+      "Effects were at best modest; claims are premature"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Teoh et al.: pooled effects were significant only for some measures, at best modest and not clinically significant; it is premature to support the cognitive claim.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 55
+    },
+    "difficulty": 3,
+    "tags": [
+      "evidence",
+      "case"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-054",
+    "topic": "immunity",
+    "type": "tf",
+    "stem": "The take-home message is that immunity depends on overactivation: the stronger the response, the better.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The course says the opposite: immunity depends on balance, not simply overactivation. Too strong means chronic inflammation or autoimmunity.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 94
+    },
+    "difficulty": 1,
+    "tags": [
+      "balance"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-055",
+    "topic": "immunity",
+    "type": "tf",
+    "stem": "Vitamin C mega-dosing was shown to prevent or treat COVID-19.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "No evidence for mega-dosing; vitamin C is critical for correcting deficiency, and a 2025 meta-analysis showed no significant outcome improvement.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 60
+    },
+    "difficulty": 2,
+    "tags": [
+      "covid",
+      "vitamin-c"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "imm-056",
+    "topic": "immunity",
+    "type": "tf",
+    "stem": "Tolak Angin, an Indonesian jamu, reframed itself as scientifically grounded immune support and grew sales about 65%.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The 'Smart People Drink Tolak Angin' campaign: traditional knowledge with modern validation (ginger, mint, fennel, clove, honey).",
+    "source": {
+      "deck": "Class 4",
+      "slide": 80
+    },
+    "difficulty": 2,
+    "tags": [
+      "case"
+    ],
+    "examFocus": true
+  }
+]

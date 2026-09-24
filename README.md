@@ -12,6 +12,7 @@ broken question file only stops the course it belongs to.
 courses/
   valuechain/        course.json + content/ + audio/     348 questions, live
   genai-literacy/    course.json + content/              skeleton
+  vitsup/            course.json + content/              333 questions, live
 ```
 
 Everything that differs between courses is in its `course.json`: the topics and their

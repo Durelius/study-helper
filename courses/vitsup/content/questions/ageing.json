@@ -1,0 +1,1425 @@
+[
+  {
+    "id": "age-001",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What is healthspan?",
+    "choices": [
+      "Total years lived from birth",
+      "Years lived after the retirement age",
+      "Years a cell divides before dying",
+      "Years lived without chronic disease"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Lifespan is total years; healthspan is years without chronic disease. The goal is morbidity compression: more vital years.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "lifespan-healthspan",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-002",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What does 'morbidity compression' aim for?",
+    "choices": [
+      "Extending total lifespan past 120",
+      "Squeezing illness into fewer final years",
+      "Compressing telomeres to slow division",
+      "Shortening the time spent in hospital care"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Morbidity compression means pushing chronic disease into a shorter period at the end of life, so more years are lived healthy.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "lifespan-healthspan"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-003",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Two 70-year-olds have the same lifespan so far, but one has had diabetes and heart disease since 50. Which measure differs between them?",
+    "choices": [
+      "Lifespan",
+      "Telomere count",
+      "Healthspan",
+      "Chronological age"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Same chronological age and lifespan so far; the one with 20 years of chronic disease has a shorter healthspan.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "lifespan-healthspan",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-004",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "According to the course, what drove the historical rise in human life expectancy?",
+    "choices": [
+      "Supplements, NMN and collagen products",
+      "Lower birth rates and smaller families",
+      "Sanitation, vaccines, healthcare, antibiotics",
+      "Genetic selection and engineering of the population"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Life expectancy rose dramatically through sanitation, vaccines and healthcare, with antibiotics and nutrition also important.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 5
+    },
+    "difficulty": 1,
+    "tags": [
+      "context"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-005",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Roughly how much of the ageing rate does the course estimate is influenced by lifestyle and nutrition?",
+    "choices": [
+      "About 10%",
+      "About 30%",
+      "About 70%",
+      "About 95%"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Take-home: biological ageing is modifiable; about 70% of the ageing rate is influenced by lifestyle and nutrition, not fixed genetics.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 78
+    },
+    "difficulty": 2,
+    "tags": [
+      "lifestyle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-006",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "How many hallmarks of ageing are in the 2023 López-Otín 'playbook'?",
+    "choices": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The 2023 Cell paper proposes twelve hallmarks (up from nine in 2013). The course's simplified list has six.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "hallmarks"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-007",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which is one of the 12 hallmarks of ageing?",
+    "choices": [
+      "Hypercalcaemia",
+      "Dysbiosis",
+      "Kwashiorkor",
+      "Hypervitaminosis"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The twelve: genomic instability, telomere attrition, epigenetic alterations, loss of proteostasis, disabled macroautophagy, deregulated nutrient sensing, mitochondrial dysfunction, cellular senescence, stem cell exhaustion, altered intercellular communication, chronic inflammation and dysbiosis.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "hallmarks"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-008",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which hallmark describes chromosome ends shortening with each cell division?",
+    "choices": [
+      "Genomic instability",
+      "Telomere attrition",
+      "Epigenetic alterations",
+      "Stem cell exhaustion"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Telomere attrition: telomeres shorten with each division. Genomic instability is accumulated DNA damage; epigenetic alterations are methylation changes.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "hallmarks"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-009",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which hallmark is the decline of the cell's 'recycling system', so damaged organelles build up?",
+    "choices": [
+      "Loss of proteostasis",
+      "Mitochondrial dysfunction",
+      "Altered intercellular communication",
+      "Disabled macroautophagy"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Disabled macroautophagy: the recycling system declines. Loss of proteostasis is failing protein quality control and misfolded proteins.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "hallmarks",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-010",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Senescent cells harm their neighbours by secreting what?",
+    "choices": [
+      "SCFAs",
+      "SPMs",
+      "GLP-1",
+      "SASP"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cellular senescence: senescent ('zombie') cells secrete SASP, which accelerates ageing in neighbouring cells and drives inflammaging.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "hallmarks",
+      "senescence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-011",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which hallmark involves mTOR hyperactivation with AMPK and sirtuin decline?",
+    "choices": [
+      "Disabled macroautophagy",
+      "Deregulated nutrient sensing",
+      "Epigenetic alterations",
+      "Stem cell exhaustion"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Deregulated nutrient sensing: mTOR hyperactivation, AMPK/sirtuin decline. This is what resveratrol (SIRT1, AMPK) and fasting mimetics target.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 19
+    },
+    "difficulty": 3,
+    "tags": [
+      "hallmarks"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-012",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Mitochondria that accumulate mutations lead to which pair of changes?",
+    "choices": [
+      "More ATP and less ROS",
+      "More NAD+ and less DNA damage",
+      "Less ATP and more ROS",
+      "Less ROS and longer telomeres"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Mitochondrial dysfunction: mutations reduce ATP production and increase reactive oxygen species.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "hallmarks",
+      "mitochondria"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-013",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What is 'inflammaging'?",
+    "choices": [
+      "An acute fever in elderly patients",
+      "An allergy that first appears after age 60",
+      "The ageing of the skin by UV light",
+      "Chronic low-grade inflammation of ageing"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Inflammaging is persistent low-grade inflammation driven by SASP, leading to frailty, chronic disease and cognitive decline.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 28
+    },
+    "difficulty": 1,
+    "tags": [
+      "inflammaging"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-014",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What is immunosenescence?",
+    "choices": [
+      "Age-related decline of the immune system",
+      "Immune attack on senescent cells",
+      "A faster immune response in older adults",
+      "An immune reaction to a vaccine"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Immunosenescence is the ageing and collapse of immune defence (thymic involution, senescent cells), alongside inflammaging.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "immunosenescence",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-015",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which method does the course call the most accurate predictor of biological age?",
+    "choices": [
+      "Telomere length by blood PCR",
+      "Body mass index and waist circumference",
+      "Epigenetic clocks (DNA methylation)",
+      "A single fasting glucose test"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Epigenetic clocks (DNA methylation at CpG sites, e.g. Horvath, GrimAge) are the most accurate. Telomere length and the Levine PhenoAge blood panel (9 tests) are the other methods.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "biological-age"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-016",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "A pharmacy wants a cheap biological-age test from 9 standard blood markers such as hsCRP, HbA1c and albumin. Which method is this?",
+    "choices": [
+      "Horvath epigenetic clock",
+      "Telomere length PCR test",
+      "GrimAge methylation clock",
+      "Levine PhenoAge blood panel"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The Levine PhenoAge computes biological age from 9 standard blood tests (hsCRP, HbA1c, homocysteine, albumin, IGF-1…).",
+    "source": {
+      "deck": "Class 6",
+      "slide": 20
+    },
+    "difficulty": 3,
+    "tags": [
+      "biological-age",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-017",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What are reactive oxygen species (ROS)?",
+    "choices": [
+      "Antioxidants made by the liver",
+      "Vitamins that protect membranes",
+      "Hormones released during intense exercise",
+      "Oxygen molecules that damage cells in excess"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cells naturally produce ROS; in excess they damage proteins, DNA, lipids and mitochondria, contributing to ageing.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 21
+    },
+    "difficulty": 1,
+    "tags": [
+      "oxidative-stress"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-018",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What is the course's position on antioxidants?",
+    "choices": [
+      "More antioxidants always means longer life",
+      "Balance, not elimination, is the goal",
+      "Oxidation is always harmful to cells",
+      "Antioxidants should be avoided completely"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "ROS at low levels are essential signals (Nrf2 defence, immunity, exercise adaptation: hormesis). 'More antioxidants = longer life' is incomplete and exaggerated.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "oxidative-stress",
+      "antioxidants"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-019",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "An athlete megadoses antioxidants to 'remove all free radicals'. Why might this backfire?",
+    "choices": [
+      "Antioxidants cause immediate hypercalcaemia",
+      "Free radicals are only made in cancer cells",
+      "Antioxidants block vitamin D absorption",
+      "Low ROS signals drive exercise adaptation"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "At low levels ROS trigger Nrf2 defence and exercise adaptation (hormesis). Eliminating them removes a useful signal; food antioxidants beat high-dose isolates.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 31
+    },
+    "difficulty": 3,
+    "tags": [
+      "oxidative-stress",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-020",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which endogenous enzyme converts superoxide to hydrogen peroxide as the first line of mitochondrial defence?",
+    "choices": [
+      "Catalase",
+      "Superoxide dismutase (SOD)",
+      "Glutathione (GSH)",
+      "Coenzyme Q10 (ubiquinol)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "SOD converts superoxide to H₂O₂; catalase converts H₂O₂ to water; glutathione is the master antioxidant; CoQ10 works in electron transport.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "antioxidants",
+      "endogenous"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-021",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which endogenous antioxidant converts hydrogen peroxide into water?",
+    "choices": [
+      "Superoxide dismutase",
+      "Melatonin",
+      "Nrf2",
+      "Catalase"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Catalase: H₂O₂ to water, protecting the peroxisome. SOD makes the H₂O₂ in the first place; Nrf2 is the master regulator of 200+ antioxidant genes.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "antioxidants",
+      "endogenous",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-022",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which molecule does the course call the 'master cellular antioxidant' that regenerates vitamins C and E?",
+    "choices": [
+      "Superoxide dismutase",
+      "Astaxanthin",
+      "Resveratrol",
+      "Glutathione (GSH)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Glutathione is the master antioxidant; it regenerates vitamins C and E and supports phase II detox.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "antioxidants",
+      "glutathione"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-023",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which is described as the most potent endogenous antioxidant, declining with age?",
+    "choices": [
+      "Catalase",
+      "Vitamin C",
+      "Collagen",
+      "Melatonin"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Melatonin: the most potent endogenous antioxidant, protects mitochondria, declines with age. Vitamin C is dietary, not endogenous.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    },
+    "difficulty": 3,
+    "tags": [
+      "antioxidants",
+      "endogenous"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-024",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "A patient on statins asks which antioxidant the drug depletes. The answer is…",
+    "choices": [
+      "Glutathione",
+      "Vitamin E",
+      "CoQ10 (ubiquinol)",
+      "Melatonin"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "CoQ10 works in mitochondrial electron transport, regenerates vitamin E, and is depleted by statins.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    },
+    "difficulty": 3,
+    "tags": [
+      "antioxidants",
+      "scenario",
+      "interaction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-025",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Why is plain oral glutathione a weak supplement?",
+    "choices": [
+      "It is degraded in the gut before absorption",
+      "It is toxic to the liver at any dose",
+      "It is stored permanently in body fat",
+      "It only works when it is injected into muscle"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Oral glutathione has low bioavailability because it is broken down in digestion. Liposomal forms (about 90% vs 10–15%) or IV drips are the workarounds.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "glutathione",
+      "bioavailability"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-026",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What recent concern about glutathione does the course raise?",
+    "choices": [
+      "It causes scurvy in the elderly",
+      "It blocks vitamin D synthesis",
+      "It shortens telomeres directly",
+      "It may help tumours survive"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Research suggests glutathione could be a double-edged sword, potentially feeding and protecting cancer cells in active cancers.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "glutathione",
+      "safety"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-027",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Class notes warn that giving iron to an anaemic patient with a bacterial infection can backfire because…",
+    "choices": [
+      "Iron destroys the immune cells",
+      "Iron triggers a cytokine storm",
+      "The bacteria use the iron to grow",
+      "Iron blocks the absorption of antibiotics"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Iron supplements during infection can feed the bacteria, which compete for iron and grow more aggressive.",
+    "source": {
+      "deck": "Cedric: Ageing",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "immunity",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-028",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which Thai superfood is rich in anthocyanins?",
+    "choices": [
+      "Holy basil (Kraprao)",
+      "Galangal (Kha)",
+      "Butterfly pea flower (Dok Anchan)",
+      "Mangosteen fruit rind (Mangkhut)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Butterfly pea: anthocyanins. Holy basil: rosmarinic acid, eugenol. Galangal: galangin flavonoids. Mangosteen: xanthones.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "thai-superfoods"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-029",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which antioxidant is found in mangosteen, with emerging anti-cancer evidence?",
+    "choices": [
+      "Anthocyanins",
+      "Xanthones",
+      "Galangin",
+      "Eugenol"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Mangosteen contains xanthones. Anthocyanins are butterfly pea; galangin is galangal; eugenol is holy basil.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "thai-superfoods"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-030",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which carotenoid is claimed to be 500–6,000× more potent than vitamin E and to cross the blood–brain barrier?",
+    "choices": [
+      "Astaxanthin",
+      "Resveratrol",
+      "Spermidine",
+      "Quercetin"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Astaxanthin: 500–6,000× vitamin E (formulation-dependent), crosses the BBB, reduces mitochondrial ROS (4–12 mg/day).",
+    "source": {
+      "deck": "Class 6",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "supplements"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-031",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which supplement is described as the most potent natural autophagy inducer, mimicking fasting?",
+    "choices": [
+      "Spermidine",
+      "Astaxanthin",
+      "Resveratrol",
+      "Collagen"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Spermidine: the most potent natural autophagy inducer, mimics fasting, linked to longer lifespan and lower CV mortality.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "supplements",
+      "autophagy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-032",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which supplement acts as a senolytic, selectively clearing senescent cells?",
+    "choices": [
+      "Quercetin (with fisetin)",
+      "Resveratrol (with metformin)",
+      "Collagen (with vitamin C)",
+      "Omega-3 (with vitamin D)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Quercetin (senolytic) selectively eliminates senescent cells and reduces SASP; the senolytic protocol pairs quercetin with fisetin, cyclically.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "supplements",
+      "senescence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-033",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Resveratrol is mainly linked to activating which pathway?",
+    "choices": [
+      "Nrf2 via glutathione synthesis",
+      "Sirtuins (SIRT1) and AMPK",
+      "GLP-1 receptors",
+      "Vitamin D receptors"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Resveratrol activates SIRT1/SIRT5 and promotes AMPK (150–500 mg trans-resveratrol a day).",
+    "source": {
+      "deck": "Class 6",
+      "slide": 43
+    },
+    "difficulty": 3,
+    "tags": [
+      "supplements"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-034",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Why are NMN and NR sold instead of NAD+ itself?",
+    "choices": [
+      "NAD+ is illegal to sell in Asia",
+      "NAD+ is toxic to the liver",
+      "Oral NAD+ is only 2–10% bioavailable",
+      "NAD+ is banned as a food ingredient"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Direct oral NAD+ has 2–10% bioavailability (digested before reaching cells), so the market sells precursors (NMN, NR) or IV NAD+.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "nad",
+      "bioavailability"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-035",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What did RCTs show for 250 mg/day of NMN?",
+    "choices": [
+      "Lifespan extended by 10 years",
+      "Telomeres doubled in length in a year",
+      "No change in any blood marker",
+      "Blood NAD+ raised by about 38%"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "250 mg/day NMN raised blood NAD+ by about 38% and improved muscle endurance. NMN is mainstream in Japan (sold in convenience stores).",
+    "source": {
+      "deck": "Class 6",
+      "slide": 48
+    },
+    "difficulty": 3,
+    "tags": [
+      "nad"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-036",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which country has the most advanced NMN/NAD+ market, with NMN sold in convenience stores?",
+    "choices": [
+      "Thailand",
+      "Singapore",
+      "Japan",
+      "South Korea"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Japan: NMN mass market, 150+ companies. Thailand: the world's largest per-capita drinkable collagen market. Singapore: biotech longevity. Korea: K-longevity and red ginseng.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-037",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Thailand leads the world per capita in which longevity-beauty product?",
+    "choices": [
+      "NMN capsules",
+      "Red ginseng",
+      "Drinkable collagen",
+      "Liposomal glutathione"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Thailand's collagen economy: world's largest per-capita drinkable collagen market, over USD 180M (2023).",
+    "source": {
+      "deck": "Class 6",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "market",
+      "collagen"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-038",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Ashwagandha, ginseng, reishi and rhodiola belong to which supplement category?",
+    "choices": [
+      "Senolytics",
+      "Adaptogens",
+      "NAD+ precursors",
+      "Postbiotics"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Adaptogens are associated with resilience, stress reduction and overall wellness.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 50
+    },
+    "difficulty": 1,
+    "tags": [
+      "adaptogens"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-039",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Why does the course link omega-3 to brain ageing?",
+    "choices": [
+      "It raises NAD+ in neurons",
+      "It selectively kills senescent neurons",
+      "It replaces dopamine loss",
+      "It supports neuronal and myelin fats"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Omega-3 supports cardiovascular and brain health and lowers inflammation; the myelin sheath is made of fat layers, and class notes say it helps keep fat in ageing neurons.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "omega-3",
+      "brain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-040",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Alzheimer's disease is characterised by…",
+    "choices": [
+      "Loss of dopamine neurons in the gut",
+      "Amyloid-beta plaques and tau tangles",
+      "Alpha-synuclein in the substantia nigra",
+      "Low vitamin K and bleeding in the brain"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Alzheimer's: amyloid-beta plaques and tau tangles leading to neuroinflammation; changes start 15–20 years before symptoms. Parkinson's: dopaminergic loss and alpha-synuclein.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "neurodegeneration",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-041",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which disease involves loss of dopaminergic neurons, with a 'gut-first hypothesis' for where misfolding begins?",
+    "choices": [
+      "Alzheimer's disease",
+      "Osteoporosis",
+      "Sarcopenia",
+      "Parkinson's disease"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Parkinson's: dopamine neurons degenerate (nigro-striatal pathway), alpha-synuclein aggregates, and the misfolding may begin in the enteric nervous system.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "neurodegeneration"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-042",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "How long before symptoms do Alzheimer's pathological changes begin?",
+    "choices": [
+      "1–2 years",
+      "5 months",
+      "15–20 years",
+      "40–50 years"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Pathology begins 15–20 years before symptoms appear, which is the case for early prevention.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "neurodegeneration"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-043",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Age-related loss of muscle is called…",
+    "choices": [
+      "Osteomalacia",
+      "Osteoporosis",
+      "Kwashiorkor",
+      "Sarcopenia"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Ageing raises the risk of CVD, diabetes and osteoporosis, and contributes to sarcopenia (muscle ageing), dementia and cancer. Class notes: protein and exercise for muscle, vitamin D for bone.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "consequences"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-044",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "An elderly client asks which nutrients target their bones specifically. Which pair fits?",
+    "choices": [
+      "Vitamin B12 and iron",
+      "Calcium and vitamin D",
+      "Omega-3 and zinc",
+      "Potassium and vitamin C"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nutrients for healthy ageing: calcium + vitamin D (bones), B12 (energy, brain), protein (muscle), potassium (blood pressure), omega-3 (inflammation), magnesium, zinc (immunity).",
+    "source": {
+      "deck": "Class 6",
+      "slide": 79
+    },
+    "difficulty": 1,
+    "tags": [
+      "nutrients",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-045",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "By roughly when is Thailand projected to become a 'super-aged' society?",
+    "choices": [
+      "It already was in 2000",
+      "Around 2080–2090",
+      "Never, births are rising",
+      "Around 2035–2045"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The course puts super-aged status at 2045 (class notes heard 2035); fertility is falling (under 1.1) and elderly will exceed 12M by 2033.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 61
+    },
+    "difficulty": 2,
+    "tags": [
+      "thailand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-046",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Where is Thailand's ageing crisis concentrated, and why?",
+    "choices": [
+      "Bangkok, as the elderly move in",
+      "The southern islands, due to tourism",
+      "Evenly spread across all regions",
+      "Rural areas, as the young migrate"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Rural ageing: young people migrate to cities, leaving elderly care and access to longevity products as a national innovation challenge.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "thailand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-047",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which is NOT one of the pressures Thailand's ageing creates?",
+    "choices": [
+      "A heavier public healthcare burden",
+      "Pension pressure",
+      "A surplus of young workers",
+      "Caregiver shortages"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Ageing plus low fertility means healthcare burden, pension pressure, workforce shortages (under 2 workers per elderly person by 2050) and caregiver shortages.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "thailand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-048",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "What do the Blue Zones share?",
+    "choices": [
+      "High-protein diets and structured gym routines",
+      "Daily NMN and resveratrol stacks",
+      "Plant-dominant diet, daily movement, purpose",
+      "Cold climates and high altitude"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Blue Zones: about 95% of calories from plants, natural daily movement (walking, gardening), purpose and strong social ties (Okinawa's 'moai'), and stress management.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 71
+    },
+    "difficulty": 2,
+    "tags": [
+      "blue-zones"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-049",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which Blue Zone is known for the 'moai', a lifelong social support network?",
+    "choices": [
+      "Sardinia",
+      "Ikaria",
+      "Nicoya",
+      "Okinawa"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Okinawans develop a moai from childhood; Ikarians eat lots of olive oil; Sardinians stay active herding; Nicoya prioritises rest and family.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 72
+    },
+    "difficulty": 3,
+    "tags": [
+      "blue-zones"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-050",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which dietary pattern does the course link to lower inflammation, cardiovascular protection and cognitive health?",
+    "choices": [
+      "Mediterranean",
+      "Standard American",
+      "Carnivore",
+      "Keto with processed meat"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The Mediterranean style (vegetables, olive oil, legumes, fish, nuts, moderate calories) contrasts with the American diet of processed food, red meat and sugary drinks.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "diet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-051",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which lifestyle factor does the course credit with the largest biological-age reduction?",
+    "choices": [
+      "Supplements (1–6 years)",
+      "Environment (2–5 years)",
+      "Diet (5–12 years)",
+      "Sleep (3–7 years)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Lifestyle stacking: diet 5–12 years, exercise 3–10, stress and social 3–8, sleep 3–7, environment 2–5, supplements only 1–6.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 80
+    },
+    "difficulty": 3,
+    "tags": [
+      "lifestyle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-052",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "A client wants to 'stop ageing' with supplements alone. What is the course's evidence-based answer?",
+    "choices": [
+      "Lifestyle has the strongest evidence",
+      "Supplements alone can halt ageing",
+      "Only prescription drugs can slow ageing",
+      "Ageing is fixed by genetics alone"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Marketing hype vs reality: most supplements may support health but do not 'stop ageing'. The strongest evidence is exercise, sleep, diet, no smoking, stress reduction and social connection.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 77
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-053",
+    "topic": "ageing",
+    "type": "mcq",
+    "stem": "Which campaign used a digital healthy-ageing assessment tool 2.1 million times and lifted sales 67%?",
+    "choices": [
+      "Blackmores 'Live Your Best Age'",
+      "Amway 'Good Health Can't Be Bought'",
+      "Bumrungrad Longevity Center",
+      "Yakult Lady door-to-door selling"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Blackmores Thailand (2023): the assessment tool was used 2.1M times, +67% sales. Amway grew CoQ10 and omega-3; Bumrungrad served 4,000+ patients through medical tourism.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 66
+    },
+    "difficulty": 3,
+    "tags": [
+      "market",
+      "case"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-054",
+    "topic": "ageing",
+    "type": "tf",
+    "stem": "The course states that 'more antioxidants = longer life' is scientifically incomplete and exaggerated.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Oxidation is not always bad; some oxidative signalling is essential. Balance, not elimination.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "antioxidants"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-055",
+    "topic": "ageing",
+    "type": "tf",
+    "stem": "Parkinson's disease is characterised mainly by amyloid-beta plaques and tau tangles.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is Alzheimer's. Parkinson's is loss of dopaminergic neurons and alpha-synuclein aggregation.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "neurodegeneration",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "age-056",
+    "topic": "ageing",
+    "type": "tf",
+    "stem": "Forest bathing (shinrin-yoku) is linked to lower blood pressure and cortisol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The Japanese practice decreases blood pressure and cortisol and promotes relaxation, attention and mood.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 74
+    },
+    "difficulty": 1,
+    "tags": [
+      "lifestyle"
+    ],
+    "examFocus": true
+  }
+]

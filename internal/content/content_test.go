@@ -2,6 +2,7 @@ package content
 
 import (
 	"encoding/json"
+	"path/filepath"
 	"regexp"
 	"strings"
 	"testing"
@@ -17,6 +18,42 @@ func loadTestCourse(t *testing.T) (*Set, error) {
 		t.Fatalf("loading the course: %v", err)
 	}
 	return Load(c)
+}
+
+// loadEveryCourse loads each course under courses/, so a rule about how questions are
+// written holds for all of them rather than only the one the older tests were written for.
+func loadEveryCourse(t *testing.T) map[string]*Set {
+	t.Helper()
+	dirs, err := filepath.Glob("../../courses/*/course.json")
+	if err != nil || len(dirs) == 0 {
+		t.Fatalf("finding the courses: %v", err)
+	}
+	sets := map[string]*Set{}
+	for _, cfg := range dirs {
+		dir := filepath.Dir(cfg)
+		c, err := course.Load(dir)
+		if err != nil {
+			t.Fatalf("%s: %v", dir, err)
+		}
+		set, err := Load(c)
+		if err != nil {
+			t.Fatalf("%s: %v", dir, err)
+		}
+		sets[c.ID] = set
+	}
+	return sets
+}
+
+// TestEveryCourseLoads makes a broken file in any course a failed deploy — deploy.sh
+// runs the tests first — rather than a service that will not start.
+func TestEveryCourseLoads(t *testing.T) {
+	for id, set := range loadEveryCourse(t) {
+		for _, topic := range set.Topics {
+			if topic.Questions == 0 && topic.HasNotes {
+				t.Errorf("%s/%s has notes but no questions", id, topic.ID)
+			}
+		}
+	}
 }
 
 // TestRealContentLoads is the guard that makes an authoring mistake a failed build
@@ -141,19 +178,17 @@ var leansOnNeighbour = regexp.MustCompile(`(?i)\b(that same|the same (network|pr
 //
 // A question may still talk about "the network below" when it carries its own diagram.
 func TestQuestionsStandAlone(t *testing.T) {
-	set, err := loadTestCourse(t)
-	if err != nil {
-		t.Fatalf("loading: %v", err)
-	}
-	for _, q := range set.Questions {
-		text := q.Stem + " " + strings.Join(q.Choices, " ")
-		if m := leansOnNeighbour.FindString(text); m != "" {
-			t.Errorf("%s: stem says %q, which only works if another question is on screen. "+
-				"Give it the context it needs, or its own diagram in `data`.", q.ID, m)
-		}
-		// "The network below" is a promise that something is drawn below it.
-		if regexp.MustCompile(`(?i)\b(network|diagram|model|matrix) below\b`).MatchString(q.Stem) && len(q.Data) == 0 {
-			t.Errorf("%s: promises a diagram below the stem but carries no data", q.ID)
+	for _, set := range loadEveryCourse(t) {
+		for _, q := range set.Questions {
+			text := q.Stem + " " + strings.Join(q.Choices, " ")
+			if m := leansOnNeighbour.FindString(text); m != "" {
+				t.Errorf("%s: stem says %q, which only works if another question is on screen. "+
+					"Give it the context it needs, or its own diagram in `data`.", q.ID, m)
+			}
+			// "The network below" is a promise that something is drawn below it.
+			if regexp.MustCompile(`(?i)\b(network|diagram|model|matrix) below\b`).MatchString(q.Stem) && len(q.Data) == 0 {
+				t.Errorf("%s: promises a diagram below the stem but carries no data", q.ID)
+			}
 		}
 	}
 }
@@ -174,14 +209,12 @@ var asksAboutTheDocument = regexp.MustCompile(`(?i)\b(the deck\b|older deck|newe
 // general practice, and the reader needs to know whose answer is wanted — but the
 // question has to be answerable by someone who understands the topic.
 func TestQuestionsAskAboutTheSubject(t *testing.T) {
-	set, err := loadTestCourse(t)
-	if err != nil {
-		t.Fatalf("loading: %v", err)
-	}
-	for _, q := range set.Questions {
-		if m := asksAboutTheDocument.FindString(q.Stem); m != "" {
-			t.Errorf("%s: stem says %q, which asks about the teaching material rather than the subject. "+
-				"Rewrite it as a situation, or drop it.", q.ID, m)
+	for _, set := range loadEveryCourse(t) {
+		for _, q := range set.Questions {
+			if m := asksAboutTheDocument.FindString(q.Stem); m != "" {
+				t.Errorf("%s: stem says %q, which asks about the teaching material rather than the subject. "+
+					"Rewrite it as a situation, or drop it.", q.ID, m)
+			}
 		}
 	}
 }

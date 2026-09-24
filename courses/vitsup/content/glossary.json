@@ -1,0 +1,641 @@
+[
+  {
+    "term": "Nutrient",
+    "definition": "A vital substance the body needs for growth, energy production and maintenance of bodily functions.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 4
+    }
+  },
+  {
+    "term": "Macronutrient",
+    "definition": "Protein, carbohydrate or fat: supplies energy (calories) for daily functioning and repair.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Micronutrient",
+    "definition": "A vitamin or mineral: essential, needed in small amounts, supports functions rather than supplying energy.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 44
+    }
+  },
+  {
+    "term": "Complete protein",
+    "definition": "A source with all essential amino acids: eggs, milk, soybean.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Kwashiorkor",
+    "definition": "Severe protein deficiency in children: edema and growth failure.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Whey vs casein",
+    "definition": "Whey is fast-absorbing (pre/post-workout); casein is slow-digesting (before bed).",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 14
+    }
+  },
+  {
+    "term": "Glycaemic index (GI)",
+    "definition": "How fast a food raises blood sugar; high-GI spikes and crashes, low-GI releases slowly.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Fructose",
+    "definition": "Fruit sugar that the liver metabolises into fat, unlike glucose, which is burned or stored as glycogen.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Short-chain fatty acids (SCFAs)",
+    "definition": "Acetate, propionate and butyrate, made when gut bacteria ferment fibre; the colonocytes' main fuel.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Psyllium",
+    "definition": "A soluble, gel-forming fibre supplement for constipation, cholesterol and blood sugar.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 34
+    }
+  },
+  {
+    "term": "Trans fat",
+    "definition": "Processed, hydrogenated fat that raises heart-disease risk; avoid completely.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 40
+    }
+  },
+  {
+    "term": "NAFLD",
+    "definition": "Non-alcoholic fatty liver disease: excess fat in the liver, linked to obesity and insulin resistance.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 43
+    }
+  },
+  {
+    "term": "Fat-soluble vitamins",
+    "definition": "A, D, E and K: stored in fatty tissue and liver, so excess can cause toxicity.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 46
+    }
+  },
+  {
+    "term": "Water-soluble vitamins",
+    "definition": "B-group and C: not stored, excess excreted in urine; must be eaten regularly.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    }
+  },
+  {
+    "term": "Hypervitaminosis",
+    "definition": "Toxicity from excess vitamins, mainly fat-soluble A (liver damage) and D (hypercalcaemia).",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 53
+    }
+  },
+  {
+    "term": "Hypercalcaemia",
+    "definition": "High blood calcium from excess vitamin D: nausea, weakness, kidney damage.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 48
+    }
+  },
+  {
+    "term": "Rickets / osteomalacia",
+    "definition": "Vitamin D deficiency bone disease: rickets in children, osteomalacia in adults.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 48
+    }
+  },
+  {
+    "term": "Scurvy",
+    "definition": "Vitamin C deficiency: bleeding gums, joint pain, weakness, anaemia.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 58
+    }
+  },
+  {
+    "term": "Beriberi",
+    "definition": "Vitamin B1 (thiamine) deficiency.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 57
+    }
+  },
+  {
+    "term": "Pellagra",
+    "definition": "Vitamin B3 (niacin) deficiency, the '3 Ds'.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    }
+  },
+  {
+    "term": "Pernicious anaemia",
+    "definition": "Anaemia and fatigue from vitamin B12 deficiency; vegans are at risk.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    }
+  },
+  {
+    "term": "Neural tube defects",
+    "definition": "Birth defects linked to folic acid (B9) deficiency in pregnancy.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    }
+  },
+  {
+    "term": "Goitre",
+    "definition": "Enlarged thyroid from iodine deficiency.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 70
+    }
+  },
+  {
+    "term": "Hemochromatosis",
+    "definition": "Iron overload that harms organs.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 69
+    }
+  },
+  {
+    "term": "Kilocalorie",
+    "definition": "The energy needed to raise 1 kg of water by 1 °C.",
+    "topic": "nutrients",
+    "source": {
+      "deck": "Class 2",
+      "slide": 72
+    }
+  },
+  {
+    "term": "Supplement",
+    "definition": "A product that adds nutrients to the diet, complementing food intake.",
+    "topic": "supplementation",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    }
+  },
+  {
+    "term": "Functional food",
+    "definition": "A food that provides health benefits beyond basic nutrition (probiotic yoghurt, green tea, oats).",
+    "topic": "supplementation",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    }
+  },
+  {
+    "term": "Superfood",
+    "definition": "A nutrient-rich food; largely a marketing term.",
+    "topic": "supplementation",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    }
+  },
+  {
+    "term": "Nutraceutical",
+    "definition": "A bioactive compound with health benefits that requires clinical evidence; sits between food and drug.",
+    "topic": "supplementation",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    }
+  },
+  {
+    "term": "Bioavailability",
+    "definition": "The fraction of an ingested dose that is absorbed and reaches the body; plain curcumin extract is about 1%.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Phytosome / liposome",
+    "definition": "Formulations that protect a compound and boost absorption (Meriva curcumin about 50×, liposomal glutathione).",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 37
+    }
+  },
+  {
+    "term": "Innate immunity",
+    "definition": "Fast, non-specific, immediate defence with no memory (macrophages, neutrophils).",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Adaptive immunity",
+    "definition": "Slow, targeted defence that builds memory against specific pathogens (T-cells, B-cells).",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Neutrophil",
+    "definition": "The most abundant white blood cell; rapid defence against infection.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 11
+    }
+  },
+  {
+    "term": "B-cell",
+    "definition": "Immune cell that produces antibodies.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Cytokines",
+    "definition": "The chemical language of immunity: pro-inflammatory (IL-1β, IL-6, TNF-α), anti-inflammatory (IL-10, IL-4), interferons, chemokines.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Interferons",
+    "definition": "Cytokines that provide antiviral defence.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Acute inflammation",
+    "definition": "Short-term, protective, self-limiting response: redness, heat, swelling, fever.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 16
+    }
+  },
+  {
+    "term": "Chronic inflammation",
+    "definition": "Persistent low-grade immune activation linked to diabetes, CVD, autoimmunity, depression.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 16
+    }
+  },
+  {
+    "term": "AGEs",
+    "definition": "Advanced glycation end products: sugar stuck to proteins, driving inflammation and oxidative stress.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Autoimmunity",
+    "definition": "The immune system attacking the body's own tissue, e.g. type 1 diabetes.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Cytokine storm",
+    "definition": "Excessive inflammatory response, the driver of severe COVID-19.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 58
+    }
+  },
+  {
+    "term": "Andrographis (Fah Talai Jone)",
+    "definition": "Thai herb officially recommended for mild COVID-19; Thailand's best-selling domestic herbal supplement.",
+    "topic": "immunity",
+    "source": {
+      "deck": "Class 4",
+      "slide": 76
+    }
+  },
+  {
+    "term": "Dysbiosis",
+    "definition": "An imbalance in gut microbiota: fewer good microbes, more harmful ones, less diversity.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Leaky gut",
+    "definition": "Disruption of tight junctions in the gut barrier, linked to inflammation and metabolic dysfunction.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 5
+    }
+  },
+  {
+    "term": "Enterocyte",
+    "definition": "The absorptive cell lining the small intestine.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 4
+    }
+  },
+  {
+    "term": "Probiotic",
+    "definition": "Live microorganisms that confer a health benefit in adequate amounts; strain-identified, proven in humans.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 19
+    }
+  },
+  {
+    "term": "Prebiotic",
+    "definition": "A fermentable fibre that selectively stimulates beneficial gut bacteria (inulin, FOS, GOS, resistant starch).",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 22
+    }
+  },
+  {
+    "term": "Postbiotic",
+    "definition": "Non-living microbial metabolites or components that confer benefits (SCFAs, heat-killed cells); stable at room temperature.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 25
+    }
+  },
+  {
+    "term": "Synbiotic",
+    "definition": "A combination of a probiotic and a prebiotic.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 31
+    }
+  },
+  {
+    "term": "CFU",
+    "definition": "Colony forming units, the dose unit for probiotics (typically 1–100 billion a day).",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Akkermansia muciniphila",
+    "definition": "A gut bacterium low in obesity and diabetes; restoring it improves glucose and fat regulation.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 29
+    }
+  },
+  {
+    "term": "GLP-1",
+    "definition": "Incretin hormone that boosts insulin, slows gastric emptying and increases satiety; GLP-1 RA drugs include semaglutide.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 32
+    }
+  },
+  {
+    "term": "Metabolic syndrome",
+    "definition": "Three or more of: abdominal obesity, high triglycerides, low HDL, high blood pressure, high fasting glucose.",
+    "topic": "gut",
+    "source": {
+      "deck": "Class 5",
+      "slide": 30
+    }
+  },
+  {
+    "term": "Lifespan",
+    "definition": "Total years lived.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Healthspan",
+    "definition": "Years lived without chronic disease.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Morbidity compression",
+    "definition": "Pushing illness into the fewest final years of life.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Telomere attrition",
+    "definition": "Shortening of chromosome ends with each cell division; a hallmark of ageing.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Cellular senescence",
+    "definition": "'Zombie' cells that stop dividing and secrete SASP, ageing their neighbours.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 19
+    }
+  },
+  {
+    "term": "Inflammaging",
+    "definition": "Chronic low-grade inflammation of ageing, driven by SASP.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 28
+    }
+  },
+  {
+    "term": "Immunosenescence",
+    "definition": "Age-related decline of the immune system.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Epigenetic clock",
+    "definition": "DNA methylation-based measure; the most accurate biological-age predictor (Horvath, GrimAge).",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 20
+    }
+  },
+  {
+    "term": "Reactive oxygen species (ROS)",
+    "definition": "Oxygen molecules that damage DNA, proteins and lipids in excess but act as essential signals at low levels.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 31
+    }
+  },
+  {
+    "term": "Hormesis",
+    "definition": "Beneficial adaptation to a small stress, such as low-level ROS during exercise.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 31
+    }
+  },
+  {
+    "term": "Glutathione (GSH)",
+    "definition": "The master cellular antioxidant; poor oral bioavailability; may feed tumours.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    }
+  },
+  {
+    "term": "NMN / NR",
+    "definition": "NAD+ precursors; oral NAD+ itself is only 2–10% bioavailable.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 48
+    }
+  },
+  {
+    "term": "Senolytic",
+    "definition": "A compound that clears senescent cells, e.g. quercetin with fisetin.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 43
+    }
+  },
+  {
+    "term": "Blue Zones",
+    "definition": "Regions of exceptional longevity: plant-dominant diet, natural movement, purpose and social ties.",
+    "topic": "ageing",
+    "source": {
+      "deck": "Class 6",
+      "slide": 71
+    }
+  },
+  {
+    "term": "Gut-brain axis",
+    "definition": "Two-way communication between gut and brain via the vagus nerve; 90–95% of serotonin is made in the gut.",
+    "topic": "brain",
+    "source": {
+      "deck": "Class 3",
+      "slide": 25
+    }
+  },
+  {
+    "term": "Allostatic load",
+    "definition": "Cumulative wear on body and brain from chronic stress.",
+    "topic": "brain",
+    "source": {
+      "deck": "Class 3",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Adaptogen",
+    "definition": "A herb that enhances stress resilience, e.g. ashwagandha, ginseng, rhodiola.",
+    "topic": "brain",
+    "source": {
+      "deck": "Class 3",
+      "slide": 42
+    }
+  }
+]

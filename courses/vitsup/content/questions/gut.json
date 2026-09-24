@@ -1,0 +1,1437 @@
+[
+  {
+    "id": "gut-001",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Where does most nutrient absorption take place?",
+    "choices": [
+      "Stomach",
+      "Large intestine",
+      "Oesophagus",
+      "Small intestine"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The small intestine (duodenum, jejunum, ileum) is the main site of nutrient absorption. The stomach secretes acid and digests protein; the large intestine reabsorbs water and ferments.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 3
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-002",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which part of the gut is responsible for water reabsorption and bacterial fermentation?",
+    "choices": [
+      "Duodenum",
+      "Stomach",
+      "Large intestine",
+      "Jejunum and ileum"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Large intestine: water reabsorption, fermentation by gut bacteria and waste elimination.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 3
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-003",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Approximately how long is the digestive tract?",
+    "choices": [
+      "About 9 metres",
+      "About 2 metres",
+      "About 25 metres",
+      "About 90 cm"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The digestive tract spans roughly 9 metres, made of distinct functional regions.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 3
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-004",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which cell lining the small intestine is the key to absorption?",
+    "choices": [
+      "The enterocyte",
+      "The neutrophil",
+      "The adipocyte",
+      "The colonocyte only"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Enterocytes line the small intestine and drive nutrient absorption. (Colonocytes, in the colon, feed on butyrate.)",
+    "source": {
+      "deck": "Class 5",
+      "slide": 4
+    },
+    "difficulty": 2,
+    "tags": [
+      "anatomy",
+      "barrier"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-005",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What keeps neighbouring gut cells sealed so that pathogens cannot pass between them?",
+    "choices": [
+      "Tight junction proteins",
+      "Short-chain fatty acids",
+      "Bile acids",
+      "Mucus-digesting bacterial enzymes"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Tight junction proteins maintain barrier integrity. Their disruption ('leaky gut') is linked to inflammation and metabolic dysfunction.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "barrier"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-006",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A patient with food poisoning has bacteria whose toxins break the seals between gut cells. The resulting condition is called…",
+    "choices": [
+      "Leaky gut",
+      "Dysbiosis",
+      "Constipation",
+      "Gut motility"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Pathogens such as E. coli damage tight junctions; the barrier leaks and immune cells fight the breach. Class notes: probiotics can help restore it.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "barrier",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-007",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Why does the lecturer worry that modern ultra-processed food is 'too soft'?",
+    "choices": [
+      "Soft food has no calories",
+      "Less chewing weakens fullness signals",
+      "Soft food physically blocks the tight junctions",
+      "Soft food is not absorbed at all"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Chewing triggers the whole digestive system and makes you feel full; soft ultra-processed food skips those signals, so you don't stop eating.",
+    "source": {
+      "deck": "Cedric: Gut",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-008",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which two bacterial phyla dominate the gut microbiome, with their ratio affecting energy extraction?",
+    "choices": [
+      "Lactobacilli and Bifidobacteria",
+      "Firmicutes and Bacteroidetes",
+      "E. coli and Salmonella",
+      "Akkermansia and Bacillus"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The gut microbiome is dominated by Firmicutes and Bacteroidetes; their ratio impacts energy extraction and metabolic health. Lactobacilli and Bifidobacteria are genera of beneficial bacteria.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "microbiome"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-009",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "How many bacteria live in the human gut, compared with the body's own cells?",
+    "choices": [
+      "~100 trillion, about 10× the cells",
+      "~1 billion, about 1% of the cells",
+      "~100 trillion, about half the cells",
+      "~10 billion, equal to the cells"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "About 100 trillion bacteria, roughly ten times more than human cells, according to the slide.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "microbiome"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-010",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which vitamins does the gut microbiota synthesise?",
+    "choices": [
+      "Vitamin A and D",
+      "Vitamin K and B12",
+      "Vitamin C and vitamin E",
+      "Vitamin D and C"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Metabolic functions: fermenting indigestible carbs, synthesising vitamins K and B12, bile-acid and drug metabolism.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "microbiome"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-011",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "'Competitive exclusion of pathogens' belongs to which group of microbiota functions?",
+    "choices": [
+      "Metabolic",
+      "Structural",
+      "Protective",
+      "Immunological"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Protective functions: competitive exclusion of pathogens, antimicrobial compounds, barrier integrity. Metabolic: fermentation and vitamins. Structural: epithelium, angiogenesis. Immunological: training the immune system and tolerance.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 7
+    },
+    "difficulty": 3,
+    "tags": [
+      "microbiome",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-012",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "'Education of the immune system and promotion of tolerance' belongs to which microbiota function?",
+    "choices": [
+      "Protective",
+      "Metabolic",
+      "Immunological",
+      "Structural and vascular"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Immunological functions: educating the immune system, regulating inflammation, promoting tolerance. The hygiene idea in class: animals raised too clean develop asthma.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "microbiome",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-013",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Compared with breastfed babies, bottle-fed babies' microbiomes have…",
+    "choices": [
+      "More Bacteroidetes, fewer bifidobacteria",
+      "More bifidobacteria, fewer Bacteroidetes",
+      "No bacteria at all until weaning",
+      "Only the lactobacilli added to the formula"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Bottle-fed babies have more diverse microbiomes with more Bacteroidetes and fewer bifidobacteria; breast milk (with GOS) feeds Bifidobacteria.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 8
+    },
+    "difficulty": 3,
+    "tags": [
+      "microbiome",
+      "infant"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-014",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What is dysbiosis?",
+    "choices": [
+      "A leak in the gut wall",
+      "An imbalance in gut microbiota",
+      "A long-term deficiency of dietary fibre",
+      "An infection of the stomach"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Dysbiosis is an imbalance in microbiota composition associated with disease: loss of beneficial microbes, overgrowth of harmful ones, less diversity.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "dysbiosis",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-015",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which of these is a listed contributor to dysbiosis?",
+    "choices": [
+      "High-fibre diet",
+      "Regular exercise",
+      "Antibiotic use",
+      "Adequate sleep"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Contributors: antibiotics, low-fibre diet, chronic stress, poor sleep and environmental toxins.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "dysbiosis"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-016",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A student finishes a course of antibiotics and develops diarrhoea. What is the best explanation?",
+    "choices": [
+      "The antibiotics caused a vitamin C overdose",
+      "The antibiotics also killed good gut bacteria",
+      "The antibiotics sealed the tight junctions",
+      "The antibiotics raised stomach acid to harmful levels"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Antibiotics are not specific, so they wipe beneficial bacteria too, leading to dysbiosis and antibiotic-associated diarrhoea. In Asia, probiotics are often prescribed alongside.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "dysbiosis",
+      "antibiotics",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-017",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Dysbiosis has been linked to all of these EXCEPT…",
+    "choices": [
+      "Obesity",
+      "Scurvy",
+      "Type 2 diabetes",
+      "Inflammatory bowel disease"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Dysbiosis is linked to obesity, type 2 diabetes, IBD, cardiovascular disease and neurological conditions. Scurvy is vitamin C deficiency.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "dysbiosis"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-018",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A patient has hard, dry, lumpy stools and rarely goes. Which causes does the course list for this?",
+    "choices": [
+      "A bacterial, viral or parasitic infection",
+      "Lack of fibre and water, inactivity",
+      "Food or water poisoning",
+      "Too many probiotics"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Constipation causes: lack of fibre and water, physical inactivity, medications, metabolic problems. Infections and food poisoning cause diarrhoea.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "digestive-issues",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-019",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which food group does the course list to avoid for better digestive health?",
+    "choices": [
+      "Whole grains",
+      "Artificial sweeteners",
+      "Legumes",
+      "Fermented plain yoghurt"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Avoid: processed foods, artificial sweeteners and sugars, refined carbs, high-fat foods, alcohol, caffeine, spicy food, junk food. Whole grains, legumes and yoghurt help.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "diet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-020",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which definition of a probiotic is correct?",
+    "choices": [
+      "Live microbes that benefit health in adequate amounts",
+      "Fibres that feed beneficial gut bacteria",
+      "Dead microbial parts or products that benefit health",
+      "Any fermented food sold in a supermarket"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Probiotics: live microorganisms that confer a health benefit when consumed in adequate amounts; they must be alive, strain-identified, safe and effective in human studies. Fibres are prebiotics; dead parts are postbiotics.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 19
+    },
+    "difficulty": 1,
+    "tags": [
+      "probiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-021",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A product label says 'contains probiotics' but names no strain and cites no human study. Which probiotic requirement does it fail?",
+    "choices": [
+      "Refrigeration and prior heat treatment",
+      "Prebiotic fibre content",
+      "Strain identity and human evidence",
+      "A minimum sugar level"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A probiotic must be alive, strain-identified, safe and effective in human studies. Benefits are strain-specific, so an unnamed strain cannot carry a claim.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "probiotic",
+      "scenario",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-022",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What does the phrase 'probiotic effects are strain-specific' mean in practice?",
+    "choices": [
+      "All Lactobacillus strains work the same way in every person",
+      "Evidence for one strain cannot be applied to another",
+      "Only yeasts have proven effects",
+      "More strains always means more benefit"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Benefits are strain-specific and dose-dependent and need clinical evidence; they cannot be generalised across a genus.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "probiotic",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-023",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "In what unit is probiotic dosage measured, and what is the typical daily range?",
+    "choices": [
+      "mg, 1–100 mg per day",
+      "CFU, 1–100 billion per day",
+      "IU, 400–4,000 per day",
+      "CFU, 1–100 thousand per day"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Colony forming units (CFU), typically 1 billion to 100 billion a day, with strain-specificity crucial.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "probiotic",
+      "dose"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-024",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which probiotic is a yeast, used against antibiotic-associated diarrhoea?",
+    "choices": [
+      "Lactobacillus rhamnosus GG",
+      "Bifidobacterium longum",
+      "Saccharomyces boulardii",
+      "Akkermansia muciniphila"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "S. boulardii is the yeast in the list, used for antibiotic-associated diarrhoea. LGG also helps AAD but is a bacterium.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "probiotic",
+      "strains"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-025",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A traveller asks which probiotic evidence is strongest for them. Roughly how much does LGG or S. boulardii shorten infectious diarrhoea?",
+    "choices": [
+      "About 25 hours",
+      "About 2 hours",
+      "About 7 days",
+      "About 25 minutes"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Infectious diarrhoea duration is reduced by about 25 hours with LGG or S. boulardii.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 21
+    },
+    "difficulty": 3,
+    "tags": [
+      "probiotic",
+      "evidence",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-026",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "By roughly how much do probiotics reduce the risk of antibiotic-associated diarrhoea?",
+    "choices": [
+      "About 50%",
+      "About 5%",
+      "About 90%",
+      "About 15–20%"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "AAD risk is reduced by about 50% with S. boulardii or LGG; C. difficile infection by about 60% when given with antibiotics.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "probiotic",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-027",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "For which condition does the course cite E. coli Nissle 1917 for maintaining remission?",
+    "choices": [
+      "Lactose intolerance",
+      "Ulcerative colitis",
+      "Type 2 diabetes",
+      "Constipation in the elderly"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "IBD: E. coli Nissle 1917 for UC remission; VSL#3 for pouchitis.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 21
+    },
+    "difficulty": 3,
+    "tags": [
+      "probiotic",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-028",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Where does the course say probiotic evidence is strongest?",
+    "choices": [
+      "Weight loss in all adults",
+      "Preventing every respiratory infection",
+      "Curing depression outright",
+      "Certain GI conditions like AAD and IBS"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Closing summary: strong evidence supports probiotics for certain GI conditions (AAD, IBS); effects are strain-specific and cannot be generalised.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "probiotic",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-029",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Why do the best modern probiotics use spore-forming bacteria such as Bacillus clausii?",
+    "choices": [
+      "Spores need no clinical trials",
+      "Spores are postbiotics",
+      "Spores survive stomach acid",
+      "Spores digest lactose better"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "If not formulated properly, most probiotics die in the stomach acid; spores (a dormant form) are resistant. Enterogermina's B. clausii spores are the class example.",
+    "source": {
+      "deck": "Cedric: Gut",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "probiotic",
+      "formulation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-030",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What is a prebiotic?",
+    "choices": [
+      "A live strain added to yoghurt",
+      "A heat-killed bacterial cell",
+      "An antibiotic that clears gut pathogens",
+      "Fermentable fibre that feeds good bacteria"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Prebiotics are fermentable fibres that selectively stimulate beneficial gut bacteria (inulin, FOS, GOS, resistant starch).",
+    "source": {
+      "deck": "Class 5",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "prebiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-031",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which prebiotic is found in human breast milk and promotes Bifidobacteria?",
+    "choices": [
+      "GOS (galactooligosaccharides)",
+      "FOS (fructooligosaccharides) from onions",
+      "Inulin from chicory root",
+      "Beta-glucan from oats"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "GOS: in breast milk and legumes, promotes Bifidobacteria. FOS: bananas, onions, asparagus. Inulin: chicory, Jerusalem artichoke. Beta-glucan: oats, barley.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 23
+    },
+    "difficulty": 3,
+    "tags": [
+      "prebiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-032",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which prebiotic in cooled potatoes and green bananas increases butyrate and insulin sensitivity?",
+    "choices": [
+      "Pectin",
+      "Resistant starch",
+      "Inulin",
+      "Galactooligosaccharides"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Resistant starch (green bananas, cooled potatoes) raises butyrate production and insulin sensitivity. Pectin (apples, citrus) supports the barrier.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 23
+    },
+    "difficulty": 3,
+    "tags": [
+      "prebiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-033",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which prebiotic from oats and barley modulates immune function and reduces cholesterol?",
+    "choices": [
+      "Galactooligosaccharides",
+      "Fructooligosaccharides",
+      "Resistant starch",
+      "Beta-glucans"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Beta-glucans (oats, barley) modulate immunity and lower cholesterol.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "prebiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-034",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which is NOT a listed benefit of prebiotics?",
+    "choices": [
+      "More SCFA production",
+      "Better calcium and mineral absorption",
+      "A stronger gut barrier",
+      "Killing harmful bacteria directly"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Prebiotic benefits: more beneficial bacteria, better mineral absorption, more SCFAs, better barrier function. Killing pathogens directly is the job of bacteriocins (a postbiotic).",
+    "source": {
+      "deck": "Class 5",
+      "slide": 22
+    },
+    "difficulty": 3,
+    "tags": [
+      "prebiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-035",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What is a postbiotic?",
+    "choices": [
+      "Live microbes in adequate amounts",
+      "Fibre that selectively feeds beneficial bacteria",
+      "A mix of live strains and fibre",
+      "Non-living microbial parts or metabolites"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Postbiotics are non-living microbial metabolites or components that confer health benefits. A mix of probiotic and prebiotic is a synbiotic.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "postbiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-036",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which are the main short-chain fatty acids?",
+    "choices": [
+      "Acetate, propionate, butyrate",
+      "Omega-3, omega-6, omega-9",
+      "EPA, DHA, ALA",
+      "Glucose, fructose and galactose"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "SCFAs (acetate, propionate, butyrate) are the key postbiotic molecules and the colonocytes' primary energy source.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "postbiotic",
+      "scfa"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-037",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What is the primary energy source of colonocytes?",
+    "choices": [
+      "Glucose drawn from the blood",
+      "Butyrate and other SCFAs",
+      "Dietary fructose",
+      "Vitamin B12"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "SCFAs are the primary energy source for colonocytes, are anti-inflammatory and stimulate gut hormones.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "postbiotic",
+      "scfa"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-038",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Bacteriocins are best described as…",
+    "choices": [
+      "Enzymes that digest lactose",
+      "Fibres that selectively feed bifidobacteria",
+      "Antimicrobial peptides against pathogens",
+      "Vitamins made by gut bacteria"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Postbiotic categories: SCFAs, EPS (immunomodulatory), enzymes (lactase, lipase), bacteriocins (antimicrobial peptides), cell wall components, vitamins (B12, folate, K2).",
+    "source": {
+      "deck": "Class 5",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "postbiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-039",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A company must ship a gut product across hot Southeast Asia without refrigeration, for customers who include immunocompromised people. Which type fits best?",
+    "choices": [
+      "A live probiotic",
+      "A refrigerated yoghurt",
+      "A postbiotic",
+      "A synbiotic with live strains"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Postbiotics are highly stable at room temperature, consistent and generally safer for the immunocompromised. Live probiotics are sensitive to heat, oxygen and pH and often need refrigeration.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 27
+    },
+    "difficulty": 3,
+    "tags": [
+      "postbiotic",
+      "distinction",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-040",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which is a disadvantage of live probiotics compared with postbiotics?",
+    "choices": [
+      "They cannot colonise the gut",
+      "They have no health effect at all",
+      "Sensitive to heat, oxygen and pH",
+      "They are always more expensive"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Probiotics (alive): sensitive to heat, oxygen and pH; often need refrigeration; variable viability; some safety concerns in the immunocompromised.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "postbiotic",
+      "probiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-041",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A supplement combines L. paracasei, B. longum and B. breve with inulin and FOS. What is it called?",
+    "choices": [
+      "A postbiotic",
+      "A prebiotic",
+      "A synbiotic",
+      "An adaptogen"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Probiotic plus prebiotic is a synbiotic, as in the 2021 Thai trial on obese adults.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "synbiotic",
+      "distinction",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-042",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Akkermansia muciniphila is notable because it is…",
+    "choices": [
+      "Low in obesity and diabetes",
+      "High in obesity and diabetes",
+      "A yeast used for diarrhoea",
+      "A prebiotic fibre from chicory"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Akkermansia is low in obesity and diabetes; restoring it improves fat regulation, glucose metabolism and barrier function, and it stimulates GLP-1.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "akkermansia"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-043",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "In the 2021 Thai synbiotic trial on obese adults, what happened over 12 weeks?",
+    "choices": [
+      "Weight, BMI and waist all fell",
+      "Weight rose but gut health improved",
+      "No measurable change occurred",
+      "Only LDL cholesterol changed"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The synbiotic (L. paracasei, B. longum, B. breve + inulin, FOS) significantly reduced weight, BMI, body fat and waist, and improved HDL, LDL, leptin, liver enzymes and inflammation.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "synbiotic",
+      "obesity",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-044",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Metabolic syndrome is a cluster of how many risk factors?",
+    "choices": [
+      "Exactly two",
+      "At least five",
+      "Three or more",
+      "Only one, plus obesity"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Three or more of: abdominal obesity, high triglycerides, low HDL, high blood pressure, high fasting glucose.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "obesity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-045",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "How does the course define obesity?",
+    "choices": [
+      "A lack of willpower",
+      "A vitamin deficiency",
+      "A temporary lifestyle choice",
+      "A chronic, relapsing disease"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Obesity is a chronic, relapsing disease of excess fat, influenced by biology, not just willpower; classified by BMI (≥30 = class I, lower Asia-Pacific cut-offs).",
+    "source": {
+      "deck": "Class 5",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "obesity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-046",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "What does GLP-1 do?",
+    "choices": [
+      "Blocks insulin release and speeds digestion",
+      "Converts fructose into glucose",
+      "Boosts insulin and slows gastric emptying",
+      "Builds muscle protein faster"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "GLP-1 is an incretin hormone: it boosts insulin, suppresses glucagon, slows gastric emptying and enhances satiety.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "glp-1"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-047",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which drug is a dual GIP/GLP-1 agonist?",
+    "choices": [
+      "Semaglutide (Ozempic)",
+      "Tirzepatide (Mounjaro)",
+      "Liraglutide (Saxenda)",
+      "Rybelsus (oral semaglutide)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Tirzepatide (Mounjaro, Zepbound) is the dual GIP/GLP-1 agonist, with about 20–22% weight loss. Semaglutide gives about 15–17%.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 33
+    },
+    "difficulty": 3,
+    "tags": [
+      "glp-1"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-048",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A patient stops semaglutide after a year of good weight loss. What does the course predict?",
+    "choices": [
+      "Regaining about two-thirds within a year",
+      "Keeping all of the weight off",
+      "Continuing to lose weight for another year",
+      "Immediate type 1 diabetes"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A critical challenge is weight regain after stopping: about two-thirds of lost weight comes back within a year.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "glp-1",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-049",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which side effect of GLP-1 weight loss drives advice to eat more protein and do resistance exercise?",
+    "choices": [
+      "Loss of lean muscle mass",
+      "Vitamin C deficiency and scurvy",
+      "Excess stomach acid",
+      "Iodine deficiency"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Significant lean-mass loss accompanies fat loss, hence protein and resistance training.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "glp-1"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-050",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A TikTok ad sells a 'natural GLP-1 booster' promising Ozempic-like results. What is the course's view?",
+    "choices": [
+      "Natural boosters match the drugs",
+      "Claims are misleading, effects modest",
+      "They are chemically identical to semaglutide",
+      "They are approved prescription drugs"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "'Natural GLP-1 boosters' make often misleading, unsubstantiated claims with modest effects compared with pharmacological agonism.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "glp-1",
+      "consumer",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-051",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which is a documented adulterant in 'natural' weight-loss products that causes cardiovascular risk?",
+    "choices": [
+      "Inulin",
+      "Sibutramine",
+      "Psyllium",
+      "Green tea catechins"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Documented adulterants: sibutramine (cardiovascular risk), fenfluramine derivatives (heart valves), stimulant laxatives (dehydration), DNP (fatal hyperthermia).",
+    "source": {
+      "deck": "Class 5",
+      "slide": 39
+    },
+    "difficulty": 3,
+    "tags": [
+      "safety"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-052",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which is a common quality problem found in probiotic products?",
+    "choices": [
+      "Too much vitamin D added",
+      "Excess dietary fibre",
+      "Accidental postbiotic content from heating",
+      "Fewer live organisms than labelled"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Probiotic quality issues: viability (fewer live organisms than labelled), contamination, misidentified strains.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "safety",
+      "probiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-053",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "Which check does the course recommend before buying a supplement?",
+    "choices": [
+      "The number of Instagram likes",
+      "GMP and third-party testing",
+      "The price relative to rivals",
+      "A celebrity endorsement"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Consumer protection: verify peer-reviewed trials, check GMP and third-party testing (NSF, USP, ConsumerLab), be sceptical of extreme claims, buy from reputable sellers, check FDA warnings.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "safety",
+      "consumer"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-054",
+    "topic": "gut",
+    "type": "mcq",
+    "stem": "A weight-loss product promises 'lose 10 kg in 2 weeks, no diet, targets belly fat only'. Which red flags apply?",
+    "choices": [
+      "Strain-specific clinical evidence",
+      "GMP certification",
+      "Rapid loss and spot reduction",
+      "Realistic expectations"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Red flags: 'miracle' promises, rapid loss without lifestyle change, unverified endorsements and spot-reduction claims.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "safety",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-055",
+    "topic": "gut",
+    "type": "tf",
+    "stem": "Prebiotics, probiotics and postbiotics are interchangeable names for the same thing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They are distinct but complementary: prebiotics feed bacteria, probiotics are the live bacteria, postbiotics are the bioactive compounds bacteria produce (or dead cells).",
+    "source": {
+      "deck": "Class 5",
+      "slide": 44
+    },
+    "difficulty": 1,
+    "tags": [
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gut-056",
+    "topic": "gut",
+    "type": "tf",
+    "stem": "Thai consumers show interest in both traditional fermented foods and modern probiotic products.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "SEA trends: Thailand shows interest in traditional fermented foods (nam pla, khao mak) and modern probiotics, with rising Thai FDA scrutiny of health claims.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  }
+]

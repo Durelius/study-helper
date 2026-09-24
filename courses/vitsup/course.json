@@ -1,0 +1,50 @@
+{
+  "id": "vitsup",
+  "title": "Science meets Tradition: Vitamins & Supplements",
+  "code": "CSII",
+  "shortName": "Vitamins & Supplements",
+  "exam": "2026-09-25T09:00:00+07:00",
+  "generators": [],
+  "topics": [
+    { "id": "exam-core", "title": "Exam Core: The Paper in One Page", "weight": 0 },
+    { "id": "supplementation", "title": "Supplements, Functional Foods & Nutraceuticals", "weight": 18 },
+    { "id": "nutrients", "title": "Macro & Micronutrients", "weight": 25 },
+    { "id": "brain", "title": "Mental Health & Food for the Brain", "weight": 5 },
+    { "id": "immunity", "title": "Immunity & Anti-Inflammatory Nutrition", "weight": 20 },
+    { "id": "gut", "title": "Gut Health, Probiotics & Weight Management", "weight": 16 },
+    { "id": "ageing", "title": "Healthy Ageing, Longevity & Antioxidants", "weight": 16 }
+  ],
+  "modes": [
+    {
+      "id": "exam",
+      "count": 20,
+      "timeLimitSec": 1500,
+      "blurb": "Twenty multiple-choice questions, like the real paper.",
+      "why": "The midterm is a 20-question quiz, multiple choice with one answer, across macro and micronutrients, supplementation and health, immunity, gut health and probiotics, ageing, plus small scenarios. This draws twenty in proportion to those topics."
+    },
+    {
+      "id": "scenarios",
+      "title": "Scenarios",
+      "count": 15,
+      "tags": ["scenario"],
+      "blurb": "A person, a symptom or a product: what fits?",
+      "why": "The exam slide ends with 'small scenarios with questions to answer'. These give you a vignette (a vegan student, an elderly patient, a label claim) and ask for the nutrient, the deficiency or the right advice."
+    },
+    {
+      "id": "exam-core",
+      "title": "Exam core",
+      "count": 20,
+      "topics": ["exam-core"],
+      "blurb": "The highest-yield facts across all six lines of the exam slide.",
+      "why": "One pass over what the lecturer stressed most: the deficiency diseases, fat- vs water-soluble, pre/pro/postbiotics, innate vs adaptive, the evidence verdicts and the hallmarks of ageing."
+    },
+    {
+      "id": "distinctions",
+      "title": "Tell them apart",
+      "count": 20,
+      "tags": ["distinction"],
+      "blurb": "Probiotic or postbiotic? Lifespan or healthspan? Acute or chronic?",
+      "why": "A one-answer multiple-choice paper is won on neighbouring terms: the distractor is almost always the concept next door."
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+[
+  {
+    "id": "core-001",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Mai, 20, is vegan, eats no fortified foods, and reports fatigue and pins-and-needles in her feet. Which supplement fits best?",
+    "choices": [
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin K",
+      "Iodised salt"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "B12 comes from animal foods and fortified products; vegans must supplement it. Deficiency causes fatigue, pernicious anaemia and nerve damage.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "vitamin-b"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-002",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "An 80-year-old who rarely goes outside has bone pain and weak bones. Which pair should a pharmacist first consider?",
+    "choices": [
+      "Vitamin C and zinc",
+      "Iron and vitamin B6 together",
+      "Vitamin D and calcium",
+      "Omega-3 and iodine"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "No sun means little vitamin D, so poor calcium absorption: osteomalacia and osteoporosis risk. Calcium + D is the bone pair across Classes 2 and 6.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "vitamin-d"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-003",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Nok follows a zero-fat crash diet. Months later she has dry skin, hair loss and signs of vitamin A and D shortage. What is the root cause?",
+    "choices": [
+      "Fat-soluble vitamins need fat to absorb",
+      "Water-soluble vitamins were lost in urine",
+      "Protein was converted into fat",
+      "Fibre blocked her vitamin absorption"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A, D, E and K are fat-soluble; without dietary fat they are poorly absorbed. Dry skin and hair loss are the listed fat-deficiency signs.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 41
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "fat-soluble"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-004",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A man takes 50,000 IU of vitamin D daily 'for immunity' and develops nausea, weakness and kidney problems. The best explanation is…",
+    "choices": [
+      "Vitamin D toxicity causing hypercalcaemia",
+      "Vitamin C excess causing kidney stones to form",
+      "Iron overload causing hemochromatosis",
+      "Zinc excess blocking copper uptake"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fat-soluble D accumulates; excess raises blood calcium (hypercalcaemia): nausea, weakness, kidney damage. And the evidence supports D for deficiency, not megadosing.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 48
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "vitamin-d",
+      "excess"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-005",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A pale, tired student with heavy periods and a vegetarian diet asks what to test first. The best answer is…",
+    "choices": [
+      "Iodine status for goitre",
+      "Vitamin K for clotting",
+      "Sodium for blood pressure",
+      "Iron status for anaemia"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Iron deficiency anaemia: fatigue, weakness, pale skin; menstruation and a meat-free diet both raise the risk.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 69
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "iron"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-006",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A child in a poor rural area has repeated diarrhoea, frequent infections and is shorter than peers. Which nutrient is the classic fix?",
+    "choices": [
+      "Vitamin E",
+      "Zinc",
+      "Sodium",
+      "Vitamin K"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Zinc deficiency: poor immunity, diarrhoea, delayed wound healing and stunting. Zinc is used to treat childhood diarrhoea, and the lecturer's own review paired zinc with B. clausii.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 71
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "zinc"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-007",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A patient on warfarin asks if a daily high-dose vitamin K supplement is fine. What should the pharmacist say?",
+    "choices": [
+      "Yes: vitamin K is water-soluble",
+      "Yes: vitamin K only thins the blood further",
+      "No: vitamin K causes scurvy",
+      "No: vitamin K can blunt the anticoagulant"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vitamin K drives clotting and can interfere with anticoagulant medications; it is fat-soluble, not water-soluble.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 52
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "interaction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-008",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A gym-goer eats 3 g of protein per kg daily, drinks little water, and now has dark urine and flank discomfort. What is most at risk?",
+    "choices": [
+      "His thyroid",
+      "His kidneys",
+      "His eyesight",
+      "His bone marrow"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Excess protein without hydration can overload kidney function and raise dehydration risk.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "protein"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-009",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A diabetic patient wants breakfast that avoids sugar spikes. Which is the better choice?",
+    "choices": [
+      "Oats with lentil-based sides",
+      "White bread with jam",
+      "A sweet pastry and juice",
+      "A sugary breakfast cereal with milk"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Low-GI complex carbs and fibre (oats, legumes) release glucose slowly and stabilise blood sugar; refined carbs spike it.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "gi"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-010",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A capsule of 'curcumin phytosome, 50× absorption, tested in an RCT' is best classified as a…",
+    "choices": [
+      "Functional food",
+      "Superfood",
+      "Macronutrient",
+      "Nutraceutical"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "A bioactive compound formulated and backed by clinical testing is a nutraceutical. A functional food is a food; 'superfood' is marketing.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-011",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Probiotic yoghurt sold for gut health, on a supermarket shelf, is best classified as a…",
+    "choices": [
+      "Pharmaceutical",
+      "Functional food",
+      "Dietary supplement",
+      "Postbiotic drug"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A food with health benefits beyond basic nutrition is a functional food (probiotics are the class's first example).",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-012",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "An elderly woman on several prescription drugs wants to add a herbal immunity tonic. What is the main safety concern?",
+    "choices": [
+      "The tonic will be under-absorbed in old age",
+      "Herbs contain too much vitamin C",
+      "Herb–drug interactions via the liver",
+      "The tonic will cause kwashiorkor"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Herbs can alter liver enzymes and change drug concentrations, so check with a doctor first. Poorly made herbals may also contain heavy metals.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "interaction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-013",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A brand's ad says: 'Our vitamin C mega-dose prevents COVID and boosts immunity 10×.' What does the evidence support?",
+    "choices": [
+      "Vitamin C mainly helps correct a deficiency",
+      "Mega-doses of vitamin C prevent COVID",
+      "Vitamin C boosts immunity 10× in adults",
+      "Vitamin C calms an active cytokine storm in adults"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "No evidence for megadosing to prevent or treat COVID; a 2025 meta-analysis found no significant outcome benefit. Vitamin C is critical for correcting deficiency.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 60
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-014",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A cut on a finger turns red, warm and swollen for two days, then heals. What does this show?",
+    "choices": [
+      "Chronic inflammation damaging tissue",
+      "An autoimmune attack on the skin",
+      "Immunosenescence in a young adult",
+      "Acute inflammation working properly"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Acute inflammation is short-term, protective and self-limiting, which is exactly what healing needs.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "inflammation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-015",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "An obese patient with type 2 diabetes has constantly raised CRP and IL-6. What best explains it?",
+    "choices": [
+      "An acute bacterial infection of the pancreas",
+      "Too much vitamin C and zinc in the diet",
+      "Fat tissue secreting inflammatory cytokines",
+      "A deficiency of neutrophils and B-cells"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Adipose tissue is biologically active, secreting TNF-α and IL-6: chronic low-grade inflammation that worsens insulin resistance, in a vicious cycle.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 19
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "inflammation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-016",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A client asks which immune supplement has the strongest evidence overall. The best course-based answer is…",
+    "choices": [
+      "Curcumin, at any available dose or form",
+      "Elderberry for every infection",
+      "Megadose vitamin C daily",
+      "Vitamin D, when correcting deficiency"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vitamin D: strongest evidence (in deficiency; linked to COVID severity). Curcumin is 'promising, needs more evidence'; Tier 2 botanicals are weaker in humans.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 34
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-017",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A patient is given iron for anaemia while fighting a bacterial infection. Why might a doctor hesitate?",
+    "choices": [
+      "Iron switches off adaptive memory",
+      "Iron is toxic to red blood cells",
+      "Bacteria can use the iron to grow",
+      "Iron cancels out the antibiotics"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Class notes: iron treatment during a bacterial infection feeds the bacteria, which compete for iron and grow more aggressive.",
+    "source": {
+      "deck": "Cedric: Ageing",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "immunity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-018",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "After antibiotics for a chest infection, a patient wants to protect their gut. Which is best supported?",
+    "choices": [
+      "A high-dose vitamin C powder",
+      "Any sweetened fermented drink from the shop",
+      "S. boulardii or LGG alongside the antibiotics",
+      "Stopping the antibiotics as soon as possible"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "S. boulardii and L. rhamnosus GG reduce antibiotic-associated diarrhoea risk by about 50%, and C. difficile by about 60% when co-administered.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 21
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "probiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-019",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A customer buys inulin powder to 'feed their good bacteria'. Inulin is a…",
+    "choices": [
+      "Probiotic",
+      "Postbiotic",
+      "Synbiotic",
+      "Prebiotic"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Inulin is a fermentable fibre, so a prebiotic. Add live strains and it becomes a synbiotic.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "prebiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-020",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A tablet contains heat-killed Lactobacillus plantarum cells with an immune claim. It is a…",
+    "choices": [
+      "Probiotic",
+      "Prebiotic",
+      "Synbiotic",
+      "Postbiotic"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Inanimate (heat-killed) cells or their components are postbiotics; probiotics must be alive.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "postbiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-021",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A drink contains live B. longum plus FOS. It is a…",
+    "choices": [
+      "Postbiotic",
+      "Prebiotic only",
+      "Synbiotic",
+      "Probiotic only"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Live bacteria (probiotic) plus fermentable fibre (prebiotic) is a synbiotic.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "synbiotic",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-022",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A friend's probiotic label lists 'Lactobacillus 10 billion' with no strain name. Why is this a weak product?",
+    "choices": [
+      "10 billion CFU is a toxic dose",
+      "Lactobacillus is not a probiotic",
+      "Labels must list vitamin content",
+      "Benefits are strain-specific"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Probiotics must be strain-identified; benefits cannot be generalised from genus to strain. 10 billion CFU is within the normal 1–100 billion range.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 19
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "probiotic"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-023",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A patient stopped Ozempic after losing 15 kg and is regaining weight. What does the course predict and advise?",
+    "choices": [
+      "Most weight returns; protein and exercise help",
+      "No regain happens after a full course",
+      "Natural GLP-1 boosters will fully replace the drug",
+      "Weight loss continues for another year"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "About two-thirds of lost weight returns within a year of stopping, and lean mass is lost on the drug, so protein and resistance training matter.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 34
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "glp-1"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-024",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "An obese adult's microbiome test shows very low Akkermansia muciniphila. What does the course link this to?",
+    "choices": [
+      "Poorer glucose and fat regulation",
+      "Protection against diabetes",
+      "Higher vitamin C levels in the blood",
+      "Faster protein digestion"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Akkermansia is low in obesity and diabetes; restoring it improves fat regulation, glucose metabolism and gut barrier function.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 29
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "akkermansia"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-025",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Two sisters are both 75. One has been healthy all her life; the other has had heart disease since 55. What differs?",
+    "choices": [
+      "Their lifespan",
+      "Their chronological age",
+      "Their number of chromosomes",
+      "Their healthspan"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Healthspan is years lived without chronic disease; lifespan and chronological age are equal here.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "lifespan-healthspan"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-026",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A wellness influencer says: 'The more antioxidants you take, the longer you live.' What does the course say?",
+    "choices": [
+      "Correct: all oxidation is harmful",
+      "Correct: extra glutathione doubles lifespan",
+      "Wrong: antioxidants cause ageing",
+      "Incomplete: some ROS signalling is needed"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "'More antioxidants = longer life' is scientifically incomplete and exaggerated; low-level ROS signalling (hormesis) is essential. Balance is the goal.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "scenario",
+      "antioxidants"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-027",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A 60-year-old wants the single most effective thing to lower their biological age. According to lifestyle stacking, what should come first?",
+    "choices": [
+      "Starting NMN capsules",
+      "Improving their diet",
+      "Buying a collagen drink",
+      "Taking liposomal glutathione"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Diet is credited with 5–12 years of biological-age reduction; supplements only 1–6. Lifestyle has the strongest evidence.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 80
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "lifestyle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-028",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A customer compares oral NAD+ capsules with NMN capsules. Why is NMN the more sensible buy?",
+    "choices": [
+      "Oral NAD+ is poorly absorbed; NMN is a precursor",
+      "NMN is a vitamin while NAD+ is a prescription drug",
+      "NAD+ causes hypercalcaemia",
+      "NMN needs no evidence to work"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Direct oral NAD+ is only 2–10% bioavailable; precursors like NMN (250 mg/day raised NAD+ about 38%) and NR are what the evidence covers.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 46
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "nad"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-029",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A patient on statins feels tired and asks about a supplement. Which one does the course link to statin depletion?",
+    "choices": [
+      "Collagen",
+      "CoQ10",
+      "Spermidine",
+      "Melatonin"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "CoQ10 (ubiquinol) works in mitochondrial electron transport and is depleted by statins.",
+    "source": {
+      "deck": "Class 6",
+      "slide": 32
+    },
+    "difficulty": 3,
+    "tags": [
+      "scenario",
+      "interaction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-030",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "A product can only be called a probiotic if it contains live microorganisms in adequate amounts with proven benefit.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "That is the definition: live, adequate amount, strain-identified, safe, proven in human studies.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "probiotic",
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-031",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Water-soluble vitamins are stored in the liver, so they need to be eaten only occasionally.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Water-soluble vitamins (B, C) are not stored and must be consumed regularly; fat-soluble ones are stored.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 54
+    },
+    "difficulty": 1,
+    "tags": [
+      "vitamins",
+      "distinction"
+    ],
+    "examFocus": true
+  }
+]

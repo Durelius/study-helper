@@ -1,0 +1,897 @@
+[
+  {
+    "id": "sup-001",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which is the best definition of a dietary supplement?",
+    "choices": [
+      "A food that gives health benefits beyond basic nutrition",
+      "A product that adds nutrients to complement the diet",
+      "A marketing term for any nutrient-dense whole food",
+      "A bioactive compound with clinical evidence of benefit"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A supplement adds extra nutrients to the diet, complementing food (e.g. a multivitamin). Health benefits beyond nutrition describes a functional food; 'nutrient-dense marketing term' is superfood.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "definitions",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-002",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Green tea sold as an antioxidant and oats sold to lower cholesterol are examples of…",
+    "choices": [
+      "Nutraceuticals",
+      "Pharmaceuticals",
+      "Dietary supplements",
+      "Functional foods"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Functional foods provide health benefits beyond basic nutrition: probiotics for gut health, green tea as antioxidant, oats for cholesterol.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "definitions",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-003",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "What does the lecturer say about the word 'superfood'?",
+    "choices": [
+      "It is mostly a marketing term",
+      "It is a regulated legal category",
+      "It requires a clinical trial",
+      "It means the food is fortified"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Superfoods are nutrient-rich foods, but the label is largely marketing; unlike nutraceuticals, it implies no clinical evidence.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-004",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which feature separates a nutraceutical from an ordinary functional food, according to the course?",
+    "choices": [
+      "It is sold only as a capsule or tablet",
+      "It adds vitamins beyond the daily RDA",
+      "It is approved like a prescription drug",
+      "A bioactive with some clinical evidence"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Nutraceuticals are bioactive compounds with health benefits that require clinical evidence, though the lecturer warns some trials use only about 10 people, so check the methodology.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "definitions",
+      "nutraceutical",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-005",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "A nutraceutical brand cites 'clinical proof' from a trial of 10 volunteers. What does the course advise?",
+    "choices": [
+      "Check the methodology, not the label",
+      "Accept it: any published trial proves it",
+      "Reject it: nutraceuticals need no trials",
+      "Trust it if it is made in Australia"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Nutraceuticals do require clinical evidence, but sometimes with very few people; look at how the testing was done (independent sources like ConsumerLab help).",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "nutraceutical",
+      "evidence",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-006",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "How do nutraceuticals differ from pharmaceuticals in the course's framing?",
+    "choices": [
+      "They are regulated more strictly than drugs",
+      "Lighter regulation, food-to-drug grey zone",
+      "They have no active ingredients at all",
+      "They can only be sold with a prescription"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nutraceuticals sit on a spectrum from 'strictly food' to regulatory grey areas: benefits range from essential to targeted and therapeutic, but they lack the drug approval path.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "nutraceutical",
+      "regulation",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-007",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Class notes on regulation: in supplements, claims are controlled by…",
+    "choices": [
+      "The finished product's own clinical trials",
+      "Each retailer's own labelling rules",
+      "Ingredient rather than finished product",
+      "A doctor's prescription for each product"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Cedric's notes: 'ingredients are controlled, not the product', and 70% of products are 'hand waving'. A product can borrow an ingredient's claim without its own evidence.",
+    "source": {
+      "deck": "Cedric: Brain",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "regulation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-008",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Functional foods are split into which two source types in the class?",
+    "choices": [
+      "Natural and synthetic sources",
+      "Plant-based and animal-based",
+      "Fermented and non-fermented",
+      "Fortified and unfortified"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Functional foods are classified as plant-based and animal-based (mostly fish and probiotics), and also as natural, modified, enriched or improved products.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-009",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Why does the lecturer prefer sardines to tuna as a functional fish?",
+    "choices": [
+      "Sardines contain far more vitamin C",
+      "Tuna has much less protein per gram",
+      "Sardines are richer in fat-soluble E",
+      "Tuna accumulates more heavy metals"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Tuna is high in the food chain and accumulates heavy metals; small fish like sardines are the 'good fish'.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "safety",
+      "functional-food",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-010",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which two reasons does the lecturer give for the supplement boom among younger people?",
+    "choices": [
+      "Falling prices and more doctor prescriptions",
+      "COVID health awareness and ultra-processed food",
+      "Stricter regulation and clinical proof of benefit",
+      "Social media and rising gym memberships"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The boom: post-COVID health awareness, plus ultra-processed diets that leave nutritional gaps.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-011",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which is NOT listed as a top consumer driver in the Asia-Pacific supplement market?",
+    "choices": [
+      "Immunity",
+      "Hair colour change",
+      "Beauty and skin health",
+      "Mental and cognitive function"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Top drivers: immunity, beauty and skin, weight management, longevity and healthy ageing, an ageing population, mental and cognitive function.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-012",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which country does the class credit with a long history of functional foods and advanced regulation?",
+    "choices": [
+      "China",
+      "Japan",
+      "India",
+      "Indonesia"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Asia-Pacific: China and India are super-growth markets; Japan has a long history of functional foods (e.g. Yakult) and advanced regulations; ASEAN is emerging.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-013",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "The course describes a 'shift from patient to consumer'. What does it mean?",
+    "choices": [
+      "Doctors now sell supplements in their clinics",
+      "Pharmacies now diagnose patients instead of doctors",
+      "Insurers now pay for supplements as medicine",
+      "People take charge of their own health"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Health is not only in doctors' hands: consumers make proactive health decisions and become owners of their health, driving pills, powders and functional drinks.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-014",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Redoxon, a leading immunity product in Singapore, combines which ingredients?",
+    "choices": [
+      "Vitamin C, vitamin D and zinc",
+      "Vitamin A, iron and iodine",
+      "Omega-3, B12 and magnesium",
+      "Collagen, biotin and vitamin E"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Redoxon: vitamin C, D and zinc. Consumers love multi-benefit products, and halal certification matters in Indonesia and Malaysia.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "market",
+      "immunity"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-015",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which supplement does the class give as an example for nausea in pregnancy?",
+    "choices": [
+      "Chitosan",
+      "Ginger",
+      "Creatine",
+      "Melatonin"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Benefits of supplements include extra nutrition for pregnant women (ginger for nausea), sleep (magnesium, melatonin, glycine, GABA), athletic performance (creatine), cognition (omega-3).",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "benefits"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-016",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "An athlete wants a supplement with evidence for performance. Which one does the class list?",
+    "choices": [
+      "Creatine",
+      "Chitosan",
+      "Ginger",
+      "Glycine"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Athletic performance: creatine. Chitosan was the fat-binding example; ginger for pregnancy nausea; inulin a prebiotic fibre.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "benefits",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-017",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Chitosan claims to 'suck fat out of the stomach'. Which downside does the class raise?",
+    "choices": [
+      "It causes a vitamin C overdose",
+      "It speeds digestion, causing diarrhoea",
+      "It also binds fat-soluble vitamins",
+      "It raises blood glucose after meals"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Chitosan downsides: allergy (shellfish), binding fat, which carries fat-soluble vitamins with it, and slowing digestion (constipation).",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "risks",
+      "fat-soluble"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-018",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Why can herbal supplements be dangerous for a patient on diabetes medication?",
+    "choices": [
+      "Herbs can change how the liver processes drugs",
+      "Herbs raise blood sugar by adding fructose to meals",
+      "Herbs block insulin receptors in muscle cells",
+      "Herbs bind the drug in the gut like chitosan"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Herbs can change liver enzymes and so alter the concentration of another drug in the blood: supplement–drug interaction. Class notes: see a doctor first.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "risks",
+      "interaction",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-019",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which is NOT one of the risks of supplements named in class?",
+    "choices": [
+      "Toxicity from misuse",
+      "Liver damage",
+      "Guaranteed failure to absorb",
+      "Interference with medication"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Risks: toxicity if misused, liver damage and GI issues, interference with medications, and heavy metals from poorly certified brands.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "risks"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-020",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Why does the lecturer stress checking a supplement brand's certification?",
+    "choices": [
+      "Certification proves the product's health claims",
+      "Uncertified products cannot legally contain herbs",
+      "Poorly made products may contain heavy metals",
+      "Certified products are always better absorbed"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Poor manufacturing can leave heavy metals and undeclared drugs (e.g. in some Asian herbal medicines). Look for GMP and third-party testing.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "safety",
+      "quality"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-021",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "A customer compares two turmeric products: a cheap extract and a Meriva phytosome at a higher price. What should drive the choice?",
+    "choices": [
+      "Price: the cheaper extract works the same",
+      "Dose: the extract has more curcumin per pill",
+      "Bioavailability: plain extract is about 1%",
+      "Origin: Indian turmeric is always superior"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Plain curcumin extract has about 1% bioavailability; formulation (Meriva, liposome) raises absorption about 50-fold. Formulation is a recurring 'key distinction'.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 36
+    },
+    "difficulty": 3,
+    "tags": [
+      "bioavailability",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-022",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "A label says 'Made in Australia' in large print. What does the class say about this kind of cue?",
+    "choices": [
+      "It proves the product was clinically tested",
+      "It means the product is a pharmaceutical",
+      "It guarantees halal certification",
+      "It builds trust but is not clinical evidence"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Perception is shaped by marketing, like 'clinically tested vs Australia-made'. Origin signals trust, not evidence.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 3,
+    "tags": [
+      "evidence",
+      "perception",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-023",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "For vitamin C, D and zinc, when is supplementation best supported?",
+    "choices": [
+      "When correcting a real deficiency",
+      "As a daily megadose for everyone",
+      "Only during active COVID infection",
+      "Only in combination with herbs"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Across the course: the purpose of supplementing D, C or zinc is to fix a deficiency, not to 'boost' a replete person.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-024",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Most people take a multivitamin 'just in case'. What does the course suggest instead?",
+    "choices": [
+      "Double the multivitamin dose for safety",
+      "Switch to a high-dose vitamin C instead",
+      "Target specific gaps like D3 and B12",
+      "Take fat-soluble vitamins at the upper limit"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Rather than gambling on a (usually underdosed) multivitamin, target single nutrients most people lack: D3, magnesium, B12 (vegans), omega-3.",
+    "source": {
+      "deck": "Class 2",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence",
+      "multivitamin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-025",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which statement matches the course's view of supplements?",
+    "choices": [
+      "They can replace a healthy lifestyle for busy people",
+      "They support health but are not miracle cures",
+      "They only work when taken as injections",
+      "They are safe at any dose because they are natural"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Take-home: supplements can support health but are not miracle cures for complex conditions; 'natural' does not mean safe.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 94
+    },
+    "difficulty": 1,
+    "tags": [
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-026",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "A friend says a herbal product is safe because it is 'natural'. What is the course's counterpoint?",
+    "choices": [
+      "Only synthetic products can interact with drugs",
+      "Natural products can be toxic or interact",
+      "Natural products are tested like medicines",
+      "Natural means the dose does not matter"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Herbal supplements carry toxicity risk, drug–herb interactions and sometimes heavy metals or undeclared drugs.",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "risks",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-027",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Why do consumers often choose an 'immune-boosting' pill over lifestyle change?",
+    "choices": [
+      "It gives quick reassurance for little effort",
+      "Clinical trials show that pills work better",
+      "Lifestyle change has no evidence for immunity",
+      "Doctors recommend pills before lifestyle change"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Convenience, marketing, and the illusion of control (quick safety, less guilt) beat the time, cost and exhaustion of real lifestyle change.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 89
+    },
+    "difficulty": 2,
+    "tags": [
+      "consumer"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-028",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "During COVID, what drove much supplement buying, according to the course?",
+    "choices": [
+      "Strong RCT evidence for each product",
+      "WHO recommendations to megadose vitamins",
+      "Fear and plausibility ahead of evidence",
+      "Doctors prescribing vitamins to all patients"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The pandemic showed how fear and biological plausibility drive buying ahead of clinical evidence.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 60
+    },
+    "difficulty": 2,
+    "tags": [
+      "consumer",
+      "covid"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-029",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Which check does the course recommend to verify a supplement's quality?",
+    "choices": [
+      "Its number of social media followers",
+      "Its price compared with rivals",
+      "Whether a celebrity endorses it",
+      "Third-party testing like NSF or USP"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Look for GMP certification and third-party testing (NSF, USP, ConsumerLab), published trials of the specific product or strain, and regulatory warnings.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "quality"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-030",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "A cheaper product copies the packaging of a clinically tested probiotic. What is the main consumer risk?",
+    "choices": [
+      "Getting too many live bacteria per dose",
+      "Accidentally buying a postbiotic instead",
+      "Paying more for an identical formula",
+      "Buying the look without the evidence"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Copycats imitate appearance and messaging, causing confusion and misleading purchases, and erode trust and fair competition.",
+    "source": {
+      "deck": "Class 4",
+      "slide": 83
+    },
+    "difficulty": 2,
+    "tags": [
+      "copycat",
+      "scenario"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-031",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "According to class notes, where do most health-fraud scams spread?",
+    "choices": [
+      "Social media and messaging apps",
+      "Pharmacy chains such as Watsons and Boots",
+      "Door-to-door sales like the Yakult Ladies",
+      "Market stalls selling traditional herbs"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The 'How to avoid health fraud' slide: social media and messaging apps are the biggest outlet for health-fraud scams.",
+    "source": {
+      "deck": "Class 5",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "safety"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-032",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Why does the lecturer call many brain and wellness products 'hand waving'?",
+    "choices": [
+      "They contain doses above the safe upper limit",
+      "They are made without GMP-certified factories",
+      "They are sold without any product labels",
+      "Claims outrun the product's evidence"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cedric's notes: about 70% of products are hand waving; ingredients are controlled rather than the product, so a claim can outrun the product's evidence.",
+    "source": {
+      "deck": "Cedric: Brain",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "evidence"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-033",
+    "topic": "supplementation",
+    "type": "mcq",
+    "stem": "Where does the lecturer say the supplement business is heading?",
+    "choices": [
+      "One multivitamin standard for the whole world",
+      "Moving vitamins to prescription-only status",
+      "Replacing herbals with synthetic isolates",
+      "Precision nutrition for each person"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Precision/personalised nutrition (microbiome testing, AI recommendations, formulas for one person) is where the business is going.",
+    "source": {
+      "deck": "Cedric: Brain",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-034",
+    "topic": "supplementation",
+    "type": "tf",
+    "stem": "A supplement and a functional food are the same thing under the course's definitions.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A supplement adds nutrients to the diet (pill, powder); a functional food is a food with health benefits beyond basic nutrition (yoghurt with probiotics, green tea).",
+    "source": {
+      "deck": "Cedric: Key Distinctions",
+      "slide": 1
+    },
+    "difficulty": 1,
+    "tags": [
+      "definitions",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sup-035",
+    "topic": "supplementation",
+    "type": "tf",
+    "stem": "Asia's supplement industry has surpassed USD 40 billion.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Class notes: the Asian supplement industry surpassed $40 billion, with China and India growing fastest.",
+    "source": {
+      "deck": "Kat notes: Intro",
+      "slide": 1
+    },
+    "difficulty": 2,
+    "tags": [
+      "market"
+    ],
+    "examFocus": true
+  }
+]
