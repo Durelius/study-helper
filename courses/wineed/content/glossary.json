@@ -1,0 +1,461 @@
+[
+  {
+    "term": "Enology",
+    "definition": "The discipline and technique of producing, conserving and maturing wine.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Sommelier",
+    "definition": "A trained wine professional specialised in wine service and wine-and-food pairing.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Phylloxera",
+    "definition": "Root-destroying pest that killed nearly 90% of European vines in the late 1800s; vines now grow on American rootstocks.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Terroir",
+    "definition": "The whole environment of the vine: climate, topography (height, slope, aspect) and soil.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Anthocyanin",
+    "definition": "Purplish-red pigment in red grape skins that colours red wine; falls after ripening.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Phenolic maturation",
+    "definition": "Concentration of phenolic compounds in skin and seeds as grapes ripen.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Maceration",
+    "definition": "Extracting colour (and tannin) from the skins; partial maceration gives rosé, none is needed for white.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Carbonic maceration",
+    "definition": "Whole-grape fermentation behind the fruity, drink-now Vin Nouveau style (Beaujolais Nouveau).",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Remontage",
+    "definition": "Circulating the must over the skins during fermentation for fuller colour extraction.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 30
+    }
+  },
+  {
+    "term": "Malolactic reaction",
+    "definition": "Conversion of malic acid into softer lactic acid during maturation, by Pediococcus bacteria.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 31
+    }
+  },
+  {
+    "term": "Botrytis cinerea",
+    "definition": "Noble rot: a fungus that dries grapes and concentrates their sugar, for dessert wines such as Sauternes.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Fortified wine",
+    "definition": "Base wine with added alcohol, 15–22% alcohol and high sugar: Marsala, Sherry, Port, Madeira.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 27
+    }
+  },
+  {
+    "term": "Solera",
+    "definition": "Blending about two-thirds of the barrel with the next year's wine to keep fortified wine consistent.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 27
+    }
+  },
+  {
+    "term": "Cuvée",
+    "definition": "The blend of first-fermented base wines in the Méthode Champenoise.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    }
+  },
+  {
+    "term": "Liqueur de tirage",
+    "definition": "Wine, sugar and yeast added to the bottled cuvée to start the second fermentation.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Remuage",
+    "definition": "Tilting and turning bottles to gather the yeast in the neck.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Liqueur d'expédition",
+    "definition": "Added after the frozen yeast plug is removed (à la volée), before the final cork.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Méthode Charmat / Metodo Martinotti",
+    "definition": "Sparkling wine fermented in a stainless-steel (INOX) tank instead of the bottle.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Intro",
+      "slide": 38
+    }
+  },
+  {
+    "term": "Degustation",
+    "definition": "Tasting with eyes, nose and tongue: visual, olfactory and taste-olfactory analysis.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 4
+    }
+  },
+  {
+    "term": "Tastevin",
+    "definition": "The small silver tasting cup used in the past.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Lacrima",
+    "definition": "The 'tears' a wine leaves on the glass wall; close-set tears mean a consistent, high-alcohol wine.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Perlage",
+    "definition": "The continuous stream of bubbles in a sparkling wine.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Ortho-nasal",
+    "definition": "Smelling by direct inhalation.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Retro-nasal",
+    "definition": "Smelling via exhaled air, key in the taste-olfactory phase.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 21
+    }
+  },
+  {
+    "term": "Primary aromas",
+    "definition": "Varietal aromas that come with the grape, from terpenes in the skin.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Secondary aromas",
+    "definition": "Aromas from pressing, fermentation and early maturation, including the vinous note.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Tertiary aromas",
+    "definition": "Aromas from long maturation via esterification with partial oxidation; vinous disappears.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 25
+    }
+  },
+  {
+    "term": "Terpenes",
+    "definition": "Compounds abundant in grape skin that are the source of primary aromas.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Vinous",
+    "definition": "Secondary aroma from complex alcohols; gone after long ageing.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Esterification",
+    "definition": "Reaction that creates aromatic substances during maturation.",
+    "topic": "intro-aromas",
+    "source": {
+      "deck": "Analysis",
+      "slide": 25
+    }
+  },
+  {
+    "term": "Étiquette / Etichetta",
+    "definition": "The wine label, in French / Italian.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 51
+    }
+  },
+  {
+    "term": "Designation",
+    "definition": "Identification of a wine by production area together with winemaking technique and grape varietal.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 53
+    }
+  },
+  {
+    "term": "Vintage",
+    "definition": "The year of harvesting printed on the label.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 51
+    }
+  },
+  {
+    "term": "Commercial name",
+    "definition": "A 'fantasy' brand name a producer adds beyond the designation.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 52
+    }
+  },
+  {
+    "term": "Riserva / Reserve",
+    "definition": "Aged in cask or barrel longer than the designation requires.",
+    "topic": "labels",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Superiore",
+    "definition": "At least 0.5% more alcohol than the designation's minimum.",
+    "topic": "labels",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Classico",
+    "definition": "The historic production zone of a long-established designation.",
+    "topic": "labels",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Millésime",
+    "definition": "Sparkling wine with more than 85% of the cuvée from one good year.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    }
+  },
+  {
+    "term": "Blanc de Blancs",
+    "definition": "Sparkling wine from Chardonnay only.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    }
+  },
+  {
+    "term": "Blanc de Noirs",
+    "definition": "Sparkling wine from Pinot Noir only.",
+    "topic": "labels",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    }
+  },
+  {
+    "term": "AOC",
+    "definition": "Appellation d'Origine Contrôlée: France's highest, strictest category (since 1930).",
+    "topic": "france",
+    "source": {
+      "deck": "France",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Vin de Pays",
+    "definition": "France's middle category, less regulated than AOC.",
+    "topic": "france",
+    "source": {
+      "deck": "France",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Grand cru (Bourgogne)",
+    "definition": "Best-terroir vineyards (~2%), labelled with the cru name and no village.",
+    "topic": "france",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Premier cru (Bourgogne)",
+    "definition": "Second tier (~12%), labelled village + Premier cru.",
+    "topic": "france",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    }
+  },
+  {
+    "term": "GSM",
+    "definition": "Grenache–Syrah–Mourvèdre, the signature southern French blend.",
+    "topic": "france",
+    "source": {
+      "deck": "France",
+      "slide": 13
+    }
+  },
+  {
+    "term": "DOCG",
+    "definition": "Denominazione di Origine Controllata e Garantita: Italy's highest designation, controlled and quality-guaranteed.",
+    "topic": "italy",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    }
+  },
+  {
+    "term": "DOC",
+    "definition": "Denominazione di Origine Controllata: Italy's largest designation, usually medium quality.",
+    "topic": "italy",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    }
+  },
+  {
+    "term": "IGT",
+    "definition": "Indicazione Geografica Tipica: quality wine made outside DOC/DOCG rules (many Super Tuscans).",
+    "topic": "italy",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    }
+  },
+  {
+    "term": "VdT",
+    "definition": "Vino da Tavola: wine made to no specification.",
+    "topic": "italy",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Super Tuscan",
+    "definition": "Tuscan wine (often Bordeaux grapes) made outside DOC rules; first in the 1960s.",
+    "topic": "italy",
+    "source": {
+      "deck": "Italy",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Metodo Asti",
+    "definition": "Aromatic sparkling wine from a single fermentation in sealed tanks, stopped early to keep sugar.",
+    "topic": "italy",
+    "source": {
+      "deck": "Italy",
+      "slide": 24
+    }
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "id": "lbl-sancerre",
+  "title": "Real label: Sancerre",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-sancerre-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is Sancerre made from? (two words)",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sauvignon blanc"
+      ],
+      "explanation": "Sauvignon Blanc.",
+      "source": {
+        "deck": "France",
+        "slide": 44
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sancerre-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which wine region is Sancerre?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "loire",
+        "vallee de la loire",
+        "vallée de la loire",
+        "central loire"
+      ],
+      "explanation": "Central Loire.",
+      "source": {
+        "deck": "France",
+        "slide": 44
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sancerre-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Compared with Pouilly-Fumé, Sancerre tends to have more body and fruit.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Pouilly-Fumé is more mineral (flint).",
+      "source": {
+        "deck": "France",
+        "slide": 44
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sancerre-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which fish dish does the course pair with Sancerre?",
+      "choices": [
+        "Sole Meunière",
+        "Navarin d'Agneau",
+        "Fritto Misto",
+        "Moules Marinières"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Sancerre & Sole; Muscadet goes with mussels.",
+      "source": {
+        "deck": "France",
+        "slide": 58
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sancerre-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "When is Sancerre best drunk?",
+      "choices": [
+        "young",
+        "only as a dessert wine",
+        "after long oak ageing",
+        "after ten years"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Sancerre and Pouilly-Fumé are wines to drink young.",
+      "source": {
+        "deck": "France",
+        "slide": 44
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/sancerre.jpg"
+}

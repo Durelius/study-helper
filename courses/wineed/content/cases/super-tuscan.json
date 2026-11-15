@@ -1,0 +1,131 @@
+{
+  "id": "super-tuscan",
+  "title": "Label: a Super Tuscan IGT",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Podere del Vento** · **Ventoso** · Toscana · **Indicazione Geografica Tipica** · **2019** · Cabernet Sauvignon – Merlot – Sangiovese · 14% vol · 750 ml",
+  "questions": [
+    {
+      "id": "case-super-tuscan-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Ventoso**?",
+      "choices": [
+        "the producer's estate",
+        "a commercial (fantasy) name",
+        "the wine's designation",
+        "the vineyard's name"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "A brand name added beyond the designation. Podere del Vento is the producer; Toscana IGT is the classification.",
+      "source": {
+        "deck": "Intro",
+        "slide": 52
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-super-tuscan-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Indicazione Geografica Tipica** say about this wine?",
+      "choices": [
+        "it is a table wine made to no specification",
+        "it holds Italy's highest guaranteed designation",
+        "it is quality wine made outside the DOC rules",
+        "it is the largest and most medium-quality class"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "IGT: usually quality wine that does not need to comply with DOC/DOCG rules — the Super Tuscan home (Tignanello, Solaia are Rosso IGT).",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-super-tuscan-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Being IGT, this wine sits above DOC in Italy's classification.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The ladder is DOCG › DOC › IGT › VdT. IGT is below DOC as a class, though the wine can be excellent.",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-super-tuscan-04",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is this wine made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "toscana",
+        "tuscany"
+      ],
+      "explanation": "Toscana.",
+      "source": {
+        "deck": "Italy",
+        "slide": 42
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-super-tuscan-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which Tuscan coastal zone is known for this Bordeaux-style blend under its own DOC?",
+      "choices": [
+        "Chianti Classico",
+        "Bolgheri",
+        "Montalcino",
+        "Montefalco"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Bolgheri DOC (and Maremma Toscana): Cabernet Sauvignon, Cabernet Franc, Merlot, with Sangiovese, on sandy-clay soil like Bordeaux. Montefalco is Umbria.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

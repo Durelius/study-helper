@@ -1,0 +1,131 @@
+{
+  "id": "lbl-barbaresco",
+  "title": "Real label: Barbaresco Riserva",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-barbaresco-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element on this label is the **designation**?",
+      "choices": [
+        "Barbaresco",
+        "Produttori del Barbaresco",
+        "Riserva",
+        "Montefico"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Barbaresco DOCG is the designation. Montefico is the vineyard; Riserva is an ageing term; Produttori del Barbaresco is the producer and bottler.",
+      "source": {
+        "deck": "Intro",
+        "slide": 54
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barbaresco-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Montefico**?",
+      "choices": [
+        "the village of the bottling agency",
+        "the commercial name of the blend",
+        "the producer that bottled the wine",
+        "the vineyard the grapes came from"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "As in the course's *Barolo Bussia*, a vineyard name can follow the designation.",
+      "source": {
+        "deck": "Intro",
+        "slide": 54
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barbaresco-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is this wine made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "nebbiolo"
+      ],
+      "explanation": "Barbaresco DOCG, like Barolo, is Nebbiolo from Piemonte.",
+      "source": {
+        "deck": "Italy",
+        "slide": 23
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barbaresco-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "*Prodotte 16.666 bottiglie* matches which of the seven main label details?",
+      "choices": [
+        "bottling agency",
+        "alcohol content (percent by volume)",
+        "volume of wine",
+        "bottling number or sequence"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The seventh detail is the bottling number/sequence — here, how many bottles were made.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barbaresco-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Compared with Barolo, Barbaresco is generally less tannic, with more red fruit and faster perfume development.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Both Nebbiolo DOCGs from Piemonte; Barbaresco is the softer, quicker-developing one.",
+      "source": {
+        "deck": "Italy",
+        "slide": 23
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/barbaresco-montefico.jpg"
+}

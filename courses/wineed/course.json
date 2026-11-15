@@ -1,0 +1,164 @@
+{
+  "id": "wineed",
+  "title": "Wine Education",
+  "code": "2000064",
+  "shortName": "Wine Education",
+  "exam": "2026-10-06T09:00:00+07:00",
+  "generators": [],
+  "topics": [
+    {
+      "id": "exam-core",
+      "title": "Exam Core: The Paper in One Page",
+      "weight": 0
+    },
+    {
+      "id": "labels",
+      "title": "Reading a Wine Label",
+      "weight": 5
+    },
+    {
+      "id": "intro-aromas",
+      "title": "Introduction & Aromas of Wine",
+      "weight": 10
+    },
+    {
+      "id": "france",
+      "title": "Wine Producer: France",
+      "weight": 5
+    },
+    {
+      "id": "italy",
+      "title": "Wine Producer: Italy",
+      "weight": 5
+    }
+  ],
+  "modes": [
+    {
+      "id": "exam",
+      "count": 17,
+      "timeLimitSec": 1800,
+      "blurb": "The real paper, part by part: a label, 10 true/false, a French match, an Italian match.",
+      "why": "Same order and shape as the midterm. Part 1 puts one label in front of you with five questions; Part 2 is ten true/false, half on aromas and half on the introduction; Parts 3 and 4 are one five-pair match each. Every run prefers what you have not mastered yet, so repeat it until the bank runs dry.",
+      "title": "Mock exam",
+      "parts": [
+        {
+          "title": "Part 1 · Wine label",
+          "case": true,
+          "count": 5
+        },
+        {
+          "title": "Part 2 · Aromas",
+          "count": 5,
+          "topics": [
+            "intro-aromas"
+          ],
+          "types": [
+            "tf"
+          ],
+          "tags": [
+            "aromas",
+            "families",
+            "degustation",
+            "visual",
+            "colour",
+            "temperature"
+          ]
+        },
+        {
+          "title": "Part 2 · Introduction",
+          "count": 5,
+          "topics": [
+            "intro-aromas"
+          ],
+          "types": [
+            "tf"
+          ],
+          "tags": [
+            "definitions",
+            "origin",
+            "vine",
+            "grape",
+            "ripening",
+            "terroir",
+            "types",
+            "vinification",
+            "sparkling",
+            "varietals"
+          ]
+        },
+        {
+          "title": "Part 3 · French wine",
+          "count": 1,
+          "topics": [
+            "france"
+          ],
+          "types": [
+            "match"
+          ],
+          "tags": [
+            "paper"
+          ]
+        },
+        {
+          "title": "Part 4 · Italian wine",
+          "count": 1,
+          "topics": [
+            "italy"
+          ],
+          "types": [
+            "match"
+          ],
+          "tags": [
+            "paper"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exam-core",
+      "title": "Exam core",
+      "count": 20,
+      "topics": [
+        "exam-core"
+      ],
+      "blurb": "The highest-yield facts from all four parts.",
+      "why": "One pass over what decides each part: the label terms, the aroma stages, the French grapes and the Italian designations."
+    },
+    {
+      "id": "true-false",
+      "title": "True or false",
+      "count": 25,
+      "types": [
+        "tf"
+      ],
+      "blurb": "Part 2 is all true/false. Drill the swapped facts.",
+      "why": "A false statement here is a true one with one fact swapped for its neighbour: malic for tartaric, primary for tertiary, Côte de Nuits for Côte de Beaune."
+    },
+    {
+      "id": "matching",
+      "title": "Matching",
+      "count": 10,
+      "types": [
+        "match"
+      ],
+      "blurb": "Region to grape, designation to region — like Parts 3 and 4.",
+      "why": "Every pool has spare answers and some answers repeat, so you cannot get the last pair by elimination. Know each pair cold."
+    },
+    {
+      "id": "labels",
+      "title": "Read the label",
+      "count": 12,
+      "topics": [
+        "labels"
+      ],
+      "blurb": "A label in front of you: what is each part?",
+      "why": "Part 1. Designation vs producer vs vineyard vs commercial name, and Riserva vs Superiore vs Classico."
+    },
+    {
+      "id": "case",
+      "title": "Label cards",
+      "blurb": "One real-style label, five questions about it.",
+      "why": "Part 1 of the paper: read the label in front of you, then answer without guessing from the wording."
+    }
+  ]
+}

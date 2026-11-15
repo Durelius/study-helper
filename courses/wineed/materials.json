@@ -1,0 +1,9 @@
+{
+  "root": "~/chula/wine_ed/course_materials",
+  "decks": [
+    { "deck": "Intro", "title": "Introduction to Wine Education", "pdf": "Introduction_to_Wine_Education_6264_17229224895484_6264_17410702426508_6264_17490899135468_6264_1754-6264-17858142915734.pdf" },
+    { "deck": "Analysis", "title": "Wine Analysis and Food Pairing Technique", "pdf": "Week02_Food_and_Wine_Pairing_Technique_6264_17241476869042_6264_17368437641601_6264_17494406576528_6-6264-17870086409229.pdf" },
+    { "deck": "France", "title": "Wine Producer: France", "pdf": "France_Inter_Material_6264_16620954816053_6264_16938159276437_6264_17072096348140_6264_1725258709355-6264-17876389969260.pdf" },
+    { "deck": "Italy", "title": "Wine Producer: Italy", "pdf": "Italy_Inter_Material_6264_17263197894230_6264_17404607623829_6264_17579911359860-6264-17893683019929.pdf" }
+  ]
+}

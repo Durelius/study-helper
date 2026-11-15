@@ -1,0 +1,131 @@
+{
+  "id": "lbl-champagne-bdb",
+  "title": "Real label: Champagne Blanc de Blancs",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-champagne-bdb-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is a Blanc de Blancs Champagne made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "chardonnay"
+      ],
+      "explanation": "Chardonnay only.",
+      "source": {
+        "deck": "Intro",
+        "slide": 35
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-champagne-bdb-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "**Zéro dosage** puts this wine at which end of the sugar scale?",
+      "choices": [
+        "the middle, like Sec",
+        "the sweetest end, like Doux",
+        "the driest end, like Pas dosé",
+        "just below Demi-sec, like Extra dry"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "No added sugar: the Pas dosé end (<1 g/L).",
+      "source": {
+        "deck": "Intro",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-champagne-bdb-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Lilyale**?",
+      "choices": [
+        "a commercial (fantasy) name",
+        "the designation",
+        "the name of the producing house",
+        "the vineyard's name"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Waris Hubert is the producer; Champagne the designation.",
+      "source": {
+        "deck": "Intro",
+        "slide": 52
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-champagne-bdb-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which Champagne zone is planted mainly with Chardonnay?",
+      "choices": [
+        "Côte des Blancs",
+        "Côte des Bar",
+        "Montagne de Reims",
+        "Vallée de la Marne"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Côte des Blancs (chalk). Reims and Bar: Pinot Noir; Marne: Pinot Meunier.",
+      "source": {
+        "deck": "France",
+        "slide": 40
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-champagne-bdb-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "This wine could contain Pinot Meunier from the Vallée de la Marne.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Blanc de Blancs is Chardonnay only.",
+      "source": {
+        "deck": "France",
+        "slide": 14
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/champagne-bdb.jpg"
+}

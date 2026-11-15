@@ -1,0 +1,126 @@
+{
+  "id": "meursault",
+  "title": "Label: Meursault Premier Cru",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Domaine Morel** · **MEURSAULT** · **Premier Cru** · Appellation Meursault 1er Cru Contrôlée · **2020** · 13% vol · 750 ml",
+  "questions": [
+    {
+      "id": "case-meursault-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is this white wine made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "chardonnay"
+      ],
+      "explanation": "Chardonnay — Meursault is oaked Côte de Beaune Chardonnay.",
+      "source": {
+        "deck": "France",
+        "slide": 33
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-meursault-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which level of the Bourgogne classification is this?",
+      "choices": [
+        "Grand cru",
+        "Village appellation",
+        "Premier cru",
+        "Regional appellation"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Village name + Premier cru = Premier cru. A Grand cru would show the cru name with no village.",
+      "source": {
+        "deck": "France",
+        "slide": 36
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-meursault-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "In which part of Bourgogne is Meursault?",
+      "choices": [
+        "Chablis",
+        "Mâconnais",
+        "Côte de Nuits",
+        "Côte de Beaune"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Côte de Beaune — famous for Chardonnay whites (Meursault, Puligny- and Chassagne-Montrachet). Côte de Nuits is Pinot Noir.",
+      "source": {
+        "deck": "France",
+        "slide": 33
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-meursault-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "If this were a Grand cru, its label would carry the cru name without the village name.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Grand cru labels name the cru alone (Corton, Montrachet); Premier cru labels are village + Premier cru.",
+      "source": {
+        "deck": "France",
+        "slide": 36
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-meursault-05",
+      "topic": "labels",
+      "type": "text",
+      "stem": "**2020** on this label is the year of harvest. What is that called?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "vintage"
+      ],
+      "explanation": "The vintage.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

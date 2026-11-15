@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "lab-001",
+    "topic": "labels",
+    "type": "match",
+    "stem": "A label reads, top to bottom: **Cantina Belvedere** · **BAROLO** · Denominazione di Origine Controllata e Garantita · **Bussia** · **Riserva** · **2018** · 14.5% vol · 750 ml · Bottled by Cantina Belvedere, Piemonte.\n\nMatch each part of the label to what it tells you.",
+    "items": [
+      "Barolo",
+      "Bussia",
+      "2018",
+      "Riserva",
+      "Cantina Belvedere"
+    ],
+    "choices": [
+      "Commercial name",
+      "Designation",
+      "Extra barrel ageing",
+      "Grape varietal",
+      "Producer",
+      "Superior alcohol",
+      "Vineyard name",
+      "Vintage"
+    ],
+    "answer": [
+      1,
+      6,
+      7,
+      2,
+      4
+    ],
+    "explanation": "Barolo is the DOCG designation; Bussia is the vineyard the grapes came from (the course's own example, Barolo Bussia); 2018 is the harvest year; Riserva means longer maturation in barrel than usual. There is no commercial name on this label, and Nebbiolo is implied by the designation rather than printed.",
+    "source": {
+      "deck": "Intro",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-002",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads, top to bottom: **Cantina Belvedere** · **BAROLO** · Denominazione di Origine Controllata e Garantita · **Bussia** · **Riserva** · **2018** · 14.5% vol · 750 ml · Bottled by Cantina Belvedere, Piemonte.\n\nWhich element is the **designation** of the wine?",
+    "choices": [
+      "Riserva",
+      "Bussia",
+      "Barolo",
+      "Belvedere"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The designation identifies the wine by production area together with its winemaking rules and grape — here Barolo DOCG. Bussia is a vineyard name added after it, and Riserva is an ageing term.",
+    "source": {
+      "deck": "Intro",
+      "slide": 54
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-003",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads, top to bottom: **Cantina Belvedere** · **BAROLO** · Denominazione di Origine Controllata e Garantita · **Bussia** · **Riserva** · **2018** · 14.5% vol · 750 ml · Bottled by Cantina Belvedere, Piemonte.\n\nWhat does **Bussia** tell you?",
+    "choices": [
+      "the vineyard that grew the grapes",
+      "the estate that bottled the wine",
+      "the village where the cellar stands today",
+      "the grape variety in the bottle"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "In Italy a producer may add the vineyard after the designation: in *Barolo Bussia*, Barolo is the DOCG and Bussia is the vineyard.",
+    "source": {
+      "deck": "Intro",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-004",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads, top to bottom: **Cantina Belvedere** · **BAROLO** · Denominazione di Origine Controllata e Garantita · **Bussia** · **Riserva** · **2018** · 14.5% vol · 750 ml · Bottled by Cantina Belvedere, Piemonte.\n\nWhat does **Riserva** promise?",
+    "choices": [
+      "a longer maturation in barrel than usual",
+      "a higher alcohol than the minimum allowed",
+      "a blend made only from one good harvest",
+      "grapes from the historic core of the zone"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Riserva (Reserve) means longer ageing in cask or barrel than the designation requires. Higher alcohol is *Superiore*; the historic core is *Classico*; a single good year is *Millésime/Millesimato*.",
+    "source": {
+      "deck": "Intro",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "terms",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-005",
+    "topic": "labels",
+    "type": "text",
+    "stem": "A label reads, top to bottom: **Cantina Belvedere** · **BAROLO** · Denominazione di Origine Controllata e Garantita · **Bussia** · **Riserva** · **2018** · 14.5% vol · 750 ml · Bottled by Cantina Belvedere, Piemonte.\n\n**2018** is the year the grapes were harvested. What is that called on a label?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "vintage",
+      "vintage year",
+      "millesime",
+      "millésime"
+    ],
+    "explanation": "The vintage is the year of harvesting — item 3 of the seven main details on a label.",
+    "source": {
+      "deck": "Intro",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-006",
+    "topic": "labels",
+    "type": "text",
+    "stem": "A label reads, top to bottom: **Cantina Belvedere** · **BAROLO** · Denominazione di Origine Controllata e Garantita · **Bussia** · **Riserva** · **2018** · 14.5% vol · 750 ml · Bottled by Cantina Belvedere, Piemonte.\n\nWhich grape is this wine made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "nebbiolo"
+    ],
+    "explanation": "Barolo DOCG (and Barbaresco DOCG) in Piemonte are made from Nebbiolo — highly tannic, long-lived, complex.",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-007",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Château Margaux** · Premier Grand Cru Classé · **MARGAUX** · Appellation Margaux Contrôlée · **2015** · 13.5% vol · 750 ml.\n\nThe producer and the designation share a name here. Which reading is right?",
+    "choices": [
+      "Margaux AOC is the producer; Château Margaux is the designation",
+      "Château Margaux is the designation; Margaux is the commercial name",
+      "Château Margaux is the producer; Margaux AOC is the designation",
+      "Château Margaux is the vineyard; Margaux is the bottling agency"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The course's own example: Producer Château Margaux, Designation Margaux AOC, Region Médoc. A Bordeaux château name is the producer; the *Appellation … Contrôlée* line is the designation.",
+    "source": {
+      "deck": "France",
+      "slide": 29
+    },
+    "difficulty": 3,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-008",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Château Margaux** · Premier Grand Cru Classé · **MARGAUX** · Appellation Margaux Contrôlée · **2015** · 13.5% vol · 750 ml.\n\nWhat is **Premier Grand Cru Classé**?",
+    "choices": [
+      "a fantasy name chosen by the producer",
+      "the designation the wine is sold under",
+      "the name of the single vineyard plot the grapes grew in",
+      "a ranking of the producer inside the designation"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Within one French designation there can be a sub-classification of producers, such as Premier Grand Cru Classé. It ranks the producer; the designation is still Margaux AOC.",
+    "source": {
+      "deck": "France",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "anatomy",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-009",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Château Margaux** · Premier Grand Cru Classé · **MARGAUX** · Appellation Margaux Contrôlée · **2015** · 13.5% vol · 750 ml.\n\nWhich grape leads this left-bank wine?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Cabernet Franc",
+      "Merlot",
+      "Syrah"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Margaux is on the left bank (Médoc), the Cabernet Sauvignon zone; its clay gives a softer, 'feminine' Cabernet. Merlot leads on the right bank (Saint-Émilion, Pomerol).",
+    "source": {
+      "deck": "France",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-010",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Fattoria del Colle** · **Il Falco** · Toscana · Indicazione Geografica Tipica · **2019** · Cabernet Sauvignon – Sangiovese · 14% vol · 750 ml.\n\nWhat is **Il Falco**?",
+    "choices": [
+      "a commercial (fantasy) name",
+      "the designation of the wine",
+      "the vineyard the grapes grew in",
+      "the producer who bottled it"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Beyond the designation, a producer may add a commercial or 'fantasy' name. Fattoria del Colle is the producer, and the designation is Toscana IGT.",
+    "source": {
+      "deck": "Intro",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-011",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Fattoria del Colle** · **Il Falco** · Toscana · Indicazione Geografica Tipica · **2019** · Cabernet Sauvignon – Sangiovese · 14% vol · 750 ml.\n\nWhat does **Indicazione Geografica Tipica** tell you about this wine?",
+    "choices": [
+      "it is the largest and most medium-quality class",
+      "it is made to no production specification at all",
+      "it holds Italy's highest designation with a quality guarantee",
+      "it is a quality wine made outside DOC or DOCG rules"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "IGT is usually a quality wine that does not follow DOC/DOCG regulations — the home of many Super Tuscans. DOCG is the highest, DOC the largest, VdT has no specification.",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-012",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "A label reads: **Fattoria del Colle** · **Il Falco** · Toscana · Indicazione Geografica Tipica · **2019** · Cabernet Sauvignon – Sangiovese · 14% vol · 750 ml.\n\nTrue or false: because it is not DOC or DOCG, this must be a low-quality wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "IGT (and IGP/VDQS-type classes) exist precisely for producers who make high-quality wine outside the designation rules — Tignanello and Solaia are Rosso IGT.",
+    "source": {
+      "deck": "Intro",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-013",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Maison Dubois** · **CHAMPAGNE** · Blanc de Blancs · Brut · Millésime 2016 · 12% vol · 750 ml.\n\nWhat does **Blanc de Blancs** tell you?",
+    "choices": [
+      "it is made from Pinot Noir alone",
+      "it is a blend of all three grapes",
+      "it is made from Chardonnay alone",
+      "it is made from Pinot Meunier alone"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Blanc de Blancs is sparkling wine from Chardonnay only — the only grape used in Blanc de Blancs Champagne. From Pinot Noir only, it is Blanc de Noirs.",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "sparkling",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-014",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Maison Dubois** · **CHAMPAGNE** · Blanc de Blancs · Brut · Millésime 2016 · 12% vol · 750 ml.\n\nWhat does **Millésime 2016** promise?",
+    "choices": [
+      "the house was granted Grand Cru status in 2016",
+      "the wine aged on its yeast for at least 2016 days",
+      "the bottle is number 2016 of a limited run",
+      "over 85% of the cuvée comes from the 2016 harvest"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "If more than 85% of the base cuvée comes from one good production year, the sparkling wine is called Millésime (vintage).",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-015",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads: **Maison Dubois** · **CHAMPAGNE** · Blanc de Blancs · Brut · Millésime 2016 · 12% vol · 750 ml.\n\n**Brut** places the residual sugar in which band?",
+    "choices": [
+      "between 18 and 35 g/L",
+      "33–50 g/L",
+      "under 15 g/L",
+      "under 3 g/L"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Dosage scale, driest to sweetest: Pas dosé <1, Brut nature <3, Extra brut <6, Brut <15, Extra dry 12–20, Sec 18–35, Demi-sec 33–50, Doux >50 g/L.",
+    "source": {
+      "deck": "Intro",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "sparkling",
+      "dosage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-016",
+    "topic": "labels",
+    "type": "match",
+    "stem": "Match each sparkling-wine dosage term to its residual sugar.",
+    "items": [
+      "Brut nature",
+      "Brut",
+      "Demi-sec",
+      "Doux"
+    ],
+    "choices": [
+      "12–20 g/L",
+      "18–35 g/L",
+      "33–50 g/L",
+      "< 15 g/L",
+      "< 3 g/L",
+      "< 6 g/L",
+      "> 50 g/L"
+    ],
+    "answer": [
+      4,
+      3,
+      2,
+      6
+    ],
+    "explanation": "Pas dosé <1, Brut nature <3, Extra brut <6, Brut <15, Extra dry 12–20, Sec 18–35, Demi-sec 33–50, Doux >50. Note the trap: Extra dry is *sweeter* than Brut.",
+    "source": {
+      "deck": "Intro",
+      "slide": 37
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "sparkling",
+      "dosage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-017",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "On the sparkling-wine dosage scale, Extra dry is sweeter than Brut.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Counter-intuitive but on the slide: Brut <15 g/L, Extra dry 12–20 g/L.",
+    "source": {
+      "deck": "Intro",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "dosage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-018",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "On the sparkling-wine dosage scale, Demi-sec is drier than Extra brut.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Demi-sec is 33–50 g/L; Extra brut is under 6 g/L. Only Doux (>50) is sweeter than Demi-sec.",
+    "source": {
+      "deck": "Intro",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "dosage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-019",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "Which of these is one of the seven main details the course lists for a wine label?",
+    "choices": [
+      "bottling number or sequence",
+      "the soil type of the vineyard",
+      "the winemaker's signature",
+      "recommended glass shape"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The seven: producer logo, designation, vintage, bottling agency and producer, alcohol (% vol), volume, and bottling number/sequence. Descriptions, serving temperature and food may be added, but are extras.",
+    "source": {
+      "deck": "Intro",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-020",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "How is alcohol content shown on a wine label?",
+    "choices": [
+      "as percent by weight",
+      "as percent by volume",
+      "as degrees Celsius",
+      "as grams per litre"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Alcohol content is given in percent by volume (% vol) — one of the seven main details.",
+    "source": {
+      "deck": "Intro",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "anatomy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-021",
+    "topic": "labels",
+    "type": "text",
+    "stem": "The course uses a French word for the wine label. What is it?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "etiquette",
+      "étiquette"
+    ],
+    "explanation": "Étiquette — the Italian equivalent is *etichetta*. Don't confuse it with serving etiquette.",
+    "source": {
+      "deck": "Intro",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-022",
+    "topic": "labels",
+    "type": "text",
+    "stem": "What does an Italian producer call the wine label?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "etichetta"
+    ],
+    "explanation": "Etichetta. The French is étiquette.",
+    "source": {
+      "deck": "Italy",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-023",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A designation identifies a wine by its area of production together with…",
+    "choices": [
+      "its producer's name and the agency that bottled it",
+      "its alcohol content and bottle volume",
+      "its vintage and its bottling sequence",
+      "its winemaking technique and grape varietal"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Designation = production area + winemaking technique + grape varietal. Producer, alcohol, volume and vintage are separate details on the label.",
+    "source": {
+      "deck": "Intro",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-024",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "On an Italian label, *Superiore* means the wine reached a higher alcohol than its designation requires.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Superiore = at least 0.5% more alcohol than the stated minimum. Longer barrel ageing is *Riserva*.",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "terms",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-025",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "On an Italian label, *Superiore* means the wine spent longer in barrel than its designation requires.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is Riserva. Superiore is about alcohol: at least 0.5% above the designation's minimum.",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "terms",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-026",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "*Classico* is added to designations with a long history of production, such as Chianti Classico and Soave Classico.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Classico marks the historic production zone of a designation.",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-027",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "By how much must an Italian *Superiore* exceed its designation's minimum alcohol?",
+    "choices": [
+      "at least 1.5%",
+      "at least 1.0%",
+      "at least 2.0%",
+      "at least 0.5%"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Superiore needs a minimum of 0.5% more alcohol than stated in the designation.",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-028",
+    "topic": "labels",
+    "type": "match",
+    "stem": "Match each label term to its meaning.",
+    "items": [
+      "Riserva",
+      "Superiore",
+      "Classico",
+      "Millésime"
+    ],
+    "choices": [
+      "Commercial name",
+      "Higher alcohol",
+      "Historic zone",
+      "Late harvest",
+      "Longer barrel ageing",
+      "One good harvest",
+      "Single vineyard"
+    ],
+    "answer": [
+      4,
+      1,
+      2,
+      5
+    ],
+    "explanation": "Riserva = longer ageing in cask; Superiore = ≥0.5% more alcohol; Classico = the historic heart of the zone; Millésime = >85% of the cuvée from one good year.",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "terms",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-029",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads **Chianti Classico DOCG · Riserva · 2019**. What does Riserva require here?",
+    "choices": [
+      "12 months' maturation and 12% minimum alcohol",
+      "24 months' maturation and 12.5% minimum alcohol",
+      "18 months' maturation and 11.5% minimum alcohol",
+      "36 months' maturation and 13% minimum alcohol"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Chianti Classico: min 12% alcohol. Riserva: min 24 months' maturation (incl. 3 months' bottle fining) and 12.5% alcohol.",
+    "source": {
+      "deck": "Italy",
+      "slide": 43
+    },
+    "difficulty": 3,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-030",
+    "topic": "labels",
+    "type": "text",
+    "stem": "Which Chianti Classico category, introduced in 2014, is made only from the winery's own grapes under stricter rules? (two words)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "gran selezione"
+    ],
+    "explanation": "Chianti Classico Gran Selezione (2014): exclusively the estate's own grapes, stricter than regular Chianti Classico.",
+    "source": {
+      "deck": "Italy",
+      "slide": 43
+    },
+    "difficulty": 3,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-031",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads **Marsala Superiore Riserva**. How long has it aged?",
+    "choices": [
+      "4 years",
+      "2 years",
+      "1 year",
+      "5 years"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Marsala ageing: Fine 1 yr, Superiore 2, Superiore Riserva 4, Vergine/Soleras 5, Stravecchio/Riserva 10.",
+    "source": {
+      "deck": "Italy",
+      "slide": 51
+    },
+    "difficulty": 3,
+    "tags": [
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-032",
+    "topic": "labels",
+    "type": "match",
+    "stem": "Match each classification to its country and level.",
+    "items": [
+      "DOCG",
+      "VdT",
+      "AOC",
+      "Vin de France"
+    ],
+    "choices": [
+      "France – highest",
+      "France – lowest",
+      "France – middle",
+      "Italy – highest",
+      "Italy – lowest",
+      "Italy – middle"
+    ],
+    "answer": [
+      3,
+      4,
+      0,
+      1
+    ],
+    "explanation": "France: AOC > Vin de Pays > Vin de France. Italy: DOCG > DOC > IGT > VdT (Vino da Tavola).",
+    "source": {
+      "deck": "France",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-033",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "Which Italian classification is the *largest* in the country, usually for medium-quality wine?",
+    "choices": [
+      "DOCG",
+      "DOC",
+      "VdT",
+      "IGT"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "DOC is the largest designation, usually medium quality but sometimes as good as DOCG. DOCG adds a quality guarantee on top of strict control.",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-034",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "DOCG adds a guarantee of quality on top of the strict production control that DOC already has.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Controllata e *Garantita*: controlled and guaranteed.",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-035",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "Vin de Pays is the strictest French category, above AOC.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "AOC is the highest and strictest; Vin de Pays is less regulated; Vin de France is the base level.",
+    "source": {
+      "deck": "France",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-036",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "On a Bourgogne label, which of these names alone (no village) marks a **Grand cru**?",
+    "choices": [
+      "Bourgogne Aligoté",
+      "Montrachet",
+      "Mâcon-Villages",
+      "Meursault Premier Cru"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Grand cru wines carry the Grand cru name without a village (Corton, Montrachet). Premier cru is labelled Premier cru + village; Bourgogne Aligoté and Mâcon-Villages are regional appellations.",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    },
+    "difficulty": 3,
+    "tags": [
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-037",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "A Bourgogne Premier cru is labelled with the village name followed by Premier cru.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Premier cru = village name + Premier cru (about 12% of production). Grand cru carries no village name.",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-038",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "A label reads **Bourgogne Aligoté**. What kind of appellation is it?",
+    "choices": [
+      "a Grand cru naming the vineyard",
+      "a Premier cru naming the climat",
+      "a regional appellation naming the grape",
+      "a village appellation naming the commune"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Regional appellations can be AOC Bourgogne, AOC + sub-zone (Mâcon-Villages) or AOC + grape (Bourgogne Aligoté).",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    },
+    "difficulty": 3,
+    "tags": [
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-039",
+    "topic": "labels",
+    "type": "mcq",
+    "stem": "Bourgogne ranks its wines by terroir in four levels. Which order runs from highest to lowest?",
+    "choices": [
+      "Grand cru › Village › Premier cru › Regional",
+      "Premier cru › Grand cru › Village › Regional",
+      "Grand cru › Premier cru › Village › Regional",
+      "Premier cru › Village › Grand cru › Regional"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Grand cru (best terroir, ~2%) › Premier cru (~12%) › Village appellation › Regional appellation.",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-040",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "A label reads *Alsace · Riesling · Vendange Tardive*. Vendange Tardive is an Alsace sweet-wine style.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Vendange Tardive and Sélection de Grains Nobles (SGN) are Alsace's important sweet styles.",
+    "source": {
+      "deck": "France",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "terms"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-041",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "Bolgheri Sassicaia DOC is the only Italian designation tied to one specific wine and producer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Bolgheri Sassicaia DOC (Tenuta San Guido) — the one designation tied to a single wine name and producer.",
+    "source": {
+      "deck": "Italy",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-042",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "On an Italian label, *Classico* means the wine was aged in barrel for longer than usual.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Classico marks a designation's historic production zone (Chianti Classico, Soave Classico). Longer ageing is Riserva.",
+    "source": {
+      "deck": "Italy",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "terms",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-043",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "A Bourgogne Grand cru label shows the village name followed by the words Grand cru.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Grand cru wines carry the Grand cru name *without* a village (Corton, Montrachet). Village + Premier cru is the Premier cru format.",
+    "source": {
+      "deck": "France",
+      "slide": 36
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "lab-044",
+    "topic": "labels",
+    "type": "tf",
+    "stem": "A Champagne labelled Blanc de Blancs may include Pinot Noir and Pinot Meunier in its blend.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Blanc de Blancs is Chardonnay only.",
+    "source": {
+      "deck": "France",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  }
+]

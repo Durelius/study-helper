@@ -1,0 +1,135 @@
+{
+  "id": "lbl-medoc",
+  "title": "Real label: G d'Estournel, Médoc",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-medoc-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which bank of Bordeaux is the Médoc?",
+      "choices": [
+        "the Dordogne side",
+        "the right bank",
+        "the left bank",
+        "Entre-Deux-Mers"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Médoc = left bank.",
+      "source": {
+        "deck": "France",
+        "slide": 25
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-medoc-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "This label shares its name with which Saint-Estèphe producer from the course?",
+      "choices": [
+        "Pétrus",
+        "Cos d'Estournel",
+        "Château Lynch-Bages",
+        "Château Margaux"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Cos d'Estournel, Saint-Estèphe AOC.",
+      "source": {
+        "deck": "France",
+        "slide": 29
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-medoc-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **2020**?",
+      "choices": [
+        "the bottle number",
+        "the bottling year",
+        "the founding year",
+        "the vintage"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Year of harvest.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-medoc-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "The Médoc's soil along the Garonne is mainly limestone.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Gravel on the Garonne; limestone is the Dordogne side.",
+      "source": {
+        "deck": "France",
+        "slide": 24
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-medoc-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which appellation is in the Médoc?",
+      "choices": [
+        "Pauillac",
+        "Sauternes",
+        "Saint-Émilion",
+        "Pomerol"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Saint-Estèphe, Pauillac, Saint-Julien, Margaux.",
+      "source": {
+        "deck": "France",
+        "slide": 25
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/estournel.jpg"
+}

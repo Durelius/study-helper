@@ -1,0 +1,549 @@
+[
+  {
+    "id": "core-001",
+    "topic": "exam-core",
+    "type": "match",
+    "stem": "A label reads: **Tenuta Varese** · **Soave** · Denominazione di Origine Controllata e Garantita · **Superiore** · **Monte Grande** · **2021** · 13% vol · 750 ml.\n\nMatch each part of the label to what it is.",
+    "items": [
+      "Soave",
+      "Superiore",
+      "Monte Grande",
+      "2021",
+      "Tenuta Varese"
+    ],
+    "choices": [
+      "Bottling sequence",
+      "Designation",
+      "Higher alcohol",
+      "Historic zone",
+      "Longer barrel ageing",
+      "Producer",
+      "Vineyard name",
+      "Vintage"
+    ],
+    "answer": [
+      1,
+      2,
+      6,
+      7,
+      5
+    ],
+    "explanation": "Soave is the DOCG designation (Veneto, Garganega). Superiore = ≥0.5% more alcohol than the minimum. The vineyard name follows the designation, as in Barolo Bussia.",
+    "source": {
+      "deck": "Intro",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-002",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A label reads: **Tenuta Varese** · **Soave** · Denominazione di Origine Controllata e Garantita · **Superiore** · **Monte Grande** · **2021** · 13% vol · 750 ml.\n\nWhich region and grape does this wine come from?",
+    "choices": [
+      "Piemonte, Cortese",
+      "Toscana, Vernaccia",
+      "Veneto, Garganega",
+      "Campania, Greco"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Soave Superiore DOCG: Veneto's quality white from Garganega.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-003",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "On any label, which detail is the *designation*?",
+    "choices": [
+      "the protected name of area, method and grape",
+      "the year in which the grapes were picked",
+      "the brand name chosen by the producer",
+      "the name of the house that bottled and shipped it"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Designation = area of production + winemaking technique + grape varietal (e.g. Barolo DOCG, Margaux AOC).",
+    "source": {
+      "deck": "Intro",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-004",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "*Riserva* on a label means longer barrel ageing; *Superiore* means higher alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The pair most likely to be swapped in a question.",
+    "source": {
+      "deck": "Intro",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-005",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "*Riserva* on a label means higher alcohol; *Superiore* means longer barrel ageing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Swapped. Riserva = longer barrel maturation; Superiore = higher alcohol.",
+    "source": {
+      "deck": "Intro",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-006",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Secondary aromas come from the grape variety itself, through terpenes in the skin.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Those are primary aromas. Secondary come from pressing, fermentation and early maturation.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-007",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Tertiary aromas develop over a long maturation through esterification and partial oxidation.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Primary remain, vinous disappears.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-008",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Malic acid is converted to lactic acid during maturation, making the wine softer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "By Pediococcus bacteria.",
+    "source": {
+      "deck": "Intro",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "intro"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-009",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "The layer of pulp nearest the seed is the richest in tannins and aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nearest the seed is acids. Tannins and aromas are under the skin; sugar in the middle.",
+    "source": {
+      "deck": "Intro",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "intro"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-010",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Phylloxera, a parasite of the vine roots, destroyed nearly 90% of European vines at the end of the 1800s.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Today's vines grow on resistant American rootstocks.",
+    "source": {
+      "deck": "Intro",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "intro"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-011",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Sparkling wines are served at 6–8 °C and long-aged tannic reds at 18–20 °C.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The two ends of the temperature table.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-012",
+    "topic": "exam-core",
+    "type": "match",
+    "stem": "Match each French region to its grape.",
+    "items": [
+      "Champagne",
+      "Beaujolais",
+      "Central Loire",
+      "Northern Rhône",
+      "Alsace"
+    ],
+    "choices": [
+      "Gamay",
+      "Gewürztraminer",
+      "Grenache",
+      "Merlot",
+      "Pinot Meunier",
+      "Sauvignon Blanc",
+      "Syrah",
+      "Tannat"
+    ],
+    "answer": [
+      4,
+      0,
+      5,
+      6,
+      1
+    ],
+    "explanation": "Pinot Meunier is the Champagne-only grape of the three. Gamay: Beaujolais. Sauvignon Blanc: Sancerre and Pouilly-Fumé. Syrah: Northern Rhône. Gewürztraminer: Alsace.",
+    "source": {
+      "deck": "France",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "france"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-013",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Pauillac, Margaux and Saint-Estèphe share which grape?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Pinot Noir",
+      "Cabernet Franc",
+      "Merlot"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "They are all left-bank Bordeaux. Merlot leads the right bank (Saint-Émilion, Pomerol).",
+    "source": {
+      "deck": "France",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "france"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-014",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "Chablis, Meursault and Pouilly-Fuissé are all made from which grape?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "chardonnay"
+    ],
+    "explanation": "Chardonnay.",
+    "source": {
+      "deck": "France",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "france"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-015",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "Gevrey-Chambertin and the Côte de Nuits are the heartland of which grape? (two words)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "pinot noir"
+    ],
+    "explanation": "Pinot Noir.",
+    "source": {
+      "deck": "France",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "france"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-016",
+    "topic": "exam-core",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Barolo DOCG",
+      "Chianti Classico DOCG",
+      "Prosecco DOCG",
+      "Marsala",
+      "Montefalco Sagrantino DOCG"
+    ],
+    "choices": [
+      "Campania",
+      "Lombardia",
+      "Piemonte",
+      "Puglia",
+      "Sicilia",
+      "Toscana",
+      "Umbria",
+      "Veneto"
+    ],
+    "answer": [
+      2,
+      5,
+      7,
+      4,
+      6
+    ],
+    "explanation": "Barolo: Piemonte. Chianti Classico: Toscana. Prosecco: Veneto. Marsala: Sicilia. Montefalco Sagrantino: Umbria.",
+    "source": {
+      "deck": "Italy",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "italy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-017",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Franciacorta DOCG, Italy's Metodo Classico sparkling wine, comes from which region?",
+    "choices": [
+      "Veneto",
+      "Lombardia",
+      "Piemonte",
+      "Trentino-Alto Adige"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Lombardia (province of Brescia/Bergamo area). Trento DOC is the Trentino Metodo Classico; Prosecco is Veneto.",
+    "source": {
+      "deck": "Italy",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "italy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-018",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "In which region are Taurasi, Fiano di Avellino and Greco di Tufo made?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "campania"
+    ],
+    "explanation": "Campania.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "italy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-019",
+    "topic": "exam-core",
+    "type": "text",
+    "stem": "In which region is Amarone della Valpolicella made?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "veneto"
+    ],
+    "explanation": "Veneto.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "italy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-020",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Gewürztraminer is the signature grape of the Vallée de la Loire.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Gewürztraminer is Alsace. The Loire is Sauvignon Blanc, Chenin Blanc, Cabernet Franc and Muscadet.",
+    "source": {
+      "deck": "France",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "france"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-021",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "Brunello di Montalcino is a Piemonte DOCG made from Nebbiolo.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Brunello is Toscana and Sangiovese. Piemonte's Nebbiolo DOCGs are Barolo and Barbaresco.",
+    "source": {
+      "deck": "Italy",
+      "slide": 41
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "italy"
+    ],
+    "examFocus": true
+  }
+]

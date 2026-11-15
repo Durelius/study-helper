@@ -1,0 +1,131 @@
+{
+  "id": "lbl-chianti",
+  "title": "Real label: Chianti Classico Riserva",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-chianti-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Riserva** require of a Chianti Classico?",
+      "choices": [
+        "12 months' maturation and 12% alcohol",
+        "24 months' maturation and 12.5% alcohol",
+        "18 months' maturation and 11.5% alcohol",
+        "36 months' maturation and 13% alcohol"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Riserva: min. 24 months incl. 3 in bottle, and 12.5% alcohol. Plain Chianti Classico: 12%.",
+      "source": {
+        "deck": "Italy",
+        "slide": 43
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chianti-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Classico** tell you?",
+      "choices": [
+        "it was made from one vineyard",
+        "it comes from the historic zone",
+        "it has more alcohol than the minimum",
+        "it aged longer in barrel than usual"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Classico = the historic production zone.",
+      "source": {
+        "deck": "Italy",
+        "slide": 18
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chianti-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape must make up at least 80% of this wine?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sangiovese"
+      ],
+      "explanation": "Sangiovese.",
+      "source": {
+        "deck": "Italy",
+        "slide": 43
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chianti-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Monsanto** on this label?",
+      "choices": [
+        "the designation",
+        "the vineyard",
+        "the producer",
+        "the grape variety"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The estate that made it. Chianti Classico DOCG is the designation.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chianti-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "A Chianti Classico Gran Selezione is made only from the winery's own grapes, under stricter rules.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Introduced in 2014, above Riserva.",
+      "source": {
+        "deck": "Italy",
+        "slide": 43
+      },
+      "difficulty": 3,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/chianti-riserva.jpg"
+}

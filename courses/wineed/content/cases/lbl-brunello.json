@@ -1,0 +1,128 @@
+{
+  "id": "lbl-brunello",
+  "title": "Real label: Brunello di Montalcino",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-brunello-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is this wine made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sangiovese"
+      ],
+      "explanation": "Brunello di Montalcino is Sangiovese.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-brunello-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is it made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "toscana",
+        "tuscany"
+      ],
+      "explanation": "Toscana.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-brunello-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Brunello di Montalcino",
+        "Montalcino",
+        "Val di Suga",
+        "Garantita"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Val di Suga is the producer; Brunello di Montalcino DOCG is the designation; Montalcino is the town.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-brunello-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which other designation is built on the same grape?",
+      "choices": [
+        "Amarone della Valpolicella",
+        "Chianti Classico",
+        "Taurasi",
+        "Barolo"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Sangiovese also makes Chianti Classico (≥80%) and Vino Nobile di Montepulciano.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-brunello-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Brunello di Montalcino is a DOC, Italy's largest category.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "It is a DOCG — the highest category, and a very expensive wine.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/brunello.jpg"
+}

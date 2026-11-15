@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "ita-001",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Barolo DOCG",
+      "Amarone della Valpolicella DOCG",
+      "Brunello di Montalcino DOCG",
+      "Taurasi DOCG",
+      "Franciacorta DOCG"
+    ],
+    "choices": [
+      "Campania",
+      "Lombardia",
+      "Piemonte",
+      "Puglia",
+      "Sicilia",
+      "Toscana",
+      "Umbria",
+      "Veneto"
+    ],
+    "answer": [
+      2,
+      7,
+      5,
+      0,
+      1
+    ],
+    "explanation": "Barolo: Piemonte (Nebbiolo). Amarone: Veneto (dried Corvina, Rondinella, Molinara). Brunello: Toscana (Sangiovese). Taurasi: Campania (Aglianico). Franciacorta: Lombardia (Metodo Classico).",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-region",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-002",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Barbaresco DOCG",
+      "Chianti Classico DOCG",
+      "Montefalco Sagrantino DOCG",
+      "Primitivo di Manduria DOC",
+      "Cerasuolo di Vittoria DOCG"
+    ],
+    "choices": [
+      "Campania",
+      "Lazio",
+      "Piemonte",
+      "Puglia",
+      "Sicilia",
+      "Toscana",
+      "Umbria",
+      "Veneto"
+    ],
+    "answer": [
+      2,
+      5,
+      6,
+      3,
+      4
+    ],
+    "explanation": "Barbaresco: Piemonte. Chianti Classico: Toscana. Montefalco Sagrantino: Umbria. Primitivo di Manduria: Puglia. Cerasuolo di Vittoria: Sicilia (Frappato).",
+    "source": {
+      "deck": "Italy",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-region",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-003",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Conegliano Valdobbiadene Prosecco DOCG",
+      "Soave Superiore DOCG",
+      "Trento DOC",
+      "Lambrusco di Sorbara DOC",
+      "COF Picolit DOCG"
+    ],
+    "choices": [
+      "Emilia-Romagna",
+      "Friuli-Venezia Giulia",
+      "Liguria",
+      "Lombardia",
+      "Piemonte",
+      "Trentino-Alto Adige",
+      "Veneto"
+    ],
+    "answer": [
+      6,
+      6,
+      5,
+      0,
+      1
+    ],
+    "explanation": "Prosecco (Glera) and Soave (Garganega) are both Veneto. Trento DOC is Trentino's Metodo Classico sparkling. Lambrusco di Sorbara: Emilia. COF Picolit: FVG's expensive dessert wine.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "designation-region",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-004",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Etna DOC",
+      "Vermentino di Gallura DOCG",
+      "Fiano di Avellino DOCG",
+      "Aglianico del Vulture DOC",
+      "Greco di Tufo DOCG"
+    ],
+    "choices": [
+      "Basilicata",
+      "Calabria",
+      "Campania",
+      "Liguria",
+      "Puglia",
+      "Sardegna",
+      "Sicilia"
+    ],
+    "answer": [
+      6,
+      5,
+      2,
+      0,
+      2
+    ],
+    "explanation": "Etna: Sicilia (Nerello Mascalese). Vermentino di Gallura: Sardegna. Fiano di Avellino and Greco di Tufo: Campania. Aglianico del Vulture: Basilicata.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "designation-region",
+      "south",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-005",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Sforzato di Valtellina DOCG",
+      "Riviera Ligure di Ponente DOC",
+      "Teroldego Rotaliano DOC",
+      "Cesanese del Piglio DOCG",
+      "Romagna Albana DOCG"
+    ],
+    "choices": [
+      "Emilia-Romagna",
+      "Lazio",
+      "Liguria",
+      "Lombardia",
+      "Piemonte",
+      "Trentino-Alto Adige",
+      "Umbria",
+      "Veneto"
+    ],
+    "answer": [
+      3,
+      2,
+      5,
+      1,
+      0
+    ],
+    "explanation": "Sforzato: Lombardia (dried Nebbiolo). Riviera Ligure di Ponente: Liguria (Pigato, Vermentino). Teroldego Rotaliano: Trentino. Cesanese del Piglio: Lazio. Romagna Albana: Emilia-Romagna's sweet white.",
+    "source": {
+      "deck": "Italy",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "designation-region",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-006",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its region.",
+    "items": [
+      "Bolgheri Sassicaia DOC",
+      "Vino Nobile di Montepulciano DOCG",
+      "Montepulciano d'Abruzzo Colline Teramane DOCG",
+      "Molise DOC",
+      "Colli Orientali del Friuli DOC"
+    ],
+    "choices": [
+      "Abruzzo",
+      "Friuli-Venezia Giulia",
+      "Marche",
+      "Molise",
+      "Toscana",
+      "Umbria",
+      "Veneto"
+    ],
+    "answer": [
+      4,
+      4,
+      0,
+      3,
+      1
+    ],
+    "explanation": "Trap: *Vino Nobile di Montepulciano* is named after a Tuscan town and made from Sangiovese; *Montepulciano d'Abruzzo* is the grape of Abruzzo, Marche and Molise. Bolgheri Sassicaia is Tuscany's single-producer DOC.",
+    "source": {
+      "deck": "Italy",
+      "slide": 45
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "designation-region",
+      "distinction",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-007",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each wine to its region.",
+    "items": [
+      "Marsala",
+      "Passito di Pantelleria DOC",
+      "Sciacchetrà DOC",
+      "Amarone della Valpolicella DOCG"
+    ],
+    "choices": [
+      "Campania",
+      "Liguria",
+      "Sardegna",
+      "Sicilia",
+      "Toscana",
+      "Veneto"
+    ],
+    "answer": [
+      3,
+      3,
+      1,
+      5
+    ],
+    "explanation": "Marsala (fortified, Trapani) and Passito di Pantelleria are Sicilian. Sciacchetrà is Liguria's sweet wine from Albarola and Vermentino. Amarone is Veneto.",
+    "source": {
+      "deck": "Italy",
+      "slide": 50
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "designation-region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-008",
+    "topic": "italy",
+    "type": "match",
+    "stem": "Match each designation to its grape.",
+    "items": [
+      "Barolo DOCG",
+      "Brunello di Montalcino DOCG",
+      "Taurasi DOCG",
+      "Conegliano Valdobbiadene Prosecco DOCG",
+      "Etna DOC"
+    ],
+    "choices": [
+      "Aglianico",
+      "Barbera",
+      "Corvina",
+      "Glera",
+      "Nebbiolo",
+      "Nerello Mascalese",
+      "Nero d'Avola",
+      "Sangiovese"
+    ],
+    "answer": [
+      4,
+      7,
+      0,
+      3,
+      5
+    ],
+    "explanation": "Barolo: Nebbiolo. Brunello: Sangiovese. Taurasi: Aglianico. Prosecco: Glera. Etna: Nerello Mascalese, compared to Bourgogne.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-009",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which grape is Barolo made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "nebbiolo"
+    ],
+    "explanation": "Nebbiolo — as are Barbaresco and Sforzato di Valtellina.",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-010",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which grape is the backbone of Chianti Classico and Brunello di Montalcino?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "sangiovese"
+    ],
+    "explanation": "Sangiovese — Chianti Classico needs 80%.",
+    "source": {
+      "deck": "Italy",
+      "slide": 41
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-011",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which grape is Prosecco made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "glera"
+    ],
+    "explanation": "Glera, in Veneto.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-012",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which white grape is Soave made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "garganega"
+    ],
+    "explanation": "Garganega (Veneto).",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-013",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which grape makes up 75% of Amarone?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "corvina"
+    ],
+    "explanation": "Corvina 75%, Rondinella 20%, Molinara 5%, dried before pressing.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-014",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which red grape is Taurasi DOCG made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "aglianico"
+    ],
+    "explanation": "Aglianico — black cherry.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-015",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which grape is Cerasuolo di Vittoria made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "frappato"
+    ],
+    "explanation": "Frappato — prune and cinnamon.",
+    "source": {
+      "deck": "Italy",
+      "slide": 50
+    },
+    "difficulty": 3,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-016",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which Sicilian red grape is the island's most popular, with mulberry notes? (two words, apostrophe optional)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "nero d'avola",
+      "nero davola",
+      "nero d avola"
+    ],
+    "explanation": "Nero d'Avola.",
+    "source": {
+      "deck": "Italy",
+      "slide": 50
+    },
+    "difficulty": 2,
+    "tags": [
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-017",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Primitivo, from Puglia, is the same grape as which North American variety?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "zinfandel"
+    ],
+    "explanation": "Zinfandel.",
+    "source": {
+      "deck": "Italy",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-018",
+    "topic": "italy",
+    "type": "text",
+    "stem": "Which white grape gives off a basil aroma, making Liguria's wine a match for pesto?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "pigato"
+    ],
+    "explanation": "Pigato.",
+    "source": {
+      "deck": "Italy",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-019",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Which grape is Montefalco Sagrantino DOCG made from?",
+    "choices": [
+      "Aglianico",
+      "Sangiovese",
+      "Sagrantino",
+      "Montepulciano"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Sagrantino — highly tannic and long-lived, good with game.",
+    "source": {
+      "deck": "Italy",
+      "slide": 44
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-020",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Vino Nobile di Montepulciano DOCG is a Tuscan wine. What is it made from?",
+    "choices": [
+      "Sangiovese",
+      "Montepulciano",
+      "Sagrantino",
+      "Nebbiolo"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Montepulciano here is the Tuscan town; the wine is Sangiovese, recommended with Bistecca alla Fiorentina. The Montepulciano *grape* belongs to Abruzzo and Marche.",
+    "source": {
+      "deck": "Italy",
+      "slide": 61
+    },
+    "difficulty": 3,
+    "tags": [
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-021",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Which grape is Italy's highest-producing white grape?",
+    "choices": [
+      "Garganega",
+      "Vermentino",
+      "Catarratto",
+      "Trebbiano"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Catarratto, from Sicily.",
+    "source": {
+      "deck": "Italy",
+      "slide": 47
+    },
+    "difficulty": 3,
+    "tags": [
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-022",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Franciacorta is made from which blend?",
+    "choices": [
+      "Pinot Nero 80%, Chardonnay 15%, Pinot Bianco 5%",
+      "Chardonnay 80%, Pinot Nero 15%, Pinot Bianco 5%",
+      "Chardonnay 50%, Pinot Nero 25%, Pinot Bianco 25%",
+      "Glera 80%, Chardonnay 15%, Pinot Bianco 5%"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Chardonnay 80, Pinot Nero 15, Pinot Bianco 5, by Metodo Classico. Satèn is Chardonnay with some Pinot Bianco at lower pressure.",
+    "source": {
+      "deck": "Italy",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-023",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "In which region is Gewürztraminer said to originate?",
+    "choices": [
+      "Friuli-Venezia Giulia",
+      "Veneto",
+      "Piemonte",
+      "Alto Adige"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Alto Adige, on the Austrian border.",
+    "source": {
+      "deck": "Italy",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-024",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Which region is Italy's premier white-wine region, often blending different white grapes?",
+    "choices": [
+      "Toscana",
+      "Piemonte",
+      "Puglia",
+      "Friuli-Venezia Giulia"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "FVG — Chardonnay, Sauvignon, Pinot Bianco, plus native Friulano and Ribolla Gialla.",
+    "source": {
+      "deck": "Italy",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "regions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-025",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Which region produces the most wine in Italy?",
+    "choices": [
+      "Toscana",
+      "Veneto",
+      "Sicilia",
+      "Puglia"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Sicilia, followed by Puglia.",
+    "source": {
+      "deck": "Italy",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "regions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-026",
+    "topic": "italy",
+    "type": "mcq",
+    "stem": "Which method makes aromatic sparkling wine in a single fermentation in sealed tanks, with no second fermentation?",
+    "choices": [
+      "Solera",
+      "Metodo Asti",
+      "Méthode Champenoise",
+      "Metodo Classico"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Metodo Asti stops the first fermentation early to keep sugar; the CO₂ comes from that primary fermentation.",
+    "source": {
+      "deck": "Italy",
+      "slide": 24
+    },
+    "difficulty": 3,
+    "tags": [
+      "methods"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-027",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "DOCG is Italy's highest designation; DOC is the largest; IGT covers quality wine outside DOC rules; VdT has no specification.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The four Italian levels in order.",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-028",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "IGT is Italy's highest designation, with a guarantee of quality on top of strict control.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is DOCG. IGT is for quality wine that does not need to meet DOC/DOCG rules.",
+    "source": {
+      "deck": "Italy",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-029",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Barbaresco is generally less tannic than Barolo, with more red fruit and faster perfume development.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Both Nebbiolo, both Piemonte DOCG.",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-030",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Barolo is generally less tannic than Barbaresco and shows its perfume sooner.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Reversed — Barbaresco is the less tannic, faster-developing one.",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-031",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Amarone is made from grapes that are dried before pressing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Corvina, Rondinella, Molinara, dried.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "veneto"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-032",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Prosecco is a Piemonte sparkling wine made from Glera.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Prosecco is Veneto (Conegliano Valdobbiadene).",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "veneto"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-033",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "The first Super Tuscan wine was born in the 1960s.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Tenuta San Guido made it.",
+    "source": {
+      "deck": "Italy",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-034",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Bolgheri, on the Tuscan coast, makes wines in a Bordeaux style because of its similar terroir.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Sandy-clay soil like Bordeaux; Cabernet Sauvignon, Cabernet Franc and Merlot, with Sangiovese.",
+    "source": {
+      "deck": "Italy",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "toscana"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-035",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Chianti Classico must contain at least 80% Sangiovese.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "80% Sangiovese; up to 20% others (Canaiolo, Colorino, Cabernet, Merlot).",
+    "source": {
+      "deck": "Italy",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "toscana"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-036",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Lambrusco is a slightly sparkling, slightly sweet red from Veneto.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Lambrusco is from Emilia (Emilia-Romagna).",
+    "source": {
+      "deck": "Italy",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "regions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-037",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Valle d'Aosta and Piemonte can grow high-quality Chardonnay and make good sparkling wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "On the Piemonte slide.",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "regions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-038",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Greek and Etruscan settlers planted Italy's first vines around 400 BC, but it was the Romans who spread viticulture.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Sicily, Tuscany and Puglia.",
+    "source": {
+      "deck": "Italy",
+      "slide": 4
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-039",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Italy is currently the world's largest wine producer and exporter.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Over 1 million grape growers.",
+    "source": {
+      "deck": "Italy",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-040",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Cannonau, grown in Sardegna, is the same grape as Grenache.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Cannonau = Grenache, Carignano = Carignan, both close to southern France.",
+    "source": {
+      "deck": "Italy",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-041",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Nerello Mascalese is the island grape of Sardegna, compared to Bordeaux.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nerello Mascalese is Sicilian (Etna DOC) and compared to Bourgogne.",
+    "source": {
+      "deck": "Italy",
+      "slide": 50
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "grapes"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-042",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Taurasi DOCG is a Sicilian red made from Nero d'Avola.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Taurasi is Campania's Aglianico, with black cherry aroma.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "designation-region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ita-043",
+    "topic": "italy",
+    "type": "tf",
+    "stem": "Franciacorta is a Veneto sparkling wine made by the tank method.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Franciacorta is Lombardia and made by Metodo Classico (re-fermentation in bottle).",
+    "source": {
+      "deck": "Italy",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "designation-region"
+    ],
+    "examFocus": true
+  }
+]

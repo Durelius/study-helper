@@ -1,0 +1,135 @@
+{
+  "id": "lbl-chateauneuf",
+  "title": "Real label: Châteauneuf-du-Pape",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-chateauneuf-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "How many red grape varieties may a Châteauneuf-du-Pape blend?",
+      "choices": [
+        "only 1",
+        "up to 13",
+        "up to 3",
+        "as many as 20"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Up to 13 red varieties.",
+      "source": {
+        "deck": "France",
+        "slide": 48
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chateauneuf-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which part of the Rhône is Châteauneuf-du-Pape in?",
+      "choices": [
+        "Provence",
+        "the northern Rhône",
+        "the southern Rhône",
+        "Beaujolais"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The Southern Rhône's most famous zone.",
+      "source": {
+        "deck": "France",
+        "slide": 48
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chateauneuf-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Southern Rhône reds are full-bodied with high alcohol.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "On the Southern Rhône slide.",
+      "source": {
+        "deck": "France",
+        "slide": 48
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chateauneuf-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **designation**?",
+      "choices": [
+        "Clos des Papes",
+        "Produit de France (Product of France)",
+        "Châteauneuf-du-Pape",
+        "Paul Avril"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Appellation Châteauneuf-du-Pape Contrôlée; Clos des Papes is the producer.",
+      "source": {
+        "deck": "France",
+        "slide": 48
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chateauneuf-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which climate does the southern Rhône have?",
+      "choices": [
+        "continental",
+        "high-altitude alpine",
+        "oceanic",
+        "Mediterranean"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Mediterranean (Grenache, Mourvèdre); the North is continental (Syrah).",
+      "source": {
+        "deck": "France",
+        "slide": 46
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/chateauneuf.jpg"
+}

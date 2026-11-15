@@ -1,0 +1,127 @@
+{
+  "id": "lbl-prosecco",
+  "title": "Real label: Asolo Prosecco Superiore",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-prosecco-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is Prosecco made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "glera"
+      ],
+      "explanation": "Glera.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-prosecco-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Il Brutto**?",
+      "choices": [
+        "the designation the wine is sold under",
+        "a commercial (fantasy) name",
+        "the producer's name",
+        "the vineyard's name"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "A brand name; Montelvini is the producer; Asolo Prosecco Superiore DOCG the designation.",
+      "source": {
+        "deck": "Intro",
+        "slide": 52
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-prosecco-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is it made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "veneto"
+      ],
+      "explanation": "Veneto.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-prosecco-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Asolo Prosecco Superiore is a DOCG, Italy's highest designation level.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "DOCG is the top level.",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-prosecco-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Montelvini",
+        "Asolo",
+        "Il Brutto",
+        "Sui lieviti"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Montelvini. Asolo is the zone; Sui lieviti a style note.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/prosecco.jpg"
+}

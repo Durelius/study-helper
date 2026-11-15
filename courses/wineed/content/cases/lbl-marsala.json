@@ -1,0 +1,133 @@
+{
+  "id": "lbl-marsala",
+  "title": "Real label: Marsala Superiore",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-marsala-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Superiore** mean for a Marsala?",
+      "choices": [
+        "it aged at least 5 years",
+        "it aged at least 1 year",
+        "it aged at least 2 years",
+        "it aged at least 4 years"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Fine 1, Superiore 2, Superiore Riserva 4, Vergine 5. The label confirms: aged 24 months in oak.",
+      "source": {
+        "deck": "Italy",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-marsala-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "On which island is Marsala made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sicilia",
+        "sicily"
+      ],
+      "explanation": "Sicilia (province of Trapani).",
+      "source": {
+        "deck": "Italy",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-marsala-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Vecchioflorio**?",
+      "choices": [
+        "the producer's name",
+        "the designation the wine is sold under",
+        "the vineyard's name",
+        "a commercial (fantasy) name"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Florio is the producer; Marsala Superiore DOC the designation.",
+      "source": {
+        "deck": "Intro",
+        "slide": 52
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-marsala-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What type of wine is Marsala?",
+      "choices": [
+        "sparkling",
+        "rosé",
+        "dessert from noble rot",
+        "fortified"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Marsala is fortified, like Sherry, Port and Madeira.",
+      "source": {
+        "deck": "Intro",
+        "slide": 27
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-marsala-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "**Sweet** on this label matches which Marsala sugar class?",
+      "choices": [
+        "Secco",
+        "Semisecco",
+        "Vergine",
+        "Dolce"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Secco, Semisecco, Dolce are the sugar classes; Vergine is an ageing class.",
+      "source": {
+        "deck": "Italy",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/marsala.jpg"
+}

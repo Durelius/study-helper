@@ -1,0 +1,127 @@
+{
+  "id": "lbl-soave",
+  "title": "Real label: Soave Classico",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-soave-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which white grape is Soave made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "garganega"
+      ],
+      "explanation": "Garganega.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-soave-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is it made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "veneto"
+      ],
+      "explanation": "Veneto.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-soave-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **1880** on this label tell you?",
+      "choices": [
+        "the vintage of the wine in the bottle",
+        "the bottling number of this bottle",
+        "the year the DOC was first granted",
+        "when the producer began making wine"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "*Vignaioli dal 1880*: winegrowers since 1880. The vintage is 2023.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-soave-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "A Soave labelled *Superiore* would have spent longer in barrel.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Superiore means ≥0.5% more alcohol; longer barrel ageing is Riserva.",
+      "source": {
+        "deck": "Italy",
+        "slide": 18
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-soave-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which sparkling wine comes from the same region?",
+      "choices": [
+        "Lambrusco",
+        "Franciacorta",
+        "Prosecco",
+        "Trento"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Prosecco (Glera) is Veneto. Franciacorta is Lombardia, Lambrusco Emilia, Trento Trentino.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/soave.jpg"
+}

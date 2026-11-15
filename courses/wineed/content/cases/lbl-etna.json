@@ -1,0 +1,128 @@
+{
+  "id": "lbl-etna",
+  "title": "Real label: Etna Rosso",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-etna-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is Etna Rosso made from? (two words)",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "nerello mascalese"
+      ],
+      "explanation": "Nerello Mascalese.",
+      "source": {
+        "deck": "Italy",
+        "slide": 50
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-etna-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Vendemmia 2021** tell you?",
+      "choices": [
+        "it may be drunk from 2021",
+        "the estate opened in 2021",
+        "the vintage is 2021",
+        "it was bottled in 2021"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Vendemmia = harvest: the vintage.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-etna-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Etna DOC wines are compared to the wines of Bordeaux.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "They are compared to Bourgogne. Bolgheri is the Bordeaux-like zone.",
+      "source": {
+        "deck": "Italy",
+        "slide": 50
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-etna-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Where does a DOC sit in Italy's classification?",
+      "choices": [
+        "at the bottom, below VdT",
+        "below IGT, near the bottom",
+        "above DOCG, at the very top",
+        "one level below DOCG"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "DOCG › DOC › IGT › VdT.",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-etna-05",
+      "topic": "labels",
+      "type": "text",
+      "stem": "On which island is Etna?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sicilia",
+        "sicily"
+      ],
+      "explanation": "Sicilia.",
+      "source": {
+        "deck": "Italy",
+        "slide": 50
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/etna.jpg"
+}

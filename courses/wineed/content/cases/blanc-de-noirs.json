@@ -1,0 +1,130 @@
+{
+  "id": "blanc-de-noirs",
+  "title": "Label: Champagne Blanc de Noirs",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Maison Lambert** · **CHAMPAGNE** · **Blanc de Noirs** · **Extra Brut** · **Millésime 2015** · 12.5% vol · 750 ml",
+  "questions": [
+    {
+      "id": "case-blanc-de-noirs-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is a Blanc de Noirs made from? (two words)",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "pinot noir"
+      ],
+      "explanation": "Pinot Noir only. Blanc de Blancs is Chardonnay only.",
+      "source": {
+        "deck": "Intro",
+        "slide": 35
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-blanc-de-noirs-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "How much residual sugar does **Extra Brut** allow?",
+      "choices": [
+        "under 6 g/L",
+        "12–20 g/L",
+        "33–50 g/L",
+        "under 15 g/L"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Extra brut <6. Brut <15, Extra dry 12–20, Demi-sec 33–50.",
+      "source": {
+        "deck": "Intro",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-blanc-de-noirs-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Millésime 2015** tell you?",
+      "choices": [
+        "most of the cuvée is from the 2015 harvest",
+        "the wine aged 2015 days on its yeast lees",
+        "the bottle is number 2015 of a limited run",
+        "the house was founded back in the year 2015"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Millésime: more than 85% of the cuvée comes from one good year.",
+      "source": {
+        "deck": "Intro",
+        "slide": 35
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-blanc-de-noirs-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "The bubbles in this wine came from a second fermentation in a stainless-steel tank.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Champagne re-ferments in the bottle (Méthode Champenoise). The tank method is Charmat/Martinotti.",
+      "source": {
+        "deck": "France",
+        "slide": 38
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-blanc-de-noirs-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "How was the yeast removed from this bottle before the final cork?",
+      "choices": [
+        "settled out in a cold INOX tank",
+        "dissolved by the liqueur d'expédition",
+        "filtered out through bentonite",
+        "frozen in the neck and ejected"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "After remuage gathers the yeast in the neck, it is frozen and ejected à la volée; then liqueur d'expédition is added.",
+      "source": {
+        "deck": "Intro",
+        "slide": 36
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

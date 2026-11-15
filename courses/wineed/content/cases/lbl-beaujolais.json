@@ -1,0 +1,131 @@
+{
+  "id": "lbl-beaujolais",
+  "title": "Real label: Beaujolais-Villages",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-beaujolais-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is Beaujolais made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "gamay"
+      ],
+      "explanation": "Gamay.",
+      "source": {
+        "deck": "France",
+        "slide": 35
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-beaujolais-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which soil sets Beaujolais apart from the rest of Bourgogne?",
+      "choices": [
+        "granite",
+        "chalk",
+        "gravel",
+        "limestone"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Granite-mixed soil.",
+      "source": {
+        "deck": "France",
+        "slide": 35
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-beaujolais-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Beaujolais Nouveau is made by the Méthode Champenoise.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "It is made by carbonic maceration.",
+      "source": {
+        "deck": "France",
+        "slide": 35
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-beaujolais-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which dish does the course pair with Beaujolais?",
+      "choices": [
+        "Coq au Vin",
+        "Sole Meunière",
+        "Bœuf Bourguignon",
+        "Confit de Canard"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Beaujolais & Coq au Vin.",
+      "source": {
+        "deck": "France",
+        "slide": 61
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-beaujolais-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "*Mis en bouteille par les vins Georges Duboeuf* matches which label detail?",
+      "choices": [
+        "the designation",
+        "the vintage",
+        "the commercial name",
+        "the bottling agency"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Who bottled it.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/beaujolais.jpg"
+}

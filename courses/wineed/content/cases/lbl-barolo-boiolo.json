@@ -1,0 +1,132 @@
+{
+  "id": "lbl-barolo-boiolo",
+  "title": "Real label: Barolo Boiolo",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-barolo-boiolo-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is this wine made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "piemonte",
+        "piedmont"
+      ],
+      "explanation": "Barolo is Piemonte.",
+      "source": {
+        "deck": "Italy",
+        "slide": 23
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-boiolo-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Boiolo**?",
+      "choices": [
+        "the producer that made the wine",
+        "the vineyard the grapes came from",
+        "the grape variety in the bottle",
+        "a sweetness level of the wine"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Vineyard name after the designation, as in Barolo Bussia.",
+      "source": {
+        "deck": "Intro",
+        "slide": 54
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-boiolo-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Malvirà**?",
+      "choices": [
+        "the grape variety",
+        "the designation",
+        "the producer",
+        "the vineyard"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Malvirà is the producer; Barolo the designation; Boiolo the vineyard.",
+      "source": {
+        "deck": "Intro",
+        "slide": 52
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-boiolo-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Because 'DOCG' isn't printed large on this front label, this Barolo must be a lower-level DOC wine.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Barolo is a DOCG designation whatever the typography; the class belongs to the designation, not the font.",
+      "source": {
+        "deck": "Italy",
+        "slide": 23
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-boiolo-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **2016** on this label?",
+      "choices": [
+        "the vintage",
+        "the founding year",
+        "the bottle number",
+        "the bottling year"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The vintage is the year of harvest.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/barolo-boiolo.jpg"
+}

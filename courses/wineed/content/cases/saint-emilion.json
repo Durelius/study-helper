@@ -1,0 +1,130 @@
+{
+  "id": "saint-emilion",
+  "title": "Label: Saint-Émilion Grand Cru",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Château Lacoste** · Grand Cru Classé · **SAINT-ÉMILION GRAND CRU** · Appellation Saint-Émilion Grand Cru Contrôlée · **2017** · 14% vol · 750 ml · Bottled at the château",
+  "questions": [
+    {
+      "id": "case-saint-emilion-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Saint-Émilion Grand Cru",
+        "Château Lacoste",
+        "Bottled at the château",
+        "Grand Cru Classé"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "In Bordeaux the château is the producer. Saint-Émilion Grand Cru is the designation; Grand Cru Classé ranks the producer.",
+      "source": {
+        "deck": "France",
+        "slide": 29
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-saint-emilion-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape leads this wine?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "merlot"
+      ],
+      "explanation": "Merlot — Saint-Émilion is on the right bank, limestone and clay, with Cabernet Franc and Cabernet Sauvignon added.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-saint-emilion-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which part of Bordeaux does this wine come from?",
+      "choices": [
+        "the left bank",
+        "the Médoc",
+        "the right bank",
+        "Entre-Deux-Mers"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Saint-Émilion and Pomerol are the right bank. The left bank (Médoc) is Cabernet Sauvignon country.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-saint-emilion-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "To carry *Saint-Émilion Grand Cru*, the wine needs a higher minimum alcohol and a controlled number of grapes per plant.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Also a tasting by experts. Plain Saint-Émilion has looser rules.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 3,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-saint-emilion-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Grand Cru Classé** on this label?",
+      "choices": [
+        "the vineyard's name",
+        "a ranking of the producer",
+        "the wine's designation",
+        "a commercial name"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Saint-Émilion's own classification ranks producers: Premier grand cru classé and Grand cru classé. The designation is still Saint-Émilion Grand Cru.",
+      "source": {
+        "deck": "France",
+        "slide": 28
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

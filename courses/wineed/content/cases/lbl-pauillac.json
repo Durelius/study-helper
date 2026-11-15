@@ -1,0 +1,131 @@
+{
+  "id": "lbl-pauillac",
+  "title": "Real label: Pauillac",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-pauillac-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape leads Pauillac? (two words)",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "cabernet sauvignon"
+      ],
+      "explanation": "Cabernet Sauvignon.",
+      "source": {
+        "deck": "France",
+        "slide": 25
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pauillac-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which soil is Pauillac built on?",
+      "choices": [
+        "clay",
+        "gravel",
+        "chalk",
+        "limestone"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Gravel: strong, masculine Cabernet.",
+      "source": {
+        "deck": "France",
+        "slide": 25
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pauillac-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Château Latour, named on this label, was ranked Premier cru supérieur in 1855.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Latour is one of the five red Premiers crus; Premier cru supérieur went only to Château d'Yquem (Sauternes).",
+      "source": {
+        "deck": "France",
+        "slide": 28
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pauillac-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which bank of Bordeaux is Pauillac on?",
+      "choices": [
+        "the Dordogne side",
+        "the left bank",
+        "the right bank",
+        "Entre-Deux-Mers"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Left bank (Médoc).",
+      "source": {
+        "deck": "France",
+        "slide": 25
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pauillac-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "How does the course describe Pauillac's Cabernet?",
+      "choices": [
+        "soft and feminine",
+        "light and fruity",
+        "strong and masculine",
+        "mild and refreshing"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Pauillac is masculine; Margaux feminine; Saint-Julien milder.",
+      "source": {
+        "deck": "France",
+        "slide": 25
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/pauillac.jpg"
+}

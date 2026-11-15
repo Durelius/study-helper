@@ -1,0 +1,127 @@
+{
+  "id": "chablis",
+  "title": "Label: Chablis Premier Cru",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Domaine Fèvre-Roux** · **CHABLIS PREMIER CRU** · Appellation Chablis Premier Cru Contrôlée · **2019** · 12.5% vol · 750 ml",
+  "questions": [
+    {
+      "id": "case-chablis-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is this wine made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "chardonnay"
+      ],
+      "explanation": "Chablis is 100% Chardonnay.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-chablis-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Where does Premier Cru rank among the four Chablis levels?",
+      "choices": [
+        "second from the top",
+        "at the very top",
+        "third from the top",
+        "at the very bottom"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Petit Chablis › Chablis › Premier Cru › Grand Cru, from bottom to top. Grand Cru is only ~3% of Chablis.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-chablis-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which French region is Chablis part of?",
+      "choices": [
+        "Vallée de la Loire",
+        "Bourgogne",
+        "Champagne",
+        "Alsace"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Bourgogne — its northern outpost, all Chardonnay.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-chablis-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Chablis is typically a sweet wine with low acidity.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Chablis is generally not sweet, with high acidity and a mineral, flinty note.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-chablis-05",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which shellfish does the course pair with Chablis?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "oysters",
+        "oyster"
+      ],
+      "explanation": "Oysters: Chablis's acidity, body and mineral note match their sweetness, salt and fat.",
+      "source": {
+        "deck": "France",
+        "slide": 55
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

@@ -1,0 +1,2862 @@
+[
+  {
+    "id": "aro-001",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Enology is the discipline and technique of producing, conserving and maturing wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Enology = the production, conservation and maturation of wine. A sommelier is the professional of wine service and food pairing.",
+    "source": {
+      "deck": "Intro",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-002",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A sommelier is the discipline and technique of producing, conserving and maturing wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is enology. A sommelier is a trained wine professional specialised in wine service and food pairing.",
+    "source": {
+      "deck": "Intro",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-003",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the trained professional who specialises in wine service and wine-and-food pairing called?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "sommelier"
+    ],
+    "explanation": "A sommelier. Enology is the science of making and storing wine.",
+    "source": {
+      "deck": "Intro",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-004",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the discipline of producing, conserving and maturing wine called?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "enology",
+      "oenology"
+    ],
+    "explanation": "Enology (oenology).",
+    "source": {
+      "deck": "Intro",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "definitions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-005",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Vitis silvestris, the oldest grape variety, has been around for over 60 million years.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Vitis silvestris: 60+ million years. Today's Vitis vinifera: about a million years, believed to originate in South Asia.",
+    "source": {
+      "deck": "Intro",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "origin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-006",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Vitis vinifera, today's wine vine, is over 60 million years old.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Vitis vinifera is about one million years old. The 60-million-year figure belongs to Vitis silvestris.",
+    "source": {
+      "deck": "Intro",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "origin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-007",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Wine-making vineyards appeared in Eurasia around 5,000 BC.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Vineyards for wine took place in Eurasia around 5,000 BC.",
+    "source": {
+      "deck": "Intro",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "origin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-008",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "Which root-destroying pest killed nearly 90% of European vines at the end of the 1800s?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "phylloxera"
+    ],
+    "explanation": "Phylloxera. Vines today are grown on American rootstocks resistant to fungi and parasites.",
+    "source": {
+      "deck": "Intro",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "origin"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-009",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Today's European vines are grown on American rootstocks resistant to fungi and parasites.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "After phylloxera, vines were grafted onto resistant American rootstocks.",
+    "source": {
+      "deck": "Intro",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-010",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A newly planted vine bears its normal yield from its first year.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "No fruit for the first 1–3 years; production rises from year 3 to 5 to reach normal yield; recession at 25–40 years.",
+    "source": {
+      "deck": "Intro",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-011",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A grapevine enters recession at around 25–40 years of age.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Normal yield from year 3–5; recession in the period of 25–40 years.",
+    "source": {
+      "deck": "Intro",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-012",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Over one year, a vine is dormant from autumn to late winter and productive from spring to late summer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Productive phase: spring to late summer. Hibernation (dormant): autumn to late winter.",
+    "source": {
+      "deck": "Intro",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-013",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Of the three pulp layers, the one nearest the seed is the richest in sugar.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nearest the seed: acids. Middle: sugar. Just under the skin: tannins and aroma substances.",
+    "source": {
+      "deck": "Intro",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-014",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The pulp layer just under the grape skin is the richest in tannins and aroma substances.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Seed side: acids; middle: sugar; under the skin: tannins and aromas.",
+    "source": {
+      "deck": "Intro",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-015",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The grape seed is the least important part of the berry in winemaking.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Least important, though it can add astringency and is used for grape seed oil.",
+    "source": {
+      "deck": "Intro",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-016",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each part of the grape berry to what it is richest in, or what it gives.",
+    "items": [
+      "Pulp nearest the seed",
+      "Middle pulp",
+      "Pulp under the skin",
+      "Seed"
+    ],
+    "choices": [
+      "Acids",
+      "Anthocyanin only",
+      "Astringency",
+      "Glycerin",
+      "Sugar",
+      "Tannins and aromas",
+      "Terpenes only"
+    ],
+    "answer": [
+      0,
+      4,
+      5,
+      2
+    ],
+    "explanation": "Three pulp layers: acids (by the seed), sugar (middle), tannins and aroma substances (under the skin). The seed is least important but can add astringency.",
+    "source": {
+      "deck": "Intro",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-017",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "As grapes ripen, sugar content rises while acid content falls sharply.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fructose and glucose rise; acid is greatly reduced.",
+    "source": {
+      "deck": "Intro",
+      "slide": 14
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "ripening"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-018",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The two most important acids in grapes are malic acid and citric acid.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Malic and tartaric. (Malic is the one later turned into lactic acid during maturation.)",
+    "source": {
+      "deck": "Intro",
+      "slide": 14
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "ripening"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-019",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "In warm-climate zones, grapes are harvested early to keep their acidity.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Harvesting in advance maintains the acid level, especially in warm production zones.",
+    "source": {
+      "deck": "Intro",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "ripening"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-020",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Anthocyanin in the grape skin reaches its highest concentration after the ripening period.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Anthocyanin has *lower* concentration after ripening; skin tannin rises slightly.",
+    "source": {
+      "deck": "Intro",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "ripening"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-021",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "Which purplish-red pigment in the grape skin gives red wine its colour?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "anthocyanin",
+      "anthocyanins",
+      "anthocyanine"
+    ],
+    "explanation": "Anthocyanin. White grapes have none, so white wine needs no colour extraction (maceration).",
+    "source": {
+      "deck": "Intro",
+      "slide": 20
+    },
+    "difficulty": 1,
+    "tags": [
+      "ripening"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-022",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Phenolic maturation is the concentration of phenolic compounds in the skin and seeds as grapes ripen.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "That is the definition on the slide.",
+    "source": {
+      "deck": "Intro",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "ripening"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-023",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "Which French word describes the whole environment of the vine — climate, topography and soil?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "terroir"
+    ],
+    "explanation": "Terroir.",
+    "source": {
+      "deck": "Intro",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "terroir"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-024",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Topography in terroir covers height above sea level, slope, and the direction the slope faces.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Exactly the three elements given.",
+    "source": {
+      "deck": "Intro",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "terroir"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-025",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each soil to the wine it tends to give.",
+    "items": [
+      "Sandy",
+      "Clayey",
+      "Loamy",
+      "Limy"
+    ],
+    "choices": [
+      "High acidity, firm tannin",
+      "High body, intense colour",
+      "High sugar, high alcohol",
+      "Low acidity, delicate aromas",
+      "Softness from kept heat",
+      "Tasteless, pale colour"
+    ],
+    "answer": [
+      3,
+      1,
+      5,
+      2
+    ],
+    "explanation": "Sand drains and holds heat → low acidity and tannin, delicate aromas. Clay holds water → body, extract, colour. Loam is very fertile → tasteless, pale. Lime (calcium) → sugar, then alcohol. Silt → softness.",
+    "source": {
+      "deck": "Intro",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "terroir"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-026",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Loamy soil gives wine with high body and intense colour.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Loam is very fertile and gives tasteless, pale wine. High body and intense colour come from clayey soil.",
+    "source": {
+      "deck": "Intro",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "terroir"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-027",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Limy soil gives grapes high in sugar, and therefore wine high in alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Lime is a calcium source; it gives high-sugar grapes and so high alcohol.",
+    "source": {
+      "deck": "Intro",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "terroir"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-028",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "White wine can be made from red grapes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "White wine comes from white *or* red grapes; colour is only extracted when skins are macerated.",
+    "source": {
+      "deck": "Intro",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-029",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "White wine needs a long maceration to extract colour from the grape skins.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "White grapes contain no anthocyanin, so white winemaking needs no colour extraction (maceration).",
+    "source": {
+      "deck": "Intro",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-030",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Lambrusco and Brachetto d'Acqui are examples of red wines made with effervescence.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Most reds are still, but these two Italian reds are made sparkling.",
+    "source": {
+      "deck": "Intro",
+      "slide": 21
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-031",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Beaujolais Nouveau gets its very fruity, drink-now style from carbonic maceration.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Carbonic maceration gives the Vin Nouveau style.",
+    "source": {
+      "deck": "Intro",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-032",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The colour of a rosé comes from a limited extraction time — a partial maceration.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Partial maceration; the longer the extraction, the deeper the pink.",
+    "source": {
+      "deck": "Intro",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-033",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Although made mostly from red grapes, rosé is closer in its properties to red wine than to white.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Rosé's properties are more closely related to white wine.",
+    "source": {
+      "deck": "Intro",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-034",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The bubbles in sparkling wine are nitrogen produced by the yeast.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They are carbon dioxide from the yeast (or, in some wines, added directly). Nitrogen is used at bottling.",
+    "source": {
+      "deck": "Intro",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-035",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Botrytis cinerea (noble rot) dries the grapes out and concentrates their sugar.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Noble rot dries the grapes and raises their sugar intensity; it only grows in the right humidity.",
+    "source": {
+      "deck": "Intro",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-036",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "Which fungus, also called noble rot, is behind Sauternes and Tokaj?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "botrytis",
+      "botrytis cinerea"
+    ],
+    "explanation": "Botrytis cinerea.",
+    "source": {
+      "deck": "Intro",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-037",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Ice wine is made by pressing frozen grapes, removing the ice and leaving very sweet juice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Harvested late in winter; the frozen water is removed during pressing.",
+    "source": {
+      "deck": "Intro",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-038",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Fortified wine usually reaches 10–12% alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Fortified wine adds another alcohol to the base wine: 15–22%, with sugar usually at least ~50 g/L.",
+    "source": {
+      "deck": "Intro",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-039",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each fortified or sweet wine to its country.",
+    "items": [
+      "Marsala",
+      "Sherry",
+      "Madeira",
+      "Tokaj"
+    ],
+    "choices": [
+      "Austria",
+      "France",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Portugal",
+      "Spain"
+    ],
+    "answer": [
+      4,
+      6,
+      5,
+      3
+    ],
+    "explanation": "Fortified: Marsala (Italy), Sherry (Spain), Port and Madeira (Portugal). Tokaj is Hungary's dessert wine.",
+    "source": {
+      "deck": "Intro",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-040",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the system of blending two-thirds of the wine in the barrel with the following year's, used for the best fortified wines?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "solera",
+      "soleras"
+    ],
+    "explanation": "Solera — it keeps the quality consistent.",
+    "source": {
+      "deck": "Intro",
+      "slide": 27
+    },
+    "difficulty": 3,
+    "tags": [
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-041",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "In the fermentation vessel, yeast turns sugar into ethyl alcohol and carbon dioxide.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Plus by-products such as polyalcohol, glycerin and acetaldehyde.",
+    "source": {
+      "deck": "Intro",
+      "slide": 30
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-042",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Fermentation runs best at 35–45 °C.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Around 15–30 °C; outside that range the yeast stops working prematurely.",
+    "source": {
+      "deck": "Intro",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-043",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the French term for circulating the must over the skins during fermentation to extract colour?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "remontage"
+    ],
+    "explanation": "Remontage.",
+    "source": {
+      "deck": "Intro",
+      "slide": 30
+    },
+    "difficulty": 3,
+    "tags": [
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-044",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "During maturation, Pediococcus bacteria convert tartaric acid into lactic acid.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is *malic* acid that becomes lactic acid, softening the wine.",
+    "source": {
+      "deck": "Intro",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-045",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "During maturation, which acid is converted into lactic acid?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "malic",
+      "malic acid"
+    ],
+    "explanation": "Malic acid → lactic acid (malolactic reaction), making the wine softer.",
+    "source": {
+      "deck": "Intro",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-046",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Maturing in stainless steel keeps a bright colour and intense fruit, while oak allows partial oxidation.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Oak's partial oxidation turns fruity notes into more complex ones.",
+    "source": {
+      "deck": "Intro",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-047",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Sulfur dioxide is added before bottling to prevent oxidation and bacterial growth.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "SO₂ before bottling; nitrogen is added in the bottle before corking.",
+    "source": {
+      "deck": "Intro",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-048",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Nitrogen is added to the bottle before corking to speed up the wine's evolution.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nitrogen *prevents* oxidation and discoloration.",
+    "source": {
+      "deck": "Intro",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-049",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A natural cork lets some oxygen through, which suits wines that need long maturation in bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Silicone, plastic and screw caps seal oxygen out and suit wines to drink young.",
+    "source": {
+      "deck": "Intro",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-050",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Screw caps suit wines meant for long ageing because they let a little oxygen in.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Screw caps (and silicone, plastic) keep oxygen out; they suit wines to drink soon, like white wine. Cork lets some oxygen in.",
+    "source": {
+      "deck": "Intro",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-051",
+    "topic": "intro-aromas",
+    "type": "mcq",
+    "stem": "Which fining agent is added before filtration to precipitate suspended matter?",
+    "choices": [
+      "white yolk or bentonite",
+      "tartaric or malic acid",
+      "liqueur de tirage",
+      "sulfur dioxide or nitrogen"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "White yolk or bentonite precipitate the suspension; SO₂ comes just before bottling.",
+    "source": {
+      "deck": "Intro",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "vinification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-052",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Champagne is made from Chardonnay, Pinot Noir and Pinot Meunier.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The three Champagne grapes.",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-053",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Blanc de Noirs sparkling wine is made from Chardonnay only.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Blanc de Noirs = Pinot Noir only. Chardonnay only = Blanc de Blancs.",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-054",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the base blend of first-fermented wines called in the Méthode Champenoise?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "cuvee",
+      "cuvée"
+    ],
+    "explanation": "Cuvée.",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-055",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Liqueur de tirage — wine, sugar and yeast — starts the second fermentation in the bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The bottle is closed with a crown cap and the tirage produces CO₂.",
+    "source": {
+      "deck": "Intro",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-056",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Remuage is adding the liqueur d'expédition just before the final cork goes in.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Remuage is tilting and turning the bottle to move the yeast to the neck. Liqueur d'expédition comes after disgorging (à la volée).",
+    "source": {
+      "deck": "Intro",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-057",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the tilting and turning of bottles to gather the yeast in the neck called?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "remuage"
+    ],
+    "explanation": "Remuage.",
+    "source": {
+      "deck": "Intro",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-058",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The tank method was invented by Federico Martinotti and realised by Eugène Charmat.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Hence Metodo Martinotti / Méthode Charmat; fermentation in an INOX tank is faster than in bottle.",
+    "source": {
+      "deck": "Intro",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-059",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Cava and Franciacorta are made by the tank method rather than by re-fermentation in the bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Both use the Méthode Champenoise (Franciacorta, Trento, Cava).",
+    "source": {
+      "deck": "Intro",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-060",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Cabernet Sauvignon comes from Bordeaux's left bank and smells of blackberry, blackcurrant, violet and cedar.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Full-bodied and long-lived; balsamic and roasted notes after long maturation.",
+    "source": {
+      "deck": "Intro",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-061",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Merlot gives a full-bodied, firmly tannic wine built for long ageing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Merlot is medium-bodied, with delicate tannins, silky; plum, mocha, chocolate. Full body and longevity describe Cabernet Sauvignon.",
+    "source": {
+      "deck": "Intro",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-062",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Pinot Noir gives a paler wine than most grapes, with strawberry, raspberry and cherry.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Also rose, leather and spice with complexity.",
+    "source": {
+      "deck": "Intro",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-063",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Outside France, Sauvignon Blanc's signature zone is Mendoza in Argentina.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Marlborough, New Zealand. Mendoza is Malbec.",
+    "source": {
+      "deck": "Intro",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-064",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Aged Riesling can develop hydrocarbon (petrol-like) notes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A classic Riesling marker.",
+    "source": {
+      "deck": "Intro",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-065",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Pinot Blanc is a mutation of Chardonnay.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Pinot Blanc is a mutation of Pinot Noir.",
+    "source": {
+      "deck": "Intro",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-066",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Gewürztraminer gives a high-alcohol white with a litchi note.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Alsace's Gewürztraminer.",
+    "source": {
+      "deck": "Intro",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-067",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Sangiovese is the Piemonte grape known for a rose bouquet and longevity.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is Nebbiolo. Sangiovese is Tuscany's: cherry fruit and roundness.",
+    "source": {
+      "deck": "Intro",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-068",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Degustation uses the eyes, the nose and the tongue together.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Eyes: colour, structure, bubbles. Nose: olfactory. Nose + tongue: taste-olfactory.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 4
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "degustation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-069",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A taster can assess 25–30 samples in a row without losing accuracy.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "No more than 10–12 samples consecutively.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "degustation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-070",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A taster should not judge a wine by the reputation of the wine or its producer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Rule 9 of the pre-degustation rules.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "degustation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-071",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What was the small silver cup used for tasting wine in the past called?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "tastevin"
+    ],
+    "explanation": "Tastevin. Today an ISO tasting glass is used.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "degustation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-072",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The best way to clean a tasting glass is hot water with no dishwashing detergent.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Detergent residue would interfere with the aromas.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "degustation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-073",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A white wine glass is larger than a red wine glass.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Smaller. Wide glasses let important reds contact oxygen; sweet wines get even smaller glasses.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "degustation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-074",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Humans tell apart purple and red shades in red wine better than green-yellow shades in white wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "There is clear evidence for this; we distinguish about 180–200 shades.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-075",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "For a sparkling wine, the glass is swirled vigorously to judge consistency.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Step 4 is skipped for sparkling wine to avoid releasing the effervescence; bubbles are observed instead.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-076",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "'Veiled' limpidity is an unacceptable condition that may come from an alteration of the wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Veiled is unacceptable; quite limpid is acceptable (aged or unfiltered).",
+    "source": {
+      "deck": "Analysis",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-077",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "'Brilliant' is the limpidity term usually used for still red wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Brilliant is used for sparkling wine (dissolved CO₂). Crystal clear is used for white and rosé.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-078",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the Italian term for the 'tears' a wine leaves on the glass wall?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "lacrima",
+      "lacrime",
+      "tears"
+    ],
+    "explanation": "Lacrima. Close-set tears mean a consistent, higher-alcohol wine.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-079",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Tears that form close together point to a consistent wine, usually high in alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Consistent = heavy, high alcohol, close droplets. Widely spaced, fast tears = quite consistent.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-080",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each red-wine colour to the stage it usually describes.",
+    "items": [
+      "Purple red",
+      "Ruby red",
+      "Garnet",
+      "Orange red"
+    ],
+    "choices": [
+      "Aged",
+      "Fortified",
+      "Most wines on the market",
+      "Old",
+      "Short maceration",
+      "Young"
+    ],
+    "answer": [
+      5,
+      2,
+      0,
+      3
+    ],
+    "explanation": "Purple red = young; ruby red = most reds on the market; garnet = aged; orange red = old, warmer tone.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "visual",
+      "colour"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-081",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each white-wine colour to the wine it usually describes.",
+    "items": [
+      "Greenish yellow",
+      "Straw yellow",
+      "Golden yellow",
+      "Amber"
+    ],
+    "choices": [
+      "Aged white",
+      "Dessert or fortified",
+      "Most ready whites",
+      "Short maceration",
+      "Sparkling only",
+      "Young wine"
+    ],
+    "answer": [
+      5,
+      2,
+      0,
+      1
+    ],
+    "explanation": "Greenish yellow (lime juice) = young; straw yellow = most ready whites; golden = aged; amber = matured, dessert or fortified.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "visual",
+      "colour"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-082",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Light coppery pink describes the rosé with the longest maceration.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Light coppery pink has the *shortest* maceration; cherry red has a much longer one.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "colour"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-083",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the continuous stream of bubbles in a sparkling wine called?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "perlage"
+    ],
+    "explanation": "Perlage.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "visual"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-084",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Ortho-nasal smelling happens on the exhale, and retro-nasal on the inhale.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Reversed: ortho-nasal is direct inhalation; retro-nasal is the exhaled path, used in taste-olfactory analysis.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-085",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Retro-nasal smelling — on the exhale — is an important phase of the taste-olfactory analysis.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Odour reaches the olfactory glands via exhaled air after swallowing.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-086",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "The second sniff is a long inhalation to detect the complexity and quality of the aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "First sniff: remember description and intensity. Swirl to oxygenate. Second, long sniff: complexity and quality.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-087",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Primary aromas come with the grape variety and derive from terpenes, abundant in the grape skin.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Primary = varietal aromas from terpenes in the skin.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-088",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Primary aromas are the ones that develop during a long maturation in bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Those are tertiary aromas. Primary aromas come from the grape variety (terpenes).",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-089",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Secondary aromas come from pressing, fermentation and the early stage of maturation.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Including the 'vinous' note and esters from aldehydes and fatty acids.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-090",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Tertiary aromas arise after long maturation, through esterification with partial oxidation.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Partial oxidation lets the wine develop new aromas.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-091",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "After a long maturation, the vinous aroma grows stronger and the primary aromas disappear.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The opposite: the vinous note is totally gone, while the primary aromas remain so the grape can still be recognised.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-092",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "Which compounds, abundant in the grape skin, are the source of primary aromas?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "terpenes",
+      "terpene"
+    ],
+    "explanation": "Terpenes.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-093",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "What is the distinctive secondary aroma from complex alcohols, which fades completely with long ageing?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "vinous"
+    ],
+    "explanation": "Vinous.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 24
+    },
+    "difficulty": 3,
+    "tags": [
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-094",
+    "topic": "intro-aromas",
+    "type": "text",
+    "stem": "Which chemical reaction creates aromatic substances during maturation (and tertiary aromas with partial oxidation)?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "esterification"
+    ],
+    "explanation": "Esterification.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-095",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each aroma stage to where it comes from.",
+    "items": [
+      "Primary",
+      "Secondary",
+      "Tertiary"
+    ],
+    "choices": [
+      "Fermentation",
+      "Long maturation",
+      "Serving temperature",
+      "The grape variety",
+      "The tasting glass"
+    ],
+    "answer": [
+      3,
+      0,
+      1
+    ],
+    "explanation": "Primary: varietal (terpenes). Secondary: pressing, fermentation, early maturation. Tertiary: long maturation with partial oxidation.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "match",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-096",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Gewürztraminer, Malvasia, Muscat and Brachetto are aromatic varieties rich in primary aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Partially aromatic: Chardonnay, Kerner, Riesling, Sauvignon Blanc, Sylvaner, the Cabernets, Merlot.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-097",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Merlot is classed with Muscat as a fully aromatic grape variety.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Merlot is only partially aromatic, like Chardonnay and the Cabernets. Muscat is aromatic.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-098",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each aroma descriptor to its family.",
+    "items": [
+      "Leather",
+      "Petroleum",
+      "Clove",
+      "Cacao",
+      "Acetone"
+    ],
+    "choices": [
+      "Animal",
+      "Ethereal",
+      "Floral",
+      "Grassy and vegetal",
+      "Mineral",
+      "Spicy",
+      "Toast"
+    ],
+    "answer": [
+      0,
+      4,
+      5,
+      6,
+      1
+    ],
+    "explanation": "Animal: leather, feather, fur, game. Mineral: benzene, petroleum, flint. Spicy: star anise, cinnamon, clove, pepper. Toast: coffee, cacao, chocolate, tobacco. Ethereal: candle, wax, soap, acetone.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "aromas",
+      "families"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-099",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Flint and petroleum belong to the spicy family of aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They are mineral (with benzene). Spicy is star anise, cinnamon, clove, pepper.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "families"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-100",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Acacia, geranium and violet belong to the floral family of aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Floral: acacia, geranium, violet, neroli.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "families"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-101",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "On the olfactory intensity scale, 'lacking' — almost odourless — is an unacceptable condition.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Lacking › scarcely intense › quite intense › intense › very intense.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-102",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "'Ample' complexity describes a wine with just one aroma that never changes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Ample = aromas that change all the time. A single aroma is 'lacking'.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-103",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "'Scarcely fine' olfactory quality is still an acceptable condition.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Coarse and scarcely fine are both unacceptable; quite fine, fine and excellent are acceptable.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 29
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-104",
+    "topic": "intro-aromas",
+    "type": "mcq",
+    "stem": "Which scale contains the levels *lacking, scarcely complex, quite complex, complex, ample*?",
+    "choices": [
+      "taste-olfactory balance",
+      "olfactory complexity",
+      "olfactory intensity",
+      "olfactory quality"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Intensity: lacking → very intense. Complexity: lacking → ample. Quality: coarse → excellent.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-105",
+    "topic": "intro-aromas",
+    "type": "mcq",
+    "stem": "A wine's aromas keep changing in the glass and span many aroma families. Its olfactory complexity is…",
+    "choices": [
+      "quite complex",
+      "scarcely complex",
+      "complex",
+      "lacking"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Complex = changing aromas across many families. Quite complex changes but within few families; scarcely complex does not evolve at all.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-106",
+    "topic": "intro-aromas",
+    "type": "mcq",
+    "stem": "Which olfactory-quality term means a clear, elegant aroma that shows the wine's character with class?",
+    "choices": [
+      "quite fine",
+      "fine",
+      "intense",
+      "excellent"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Excellent is the top of the quality scale. 'Intense' belongs to the intensity scale, not quality.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "aromas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-107",
+    "topic": "intro-aromas",
+    "type": "match",
+    "stem": "Match each wine to its serving temperature.",
+    "items": [
+      "Sparkling wine",
+      "Young dry fruity white",
+      "Aged white with body",
+      "Bodied red, moderate tannin",
+      "Long-aged tannic red"
+    ],
+    "choices": [
+      "10–12 °C",
+      "12–14 °C",
+      "14–16 °C",
+      "16–18 °C",
+      "18–20 °C",
+      "6–8 °C",
+      "8–10 °C"
+    ],
+    "answer": [
+      5,
+      6,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Sparkling 6–8; young fruity white 8–10; aromatic white, demi-sec, rosé, dessert white 10–12; aged white 12–14; fruity low-tannin red and dessert red 14–16; bodied red 16–18; very bodied aged red 18–20.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 33
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "temperature"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-108",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "A low serving temperature suppresses the perception of sweetness but increases the tannicity of red wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Which is why red wine should not be served chilled.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "temperature"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-109",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Red wine is best served chilled because cold softens its tannins.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cold *increases* perceived tannin, which then covers the other sensations.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "temperature"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-110",
+    "topic": "intro-aromas",
+    "type": "mcq",
+    "stem": "At what temperature should a rosé or an aromatic dry white be served?",
+    "choices": [
+      "16–18 °C",
+      "10–12 °C",
+      "6–8 °C",
+      "14–16 °C"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "10–12 °C, like demi-sec white and dessert white.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "temperature"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-111",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Merlot's typical scents are blackberry, blackcurrant, violet and cedar wood.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is Cabernet Sauvignon. Merlot gives plum, mocha, chocolate and blueberry.",
+    "source": {
+      "deck": "Intro",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "varietals"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-112",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Over one year, a vine is dormant from spring until late summer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Spring to late summer is the productive phase; dormancy is autumn to late winter.",
+    "source": {
+      "deck": "Intro",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vine"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-113",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Clayey soil drains water well and holds heat, giving wine with low acidity and delicate aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That describes sandy soil. Clay absorbs water, stays cooler and gives body, extract and intense colour.",
+    "source": {
+      "deck": "Intro",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "terroir"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-114",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Garnet is the colour term for a young red wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Garnet describes aged red; young red is purple red.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "colour"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-115",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Port and Madeira are fortified wines from Spain.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Both are Portuguese. Spain's fortified wine is Sherry.",
+    "source": {
+      "deck": "Intro",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "aro-116",
+    "topic": "intro-aromas",
+    "type": "tf",
+    "stem": "Sweet wines are served in wider glasses than other wines so that they can breathe.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Sweet wines get *smaller* glasses because less is poured at a time. Wide glasses are for important reds.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "degustation"
+    ],
+    "examFocus": true
+  }
+]

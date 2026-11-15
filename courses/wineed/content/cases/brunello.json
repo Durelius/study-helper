@@ -1,0 +1,126 @@
+{
+  "id": "brunello",
+  "title": "Label: Brunello di Montalcino",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Tenuta Collina** · **BRUNELLO DI MONTALCINO** · Denominazione di Origine Controllata e Garantita · **Riserva** · **2016** · 14% vol · 750 ml · Bottled at the estate by Tenuta Collina, Montalcino",
+  "questions": [
+    {
+      "id": "case-brunello-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "What is the designation of this wine?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "brunello di montalcino",
+        "brunello di montalcino docg",
+        "brunello"
+      ],
+      "explanation": "Brunello di Montalcino DOCG. Tenuta Collina is the producer; Riserva is an ageing term.",
+      "source": {
+        "deck": "Intro",
+        "slide": 53
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brunello-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is this wine made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sangiovese"
+      ],
+      "explanation": "Sangiovese — Tuscany's grape, behind Brunello and Chianti Classico.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brunello-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is it made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "toscana",
+        "tuscany"
+      ],
+      "explanation": "Toscana (Tuscany).",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brunello-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Riserva** tell you about this wine?",
+      "choices": [
+        "it comes from the historic core zone",
+        "it has more alcohol than the minimum",
+        "it aged in barrel for longer than usual",
+        "it is made from a single vineyard"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Riserva = longer maturation in cask or barrel. More alcohol is Superiore; the historic zone is Classico.",
+      "source": {
+        "deck": "Italy",
+        "slide": 18
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brunello-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **DOCG** on this label guarantee?",
+      "choices": [
+        "a table wine made to no particular specification",
+        "a quality wine made outside the DOC rules",
+        "Italy's largest designation, usually medium quality",
+        "Italy's highest designation, with guaranteed quality"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "DOCG: strict production control plus a guarantee of quality. DOC is the largest class; IGT is outside DOC rules; VdT follows no specification.",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

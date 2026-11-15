@@ -1,0 +1,131 @@
+{
+  "id": "lbl-condrieu",
+  "title": "Real label: Condrieu",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-condrieu-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is Condrieu made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "viognier"
+      ],
+      "explanation": "Viognier.",
+      "source": {
+        "deck": "France",
+        "slide": 47
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-condrieu-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which part of the Rhône is Condrieu in?",
+      "choices": [
+        "Provence",
+        "the southern Rhône",
+        "Beaujolais",
+        "the northern Rhône"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Northern Rhône.",
+      "source": {
+        "deck": "France",
+        "slide": 47
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-condrieu-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Condrieu is a red wine made from Syrah.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Condrieu is white, from Viognier.",
+      "source": {
+        "deck": "France",
+        "slide": 47
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-condrieu-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which notes does Condrieu typically show?",
+      "choices": [
+        "black pepper and violet",
+        "peach, pear and rose",
+        "litchi and high alcohol",
+        "gooseberry and tomato leaf"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Viognier from Condrieu: peach, pear, rose.",
+      "source": {
+        "deck": "France",
+        "slide": 47
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-condrieu-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does *Élevé et mis en bouteille par E. Guigal* tell you?",
+      "choices": [
+        "how sweet the wine is",
+        "who raised and bottled the wine",
+        "which cru the vineyard is",
+        "where the grapes were grown"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The bottling-agency detail: E. Guigal raised and bottled it.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/condrieu.jpg"
+}

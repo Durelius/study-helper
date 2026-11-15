@@ -1,0 +1,132 @@
+{
+  "id": "lbl-franciacorta",
+  "title": "Real label: Franciacorta Brut",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-franciacorta-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is Franciacorta made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "lombardia",
+        "lombardy"
+      ],
+      "explanation": "Lombardia.",
+      "source": {
+        "deck": "Italy",
+        "slide": 25
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-franciacorta-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is Franciacorta made from?",
+      "choices": [
+        "Pinot Nero 80%, Chardonnay 15%, Pinot Bianco 5%",
+        "Chardonnay 80%, Pinot Nero 15%, Pinot Bianco 5%",
+        "Glera 80%, Chardonnay 15%, Pinot Bianco 5%",
+        "Chardonnay 50%, Pinot Nero 25%, Pinot Bianco 25%"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Chardonnay 80, Pinot Nero 15, Pinot Bianco 5.",
+      "source": {
+        "deck": "Italy",
+        "slide": 25
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-franciacorta-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "**Brut** allows how much residual sugar?",
+      "choices": [
+        "under 15 g/L",
+        "33–50 g/L",
+        "between 18 and 35 g/L",
+        "under 3 g/L"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Brut <15; Brut nature <3; Sec 18–35; Demi-sec 33–50.",
+      "source": {
+        "deck": "Intro",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-franciacorta-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Franciacorta re-ferments in the bottle, the same method as Champagne.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Metodo Classico.",
+      "source": {
+        "deck": "Intro",
+        "slide": 35
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-franciacorta-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "This label shows no vintage. How long must a non-vintage Franciacorta age?",
+      "choices": [
+        "18 months, 15 of them in bottle",
+        "24 months, all of them in tank",
+        "37 months, all of them in bottle",
+        "67 months, 60 of them on yeast"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Non-vintage: 18 months (15 in bottle). Millesimato: 37. Riserva: 67.",
+      "source": {
+        "deck": "Italy",
+        "slide": 27
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/franciacorta.jpg"
+}

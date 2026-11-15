@@ -1,0 +1,132 @@
+{
+  "id": "lbl-sassicaia",
+  "title": "Real label: Sassicaia",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-sassicaia-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is special about **Bolgheri Sassicaia DOC**?",
+      "choices": [
+        "it is a sweet wine from dried grapes",
+        "it is Italy's oldest DOCG designation",
+        "it is the only DOC tied to one producer",
+        "it is a table wine made to no rules"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The only designation tied to a specific wine and producer.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sassicaia-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Sassicaia",
+        "Bolgheri",
+        "Tenuta San Guido",
+        "Castagneto Carducci"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Tenuta San Guido, maker of the first Super Tuscan.",
+      "source": {
+        "deck": "Italy",
+        "slide": 8
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sassicaia-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is Bolgheri?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "toscana",
+        "tuscany"
+      ],
+      "explanation": "Toscana's coast.",
+      "source": {
+        "deck": "Italy",
+        "slide": 41
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sassicaia-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Bolgheri's terroir resembles Bordeaux, so it grows Bordeaux grapes such as Cabernet Sauvignon.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Sandy-clay soil like Bordeaux.",
+      "source": {
+        "deck": "Italy",
+        "slide": 40
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-sassicaia-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "*Imbottigliato all'origine* corresponds to which label detail?",
+      "choices": [
+        "the designation",
+        "the bottling agency",
+        "the alcohol content",
+        "the volume of wine"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Bottled at origin by the estate — the bottling-agency detail.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/sassicaia.jpg"
+}

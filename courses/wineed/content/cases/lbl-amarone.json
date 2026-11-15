@@ -1,0 +1,127 @@
+{
+  "id": "lbl-amarone",
+  "title": "Real label: Amarone della Valpolicella Classico",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-amarone-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Costasera",
+        "Classico",
+        "Valpolicella",
+        "Masi"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Masi (Masi Agricola, the bottler). The designation is Amarone della Valpolicella Classico DOCG.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-amarone-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is this wine made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "veneto"
+      ],
+      "explanation": "Veneto.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-amarone-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape makes up about 75% of an Amarone?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "corvina"
+      ],
+      "explanation": "Corvina 75%, Rondinella 20%, Molinara 5%.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-amarone-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Why can this wine reach 15% alcohol?",
+      "choices": [
+        "it re-fermented in a sealed tank",
+        "its grapes caught noble rot first",
+        "it was fortified with added grape spirit",
+        "its grapes were dried before pressing"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Amarone is made from dried grapes, which concentrates the sugar.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-amarone-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "*Classico* on this label means the wine aged longer than a normal Amarone.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Classico means the historic zone. Longer ageing is Riserva.",
+      "source": {
+        "deck": "Italy",
+        "slide": 18
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/amarone.jpg"
+}

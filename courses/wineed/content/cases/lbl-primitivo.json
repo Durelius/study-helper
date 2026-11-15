@@ -1,0 +1,128 @@
+{
+  "id": "lbl-primitivo",
+  "title": "Real label: Primitivo di Manduria",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-primitivo-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is Primitivo di Manduria made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "puglia",
+        "apulia"
+      ],
+      "explanation": "Puglia.",
+      "source": {
+        "deck": "Italy",
+        "slide": 49
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-primitivo-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Primitivo is the same grape as which North American variety?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "zinfandel"
+      ],
+      "explanation": "Zinfandel.",
+      "source": {
+        "deck": "Italy",
+        "slide": 49
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-primitivo-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Primitivo di Manduria",
+        "Manduria",
+        "Masseria Borgo dei Trulli",
+        "Made in Italy, the bottler line"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Masseria Borgo dei Trulli.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-primitivo-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Primitivo di Manduria comes from Basilicata.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Puglia. Basilicata's red is Aglianico del Vulture.",
+      "source": {
+        "deck": "Italy",
+        "slide": 49
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-primitivo-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which class does the course give Primitivo di Manduria?",
+      "choices": [
+        "DOCG",
+        "VdT",
+        "DOC",
+        "IGT"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Primitivo di Manduria DOC.",
+      "source": {
+        "deck": "Italy",
+        "slide": 49
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/primitivo.jpg"
+}

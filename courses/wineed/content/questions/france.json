@@ -1,0 +1,1269 @@
+[
+  {
+    "id": "fra-001",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each French region to its signature grape.",
+    "items": [
+      "Beaujolais",
+      "Northern Rhône (reds)",
+      "Vallée de la Marne",
+      "Madiran",
+      "Sancerre"
+    ],
+    "choices": [
+      "Chenin Blanc",
+      "Gamay",
+      "Grenache",
+      "Merlot",
+      "Pinot Meunier",
+      "Sauvignon Blanc",
+      "Syrah",
+      "Tannat"
+    ],
+    "answer": [
+      1,
+      6,
+      4,
+      7,
+      5
+    ],
+    "explanation": "Beaujolais: Gamay. Northern Rhône reds: Syrah only. Vallée de la Marne: Pinot Meunier. Madiran: Tannat. Sancerre: Sauvignon Blanc.",
+    "source": {
+      "deck": "France",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "region-grape",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-002",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each Bordeaux appellation to its leading grape.",
+    "items": [
+      "Pauillac",
+      "Margaux",
+      "Pomerol",
+      "Saint-Émilion",
+      "Sauternes"
+    ],
+    "choices": [
+      "Cabernet Franc",
+      "Cabernet Sauvignon",
+      "Malbec",
+      "Merlot",
+      "Syrah",
+      "Sémillon"
+    ],
+    "answer": [
+      1,
+      1,
+      3,
+      3,
+      5
+    ],
+    "explanation": "Left bank (Saint-Estèphe, Pauillac, Saint-Julien, Margaux) is Cabernet Sauvignon country. Right bank (Saint-Émilion, Pomerol) is Merlot on limestone and clay. Sauternes is botrytised Sémillon with Sauvignon Blanc. Two items can share a grape.",
+    "source": {
+      "deck": "France",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "region-grape",
+      "bordeaux",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-003",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each Loire appellation to its grape.",
+    "items": [
+      "Pouilly-Fumé",
+      "Vouvray",
+      "Savennières",
+      "Chinon",
+      "Pays Nantais"
+    ],
+    "choices": [
+      "Cabernet Franc",
+      "Chardonnay",
+      "Chenin Blanc",
+      "Gamay",
+      "Muscadet",
+      "Pinot Noir",
+      "Sauvignon Blanc"
+    ],
+    "answer": [
+      6,
+      2,
+      2,
+      0,
+      4
+    ],
+    "explanation": "Central Loire (Sancerre, Pouilly-Fumé): Sauvignon Blanc. Anjou-Saumur (Savennières) and Touraine (Vouvray): Chenin Blanc. Touraine reds (Chinon, Bourgueil): Cabernet Franc. Pays Nantais: Muscadet.",
+    "source": {
+      "deck": "France",
+      "slide": 43
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "region-grape",
+      "loire",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-004",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each Bourgogne appellation to its grape.",
+    "items": [
+      "Chablis",
+      "Gevrey-Chambertin",
+      "Meursault",
+      "Bouzeron",
+      "Beaujolais Nouveau"
+    ],
+    "choices": [
+      "Aligoté",
+      "Chardonnay",
+      "Gamay",
+      "Pinot Meunier",
+      "Pinot Noir",
+      "Sauvignon Blanc",
+      "Syrah"
+    ],
+    "answer": [
+      1,
+      4,
+      1,
+      0,
+      2
+    ],
+    "explanation": "Chablis is 100% Chardonnay; Meursault is oaked Côte de Beaune Chardonnay; Gevrey-Chambertin is Côte de Nuits Pinot Noir; Bouzeron is the birthplace of Aligoté; Beaujolais Nouveau is Gamay by carbonic maceration.",
+    "source": {
+      "deck": "France",
+      "slide": 33
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "region-grape",
+      "bourgogne",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-005",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each Rhône appellation to its grape.",
+    "items": [
+      "Côte-Rôtie",
+      "Condrieu",
+      "Hermitage (red)",
+      "Château-Grillet"
+    ],
+    "choices": [
+      "Chenin Blanc",
+      "Grenache",
+      "Pinot Noir",
+      "Syrah",
+      "Viognier"
+    ],
+    "answer": [
+      3,
+      4,
+      3,
+      4
+    ],
+    "explanation": "Northern Rhône reds are Syrah only (Côte-Rôtie, Hermitage, Crozes-Hermitage). Condrieu and Château-Grillet are white, mainly Viognier.",
+    "source": {
+      "deck": "France",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "region-grape",
+      "rhone"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-006",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each grape to the French region most identified with it.",
+    "items": [
+      "Gewürztraminer",
+      "Pinot Meunier",
+      "Mourvèdre",
+      "Sciacarello",
+      "Tannat"
+    ],
+    "choices": [
+      "Alsace",
+      "Bordeaux",
+      "Bourgogne",
+      "Champagne",
+      "Corse",
+      "Provence (Bandol)",
+      "Sud-Ouest (Madiran)",
+      "Vallée de la Loire"
+    ],
+    "answer": [
+      0,
+      3,
+      5,
+      4,
+      6
+    ],
+    "explanation": "Gewürztraminer: Alsace. Pinot Meunier: Champagne (Vallée de la Marne). Mourvèdre: Bandol's long-lived rosé. Sciacarello: AOC Ajaccio on Corsica. Tannat: Madiran.",
+    "source": {
+      "deck": "France",
+      "slide": 52
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "region-grape",
+      "paper"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-007",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each Champagne zone to the grape it is mainly planted with.",
+    "items": [
+      "Côte des Blancs",
+      "Montagne de Reims",
+      "Vallée de la Marne",
+      "Côte des Bar"
+    ],
+    "choices": [
+      "Chardonnay",
+      "Gamay",
+      "Pinot Blanc",
+      "Pinot Meunier",
+      "Pinot Noir"
+    ],
+    "answer": [
+      0,
+      4,
+      3,
+      4
+    ],
+    "explanation": "Côte des Blancs (and Côte de Sézanne): Chardonnay on chalk. Montagne de Reims and Côte des Bar: Pinot Noir. Vallée de la Marne: Pinot Meunier, late to bud and early to ripen.",
+    "source": {
+      "deck": "France",
+      "slide": 39
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "region-grape",
+      "champagne"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-008",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each French region to the grapes it is built on.",
+    "items": [
+      "Bordeaux",
+      "Champagne",
+      "Bourgogne",
+      "Southern Rhône"
+    ],
+    "choices": [
+      "Cabernet Sauvignon, Merlot, Cabernet Franc",
+      "Chardonnay, Pinot Noir, Gamay",
+      "Chardonnay, Pinot Noir, Pinot Meunier",
+      "Grenache, Syrah, Mourvèdre",
+      "Riesling, Gewürztraminer, Pinot Gris",
+      "Sauvignon Blanc, Chenin Blanc, Muscadet"
+    ],
+    "answer": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explanation": "Bordeaux blend: the two Cabernets and Merlot. Champagne: Chardonnay, Pinot Noir, Pinot Meunier. Bourgogne: Chardonnay, Pinot Noir, Gamay. Southern Rhône/GSM: Grenache, Syrah, Mourvèdre. Alsace and Loire are the spare whites.",
+    "source": {
+      "deck": "France",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-009",
+    "topic": "france",
+    "type": "match",
+    "stem": "Match each southern or outlying French appellation to its grape.",
+    "items": [
+      "Cahors",
+      "Bandol",
+      "Ajaccio",
+      "Madiran"
+    ],
+    "choices": [
+      "Carignan",
+      "Cinsaut",
+      "Malbec",
+      "Mourvèdre",
+      "Sciacarello",
+      "Tannat",
+      "Vermentino"
+    ],
+    "answer": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "explanation": "Cahors: Malbec (local name Auxerrois). Bandol: Mourvèdre rosé. Ajaccio: Sciacarello. Madiran: Tannat. Corsica's whites are Vermentino; Côtes de Provence rosé is mainly Cinsaut and Grenache.",
+    "source": {
+      "deck": "France",
+      "slide": 53
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-010",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape is Sancerre made from? (two words)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "sauvignon blanc"
+    ],
+    "explanation": "Sauvignon Blanc — Sancerre and Pouilly-Fumé are the Central Loire's Sauvignon Blancs.",
+    "source": {
+      "deck": "France",
+      "slide": 44
+    },
+    "difficulty": 1,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-011",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape is Chablis made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "chardonnay"
+    ],
+    "explanation": "100% Chardonnay.",
+    "source": {
+      "deck": "France",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-012",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which red grape is Beaujolais made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "gamay"
+    ],
+    "explanation": "Gamay, often by carbonic maceration.",
+    "source": {
+      "deck": "France",
+      "slide": 35
+    },
+    "difficulty": 1,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-013",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape is the only red grape allowed in Northern Rhône reds such as Côte-Rôtie and Hermitage?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "syrah",
+      "shiraz"
+    ],
+    "explanation": "Syrah.",
+    "source": {
+      "deck": "France",
+      "slide": 47
+    },
+    "difficulty": 1,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-014",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which white grape is Condrieu mainly made from?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "viognier"
+    ],
+    "explanation": "Viognier — peach, pear, rose.",
+    "source": {
+      "deck": "France",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-015",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape is Vouvray made from? (two words)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "chenin blanc"
+    ],
+    "explanation": "Chenin Blanc, in sec, demi-sec, moelleux and sparkling styles.",
+    "source": {
+      "deck": "France",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-016",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which red grape makes Madiran's highly tannic wine?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "tannat"
+    ],
+    "explanation": "Tannat.",
+    "source": {
+      "deck": "France",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-017",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape is the main one in Vallée de la Marne Champagne? (two words)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "pinot meunier",
+      "meunier"
+    ],
+    "explanation": "Pinot Meunier — buds late and ripens early, so it copes with cold.",
+    "source": {
+      "deck": "France",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "region-grape",
+      "champagne"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-018",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape leads the wines of Pomerol and Saint-Émilion?",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "merlot"
+    ],
+    "explanation": "Merlot, on the right bank's limestone and clay.",
+    "source": {
+      "deck": "France",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "region-grape",
+      "bordeaux"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-019",
+    "topic": "france",
+    "type": "text",
+    "stem": "Which grape is Cahors made from? (its local name is Auxerrois)",
+    "choices": [],
+    "answer": [],
+    "accept": [
+      "malbec",
+      "auxerrois",
+      "cot"
+    ],
+    "explanation": "Malbec.",
+    "source": {
+      "deck": "France",
+      "slide": 53
+    },
+    "difficulty": 3,
+    "tags": [
+      "region-grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-020",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "A wine is labelled AOC Pouilly-Fumé. Which region and grape is it?",
+    "choices": [
+      "Mâconnais, Chardonnay",
+      "Southern Rhône, Grenache and Syrah",
+      "Central Loire, Sauvignon Blanc",
+      "Northern Rhône, Viognier"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Pouilly-Fumé is Central Loire Sauvignon Blanc, with flint/mineral notes. Don't confuse it with Pouilly-Fuissé, Mâconnais Chardonnay.",
+    "source": {
+      "deck": "France",
+      "slide": 44
+    },
+    "difficulty": 3,
+    "tags": [
+      "region-grape",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-021",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "A wine is labelled AOC Pouilly-Fuissé. Which region and grape is it?",
+    "choices": [
+      "Central Loire, Sauvignon Blanc",
+      "Mâconnais, Chardonnay",
+      "Alsace, Pinot Gris",
+      "Touraine, Chenin Blanc"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Pouilly-Fuissé is the Mâconnais's most famous zone: Chardonnay on limestone, more concentrated than Côte de Beaune. Pouilly-Fumé is the Loire Sauvignon Blanc.",
+    "source": {
+      "deck": "France",
+      "slide": 34
+    },
+    "difficulty": 3,
+    "tags": [
+      "region-grape",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-022",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "In which region are Côte de Nuits and Côte de Beaune?",
+    "choices": [
+      "Bourgogne",
+      "Champagne",
+      "Bordeaux",
+      "Vallée du Rhône"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Together they form the Côte d'Or, between Dijon and Chagny.",
+    "source": {
+      "deck": "France",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "zones"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-023",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which zone is the world's most important for Pinot Noir red wine?",
+    "choices": [
+      "Côte Chalonnaise",
+      "Côte de Nuits",
+      "Côte de Beaune",
+      "Côte des Blancs"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Côte de Nuits (Gevrey-Chambertin, Morey-St-Denis, Chambolle-Musigny). Côte de Beaune is famous for white Chardonnay (Meursault, Montrachet).",
+    "source": {
+      "deck": "France",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "zones",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-024",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which Bordeaux soil sits on the Garonne bank and suits Cabernet Sauvignon?",
+    "choices": [
+      "chalk",
+      "granite",
+      "limestone",
+      "gravel"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Gravel on the Garonne (left bank); limestone on the Dordogne side. Pauillac's gravel makes the most 'masculine' Cabernet.",
+    "source": {
+      "deck": "France",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "bordeaux"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-025",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which left-bank appellation's clay gives a soft, 'feminine' Cabernet Sauvignon?",
+    "choices": [
+      "Margaux",
+      "Saint-Estèphe",
+      "Pauillac",
+      "Saint-Julien"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Margaux (clay). Pauillac is gravel and masculine; Saint-Julien is milder; Saint-Estèphe has limestone and more Merlot.",
+    "source": {
+      "deck": "France",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "bordeaux"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-026",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which two rivers divide Bordeaux into its three major zones?",
+    "choices": [
+      "Dordogne and the Loire",
+      "Rhône and Saône",
+      "Garonne and Dordogne",
+      "Garonne and Loire"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Garonne and Dordogne (which meet in the Gironde).",
+    "source": {
+      "deck": "France",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "bordeaux"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-027",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which producer received *Premier cru supérieur* in the 1855 Sauternes classification?",
+    "choices": [
+      "Château Margaux",
+      "Château d'Yquem",
+      "Château Ausone",
+      "Château Latour"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Only d'Yquem; 11 others got Premier cru. Latour and Margaux are among the five red Premiers crus; Ausone is Saint-Émilion.",
+    "source": {
+      "deck": "France",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "bordeaux",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-028",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which château is *not* one of the five red Premiers crus of the 1855 classification?",
+    "choices": [
+      "Château Cheval Blanc",
+      "Château Haut-Brion",
+      "Château Latour",
+      "Château Lafite-Rothschild"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The five: Haut-Brion, Lafite-Rothschild, Latour, Margaux, Mouton Rothschild. Cheval Blanc is Saint-Émilion Premier grand cru classé A.",
+    "source": {
+      "deck": "France",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "bordeaux",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-029",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which AOC lets producers blend up to 13 grape varieties?",
+    "choices": [
+      "Côte-Rôtie",
+      "Gigondas",
+      "Châteauneuf-du-Pape",
+      "Hermitage"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Châteauneuf-du-Pape, the Southern Rhône's most famous zone. Côte-Rôtie and Hermitage are single-grape Syrah.",
+    "source": {
+      "deck": "France",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "rhone"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-030",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which region is France's main source of rosé?",
+    "choices": [
+      "Champagne",
+      "Bourgogne",
+      "Alsace",
+      "Provence"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Provence, from Syrah, Grenache, Mourvèdre and Cabernet Sauvignon; Côtes de Provence rosé is mainly Cinsaut and Grenache.",
+    "source": {
+      "deck": "France",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "zones"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-031",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which grape makes the white wines of Corsica?",
+    "choices": [
+      "Marsanne",
+      "Viognier",
+      "Muscadet",
+      "Vermentino"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vermentino. Corsica's reds use southern French grapes; Ajaccio uses the native Sciacarello.",
+    "source": {
+      "deck": "France",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "zones"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-032",
+    "topic": "france",
+    "type": "mcq",
+    "stem": "Which three white grapes are the most important in the Southern Rhône?",
+    "choices": [
+      "Viognier, Marsanne and Roussanne",
+      "Chardonnay, Aligoté and Pinot Blanc",
+      "Chenin Blanc, Muscadet and Sauvignon",
+      "Riesling, Sylvaner and Pinot Gris"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Viognier/Marsanne/Roussanne in the Rhône. The others are Alsace, Loire and Bourgogne sets.",
+    "source": {
+      "deck": "France",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "rhone"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-033",
+    "topic": "france",
+    "type": "tf",
+    "stem": "In the Loire, Cabernet Franc is used at 100% to give a bright, fruity red.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Touraine (Chinon, Bourgueil) is the Loire's best red zone.",
+    "source": {
+      "deck": "France",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "loire"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-034",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Côte de Beaune is the Bourgogne zone most famous for Pinot Noir; Côte de Nuits is famous for white Chardonnay.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Reversed: Côte de Nuits is the Pinot Noir heartland; Côte de Beaune is famous for Chardonnay whites (Meursault, Puligny- and Chassagne-Montrachet).",
+    "source": {
+      "deck": "France",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "zones",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-035",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Northern Rhône reds are made from Syrah alone, while Southern Rhône reds are blends led by Grenache.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "North: Syrah only (continental). South: Grenache, Syrah, Cinsaut, Carignan, Mourvèdre (Mediterranean).",
+    "source": {
+      "deck": "France",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "rhone"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-036",
+    "topic": "france",
+    "type": "tf",
+    "stem": "The Northern Rhône has a Mediterranean climate suited to Grenache and Mourvèdre.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That's the South. The North is continental — very hot summers, cold winters — suited to Syrah.",
+    "source": {
+      "deck": "France",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "rhone"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-037",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Alsace AOC wines include Gewürztraminer, Muscat Blanc, Riesling, Sylvaner and Pinot Gris.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Alsace is France's cool-climate white region.",
+    "source": {
+      "deck": "France",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "zones"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-038",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Champagne is made by re-fermentation in the bottle, the Méthode Traditionnelle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Champagne's soil is mixed with chalk; the climate is cool and windy.",
+    "source": {
+      "deck": "France",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "champagne"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-039",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Champagne was first created by Dom Pérignon, a monk at Hautvillers Abbey.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The founding story on the slide.",
+    "source": {
+      "deck": "France",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "champagne"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-040",
+    "topic": "france",
+    "type": "tf",
+    "stem": "In Bordeaux, Sauvignon Blanc is often blended with Sémillon, for both dry whites and dessert wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Sauternes and Barsac are botrytised Sémillon and Sauvignon Blanc.",
+    "source": {
+      "deck": "France",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "bordeaux"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-041",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Grand Cru Chablis accounts for about half of all Chablis produced.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Only about 3%. Chablis levels: Petit Chablis, Chablis, Premier Cru, Grand Cru.",
+    "source": {
+      "deck": "France",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "bourgogne"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-042",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Sancerre tends to have more body and fruit, while Pouilly-Fumé shows more mineral, flinty notes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Both Sauvignon Blanc and best drunk young.",
+    "source": {
+      "deck": "France",
+      "slide": 44
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "loire",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-043",
+    "topic": "france",
+    "type": "tf",
+    "stem": "In 1930 France set up the AOC system to control wine quality across the country.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Following the phylloxera and economic crises.",
+    "source": {
+      "deck": "France",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-044",
+    "topic": "france",
+    "type": "tf",
+    "stem": "The 1855 Bordeaux classification ranked 60 producers from Médoc and Graves into three levels.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Five levels, Premier cru to Cinquième cru.",
+    "source": {
+      "deck": "France",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-045",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Pomerol and Saint-Émilion are left-bank appellations where Cabernet Sauvignon leads.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They are right bank, on limestone and clay, where Merlot leads.",
+    "source": {
+      "deck": "France",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "bordeaux",
+      "distinction"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-046",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Condrieu is a Northern Rhône red made from Syrah.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Condrieu is white, mainly from Viognier.",
+    "source": {
+      "deck": "France",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "rhone"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fra-047",
+    "topic": "france",
+    "type": "tf",
+    "stem": "Champagne from the Vallée de la Marne is made mainly from Chardonnay.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Mainly Pinot Meunier. Chardonnay dominates the Côte des Blancs.",
+    "source": {
+      "deck": "France",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "champagne"
+    ],
+    "examFocus": true
+  }
+]

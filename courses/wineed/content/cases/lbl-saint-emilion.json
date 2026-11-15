@@ -1,0 +1,131 @@
+{
+  "id": "lbl-saint-emilion",
+  "title": "Real label: Saint-Émilion Grand Cru",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-saint-emilion-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape leads Saint-Émilion?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "merlot"
+      ],
+      "explanation": "Merlot, with Cabernet Franc and Cabernet Sauvignon.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-saint-emilion-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which part of Bordeaux is this?",
+      "choices": [
+        "the right bank",
+        "the left bank",
+        "Entre-Deux-Mers",
+        "the Médoc"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Saint-Émilion and Pomerol are the right bank.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-saint-emilion-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Saint-Émilion",
+        "Château Rocheyron",
+        "Grand Cru",
+        "Saint-Émilion Grand Cru"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The château is the producer.",
+      "source": {
+        "deck": "France",
+        "slide": 29
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-saint-emilion-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "*Saint-Émilion Grand Cru* requires a higher minimum alcohol and a tasting by experts.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Plus limited grapes per plant.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-saint-emilion-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which soils shape the right bank?",
+      "choices": [
+        "granite and slate",
+        "limestone and clay",
+        "gravel and sand",
+        "chalk and flint"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Limestone and clay suit Merlot.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/saint-emilion.jpg"
+}

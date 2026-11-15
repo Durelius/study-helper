@@ -1,0 +1,126 @@
+{
+  "id": "amarone",
+  "title": "Label: Amarone della Valpolicella",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "**Cantine Dal Ponte** · **AMARONE DELLA VALPOLICELLA** · Denominazione di Origine Controllata e Garantita · **Classico** · **2017** · 16% vol · 750 ml",
+  "questions": [
+    {
+      "id": "case-amarone-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is this wine made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "veneto"
+      ],
+      "explanation": "Veneto.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-amarone-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape makes up 75% of this wine?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "corvina"
+      ],
+      "explanation": "Corvina 75%, Rondinella 20%, Molinara 5%.",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-amarone-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What makes Amarone different from most red wines?",
+      "choices": [
+        "it re-ferments in a sealed tank",
+        "its grapes are dried before pressing",
+        "it is fortified by adding grape spirit",
+        "its grapes are hit by noble rot first"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Amarone is made from dried grapes, which explains its high alcohol (16% here).",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-amarone-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Classico** tell you?",
+      "choices": [
+        "it was made from one vineyard",
+        "it has more alcohol than the minimum",
+        "it aged longer in barrel than usual",
+        "it comes from the historic zone"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Classico marks the historic production area of an old designation. Longer ageing = Riserva; more alcohol = Superiore.",
+      "source": {
+        "deck": "Italy",
+        "slide": 18
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-amarone-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Amarone and Prosecco come from the same Italian region.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Both Veneto (Prosecco is Conegliano Valdobbiadene, from Glera).",
+      "source": {
+        "deck": "Italy",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ]
+}

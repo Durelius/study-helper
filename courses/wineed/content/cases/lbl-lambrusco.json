@@ -1,0 +1,133 @@
+{
+  "id": "lbl-lambrusco",
+  "title": "Real label: Lambrusco di Sorbara",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-lambrusco-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "In which Italian region is Lambrusco di Sorbara made?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "emilia-romagna",
+        "emilia romagna",
+        "emilia"
+      ],
+      "explanation": "Emilia-Romagna.",
+      "source": {
+        "deck": "Italy",
+        "slide": 37
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-lambrusco-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "How much Sorbara grape must Lambrusco di Sorbara contain?",
+      "choices": [
+        "all of it",
+        "at least 15%",
+        "at least 85%",
+        "at least 60%"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "60% Sorbara; up to 40% Lambrusco Salamino and/or 15% other grapes.",
+      "source": {
+        "deck": "Italy",
+        "slide": 38
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-lambrusco-03",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Lambrusco is the traditional match for Tortellini in Brodo.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Its freshness and fizz meet the dish's sweet tendency.",
+      "source": {
+        "deck": "Italy",
+        "slide": 55
+      },
+      "difficulty": 1,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-lambrusco-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which grape may be added to Lambrusco, up to 15%, to brighten its colour?",
+      "choices": [
+        "Grasparossa",
+        "Sangiovese",
+        "Ancellotta",
+        "Salamino"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Ancellotta (max 15%).",
+      "source": {
+        "deck": "Italy",
+        "slide": 38
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-lambrusco-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Ca' Vedole**?",
+      "choices": [
+        "the vineyard",
+        "the grape variety",
+        "the designation",
+        "the producer"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Ca' Vedole is the producer; Lambrusco di Sorbara the designation.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/lambrusco.jpg"
+}

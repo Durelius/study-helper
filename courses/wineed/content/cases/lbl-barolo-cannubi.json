@@ -1,0 +1,131 @@
+{
+  "id": "lbl-barolo-cannubi",
+  "title": "Real label: Barolo Cannubi",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-barolo-cannubi-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **vineyard** name?",
+      "choices": [
+        "Giacomo Borgogno & Figli",
+        "Barolo",
+        "Cannubi",
+        "Borgogno"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Cannubi is the vineyard; Barolo the DOCG; Borgogno (Giacomo Borgogno & Figli) the producer.",
+      "source": {
+        "deck": "Intro",
+        "slide": 54
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-cannubi-02",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is this wine made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "nebbiolo"
+      ],
+      "explanation": "Nebbiolo.",
+      "source": {
+        "deck": "Italy",
+        "slide": 23
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-cannubi-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does *Denominazione d'Origine Controllata e Garantita* tell you?",
+      "choices": [
+        "quality wine made outside DOC rules",
+        "Italy's top class, with guaranteed quality",
+        "table wine made to no specification",
+        "Italy's largest class, usually of medium quality"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "DOCG = strict control plus a quality guarantee.",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-cannubi-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Barolo is more tannic than Barbaresco, and its perfume develops more slowly.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Barbaresco is the less tannic, faster-developing Nebbiolo.",
+      "source": {
+        "deck": "Italy",
+        "slide": 23
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-barolo-cannubi-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which Lombardia DOCG is also made from Nebbiolo, but from dried grapes?",
+      "choices": [
+        "Garda",
+        "Franciacorta Satèn",
+        "Lugana",
+        "Sforzato di Valtellina"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Sforzato di Valtellina: dried Nebbiolo, high alcohol but balanced.",
+      "source": {
+        "deck": "Italy",
+        "slide": 25
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/barolo-cannubi.jpg"
+}

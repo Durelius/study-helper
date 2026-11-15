@@ -1,0 +1,131 @@
+{
+  "id": "lbl-pomerol",
+  "title": "Real label: Pomerol",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-pomerol-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape leads Pomerol?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "merlot"
+      ],
+      "explanation": "Merlot.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pomerol-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "How does Pomerol differ from Saint-Émilion?",
+      "choices": [
+        "no limestone, and a velvety finish",
+        "more chalk, and a sparkling style",
+        "more gravel, and a firmer tannin",
+        "more granite, and a lighter body"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Pomerol's ground is like Saint-Émilion's without the limestone.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pomerol-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "*Mis en bouteille à la propriété* corresponds to which label detail?",
+      "choices": [
+        "the alcohol content",
+        "the vintage",
+        "the designation",
+        "the bottling agency"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Bottled at the estate.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pomerol-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Pétrus is a famous producer from this same appellation.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Pétrus, Lafleur and Le Pin are Pomerol.",
+      "source": {
+        "deck": "France",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-pomerol-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **designation**?",
+      "choices": [
+        "Pomerol",
+        "Trigant de Boisset",
+        "J.-P. Moueix",
+        "Château La Grave à Pomerol"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Appellation Pomerol Contrôlée. The château name contains 'Pomerol' but is the producer.",
+      "source": {
+        "deck": "France",
+        "slide": 29
+      },
+      "difficulty": 3,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/pomerol.jpg"
+}

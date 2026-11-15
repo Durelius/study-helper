@@ -1,0 +1,131 @@
+{
+  "id": "lbl-tignanello",
+  "title": "Real label: Tignanello",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-tignanello-01",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What does **Indicazione Geografica Tipica** say?",
+      "choices": [
+        "quality wine made outside the DOC rules",
+        "Italy's highest class, quality guaranteed",
+        "the largest class, of medium quality",
+        "table wine made to no specification"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "IGT: the home of Super Tuscans.",
+      "source": {
+        "deck": "Italy",
+        "slide": 17
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-tignanello-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Marchesi Antinori",
+        "Tignanello",
+        "Indicazione Geografica Tipica",
+        "Toscana"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Antinori. Toscana IGT is the classification.",
+      "source": {
+        "deck": "Italy",
+        "slide": 42
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-tignanello-03",
+      "topic": "labels",
+      "type": "text",
+      "stem": "The label says it is mostly made from which grape?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "sangiovese"
+      ],
+      "explanation": "Sangiovese with a little Cabernet.",
+      "source": {
+        "deck": "Italy",
+        "slide": 42
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-tignanello-04",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Tignanello is a Super Tuscan; the first Super Tuscans appeared in the 1960s.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Super Tuscans began in the 1960s.",
+      "source": {
+        "deck": "Italy",
+        "slide": 7
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-tignanello-05",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Under which classification is this wine sold?",
+      "choices": [
+        "Chianti Classico DOCG",
+        "Vino da Tavola",
+        "Toscana IGT",
+        "Bolgheri DOC"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Rosso/Toscana IGT, like Solaia.",
+      "source": {
+        "deck": "Italy",
+        "slide": 42
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/tignanello.jpg"
+}

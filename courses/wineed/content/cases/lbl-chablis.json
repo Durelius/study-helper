@@ -1,0 +1,131 @@
+{
+  "id": "lbl-chablis",
+  "title": "Real label: Chablis Premier Cru",
+  "topics": [
+    "labels"
+  ],
+  "scenario": "Read the label in the photo, then answer.",
+  "questions": [
+    {
+      "id": "case-lbl-chablis-01",
+      "topic": "labels",
+      "type": "text",
+      "stem": "Which grape is Chablis made from?",
+      "choices": [],
+      "answer": [],
+      "accept": [
+        "chardonnay"
+      ],
+      "explanation": "100% Chardonnay.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chablis-02",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "What is **Montée de Tonnerre**?",
+      "choices": [
+        "the producer's name",
+        "the town of the bottler",
+        "the commercial name of the blend",
+        "the Premier Cru vineyard name"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "The cru; Louis Jadot is the producer.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chablis-03",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Where does Premier Cru rank among the four Chablis levels?",
+      "choices": [
+        "second from the top",
+        "third from the top, above Petit Chablis",
+        "at the very bottom",
+        "at the very top"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Petit Chablis › Chablis › Premier Cru › Grand Cru.",
+      "source": {
+        "deck": "France",
+        "slide": 32
+      },
+      "difficulty": 2,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chablis-04",
+      "topic": "labels",
+      "type": "mcq",
+      "stem": "Which element is the **producer**?",
+      "choices": [
+        "Chablis",
+        "Montée de Tonnerre",
+        "Beaune",
+        "Louis Jadot"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Louis Jadot, based in Beaune.",
+      "source": {
+        "deck": "Intro",
+        "slide": 51
+      },
+      "difficulty": 1,
+      "tags": [
+        "label"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-lbl-chablis-05",
+      "topic": "labels",
+      "type": "tf",
+      "stem": "Chablis is usually the oak-aged, buttery Chardonnay style, while Meursault is the mineral one.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Reversed: Chablis is mineral and high in acid; Meursault is the oak-aged style.",
+      "source": {
+        "deck": "France",
+        "slide": 14
+      },
+      "difficulty": 2,
+      "tags": [
+        "tf",
+        "label"
+      ],
+      "examFocus": true
+    }
+  ],
+  "image": "/labels/chablis-1er.jpg"
+}
