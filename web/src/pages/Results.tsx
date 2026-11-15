@@ -67,6 +67,21 @@ export default function Results() {
               )}
             </p>
             <p className="mt-1.5 text-[0.98rem] leading-snug">{r.question.stem}</p>
+            {r.question.type === 'text' || r.question.type === 'num' ? (
+              <p className="mt-2 border px-2.5 py-1.5 text-[0.9rem]" style={{ borderColor: 'var(--slack)', background: 'var(--slack-soft)' }}>
+                {(r.accept ?? []).join(' · ')}
+              </p>
+            ) : r.question.type === 'match' ? (
+              // A match is reviewed as the pairs it should have been.
+              <ul className="mt-2 space-y-1">
+                {(r.question.items ?? []).map((item, ii) => (
+                  <li key={ii} className="border border-line px-2.5 py-1.5 text-[0.9rem]">
+                    {item} <span className="text-ink-faint">→</span>{' '}
+                    <span style={{ color: 'var(--slack-ink)' }}>{r.question.choices[r.answer[ii]]}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
             <ul className="mt-2 space-y-1">
               {r.question.choices.map((c, ci) => {
                 const isAnswer = r.answer.includes(ci)
@@ -84,6 +99,7 @@ export default function Results() {
                 )
               })}
             </ul>
+            )}
             <p className="mt-2 border-l-2 border-line-strong pl-3 text-[0.88rem] leading-relaxed text-ink-soft">
               {r.explanation}
             </p>

@@ -63,6 +63,8 @@ type publicQuestion struct {
 	TopicTitle string          `json:"topicTitle"`
 	Type       string          `json:"type"`
 	Stem       string          `json:"stem"`
+	Items      []string        `json:"items,omitempty"`
+	Unit       string          `json:"unit,omitempty"`
 	Choices    []string        `json:"choices"`
 	Difficulty int             `json:"difficulty"`
 	ExamFocus  bool            `json:"examFocus"`
@@ -72,7 +74,7 @@ type publicQuestion struct {
 func (s *Server) public(q content.Question) publicQuestion {
 	return publicQuestion{
 		ID: q.ID, Topic: q.Topic, TopicTitle: s.Set.Title(q.Topic), Type: q.Type,
-		Stem: q.Stem, Choices: q.Choices, Difficulty: q.Difficulty,
+		Stem: q.Stem, Items: q.Items, Unit: q.Unit, Choices: q.Choices, Difficulty: q.Difficulty,
 		ExamFocus: q.ExamFocus, Data: q.Data,
 	}
 }
@@ -333,7 +335,7 @@ func (s *Server) handleCheck(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{
 		"correct":     correct,
 		"answer":      q.Answer,
-		"accept":      q.Accept,
+		"accept":      q.Reveal(),
 		"explanation": q.Explanation,
 		"source":      q.Source,
 	})
@@ -371,7 +373,7 @@ func (s *Server) handleAnswer(w http.ResponseWriter, r *http.Request) {
 	writeJSON(w, http.StatusOK, map[string]any{
 		"correct":     correct,
 		"answer":      q.Answer,
-		"accept":      q.Accept,
+		"accept":      q.Reveal(),
 		"explanation": q.Explanation,
 		"source":      q.Source,
 	})
@@ -404,6 +406,7 @@ func (s *Server) handleFinish(w http.ResponseWriter, r *http.Request) {
 	type review struct {
 		Question    publicQuestion `json:"question"`
 		Answer      []int          `json:"answer"`
+		Accept      []string       `json:"accept,omitempty"`
 		Explanation string         `json:"explanation"`
 		Source      content.Source `json:"source"`
 	}
@@ -415,7 +418,7 @@ func (s *Server) handleFinish(w http.ResponseWriter, r *http.Request) {
 	}{}
 	out := []review{}
 	for _, q := range questions {
-		out = append(out, review{s.public(q), q.Answer, q.Explanation, q.Source})
+		out = append(out, review{s.public(q), q.Answer, q.Reveal(), q.Explanation, q.Source})
 		if _, ok := byTopic[q.Topic]; !ok {
 			byTopic[q.Topic] = &struct {
 				Topic   string `json:"topic"`
@@ -445,6 +448,9 @@ func (s *Server) handleFinish(w http.ResponseWriter, r *http.Request) {
 func (s *Server) grade(q content.Question, req answerRequest) (bool, string) {
 	if q.Type == "text" {
 		return q.CorrectText(req.Text), strings.TrimSpace(req.Text)
+	}
+	if q.Type == "num" {
+		return q.CorrectNumber(req.Text), strings.TrimSpace(req.Text)
 	}
 	return q.Correct(req.Given), joinInts(req.Given)
 }

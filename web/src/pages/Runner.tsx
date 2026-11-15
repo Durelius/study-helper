@@ -82,7 +82,7 @@ export default function Runner() {
 
   const scenario = useMemo(() => {
     if (!question?.data) return null
-    const d = question.data as { scenario?: string; title?: string }
+    const d = question.data as { scenario?: string; title?: string; image?: string }
     return typeof d.scenario === 'string' ? d : null
   }, [question])
 
@@ -102,8 +102,9 @@ export default function Runner() {
       // A slide open over the question owns the keyboard, or Enter on its Close
       // button would also skip to the next question.
       if (document.querySelector('[role=dialog]')) return
-      // On a free-text question the number keys are part of the answer, not a choice.
-      if (question.type !== 'text') {
+      // On a free-text question the number keys are part of the answer, not a choice,
+      // and a match question is answered in its dropdowns.
+      if (question.type !== 'text' && question.type !== 'num' && question.type !== 'match') {
         const n = Number(e.key)
         if (n >= 1 && n <= question.choices.length) toggle(n - 1)
       }
@@ -125,12 +126,17 @@ export default function Runner() {
   }
   if (!run || !question) return <p className="text-ink-soft">Loading…</p>
 
+  // A match question holds one pick per item, in item order; -1 is a row not yet paired.
+  const isMatch = question.type === 'match'
+  const pairs = isMatch ? (question.items ?? []).map((_, i) => chosen[i] ?? -1) : []
+  const typedAnswer = question.type === 'text' || question.type === 'num'
+  const ready = typedAnswer ? !!typed.trim() : isMatch ? pairs.every((p) => p >= 0) : chosen.length > 0
+
   async function submit(confident: boolean) {
     if (verdict || !question || !run) return
-    const isText = question.type === 'text'
-    if (isText ? !typed.trim() : !chosen.length) return
+    if (!ready) return
     try {
-      const res = await api.answer(id, question.id, chosen, confident, Date.now() - startedAt.current, typed)
+      const res = await api.answer(id, question.id, isMatch ? pairs : chosen, confident, Date.now() - startedAt.current, typed)
       setVerdict(res)
       if (res.correct) setScore((s) => s + 1)
     } catch (e) {
@@ -178,6 +184,13 @@ export default function Runner() {
       {scenario && (
         <section className="mt-6 border-l-2 border-line-strong bg-surface px-4 py-3">
           <h2 className="text-[0.95rem] font-medium">{scenario.title}</h2>
+          {scenario.image && (
+            <img
+              src={scenario.image}
+              alt={scenario.title ?? 'Wine label'}
+              className="mx-auto mt-3 max-h-[50vh] w-auto max-w-full"
+            />
+          )}
           <div className="prose mt-2 text-[0.92rem]">
             <Markdown remarkPlugins={[remarkGfm]}>{scenario.scenario ?? ''}</Markdown>
           </div>
@@ -219,11 +232,22 @@ export default function Runner() {
         <p className="mt-3 text-[0.82rem] text-ink-faint">Pick every answer that applies.</p>
       )}
 
-      {question.type === 'text' ? (
+      {isMatch ? (
+        <MatchRows
+          items={question.items ?? []}
+          choices={question.choices}
+          pairs={pairs}
+          answer={verdict?.answer}
+          onPair={(row, choice) =>
+            setChosen(pairs.map((p, i) => (i === row ? choice : p)))
+          }
+        />
+      ) : typedAnswer ? (
         <div className="mt-4">
           <label htmlFor="answer" className="block text-[0.82rem] text-ink-soft">
-            Type your answer
+            {question.type === 'num' ? 'Your answer' : 'Type your answer'}
           </label>
+          <div className="mt-1.5 flex items-center gap-2">
           <input
             id="answer"
             autoFocus
@@ -236,8 +260,9 @@ export default function Runner() {
             onKeyDown={(e) => {
               if (e.key === 'Enter' && !verdict && typed.trim()) submit(true)
             }}
-            placeholder="one word is enough"
-            className="mt-1.5 w-full border px-3 py-2.5 text-[1.05rem]"
+            inputMode={question.type === 'num' ? 'decimal' : undefined}
+            placeholder={question.type === 'num' ? 'a number' : 'one word is enough'}
+            className="w-full border px-3 py-2.5 text-[1.05rem]"
             style={{
               borderColor: verdict
                 ? verdict.correct
@@ -252,8 +277,12 @@ export default function Runner() {
               borderWidth: verdict ? 2 : 1,
             }}
           />
+          {question.unit && <span className="shrink-0 text-[0.95rem] text-ink-soft">{question.unit}</span>}
+          </div>
           <p className="mt-1 text-[0.76rem] text-ink-faint">
-            Spelling is marked generously — capitals, punctuation and a slipped letter are fine.
+            {question.type === 'num'
+              ? 'Work it out on paper first. Fractions like 1/2, commas like 4,096 and two decimal places are all fine.'
+              : 'Spelling is marked generously — capitals, punctuation and a slipped letter are fine.'}
           </p>
           {verdict && !verdict.correct && verdict.accept && verdict.accept.length > 0 && (
             <p className="mt-2 text-[0.92rem]">
@@ -326,14 +355,14 @@ export default function Runner() {
         <div className="mt-5 flex gap-2">
           <button
             onClick={() => submit(true)}
-            disabled={question.type === 'text' ? !typed.trim() : !chosen.length}
+            disabled={!ready}
             className="btn flex-1"
           >
             I'm sure
           </button>
           <button
             onClick={() => submit(false)}
-            disabled={question.type === 'text' ? !typed.trim() : !chosen.length}
+            disabled={!ready}
             className="btn btn-quiet flex-1"
           >
             Not sure
@@ -363,5 +392,61 @@ export default function Runner() {
         </div>
       )}
     </div>
+  )
+}
+
+// MatchRows is a matching question: each item on the left gets one choice from the
+// pool. The pool is longer than the list, so the last pair is never a gimme. Once the
+// answer is in, each row says whether it was right and, if not, what it should have been.
+function MatchRows({
+  items,
+  choices,
+  pairs,
+  answer,
+  onPair,
+}: {
+  items: string[]
+  choices: string[]
+  pairs: number[]
+  answer?: number[]
+  onPair: (row: number, choice: number) => void
+}) {
+  return (
+    <ul className="mt-4 space-y-1.5">
+      {items.map((item, i) => {
+        const right = answer ? pairs[i] === answer[i] : null
+        return (
+          <li
+            key={i}
+            className="flex flex-wrap items-center gap-x-3 gap-y-1.5 border px-3 py-2.5"
+            style={{
+              borderColor: right === null ? 'var(--line)' : right ? 'var(--slack)' : 'var(--critical)',
+              background: right === null ? 'var(--surface)' : right ? 'var(--slack-soft)' : 'var(--critical-soft)',
+            }}
+          >
+            <span className="min-w-[9rem] flex-1 text-[0.96rem]">{item}</span>
+            <select
+              value={pairs[i]}
+              disabled={!!answer}
+              onChange={(e) => onPair(i, Number(e.target.value))}
+              aria-label={`Match for ${item}`}
+              className="min-w-[11rem] flex-1 border border-line-strong bg-surface px-2 py-1.5 text-[0.95rem]"
+            >
+              <option value={-1}>Choose…</option>
+              {choices.map((c, ci) => (
+                <option key={ci} value={ci}>
+                  {c}
+                </option>
+              ))}
+            </select>
+            {answer && !right && (
+              <span className="w-full text-[0.85rem]" style={{ color: 'var(--slack-ink)' }}>
+                → {choices[answer[i]]}
+              </span>
+            )}
+          </li>
+        )
+      })}
+    </ul>
   )
 }

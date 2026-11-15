@@ -39,6 +39,24 @@ type Mode struct {
 	TimeLimitSec int `json:"timeLimitSec"`
 	// ExamFocus restricts the mode to questions flagged as exam-critical.
 	ExamFocus bool `json:"examFocus"`
+	// Parts lays a run out as the real paper is laid out: each part draws its own
+	// questions, in order, rather than one mix across the whole bank.
+	Parts []Part `json:"parts"`
+}
+
+// Part is one section of a paper-shaped mode. Its filters combine like a mode's; Case
+// draws one case study whole instead, for a part that is a set of questions about one
+// thing in front of you (a label, a scenario).
+type Part struct {
+	Title  string   `json:"title"`
+	Count  int      `json:"count"`
+	Topics []string `json:"topics"`
+	Tags   []string `json:"tags"`
+	Types  []string `json:"types"`
+	Case   bool     `json:"case"`
+	// Generator fills the part with computed questions ("oligopoly-steps", "mixed"…)
+	// so a mock exam gets fresh numbers. It must be listed in the course's generators.
+	Generator string `json:"generator"`
 }
 
 // Course is one course's configuration.
@@ -106,6 +124,16 @@ func Load(dir string) (*Course, error) {
 				return nil, fmt.Errorf("course.json: mode %q refers to unknown topic %q", m.ID, topic)
 			}
 		}
+		for _, p := range m.Parts {
+			if p.Generator != "" && !c.Has(p.Generator) {
+				return nil, fmt.Errorf("course.json: mode %q part %q uses generator %q, which is not in generators", m.ID, p.Title, p.Generator)
+			}
+			for _, topic := range p.Topics {
+				if !seen[topic] {
+					return nil, fmt.Errorf("course.json: mode %q part %q refers to unknown topic %q", m.ID, p.Title, topic)
+				}
+			}
+		}
 	}
 
 	if c.Exam != "" {
@@ -148,3 +176,6 @@ func (c *Course) Has(generator string) bool {
 func (c *Course) ContentDir() string   { return filepath.Join(c.Dir, "content") }
 func (c *Course) AudioDir() string     { return filepath.Join(c.Dir, "audio") }
 func (c *Course) MaterialsDir() string { return filepath.Join(c.Dir, "materials") }
+
+// LabelsDir holds the label photos a case can show. Kept out of git like materials.
+func (c *Course) LabelsDir() string { return filepath.Join(c.Dir, "labels") }

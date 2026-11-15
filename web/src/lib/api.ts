@@ -7,8 +7,12 @@ export type Question = {
   id: string
   topic: string
   topicTitle: string
-  type: 'mcq' | 'tf' | 'multi' | 'hotspot' | 'text'
+  type: 'mcq' | 'tf' | 'multi' | 'hotspot' | 'text' | 'num' | 'match'
   stem: string
+  /** The left-hand column of a match question; each is paired with one of the choices. */
+  items?: string[]
+  /** Shown beside a numeric answer's input; not part of the answer. */
+  unit?: string
   choices: string[]
   difficulty: number
   examFocus: boolean
@@ -57,7 +61,7 @@ export type Verdict = {
   source: Source
 }
 
-export type Review = { question: Question; answer: number[]; explanation: string; source: Source }
+export type Review = { question: Question; answer: number[]; accept?: string[]; explanation: string; source: Source }
 
 export type Step = { action: 'read' | 'quiz'; mode?: string; topic?: string; label: string; why: string }
 

@@ -38,6 +38,8 @@ type Mode struct {
 	generator string
 	// weak draws from the player's own wrong answers.
 	weak bool
+	// parts, when set, builds the run section by section like the real paper.
+	parts []course.Part
 }
 
 // generic are the modes every course gets, whatever it teaches.
@@ -66,6 +68,26 @@ var generic = []Mode{
 		ID: "cpm", Title: "Critical path lab", Count: 8, generator: "cpm",
 		Blurb: "Fresh networks, every time.",
 		Why:   "Question 1 of the exam. Generated, so you have to run the forward and backward pass rather than recognise an answer.",
+	},
+	{
+		ID: "oligopoly", Title: "Oligopoly lab", Count: 10, generator: "oligopoly",
+		Blurb: "Monopoly, cartel, Bertrand, Cournot, Stackelberg: a new market every time.",
+		Why:   "Fresh demand curves and costs, so you have to run MR = MC and the reaction functions rather than remember 96, 128, 144 and 192.",
+	},
+	{
+		ID: "oligopoly-steps", Title: "Worked problems", Count: 12, generator: "oligopoly-steps",
+		Blurb: "One market solved step by step, the way the booklet wants it.",
+		Why:   "Each step is one number: MR, then q, then P, then profit. A slip shows you exactly which step broke.",
+	},
+	{
+		ID: "mixed", Title: "Mixed-strategy lab", Count: 8, generator: "mixed",
+		Blurb: "A new 2×2 game each time: find p, q and the payoffs.",
+		Why:   "The one trap is using your own payoffs to find your own probability. Fresh games make you do the indifference step every time.",
+	},
+	{
+		ID: "solow", Title: "Solow lab", Count: 10, generator: "solow",
+		Blurb: "Returns to scale, steady states, Golden Rule, break-even investment.",
+		Why:   "Every Solow calculation in the packet with new numbers: CRS, per-worker form, k*, y*, c*, Δk, k_gold and (δ + n + g)k.",
 	},
 	{
 		ID: "visual", Title: "Spot the error", Count: 12, types: []string{"hotspot"},
@@ -115,6 +137,9 @@ func Modes(c *course.Course) []Mode {
 			if o.TimeLimitSec > 0 {
 				m.TimeLimitSec = o.TimeLimitSec
 			}
+			if len(o.Parts) > 0 {
+				m.parts = o.Parts
+			}
 			delete(overrides, m.ID)
 		}
 		out = append(out, m)
@@ -126,6 +151,7 @@ func Modes(c *course.Course) []Mode {
 		out = append(out, Mode{
 			ID: m.ID, Title: m.Title, Count: m.Count, Blurb: m.Blurb, Why: m.Why,
 			topics: m.Topics, tags: m.Tags, types: m.Types, examFocus: m.ExamFocus,
+			TimeLimitSec: m.TimeLimitSec, parts: m.Parts,
 		})
 	}
 	return out
@@ -155,6 +181,9 @@ func Build(set *content.Set, mode Mode, topic string, count int, hist History, r
 		count = mode.Count
 	}
 
+	if gen, ok := econGenerators[mode.generator]; ok {
+		return gen(count, rnd)
+	}
 	switch mode.generator {
 	case "cpm":
 		return generatedCPM(count, rnd)
@@ -162,6 +191,10 @@ func Build(set *content.Set, mode Mode, topic string, count int, hist History, r
 		return generatedGlossary(set, count, rnd)
 	case "case":
 		return caseQuestions(set, topic, rnd)
+	}
+
+	if len(mode.parts) > 0 {
+		return paper(set, mode.parts, hist, rnd)
 	}
 
 	pool := candidates(set, mode, topic)
@@ -418,11 +451,63 @@ func caseQuestions(set *content.Set, id string, rnd *rand.Rand) ([]content.Quest
 	}
 	out := make([]content.Question, 0, len(chosen.Questions))
 	for _, q := range chosen.Questions {
-		data, _ := json.Marshal(map[string]string{"scenario": chosen.Scenario, "title": chosen.Title})
+		data, _ := json.Marshal(map[string]string{"scenario": chosen.Scenario, "title": chosen.Title, "image": chosen.Image})
 		q.Data = data
 		out = append(out, q)
 	}
 	return out, nil
+}
+
+// paper builds a run part by part, in the order the real paper asks them, so a mock
+// exam is the exam's shape and not just its topic mix. Within a part it prefers what
+// the player has not mastered, so repeated mocks work through the bank.
+func paper(set *content.Set, parts []course.Part, hist History, rnd *rand.Rand) ([]content.Question, error) {
+	var out []content.Question
+	for _, p := range parts {
+		if gen, ok := econGenerators[p.Generator]; ok {
+			qs, err := gen(p.Count, rnd)
+			if err != nil {
+				return nil, err
+			}
+			out = append(out, qs...)
+			continue
+		}
+		if p.Case {
+			qs, err := caseQuestions(set, freshCase(set, hist, rnd), rnd)
+			if err != nil {
+				return nil, err
+			}
+			if p.Count > 0 && len(qs) > p.Count {
+				qs = qs[:p.Count]
+			}
+			out = append(out, qs...)
+			continue
+		}
+		pool := candidates(set, Mode{topics: p.Topics, tags: p.Tags, types: p.Types}, "")
+		if len(pool) < p.Count {
+			return nil, fmt.Errorf("part %q needs %d questions and has %d", p.Title, p.Count, len(pool))
+		}
+		out = append(out, pickFresh(pool, hist, p.Count, rnd)...)
+	}
+	return out, nil
+}
+
+// freshCase picks a case the player has not fully mastered, so the next mock shows a
+// label they have not already worked through.
+func freshCase(set *content.Set, hist History, rnd *rand.Rand) string {
+	var fresh []string
+	for _, c := range set.Cases {
+		for _, q := range c.Questions {
+			if !hist.Mastered[q.ID] {
+				fresh = append(fresh, c.ID)
+				break
+			}
+		}
+	}
+	if len(fresh) == 0 {
+		return ""
+	}
+	return fresh[rnd.Intn(len(fresh))]
 }
 
 // Available reports how many questions a mode can currently draw on, so the picker can
@@ -431,6 +516,9 @@ func caseQuestions(set *content.Set, id string, rnd *rand.Rand) ([]content.Quest
 //
 // Generated modes are effectively unlimited; they report a large number.
 func Available(set *content.Set, mode Mode) int {
+	if _, ok := econGenerators[mode.generator]; ok {
+		return 999
+	}
 	switch mode.generator {
 	case "cpm":
 		return 999
@@ -443,6 +531,27 @@ func Available(set *content.Set, mode Mode) int {
 		n := 0
 		for _, c := range set.Cases {
 			n += len(c.Questions)
+		}
+		return n
+	}
+	if len(mode.parts) > 0 {
+		n := 0
+		for _, p := range mode.parts {
+			if _, ok := econGenerators[p.Generator]; ok {
+				n += p.Count
+				continue
+			}
+			if p.Case {
+				if len(set.Cases) == 0 {
+					return 0
+				}
+				n += p.Count
+				continue
+			}
+			if len(candidates(set, Mode{topics: p.Topics, tags: p.Tags, types: p.Types}, "")) < p.Count {
+				return 0
+			}
+			n += p.Count
 		}
 		return n
 	}

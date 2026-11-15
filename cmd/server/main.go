@@ -95,7 +95,8 @@ func main() {
 	mux := http.NewServeMux()
 	api.New(set, db, log, c.ExamAt, lib).Routes(mux)
 	mux.Handle("GET /media/", lib.Handler())
-	mux.Handle("GET /materials/", materials(c.MaterialsDir()))
+	mux.Handle("GET /materials/", materials("/materials/", c.MaterialsDir()))
+	mux.Handle("GET /labels/", materials("/labels/", c.LabelsDir()))
 	if !*apiOnly {
 		mux.Handle("/", web.Handler())
 	}
@@ -121,11 +122,11 @@ func main() {
 	}
 }
 
-// materials serves the rendered source slides a citation opens. A course without them
-// answers 404 for the manifest, and the app then shows citations as plain text.
-// Directory listings are refused so the route serves only the files the manifest names.
-func materials(dir string) http.Handler {
-	files := http.StripPrefix("/materials/", http.FileServer(http.Dir(dir)))
+// materials serves the rendered source slides a citation opens, and the label photos
+// a case shows. A course without them answers 404, and the app then shows citations as
+// plain text. Directory listings are refused so the route serves only named files.
+func materials(prefix, dir string) http.Handler {
+	files := http.StripPrefix(prefix, http.FileServer(http.Dir(dir)))
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		if strings.HasSuffix(r.URL.Path, "/") {
 			http.NotFound(w, r)

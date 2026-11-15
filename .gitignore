@@ -13,3 +13,7 @@ courses/*/audio/
 # Rendered source slides, ~20 MB per course, rebuilt by tools/materials.py and
 # shipped with the course directory by deploy.sh.
 courses/*/materials/
+
+# Label photos for case questions are third-party images: shipped by deploy.sh, not
+# kept in git.
+courses/*/labels/

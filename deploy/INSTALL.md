@@ -42,7 +42,7 @@ This host enforces SELinux, and it is the one thing that silently stops a deploy
 
 ## 2. Per course
 
-Pick a free loopback port (valuechain 8093, genai-literacy 8094, vitsup 8095) and a subdomain.
+Pick a free loopback port (valuechain 8093, genai-literacy 8094, vitsup 8095, wineed 8096, globalecon 8099; 8097 and 8098 belong to other apps on the host) and a subdomain.
 
 ```sh
 # a) port and database
@@ -106,3 +106,5 @@ catch it mid-transaction and miss whatever is still in the WAL.
 | valuechain | valuechain.wilhelm.my | 8093 | /var/lib/chulastudy/valuechain.db |
 | genai-literacy | *not yet* | 8094 | /var/lib/chulastudy/genai-literacy.db |
 | vitsup | vitsup.wilhelm.my | 8095 | /var/lib/chulastudy/vitsup.db |
+| wineed | wineed.wilhelm.my | 8096 | /var/lib/chulastudy/wineed.db |
+| globalecon | globalecon.wilhelm.my | 8099 | /var/lib/chulastudy/globalecon.db |

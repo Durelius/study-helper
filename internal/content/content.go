@@ -29,14 +29,23 @@ type Source struct {
 type Question struct {
 	ID          string   `json:"id"`
 	Topic       string   `json:"topic"`
-	Type        string   `json:"type"` // mcq | tf | multi
+	Type        string   `json:"type"` // mcq | tf | multi | text | num | hotspot | match
 	Stem        string   `json:"stem"`
+	// Items is the left-hand column of a match question. Each item is paired with one
+	// of the choices, and answer[i] is the choice for items[i].
+	Items       []string `json:"items,omitempty"`
 	Choices     []string `json:"choices"`
 	Answer      []int    `json:"answer"`
 	// Accept lists the answers a free-text question will take. Grading is liberal:
 	// case, punctuation and near misses all pass. Never sent to the browser before
 	// the reader has answered.
 	Accept      []string `json:"accept,omitempty"`
+	// Value is the key of a numeric question, graded within Tolerance (absolute; zero
+	// means the default — see number.go). Unit is shown beside the input and is not
+	// part of the answer, so it is safe to send before grading.
+	Value       *float64 `json:"value,omitempty"`
+	Tolerance   float64  `json:"tolerance,omitempty"`
+	Unit        string   `json:"unit,omitempty"`
 	Explanation string   `json:"explanation"`
 	Source      Source   `json:"source"`
 	Difficulty  int      `json:"difficulty"`
@@ -52,9 +61,20 @@ type Question struct {
 
 // Correct reports whether a set of chosen indices matches the key exactly. Order does
 // not matter; a multi-answer question needs every correct choice and no extras.
+//
+// A match question is the exception: there the order is the pairing, so every item has
+// to be paired with its own choice.
 func (q Question) Correct(given []int) bool {
 	if len(given) != len(q.Answer) {
 		return false
+	}
+	if q.Type == "match" {
+		for i := range given {
+			if given[i] != q.Answer[i] {
+				return false
+			}
+		}
+		return true
 	}
 	want := map[int]bool{}
 	for _, i := range q.Answer {
@@ -87,6 +107,9 @@ type Case struct {
 	Title     string     `json:"title"`
 	Topics    []string   `json:"topics"`
 	Scenario  string     `json:"scenario"`
+	// Image is a picture the questions are about — a wine label — served from the
+	// course's labels/ directory and shown above the scenario.
+	Image     string     `json:"image,omitempty"`
 	Questions []Question `json:"questions"`
 }
 
@@ -290,6 +313,15 @@ func validate(q Question) error {
 	if q.ID == "" {
 		return fmt.Errorf("question with no id")
 	}
+	if q.Type == "num" {
+		if q.Value == nil {
+			return fmt.Errorf("%s: a numeric question needs a value", q.ID)
+		}
+		if q.Tolerance < 0 {
+			return fmt.Errorf("%s: a negative tolerance", q.ID)
+		}
+		return nil
+	}
 	if q.Type == "text" {
 		if len(q.Accept) == 0 {
 			return fmt.Errorf("%s: a text question needs at least one accepted answer", q.ID)
@@ -312,7 +344,8 @@ func validate(q Question) error {
 		if i < 0 || i >= len(q.Choices) {
 			return fmt.Errorf("%s: answer index %d is outside its %d choices", q.ID, i, len(q.Choices))
 		}
-		if seen[i] {
+		// Two items of a match can share a choice — two grapes from one region.
+		if seen[i] && q.Type != "match" {
 			return fmt.Errorf("%s: answer index %d repeated", q.ID, i)
 		}
 		seen[i] = true
@@ -329,6 +362,18 @@ func validate(q Question) error {
 	case "multi":
 		if len(q.Answer) < 2 {
 			return fmt.Errorf("%s: a multi-answer question needs at least two answers", q.ID)
+		}
+	case "match":
+		if len(q.Items) < 3 {
+			return fmt.Errorf("%s: a match question needs at least three items", q.ID)
+		}
+		if len(q.Answer) != len(q.Items) {
+			return fmt.Errorf("%s: a match question needs one answer per item", q.ID)
+		}
+		// At least two choices that pair with nothing, so the last pair cannot be found
+		// by elimination.
+		if spare := len(q.Choices) - len(seen); spare < 2 {
+			return fmt.Errorf("%s: a match question needs at least two spare choices, has %d", q.ID, spare)
 		}
 	case "hotspot":
 		// The choices are the diagram's clickable regions, so a hotspot question
@@ -379,3 +424,7 @@ func parseLecture(raw string) Lecture {
 	lec.Body = strings.TrimLeft(body, "\n")
 	return lec
 }
+
+// Validate applies the authoring checks to a question built in code, so a generator is
+// held to the same bar as the files.
+func Validate(q Question) error { return validate(q) }
