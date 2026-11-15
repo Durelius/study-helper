@@ -1,0 +1,196 @@
+{
+  "id": "globalecon",
+  "title": "Economic Concepts: Ideas, Strategy & Growth",
+  "code": "BAScII",
+  "shortName": "Economic Concepts",
+  "exam": "2026-11-17T13:00:00+07:00",
+  "generators": [
+    "oligopoly-table",
+    "oligopoly",
+    "oligopoly-steps",
+    "solow",
+    "solow-computers"
+  ],
+  "topics": [
+    {
+      "id": "exam-core",
+      "title": "Exam Core: Formula Sheet & Traps",
+      "weight": 0
+    },
+    {
+      "id": "market-for-ideas",
+      "title": "Market for Ideas: Mokyr & the Enlightenment",
+      "weight": 30
+    },
+    {
+      "id": "oligopoly",
+      "title": "Oligopoly: Grab vs Uber",
+      "weight": 35
+    },
+    {
+      "id": "mixed-strategy",
+      "title": "Mixed-Strategy Nash Equilibrium",
+      "weight": 0
+    },
+    {
+      "id": "solow",
+      "title": "Solow Model: Capital, Saving & Steady State",
+      "weight": 25
+    },
+    {
+      "id": "golden-rule",
+      "title": "Golden Rule, Population & Technology",
+      "weight": 10
+    }
+  ],
+  "modes": [
+    {
+      "id": "exam",
+      "title": "Mock quiz",
+      "count": 40,
+      "timeLimitSec": 7200,
+      "blurb": "The paper as announced: the 16-cell table, Mokyr, the Solow graph and the computers calculation.",
+      "why": "The quiz is 120 minutes with a calculator. Over a third is the 16-cell results table, worked from nothing but a demand curve and marginal cost. Under a third is multiple choice on Mokyr and the market for ideas. Then Solow graph questions (steady state, war casualties, what a policymaker's change does to the curves) and the company-level computers calculation. Game theory (mixed strategies) is not examined.",
+      "parts": [
+        {
+          "title": "Fill the table",
+          "count": 16,
+          "generator": "oligopoly-table"
+        },
+        {
+          "title": "Market for ideas",
+          "count": 11,
+          "topics": [
+            "market-for-ideas"
+          ],
+          "types": [
+            "mcq",
+            "tf",
+            "multi"
+          ]
+        },
+        {
+          "title": "Solow graph",
+          "count": 9,
+          "tags": [
+            "solow-graph"
+          ],
+          "types": [
+            "mcq",
+            "tf",
+            "multi"
+          ]
+        },
+        {
+          "title": "Computers",
+          "count": 4,
+          "generator": "solow-computers"
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "title": "Fill the table",
+      "count": 16,
+      "blurb": "A fresh demand curve and MC: all 16 cells of the results table.",
+      "why": "Over a third of the quiz. Given only P = A − Q and MC, fill total output, price, Total Value (P × Q) and total profit for Bertrand, Stackelberg, Cournot and collusion. Outputs are A − C, ¾, ⅔ and ½ of it; everything else follows from demand.",
+      "parts": [
+        {
+          "title": "Fill the table",
+          "count": 16,
+          "generator": "oligopoly-table"
+        }
+      ]
+    },
+    {
+      "id": "solow-graph",
+      "title": "Solow graph",
+      "count": 15,
+      "tags": [
+        "solow-graph"
+      ],
+      "types": [
+        "mcq",
+        "tf",
+        "multi"
+      ],
+      "blurb": "Read the diagram: steady state, war casualties, policy shifts.",
+      "why": "The Solow block is multiple choice on the s·f(k) vs depreciation diagram: where k* is, which way k moves, what a war does, and which curve a policymaker's change moves."
+    },
+    {
+      "id": "computers",
+      "title": "Computers",
+      "count": 8,
+      "blurb": "The company-level Solow calculation with fresh rates.",
+      "why": "Depreciation, effective workers and computers to add: (δ + n + g) × N. New workers are not boosted by technology, which is why the rates add.",
+      "parts": [
+        {
+          "title": "Computers",
+          "count": 8,
+          "generator": "solow-computers"
+        }
+      ]
+    },
+    {
+      "id": "packet",
+      "title": "Packet problems",
+      "count": 20,
+      "tags": [
+        "packet"
+      ],
+      "blurb": "The packet's own numbers and pop-quiz questions.",
+      "why": "The quiz is written from this packet. These are its worked examples exactly as given: Grab and Uber at P = 339 − Q and pop-quiz questions Q1, Q3, Q4 and Q5. Know these cold before moving to fresh numbers.",
+      "topics": [
+        "exam-core",
+        "market-for-ideas",
+        "oligopoly",
+        "solow",
+        "golden-rule"
+      ]
+    },
+    {
+      "id": "explain",
+      "title": "Explain it",
+      "count": 15,
+      "tags": [
+        "explain"
+      ],
+      "blurb": "Why, not what: pick the reasoning a marker would accept.",
+      "why": "These give you the causal chain and its tempting wrong versions: level vs growth effect, why China had few ideas despite its audience, why a war on capital means fast growth and a war on workers means negative growth.",
+      "topics": [
+        "exam-core",
+        "market-for-ideas",
+        "oligopoly",
+        "solow",
+        "golden-rule"
+      ]
+    },
+    {
+      "id": "formulas",
+      "title": "Formula drill",
+      "count": 15,
+      "tags": [
+        "formula"
+      ],
+      "blurb": "Each formula recalled, then used once.",
+      "why": "MR = a − 2Q, the reaction function, Δk = sf(k) − (δ + n + g)k, MPK = δ: if a formula is not instant, the calculation questions cost twice the time.",
+      "topics": [
+        "exam-core",
+        "market-for-ideas",
+        "oligopoly",
+        "solow",
+        "golden-rule"
+      ]
+    },
+    {
+      "id": "exam-core",
+      "title": "Exam core",
+      "count": 20,
+      "topics": [
+        "exam-core"
+      ],
+      "blurb": "The formula sheet and the ten traps, as questions.",
+      "why": "One pass over the highest-yield facts across all three blocks."
+    }
+  ]
+}

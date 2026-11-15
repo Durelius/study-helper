@@ -1,0 +1,135 @@
+{
+  "id": "ideas-graph",
+  "title": "Graph: the market for ideas",
+  "topics": [
+    "market-for-ideas"
+  ],
+  "scenario": "The market for ideas: the fragmentation index on the vertical axis (Europe high, China low) and the number of ideas on the horizontal. Two curves: size of audience and risk of persecution.",
+  "image": "/labels/ideas-graph.webp",
+  "questions": [
+    {
+      "id": "case-ideas-graph-01",
+      "topic": "market-for-ideas",
+      "type": "mcq",
+      "stem": "Which curve is the supply side of the market for ideas?",
+      "choices": [
+        "Risk of persecution, sloping upward",
+        "Size of audience, sloping downward",
+        "Risk of persecution, sloping downward",
+        "The fragmentation index line"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Higher fragmentation lowers persecution risk, so more ideas are supplied: upward slope.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 11
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ideas-graph-02",
+      "topic": "market-for-ideas",
+      "type": "mcq",
+      "stem": "Where is China on the graph?",
+      "choices": [
+        "Top right: high fragmentation, many ideas",
+        "Bottom left: low fragmentation, few ideas",
+        "Top left: high fragmentation, few ideas",
+        "Bottom right: low fragmentation, many ideas"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Unified China has the lowest fragmentation index and ends up with a low number of ideas.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 13
+      },
+      "difficulty": 1,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ideas-graph-03",
+      "topic": "market-for-ideas",
+      "type": "mcq",
+      "stem": "Africa sits high on the fragmentation index but far to the left on ideas. What explains this?",
+      "choices": [
+        "A high risk of persecution",
+        "A very large audience in each state",
+        "A lack of intellectual consolidation and low payoffs relative to the cost of ideas",
+        "Open science"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Fragmentation is not sufficient on its own.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 14
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ideas-graph-04",
+      "topic": "market-for-ideas",
+      "type": "mcq",
+      "stem": "At Europe's level of fragmentation, the persecution curve reaches E₁ (many ideas) but the audience curve only E'' (few). What lifted Europe toward many ideas?",
+      "choices": [
+        "Political unification",
+        "Higher persecution risk",
+        "A smaller audience per state",
+        "The Republic of Letters: a unified market for ideas across fragmented states"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Fragmentation kept persecution low, and the transnational Republic of Letters removed the small-audience problem. Together with lower access costs and an urban commercial class, Europe moved to greater levels of ideas.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 17
+      },
+      "difficulty": 3,
+      "tags": [
+        "explain",
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ideas-graph-05",
+      "topic": "market-for-ideas",
+      "type": "tf",
+      "stem": "Because fragmentation shifts both demand and supply of ideas, the model has multiple equilibria.",
+      "choices": [
+        "True",
+        "False"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "The two channels pull in opposite directions, so different fragmentation levels give different outcomes (China, Europe, Africa).",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 8
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    }
+  ]
+}

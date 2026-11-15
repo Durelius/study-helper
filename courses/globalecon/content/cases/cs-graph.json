@@ -1,0 +1,157 @@
+{
+  "id": "cs-graph",
+  "title": "Graph: consumer surplus, Grab as monopoly vs competition",
+  "topics": [
+    "oligopoly"
+  ],
+  "scenario": "Grab faces P = 339 − Q (rides per minute) with MC = 147 THB. The monopoly equilibrium is Q = 96 at P = 243; the competitive equilibrium is Q = 192 at P = 147. Areas A, B, C and D are marked on the graph.",
+  "image": "/labels/cs-graph.webp",
+  "questions": [
+    {
+      "id": "case-cs-graph-01",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Which area is consumer surplus in the competitive (Bertrand) equilibrium?",
+      "choices": [
+        "A + B + C",
+        "A",
+        "A + C",
+        "D"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "At P = 147 consumers get everything under demand and above 147: A + B + C = ½ × 192 × 192 = 18,432.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-cs-graph-02",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Which area is consumer surplus in the monopoly equilibrium?",
+      "choices": [
+        "A + C",
+        "A",
+        "A + B + C",
+        "B"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "At P = 243 consumers keep only the triangle above 243: A = ½ × 96 × 96 = 4,608.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-cs-graph-03",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Moving from competition to monopoly, what happens to area C?",
+      "choices": [
+        "It is lost to everyone",
+        "It stays with consumers",
+        "It goes from consumers to the monopolist",
+        "It becomes the firm's cost"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "C is the rectangle between 147 and 243 over the first 96 rides: consumer surplus under competition, producer surplus (profit) under monopoly.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 26
+      },
+      "difficulty": 3,
+      "tags": [
+        "explain",
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-cs-graph-04",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Which area is the deadweight loss of monopoly?",
+      "choices": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "B is the triangle between demand and MC from 96 to 192 rides: trades that would happen under competition but do not under monopoly. Nobody gets it.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 26
+      },
+      "difficulty": 3,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-cs-graph-05",
+      "topic": "oligopoly",
+      "type": "num",
+      "stem": "What is the value of area C?",
+      "choices": [],
+      "answer": [],
+      "explanation": "(243 − 147) × 96 = 96 × 96 = 9,216: the monopoly profit.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true,
+      "value": 9216,
+      "unit": "THB"
+    },
+    {
+      "id": "case-cs-graph-06",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Why does the MR line reach the horizontal axis at 169.5?",
+      "choices": [
+        "MR = 339 − 2Q is zero at Q = 169.5",
+        "MC = 147 meets demand there",
+        "It is half the competitive output",
+        "Demand is zero there"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "MR falls twice as fast as demand, so it hits zero at half of 339. Competitive output is 192; demand reaches zero at 339.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 26
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    }
+  ]
+}

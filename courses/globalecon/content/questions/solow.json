@@ -1,0 +1,1396 @@
+[
+  {
+    "id": "sol-001",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Robert Solow was awarded the Nobel Prize for what?",
+    "choices": [
+      "Contributions to the theory of economic growth",
+      "Explaining innovation through historical analysis",
+      "The theory of oligopoly",
+      "Mixed-strategy equilibria"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Solow built the growth model in the 1950s. Innovation through historical analysis is Mokyr.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 50
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "sol-002",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "What policy did Solow's studies help persuade governments to adopt from the 1960s?",
+    "choices": [
+      "Raise saving rates as high as possible",
+      "Channel funds into technological research and development",
+      "Restrict population growth",
+      "Protect domestic industries with tariffs"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The model's implication is that sustained growth comes from technology, so governments funded R&D.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 50
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "sol-003",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "In a model, what is an exogenous variable?",
+    "choices": [
+      "One the model is built to explain, such as real GDP",
+      "One that is always zero",
+      "One the model takes as given, such as the saving rate",
+      "One that grows at the rate of technology"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Exogenous variables are inputs, like s. Endogenous variables, like GDP, investment and employment, are what the model explains.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-004",
+    "topic": "solow",
+    "type": "multi",
+    "stem": "Which are endogenous variables in the Solow model? Select all that apply.",
+    "choices": [
+      "Real GDP",
+      "Investment",
+      "Capital per worker",
+      "The saving rate s",
+      "The depreciation rate δ"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The model explains output, investment and capital. It takes s and δ as given (exogenous).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "sol-005",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "What does the Solow model show?",
+    "choices": [
+      "How capital growth, labour-force growth and technology interact to determine output",
+      "How firms set prices in an oligopoly",
+      "How ideas spread in fragmented states",
+      "How the central bank sets interest rates"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The model tracks capital (K), labour (L) and technology (A or E) and how they affect total output of goods and services.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "sol-006",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "In the national income identity Y = C + I + G + NX, what does the Solow model assume about G and NX?",
+    "choices": [
+      "G is zero but NX is positive",
+      "Both are zero, so Y = C + I",
+      "Both grow at the rate n",
+      "Both equal investment"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "With G = 0 and NX = 0, output is split between consumption and investment only: Y = C + I.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "sol-007",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Consumers save a constant fraction s of income. Which consumption equation follows?",
+    "choices": [
+      "C = sY",
+      "C = Y − δK",
+      "C = (1 − s)Y",
+      "C = (1 + s)Y"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "They consume the rest: C = (1 − s)Y. Saving, which becomes investment, is sY.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-008",
+    "topic": "solow",
+    "type": "tf",
+    "stem": "In the Solow model, every firm uses the same production technology, so Y = F(K, L).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "One production function for the whole economy, taking capital and labour as inputs.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "sol-009",
+    "topic": "solow",
+    "type": "text",
+    "stem": "The extra output a worker produces when given one more unit of capital is the marginal ______ of capital.",
+    "choices": [],
+    "answer": [],
+    "explanation": "The marginal product of capital (MPK): the slope of the production function.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 54
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "accept": [
+      "product",
+      "product of capital",
+      "MPK"
+    ]
+  },
+  {
+    "id": "sol-010",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "The production function y = f(k) has a positive first derivative and a negative second derivative. What does this mean?",
+    "choices": [
+      "More capital raises output at an increasing rate",
+      "More capital eventually lowers output",
+      "Output is proportional to capital",
+      "More capital always raises output, but by less and less"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Positive first derivative: upward slope. Negative second derivative: the slope (MPK) flattens. This is diminishing marginal product of capital.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-011",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "What does constant returns to scale mean?",
+    "choices": [
+      "Multiplying both capital and labour by z multiplies output by z",
+      "Output stays constant as inputs grow",
+      "Multiplying capital alone by z multiplies output by z",
+      "Each extra unit of capital adds the same output"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "zY = F(zK, zL) for any z > 0. It is about scaling all inputs together, not one input alone (that is MPK).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "crs",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-012",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Country A has Y = K^½ L^½. Does this production function have constant returns to scale?",
+    "choices": [
+      "No: each exponent is below 1, so returns are decreasing",
+      "Yes: F(zK, zL) = z^½ z^½ K^½ L^½ = zY",
+      "No: z^½ · z^½ = z^¼",
+      "Only if K = L"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "(zK)^½(zL)^½ = z^(½+½)K^½L^½ = z·Y. The exponents sum to 1, so CRS. Each exponent below 1 means diminishing returns to each input alone, not to scale.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "crs",
+      "packet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-013",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Y = K^0.4 L^0.4. What kind of returns to scale is this?",
+    "choices": [
+      "Constant",
+      "Increasing",
+      "Decreasing",
+      "Cannot tell without the saving rate"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "F(zK, zL) = z^0.8 · Y. Since 0.8 < 1, doubling inputs less than doubles output.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "crs"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-014",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Y = K^0.6 L^0.6. What kind of returns to scale is this?",
+    "choices": [
+      "Constant",
+      "Decreasing",
+      "Diminishing marginal product, so decreasing",
+      "Increasing"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Exponents sum to 1.2 > 1, so F(zK, zL) = z^1.2 · Y: increasing returns to scale.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "crs"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-015",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Why does the Solow model assume constant returns to scale?",
+    "choices": [
+      "It lets everything be analysed per worker, as y = f(k)",
+      "It guarantees permanent growth",
+      "It makes the saving rate endogenous",
+      "It removes depreciation from the model"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Setting z = 1/L gives Y/L = F(K/L, 1), so output per worker depends only on capital per worker.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 57
+    },
+    "difficulty": 2,
+    "tags": [
+      "crs",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-016",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Setting z = 1/L in zY = F(zK, zL) gives which expression?",
+    "choices": [
+      "Y = F(K, 1)",
+      "Y/L = F(K/L, 1)",
+      "Y/K = F(1, L/K)",
+      "Y·L = F(K·L, L²)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Divide both inputs by L: output per worker is a function of capital per worker. The 1 is a constant and can be ignored.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 57
+    },
+    "difficulty": 2,
+    "tags": [
+      "per-worker",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-017",
+    "topic": "solow",
+    "type": "text",
+    "stem": "In the Solow model, y = Y/L is output per worker and k = K/L is ______ per worker.",
+    "choices": [],
+    "answer": [],
+    "explanation": "k = K/L is capital per worker, and y = f(k).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 57
+    },
+    "difficulty": 1,
+    "tags": [
+      "per-worker"
+    ],
+    "examFocus": true,
+    "accept": [
+      "capital"
+    ]
+  },
+  {
+    "id": "sol-018",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Country A has Y = K^½ L^½. What is its per-worker production function?",
+    "choices": [
+      "y = k",
+      "y = k^¼",
+      "y = k^½",
+      "y = K^½"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Y/L = K^½ L^½ / L = K^½ / L^½ = (K/L)^½ = k^½ = √k.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "per-worker",
+      "packet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-019",
+    "topic": "solow",
+    "type": "num",
+    "stem": "An economy has Y = K^0.3 L^0.7. Its per-worker production function is y = k^x. What is x?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Y/L = K^0.3 × L^0.7 / L¹ = K^0.3 / L^0.3 = (K/L)^0.3, so y = k^0.3.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 71
+    },
+    "difficulty": 2,
+    "tags": [
+      "per-worker",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 0.3
+  },
+  {
+    "id": "sol-020",
+    "topic": "solow",
+    "type": "num",
+    "stem": "With y = √k, what is output per worker when capital per worker is k = 16?",
+    "choices": [],
+    "answer": [],
+    "explanation": "y = √16 = 4.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "per-worker"
+    ],
+    "examFocus": true,
+    "value": 4
+  },
+  {
+    "id": "sol-021",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Y = K^0.3 L^0.7. A student writes Y/L = K^0.3 · L^−0.3. What is the next step?",
+    "choices": [
+      "Multiply the exponents to get k^0.09",
+      "Add the exponents to get k^0",
+      "Write it as K^0.3 − L^0.3",
+      "Combine as (K/L)^0.3 = k^0.3"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "K^0.3 / L^0.3 = (K/L)^0.3 because both have the same exponent. So y = k^0.3.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 71
+    },
+    "difficulty": 2,
+    "tags": [
+      "per-worker",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-022",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Starting from y = c + i and c = (1 − s)y, what is investment per worker?",
+    "choices": [
+      "i = sy = s·f(k)",
+      "i = (1 − s)y",
+      "i = δk",
+      "i = y − sk"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "y = (1 − s)y + i ⇒ i = sy. Investment equals saving, and with y = f(k), i = s·f(k).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-023",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "For capital k, which is consumption per worker?",
+    "choices": [
+      "s·f(k)",
+      "f(k) − s·f(k)",
+      "f(k) − δk",
+      "δk"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Output f(k) splits into investment s·f(k) and consumption f(k) − s·f(k) = (1 − s)f(k). f(k) − δk is steady-state consumption, used for the Golden Rule.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 61
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-024",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "What is the change in the capital stock per worker, with no population growth or technology?",
+    "choices": [
+      "Δk = f(k) − δk",
+      "Δk = s·f(k) + δk",
+      "Δk = s·f(k) − δk",
+      "Δk = δk − s·f(k)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Change in capital = investment − depreciation = s·f(k) − δk.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-025",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "What defines the steady state k*?",
+    "choices": [
+      "Output per worker is maximised",
+      "Consumption per worker is maximised",
+      "Investment is zero",
+      "Investment equals depreciation, so Δk = 0"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "At k*, s·f(k*) = δk* and capital per worker stops changing. Maximum consumption is the Golden Rule, a different, special steady state.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-026",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "An economy is below its steady state, k < k*. What happens to k?",
+    "choices": [
+      "It rises, because investment exceeds depreciation",
+      "It falls, because depreciation exceeds investment",
+      "It stays put",
+      "It jumps immediately to k*"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Below k*, s·f(k) > δk, so Δk > 0 and capital grows toward k*.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-027",
+    "topic": "solow",
+    "type": "num",
+    "stem": "y = √k, s = 0.3, δ = 0.1, no population growth. What is the steady-state capital per worker k*?",
+    "choices": [],
+    "answer": [],
+    "explanation": "s√k = δk ⇒ √k = s/δ = 3 ⇒ k* = 9.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 3,
+    "tags": [
+      "steady-state"
+    ],
+    "examFocus": true,
+    "value": 9
+  },
+  {
+    "id": "sol-028",
+    "topic": "solow",
+    "type": "num",
+    "stem": "y = √k, s = 0.3, δ = 0.1, no population growth. What is steady-state consumption per worker?",
+    "choices": [],
+    "answer": [],
+    "explanation": "k* = 9, y* = 3, c* = (1 − s)y* = 0.7 × 3 = 2.1.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 61
+    },
+    "difficulty": 3,
+    "tags": [
+      "steady-state"
+    ],
+    "examFocus": true,
+    "value": 2.1
+  },
+  {
+    "id": "sol-029",
+    "topic": "solow",
+    "type": "num",
+    "stem": "y = √k, s = 0.2, δ = 0.05, no population growth. Capital per worker is k = 4. What is Δk?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Δk = s√k − δk = 0.2 × 2 − 0.05 × 4 = 0.4 − 0.2 = 0.2. Positive, since k is below k* = (0.2/0.05)² = 16.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 3,
+    "tags": [
+      "steady-state"
+    ],
+    "examFocus": true,
+    "value": 0.2
+  },
+  {
+    "id": "sol-030",
+    "topic": "solow",
+    "type": "tf",
+    "stem": "Depreciation per worker, δk, is a straight line through the origin with slope δ.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Constant depreciation rate δ: depreciation is proportional to k.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 62
+    },
+    "difficulty": 1,
+    "tags": [
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-031",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "The saving rate rises from s₁ to s₂. What happens in the long run?",
+    "choices": [
+      "The economy grows faster forever",
+      "k* and y* rise to a higher level, but steady-state growth does not change",
+      "k* falls because consumption falls",
+      "Nothing: saving does not affect the steady state"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The investment curve shifts up, so k* and y* rise: a level effect. Growth is faster only during the transition.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 64
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-032",
+    "topic": "solow",
+    "type": "tf",
+    "stem": "In the Solow model, a higher saving rate permanently raises the growth rate of output per worker.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Only temporarily, until the new steady state. Saving has a level effect, not a growth effect.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-033",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "What is a level effect?",
+    "choices": [
+      "A policy changes the steady-state growth rate of income per person",
+      "A policy changes the price level",
+      "A policy changes the level of income per person in the steady state, not its growth rate",
+      "A policy changes the size of the labour force"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Level effect: higher steady-state income, same long-run growth. A growth effect changes the steady-state growth rate itself.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-034",
+    "topic": "solow",
+    "type": "text",
+    "stem": "A policy that changes the steady-state growth rate of income per person is said to have a ______ effect.",
+    "choices": [],
+    "answer": [],
+    "explanation": "A growth effect. Saving has only a level effect; in Solow, sustained growth needs technological progress.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true,
+    "accept": [
+      "growth"
+    ]
+  },
+  {
+    "id": "sol-035",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Is a higher saving rate always a better strategy?",
+    "choices": [
+      "Yes: higher saving always raises consumption",
+      "Yes: higher saving permanently raises growth",
+      "No: higher saving always lowers income",
+      "No: it raises income only temporarily and the level permanently, while people ultimately care about consumption"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Higher saving raises growth only until the new steady state, and what people value is consumption. Whether more saving raises steady-state consumption depends on the Golden Rule.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    },
+    "difficulty": 3,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-036",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "After 1945, Japan and Germany grew much faster than the US. In the Solow model, why?",
+    "choices": [
+      "War had pushed their k far below k*, and high saving meant investment far exceeded depreciation",
+      "They had higher technological growth than the US",
+      "Their populations were growing much faster",
+      "They had permanently higher growth rates because of higher saving"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Capital destroyed means low k, where investment exceeds depreciation. With saving at 24% (Japan) and 26% (Germany), they caught up fast. Growth slowed as they neared their steady state.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "war",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-037",
+    "topic": "solow",
+    "type": "multi",
+    "stem": "Which figures describe postwar Japan and Germany (1948–72) in the packet? Select all that apply.",
+    "choices": [
+      "Japan's saving rate was 12%",
+      "Output per person grew 8.2% a year in Japan",
+      "Germany's capital stock was untouched by the war",
+      "Output per person grew 5.7% a year in Germany",
+      "US output per person grew 2.2% a year"
+    ],
+    "answer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "Japan 8.2%, Germany 5.7%, US 2.2%, with saving rates 24%, 26% and 22%.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 65
+    },
+    "difficulty": 1,
+    "tags": [
+      "war"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-038",
+    "topic": "solow",
+    "type": "tf",
+    "stem": "When a war destroys part of the capital stock, output falls immediately but then grows faster than normal for a while.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "k drops below k*, so investment exceeds depreciation and the economy grows back toward its old steady state.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 65
+    },
+    "difficulty": 1,
+    "tags": [
+      "war",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-039",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "A war leaves the capital stock intact but casualties reduce the labour force. What is the immediate impact?",
+    "choices": [
+      "Total output and output per worker both fall",
+      "Total output rises, but output per worker falls",
+      "Total output falls, but output per worker rises",
+      "Neither changes, since capital is unchanged"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Fewer workers produce less in total. But k = K/L rises, so each remaining worker has more capital and produces more.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 67
+    },
+    "difficulty": 2,
+    "tags": [
+      "war",
+      "packet",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-040",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "A war kills part of the labour force but not the capital. The economy was in steady state; afterwards saving and population growth return to normal. What happens to output per worker afterwards?",
+    "choices": [
+      "It keeps rising as more capital per worker accumulates",
+      "It stays permanently higher",
+      "It grows faster than normal, as in postwar Japan",
+      "It falls back toward its old level, so its growth rate is negative until the steady state"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "k is now above k*, so depreciation exceeds investment and k falls back. Output per worker falls from its higher level: growth below normal (negative). Postwar Japan is the opposite case.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 69
+    },
+    "difficulty": 3,
+    "tags": [
+      "war",
+      "packet",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-041",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Why is the growth rate of output per worker negative after a war that kills workers?",
+    "choices": [
+      "Normal steady-state growth of y is zero without technology, and y is now falling back from above y*",
+      "Because total output fell",
+      "Because the saving rate fell",
+      "Because population growth became negative"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Without technological change, steady-state growth of output per worker is zero. Moving down from k above k* means y is falling, so growth is below zero.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 69
+    },
+    "difficulty": 3,
+    "tags": [
+      "war",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-042",
+    "topic": "solow",
+    "type": "match",
+    "stem": "Match each shock to what happens to capital per worker k immediately afterwards.",
+    "choices": [
+      "k falls below k*",
+      "k rises above k*",
+      "k* rises, k starts climbing",
+      "k* falls, k starts declining",
+      "k jumps to the Golden Rule",
+      "No change in k or k*"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Destroying K lowers k; killing workers raises k = K/L. Higher s raises k*; higher n steepens break-even investment and lowers k*.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 66
+    },
+    "difficulty": 3,
+    "tags": [
+      "war"
+    ],
+    "examFocus": true,
+    "items": [
+      "War destroys capital",
+      "War kills workers",
+      "Saving rate rises",
+      "Population growth rises"
+    ]
+  },
+  {
+    "id": "sol-043",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "k is below the Golden Rule. Society devotes a larger share of output to investment. What happens to living standards (consumption) immediately?",
+    "choices": [
+      "They rise, because output rises immediately",
+      "They fall, because a smaller share goes to consumption",
+      "They stay the same",
+      "They rise, because the economy is below the Golden Rule"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The immediate effect of a higher investment share is a smaller consumption share, so living standards fall. Consumption only ends up higher in the new steady state.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 83
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-044",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Starting below the Golden Rule, the investment rate rises. What happens to productivity (output per worker) growth?",
+    "choices": [
+      "It rises permanently",
+      "It falls immediately and stays lower",
+      "It rises in the short run but has no effect in the long run",
+      "It is unaffected throughout"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Capital accumulates faster, so output per worker grows faster during the transition. In the new steady state output per worker grows at zero again.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 83
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-045",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "“Devoting a larger share of national output to investment would restore rapid productivity growth and rising living standards.” Starting below the Golden Rule, what is the best assessment?",
+    "choices": [
+      "Fully true: both rise immediately and permanently",
+      "False: investment lowers productivity",
+      "False: living standards end up lower in the new steady state",
+      "Partly true: productivity growth rises only temporarily, and living standards fall first and rise only over time"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The quotation emphasises growth but not the sacrifice required to achieve it. Below the Golden Rule, the new steady state does have higher consumption, but only after an initial fall.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 83
+    },
+    "difficulty": 3,
+    "tags": [
+      "packet",
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-046",
+    "topic": "solow",
+    "type": "tf",
+    "stem": "In the new steady state after a rise in the investment rate, output grows at rate n while output per worker grows at zero.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "With no technological progress, steady-state output per worker is constant, and total output grows with the labour force at n.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 83
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-047",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "On the Solow diagram with k on the horizontal axis, where is the steady state k*?",
+    "choices": [
+      "Where the production curve f(k) is steepest",
+      "Where the investment curve s·f(k) crosses the depreciation line δk",
+      "Where f(k) crosses δk",
+      "Where the gap between f(k) and s·f(k) is largest"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "At k*, investment s·f(k) exactly replaces depreciation δk, so Δk = 0. f(k) crossing δk is the trap: output is not all invested, only the share s.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-048",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "On the Solow diagram, k is to the right of k*. Which curve is higher there, and what happens to k?",
+    "choices": [
+      "δk is above s·f(k), so k falls toward k*",
+      "s·f(k) is above δk, so k keeps rising",
+      "δk is above s·f(k), so k keeps falling past k*",
+      "The curves are equal, so k stays put"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Right of k*, depreciation exceeds investment, so Δk < 0 and k shrinks, but only until it reaches k*, where Δk = 0 again.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-049",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "On the diagram, the vertical distance between f(k) and s·f(k) at a given k is:",
+    "choices": [
+      "Investment per worker",
+      "Depreciation per worker",
+      "Consumption per worker",
+      "Δk"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "f(k) is output per worker and s·f(k) is the part invested, so the gap is (1 − s)·f(k) = c, consumption per worker.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 61
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-050",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Policymakers raise the saving rate from s₁ to s₂. What happens on the Solow diagram?",
+    "choices": [
+      "The δk line pivots upward and k* falls",
+      "The s·f(k) curve shifts up, so it crosses δk at a higher k*",
+      "The f(k) curve shifts up and k* is unchanged",
+      "Both curves shift up by the same amount, so k* is unchanged"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Saving only moves the investment curve. It now crosses the unchanged δk line further right, so k* and y* rise: a level effect.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 64
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph",
+      "policy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-051",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "The depreciation rate δ rises (machines wear out faster). On the Solow diagram:",
+    "choices": [
+      "The δk line gets steeper and k* falls",
+      "The s·f(k) curve shifts down and k* rises",
+      "The δk line gets flatter and k* rises",
+      "Nothing moves; δ only affects consumption"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "δ is the slope of the depreciation line. A steeper line meets s·f(k) at a lower k, so steady-state capital and output per worker fall.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 62
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph",
+      "policy"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-052",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "After policymakers raise s, the economy moves from k₁* to k₂*. What does the growth rate of output per worker do?",
+    "choices": [
+      "It rises permanently",
+      "It rises during the move, then returns to its old steady-state rate",
+      "It falls during the move, then rises",
+      "It is unchanged throughout"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Between k₁* and k₂*, investment exceeds depreciation so k and y grow. Once k₂* is reached, Δk = 0 again: higher level, same long-run growth.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 64
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph",
+      "policy",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-053",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "A war destroys half the capital stock but no workers. Where does the economy jump to on the Solow diagram?",
+    "choices": [
+      "To the right of k*, where δk exceeds s·f(k)",
+      "To the left of k*, where s·f(k) exceeds δk",
+      "It stays at k*, because L is unchanged",
+      "To the Golden Rule level"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "K falls with L unchanged, so k = K/L falls below k*. There investment exceeds depreciation, so k grows back fast: the postwar Japan and Germany catch-up.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph",
+      "war"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-054",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "A war's casualties cut the labour force but leave capital intact. Where does the economy jump to on the Solow diagram?",
+    "choices": [
+      "To the left of k*, so output per worker grows faster than normal",
+      "To the right of k*, so k and output per worker then fall back toward k*",
+      "It stays at k*, because only L changed",
+      "Below the s·f(k) curve at the same k"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "L falls with K unchanged, so k = K/L rises above k*. Depreciation now exceeds investment, so k and y per worker decline back to the steady state.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 69
+    },
+    "difficulty": 2,
+    "tags": [
+      "solow-graph",
+      "war"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-055",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "Compare the two wars on the Solow diagram. Which statement is correct?",
+    "choices": [
+      "Both push k below k*, so both are followed by fast growth",
+      "Destroying capital moves k below k* (above-normal growth); killing workers moves k above k* (negative growth)",
+      "Destroying capital moves k above k*; killing workers moves k below k*",
+      "Neither moves k, because the saving rate is unchanged"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They are mirror images: capital destroyed → k < k* → Δk > 0; workers killed → k > k* → Δk < 0. The saving rate is unchanged in both, so k* itself does not move.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 69
+    },
+    "difficulty": 3,
+    "tags": [
+      "solow-graph",
+      "war",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sol-056",
+    "topic": "solow",
+    "type": "mcq",
+    "stem": "After a war that killed workers, does the steady state k* itself change?",
+    "choices": [
+      "Yes, k* falls permanently",
+      "Yes, k* rises permanently",
+      "No: s, δ and f(k) are unchanged, so the curves do not move; only the economy's position on them changes",
+      "No, but δk shifts down temporarily"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A war moves the economy along the diagram, not the curves. With s, δ and technology the same, it returns to the same k* and y*.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 69
+    },
+    "difficulty": 3,
+    "tags": [
+      "solow-graph",
+      "war",
+      "explain"
+    ],
+    "examFocus": true
+  }
+]

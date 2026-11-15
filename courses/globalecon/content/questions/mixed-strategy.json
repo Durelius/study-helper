@@ -1,0 +1,443 @@
+[
+  {
+    "id": "mix-001",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "What is a mixed strategy?",
+    "choices": [
+      "A probability distribution used to choose randomly among available actions",
+      "Playing one action with certainty",
+      "Switching strategy after seeing the opponent's move",
+      "Colluding with the opponent to split payoffs"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A mixed strategy randomises over actions so the opponent cannot predict you. Playing one action for sure is a pure strategy.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-002",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "Why would a player use a mixed strategy?",
+    "choices": [
+      "To guarantee the highest possible payoff",
+      "To avoid being predictable, so the opponent cannot exploit a pattern",
+      "To make their own payoffs equal across actions",
+      "To force the opponent into a pure strategy"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Randomising makes your opponent indifferent, which minimises their ability to spot and exploit systematic patterns in your choices.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-003",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "In a mixed-strategy equilibrium, Player 1 chooses p to make whom indifferent?",
+    "choices": [
+      "Player 1, between U and D",
+      "Both players, between all four cells",
+      "Player 2, between L and R",
+      "Nobody: p maximises Player 1's own payoff"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Player 1's probability neutralises Player 2's choice: p makes Player 2 indifferent between L and R. So p is found from Player 2's payoffs.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-004",
+    "topic": "mixed-strategy",
+    "type": "text",
+    "stem": "A pair of strategies where neither player can gain by changing their own strategy alone is a ______ equilibrium.",
+    "choices": [],
+    "answer": [],
+    "explanation": "A Nash equilibrium: each player's strategy is a best response to the other's.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true,
+    "accept": [
+      "nash",
+      "nash equilibrium"
+    ]
+  },
+  {
+    "id": "mix-005",
+    "topic": "mixed-strategy",
+    "type": "tf",
+    "stem": "In a strictly mixed Nash equilibrium of a 2×2 game, both p and q are strictly between 0 and 1.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Strictly mixed means each player puts positive probability on both actions: 0 < p < 1 and 0 < q < 1.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "mix-006",
+    "topic": "mixed-strategy",
+    "type": "multi",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nWhich cells are pure-strategy Nash equilibria? Select all that apply.",
+    "choices": [
+      "(U, L)",
+      "(D, R)",
+      "(U, R)",
+      "(D, L)"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "(U, L): Player 1 gets 5 vs 4 by switching, Player 2 gets 1 vs 0, so neither moves. (D, R): 1 vs 0 and 5 vs 4, so neither moves. In (D, L) Player 1 would switch to U (5 > 4).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-007",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nWhy can the players use a mixed strategy in this game?",
+    "choices": [
+      "There are multiple pure Nash equilibria, so each player can keep the other guessing",
+      "There is no pure Nash equilibrium at all",
+      "One player has a dominant strategy",
+      "The payoffs are the same in every cell"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "With two pure equilibria and each player preferring a different one, randomising is a way to keep the opponent guessing.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-008",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nTo find p, which expected payoffs do you set equal?",
+    "choices": [
+      "Player 1's payoff from U and from D",
+      "Player 2's payoff from L and from R",
+      "Player 1's payoff from U and Player 2's from L",
+      "The payoffs in (U, L) and (D, R)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "p must make Player 2 indifferent, so use Player 2's payoffs (the second number): Payoff(L) = 1p + 4(1 − p), Payoff(R) = 0p + 5(1 − p).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-009",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nPlayer 2's expected payoff from L is 1·p + 4·(1 − p) = 4 − 3p. What is Player 2's expected payoff from R, evaluated at p = 0?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Payoff(R) = 0·p + 5·(1 − p) = 5 − 5p. At p = 0 it is 5.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 5
+  },
+  {
+    "id": "mix-010",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nSolving 4 − 3p = 5 − 5p gives which value of p?",
+    "choices": [
+      "p = ⅓",
+      "p = ¼",
+      "p = ½",
+      "p = ⅔"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "4 − 3p = 5 − 5p ⇒ 2p = 1 ⇒ p = ½.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 1,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-011",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nIn the mixed-strategy equilibrium, with what probability p does Player 1 play U?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Make Player 2 indifferent: 1p + 4(1 − p) = 0p + 5(1 − p) ⇒ 4 − 3p = 5 − 5p ⇒ p = ½.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 0.5
+  },
+  {
+    "id": "mix-012",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nIn the mixed-strategy equilibrium, with what probability q does Player 2 play L?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Make Player 1 indifferent: 5q + 0(1 − q) = 4q + 1(1 − q) ⇒ 5q = 1 + 3q ⇒ q = ½.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 0.5
+  },
+  {
+    "id": "mix-013",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nWhat is Player 1's expected payoff in the mixed-strategy equilibrium?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Payoff(U) = 5q = 5 × ½ = 2.5. Payoff(D) = 4q + 1(1 − q) = 2.5 as well, which is what indifference means.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 2.5
+  },
+  {
+    "id": "mix-014",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 5, 1 | 0, 0 |\n| **D** (1 − p) | 4, 4 | 1, 5 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nWhat is Player 2's expected payoff in the mixed-strategy equilibrium?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Payoff(L) = 4 − 3p = 4 − 1.5 = 2.5 (and Payoff(R) = 5 − 5p = 2.5).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 2.5
+  },
+  {
+    "id": "mix-015",
+    "topic": "mixed-strategy",
+    "type": "tf",
+    "stem": "At the mixed-strategy equilibrium, each player is indifferent between their two actions and has no incentive to deviate.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "That is the defining property: each player's probabilities leave the other indifferent, so no one can do better by changing.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 47
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "mix-016",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "A student finds p by setting Player 1's own payoffs from U and D equal. What has gone wrong?",
+    "choices": [
+      "Nothing: p always comes from your own payoffs",
+      "They should have added the payoffs, not equated them",
+      "They should use only the diagonal cells",
+      "That equation gives q, the probability that makes Player 1 indifferent, not p"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Your probability makes your opponent indifferent, so p comes from Player 2's payoffs. Setting Player 1's payoffs equal pins down Player 2's q.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 3,
+    "tags": [
+      "explain",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mix-017",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "How do operating-system providers like Android and iOS use mixed strategies?",
+    "choices": [
+      "By randomising which new features go into each update, giving periodic updates with varying features",
+      "By releasing every possible feature in every update",
+      "By copying each other's updates exactly",
+      "By colluding on a fixed release schedule"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Randomness in iterative development decisions keeps rivals guessing about the next update.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 48
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "mix-018",
+    "topic": "mixed-strategy",
+    "type": "mcq",
+    "stem": "What is the 'stable point' between the major OS providers?",
+    "choices": [
+      "A point where one provider leaves the market",
+      "A point where neither has much incentive to make abrupt changes to its strategy",
+      "The point where both release the same features",
+      "The point of maximum joint profit"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Like a mixed equilibrium: each keeps its competitive position and satisfies users and developers, so neither gains from a sudden change.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "mix-019",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 3, 2 | 0, 0 |\n| **D** (1 − p) | 0, 0 | 2, 3 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nIn the mixed-strategy equilibrium, with what probability p does Player 1 play U?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Make Player 2 indifferent: Payoff(L) = 2p, Payoff(R) = 3(1 − p). 2p = 3 − 3p ⇒ 5p = 3 ⇒ p = 3/5 = 0.6.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 3,
+    "tags": [],
+    "examFocus": true,
+    "value": 0.6
+  },
+  {
+    "id": "mix-020",
+    "topic": "mixed-strategy",
+    "type": "num",
+    "stem": "| | **L** (q) | **R** (1 − q) |\n|---|---|---|\n| **U** (p) | 3, 2 | 0, 0 |\n| **D** (1 − p) | 0, 0 | 2, 3 |\n\nPayoffs are (Player 1, Player 2). Player 1 picks the row, Player 2 the column.\n\nIn the mixed-strategy equilibrium, with what probability q does Player 2 play L?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Make Player 1 indifferent: Payoff(U) = 3q, Payoff(D) = 2(1 − q). 3q = 2 − 2q ⇒ q = 2/5 = 0.4.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 46
+    },
+    "difficulty": 3,
+    "tags": [],
+    "examFocus": true,
+    "value": 0.4
+  }
+]

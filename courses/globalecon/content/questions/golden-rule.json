@@ -1,0 +1,950 @@
+[
+  {
+    "id": "gr-001",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "What does a policymaker maximise when choosing the Golden Rule level of capital?",
+    "choices": [
+      "Steady-state consumption per worker",
+      "Steady-state output per worker",
+      "The saving rate",
+      "The capital stock"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "People care about what they can consume, so the Golden Rule picks the steady state with the highest consumption, not the highest output or capital.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 73
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-002",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Which expression gives steady-state consumption per worker (no population growth)?",
+    "choices": [
+      "c* = s·f(k*)",
+      "c* = f(k*) − δk*",
+      "c* = f(k*) + δk*",
+      "c* = f(k*) − s"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Consumption is output minus investment, and in steady state investment equals depreciation δk*.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 73
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-003",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Why does investment equal δk* in the steady state?",
+    "choices": [
+      "Investment is always equal to depreciation",
+      "Consumption is zero in the steady state",
+      "The capital stock is not changing, so investment just replaces depreciation",
+      "The saving rate equals δ"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Δk = i − δk = 0 at the steady state, so i = δk*.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 73
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-004",
+    "topic": "golden-rule",
+    "type": "tf",
+    "stem": "People care about the amount of capital in the economy for its own sake.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Most people care about the goods and services they can consume. Capital and saving matter only because they support consumption, now or later.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "gr-005",
+    "topic": "golden-rule",
+    "type": "text",
+    "stem": "The steady-state capital stock that maximises consumption per worker is called the ______ Rule level. (one word)",
+    "choices": [],
+    "answer": [],
+    "explanation": "The Golden Rule level of capital, k*gold.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 73
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true,
+    "accept": [
+      "golden"
+    ]
+  },
+  {
+    "id": "gr-006",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "What condition characterises the Golden Rule level of capital?",
+    "choices": [
+      "MPK = 0",
+      "MPK = s",
+      "s = δ",
+      "MPK = δ"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "At k*gold the slope of the production function (MPK) equals the slope of the depreciation line (δ), so the gap between them, consumption, is widest.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 75
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-007",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Why is the gap between f(k*) and δk* widest where MPK = δ?",
+    "choices": [
+      "That is where the two curves have the same slope, so moving either way narrows the gap",
+      "That is where the two curves cross",
+      "That is where output is maximised",
+      "That is where investment is zero"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Below that point f is steeper than δk so the gap grows; above it f is flatter so the gap shrinks. Where the curves cross, consumption is zero.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 74
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-008",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "At the Golden Rule, what is the marginal product of capital net of depreciation?",
+    "choices": [
+      "Equal to δ",
+      "Zero",
+      "Equal to the saving rate",
+      "Maximised"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "MPK − δ = 0. One more unit of capital adds MPK of output and δ of depreciation, which cancel.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 75
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-009",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "k* is below k*gold and the policymaker raises k* by one unit. What happens to steady-state consumption?",
+    "choices": [
+      "It falls, because MPK < δ",
+      "It is unchanged",
+      "It rises, because MPK > δ",
+      "It falls, because investment rises"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Below the Golden Rule, the extra output (MPK) exceeds the extra depreciation (δ), so consumption rises.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 74
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-010",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "k* is above k*gold. What does increasing k* do to steady-state consumption?",
+    "choices": [
+      "Raises it, because output rises",
+      "Leaves it unchanged",
+      "Raises it, because MPK > δ",
+      "Lowers it, because the extra output is less than the extra depreciation"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Above the Golden Rule, the production curve is flatter than δk, so the gap shrinks as k* rises.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 74
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-011",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "y = √k and δ = 0.05, with no population growth. MPK = 1/(2√k). What is the Golden Rule capital per worker?",
+    "choices": [],
+    "answer": [],
+    "explanation": "1/(2√k) = 0.05 ⇒ 2√k = 20 ⇒ √k = 10 ⇒ k*gold = 100.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 75
+    },
+    "difficulty": 3,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "value": 100
+  },
+  {
+    "id": "gr-012",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "y = √k and δ = 0.05, with no population growth. The Golden Rule capital per worker is 100. What is consumption per worker there?",
+    "choices": [],
+    "answer": [],
+    "explanation": "c = f(k) − δk = √100 − 0.05 × 100 = 10 − 5 = 5.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 73
+    },
+    "difficulty": 3,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "value": 5
+  },
+  {
+    "id": "gr-013",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "y = √k and δ = 0.1, with no population growth. What saving rate gives the Golden Rule steady state?",
+    "choices": [],
+    "answer": [],
+    "explanation": "MPK = 1/(2√k) = 0.1 ⇒ √k = 5, k = 25, y = 5. Steady state needs s·y = δk ⇒ s × 5 = 2.5 ⇒ s = 0.5. For y = k^α, s_gold = α.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 75
+    },
+    "difficulty": 3,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "value": 0.5
+  },
+  {
+    "id": "gr-014",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "For y = √k, what is MPK?",
+    "choices": [
+      "1/(2√k)",
+      "√k/2",
+      "2√k",
+      "1/√k"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "y = k^½, so MPK = ½·k^(−½) = 1/(2√k), using the power rule.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 75
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-015",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "The economy has more capital than the Golden Rule. What should the policymaker do to the saving rate?",
+    "choices": [
+      "Raise it",
+      "Lower it",
+      "Leave it unchanged",
+      "Set it to zero"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Too much capital: lower s. Consumption jumps immediately and the new steady state also has higher consumption.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 76
+    },
+    "difficulty": 1,
+    "tags": [
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-016",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Starting above the Golden Rule, the saving rate is cut. What happens to consumption at the moment of the cut?",
+    "choices": [
+      "It dips, and investment rises",
+      "It is unchanged at first",
+      "It jumps up, and investment falls by the same amount",
+      "It falls with output"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Output is unchanged at the instant, so a lower s moves output from investment to consumption.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 76
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-017",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Starting above the Golden Rule, s is cut. What happens over time?",
+    "choices": [
+      "Output, consumption and investment all rise together",
+      "Consumption falls back below its initial level",
+      "Capital keeps rising",
+      "Output, consumption and investment fall together as capital falls, but consumption stays above its initial level"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The capital stock runs down, so all three fall together. Because the economy began with too much capital, the new steady state still has higher consumption than the initial one.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 77
+    },
+    "difficulty": 3,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-018",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Starting below the Golden Rule, the saving rate rises. What happens to consumption at that moment?",
+    "choices": [
+      "It dips, and investment jumps by the same amount",
+      "It jumps up",
+      "It is unchanged",
+      "It rises with output"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A higher s moves output from consumption to investment straight away: the current generation pays.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 78
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-019",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Starting below the Golden Rule, s is raised. Where does consumption end up?",
+    "choices": [
+      "Permanently lower",
+      "Higher than the initial steady state, after an initial dip",
+      "Back at exactly the initial level",
+      "Higher immediately, with no dip"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "As capital grows, output, consumption and investment rise together, and the new steady state has more consumption than the initial one.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 78
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-020",
+    "topic": "golden-rule",
+    "type": "multi",
+    "stem": "Comparing the two Golden Rule transitions, which statements are correct? Select all that apply.",
+    "choices": [
+      "Below k*gold, raising saving makes the current generation sacrifice consumption",
+      "Below k*gold, the best policy is to cut saving",
+      "Above k*gold, consumption first dips and then rises",
+      "Both transitions end with higher steady-state consumption",
+      "Above k*gold, cutting saving makes every generation better off, including the current one"
+    ],
+    "answer": [
+      0,
+      3,
+      4
+    ],
+    "explanation": "Too much capital: consumption jumps at once and stays higher. Too little: a dip now for more later. Both end at a higher steady-state consumption.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 78
+    },
+    "difficulty": 3,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-021",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Why can capital accumulation alone not explain sustained economic growth?",
+    "choices": [
+      "Capital always depreciates to zero",
+      "Saving rates always fall over time",
+      "Investment is always zero in the steady state",
+      "At the steady state, capital per worker, output per worker and total output stay the same"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "In steady state Δk = 0, so capital accumulation stops. Explaining sustained growth needs population growth and then technology.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 79
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-022",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "The labour force is 150 million and grows at n = 1% per year. How many million workers are there after two years?",
+    "choices": [],
+    "answer": [],
+    "explanation": "150 × 1.01 = 151.5, then 151.5 × 1.01 = 153.015 million.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 79
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 153.015,
+    "unit": "million"
+  },
+  {
+    "id": "gr-023",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "With population growing at rate n, what is break-even investment (no technological progress)?",
+    "choices": [
+      "(δ + n)k",
+      "δk",
+      "(δ − n)k",
+      "δnk"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "δk replaces worn-out capital and nk equips the new workers, so k stays constant only if investment covers (δ + n)k.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 80
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-024",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "What does the nk term in break-even investment represent?",
+    "choices": [
+      "Capital lost to depreciation",
+      "Capital needed to equip new workers so capital per worker does not fall",
+      "Capital needed for new effective workers created by technology",
+      "Investment financed by foreign saving"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Population growth dilutes capital across more workers. nk is the capital that keeps k constant for them. δk is depreciation; gk is for technology.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 80
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-025",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "What does the Solow model predict about countries with higher population growth?",
+    "choices": [
+      "Higher capital per worker and higher income",
+      "Faster long-run growth of income per person",
+      "Lower capital per worker and lower income per person",
+      "No difference in the steady state"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A higher n makes the (δ + n)k line steeper, so it crosses s·f(k) at a lower k*, and income per person is lower.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 81
+    },
+    "difficulty": 2,
+    "tags": [
+      "explain",
+      "solow-graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-026",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "y = √k, s = 0.24, δ = 0.04 and n = 0.02. What is the steady-state capital per worker?",
+    "choices": [],
+    "answer": [],
+    "explanation": "s√k = (δ + n)k ⇒ √k = 0.24 / 0.06 = 4 ⇒ k* = 16.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 80
+    },
+    "difficulty": 3,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "value": 16
+  },
+  {
+    "id": "gr-027",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "With population growth, what is the equation for Δk (no technology)?",
+    "choices": [
+      "Δk = s·f(k) − δk + nk",
+      "Δk = s·f(k) − δnk",
+      "Δk = (s − n)·f(k) − δk",
+      "Δk = s·f(k) − (δ + n)k"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Investment minus break-even investment: s·f(k) − (δ + n)k.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 80
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-028",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "How does the Solow model add technological progress here?",
+    "choices": [
+      "As labour-augmenting efficiency: Y = F(K, L × E)",
+      "As extra capital: Y = F(K + E, L)",
+      "As a higher saving rate",
+      "As lower depreciation"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "E is the efficiency of labour, so L × E is the number of effective workers. More E acts like more L.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 84
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-029",
+    "topic": "golden-rule",
+    "type": "text",
+    "stem": "In Y = F(K, L × E), the variable E is called the ______ of labour.",
+    "choices": [],
+    "answer": [],
+    "explanation": "The efficiency of labour: society's knowledge about production methods.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 84
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true,
+    "accept": [
+      "efficiency",
+      "efficiency of labour",
+      "efficiency of labor"
+    ]
+  },
+  {
+    "id": "gr-030",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Which of these is an example of E, the efficiency of labour?",
+    "choices": [
+      "A larger workforce from immigration",
+      "Computerisation in the 21st century or assembly-line production in the 20th",
+      "A higher national saving rate",
+      "More machines per worker"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "E reflects knowledge about production methods. More workers is n; more machines per worker is k.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 84
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "gr-031",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "L grows at rate n and E grows at rate g. At what rate does L × E grow?",
+    "choices": [
+      "n × g",
+      "n − g",
+      "n + g",
+      "g only"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The growth rate of a product is (approximately) the sum of the growth rates.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 85
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-032",
+    "topic": "golden-rule",
+    "type": "tf",
+    "stem": "Technological progress increases the actual number of workers.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It raises the number of effective workers, L × E, not the actual number L.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 86
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "gr-033",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "With technology, k is redefined as K/(L × E). What is Δk?",
+    "choices": [
+      "Δk = s·f(k) − (δ + n)k",
+      "Δk = s·f(k) − δ·n·g·k",
+      "Δk = (s + g)·f(k) − (δ + n)k",
+      "Δk = s·f(k) − (δ + n + g)k"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Break-even investment now has three parts: δk, nk and gk.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 86
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "gr-034",
+    "topic": "golden-rule",
+    "type": "match",
+    "stem": "Match each term of break-even investment (δ + n + g)k to what it pays for.",
+    "choices": [
+      "Replacing worn-out capital",
+      "Equipping new workers",
+      "Equipping the new effective workers created by technology",
+      "Raising the saving rate",
+      "Paying interest to savers"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "δk for depreciation, nk for population growth, gk for technological progress.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 86
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "items": [
+      "δk",
+      "nk",
+      "gk"
+    ]
+  },
+  {
+    "id": "gr-035",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "In the steady state with technological progress, what is constant?",
+    "choices": [
+      "Capital and output per effective worker",
+      "Capital and output per actual worker",
+      "Total output",
+      "The number of effective workers"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "k = K/(L × E) and y = Y/(L × E) are constant at k*. Output per actual worker grows at g.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 87
+    },
+    "difficulty": 2,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "gr-036",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "Break-even investment: k = 25 (per effective worker), δ = 0.05, n = 0.01, g = 0.02. What is (δ + n + g)k?",
+    "choices": [],
+    "answer": [],
+    "explanation": "(0.05 + 0.01 + 0.02) × 25 = 0.08 × 25 = 2.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 86
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "value": 2
+  },
+  {
+    "id": "gr-037",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "There are 10 computers and 10 workers (k = 1). In one period δ = 0.1, n = 0.2 and g = 1.0. Only the original workers benefit from technology. How many effective workers are there next period?",
+    "choices": [],
+    "answer": [],
+    "explanation": "The original 10 work like 10 × (1 + 1.0) = 20 effective workers, and the 2 new workers count as 2: 22 in total.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 88
+    },
+    "difficulty": 3,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 22,
+    "unit": "effective workers"
+  },
+  {
+    "id": "gr-038",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "There are 10 computers and 10 workers (k = 1). In one period δ = 0.1, n = 0.2 and g = 1.0. How many computers must be added to keep one computer per effective worker?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Depreciation leaves 9 computers; there are 22 effective workers, so add 22 − 9 = 13 = (0.1 + 0.2 + 1.0) × 10.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 88
+    },
+    "difficulty": 3,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 13,
+    "unit": "computers"
+  },
+  {
+    "id": "gr-039",
+    "topic": "golden-rule",
+    "type": "num",
+    "stem": "There are 10 computers and 10 workers (k = 1). In one period δ = 0.2, n = 0.2 and g = 0.5. How many computers must be added to keep one computer per effective worker?",
+    "choices": [],
+    "answer": [],
+    "explanation": "8 computers remain; 10 × 1.5 = 15 plus 2 new = 17 effective workers, so add 17 − 8 = 9 = (0.2 + 0.2 + 0.5) × 10.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 89
+    },
+    "difficulty": 3,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 9,
+    "unit": "computers"
+  },
+  {
+    "id": "gr-040",
+    "topic": "golden-rule",
+    "type": "mcq",
+    "stem": "Why are the rates added, (δ + n + g), rather than multiplied, in break-even investment?",
+    "choices": [
+      "Because depreciation applies only to new computers",
+      "The newly added workers were not yet in the system, so they do not benefit from the technology gain",
+      "Because multiplication would give a negative number",
+      "Because g applies only to capital"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Only the original workers become more efficient. The new workers count once each, so the extra effective workers are n + g per worker, not (1 + n)(1 + g) − 1.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 88
+    },
+    "difficulty": 3,
+    "tags": [
+      "explain"
+    ],
+    "examFocus": true
+  }
+]

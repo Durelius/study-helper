@@ -1,0 +1,1306 @@
+[
+  {
+    "id": "olig-001",
+    "topic": "oligopoly",
+    "type": "text",
+    "stem": "What is the name for the extra revenue a firm gets from selling one more unit? (two words)",
+    "choices": [],
+    "answer": [],
+    "explanation": "Marginal revenue (MR): the increase in revenue from one more unit of output.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true,
+    "accept": [
+      "marginal revenue",
+      "MR"
+    ]
+  },
+  {
+    "id": "olig-002",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "If Grab is a monopoly facing P = 339 − Q, its revenue is R = 339Q − Q². What is the coefficient on Q in its marginal revenue MR = 339 − kQ? Give k.",
+    "choices": [],
+    "answer": [],
+    "explanation": "MR = dR/dQ = 339 − 2Q. The derivative of Q² is 2Q, so MR falls twice as fast as demand.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 2
+  },
+  {
+    "id": "olig-003",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Facing P = 339 − Q, at what output does a monopolist's marginal revenue reach zero?",
+    "choices": [],
+    "answer": [],
+    "explanation": "MR = 339 − 2Q = 0 ⇒ Q = 169.5. That is where the MR line meets the horizontal axis on the surplus graphs.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 169.5,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-004",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. Going from 100 to 101 rides, revenue rises from 23,900 to 24,038 THB. What should a profit-maximising monopolist conclude?",
+    "choices": [
+      "MR ≈ 138 is below MC = 147, so the 101st ride loses money",
+      "MR ≈ 138 is positive, so the ride is profitable",
+      "MR ≈ 238 is above MC, so it should expand",
+      "Revenue rose, so profit must have risen"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "MR is the change in revenue: 24,038 − 23,900 = 138. That is below MC = 147, so producing the ride lowers profit. The monopolist should be below 100 rides (it chooses 96). Positive MR is not enough; MR must cover MC.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-005",
+    "topic": "oligopoly",
+    "type": "tf",
+    "stem": "A profit-maximising firm produces up to the point where marginal revenue equals marginal cost.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "MR = MC. Before that point one more unit adds more revenue than cost; after it, less.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-006",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "A monopolist has found its profit-maximising output from MR = MC. Where does it read its price?",
+    "choices": [
+      "Off the MR curve at that output",
+      "Off the demand curve at that output",
+      "Where MC meets demand",
+      "At the MC level"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The firm charges the highest price consumers will pay for that quantity, which is on the demand curve: P = 339 − 96 = 243. Reading MR gives 147, a classic slip.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "monopoly"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-007",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. If Grab were a monopoly, what output would maximise its profit?",
+    "choices": [],
+    "answer": [],
+    "explanation": "MR = 339 − 2Q = 147 ⇒ 2Q = 192 ⇒ Q = 96.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "monopoly"
+    ],
+    "examFocus": true,
+    "value": 96,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-008",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What price would a monopoly Grab charge?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Q = 96 from MR = MC, then P = 339 − 96 = 243 from demand.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "monopoly"
+    ],
+    "examFocus": true,
+    "value": 243,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-009",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is the monopoly profit per minute?",
+    "choices": [],
+    "answer": [],
+    "explanation": "(P − MC) × Q = (243 − 147) × 96 = 96 × 96 = 9,216 THB.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "monopoly"
+    ],
+    "examFocus": true,
+    "value": 9216,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-010",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. If Grab were one of many competing firms (price-taking), what would market output be?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Competition sets P = MC: 147 = 339 − Q ⇒ Q = 192, with zero profit.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 192,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-011",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "In the competitive outcome, where is the equilibrium?",
+    "choices": [
+      "Where MR meets marginal cost",
+      "Where MR is zero",
+      "Where demand meets marginal cost",
+      "Where demand meets the price axis"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Competition drives price to marginal cost, so the market sits where the demand curve crosses MC (Q = 192, P = 147).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "olig-012",
+    "topic": "oligopoly",
+    "type": "tf",
+    "stem": "A monopolist's demand curve is the market demand curve.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "With one seller, the firm faces the whole market demand and sets its price on it.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "monopoly"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-013",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Grab and Uber collude and each produces q, so the market price is P = 339 − 2q. What is each firm's marginal revenue?",
+    "choices": [
+      "MR = 339 − 2q",
+      "MR = 339 − q",
+      "MR = 169.5 − 2q",
+      "MR = 339 − 4q"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "R = (339 − 2q)q = 339q − 2q², so MR = 339 − 4q. Setting it to 147 gives q = 48.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "cartel",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-014",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. The firms form a cartel and split output equally. How much does each produce?",
+    "choices": [],
+    "answer": [],
+    "explanation": "339 − 4q = 147 ⇒ 4q = 192 ⇒ q = 48 each, 96 in total: the monopoly output.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "cartel"
+    ],
+    "examFocus": true,
+    "value": 48,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-015",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. In the cartel, what profit does each firm earn?",
+    "choices": [],
+    "answer": [],
+    "explanation": "P = 339 − 96 = 243. Each earns (243 − 147) × 48 = 4,608; together 9,216, the monopoly profit.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "cartel"
+    ],
+    "examFocus": true,
+    "value": 4608,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-016",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "How does the cartel outcome compare with monopoly?",
+    "choices": [
+      "Same total output and price; the monopoly profit is split",
+      "Twice the monopoly output at half the price",
+      "The same as the Cournot outcome",
+      "The same as the competitive outcome"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A cartel behaves as one monopolist: 96 rides at 243 THB, then splits output (48 each) and profit (4,608 each).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 30
+    },
+    "difficulty": 1,
+    "tags": [
+      "cartel"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-017",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Why does each member of a cartel have an incentive to cheat?",
+    "choices": [
+      "Its marginal cost is above the cartel price",
+      "At the cartel price, its marginal revenue (price) is above its marginal cost, so extra output is profitable for it",
+      "The cartel produces more than the competitive output",
+      "Cheating raises the market price"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "At P = 243 and MC = 147 each extra ride earns the cheater 96 THB. It can get away with it if others cannot tell who produced the extra output. As more firms cheat, the price falls.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "cartel",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-018",
+    "topic": "oligopoly",
+    "type": "multi",
+    "stem": "Which statements about cheating on a cartel are correct? Select all that apply.",
+    "choices": [
+      "Because demand is unchanged, the loyal firms lose what the cheater gains",
+      "As more firms cheat, the cartel price falls",
+      "Firms can get away with cheating if others cannot tell who produced the extra output",
+      "Cheating raises total industry profit",
+      "Cheating is impossible when products are identical"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Cheating works when output is hard to monitor. More output pushes the price down. With demand fixed it is zero-sum between the members: the non-cheaters pay with lower profits.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "cartel",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-019",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. The cartel quota is 48 each. Uber keeps to 48, but Grab cheats and plays its best response q_G = 96 − ½q_U. How much does Grab produce?",
+    "choices": [],
+    "answer": [],
+    "explanation": "q_G = 96 − ½ × 48 = 72. Price falls to 339 − 120 = 219. Grab earns (219 − 147) × 72 = 5,184 (up from 4,608) and Uber drops to 72 × 48 = 3,456.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 31
+    },
+    "difficulty": 3,
+    "tags": [
+      "cartel"
+    ],
+    "examFocus": true,
+    "value": 72,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-020",
+    "topic": "oligopoly",
+    "type": "tf",
+    "stem": "Cheating on a cartel is a zero-sum game between the members because market demand stays the same.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "With demand unchanged, the cheater's gain comes out of the non-cheaters' profits.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "cartel"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-021",
+    "topic": "oligopoly",
+    "type": "text",
+    "stem": "Firms that collude to set price and output together as a monopoly form a ______.",
+    "choices": [],
+    "answer": [],
+    "explanation": "A cartel: firms colluding to act as one monopolist and split the spoils.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 29
+    },
+    "difficulty": 1,
+    "tags": [
+      "cartel"
+    ],
+    "examFocus": true,
+    "accept": [
+      "cartel"
+    ]
+  },
+  {
+    "id": "olig-022",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "In Bertrand competition, what do firms choose?",
+    "choices": [
+      "Quantities, simultaneously",
+      "Quantities, one after the other",
+      "Prices and quantities jointly, as one firm",
+      "Prices, leaving consumers to decide how much to buy"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Bertrand firms set prices. Cournot firms set quantities simultaneously; Stackelberg firms set them sequentially.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "bertrand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-023",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Two Bertrand firms sell identical rides and both start at 243 THB. What happens next?",
+    "choices": [
+      "Each undercuts the other until price equals marginal cost",
+      "They hold at 243 because both earn profit",
+      "They raise prices until demand is zero",
+      "One exits and the other becomes a monopoly"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Slightly undercutting takes the whole market, so each firm's best response is to undercut. That stops only at P = MC = 147.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "bertrand",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-024",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. The firms compete on price (Bertrand). What is the equilibrium price?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Undercutting stops at marginal cost: P = MC = 147.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "bertrand"
+    ],
+    "examFocus": true,
+    "value": 147,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-025",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. Under Bertrand competition, how much does each firm produce?",
+    "choices": [],
+    "answer": [],
+    "explanation": "P = 147 ⇒ Q = 339 − 147 = 192 in total, split evenly: 96 each.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet",
+      "bertrand"
+    ],
+    "examFocus": true,
+    "value": 96,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-026",
+    "topic": "oligopoly",
+    "type": "tf",
+    "stem": "With identical products, the Nash–Bertrand equilibrium is the same as the price-taking competitive equilibrium.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "P = MC and profit is zero, the competitive outcome, even with only two firms.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "bertrand"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-027",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "In Cournot competition, how do the firms choose?",
+    "choices": [
+      "They set prices and undercut each other",
+      "They choose output levels simultaneously without colluding",
+      "A leader chooses output before a follower",
+      "They agree output levels and split the profit"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cournot is simultaneous quantity-setting with no collusion.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 34
+    },
+    "difficulty": 1,
+    "tags": [
+      "cournot"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-028",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. In Cournot, Grab's revenue is R = 339q_G − q_G² − q_U·q_G. What is Grab's marginal revenue?",
+    "choices": [
+      "MR = 339 − 2q_G − 2q_U",
+      "MR = 339 − q_G − q_U",
+      "MR = 339 − 2q_G − q_U",
+      "MR = 339 − 2q_G"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Differentiate with respect to q_G, treating q_U as a constant: 339 − 2q_G − q_U. Dropping the q_U term turns it back into the monopoly MR.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "cournot",
+      "formula",
+      "packet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-029",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. In Cournot, Grab's reaction function is q_G = X − ½q_U. What is X?",
+    "choices": [],
+    "answer": [],
+    "explanation": "339 − 2q_G − q_U = 147 ⇒ 2q_G = 192 − q_U ⇒ q_G = 96 − ½q_U.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "cournot",
+      "packet",
+      "formula"
+    ],
+    "examFocus": true,
+    "value": 96
+  },
+  {
+    "id": "olig-030",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "What does a firm's reaction (best-response) function show?",
+    "choices": [
+      "Its rival's profit for each of its outputs",
+      "The market price for each total output",
+      "How price responds to a change in marginal cost",
+      "Its profit-maximising output given its belief about the rival's output"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "A reaction function maps the rival's output to your best output. The Nash equilibrium is where the two reaction functions cross.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "cournot"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-031",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. In the Cournot equilibrium, how much does Grab produce?",
+    "choices": [],
+    "answer": [],
+    "explanation": "q_G = 96 − ½(96 − ½q_G) = 48 + ¼q_G ⇒ ¾q_G = 48 ⇒ q_G = 64. By symmetry q_U = 64.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "cournot",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 64,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-032",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is the Cournot market price?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Q = 64 + 64 = 128, so P = 339 − 128 = 211.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "cournot",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 211,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-033",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What profit does each firm earn in the Cournot equilibrium?",
+    "choices": [],
+    "answer": [],
+    "explanation": "(211 − 147) × 64 = 64 × 64 = 4,096 THB per minute each.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "cournot",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 4096,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-034",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Where do the Cournot market output, price and profits lie?",
+    "choices": [
+      "Between the competitive and monopoly levels",
+      "Above the monopoly levels",
+      "Equal to the competitive levels",
+      "Equal to the monopoly levels"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Output 192 > 128 > 96 and price 243 > 211 > 147: Cournot sits between competition and monopoly.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "cournot"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-035",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "On the best-response graph for Grab and Uber, where does Grab's best-response curve q_G = 96 − ½q_U meet the axes?",
+    "choices": [
+      "q_G = 192 when q_U = 0, and q_G = 0 when q_U = 96",
+      "q_G = 96 when q_U = 0, and q_G = 0 when q_U = 192",
+      "q_G = 64 when q_U = 64 only",
+      "q_G = 96 when q_U = 96"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Set q_U = 0: q_G = 96. Set q_G = 0: q_U = 192. Uber's curve is the mirror image, and they cross at (64, 64).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 37
+    },
+    "difficulty": 3,
+    "tags": [
+      "cournot",
+      "graph"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-036",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "What makes Stackelberg competition different from Cournot?",
+    "choices": [
+      "Firms compete on price",
+      "Firms collude on output",
+      "A leader chooses its output before its rival, anticipating the rival's reaction",
+      "Both firms choose output at the same time"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Stackelberg is sequential. The leader plugs the follower's reaction function into its own demand.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "stackelberg"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-037",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. Grab leads; Uber follows with q_U = 96 − ½q_G. What residual demand does Grab face?",
+    "choices": [
+      "P = 339 − q_G",
+      "P = 339 − 2q_G",
+      "P = 96 − ½q_G",
+      "P = 243 − ½q_G"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "P = 339 − q_G − (96 − ½q_G) = 243 − ½q_G. Grab treats this as its own demand curve.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "stackelberg",
+      "packet",
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-038",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. Grab is the Stackelberg leader. How much does it produce?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Residual demand P = 243 − ½q_G gives R = 243q_G − ½q_G², so MR = 243 − q_G. Set = 147 ⇒ q_G = 96.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "stackelberg",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 96,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-039",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. Grab leads with 96 rides. How much does follower Uber produce?",
+    "choices": [],
+    "answer": [],
+    "explanation": "q_U = 96 − ½ × 96 = 48.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "stackelberg",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 48,
+    "unit": "rides/min"
+  },
+  {
+    "id": "olig-040",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is the Stackelberg market price?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Q = 96 + 48 = 144, P = 339 − 144 = 195.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "stackelberg",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 195,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-041",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is the Stackelberg leader's profit?",
+    "choices": [],
+    "answer": [],
+    "explanation": "(195 − 147) × 96 = 48 × 96 = 4,608. The follower earns 48 × 48 = 2,304.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "stackelberg",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 4608,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-042",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Why does the Stackelberg leader earn more than the follower, even though costs are identical?",
+    "choices": [
+      "By committing to a large output first, it forces the follower to produce less",
+      "It has a lower marginal cost",
+      "It charges a higher price than the follower",
+      "It colludes with the follower"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Moving first lets the leader exploit the follower's reaction function: the more the leader makes, the less the follower makes. Outputs (96 vs 48) and profits are asymmetric, while both sell at the same price.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "stackelberg",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-043",
+    "topic": "oligopoly",
+    "type": "match",
+    "stem": "For Grab and Uber (P = 339 − Q, MC = 147), match each market structure to its total output.",
+    "choices": [
+      "192",
+      "144",
+      "128",
+      "96",
+      "64",
+      "169.5"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Output falls as competition weakens: Bertrand 192 > Stackelberg 144 > Cournot 128 > Collusion 96. 64 is one Cournot firm's output; 169.5 is where MR = 0.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table",
+      "packet"
+    ],
+    "examFocus": true,
+    "items": [
+      "Bertrand",
+      "Stackelberg",
+      "Cournot",
+      "Collusion"
+    ]
+  },
+  {
+    "id": "olig-044",
+    "topic": "oligopoly",
+    "type": "match",
+    "stem": "Match each market structure to its price for Grab and Uber (P = 339 − Q, MC = 147).",
+    "choices": [
+      "147",
+      "195",
+      "211",
+      "243",
+      "219",
+      "169.5"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Prices rise as competition weakens: 147 < 195 < 211 < 243. 219 is the price if one cartel member cheats.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table",
+      "packet"
+    ],
+    "examFocus": true,
+    "items": [
+      "Bertrand",
+      "Stackelberg",
+      "Cournot",
+      "Collusion"
+    ]
+  },
+  {
+    "id": "olig-045",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Which market structure brings the most value creation to the market?",
+    "choices": [
+      "Collusion (monopoly)",
+      "Bertrand (competitive)",
+      "Cournot",
+      "Stackelberg"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bertrand produces the most (192) and the highest Total Value (28,224), though zero profit. Collusion gives the most profit to the business.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 42
+    },
+    "difficulty": 1,
+    "tags": [
+      "table"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-046",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Which market structure brings the most profit to the business?",
+    "choices": [
+      "Bertrand",
+      "Cournot",
+      "Collusion (monopoly)",
+      "Stackelberg"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Collusion: 9,216 in total. Profit rises as output falls: 0 < 6,912 < 8,192 < 9,216.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 42
+    },
+    "difficulty": 1,
+    "tags": [
+      "table"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-047",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "In the packet's results table, 'Total Value' under Bertrand competition is P × Q with P = 147 and Q = 192. What is it?",
+    "choices": [],
+    "answer": [],
+    "explanation": "147 × 192 = 28,224 THB per minute. Note this 'Total Value' is P × Q (spending), not consumer surplus.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 28224,
+    "unit": "THB/min"
+  },
+  {
+    "id": "olig-048",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is total industry profit under Stackelberg competition?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Leader 4,608 + follower 2,304 = 6,912. Or (195 − 147) × 144.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 6912,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-049",
+    "topic": "oligopoly",
+    "type": "multi",
+    "stem": "Moving from Bertrand to Stackelberg to Cournot to Collusion, which of these rise? Select all that apply.",
+    "choices": [
+      "Total output",
+      "Total profit",
+      "Total Value (P × Q)",
+      "Consumer surplus",
+      "Price"
+    ],
+    "answer": [
+      1,
+      4
+    ],
+    "explanation": "Price (147 → 243) and profit (0 → 9,216) rise. Output (192 → 96), Total Value (28,224 → 23,328) and consumer surplus all fall.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-050",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. Under Bertrand competition, what is consumer surplus?",
+    "choices": [
+      "18,432 THB",
+      "4,608 THB",
+      "9,216 THB",
+      "28,224 THB"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "½ × Q × (339 − P) = ½ × 192 × 192 = 18,432. 28,224 is P × Q (Total Value); 4,608 is monopoly CS.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "surplus",
+      "packet"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-051",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is consumer surplus under monopoly?",
+    "choices": [],
+    "answer": [],
+    "explanation": "½ × 96 × (339 − 243) = ½ × 96 × 96 = 4,608: the small triangle above the monopoly price.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "surplus",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 4608,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-052",
+    "topic": "oligopoly",
+    "type": "num",
+    "stem": "Grab and Uber face inverse market demand P = 339 − Q (rides per minute) and each has MC = 147 THB. What is the deadweight loss of monopoly compared with the competitive outcome?",
+    "choices": [],
+    "answer": [],
+    "explanation": "½ × (192 − 96) × (243 − 147) = ½ × 96 × 96 = 4,608: surplus nobody gets because 96 rides are never produced.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    },
+    "difficulty": 3,
+    "tags": [
+      "surplus",
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 4608,
+    "unit": "THB"
+  },
+  {
+    "id": "olig-053",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "What is producer surplus?",
+    "choices": [
+      "What consumers save by paying less than they were willing to",
+      "What producers receive from selling each unit at a price above its marginal cost",
+      "Total revenue, P × Q",
+      "Revenue minus fixed cost"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Producer surplus is price minus marginal cost, summed over units. With constant MC it equals (P − MC) × Q. The first distractor is consumer surplus.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "surplus"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-054",
+    "topic": "oligopoly",
+    "type": "tf",
+    "stem": "Under Bertrand competition, producer surplus is zero.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "P = MC, so every unit sells at exactly its marginal cost and producers keep nothing above it.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "surplus"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "olig-055",
+    "topic": "oligopoly",
+    "type": "mcq",
+    "stem": "Moving from competition to monopoly, what happens to the rectangle between the monopoly price (243) and MC (147) over the first 96 rides?",
+    "choices": [
+      "It is destroyed as deadweight loss",
+      "It stays with consumers",
+      "It is transferred from consumers to the producer",
+      "It becomes the firm's cost"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "That rectangle is consumer surplus under competition and producer surplus under monopoly: a transfer. The triangle to its right is what is destroyed.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    },
+    "difficulty": 3,
+    "tags": [
+      "surplus",
+      "explain"
+    ],
+    "examFocus": true
+  }
+]

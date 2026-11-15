@@ -1,0 +1,416 @@
+[
+  {
+    "term": "Market for ideas",
+    "definition": "The setting in which ideas are produced (supplied) and received (demanded); in Mokyr's account shaped by political fragmentation.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 8
+    }
+  },
+  {
+    "term": "Useful knowledge",
+    "definition": "Knowledge, from scientific insight to practical know-how, that fuels innovation and growth.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Propositional knowledge",
+    "definition": "Knowledge of why things work: the science behind a technique.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Prescriptive knowledge",
+    "definition": "Knowledge of how to do things: techniques and recipes.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Creative destruction",
+    "definition": "Innovation displacing old technologies and firms; threatened by protectionism.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Age of Enlightenment",
+    "definition": "The 17th–18th century intellectual movement in Western Europe that snowballed into the Industrial Revolution.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Open science",
+    "definition": "Publishing and openly debating new ideas so they spread rapidly; rewarded by priority credit, not profit.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Fragmentation index",
+    "definition": "How politically fragmented a region is: high in Europe, low in unified China.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 8
+    }
+  },
+  {
+    "term": "Size of audience",
+    "definition": "The demand side of the market for ideas; falls as fragmentation rises.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Risk of persecution",
+    "definition": "The supply side of the market for ideas; persecution is less effective as fragmentation rises, so more ideas are supplied.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Republic of Letters",
+    "definition": "The transnational community of European scholars that gave fragmented states a unified market for ideas.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Non-rivalrous",
+    "definition": "A good one person can use without reducing what is available to others, like knowledge.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Priority credit",
+    "definition": "Recognition for being first to an idea: the reward in open science.",
+    "topic": "market-for-ideas",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Marginal cost",
+    "definition": "The extra cost of producing one more unit.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 22
+    }
+  },
+  {
+    "term": "Marginal revenue",
+    "definition": "The extra revenue from selling one more unit; for P = 339 − Q it is 339 − 2Q.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 25
+    }
+  },
+  {
+    "term": "Monopoly",
+    "definition": "A market with a single seller, which sets output where MR = MC and charges the price on the demand curve.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 28
+    }
+  },
+  {
+    "term": "Cartel",
+    "definition": "Firms colluding to act as one monopolist and split output and profit.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 29
+    }
+  },
+  {
+    "term": "Bertrand competition",
+    "definition": "Oligopolists set prices; with identical products they undercut down to P = MC.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 32
+    }
+  },
+  {
+    "term": "Cournot competition",
+    "definition": "Oligopolists choose output simultaneously without colluding.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 34
+    }
+  },
+  {
+    "term": "Stackelberg competition",
+    "definition": "A leader chooses output first, anticipating the follower's reaction function.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 38
+    }
+  },
+  {
+    "term": "Reaction function",
+    "definition": "A firm's profit-maximising output given its belief about the rival's output, e.g. q_G = 96 − ½q_U.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 35
+    }
+  },
+  {
+    "term": "Nash–Bertrand equilibrium",
+    "definition": "The Bertrand outcome with identical products: price equals marginal cost and profit is zero, as under competition.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 33
+    }
+  },
+  {
+    "term": "Consumer surplus",
+    "definition": "The value consumers enjoy from paying less than they were willing to; the area under demand above price.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Producer surplus",
+    "definition": "What producers receive from selling units at a price above marginal cost.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 27
+    }
+  },
+  {
+    "term": "Deadweight loss",
+    "definition": "Surplus lost to everyone because output is below the competitive level.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 26
+    }
+  },
+  {
+    "term": "Total Value (results table)",
+    "definition": "Price times quantity, P × Q: 28,224 under Bertrand down to 23,328 under collusion.",
+    "topic": "oligopoly",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    }
+  },
+  {
+    "term": "Nash equilibrium",
+    "definition": "Strategies from which no player can gain by changing only their own strategy.",
+    "topic": "mixed-strategy",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 43
+    }
+  },
+  {
+    "term": "Mixed strategy",
+    "definition": "A probability distribution over actions, used to avoid being predictable.",
+    "topic": "mixed-strategy",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 43
+    }
+  },
+  {
+    "term": "Pure strategy",
+    "definition": "Playing one action with certainty.",
+    "topic": "mixed-strategy",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 44
+    }
+  },
+  {
+    "term": "Indifference condition",
+    "definition": "In a mixed equilibrium, each player's probabilities make the opponent's expected payoffs from their two actions equal.",
+    "topic": "mixed-strategy",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    }
+  },
+  {
+    "term": "Endogenous variable",
+    "definition": "A variable the model sets out to explain, such as real GDP or investment.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 51
+    }
+  },
+  {
+    "term": "Exogenous variable",
+    "definition": "A variable the model takes as given, such as the saving rate.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 51
+    }
+  },
+  {
+    "term": "Constant returns to scale",
+    "definition": "Multiplying all inputs by z multiplies output by z: zY = F(zK, zL).",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 56
+    }
+  },
+  {
+    "term": "Per-worker production function",
+    "definition": "y = f(k): output per worker as a function of capital per worker, possible because of constant returns to scale.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 57
+    }
+  },
+  {
+    "term": "Marginal product of capital",
+    "definition": "The extra output from one more unit of capital per worker; the slope of f(k), which diminishes as k rises.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 54
+    }
+  },
+  {
+    "term": "Saving rate",
+    "definition": "The constant fraction s of income saved and invested; i = s·f(k).",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 55
+    }
+  },
+  {
+    "term": "Depreciation rate",
+    "definition": "The constant fraction δ of capital that wears out each year.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 62
+    }
+  },
+  {
+    "term": "Steady state",
+    "definition": "The capital per worker k* at which investment equals break-even investment, so Δk = 0.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 63
+    }
+  },
+  {
+    "term": "Level effect",
+    "definition": "A change in the steady-state level of income per person but not its growth rate; the effect of higher saving.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    }
+  },
+  {
+    "term": "Growth effect",
+    "definition": "A change in the steady-state growth rate of income per person.",
+    "topic": "solow",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    }
+  },
+  {
+    "term": "Golden Rule level of capital",
+    "definition": "The steady-state capital per worker that maximises consumption per worker; MPK = δ.",
+    "topic": "golden-rule",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 73
+    }
+  },
+  {
+    "term": "Break-even investment",
+    "definition": "The investment needed to keep k constant: (δ + n + g)k.",
+    "topic": "golden-rule",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 80
+    }
+  },
+  {
+    "term": "Population growth rate",
+    "definition": "The constant rate n at which the labour force grows.",
+    "topic": "golden-rule",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 79
+    }
+  },
+  {
+    "term": "Efficiency of labour",
+    "definition": "E in Y = F(K, L × E): society's knowledge of production methods, growing at rate g.",
+    "topic": "golden-rule",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 84
+    }
+  },
+  {
+    "term": "Effective workers",
+    "definition": "L × E: the number of workers adjusted for the efficiency of labour.",
+    "topic": "golden-rule",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 86
+    }
+  },
+  {
+    "term": "Labour-augmenting technological progress",
+    "definition": "Technology modelled as growth in the efficiency of labour, so it acts like more workers.",
+    "topic": "golden-rule",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 84
+    }
+  }
+]

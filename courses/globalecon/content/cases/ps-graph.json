@@ -1,0 +1,136 @@
+{
+  "id": "ps-graph",
+  "title": "Graph: producer surplus, Grab as monopoly vs competition",
+  "topics": [
+    "oligopoly"
+  ],
+  "scenario": "Grab faces P = 339 − Q with MC = 147 THB. The monopoly equilibrium is Q = 96 at P = 243; the competitive equilibrium is Q = 192 at P = 147. This graph labels its areas differently from the consumer-surplus graph: A, B, C and D as drawn.",
+  "image": "/labels/ps-graph.webp",
+  "questions": [
+    {
+      "id": "case-ps-graph-01",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "On this graph, which area is producer surplus in the competitive (Bertrand) equilibrium?",
+      "choices": [
+        "None: it is zero",
+        "B",
+        "B + C",
+        "D"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Under Bertrand P = MC = 147, so no unit sells above its marginal cost and producer surplus is zero.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 27
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ps-graph-02",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "On this graph, which area is producer surplus in the monopoly equilibrium?",
+      "choices": [
+        "A",
+        "B",
+        "B + D",
+        "C"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "B is the rectangle between the monopoly price (243) and MC (147) over 96 rides: (243 − 147) × 96 = 9,216. D is the cost of producing those rides.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 27
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ps-graph-03",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "On this graph, what does area D represent?",
+      "choices": [
+        "Producer surplus",
+        "Consumer surplus",
+        "The total cost of producing the monopoly output, MC × Q",
+        "Deadweight loss"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "D is the rectangle under MC = 147 from 0 to 96: 147 × 96 = 14,112, the cost of producing those rides.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 27
+      },
+      "difficulty": 3,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ps-graph-04",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "On this graph, which area is lost to everyone under monopoly?",
+      "choices": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "C is the triangle between demand and MC from 96 to 192. On this graph the letters differ from the consumer-surplus graph, where the same triangle is B.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 27
+      },
+      "difficulty": 3,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-ps-graph-05",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Producer surplus is defined as…",
+      "choices": [
+        "What producers receive by selling each unit at a price above its marginal cost",
+        "Revenue from every unit sold",
+        "What consumers save below their willingness to pay",
+        "Profit after fixed costs"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Price minus marginal cost, summed over units sold.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 27
+      },
+      "difficulty": 1,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    }
+  ]
+}

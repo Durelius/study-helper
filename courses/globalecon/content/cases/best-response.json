@@ -1,0 +1,122 @@
+{
+  "id": "best-response",
+  "title": "Graph: Grab and Uber's best-response curves",
+  "topics": [
+    "oligopoly"
+  ],
+  "scenario": "Cournot competition between Grab and Uber with P = 339 − Q and MC = 147. The graph plots Uber's output q_U (vertical) against Grab's output q_G (horizontal), with both firms' best-response curves.",
+  "image": "/labels/best-response.webp",
+  "questions": [
+    {
+      "id": "case-best-response-01",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Which line is Grab's best-response curve, q_G = 96 − ½q_U?",
+      "choices": [
+        "The steep line from q_U = 192 down to q_G = 96",
+        "The flat line from q_U = 96 down to q_G = 192",
+        "The horizontal line at q_U = 64",
+        "The vertical line at q_G = 64"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "When Uber produces nothing, Grab produces 96; Grab produces nothing only if Uber floods the market with 192. Plotted with q_U on the vertical axis, that is the steep line.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 37
+      },
+      "difficulty": 3,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-best-response-02",
+      "topic": "oligopoly",
+      "type": "num",
+      "stem": "At the Nash–Cournot equilibrium, how much does each firm produce?",
+      "choices": [],
+      "answer": [],
+      "explanation": "The curves cross at (64, 64).",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true,
+      "value": 64,
+      "unit": "rides/min"
+    },
+    {
+      "id": "case-best-response-03",
+      "topic": "oligopoly",
+      "type": "num",
+      "stem": "If Grab believed Uber would produce 0, what would Grab produce?",
+      "choices": [],
+      "answer": [],
+      "explanation": "q_G = 96 − ½ × 0 = 96, the monopoly output.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true,
+      "value": 96,
+      "unit": "rides/min"
+    },
+    {
+      "id": "case-best-response-04",
+      "topic": "oligopoly",
+      "type": "num",
+      "stem": "If Grab produces 96, what is Uber's best response?",
+      "choices": [],
+      "answer": [],
+      "explanation": "q_U = 96 − ½ × 96 = 48: the dotted line at 48. This is the Stackelberg follower's output when Grab leads with 96.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "graph"
+      ],
+      "examFocus": true,
+      "value": 48,
+      "unit": "rides/min"
+    },
+    {
+      "id": "case-best-response-05",
+      "topic": "oligopoly",
+      "type": "mcq",
+      "stem": "Why is the crossing point an equilibrium?",
+      "choices": [
+        "Profits are maximised for the industry",
+        "Each firm is producing its best response to what the other is producing",
+        "Price equals marginal cost there",
+        "Both firms produce the monopoly output"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "On both curves at once, so neither wants to change its output given the other's: a Nash equilibrium. Industry profit is maximised at collusion, not here.",
+      "source": {
+        "deck": "Quiz Prep",
+        "slide": 37
+      },
+      "difficulty": 2,
+      "tags": [
+        "explain",
+        "graph"
+      ],
+      "examFocus": true
+    }
+  ]
+}

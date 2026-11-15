@@ -1,0 +1,814 @@
+[
+  {
+    "id": "mfi-001",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Joel Mokyr received the 2025 Nobel Prize in economics for explaining what?",
+    "choices": [
+      "Innovation-driven economic growth",
+      "The theory of economic growth through capital accumulation",
+      "Strategic interaction between oligopolists",
+      "The Golden Rule level of saving"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Mokyr is an economic historian. He was honoured for explaining innovation-driven growth through historical analysis. Capital-accumulation growth theory is Solow's.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "mokyr"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-002",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "In Mokyr's account, useful knowledge fuels innovation through the synergy of which two kinds of knowledge?",
+    "choices": [
+      "Tacit (felt) and codified (written)",
+      "Propositional (why) and prescriptive (how)",
+      "Rival (private) and non-rival (public)",
+      "Endogenous (explained) and exogenous (given)"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Propositional knowledge is the 'why', the science. Prescriptive knowledge is the 'how', the technique. Innovation comes from the two feeding each other.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "mokyr"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-003",
+    "topic": "market-for-ideas",
+    "type": "multi",
+    "stem": "Which of these are part of Mokyr's explanation of innovation-driven growth? Select all that apply.",
+    "choices": [
+      "Supportive institutions sustain innovation",
+      "Protectionism threatens creative destruction",
+      "A large unified state is the best protector of new ideas",
+      "Higher saving permanently raises the growth rate",
+      "Cultural openness is key to technological progress"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "Mokyr stresses openness, institutions and the threat of protectionism to creative destruction. A unified state is the China case, where persecution risk was high. The saving-rate claim is a Solow misconception.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "mokyr",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-004",
+    "topic": "market-for-ideas",
+    "type": "text",
+    "stem": "Mokyr warned that protectionism threatens which process, the one by which new technologies and firms replace old ones? (two words)",
+    "choices": [],
+    "answer": [],
+    "explanation": "Creative destruction: innovation displacing old technologies and firms. Protectionism shields incumbents and slows it.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "mokyr"
+    ],
+    "examFocus": true,
+    "accept": [
+      "creative destruction"
+    ]
+  },
+  {
+    "id": "mfi-005",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Where did the Age of Enlightenment take place?",
+    "choices": [
+      "Qing China",
+      "The Islamic world",
+      "Sub-Saharan Africa",
+      "Western Europe"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Western Europe, not China or the Islamic world. It then snowballed into the Industrial Revolution.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "enlightenment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-006",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "In which centuries did the Enlightenment dominate Europe?",
+    "choices": [
+      "17th and 18th",
+      "15th and 16th",
+      "18th and 19th",
+      "19th and 20th"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The 17th and 18th centuries. The Industrial Revolution followed from the late 18th century.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "enlightenment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-007",
+    "topic": "market-for-ideas",
+    "type": "text",
+    "stem": "The Enlightenment's ferment of public debate and shared discovery is what we might now call open ______.",
+    "choices": [],
+    "answer": [],
+    "explanation": "Open science: new ideas were published and debated openly rather than kept secret.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "enlightenment"
+    ],
+    "examFocus": true,
+    "accept": [
+      "science",
+      "open science"
+    ]
+  },
+  {
+    "id": "mfi-008",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "What role did 18th-century salons, such as Madame Geoffrin's, play in the Enlightenment?",
+    "choices": [
+      "They licensed printers and censored books",
+      "They hosted scientific and literary discussion",
+      "They funded factories for new inventions",
+      "They trained state officials in Confucian classics"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Salons were places for intense social and intellectual life, where science and literature were discussed. They characterised the age.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "enlightenment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-009",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "In the market-for-ideas graph, what is on the vertical axis?",
+    "choices": [
+      "The size of the audience",
+      "The risk of persecution",
+      "The fragmentation index",
+      "The number of ideas"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Fragmentation index on the vertical axis (Europe high, China low) and number of ideas on the horizontal. Audience size and persecution risk are the two curves.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "graph-ideas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-010",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Why is the 'size of audience' curve downward sloping?",
+    "choices": [
+      "More fragmentation lowers the risk of persecution, which encourages innovators",
+      "A unified state censors ideas, so the audience shrinks",
+      "Fragmented states have higher literacy, so audiences grow",
+      "More fragmentation means a smaller audience in each state, which discourages innovators"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "It is the demand side. In fragmented Europe each castle offered a small audience, which could discourage new ideas. Unified China could have had a huge audience. The persecution argument is the other, upward-sloping curve.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "graph-ideas",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-011",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Why is the 'risk of persecution' curve upward sloping?",
+    "choices": [
+      "As fragmentation rises, persecution becomes less effective, so more ideas are supplied",
+      "As fragmentation rises, audiences shrink, so fewer ideas are supplied",
+      "As fragmentation rises, states compete to persecute dissidents more harshly",
+      "As ideas increase, rulers feel more threatened and fragment the state"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is the supply side. Overlapping, poorly coordinated jurisdictions let a thinker move across a border, so provocative ideas are less risky in fragmented Europe. In unified China the risk was high.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "graph-ideas",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-012",
+    "topic": "market-for-ideas",
+    "type": "tf",
+    "stem": "In the market for ideas, political fragmentation affects only the demand for ideas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It affects both demand (size of audience) and supply (risk of persecution), which is why there are two curves and multiple equilibria.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "graph-ideas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-013",
+    "topic": "market-for-ideas",
+    "type": "match",
+    "stem": "Match each element of the market-for-ideas graph to its role.",
+    "choices": [
+      "Demand side, slopes down",
+      "Supply side, slopes up",
+      "Vertical axis",
+      "Horizontal axis",
+      "Supply side, slopes down",
+      "Demand side, slopes up"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Audience is the demand side and slopes down. Persecution risk is the supply side and slopes up. Fragmentation is on the vertical axis, ideas on the horizontal.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "graph-ideas",
+      "graph"
+    ],
+    "examFocus": true,
+    "items": [
+      "Size of audience curve",
+      "Risk of persecution curve",
+      "Fragmentation index",
+      "Number of ideas"
+    ]
+  },
+  {
+    "id": "mfi-014",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Fragmentation shrinks each state's audience but also lowers the risk of persecution. What does this imply?",
+    "choices": [
+      "Fragmentation always increases the number of ideas",
+      "Fragmentation cuts both ways, giving multiple equilibria",
+      "Fragmentation always reduces the number of ideas",
+      "Fragmentation has no effect on ideas"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The two channels pull in opposite directions, so the graph has multiple equilibria (China low, Europe high). Africa shows high fragmentation does not guarantee many ideas.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 8
+    },
+    "difficulty": 3,
+    "tags": [
+      "graph-ideas",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-015",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Unified China could have had a very large audience for ideas. Why did it still end up with a low number of ideas?",
+    "choices": [
+      "Its audience was too small to reward innovators",
+      "It was too politically fragmented to share ideas",
+      "A unified state imposed its preference for unity and collective values, and the risk of persecution was high",
+      "It lacked the access costs that reduced demand in Europe"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The answer is on the supply side. With low fragmentation, persecution was effective, and China sat at the left-side equilibrium despite its large audience.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "china",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-016",
+    "topic": "market-for-ideas",
+    "type": "tf",
+    "stem": "In the model, China's problem was a lack of demand for ideas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "China had a potentially large audience, so plenty of demand. The binding constraint was supply: a high risk of persecution under a unified state.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "china",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-017",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "On the fragmentation graph, where does China sit?",
+    "choices": [
+      "Low fragmentation and a high number of ideas",
+      "High fragmentation and a low number of ideas",
+      "High fragmentation and a high number of ideas",
+      "Low fragmentation and a low number of ideas"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "China is at the bottom left: low fragmentation, few ideas. Europe is higher up with many ideas. High fragmentation with few ideas is Africa.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "china",
+      "graph-ideas"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-018",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Africa had higher political fragmentation than Europe but a lower number of ideas. What does this show?",
+    "choices": [
+      "A fragmented state system is not a sufficient condition for a flourishing market for ideas",
+      "Fragmentation reduces the number of ideas",
+      "Persecution was higher in Africa than in China",
+      "The size of audience is the only thing that matters"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fragmentation is necessary in this story but not enough. Africa lacked intellectual consolidation, and the payoffs to ideas were low relative to their cost.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "africa",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-019",
+    "topic": "market-for-ideas",
+    "type": "multi",
+    "stem": "Why did Africa's high fragmentation not produce many ideas? Select all that apply.",
+    "choices": [
+      "Lower payoffs relative to the cost of ideas",
+      "A high risk of persecution from a unified state",
+      "A lack of intellectual consolidation",
+      "Too large an audience in each state",
+      "Reduced access costs"
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explanation": "Fragmentation without a unified market for ideas, and payoffs too low to cover the cost of producing ideas. Persecution by a unified state is China's story.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "africa"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-020",
+    "topic": "market-for-ideas",
+    "type": "multi",
+    "stem": "What increased the demand for intellectual work in Europe? Select all that apply.",
+    "choices": [
+      "A unified state church",
+      "The rise of an urban commercial class",
+      "Higher persecution risk",
+      "Reduced access costs",
+      "Lower population growth"
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "explanation": "Cheaper access to books and correspondence, and a new urban commercial class who wanted ideas. Both shifted the number of ideas up.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "europe"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-021",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "On the supply side, what did fragmented Europe have that unified China did not?",
+    "choices": [
+      "A larger audience in each state",
+      "A single official ideology to build on",
+      "Lower access costs to books",
+      "More intellectual competition and a more diverse pool of talent"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Many competing states meant many competing thinkers and a diverse talent pool. Access costs are on the demand side.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "europe"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-022",
+    "topic": "market-for-ideas",
+    "type": "text",
+    "stem": "Political fragmentation plus a unified, transnational market for ideas created what community of European scholars? (three words: the Republic of ...)",
+    "choices": [],
+    "answer": [],
+    "explanation": "The Republic of Letters: scholars across many states corresponding and arguing with each other as one community.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "europe"
+    ],
+    "examFocus": true,
+    "accept": [
+      "republic of letters",
+      "letters"
+    ]
+  },
+  {
+    "id": "mfi-023",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "What combination pushed Europe into the Age of Enlightenment?",
+    "choices": [
+      "Political fragmentation combined with a unified market for ideas",
+      "Political unity combined with a fragmented market for ideas",
+      "Political unity combined with a unified market for ideas",
+      "Political fragmentation combined with fragmented markets for ideas"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fragmentation kept persecution risk low. The Republic of Letters gave thinkers one big audience across borders. Europe got the benefits of both curves.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "europe",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-024",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Why did Europe end up with a greater number of ideas than China?",
+    "choices": [
+      "A larger audience in each state",
+      "Open science and reduced risks of persecution",
+      "A lower fragmentation index",
+      "Higher savings invested in universities"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Low persecution risk from fragmentation, plus open science spreading ideas through the Republic of Letters.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "europe"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-025",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Why does the market for ideas need an institutional set-up unlike any other market?",
+    "choices": [
+      "Knowledge is rivalrous, so it must be protected like private property",
+      "Ideas have zero cost to produce",
+      "Knowledge is non-rivalrous, so the market resembles an open-source technology",
+      "Ideas can only be sold to governments"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Using an idea does not stop anyone else using it. So the market works like open-source technology, built on diffusion rather than exclusive sale.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "open-science"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-026",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "In open science, contributions were rewarded with what?",
+    "choices": [
+      "Profit from patents",
+      "Government salaries",
+      "Exclusive trade licences",
+      "Priority credit"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Priority credit, not profit. Being recognised as the first to discover something was the payoff.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "open-science"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-027",
+    "topic": "market-for-ideas",
+    "type": "tf",
+    "stem": "Under open science, the exclusivity of an idea was the key to an innovator's recognition.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The opposite: the diffusion of one's ideas, not their exclusivity, earned recognition.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "open-science"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-028",
+    "topic": "market-for-ideas",
+    "type": "text",
+    "stem": "Knowledge can be used by many people at once without being used up. Economists call this property non-______.",
+    "choices": [],
+    "answer": [],
+    "explanation": "Non-rivalrous: one person using an idea does not reduce what is left for others.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "open-science"
+    ],
+    "examFocus": true,
+    "accept": [
+      "rivalrous",
+      "rival",
+      "rivalry",
+      "non-rivalrous"
+    ]
+  },
+  {
+    "id": "mfi-029",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "What was the very purpose of open science?",
+    "choices": [
+      "To disseminate new ideas and offer them to the marketplace",
+      "To keep new ideas within guilds",
+      "To win patents for inventors",
+      "To reduce the number of competing ideas"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Open science existed to spread new ideas fast and put them up for critical scrutiny. That is why it drove rapid change in the market for ideas.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "open-science"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-030",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "Besides access costs, what else shaped incentives in the market for ideas?",
+    "choices": [
+      "The saving rate of households",
+      "The expected benefits to intellectual innovators",
+      "The price of land",
+      "The depreciation rate of capital"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Innovators respond to the expected payoff, such as priority credit and reputation, set against their costs.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "open-science"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-031",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "A scholar in 1750 publishes a provocative idea in Paris, is threatened, and moves to Amsterdam where she keeps writing to correspondents across Europe. Which features of the model does this illustrate?",
+    "choices": [
+      "Unified China's large audience",
+      "Africa's lack of intellectual consolidation",
+      "Fragmentation lowering persecution risk, and the Republic of Letters as a unified market for ideas",
+      "Protectionism stifling creative destruction"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Overlapping jurisdictions let her escape persecution (supply), and cross-border correspondence keeps her in one big market for ideas (demand).",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "europe",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "mfi-032",
+    "topic": "market-for-ideas",
+    "type": "mcq",
+    "stem": "What did the Enlightenment snowball into?",
+    "choices": [
+      "The Renaissance",
+      "The Reformation",
+      "The Great Depression",
+      "The Industrial Revolution"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The Enlightenment's useful knowledge snowballed into the Industrial Revolution, which is why it matters for growth.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "enlightenment"
+    ],
+    "examFocus": true
+  }
+]

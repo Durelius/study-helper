@@ -13,6 +13,8 @@ courses/
   valuechain/        course.json + content/ + audio/     348 questions, live
   genai-literacy/    course.json + content/              skeleton
   vitsup/            course.json + content/              333 questions, live
+  wineed/            course.json + content/              271 questions, live
+  globalecon/        course.json + content/              233 questions + 4 generated labs, live
 ```
 
 Everything that differs between courses is in its `course.json`: the topics and their

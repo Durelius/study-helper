@@ -1,0 +1,461 @@
+[
+  {
+    "id": "core-001",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "A monopolist faces P = 339 − Q and MC = 147. A student sets MR = MC, finds Q = 96, then writes P = 339 − 2(96) = 147. What went wrong?",
+    "choices": [
+      "The price must be read off demand: P = 339 − 96 = 243",
+      "Q should be 192",
+      "MR should be 339 − Q",
+      "Nothing: P = MC under monopoly"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "339 − 2Q is the MR line. The monopolist charges what consumers will pay for 96 rides, which is on the demand curve: 243.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-002",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which item does the quiz allow?",
+    "choices": [
+      "A phone in your pocket",
+      "A handheld calculator",
+      "Notes on the scratch paper brought from home",
+      "Leaving without handing in scratch paper"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Calculators are allowed. Phones must be in your bag, not your pocket, and scratch paper is handed in with the booklet.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": false
+  },
+  {
+    "id": "core-003",
+    "topic": "exam-core",
+    "type": "num",
+    "stem": "How many minutes long is the quiz?",
+    "choices": [],
+    "answer": [],
+    "explanation": "120 minutes.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": false,
+    "value": 120,
+    "unit": "minutes"
+  },
+  {
+    "id": "core-004",
+    "topic": "exam-core",
+    "type": "tf",
+    "stem": "A phone kept switched off in your pocket during the quiz is acceptable.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It must be in your bag, not your pocket; otherwise it counts as cheating.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 2
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": false
+  },
+  {
+    "id": "core-005",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which ordering of total output is correct for Grab and Uber?",
+    "choices": [
+      "Stackelberg 192 > Bertrand 144 > Cournot 128 > Collusion 96",
+      "Bertrand 192 > Cournot 144 > Stackelberg 128 > Collusion 96",
+      "Bertrand 192 > Stackelberg 144 > Cournot 128 > Collusion 96",
+      "Collusion 192 > Cournot 144 > Stackelberg 128 > Bertrand 96"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Competition produces most; the leader–follower structure is next, then simultaneous Cournot, then collusion.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table",
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-006",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Under Bertrand competition with identical products, what is each firm's profit?",
+    "choices": [
+      "Half the monopoly profit",
+      "The Cournot profit",
+      "The same as the leader's in Stackelberg",
+      "Zero"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "P = MC, so profit is zero. Half the monopoly profit is the cartel outcome.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-007",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "In the packet's results table, what is 'Total Value'?",
+    "choices": [
+      "Price × quantity",
+      "Consumer surplus",
+      "Consumer plus producer surplus",
+      "Total profit"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "147 × 192 = 28,224, 195 × 144 = 28,080, 211 × 128 = 27,008, 243 × 96 = 23,328. It is P × Q, not a surplus.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table",
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-008",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "In a 2×2 mixed-strategy equilibrium, Player 1's probability p of playing U is found from which payoffs?",
+    "choices": [
+      "Player 1's payoffs",
+      "Player 2's payoffs",
+      "The sum of both players' payoffs",
+      "The diagonal payoffs only"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "p makes Player 2 indifferent between L and R, so it comes from Player 2's payoffs.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 45
+    },
+    "difficulty": 1,
+    "tags": [
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-009",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "What does a higher saving rate do in the Solow model?",
+    "choices": [
+      "Raises long-run growth permanently",
+      "Lowers the steady-state level of income",
+      "Raises the steady-state level of income, but not its long-run growth rate",
+      "Has no effect at all"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Level effect, not growth effect.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-010",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which is the Golden Rule condition?",
+    "choices": [
+      "MPK = 0",
+      "Output per worker is maximised",
+      "The saving rate is 100%",
+      "MPK = δ"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Consumption, f(k) − δk, is maximised where the slopes are equal: MPK = δ. Maximising output would mean saving everything and consuming nothing.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 75
+    },
+    "difficulty": 1,
+    "tags": [
+      "trap"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-011",
+    "topic": "exam-core",
+    "type": "match",
+    "stem": "Match each market structure to its price for P = 339 − Q and MC = 147.",
+    "choices": [
+      "243",
+      "211",
+      "195",
+      "147",
+      "169.5",
+      "192"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Monopoly 243, Cournot 211, Stackelberg 195, Bertrand 147. 192 is the competitive output and 169.5 the MR intercept.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "table"
+    ],
+    "examFocus": true,
+    "items": [
+      "Monopoly",
+      "Cournot",
+      "Stackelberg",
+      "Bertrand"
+    ]
+  },
+  {
+    "id": "core-012",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which equation is Grab's Cournot reaction function for P = 339 − Q and MC = 147?",
+    "choices": [
+      "q_G = 96 − ½q_U",
+      "q_G = 192 − q_U",
+      "q_G = 96 − q_U",
+      "q_G = 64"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "From MR_G = 339 − 2q_G − q_U = 147: q_G = 96 − ½q_U. 64 is the equilibrium, not the function.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-013",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Which is the steady-state condition with population growth n and technology g?",
+    "choices": [
+      "s·f(k) = δk",
+      "s·f(k) = (δ + n + g)k",
+      "f(k) = (δ + n + g)k",
+      "s = δ + n + g"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Investment equals break-even investment.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 86
+    },
+    "difficulty": 1,
+    "tags": [
+      "formula"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-014",
+    "topic": "exam-core",
+    "type": "multi",
+    "stem": "Which shocks leave an economy growing FASTER than normal for a while? Select all that apply.",
+    "choices": [
+      "A war kills part of the labour force",
+      "Population growth rises",
+      "The saving rate rises",
+      "A war destroys part of the capital stock",
+      "Depreciation rises"
+    ],
+    "answer": [
+      2,
+      3
+    ],
+    "explanation": "Destroying capital pushes k below k*; higher saving raises k*. Both open a gap that investment closes. Killing workers pushes k above k*, so output per worker falls.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 65
+    },
+    "difficulty": 3,
+    "tags": [
+      "trap",
+      "explain"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "core-015",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "Why did unified China produce few ideas despite its large audience?",
+    "choices": [
+      "Too small an audience",
+      "Too much political fragmentation",
+      "Too much open science",
+      "High risk of persecution under a unified state"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The supply side: low fragmentation made persecution effective.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "core-016",
+    "topic": "exam-core",
+    "type": "mcq",
+    "stem": "What does the Republic of Letters combine?",
+    "choices": [
+      "Political fragmentation with a unified market for ideas",
+      "Political unity with fragmented ideas",
+      "Open science with patents",
+      "Salons with state censorship"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fragmented states, one transnational intellectual community.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [],
+    "examFocus": true
+  },
+  {
+    "id": "core-017",
+    "topic": "exam-core",
+    "type": "num",
+    "stem": "Cournot with P = 339 − Q and MC = 147: what is each firm's profit?",
+    "choices": [],
+    "answer": [],
+    "explanation": "q = 64 each, P = 211, profit = 64 × 64 = 4,096.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 4096,
+    "unit": "THB"
+  },
+  {
+    "id": "core-018",
+    "topic": "exam-core",
+    "type": "num",
+    "stem": "Stackelberg with P = 339 − Q and MC = 147: what is total market output?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Leader 96 + follower 48 = 144.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 144,
+    "unit": "rides/min"
+  },
+  {
+    "id": "core-019",
+    "topic": "exam-core",
+    "type": "num",
+    "stem": "10 computers, 10 workers; δ = 0.1, n = 0.2, g = 1.0. How many computers must be added to keep k = 1 per effective worker?",
+    "choices": [],
+    "answer": [],
+    "explanation": "(δ + n + g) × 10 = 1.3 × 10 = 13.",
+    "source": {
+      "deck": "Quiz Prep",
+      "slide": 88
+    },
+    "difficulty": 2,
+    "tags": [
+      "packet"
+    ],
+    "examFocus": true,
+    "value": 13,
+    "unit": "computers"
+  }
+]
