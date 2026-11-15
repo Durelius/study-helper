@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="458.840312pt" height="180.140781pt" viewBox="0 0 458.840312 180.140781" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-15T16:31:10.990173</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 180.140781 
+L 458.840312 180.140781 
+L 458.840312 -0 
+L 0 -0 
+L 0 180.140781 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 38.720313 158.981406 
+L 226.411222 158.981406 
+L 226.411222 20.381406 
+L 38.720313 20.381406 
+L 38.720313 158.981406 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="text_1">
+     <text style="fill: #1f2937; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="226.411222" y="170.540781" transform="rotate(-0 226.411222 170.540781)">time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0ee31d1fe7" d="M 0 0 
+L -3.5 0 
+" style="stroke: #6b7280; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0ee31d1fe7" x="38.720313" y="86.381406" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="31.720313" y="90.161094" transform="rotate(-0 31.720313 90.161094)">y*</text>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="fill: #1f2937; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="14.759375" y="89.681406" transform="rotate(-90 14.759375 89.681406)">output per worker</text>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <path d="M 47.251717 86.381406 
+L 71.219544 86.381406 
+L 71.790207 145.503929 
+L 74.643519 140.852608 
+L 77.496832 136.567218 
+L 80.350145 132.618971 
+L 83.77412 128.288906 
+L 87.198095 124.364343 
+L 90.62207 120.807309 
+L 94.046046 117.583385 
+L 97.470021 114.661376 
+L 100.893996 112.013007 
+L 104.317971 109.612654 
+L 108.312609 107.094841 
+L 112.307247 104.84991 
+L 116.301885 102.848286 
+L 120.867185 100.824948 
+L 125.432485 99.050225 
+L 130.568448 97.312945 
+L 135.704411 95.813899 
+L 141.411036 94.388124 
+L 147.688324 93.06739 
+L 154.536275 91.873765 
+L 161.954888 90.819897 
+L 169.944163 89.909942 
+L 179.074764 89.09609 
+L 189.34669 88.402608 
+L 201.901266 87.790796 
+L 216.738492 87.301822 
+L 217.879817 87.272144 
+L 217.879817 87.272144 
+" clip-path="url(#pb05f3a4630)" style="fill: none; stroke: #16a34a; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 38.720313 86.381406 
+L 226.411222 86.381406 
+" clip-path="url(#pb05f3a4630)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #6b7280; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 71.62716 158.981406 
+L 71.62716 20.381406 
+" clip-path="url(#pb05f3a4630)" style="fill: none; stroke: #6b7280; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 38.720313 158.981406 
+L 38.720313 20.381406 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 38.720313 158.981406 
+L 226.411222 158.981406 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6b7280; font: 8px 'Avenir Next', 'Arial Unicode MS'; text-anchor: start" x="73.455318" y="30.941406" transform="rotate(-0 73.455318 30.941406)">war</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #1f2937; font: 600 9.5px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="132.565767" y="14.381406" transform="rotate(-0 132.565767 14.381406)">Capital destroyed</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 263.949403 158.981406 
+L 451.640313 158.981406 
+L 451.640313 20.381406 
+L 263.949403 20.381406 
+L 263.949403 158.981406 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="text_6">
+     <text style="fill: #1f2937; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="451.640313" y="170.540781" transform="rotate(-0 451.640313 170.540781)">time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m0ee31d1fe7" x="263.949403" y="86.381406" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_6">
+    <path d="M 272.480808 86.381406 
+L 296.448635 86.381406 
+L 297.019298 40.397222 
+L 300.443273 44.703558 
+L 303.867248 48.606614 
+L 307.291223 52.144156 
+L 310.715198 55.350413 
+L 314.139174 58.25641 
+L 317.563149 60.890266 
+L 320.987124 63.277465 
+L 324.981762 65.78148 
+L 328.9764 68.014109 
+L 332.971038 70.004764 
+L 337.536338 72.017014 
+L 342.101638 73.782013 
+L 347.237601 75.509772 
+L 352.373564 77.000603 
+L 358.080189 78.418565 
+L 364.357477 79.732062 
+L 371.205428 80.919146 
+L 378.624041 81.967239 
+L 386.613316 82.872207 
+L 395.743917 83.681599 
+L 406.586505 84.403954 
+L 419.141081 85.002523 
+L 433.978307 85.480913 
+L 443.108908 85.688611 
+L 443.108908 85.688611 
+" clip-path="url(#p78d2e2a361)" style="fill: none; stroke: #dc2626; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 263.949403 86.381406 
+L 451.640313 86.381406 
+" clip-path="url(#p78d2e2a361)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #6b7280; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 296.856251 158.981406 
+L 296.856251 20.381406 
+" clip-path="url(#p78d2e2a361)" style="fill: none; stroke: #6b7280; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 263.949403 158.981406 
+L 263.949403 20.381406 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 263.949403 158.981406 
+L 451.640313 158.981406 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_7">
+    <text style="fill: #6b7280; font: 8px 'Avenir Next', 'Arial Unicode MS'; text-anchor: start" x="298.684409" y="30.941406" transform="rotate(-0 298.684409 30.941406)">war</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #1f2937; font: 600 9.5px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="357.794858" y="14.381406" transform="rotate(-0 357.794858 14.381406)">Workers killed</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb05f3a4630">
+   <rect x="38.720313" y="20.381406" width="187.690909" height="138.6"/>
+  </clipPath>
+  <clipPath id="p78d2e2a361">
+   <rect x="263.949403" y="20.381406" width="187.690909" height="138.6"/>
+  </clipPath>
+ </defs>
+</svg>

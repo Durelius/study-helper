@@ -31,7 +31,10 @@ export default function NotesBody({ notes }: { notes: Notes }) {
       {blocks.map((b, i) =>
         b.kind === 'md' ? (
           <div key={i} className="prose">
-            <Markdown remarkPlugins={[remarkGfm]} components={{ code: (p) => cite(p, notes.deck) }}>
+            <Markdown remarkPlugins={[remarkGfm]} components={{
+                code: (p) => cite(p, notes.deck),
+                a: ({ node: _node, ...p }) => <a {...p} target="_blank" rel="noopener noreferrer" />,
+              }}>
               {b.text}
             </Markdown>
           </div>

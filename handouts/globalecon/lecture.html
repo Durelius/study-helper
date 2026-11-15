@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Economic Concepts: Final Quiz Lecture</title>
+<style>
+  @page { size: A4; margin: 16mm 17mm 18mm 17mm;
+    @bottom-center { content: counter(page); font: 9pt "Avenir Next", sans-serif; color: #6b7280; } }
+  @page :first { @bottom-center { content: none; } }
+  :root { --ink:#1f2937; --muted:#6b7280; --line:#e5e7eb; --blue:#2563eb; --blue-bg:#eff6ff;
+          --green:#16a34a; --green-bg:#f0fdf4; --red:#dc2626; --red-bg:#fef2f2;
+          --amber:#b45309; --amber-bg:#fffbeb; --purple:#7c3aed; }
+  * { box-sizing: border-box; }
+  body { font: 10.5pt/1.5 Charter, Georgia, serif; color: var(--ink); background: #fff; margin: 0; }
+  h1, h2, h3, h4, .label, table, .tag, figcaption { font-family: "Avenir Next", "Helvetica Neue", sans-serif; }
+  h1 { font-size: 26pt; line-height: 1.15; margin: 0 0 6pt; font-weight: 700; }
+  h2 { font-size: 17pt; margin: 0 0 4pt; font-weight: 700; break-after: avoid; }
+  h3 { font-size: 12.5pt; margin: 16pt 0 4pt; font-weight: 600; break-after: avoid; }
+  h4 { font-size: 10.5pt; margin: 10pt 0 2pt; font-weight: 600; break-after: avoid; }
+  p { margin: 0 0 7pt; }
+  ul, ol { margin: 0 0 8pt; padding-left: 18pt; }
+  li { margin-bottom: 2pt; }
+  .part { break-before: page; }
+  .kicker { font: 600 9pt "Avenir Next", sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); margin-bottom: 2pt; }
+  .lede { font-size: 11.5pt; color: #374151; margin-bottom: 10pt; }
+  .box { border-radius: 6pt; padding: 8pt 11pt; margin: 9pt 0; break-inside: avoid; }
+  .box > :last-child { margin-bottom: 0; }
+  .box .label { display: block; font-size: 8.5pt; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 3pt; }
+  .goals { background: var(--blue-bg); border-left: 3pt solid var(--blue); }
+  .goals .label { color: var(--blue); }
+  .big { background: var(--green-bg); border-left: 3pt solid var(--green); }
+  .big .label { color: var(--green); }
+  .trap { background: var(--red-bg); border-left: 3pt solid var(--red); }
+  .trap .label { color: var(--red); }
+  .try { background: var(--amber-bg); border-left: 3pt solid var(--amber); }
+  .try .label { color: var(--amber); }
+  .note { background: #f9fafb; border: 1px solid var(--line); }
+  .note .label { color: var(--muted); }
+  figure { margin: 8pt 0 10pt; break-inside: avoid; text-align: center; }
+  figure img { max-width: 100%; }
+  figcaption { font-size: 8.5pt; color: var(--muted); margin-top: 2pt; }
+  table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin: 6pt 0 10pt; break-inside: avoid; }
+  th, td { border-bottom: 1px solid var(--line); padding: 4pt 6pt; text-align: left; vertical-align: top; }
+  th { font-weight: 600; background: #f9fafb; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .blank td { height: 22pt; background: #fff; border: 1px solid #d1d5db; }
+  .eq { font: 10.5pt "Menlo", monospace; background: #f3f4f6; border-radius: 4pt; padding: 1pt 4pt; white-space: nowrap; }
+  .steps { counter-reset: step; list-style: none; padding-left: 0; }
+  .steps > li { counter-increment: step; position: relative; padding-left: 24pt; margin-bottom: 6pt; }
+  .steps > li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 16pt; height: 16pt; border-radius: 50%;
+    background: var(--ink); color: #fff; font: 600 8.5pt/16pt "Avenir Next", sans-serif; text-align: center; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12pt; }
+  .q { break-inside: avoid; margin-bottom: 8pt; }
+  .q ol { list-style: upper-alpha; margin-top: 2pt; }
+  .tag { display: inline-block; font-size: 8pt; font-weight: 600; padding: 1pt 6pt; border-radius: 8pt; background: var(--line); color: var(--ink); margin-right: 4pt; }
+  .cover { height: 255mm; display: flex; flex-direction: column; }
+  .cover .sub { font: 500 13pt "Avenir Next", sans-serif; color: var(--muted); margin-bottom: 18pt; }
+  .map th:nth-child(2), .map td:nth-child(2) { width: 22%; }
+  .small { font-size: 9pt; color: var(--muted); }
+  .cheat { font-size: 9.3pt; }
+  .cheat h3 { margin-top: 8pt; }
+  .cheat table { font-size: 8.8pt; }
+  b, strong { font-weight: 700; }
+  .key { background: #f9fafb; border: 1px solid var(--line); border-left: 3pt solid var(--purple); }
+  .key .label { color: var(--purple); }
+  .key table { margin: 2pt 0 0; font-size: 9.2pt; }
+  .key th, .key td { padding: 2.5pt 6pt; background: transparent; }
+  .key td:first-child { font: 600 9.5pt "Menlo", monospace; white-space: nowrap; width: 13%; }
+  .key td:last-child { color: var(--muted); width: 26%; }
+  .answers { font-size: 9.6pt; }
+  .answers h3 { margin-top: 10pt; }
+  .answers table { margin: 3pt 0 6pt; }
+  .answers th, .answers td { padding: 2.5pt 6pt; }
+</style>
+</head>
+<body>
+
+<!-- ============================================================ COVER -->
+<section class="cover">
+  <div class="kicker">BAScII Economic Concepts · Final quiz · Tue 17 Nov, 13:00</div>
+  <h1>Everything on the quiz, step by step</h1>
+  <div class="sub">A study lecture built from the Quiz Prep Packet (Dr. Francis D. Kim), cut down to what is examined, with the missing steps filled in.</div>
+
+  <h3>What is on the paper</h3>
+  <table class="map">
+    <tr><th>Block</th><th>Share</th><th>Format</th><th>Part</th></tr>
+    <tr><td><b>The 16-cell results table</b>: Bertrand, Stackelberg, Cournot, collusion × output, price, Total Value, profit. Possibly also: where consumer surplus, producer surplus and deadweight loss sit on the graph (A.5)</td><td>a bit over ⅓</td><td>Calculate. You get only the demand curve and MC</td><td>A</td></tr>
+    <tr><td><b>Market for ideas</b> (Joel Mokyr, the Enlightenment)</td><td>under ⅓</td><td>Multiple choice</td><td>B</td></tr>
+    <tr><td><b>Solow graph</b>: steady state, war casualties, policymakers</td><td>rest</td><td>Multiple choice</td><td>C</td></tr>
+    <tr><td><b>Solow at company level</b>: the computers calculation</td><td>rest</td><td>Calculate</td><td>D</td></tr>
+  </table>
+
+  <div class="box note"><span class="label">Not on the quiz, so not in here</span>
+  Game theory (the 2×2 mixed-strategy game, best responses, p and q), the cartel cheating story, the returns-to-scale proofs (Pop quiz Q1 and Q4) and the steady-state algebra with √k. If you have spare time, use it on Part A.</div>
+
+  <h3>How to use this lecture</h3>
+  <ol>
+    <li><b>Read a part once</b>, doing every worked example with a pen and calculator, not just reading it.</li>
+    <li><b>Do the “Your turn” boxes without looking back.</b> The answers are at the end. Getting stuck is the point: that is where the learning happens.</li>
+    <li><b>Answer the self-check questions</b> at the end of each part, and only then check the answers.</li>
+    <li><b>The night before and the morning of the quiz</b>, use only the one-page summary (page before the answers). Cover it and try to rewrite it.</li>
+  </ol>
+
+  <div class="box goals"><span class="label">Suggested time on the day (120 min)</span>
+  Do the table first while you are fresh: about <b>30 min</b>, including checking. Then the computers calculation (<b>10 min</b>), then the multiple choice (<b>~45 min</b>). That leaves around 30 minutes to recheck every table cell.</div>
+</section>
+
+<!-- ============================================================ PART A -->
+<section class="part">
+  <div class="kicker">Part A · a bit over a third of the quiz</div>
+  <h2>The 16-cell results table</h2>
+  <p class="lede">Two firms sell the same service. You are told the demand curve and marginal cost and nothing else. You fill in four numbers for each of four market structures.</p>
+
+  <div class="box key"><span class="label">Every letter in Part A</span>
+  <table>
+    <tr><th>Symbol</th><th>What it means</th><th>Packet example</th></tr>
+    <tr><td>Q</td><td><b>Quantity</b>: the total amount sold by both firms together, here rides per minute</td><td>Q = 192 under Bertrand</td></tr>
+    <tr><td>q₁, q₂</td><td>The quantity sold by <b>firm 1</b> and by <b>firm 2</b> separately, so Q = q₁ + q₂</td><td>Cournot: q₁ = q₂ = 64</td></tr>
+    <tr><td>P</td><td><b>Price</b> of one unit (one ride), in baht (THB)</td><td>P = 147 under Bertrand</td></tr>
+    <tr><td>P = A − Q</td><td>The <b>demand curve</b>: the price at which customers buy exactly Q units. Each extra unit sold lowers the price by 1</td><td>P = 339 − Q</td></tr>
+    <tr><td>A</td><td>The number at the front of the demand curve: the price at which <b>nobody</b> buys (Q = 0)</td><td>A = 339</td></tr>
+    <tr><td>MC, C</td><td><b>Marginal cost</b>: what one extra unit costs a firm to produce. Same for both firms, and constant. We write it as C</td><td>C = 147</td></tr>
+    <tr><td>G</td><td>The <b>gap</b> A − C: a helper we define to make the arithmetic short (not in the packet)</td><td>G = 339 − 147 = 192</td></tr>
+    <tr><td>R</td><td><b>Revenue</b>: money taken in, price × quantity</td><td></td></tr>
+    <tr><td>MR</td><td><b>Marginal revenue</b>: the extra revenue from selling one more unit</td><td></td></tr>
+    <tr><td>Total Value</td><td>P × Q: total customer spending on the service</td><td>28,224 under Bertrand</td></tr>
+    <tr><td>Profit</td><td>Revenue minus cost: (P − C) × Q, i.e. margin per unit × units sold</td><td>9,216 under collusion</td></tr>
+    <tr><td>CS</td><td><b>Consumer surplus</b>: what buyers would have paid minus what they did pay (section A.5)</td><td>4,608 under collusion</td></tr>
+    <tr><td>PS</td><td><b>Producer surplus</b>: price received minus marginal cost, over all units sold (here equal to profit)</td><td>9,216 under collusion</td></tr>
+    <tr><td>DWL</td><td><b>Deadweight loss</b>: value of trades that would have benefited both sides but never happen</td><td>4,608 under collusion</td></tr>
+  </table></div>
+
+  <div class="box goals"><span class="label">By the end of Part A you can</span>
+  <ul><li>explain in one sentence why each structure produces the output it does;</li>
+  <li>fill all 16 cells for <i>any</i> demand curve P = A − Q and marginal cost C in under 10 minutes;</li>
+  <li>check your own table for mistakes using three patterns.</li></ul></div>
+
+  <h3>A.1 The table you are filling</h3>
+  <p>This is the packet's table (slide 21), for Grab and Uber (the two firms) with demand <span class="eq">P = 339 − Q</span> and <span class="eq">MC = 147</span>. Columns run from <b>most competition</b> (left) to <b>least</b> (right).</p>
+  <table>
+    <tr><th></th><th class="n">Bertrand<br><span class="small">price war</span></th><th class="n">Stackelberg<br><span class="small">sequential</span></th><th class="n">Cournot<br><span class="small">simultaneous</span></th><th class="n">Collusion<br><span class="small">act as monopoly</span></th></tr>
+    <tr><td>Total output Q (rides/min)</td><td class="n">192</td><td class="n">144</td><td class="n">128</td><td class="n">96</td></tr>
+    <tr><td>Price P (THB)</td><td class="n">147</td><td class="n">195</td><td class="n">211</td><td class="n">243</td></tr>
+    <tr><td>Total Value = P × Q (THB/min)</td><td class="n">28,224</td><td class="n">28,080</td><td class="n">27,008</td><td class="n">23,328</td></tr>
+    <tr><td>Total profit (THB/min)</td><td class="n">0</td><td class="n">6,912</td><td class="n">8,192</td><td class="n">9,216</td></tr>
+  </table>
+  <p>You do <b>not</b> need to memorise these numbers: the quiz will use a different demand curve. You need the <b>method</b>, which is the same every time.</p>
+
+  <h3>A.2 Two tools you need first</h3>
+  <h4>Tool 1: the gap G = A − C</h4>
+  <p>Write the demand curve as <span class="eq">P = A − Q</span>. <b>A</b> is the price at which nobody buys; <b>C</b> is the marginal cost. Their difference <span class="eq">G = A − C</span> is the most output that can ever be sold at a price that covers cost. Packet: G = 339 − 147 = <b>192</b>. <b>Every output in the table is a simple fraction of G.</b></p>
+  <h4>Tool 2: marginal revenue for a straight-line demand</h4>
+  <p>Revenue R is price times quantity. Replace P with the demand curve: <span class="eq">R = P × Q = (A − Q)Q = AQ − Q²</span>. Marginal revenue MR, the extra revenue from one more unit, is the derivative of R with respect to Q (AQ becomes A, Q² becomes 2Q): <span class="eq">MR = A − 2Q</span>. <b>MR falls twice as fast as the demand curve.</b> A profit-maximising firm produces where <span class="eq">MR = MC</span>.</p>
+
+  <h3>A.3 The four structures, one at a time</h3>
+
+  <h4>① Collusion: the firms act as one monopolist</h4>
+  <p><b>Idea.</b> If the two firms agree to coordinate, they behave like a single monopoly and split the market.</p>
+  <ol class="steps">
+    <li>Set MR = MC for the whole market (MR = A − 2Q from Tool 2, MC = C): <span class="eq">A − 2Q = C</span>.</li>
+    <li>Solve: <span class="eq">Q = (A − C)/2 = G/2</span>. Packet: 192/2 = <b>96</b> (48 each).</li>
+  </ol>
+
+  <h4>② Bertrand: the firms compete on price</h4>
+  <p><b>Idea.</b> The service is identical, so whoever is cheaper gets every customer. If your rival charges anything above cost, you undercut by 1 baht and take the whole market. That only stops when <b>price = marginal cost</b>.</p>
+  <ol class="steps">
+    <li><span class="eq">P = C</span>. Packet: <b>147</b>.</li>
+    <li>Read Q off demand: <span class="eq">C = A − Q ⇒ Q = A − C = G</span>. Packet: <b>192</b>.</li>
+    <li>Profit is <b>zero</b>: profit = (P − C) × Q, and P − C = 0 because each ride sells at cost. This is the competitive outcome.</li>
+  </ol>
+
+  <h4>③ Cournot: the firms choose quantities at the same time</h4>
+  <p><b>Idea.</b> Each firm picks its own output (firm 1 picks q₁, firm 2 picks q₂) taking the rival's output as given. The equilibrium is where both choices are best replies to each other.</p>
+  <ol class="steps">
+    <li>The market price depends on both firms' output, P = A − (q₁ + q₂). Firm 1 earns that price on its own q₁, so its revenue is <span class="eq">(A − q₁ − q₂)·q₁</span>, and <span class="eq">MR₁ = A − 2q₁ − q₂</span>. Treat q₂ as a constant.</li>
+    <li>Set MR₁ = C to get the <b>reaction function</b> (firm 1's best output for every q₂ the rival might choose): <span class="eq">q₁ = G/2 − q₂/2</span>. Packet: q₁ = 96 − ½q₂.</li>
+    <li>The firms are identical, so in equilibrium they produce the same amount, q₁ = q₂ = q (q = one firm's output): <span class="eq">q = G/2 − q/2 ⇒ q = G/3</span>. Packet: <b>64 each</b>.</li>
+    <li>Total: <span class="eq">Q = 2G/3</span>. Packet: <b>128</b>.</li>
+  </ol>
+
+  <h4>④ Stackelberg: one firm moves first</h4>
+  <p><b>Idea.</b> The <b>leader</b> (firm 1, output q₁) commits to its output first; the <b>follower</b> (firm 2, output q₂) sees it and then chooses. It knows the follower will then reply with the Cournot reaction function, and it uses that knowledge.</p>
+  <ol class="steps">
+    <li>The follower's reaction: <span class="eq">q₂ = G/2 − q₁/2</span> (the same as in Cournot).</li>
+    <li>Substitute it into demand. The leader faces <span class="eq">P = A − q₁ − (G/2 − q₁/2) = (A + C)/2 − q₁/2</span>. Packet: P = 243 − ½q₁.</li>
+    <li>The leader's MR is <span class="eq">(A + C)/2 − q₁</span>. Set it equal to C: <span class="eq">q₁ = G/2</span>. Packet: <b>96</b>.</li>
+    <li>The follower: <span class="eq">q₂ = G/2 − G/4 = G/4</span>. Packet: <b>48</b>.</li>
+    <li>Total: <span class="eq">Q = 3G/4</span>. Packet: <b>144</b>. Moving first pays: the leader makes twice the follower's output and profit.</li>
+  </ol>
+
+  <figure><img src="figures/demand.png" style="width:82%"><figcaption>All four outcomes lie on the same demand curve. Less output means a higher price.</figcaption></figure>
+
+  <h3>A.4 The method for the table</h3>
+  <div class="box big"><span class="label">The whole table in four rules</span>
+  <ol class="steps">
+    <li><b>Output row:</b> Bertrand <b>G</b> · Stackelberg <b>¾G</b> · Cournot <b>⅔G</b> · Collusion <b>½G</b>.<br><span class="small">Memory hook: 1, ¾, ⅔, ½. Each column drops as competition weakens.</span></li>
+    <li><b>Price row:</b> always off the demand curve, <span class="eq">P = A − Q</span>. Never use MR to find a price.</li>
+    <li><b>Total Value row:</b> <span class="eq">P × Q</span>. This is total spending, <b>not</b> consumer surplus.</li>
+    <li><b>Profit row:</b> <span class="eq">(P − C) × Q</span>. Shortcut: P − C = (A − Q) − C = G − Q, so profit is <span class="eq">(G − Q) × Q</span>.</li>
+  </ol></div>
+
+  <h4>Worked example: the packet's market, cell by cell</h4>
+  <p>A = 339, C = 147, so G = 192.</p>
+  <table>
+    <tr><th></th><th>Output</th><th>Price = 339 − Q</th><th>Total Value = P × Q</th><th>Profit = (P − 147) × Q</th></tr>
+    <tr><td>Bertrand</td><td>192</td><td>339 − 192 = 147</td><td>147 × 192 = 28,224</td><td>0 × 192 = 0</td></tr>
+    <tr><td>Stackelberg</td><td>¾ × 192 = 144</td><td>339 − 144 = 195</td><td>195 × 144 = 28,080</td><td>48 × 144 = 6,912</td></tr>
+    <tr><td>Cournot</td><td>⅔ × 192 = 128</td><td>339 − 128 = 211</td><td>211 × 128 = 27,008</td><td>64 × 128 = 8,192</td></tr>
+    <tr><td>Collusion</td><td>½ × 192 = 96</td><td>339 − 96 = 243</td><td>243 × 96 = 23,328</td><td>96 × 96 = 9,216</td></tr>
+  </table>
+
+  <div class="box trap"><span class="label">Traps that cost marks</span>
+  <ul>
+    <li><b>Price off the MR line.</b> In collusion, MR = MC at 147 but the price is 243. P always comes from demand.</li>
+    <li><b>Bertrand profit is 0</b>, not half of the monopoly profit.</li>
+    <li><b>The table asks for TOTAL output and TOTAL profit</b>, both firms together. Cournot is 128, not 64. Stackelberg profit is 6,912 (4,608 + 2,304).</li>
+    <li><b>Total Value is P × Q</b>, not ½ × Q × (A − P).</li>
+    <li><b>Don't trust a pattern for Total Value.</b> In the packet it falls from left to right, but with other numbers it does not (see Your turn 1). Always calculate it.</li>
+  </ul></div>
+
+  <h4>Check your table with three patterns that always hold</h4>
+  <ul>
+    <li>Output <b>falls</b> left to right: G &gt; ¾G &gt; ⅔G &gt; ½G.</li>
+    <li>Price <b>rises</b> left to right, and Bertrand's price equals MC.</li>
+    <li>Profit <b>rises</b> left to right (put each Q into (G − Q) × Q): 0 &lt; 3G²/16 &lt; 2G²/9 &lt; G²/4. Collusion profit is always (G/2)², which is a quick check: 96² = 9,216.</li>
+  </ul>
+
+  <h3>A.5 Consumer surplus, producer surplus, deadweight loss: where they sit on the graph</h3>
+  <p>These three are <b>areas</b> on the price–quantity graph. For the quiz it is enough to point to each one. Start from the market price P and the quantity sold Q:</p>
+  <table>
+    <tr><th>Area</th><th>Where it is on the graph</th><th>Meaning</th></tr>
+    <tr><td><b style="color:#2563eb">CS</b> consumer surplus</td><td><b>Below the demand curve, above the price line</b>, from 0 to Q. A triangle.</td><td>Buyers' gain: the demand curve shows what each buyer was willing to pay, and they only paid P.</td></tr>
+    <tr><td><b style="color:#16a34a">PS</b> producer surplus</td><td><b>Above the supply (MC) curve, below the price line</b>, from 0 to Q. A triangle if supply slopes up; a rectangle if MC is flat, as in our table.</td><td>Sellers' gain: they received P but each unit only cost MC. With flat MC and no fixed costs, PS = profit.</td></tr>
+    <tr><td><b style="color:#dc2626">DWL</b> deadweight loss</td><td><b>The triangle between demand and MC, from the Q actually sold to the competitive Q*</b> (where demand meets MC). It points at the competitive equilibrium.</td><td>Lost value: units buyers valued above their cost that nobody produced. It goes to no one.</td></tr>
+  </table>
+  <figure><img src="figures/surplus_general.png" style="width:94%"><figcaption>Left: at the competitive price, CS + PS is as large as possible and there is no DWL. Right: restricting output to Q raises the price, shrinks CS, and leaves the red DWL triangle.</figcaption></figure>
+  <p>In our table, cutting output moves surplus from consumers to the firms and destroys some along the way:</p>
+  <figure><img src="figures/surplus_table.png" style="width:100%"><figcaption>The packet's market (P = 339 − Q, MC = 147). Moving right, CS shrinks, PS (= profit) grows and DWL grows. CS + PS + DWL always add up to the Bertrand CS, 18,432.</figcaption></figure>
+  <div class="box big"><span class="label">Three things to remember</span>
+  <ul>
+    <li><b>CS is above the price, PS is below the price</b>; the price line is the border between them.</li>
+    <li><b>DWL is zero only in the competitive outcome</b> (Bertrand, P = MC). The less output, the bigger the DWL: collusion has the largest.</li>
+    <li>If you ever need the numbers: CS = ½ × Q × (A − P), PS = (P − C) × Q, DWL = ½ × (G − Q) × (P − C). <b>Total Value (P × Q) is none of these.</b></li>
+  </ul></div>
+
+  <div class="box try"><span class="label">Your turn 1 · cover the rules above</span>
+  Demand is <b>P = 300 − Q</b> and MC = <b>60</b>. Fill all 16 cells.
+  <table class="blank">
+    <tr><th></th><th class="n">Bertrand</th><th class="n">Stackelberg</th><th class="n">Cournot</th><th class="n">Collusion</th></tr>
+    <tr><td>Total output</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Price</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Total Value</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Total profit</td><td></td><td></td><td></td><td></td></tr>
+  </table></div>
+
+  <div class="box try"><span class="label">Your turn 2 · against the clock: 8 minutes</span>
+  Demand is <b>P = 250 − Q</b> and MC = <b>130</b>. Fill all 16 cells, then check them with the three patterns.</div>
+
+  <p class="small">More practice: the study app's <b>Fill the table</b> drill creates a new market every time.</p>
+</section>
+
+<!-- ============================================================ PART B -->
+<section class="part">
+  <div class="kicker">Part B · under a third of the quiz · multiple choice</div>
+  <h2>The market for ideas: Mokyr and the Enlightenment</h2>
+  <p class="lede">Why did the Enlightenment, and then the Industrial Revolution, happen in Western Europe and not in China? Mokyr's answer is a market: ideas have a demand side and a supply side, and political fragmentation pushes on both.</p>
+
+  <div class="box goals"><span class="label">By the end of Part B you can</span>
+  <ul><li>name Mokyr's four claims about innovation;</li>
+  <li>explain why each curve on the graph slopes the way it does;</li>
+  <li>explain why China, Africa and Europe ended up where they did;</li>
+  <li>say why open science made the market for ideas work.</li></ul></div>
+
+  <h3>B.1 Who Mokyr is and what he claims</h3>
+  <p><b>Joel Mokyr</b> is an economic historian who received the <b>2025 Nobel Prize</b> for explaining <b>innovation-driven economic growth</b>, using historical analysis. His claims:</p>
+  <ul>
+    <li><b>Cultural openness</b> is the key to technological progress.</li>
+    <li><b>Useful knowledge</b> drives innovation through a synergy of <b>propositional</b> knowledge (<i>why</i> something works: science) and <b>prescriptive</b> knowledge (<i>how</i> to do it: technique).</li>
+    <li><b>Supportive institutions</b> sustain innovation.</li>
+    <li>He warned of threats such as <b>protectionism</b> stifling <b>creative destruction</b>.</li>
+  </ul>
+
+  <h3>B.2 The Age of Enlightenment</h3>
+  <p>An intellectual and philosophical movement that dominated <b>Europe in the 17th and 18th centuries</b>. It took place in <b>Western Europe</b>, not in China or the Islamic world, and later <b>snowballed into the Industrial Revolution</b>. It was a ferment of public debate that we would now call <b>open science</b>: salons (such as Madame Geoffrin's) hosted scientific and literary discussion, and knowledge from deep science to practical tinkering became common.</p>
+
+  <h3>B.3 The graph, built one piece at a time</h3>
+  <p><b>Axes.</b> Vertical: the <b>fragmentation index</b>, meaning how politically divided a region is (high for Europe's many states, low for unified China). Horizontal: the <b>number of ideas</b>, meaning useful knowledge that drives growth.</p>
+  <p>Fragmentation affects <b>both</b> sides of the market, so there are two curves and <b>multiple equilibria</b>:</p>
+  <table>
+    <tr><th>Curve</th><th>Slope</th><th>Why</th></tr>
+    <tr><td><b>Size of audience</b><br>(demand for ideas)</td><td><b>Downward</b></td><td>The more fragmented the region, the smaller the audience in each state (“each castle”). A small audience discourages innovators. Unified China could have had a huge audience, and so in principle many ideas.</td></tr>
+    <tr><td><b>Risk of persecution</b><br>(supply of ideas)</td><td><b>Upward</b></td><td>The more fragmented the region, the less effective persecution is: a thinker can flee across a border, and overlapping, poorly coordinated jurisdictions leave room to manoeuvre. More fragmentation means safer provocative ideas, and so more ideas.</td></tr>
+  </table>
+  <div class="box big"><span class="label">The one idea to hold on to</span>
+  Fragmentation cuts both ways. It <b>shrinks the audience</b> (fewer ideas) but <b>lowers the risk of persecution</b> (more ideas). A region gets many ideas only if it has <b>both</b> a big audience and low persecution.</div>
+
+  <figure><img src="figures/ideas.png" style="width:80%"><figcaption>Redrawn from slides 13–17. A region's ideas are held back by whichever constraint is tighter.</figcaption></figure>
+
+  <h3>B.4 Reading the graph: three regions</h3>
+  <h4>China: a large audience but few ideas</h4>
+  <p>On audience alone, unified China should have produced many ideas. But low fragmentation means a <b>high risk of persecution</b>, so China sits low on the persecution line (the point labelled China). The unified state <b>imposed its preference for unity and collective values</b> on the left-side equilibrium. <b>The problem was supply (persecution), not demand (audience).</b></p>
+  <h4>Africa: fragmented but few ideas</h4>
+  <p>Africa had even <b>higher fragmentation</b> than Europe, but a <b>lower number of ideas</b>, because of a <b>lack of intellectual consolidation</b> and <b>low payoffs relative to the cost of ideas</b>. Lesson: <b>a fragmented state system is never a sufficient condition</b> for a flourishing market for ideas.</p>
+  <h4>Europe: the best of both</h4>
+  <p>Europe was <b>politically fragmented</b> (low persecution, at E₁) but had a <b>unified market for ideas</b>: the <b>Republic of Letters</b>, a cross-border community of thinkers who read and argued with one another. So its <i>audience</i> behaved like a unified market's (E₂) while its <i>persecution risk</i> stayed that of a fragmented one. The result: <b>greater levels of ideas due to open science and reduced risks of persecution</b>.</p>
+  <h4>What shifted Europe out</h4>
+  <ul>
+    <li><b>Demand side:</b> <b>reduced access costs</b> (cheaper books and letters) and the <b>rise of an urban commercial class</b>.</li>
+    <li><b>Supply side:</b> <b>more intellectual competition</b> and a <b>more diverse pool of talent</b>.</li>
+  </ul>
+
+  <h3>B.5 Why ideas need a special market: open science</h3>
+  <ul>
+    <li>Knowledge is <b>non-rivalrous</b>: my using an idea does not stop you using it. So the market for ideas needs an <b>institutional set-up unlike any other market</b>. It resembles <b>open-source technology</b>.</li>
+    <li>Besides access costs, incentives depended on the <b>expected benefits</b> to intellectual innovators.</li>
+    <li><b>Open science</b> was the key to rapid change, because its very purpose was to <b>disseminate new ideas</b> and offer them to the marketplace.</li>
+    <li>Ideas were disputed by critical colleagues and rewarded with <b>priority credit, not profit</b>. The <b>diffusion</b> of one's ideas, not their exclusivity, is what earned recognition.</li>
+  </ul>
+
+  <div class="box trap"><span class="label">Traps that cost marks</span>
+  <ul>
+    <li>“China lacked an audience”: <b>wrong</b>. China had the large audience; its problem was persecution.</li>
+    <li>“Fragmentation causes ideas”: <b>only half right</b>. Africa shows it is not sufficient. Europe needed fragmentation <i>plus</i> a unified market for ideas.</li>
+    <li>Audience is the <b>demand</b> curve (downward). Persecution is the <b>supply</b> curve (upward). Don't swap them.</li>
+    <li>Innovators were rewarded with <b>credit (priority)</b>, not money or patents.</li>
+  </ul></div>
+
+  <h3>B.6 Self-check (answers at the end)</h3>
+  <div class="q"><b>B1.</b> Why does the risk-of-persecution curve slope upward?
+    <ol><li>Larger states fund more universities</li><li>More fragmentation raises the audience in each state</li><li>Persecution increases demand for ideas</li><li>More fragmentation makes persecution less effective, so thinkers can publish provocative ideas</li></ol></div>
+  <div class="q"><b>B2.</b> In the model, why did China end up with few ideas?
+    <ol><li>Its audience was too small</li><li>It was too fragmented</li><li>Low fragmentation meant a high risk of persecution, despite a large audience</li><li>It lacked an urban commercial class</li></ol></div>
+  <div class="q"><b>B3.</b> What does Africa show?
+    <ol><li>Fragmentation is not sufficient without intellectual consolidation and adequate payoffs</li><li>Fragmentation is sufficient for a flourishing market for ideas</li><li>Unified states always produce more ideas</li><li>Persecution does not matter</li></ol></div>
+  <div class="q"><b>B4.</b> What was the Republic of Letters?
+    <ol><li>A unified European state</li><li>A unified, cross-border market for ideas in a politically fragmented Europe</li><li>A Chinese imperial examination system</li><li>A patent office</li></ol></div>
+  <div class="q"><b>B5.</b> In open science, intellectual innovators were rewarded mainly with…
+    <ol><li>profit from exclusive patents</li><li>state salaries</li><li>priority credit for spreading their ideas</li><li>secrecy agreements</li></ol></div>
+  <div class="q"><b>B6.</b> Mokyr says useful knowledge fuels innovation through the synergy of…
+    <ol><li>propositional (why) and prescriptive (how) knowledge</li><li>capital and labour</li><li>demand and supply</li><li>saving and investment</li></ol></div>
+</section>
+
+<!-- ============================================================ PART C -->
+<section class="part">
+  <div class="kicker">Part C · multiple choice</div>
+  <h2>The Solow model: reading the graph</h2>
+  <p class="lede">Every Solow question on this quiz is a picture question. If you can draw the diagram from memory and move one curve, you can answer all of them.</p>
+
+  <div class="box goals"><span class="label">By the end of Part C you can</span>
+  <ul><li>draw the Solow diagram and find the steady state;</li>
+  <li>say which way k moves from any point;</li>
+  <li>show what a policymaker's change (s, δ, n) does to the curves, and why it is a level effect;</li>
+  <li>tell the two wars apart: capital destroyed vs. workers killed;</li>
+  <li>use the Golden Rule to say whether a policymaker should raise or cut saving.</li></ul></div>
+
+  <div class="box key"><span class="label">Every letter in Part C</span>
+  <table>
+    <tr><th>Symbol</th><th>What it means</th><th>Example / unit</th></tr>
+    <tr><td>Y</td><td>Total <b>output</b> of the economy (real GDP)</td><td>goods per year</td></tr>
+    <tr><td>K</td><td>Total <b>capital</b>: machines, buildings, equipment</td><td></td></tr>
+    <tr><td>L</td><td><b>Labour</b>: the number of workers</td><td></td></tr>
+    <tr><td>k = K/L</td><td><b>Capital per worker</b> (lower-case = per worker)</td><td>the horizontal axis</td></tr>
+    <tr><td>y = Y/L</td><td><b>Output per worker</b>, i.e. productivity, income per person</td><td></td></tr>
+    <tr><td>f(k)</td><td>The <b>production function</b>: “output per worker when each worker has k capital”, so y = f(k)</td><td>e.g. f(k) = √k</td></tr>
+    <tr><td>s</td><td>The <b>saving rate</b>: share of income saved (and invested)</td><td>Japan 0.24 = 24%</td></tr>
+    <tr><td>i</td><td><b>Investment</b> per worker: new capital bought this year, i = s·f(k)</td><td></td></tr>
+    <tr><td>c</td><td><b>Consumption</b> per worker: income not saved, c = (1 − s)·f(k)</td><td></td></tr>
+    <tr><td>δ (delta)</td><td>The <b>depreciation rate</b>: share of capital that wears out each year</td><td>0.1 = 10% a year</td></tr>
+    <tr><td>n</td><td>The <b>population growth rate</b>: how fast the number of workers grows</td><td>0.02 = 2% a year</td></tr>
+    <tr><td>Δk (delta k)</td><td>The <b>change</b> in capital per worker from one year to the next (Δ means “change in”)</td><td></td></tr>
+    <tr><td>k*, y*, c*</td><td>The <b>steady-state</b> values: where k stops changing (the star marks the steady state)</td><td></td></tr>
+    <tr><td>MPK</td><td><b>Marginal product of capital</b>: extra output from one more unit of capital = the slope of f(k)</td><td></td></tr>
+    <tr><td>k*<sub>gold</sub></td><td>The <b>Golden Rule</b> steady state: the k* with the most consumption</td><td></td></tr>
+  </table></div>
+
+  <h3>C.1 Build the diagram in three lines</h3>
+  <p>Everything is measured <b>per worker</b>: k = K/L is capital K divided by workers L, and y = Y/L is output Y divided by workers L.</p>
+  <ol class="steps">
+    <li><b>Output, y = f(k).</b> Read it as “output per worker y depends on capital per worker k”. It slopes upward (more capital, more output) but gets flatter: <b>diminishing marginal product of capital (MPK)</b>. Each extra machine adds less than the one before.</li>
+    <li><b>Investment, i = s·f(k).</b> People save a fixed share s of income, and all saving is invested. So the investment curve is the output curve scaled down by s. The gap between f(k) and s·f(k) is <b>consumption</b>, c = (1 − s)·f(k).</li>
+    <li><b>Depreciation, δk.</b> A fixed share δ of capital wears out each year: a <b>straight line through the origin</b> with slope δ.</li>
+  </ol>
+  <figure><img src="figures/solow_build.png" style="width:78%"><figcaption>The Solow diagram. The steady state k* is where investment exactly replaces depreciation.</figcaption></figure>
+
+  <h3>C.2 The steady state and how the economy gets there</h3>
+  <p>The change in capital per worker, Δk, is what is invested, s·f(k), minus what wears out, δk: <span class="eq">Δk = s·f(k) − δk</span>.</p>
+  <ul>
+    <li><b>Left of k*:</b> the investment curve is above the depreciation line, so <b>Δk &gt; 0</b> and k grows.</li>
+    <li><b>Right of k*:</b> depreciation is above investment, so <b>Δk &lt; 0</b> and k shrinks.</li>
+    <li><b>At k*:</b> s·f(k*) = δk*, so <b>Δk = 0</b>. This is the <b>steady state</b>; the economy always heads back to it.</li>
+  </ul>
+  <div class="box trap"><span class="label">Trap</span>The steady state is where <b>s·f(k)</b> crosses δk, not where f(k) crosses it. Only the saved share is invested.</div>
+
+  <h3>C.3 Policymakers: what moves which curve</h3>
+  <div class="two">
+    <figure><img src="figures/solow_saving.png"><figcaption>Saving rate up: the investment curve shifts up and k* rises.</figcaption></figure>
+    <figure><img src="figures/solow_breakeven.png"><figcaption>δ or n up: the line gets steeper and k* falls.</figcaption></figure>
+  </div>
+  <table>
+    <tr><th>Change</th><th>What moves</th><th>New k*, y*</th></tr>
+    <tr><td>Saving rate s rises</td><td>s·f(k) shifts <b>up</b></td><td>Higher</td></tr>
+    <tr><td>Depreciation δ rises</td><td>δk line gets <b>steeper</b></td><td>Lower</td></tr>
+    <tr><td>Population growth n rises (the line becomes (δ + n)k: capital per worker is also diluted by n new workers)</td><td>Line gets <b>steeper</b>: new workers need equipping</td><td>Lower: countries with faster population growth have less capital per worker and lower incomes</td></tr>
+  </table>
+  <div class="box big"><span class="label">Level effect, not growth effect</span>
+  A higher saving rate makes the economy grow <b>faster only while it moves</b> from k₁* to k₂*. Once it arrives, growth of output per worker returns to its old rate (zero without technological progress). Saving raises the <b>level</b> of income per person, not its long-run <b>growth rate</b>. So <i>higher saving means faster growth only temporarily</i>.</div>
+
+  <h3>C.4 Wars: capital destroyed vs. workers killed</h3>
+  <p>Both stories start in steady state. The key question is always: <b>what happens to k = K/L?</b> A war does <b>not</b> move the curves, because s, δ and technology are unchanged. It moves the economy <b>along</b> them, and the economy then returns to the same k*.</p>
+  <figure><img src="figures/wars.png" style="width:92%"></figure>
+  <table>
+    <tr><th></th><th>War destroys capital<br><span class="small">Japan and Germany, 1945</span></th><th>War kills workers<br><span class="small">casualties, Pop quiz Q3</span></th></tr>
+    <tr><td>What falls</td><td>K</td><td>L</td></tr>
+    <tr><td>k = K/L</td><td><b>falls</b> below k*</td><td><b>rises</b> above k*</td></tr>
+    <tr><td>Immediately</td><td>Output falls</td><td><b>Total output Y falls</b> (fewer workers), but <b>output per worker rises</b> (each worker has more capital)</td></tr>
+    <tr><td>Afterwards</td><td>Investment &gt; depreciation, so k grows fast back to k*: <b>above-normal growth</b></td><td>Depreciation &gt; investment, so k falls back to k*: output per worker <b>falls</b>, and its growth rate is <b>negative</b> (below normal) until the steady state</td></tr>
+    <tr><td>Evidence</td><td>1948–72 growth per person: Japan 8.2%, Germany 5.7%, US 2.2%. Saving rates: Japan 24%, Germany 26%, US 22%</td><td>Why negative? In steady state, growth of output per worker is zero (no technological change). The economy is coming <i>down</i> to it, so growth must be below zero.</td></tr>
+  </table>
+  <figure><img src="figures/war_time.png" style="width:88%"><figcaption>Output per worker over time. The two wars are mirror images.</figcaption></figure>
+
+  <h3>C.5 The Golden Rule: what a policymaker should aim for</h3>
+  <p>People care about <b>consumption</b>, not capital for its own sake. A policymaker who wants the highest well-being picks the steady state with the <b>highest consumption</b>: the <b>Golden Rule</b> level of capital, k*<sub>gold</sub>.</p>
+  <ol class="steps">
+    <li>Consumption is output minus investment, c = f(k) − i. In steady state, investment just replaces depreciation (i = δk*), so <span class="eq">c* = f(k*) − δk*</span>.</li>
+    <li>c* is the vertical gap between the f(k) curve and the δk line. The gap is <b>widest where the two slopes are equal</b>. The slope of f(k) is MPK and the slope of δk is δ, so: <span class="eq">MPK = δ</span>.</li>
+    <li>Below k*<sub>gold</sub>, extra capital adds more output than depreciation (MPK &gt; δ), so consumption rises. Above it, extra capital adds less (MPK &lt; δ), so consumption falls. <b>More capital is not always better.</b></li>
+  </ol>
+  <figure><img src="figures/golden.png" style="width:74%"></figure>
+  <table>
+    <tr><th>Starting point</th><th>Policy</th><th>Consumption right away</th><th>Consumption in the long run</th></tr>
+    <tr><td><b>Too much capital</b> (k* above gold)</td><td><b>Cut</b> s</td><td><b>Jumps up</b> (an immediate gain for the current generation)</td><td>Falls gradually with output and investment, but ends <b>higher</b> than at the start</td></tr>
+    <tr><td><b>Too little capital</b> (k* below gold)</td><td><b>Raise</b> s</td><td><b>Dips</b> (the current generation sacrifices)</td><td>Rises with output and investment, and ends <b>higher</b> than at the start</td></tr>
+  </table>
+
+  <div class="box note"><span class="label">Model answer: Pop quiz Q5 (below the Golden Rule)</span>
+  “Devoting a larger share of national output to investment would help restore rapid productivity growth and rising living standards.” <b>Half right.</b> (1) Right away, consumption falls: living standards drop. (2) Capital accumulates faster, so productivity growth (output per worker) rises, <b>but only during the transition</b>. (3) In the new steady state, output per worker stops growing again, but because we started below the Golden Rule, consumption ends <b>higher</b>. The claim overstates the growth and ignores the sacrifice needed to get it.</div>
+
+  <h3>C.6 Self-check (answers at the end)</h3>
+  <div class="q"><b>C1.</b> On the diagram, the economy is at k to the right of k*. What happens?
+    <ol><li>δk exceeds s·f(k), so k falls toward k*</li><li>s·f(k) exceeds δk, so k rises</li><li>k stays put</li><li>k falls to zero</li></ol></div>
+  <div class="q"><b>C2.</b> A policymaker raises the saving rate. In the long run…
+    <ol><li>the growth rate of output per worker is permanently higher</li><li>k* and y* are higher, but long-run growth is unchanged</li><li>k* falls</li><li>nothing changes</li></ol></div>
+  <div class="q"><b>C3.</b> Casualties reduce the labour force; capital is untouched. Immediately afterwards…
+    <ol><li>total output and output per worker both fall</li><li>total output rises, output per worker falls</li><li>total output falls, output per worker rises</li><li>both rise</li></ol></div>
+  <div class="q"><b>C4.</b> After the war in C3, the growth rate of output per worker is…
+    <ol><li>above normal, as in postwar Japan</li><li>negative until the steady state is reached</li><li>zero throughout</li><li>permanently lower</li></ol></div>
+  <div class="q"><b>C5.</b> Which change makes the (δ + n)k line steeper and lowers k*?
+    <ol><li>A higher saving rate</li><li>A war that destroys capital</li><li>A lower depreciation rate</li><li>A higher population growth rate</li></ol></div>
+  <div class="q"><b>C6.</b> The economy is above the Golden Rule. The policymaker cuts s. Consumption…
+    <ol><li>jumps up immediately, then declines to a level still above the starting one</li><li>dips first, then rises</li><li>falls permanently</li><li>does not change</li></ol></div>
+</section>
+
+<!-- ============================================================ PART D -->
+<section class="part">
+  <div class="kicker">Part D · calculation</div>
+  <h2>Solow at company level: the computers</h2>
+  <p class="lede">Technology makes each worker more <i>effective</i>. To keep one computer per <i>effective</i> worker, a company must replace worn-out computers, equip new workers, and equip the extra effective workers that technology creates.</p>
+
+  <div class="box goals"><span class="label">By the end of Part D you can</span>
+  <ul><li>compute computers left, effective workers, and computers to add for any δ, n and g;</li>
+  <li>explain why the rates are <b>added</b> (δ + n + g), not multiplied.</li></ul></div>
+
+  <div class="box key"><span class="label">Every letter in Part D</span>
+  <table>
+    <tr><th>Symbol</th><th>What it means</th><th>Slide 88</th></tr>
+    <tr><td>N</td><td>The starting <b>number</b> of computers, which equals the starting number of workers (one computer each)</td><td>N = 10</td></tr>
+    <tr><td>δ (delta)</td><td><b>Depreciation rate</b>: share of computers that break or wear out in the period</td><td>δ = 0.1 (10%)</td></tr>
+    <tr><td>n</td><td><b>Workforce growth rate</b>: new hires as a share of current workers</td><td>n = 0.2 (20%)</td></tr>
+    <tr><td>g</td><td><b>Technology growth rate</b>: how much more effective each existing worker becomes</td><td>g = 1.0 (100%: each counts as 2)</td></tr>
+    <tr><td>L</td><td>The number of actual <b>workers</b></td><td></td></tr>
+    <tr><td>E</td><td>The <b>efficiency of labour</b>: how much one worker gets done; it grows at g</td><td></td></tr>
+    <tr><td>L × E</td><td><b>Effective workers</b>: workers counted by how much they can do</td><td>22</td></tr>
+    <tr><td>k</td><td>Computers per effective worker; the firm keeps it at 1</td><td>k = 1</td></tr>
+  </table></div>
+
+  <h3>D.1 The idea: effective workers</h3>
+  <p>The efficiency of labour E grows at rate <b>g</b> (technology), and the number of workers L grows at rate <b>n</b>. So effective labour L × E grows at <b>n + g</b>. Technological progress does <b>not</b> create more actual workers, but it creates more <b>effective</b> workers. Capital per effective worker stays constant only if investment covers <span class="eq">(δ + n + g)k</span>: δk replaces worn-out capital, nk equips new workers, and gk equips the new effective workers.</p>
+
+  <h3>D.2 The recipe</h3>
+  <p>Start with N computers and N workers (k = 1).</p>
+  <ol class="steps">
+    <li><b>Computers left</b> after depreciation: <span class="eq">N × (1 − δ)</span> (the share δ breaks, the share 1 − δ survives).</li>
+    <li><b>Old workers become</b> <span class="eq">N × (1 + g)</span> effective workers, because they get the technology boost.</li>
+    <li><b>New workers:</b> <span class="eq">N × n</span>. They are <b>not trained in the technology yet</b>, so each counts as <b>one</b> effective worker.</li>
+    <li><b>Effective workers</b> = step 2 + step 3. That is how many computers you need.</li>
+    <li><b>Computers to add</b> = step 4 − step 1, which always equals <span class="eq">(δ + n + g) × N</span>.</li>
+  </ol>
+
+  <h3>D.3 Worked example (slide 88)</h3>
+  <p>10 computers, 10 workers. δ = 0.1, n = 0.2, g = 1.0.</p>
+  <figure><img src="figures/computers.png" style="width:82%"></figure>
+  <ol class="steps">
+    <li>Computers left: 10 × 0.9 = <b>9</b>.</li>
+    <li>Old workers: 10 × (1 + 1.0) = <b>20</b> effective workers.</li>
+    <li>New workers: 10 × 0.2 = <b>2</b>, counted once each.</li>
+    <li>Effective workers: 20 + 2 = <b>22</b>, so you need 22 computers.</li>
+    <li>Add: 22 − 9 = <b>13</b>. Check: (0.1 + 0.2 + 1.0) × 10 = 1.3 × 10 = 13 ✓, a 130% addition.</li>
+  </ol>
+
+  <h3>D.4 Second example (slide 89), with the slide's typo fixed</h3>
+  <p>10 computers, 10 workers. δ = 0.2, n = 0.2, g = 0.5.</p>
+  <p>Left: 10 × 0.8 = <b>8</b>. Old workers: 10 × 1.5 = <b>15</b>. New: <b>2</b>. Effective: <b>17</b>. Add: 17 − 8 = <b>9</b> = 0.9 × 10 ✓. <span class="small">(The slide's last line says “22 computers for 22 effective workers”, copied from slide 88. The correct figure is 17 computers for 17 effective workers.)</span></p>
+
+  <div class="box big"><span class="label">Why add, not multiply?</span>
+  Multiplying (1 + n)(1 + g) would give the new workers the technology boost too. They do not get it yet: they were not in the system when the technology improved. That is why the extra term n × g drops out and the rates simply add.</div>
+
+  <div class="box trap"><span class="label">Traps</span>
+  <ul>
+    <li>Read the question: “how many to <b>add</b>” (13) is not “how many <b>in total</b>” (22).</li>
+    <li>Do not boost the new workers by g.</li>
+    <li>Subtract depreciation <i>before</i> working out what to add: the 1 broken computer must be replaced too.</li>
+  </ul></div>
+
+  <div class="box try"><span class="label">Your turn 3</span>
+  (a) 20 computers, 20 workers, δ = 0.1, n = 0.1, g = 0.5. How many computers are left, how many effective workers are there, and how many computers must be added?<br>
+  (b) 50 computers, 50 workers, δ = 0.2, n = 0.2, g = 1.0. Same three questions.</div>
+</section>
+
+<!-- ============================================================ SUMMARY -->
+<section class="part cheat">
+  <div class="kicker">Review the night before and the morning of the quiz</div>
+  <h2>One-page summary</h2>
+
+  <h3>A · The 16-cell table (P = A − Q, MC = C, G = A − C)</h3>
+  <table>
+    <tr><th></th><th>Bertrand</th><th>Stackelberg</th><th>Cournot</th><th>Collusion</th></tr>
+    <tr><td>Why</td><td>undercut until P = MC</td><td>leader G/2, follower G/4</td><td>G/3 each, reaction q₁ = G/2 − q₂/2</td><td>MR = A − 2Q = C</td></tr>
+    <tr><td>Total Q</td><td>G</td><td>¾G</td><td>⅔G</td><td>½G</td></tr>
+    <tr><td>Price</td><td colspan="4">P = A − Q (always off demand, never off MR)</td></tr>
+    <tr><td>Total Value</td><td colspan="4">P × Q (not consumer surplus; no fixed pattern, so always calculate)</td></tr>
+    <tr><td>Total profit</td><td>0</td><td colspan="3">(P − C) × Q = (G − Q) × Q. Rises left to right; collusion = (G/2)²</td></tr>
+  </table>
+
+  <p><b>Surplus areas:</b> CS = triangle under demand, above P. PS = area above MC, below P (= profit when MC is flat). DWL = triangle between demand and MC from Q to the competitive Q*; zero under Bertrand, largest under collusion.</p>
+
+  <h3>B · Market for ideas</h3>
+  <p><b>Mokyr</b>, Nobel 2025: innovation-driven growth; cultural openness; useful knowledge = propositional (why) + prescriptive (how); supportive institutions; protectionism threatens creative destruction. <b>Enlightenment</b>: 17th–18th c., Western Europe, open science, led to the Industrial Revolution. <b>Graph</b>: vertical = fragmentation, horizontal = number of ideas. <b>Audience (demand) slopes down</b>; <b>persecution risk (supply) slopes up</b>. <b>China</b>: big audience, but low fragmentation means high persecution and few ideas (supply problem). <b>Africa</b>: fragmented but few ideas (no intellectual consolidation, low payoffs relative to cost), so fragmentation is not sufficient. <b>Europe</b>: fragmentation + unified market for ideas (<b>Republic of Letters</b>), reduced access costs and an urban commercial class (demand), competition and diverse talent (supply). <b>Open science</b>: knowledge is non-rivalrous, like open source; rewarded with priority credit, not profit; diffusion, not exclusivity.</p>
+
+  <h3>C · Solow graph</h3>
+  <p><b>Curves</b>: f(k) concave (diminishing MPK); s·f(k) = investment; δk straight line; c = gap between f(k) and s·f(k). <b>Steady state</b>: s·f(k*) = δk*, Δk = 0. Left of k*, k grows; right of k*, k shrinks. <b>s up</b>: curve up, k* and y* up, a <b>level effect</b>; faster growth only during the transition. <b>δ or n up</b>: line steeper, k* down (faster population growth means lower income per worker). <b>War on capital</b>: k below k*, above-normal growth (Japan 8.2%, Germany 5.7% vs US 2.2%). <b>War on workers</b>: Y falls, y rises; k above k*, so y falls back with <b>negative</b> growth. Wars move the economy, not the curves. <b>Golden Rule</b>: maximise c* = f(k*) − δk*, so MPK = δ. Above gold: cut s, c jumps up now and ends higher. Below gold: raise s, c dips now and ends higher.</p>
+
+  <h3>D · Computers</h3>
+  <p>Left = N(1 − δ). Effective = N(1 + g) + nN (new workers are not boosted). Add = effective − left = (δ + n + g)N. Slide 88: 9 left, 22 effective, add 13.</p>
+</section>
+
+<!-- ============================================================ ANSWERS -->
+<section class="part answers">
+  <div class="kicker">Check your work</div>
+  <h2>Answers</h2>
+
+  <h3>Your turn 1: P = 300 − Q, MC = 60 (G = 240)</h3>
+  <table>
+    <tr><th></th><th class="n">Bertrand</th><th class="n">Stackelberg</th><th class="n">Cournot</th><th class="n">Collusion</th></tr>
+    <tr><td>Total output</td><td class="n">240</td><td class="n">180</td><td class="n">160</td><td class="n">120</td></tr>
+    <tr><td>Price</td><td class="n">60</td><td class="n">120</td><td class="n">140</td><td class="n">180</td></tr>
+    <tr><td>Total Value</td><td class="n">14,400</td><td class="n">21,600</td><td class="n">22,400</td><td class="n">21,600</td></tr>
+    <tr><td>Total profit</td><td class="n">0</td><td class="n">10,800</td><td class="n">12,800</td><td class="n">14,400</td></tr>
+  </table>
+  <p class="small">Notice that Total Value <b>rises</b> from Bertrand to Cournot here, the opposite of the packet. This is why you calculate it instead of trusting a pattern. Profit still rises left to right, and collusion profit = 120² = 14,400 ✓.</p>
+
+  <h3>Your turn 2: P = 250 − Q, MC = 130 (G = 120)</h3>
+  <table>
+    <tr><th></th><th class="n">Bertrand</th><th class="n">Stackelberg</th><th class="n">Cournot</th><th class="n">Collusion</th></tr>
+    <tr><td>Total output</td><td class="n">120</td><td class="n">90</td><td class="n">80</td><td class="n">60</td></tr>
+    <tr><td>Price</td><td class="n">130</td><td class="n">160</td><td class="n">170</td><td class="n">190</td></tr>
+    <tr><td>Total Value</td><td class="n">15,600</td><td class="n">14,400</td><td class="n">13,600</td><td class="n">11,400</td></tr>
+    <tr><td>Total profit</td><td class="n">0</td><td class="n">2,700</td><td class="n">3,200</td><td class="n">3,600</td></tr>
+  </table>
+
+  <h3>Your turn 3: computers</h3>
+  <p>(a) Left 20 × 0.9 = <b>18</b>. Effective 20 × 1.5 + 2 = <b>32</b>. Add 32 − 18 = <b>14</b> = (0.1 + 0.1 + 0.5) × 20 ✓.<br>
+  (b) Left 50 × 0.8 = <b>40</b>. Effective 50 × 2 + 10 = <b>110</b>. Add 110 − 40 = <b>70</b> = (0.2 + 0.2 + 1.0) × 50 ✓.</p>
+
+  <h3>Self-check, Part B</h3>
+  <p><b>B1 — D.</b> Fragmentation makes persecution less effective: thinkers can cross borders. (B gets the audience curve backwards: fragmentation shrinks the audience.)<br>
+  <b>B2 — C.</b> China had the large audience; the binding problem was persecution under a unified state.<br>
+  <b>B3 — A.</b> Africa was more fragmented than Europe but lacked intellectual consolidation and had low payoffs relative to cost.<br>
+  <b>B4 — B.</b> A transnational community of thinkers: political fragmentation combined with a unified market for ideas.<br>
+  <b>B5 — C.</b> Priority credit, not profit; diffusion, not exclusivity.<br>
+  <b>B6 — A.</b> Propositional (why) and prescriptive (how) knowledge.</p>
+
+  <h3>Self-check, Part C</h3>
+  <p><b>C1 — A.</b> Right of k*, depreciation exceeds investment, so Δk &lt; 0 and k falls back to k*.<br>
+  <b>C2 — B.</b> A level effect: higher k* and y*, the same long-run growth rate.<br>
+  <b>C3 — C.</b> Fewer workers means lower Y, but each remaining worker has more capital, so y rises.<br>
+  <b>C4 — B.</b> k is above k*, so it falls back. Steady-state growth is zero, so growth on the way down is negative.<br>
+  <b>C5 — D.</b> The line becomes (δ + n)k. A higher n makes it steeper and lowers k*. (A lower δ would flatten it.)<br>
+  <b>C6 — A.</b> Cutting s frees output for consumption at once. As capital falls, c declines but settles above where it started.</p>
+</section>
+
+</body>
+</html>

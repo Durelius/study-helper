@@ -6,6 +6,10 @@ slides: 89
 summary: "The whole packet on one page: the quiz rules, every formula you need with the packet's numbers, and the ten traps that cost marks."
 ---
 
+> **Study lecture (PDF, 21 pages):** [Everything on the quiz, step by step](/materials/handouts/Economic-Concepts-Final-Quiz-Lecture.pdf):
+> the 16-cell table, surplus areas, Mokyr, the Solow graph and the computers, with worked
+> examples, practice and answers.
+
 ## The quiz
 
 - **Tuesday 17 November, 13:00. 120 minutes.** Be in your numbered seat by **12:59**

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="684.5375pt" height="202.55875pt" viewBox="0 0 684.5375 202.55875" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-15T16:31:11.536776</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 202.55875 
+L 684.5375 202.55875 
+L 684.5375 0 
+L 0 0 
+L 0 202.55875 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 47.5375 178.399375 
+L 177.0575 178.399375 
+L 177.0575 20.759375 
+L 47.5375 20.759375 
+L 47.5375 178.399375 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 47.5375 23.050654 
+L 120.89396 111.03577 
+L 47.5375 111.03577 
+z
+" clip-path="url(#pf4b88181be)" style="fill: #2563eb; opacity: 0.22"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md481011495" d="M 0 0 
+L 0 3.5 
+" style="stroke: #6b7280; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md481011495" x="120.89396" y="178.399375" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="120.89396" y="192.95875" transform="rotate(-0 120.89396 192.95875)">192</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_2">
+      <defs>
+       <path id="ma15e172e4d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #6b7280; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma15e172e4d" x="47.5375" y="111.03577" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="40.5375" y="114.815458" transform="rotate(-0 40.5375 114.815458)">147</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="47.5375" y="111.03577" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="40.5375" y="114.815458" transform="rotate(-0 40.5375 114.815458)">147</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="fill: #1f2937; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="14.759375" y="20.759375" transform="rotate(-90 14.759375 20.759375)">Price (THB)</text>
+    </g>
+   </g>
+   <g id="line2d_4">
+    <path d="M 47.5375 23.050654 
+L 61.928611 40.311623 
+L 76.319722 57.572592 
+L 90.710833 74.833561 
+L 105.101944 92.09453 
+L 119.493056 109.355499 
+L 133.884167 126.616468 
+L 148.275278 143.877437 
+L 162.666389 161.138406 
+L 177.0575 178.399375 
+" clip-path="url(#pf4b88181be)" style="fill: none; stroke: #1f2937; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 47.5375 111.03577 
+L 177.0575 111.03577 
+" clip-path="url(#pf4b88181be)" style="fill: none; stroke: #ea580c; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 47.5375 178.399375 
+L 47.5375 20.759375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 47.5375 178.399375 
+L 177.0575 178.399375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #2563eb; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="71.989653" y="82.196094" transform="rotate(-0 71.989653 82.196094)">CS</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(139.058281 31.011464)">CS 18,432</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(161.105938 40.181855)">PS 0</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(153.078594 49.352246)">DWL 0</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #ea580c; font: 8.5px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="177.0575" y="107.369724" transform="rotate(-0 177.0575 107.369724)">MC</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #16a34a; font: 700 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="112.2975" y="14.759375" transform="rotate(-0 112.2975 14.759375)">Bertrand</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 214.2975 178.399375 
+L 343.8175 178.399375 
+L 343.8175 20.759375 
+L 214.2975 20.759375 
+L 214.2975 178.399375 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 214.2975 23.050654 
+L 269.314845 89.039491 
+L 214.2975 89.039491 
+z
+" clip-path="url(#p0acbf33a8f)" style="fill: #2563eb; opacity: 0.22"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 214.2975 89.039491 
+L 269.314845 89.039491 
+L 269.314845 111.03577 
+L 214.2975 111.03577 
+z
+" clip-path="url(#p0acbf33a8f)" style="fill: #16a34a; opacity: 0.22"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 269.314845 89.039491 
+L 287.65396 111.03577 
+L 269.314845 111.03577 
+z
+" clip-path="url(#p0acbf33a8f)" style="fill: #dc2626; opacity: 0.22"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md481011495" x="269.314845" y="178.399375" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="269.314845" y="192.95875" transform="rotate(-0 269.314845 192.95875)">144</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="214.2975" y="111.03577" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="207.2975" y="114.815458" transform="rotate(-0 207.2975 114.815458)">147</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="214.2975" y="89.039491" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="207.2975" y="92.819179" transform="rotate(-0 207.2975 92.819179)">195</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_9">
+    <path d="M 214.2975 23.050654 
+L 228.688611 40.311623 
+L 243.079722 57.572592 
+L 257.470833 74.833561 
+L 271.861944 92.09453 
+L 286.253056 109.355499 
+L 300.644167 126.616468 
+L 315.035278 143.877437 
+L 329.426389 161.138406 
+L 343.8175 178.399375 
+" clip-path="url(#p0acbf33a8f)" style="fill: none; stroke: #1f2937; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 214.2975 111.03577 
+L 343.8175 111.03577 
+" clip-path="url(#p0acbf33a8f)" style="fill: none; stroke: #ea580c; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 214.2975 178.399375 
+L 214.2975 20.759375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 214.2975 178.399375 
+L 343.8175 178.399375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="fill: #2563eb; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="232.636615" y="67.531908" transform="rotate(-0 232.636615 67.531908)">CS</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #16a34a; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="241.806173" y="102.35935" transform="rotate(-0 241.806173 102.35935)">PS</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 290.119587 95.435041 
+Q 283.643545 99.079822 277.167502 102.724603 
+" style="fill: none; stroke: #dc2626; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="fill: #dc2626; font: 700 8.5px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="302.936556" y="90.414259" transform="rotate(-0 302.936556 90.414259)">DWL</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(305.818281 31.011464)">CS 10,368</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(311.082344 40.181855)">PS 6,912</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(303.055 49.352246)">DWL 1,152</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #2563eb; font: 700 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="279.0575" y="14.759375" transform="rotate(-0 279.0575 14.759375)">Stackelberg</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_13">
+    <path d="M 381.0575 178.399375 
+L 510.5775 178.399375 
+L 510.5775 20.759375 
+L 381.0575 20.759375 
+L 381.0575 178.399375 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 381.0575 23.050654 
+L 429.961807 81.707398 
+L 381.0575 81.707398 
+z
+" clip-path="url(#pa8a184b8ae)" style="fill: #2563eb; opacity: 0.22"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 381.0575 81.707398 
+L 429.961807 81.707398 
+L 429.961807 111.03577 
+L 381.0575 111.03577 
+z
+" clip-path="url(#pa8a184b8ae)" style="fill: #16a34a; opacity: 0.22"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 429.961807 81.707398 
+L 454.41396 111.03577 
+L 429.961807 111.03577 
+z
+" clip-path="url(#pa8a184b8ae)" style="fill: #dc2626; opacity: 0.22"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#md481011495" x="429.961807" y="178.399375" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="429.961807" y="192.95875" transform="rotate(-0 429.961807 192.95875)">128</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="381.0575" y="111.03577" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="374.0575" y="114.815458" transform="rotate(-0 374.0575 114.815458)">147</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="381.0575" y="81.707398" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="374.0575" y="85.487086" transform="rotate(-0 374.0575 85.487086)">211</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 381.0575 23.050654 
+L 395.448611 40.311623 
+L 409.839722 57.572592 
+L 424.230833 74.833561 
+L 438.621944 92.09453 
+L 453.013056 109.355499 
+L 467.404167 126.616468 
+L 481.795278 143.877437 
+L 496.186389 161.138406 
+L 510.5775 178.399375 
+" clip-path="url(#pa8a184b8ae)" style="fill: none; stroke: #1f2937; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 381.0575 111.03577 
+L 510.5775 111.03577 
+" clip-path="url(#pa8a184b8ae)" style="fill: none; stroke: #ea580c; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 381.0575 178.399375 
+L 381.0575 20.759375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 381.0575 178.399375 
+L 510.5775 178.399375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_20">
+    <text style="fill: #2563eb; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="397.358936" y="62.643846" transform="rotate(-0 397.358936 62.643846)">CS</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #16a34a; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="405.509653" y="98.693303" transform="rotate(-0 405.509653 98.693303)">PS</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 455.968066 93.888747 
+Q 447.966639 97.191795 439.965211 100.494844 
+" style="fill: none; stroke: #dc2626; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <text style="fill: #dc2626; font: 700 8.5px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="469.696556" y="90.414259" transform="rotate(-0 469.696556 90.414259)">DWL</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(477.422812 31.011464)">CS 8,192</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(477.842344 40.181855)">PS 8,192</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(469.815 49.352246)">DWL 2,048</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #7c3aed; font: 700 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="445.8175" y="14.759375" transform="rotate(-0 445.8175 14.759375)">Cournot</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_20">
+    <path d="M 547.8175 178.399375 
+L 677.3375 178.399375 
+L 677.3375 20.759375 
+L 547.8175 20.759375 
+L 547.8175 178.399375 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 547.8175 23.050654 
+L 584.49573 67.043212 
+L 547.8175 67.043212 
+z
+" clip-path="url(#p725725473b)" style="fill: #2563eb; opacity: 0.22"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 547.8175 67.043212 
+L 584.49573 67.043212 
+L 584.49573 111.03577 
+L 547.8175 111.03577 
+z
+" clip-path="url(#p725725473b)" style="fill: #16a34a; opacity: 0.22"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 584.49573 67.043212 
+L 621.17396 111.03577 
+L 584.49573 111.03577 
+z
+" clip-path="url(#p725725473b)" style="fill: #dc2626; opacity: 0.22"/>
+   </g>
+   <g id="matplotlib.axis_7">
+    <g id="xtick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#md481011495" x="584.49573" y="178.399375" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="584.49573" y="192.95875" transform="rotate(-0 584.49573 192.95875)">96</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_7">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="547.8175" y="111.03577" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="540.8175" y="114.815458" transform="rotate(-0 540.8175 114.815458)">147</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#ma15e172e4d" x="547.8175" y="67.043212" style="fill: #6b7280; stroke: #6b7280; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="fill: #6b7280; font: 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: end" x="540.8175" y="70.8229" transform="rotate(-0 540.8175 70.8229)">243</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <path d="M 547.8175 23.050654 
+L 562.208611 40.311623 
+L 576.599722 57.572592 
+L 590.990833 74.833561 
+L 605.381944 92.09453 
+L 619.773056 109.355499 
+L 634.164167 126.616468 
+L 648.555278 143.877437 
+L 662.946389 161.138406 
+L 677.3375 178.399375 
+" clip-path="url(#p725725473b)" style="fill: none; stroke: #1f2937; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 547.8175 111.03577 
+L 677.3375 111.03577 
+" clip-path="url(#p725725473b)" style="fill: none; stroke: #ea580c; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 547.8175 178.399375 
+L 547.8175 20.759375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 547.8175 178.399375 
+L 677.3375 178.399375 
+" style="fill: none; stroke: #1f2937; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_28">
+    <text style="fill: #2563eb; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="560.043577" y="52.867722" transform="rotate(-0 560.043577 52.867722)">CS</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: #16a34a; font: 700 9px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="566.156615" y="91.36121" transform="rotate(-0 566.156615 91.36121)">PS</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 622.615817 91.060421 
+Q 610.647107 93.515343 598.678398 95.970265 
+" style="fill: none; stroke: #dc2626; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_30">
+    <text style="fill: #dc2626; font: 700 8.5px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="636.456556" y="90.414259" transform="rotate(-0 636.456556 90.414259)">DWL</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(644.182812 31.011464)">CS 4,608</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(644.602344 40.181855)">PS 9,216</text>
+    <text style="fill: #6b7280; font: 7.5px 'Avenir Next', 'Arial Unicode MS'" transform="translate(636.575 49.352246)">DWL 4,608</text>
+   </g>
+   <g id="text_32">
+    <text style="fill: #dc2626; font: 700 10px 'Avenir Next', 'Arial Unicode MS'; text-anchor: middle" x="612.5775" y="14.759375" transform="rotate(-0 612.5775 14.759375)">Collusion</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf4b88181be">
+   <rect x="47.5375" y="20.759375" width="129.52" height="157.64"/>
+  </clipPath>
+  <clipPath id="p0acbf33a8f">
+   <rect x="214.2975" y="20.759375" width="129.52" height="157.64"/>
+  </clipPath>
+  <clipPath id="pa8a184b8ae">
+   <rect x="381.0575" y="20.759375" width="129.52" height="157.64"/>
+  </clipPath>
+  <clipPath id="p725725473b">
+   <rect x="547.8175" y="20.759375" width="129.52" height="157.64"/>
+  </clipPath>
+ </defs>
+</svg>
