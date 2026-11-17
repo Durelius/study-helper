@@ -1,0 +1,2300 @@
+[
+  {
+    "id": "eur-001",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which grape is the backbone of Rioja and Ribera del Duero?",
+    "choices": [
+      "Tempranillo",
+      "Garnacha",
+      "Monastrell",
+      "Cariñena"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Tempranillo, with strawberry and raspberry aromas, is Spain's main red grape and the grape of both Rioja and Ribera del Duero.",
+    "source": {
+      "deck": "Europe",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-002",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Cava is made by the Charmat method, mainly from Macabeo, Parellada and Xarel-lo.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cava uses the Traditional Method, the same as Champagne, since 1860.",
+    "source": {
+      "deck": "Europe",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spain",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-003",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is the highest rank in the Spanish wine classification?",
+    "choices": [
+      "DOCa",
+      "DO Pago",
+      "DO",
+      "VCIG"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "From the top: DO Pago › DOCa › DO › VCIG › Vino de la Tierra › Vino de Mesa.",
+    "source": {
+      "deck": "Europe",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-004",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "DOCa is the Spanish rank for zones that have maintained their quality for more than 10 years.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "DOCa (Denominación de Origen Calificada) sits just below DO Pago.",
+    "source": {
+      "deck": "Europe",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spain",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-005",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "The Spanish DO is the equivalent of Italy's DOCG.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The slide equates DO with France's AOC, and notes its quality varies by region.",
+    "source": {
+      "deck": "Europe",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spain",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-006",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Rioja was promoted from DO to DO Pago.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Rioja was upgraded to DOCa. DO Pago is the rank above DOCa.",
+    "source": {
+      "deck": "Europe",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spain",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-007",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "In a Rioja blend, which grape gives weight and alcohol?",
+    "choices": [
+      "Tempranillo",
+      "Graziano",
+      "Garnacha",
+      "Cariñena"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Tempranillo: freshness and fruit. Garnacha: weight and alcohol. Cariñena (Mazuelo): colour and softness. Graziano: delicacy.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "rioja"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-008",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "In a Rioja blend, which grape adds colour and softness?",
+    "choices": [
+      "Garnacha",
+      "Graziano",
+      "Tempranillo",
+      "Cariñena"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cariñena, called Mazuelo in Rioja, adds colour and softness. The blend is roughly 70% Tempranillo, 20% Garnacha, 10% Cariñena and a little Graziano.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "rioja"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-009",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "A Rioja Gran Reserva is aged 24 months in barrel and 36 months in bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Crianza: 12 + 12 months. Reserva: 36 months in total, at least 12 in barrel. Gran Reserva: 24 in barrel + 36 in bottle.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spain",
+      "rioja",
+      "ageing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-010",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "A Rioja Crianza is aged 24 months in barrel and 12 months in bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Crianza is 12 months in barrel and 12 in bottle; 24 months in barrel belongs to Gran Reserva.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spain",
+      "rioja",
+      "ageing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-011",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which three zones produce Rioja?",
+    "choices": [
+      "Rioja Alta, Rioja Alavesa, Rioja Baja",
+      "Rioja Alta, Rioja Media, Rioja Baja",
+      "Rioja Norte, Rioja Alavesa, Rioja Sur",
+      "Rioja Alta, Navarra, Rioja Baja"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Rioja Alta, Rioja Alavesa and Rioja Baja.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "rioja"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-012",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which grape is Sherry made from?",
+    "choices": [
+      "Albariño",
+      "Palomino",
+      "Verdejo",
+      "Macabeo"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Palomino, grown on chalky soil in Andalucía; Pedro Ximénez or Moscatel can be added for other styles.",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-013",
+    "topic": "europe",
+    "type": "text",
+    "stem": "What is the film of natural yeast called that protects Sherry from air and gives it a nutty scent?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Flor grows when the wine is fortified to about 14.5%.",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true,
+    "accept": [
+      "flor"
+    ]
+  },
+  {
+    "id": "eur-014",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "To what alcohol level is base wine fortified so that flor can grow on Sherry?",
+    "choices": [
+      "17.5%",
+      "12.5%",
+      "14.5%",
+      "19%"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "About 14.5% suits the growth of flor.",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-015",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "In the Solera system, each year one third of the wine is mixed with two thirds of younger wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is two thirds of the wine mixed with one third of younger wine; five oak barrels are used.",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-016",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Sherry style results from the accidental death of the flor and combines Fino and Oloroso character?",
+    "choices": [
+      "Amontillado",
+      "Manzanilla",
+      "Pale Cream",
+      "Palo Cortado"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Palo Cortado is rare and expensive. Amontillado is the planned version: flor dies after about 5 years of Fino ageing.",
+    "source": {
+      "deck": "Europe",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-017",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is a Fino aged in cool seaside towns called?",
+    "choices": [
+      "Manzanilla",
+      "Amontillado",
+      "Oloroso",
+      "Palo Cortado"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Manzanilla is the most delicate Sherry, with orange zest and almond notes.",
+    "source": {
+      "deck": "Europe",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-018",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "After about 10 years of Fino ageing, when the flor has died and the wine has oxidised, the Sherry is called Amontillado.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "After about 5 years it is Fino-amontillado; after 10 years, Amontillado. The sweet version is Medium.",
+    "source": {
+      "deck": "Europe",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-019",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Cream Sherry is a sweetened Fino.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cream is the sweet Oloroso, made by adding Pedro Ximénez. The sweet Fino is Pale Cream; the sweet Amontillado is Medium.",
+    "source": {
+      "deck": "Europe",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spain",
+      "sherry"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-020",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which DO is Spain's first, created in 1960 and named after a grape?",
+    "choices": [
+      "Priorat",
+      "Cariñena",
+      "Rueda",
+      "Navarra"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "DO Cariñena in Aragón takes its name from the Cariñena (Carignan) grape.",
+    "source": {
+      "deck": "Europe",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-021",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Rías Baixas in Galicia is famous for white wines from which grape?",
+    "choices": [
+      "Verdejo",
+      "Palomino",
+      "Albariño",
+      "Airén"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Galicia grows Albariño and Godello; Rueda uses Verdejo.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-022",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which producer made Ribera del Duero world famous?",
+    "choices": [
+      "Bodegas Torres",
+      "Marqués de Riscal",
+      "Codorníu",
+      "Vega Sicilia"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Vega Sicilia, from the mid-20th century.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "spain",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-023",
+    "topic": "europe",
+    "type": "match",
+    "stem": "Match each Spanish designation to its main grape.",
+    "choices": [
+      "Airén",
+      "Albariño",
+      "Garnacha",
+      "Malvar",
+      "Monastrell",
+      "Palomino",
+      "Tempranillo",
+      "Verdejo"
+    ],
+    "answer": [
+      7,
+      1,
+      5,
+      6,
+      4
+    ],
+    "explanation": "Rueda: Verdejo. Rías Baixas: Albariño. Jerez: Palomino. Ribera del Duero: Tempranillo. Alicante red: Monastrell (white from Merseguera).",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "spain",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Rueda DO",
+      "Rías Baixas DO",
+      "Jerez DO",
+      "Ribera del Duero DO",
+      "Alicante DO (red)"
+    ]
+  },
+  {
+    "id": "eur-024",
+    "topic": "europe",
+    "type": "match",
+    "stem": "Match each Spanish region to the wine it is known for.",
+    "choices": [
+      "Cava",
+      "Moscatel de Valencia",
+      "Priorat",
+      "Ribera del Duero",
+      "Rioja",
+      "Sherry",
+      "Txakoli"
+    ],
+    "answer": [
+      5,
+      0,
+      4,
+      3,
+      1
+    ],
+    "explanation": "Note that Priorat is also Catalan, so it cannot be the spare for Catalunya by elimination — Cava is the pair asked here; Txakoli is Basque.",
+    "source": {
+      "deck": "Europe",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "spain",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Andalucía",
+      "Catalunya",
+      "La Rioja",
+      "Castilla y León",
+      "Valencia"
+    ]
+  },
+  {
+    "id": "eur-025",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Catalunya is the largest wine-producing region in Spain.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Castilla y León is the largest; Catalunya is the most diverse.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spain",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-026",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "About 90% of Cava comes from Sant Sadurní d'Anoia in Penedès.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Grapes can still come from anywhere in Catalunya.",
+    "source": {
+      "deck": "Europe",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spain",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-027",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Spain is the second largest wine producer, after France.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Spain is third, after Italy and France.",
+    "source": {
+      "deck": "Europe",
+      "slide": 5
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spain",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-028",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Spanish ageing term means a young wine not aged in barrel?",
+    "choices": [
+      "Vino Joven",
+      "Crianza",
+      "Añejo",
+      "Viejo"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Joven is unoaked; Añejo is at least 1 year in barrel; Viejo is at least 3 years with partial oxidation.",
+    "source": {
+      "deck": "Europe",
+      "slide": 8
+    },
+    "difficulty": 1,
+    "tags": [
+      "spain",
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-029",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is the highest level of Portuguese wine classification?",
+    "choices": [
+      "IPR",
+      "DOC",
+      "Vinho Regional",
+      "Vinho de Mesa"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "DOC › IPR (likely to become DOC) › Vinho Regional › Vinho de Mesa.",
+    "source": {
+      "deck": "Europe",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "portugal",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-030",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Vinho Verde is Portugal's largest DOC and is usually low in alcohol, at 8.5-11.5%, with a slight sparkle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is drunk young, so the vintage is often left off.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "portugal",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-031",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which red grape is behind the best Douro and Dão wines?",
+    "choices": [
+      "Baga",
+      "Aragonez",
+      "Touriga Nacional",
+      "Trincadeira"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Douro reds and the floral notes of good Dão come from Touriga Nacional; Bairrada uses Baga.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "portugal",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-032",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Bairrada DOC makes intense, long-lived reds from which grape?",
+    "choices": [
+      "Arinto",
+      "Touriga Franca",
+      "Tinta Roriz",
+      "Baga"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Baga; in rainy years unripe grapes can make it unusually astringent.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "portugal",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-033",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "In Port making, fermentation is stopped after about 48 hours by adding grape spirit, leaving residual sugar.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Short fermentation means colour extraction has to be fast.",
+    "source": {
+      "deck": "Europe",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "portugal",
+      "port"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-034",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Port is from a single year, aged 2 years in tank and up to 20 years in bottle without filtration?",
+    "choices": [
+      "Vintage",
+      "Late Bottled Vintage",
+      "Colheita",
+      "Tawny"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "LBV is from a good single year but aged 4-6 years in barrel and filtered; Colheita is a single year aged at least 7 years in barrel.",
+    "source": {
+      "deck": "Europe",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "portugal",
+      "port"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-035",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Port is a single-year wine aged at least 7 years in barrel?",
+    "choices": [
+      "Ruby",
+      "Colheita",
+      "Crusted",
+      "Vintage"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Colheita means harvest year.",
+    "source": {
+      "deck": "Europe",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "portugal",
+      "port"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-036",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Crusted Port is made like Vintage Port but can blend wines from several years.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "That blend of years is the difference from Vintage.",
+    "source": {
+      "deck": "Europe",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "portugal",
+      "port"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-037",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Tawny is a young Port aged 2-3 years by blending vintages.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is Ruby. Tawny matures longer than Ruby and is softer.",
+    "source": {
+      "deck": "Europe",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "portugal",
+      "port"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-038",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "White Port is generally sweeter than Ruby and is served as a dessert wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "White Port is generally less sweet and is used as an aperitif.",
+    "source": {
+      "deck": "Europe",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "portugal",
+      "port"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-039",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which are the four noble grapes of Madeira?",
+    "choices": [
+      "Sercial, Arinto, Bual, Baga",
+      "Verdelho, Terrantez, Baga, Malvasia",
+      "Sercial, Verdelho, Bual, Malvasia",
+      "Bual, Fernão Pires, Sercial, Arinto"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The most planted grape, Tinta Negra Mole, can substitute for them.",
+    "source": {
+      "deck": "Europe",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "portugal",
+      "madeira"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-040",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Inexpensive Madeira can be heated in large vats called estufas at 50°C for at least 90 days.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Better Madeira is heated slowly in oak barrels, moving from hot upper shelves down to cooler ones.",
+    "source": {
+      "deck": "Europe",
+      "slide": 31
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "portugal",
+      "madeira"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-041",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Madeira grows on chalky soils on gentle slopes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Madeira soil is volcanic and the vines grow on steep slopes called poios.",
+    "source": {
+      "deck": "Europe",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "portugal",
+      "madeira"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-042",
+    "topic": "europe",
+    "type": "text",
+    "stem": "Which Portuguese fortified wine, sweet and from Moscatel, is paired with Christmas pudding?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Moscatel de Setúbal; it also pairs with Bolo Rei for its apricot notes.",
+    "source": {
+      "deck": "Europe",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "portugal",
+      "fortified"
+    ],
+    "examFocus": true,
+    "accept": [
+      "moscatel de setubal",
+      "moscatel de setúbal",
+      "setubal",
+      "setúbal"
+    ]
+  },
+  {
+    "id": "eur-043",
+    "topic": "europe",
+    "type": "match",
+    "stem": "Match each Portuguese DOC to its grape.",
+    "choices": [
+      "Antão Vaz",
+      "Aragonez",
+      "Arinto",
+      "Baga",
+      "Fernão Pires",
+      "Sercial",
+      "Touriga Nacional"
+    ],
+    "answer": [
+      6,
+      3,
+      2,
+      4
+    ],
+    "explanation": "Douro: Touriga Nacional. Bairrada: Baga. Bucelas: lemony Arinto. Ribatejo whites: Fernão Pires.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "portugal",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Douro",
+      "Bairrada",
+      "Bucelas",
+      "Ribatejo (white)"
+    ]
+  },
+  {
+    "id": "eur-044",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What does Quinta mean on a Portuguese label?",
+    "choices": [
+      "Year of harvest",
+      "Aged wine",
+      "Being bottled",
+      "Vineyard or winery"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Colheita = harvest year, Maduro = aged, Engarrafado = bottled, Garrafeira = aged under tighter rules than Reserva.",
+    "source": {
+      "deck": "Europe",
+      "slide": 23
+    },
+    "difficulty": 1,
+    "tags": [
+      "portugal",
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-045",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is Germany's most important white grape?",
+    "choices": [
+      "Riesling",
+      "Müller-Thurgau",
+      "Silvaner",
+      "Weissburgunder"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Riesling, grown mainly in Mosel and the Rhein, where botrytis can also develop.",
+    "source": {
+      "deck": "Europe",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "germany",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-046",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is the highest German wine category?",
+    "choices": [
+      "QbA",
+      "QmP",
+      "Landwein",
+      "Deutscher Tafelwein"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Qualitätswein mit Prädikat, graded by the ripeness of the grapes. Chaptalisation is allowed at QbA level.",
+    "source": {
+      "deck": "Europe",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "germany",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-047",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Prädikat level is an intensely sweet wine made from frozen grapes?",
+    "choices": [
+      "Trockenbeerenauslese",
+      "Beerenauslese",
+      "Eiswein",
+      "Spätlese"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Eiswein: frozen grapes. TBA: intensely sweet, only from botrytised grapes. BA: mostly botrytised grapes.",
+    "source": {
+      "deck": "Europe",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "germany",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-048",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Trockenbeerenauslese is made only from botrytis-affected grapes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "TBA is the top, intensely sweet botrytis level.",
+    "source": {
+      "deck": "Europe",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "germany",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-049",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Kabinett is the late-harvest Prädikat level.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Kabinett is medium dry; Spätlese is the late-harvest level.",
+    "source": {
+      "deck": "Europe",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "germany",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-050",
+    "topic": "europe",
+    "type": "match",
+    "stem": "Match each German Prädikat level to its description.",
+    "choices": [
+      "Chaptalised",
+      "Frozen grapes",
+      "Late harvest",
+      "Medium dry",
+      "Only botrytised grapes",
+      "Single vineyard",
+      "Sparkling"
+    ],
+    "answer": [
+      3,
+      2,
+      1,
+      4
+    ],
+    "explanation": "Kabinett: medium dry. Spätlese: late harvest. Eiswein: frozen grapes. TBA: only botrytised grapes.",
+    "source": {
+      "deck": "Europe",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "germany",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Kabinett",
+      "Spätlese",
+      "Eiswein",
+      "Trockenbeerenauslese"
+    ]
+  },
+  {
+    "id": "eur-051",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "German white wines are fermented in stainless steel, so terroir and mineral notes are not masked by oak.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Oak barrels are used for red wine.",
+    "source": {
+      "deck": "Europe",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "germany",
+      "style"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-052",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which is Germany's largest wine region?",
+    "choices": [
+      "Mosel-Saar-Ruwer",
+      "Pfalz",
+      "Baden",
+      "Rheinhessen"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Rheinhessen, a volume region trying new early-ripening grapes.",
+    "source": {
+      "deck": "Europe",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "germany",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-053",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which German region is one of Europe's highest-latitude regions and makes expensive Spätburgunder?",
+    "choices": [
+      "Ahr",
+      "Nahe",
+      "Franken",
+      "Mittelrhein"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The Ahr: red wine from Spätburgunder (Pinot Noir).",
+    "source": {
+      "deck": "Europe",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "germany",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-054",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Rheingau Riesling is dry with a more pronounced mineral, stony scent than Mosel.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Mosel makes slightly sweet Riesling.",
+    "source": {
+      "deck": "Europe",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "germany",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-055",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is Spätburgunder?",
+    "choices": [
+      "Pinot Blanc",
+      "Pinot Noir",
+      "Pinot Meunier",
+      "Pinot Gris"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Spätburgunder = Pinot Noir; Weissburgunder = Pinot Blanc; Schwarzriesling = Pinot Meunier.",
+    "source": {
+      "deck": "Europe",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "germany",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-056",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which German term means sparkling wine?",
+    "choices": [
+      "Trocken",
+      "Weingut",
+      "Sekt",
+      "Einzellage"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Trocken = dry, Weingut = winery, Einzellage = single vineyard.",
+    "source": {
+      "deck": "Europe",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "germany",
+      "label"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-057",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Württemberg makes over 70% red wine from Trollinger, Schwarzriesling and Spätburgunder.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is Germany's red-wine region.",
+    "source": {
+      "deck": "Europe",
+      "slide": 40
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "germany",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-058",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which grape gives herbs, white pepper and grapefruit, with the best examples from Wachau?",
+    "choices": [
+      "Welschriesling",
+      "Neuburger",
+      "Zierfandler",
+      "Grüner Veltliner"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Grüner Veltliner is Austria's signature white.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "austria",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-059",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Welschriesling is a close relative of Riesling.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It has no relationship with Riesling; it gives light citrusy wine, often used for Sekt.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "austria",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-060",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Zweigelt is a cross of which two grapes?",
+    "choices": [
+      "St. Laurent and Blaufränkisch",
+      "Pinot Noir and Cinsaut",
+      "Riesling and Madeleine Royale",
+      "Weissburgunder and Silvaner"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Bred by Dr. Zweigelt; it gives cherry-flavoured red. Pinot Noir × Cinsaut is Pinotage; Weissburgunder × Silvaner is Neuburger.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "austria",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-061",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Austrian region makes full-bodied reds and, thanks to Lake Neusiedl, botrytis sweet wines?",
+    "choices": [
+      "Wachau",
+      "Burgenland",
+      "Steiermark",
+      "Wien"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Burgenland grows Blaufränkisch, Zweigelt and St. Laurent.",
+    "source": {
+      "deck": "Europe",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "austria",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-062",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Schilcher is a rosé from Blauer Wildbacher, the local grape of Steiermark.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Steiermark (Styria) is otherwise known for aromatic whites such as Sauvignon Blanc.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "austria",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-063",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "A wine chemical scandal in 1985 damaged Austria's reputation for a long time.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Austrian wine has made a comeback over the last two decades.",
+    "source": {
+      "deck": "Europe",
+      "slide": 42
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "austria",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-064",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which grape is most widely grown for Swiss white wine?",
+    "choices": [
+      "Müller-Thurgau",
+      "Petite Arvine",
+      "Chasselas",
+      "Amigne"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Chasselas (Gutedel in Germany). Switzerland's main grapes are Chasselas, Blauburgunder (Pinot Noir) and Merlot.",
+    "source": {
+      "deck": "Europe",
+      "slide": 46
+    },
+    "difficulty": 1,
+    "tags": [
+      "switzerland",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-065",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Merlot is the main grape of Switzerland's French-speaking west.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Merlot belongs to the sunny Italian-speaking south; the French-speaking west is Chasselas country (Valais, Vaud, Genève, Neuchâtel).",
+    "source": {
+      "deck": "Europe",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "switzerland",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-066",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Switzerland exports about half of the wine it produces.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Exports are under 1% of production; Swiss wine is expensive and the Swiss drink more than they make.",
+    "source": {
+      "deck": "Europe",
+      "slide": 45
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "switzerland",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-067",
+    "topic": "europe",
+    "type": "text",
+    "stem": "Which grape, a crossing from Thurgau in Switzerland, carries the name of Dr. Hermann Müller?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Müller-Thurgau, also called Rivaner in Luxembourg.",
+    "source": {
+      "deck": "Europe",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "switzerland",
+      "grape"
+    ],
+    "examFocus": true,
+    "accept": [
+      "muller-thurgau",
+      "müller-thurgau",
+      "muller thurgau",
+      "müller thurgau",
+      "rivaner"
+    ]
+  },
+  {
+    "id": "eur-068",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which grape is the backbone of Tokaji?",
+    "choices": [
+      "Kékfrankos",
+      "Olaszrizling",
+      "Juhfark",
+      "Furmint"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Tokaji uses Furmint, Hárslevelű and Muscat Blanc à Petits Grains (Muskotály), affected by botrytis.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "hungary",
+      "tokaji"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-069",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Tokaji Aszú sweetness is expressed in puttonyos, from 3 to 6.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The botrytised grapes are juiced and fermented to 3, 4, 5 or 6 puttonyos.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "hungary",
+      "tokaji"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-070",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is the free-run, very sugary liquid that seeps from Aszú grapes, fermented separately?",
+    "choices": [
+      "Eszencia",
+      "Szamorodni",
+      "Fordítás",
+      "Máslás"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Szamorodni: whole bunches, normal and botrytised. Fordítás: wine soaked on the skins. Máslás: wine fermented on Aszú lees.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "hungary",
+      "tokaji"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-071",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "The black fungus Racodium cellare on Tokaji cellar walls regulates humidity during ageing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The wine ages in wooden casks in these cellars.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "hungary",
+      "tokaji"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-072",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Louis XIV called Tokaji \"wine of kings and king of wines\".",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Tokaji is first recorded in the mid-17th century.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "hungary",
+      "tokaji"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-073",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Bikavér, \"Bull's Blood\", comes from which Hungarian region?",
+    "choices": [
+      "Szekszárd",
+      "Eger",
+      "Somló",
+      "Tokaj-Hegyalja"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Eger, in the north-east, blends Kadarka (spelled \"Kardaka\" on the slide) with other grapes.",
+    "source": {
+      "deck": "Europe",
+      "slide": 50
+    },
+    "difficulty": 2,
+    "tags": [
+      "hungary",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-074",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "What is Romania's important indigenous red grape?",
+    "choices": [
+      "Mavrud",
+      "Plavac Mali",
+      "Fetească Neagră",
+      "Saperavi"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Fetească Neagră gives rich but soft red. Mavrud is Bulgarian, Plavac Mali Croatian, Saperavi Georgian.",
+    "source": {
+      "deck": "Europe",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "eastern-europe",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-075",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Bulgarian grape gives dark, tannic, long-lived red south of Plovdiv?",
+    "choices": [
+      "Melnik",
+      "Gamza",
+      "Dimiat",
+      "Mavrud"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Melnik grows around the hot Struma River; Gamza is northern; Dimiat is a white grape.",
+    "source": {
+      "deck": "Europe",
+      "slide": 56
+    },
+    "difficulty": 3,
+    "tags": [
+      "eastern-europe",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-076",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Plavac Mali is a Croatian red grape with a flavour similar to Zinfandel.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It gives high-bodied red.",
+    "source": {
+      "deck": "Europe",
+      "slide": 61
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "eastern-europe",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-077",
+    "topic": "europe",
+    "type": "match",
+    "stem": "Match each grape to its country.",
+    "choices": [
+      "Austria",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Greece",
+      "Hungary",
+      "Romania",
+      "Slovenia"
+    ],
+    "answer": [
+      6,
+      1,
+      2,
+      5,
+      4
+    ],
+    "explanation": "Fetească Neagră: Romania. Mavrud: Bulgaria. Plavac Mali: Croatia. Furmint: Hungary (Tokaji). Xinomavro: Greece (Macedonia).",
+    "source": {
+      "deck": "Europe",
+      "slide": 49
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "eastern-europe",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Fetească Neagră",
+      "Mavrud",
+      "Plavac Mali",
+      "Furmint",
+      "Xinomavro"
+    ]
+  },
+  {
+    "id": "eur-078",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Bohemia in the Czech Republic favours Grüner Veltliner while Moravia favours Riesling.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is the other way round: Bohemia favours Riesling, Moravia Grüner Veltliner and Müller-Thurgau.",
+    "source": {
+      "deck": "Europe",
+      "slide": 58
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "eastern-europe",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-079",
+    "topic": "europe",
+    "type": "text",
+    "stem": "Which Greek wine, from Savatiano, is flavoured with pine resin?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Retsina has over 2,000 years of history; the resin kept air out.",
+    "source": {
+      "deck": "Europe",
+      "slide": 65
+    },
+    "difficulty": 1,
+    "tags": [
+      "greece"
+    ],
+    "examFocus": true,
+    "accept": [
+      "retsina"
+    ]
+  },
+  {
+    "id": "eur-080",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which white grape gives Santorini's mineral white wine?",
+    "choices": [
+      "Assyrtiko",
+      "Savatiano",
+      "Moschofilero",
+      "Debina"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Assyrtiko on Santorini. Savatiano: Retsina. Debina: Epirus, green apple.",
+    "source": {
+      "deck": "Europe",
+      "slide": 67
+    },
+    "difficulty": 1,
+    "tags": [
+      "greece",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-081",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which Greek red grape gives rich, tannic, long-lived wine in Macedonia?",
+    "choices": [
+      "Aghiorghitiko",
+      "Xinomavro",
+      "Mandelaria",
+      "Kotsifali"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Xinomavro. Aghiorghitiko is the other main Greek red; Kotsifali and Mandelaria are blended on Crete.",
+    "source": {
+      "deck": "Europe",
+      "slide": 66
+    },
+    "difficulty": 1,
+    "tags": [
+      "greece",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-082",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "About 70% of Greek wine is white.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Greece now produces little wine overall.",
+    "source": {
+      "deck": "Europe",
+      "slide": 64
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "greece"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-083",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which sweet wine is Cyprus famous for?",
+    "choices": [
+      "Retsina",
+      "Tokaji",
+      "Commandaria",
+      "Schilcher"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Commandaria, mentioned since 800 BC. Cyprus grows Mavro (red) and Xynisteri (white).",
+    "source": {
+      "deck": "Europe",
+      "slide": 69
+    },
+    "difficulty": 1,
+    "tags": [
+      "eurasia"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-084",
+    "topic": "europe",
+    "type": "mcq",
+    "stem": "Which is Lebanon's main wine region?",
+    "choices": [
+      "Galilee",
+      "Judean Hills",
+      "Anatolia",
+      "Bekaa Valley"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Bekaa Valley, with indigenous Obaideh and Merwah. Galilee and Judean Hills are Israeli; Anatolia is Turkish.",
+    "source": {
+      "deck": "Europe",
+      "slide": 70
+    },
+    "difficulty": 2,
+    "tags": [
+      "eurasia"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-085",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Israel's modern wine industry was founded by Baron Edmond de Rothschild in the 1880s.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Its grapes are international varieties, and Californian experts give the wines a New World style.",
+    "source": {
+      "deck": "Europe",
+      "slide": 71
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "eurasia"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-086",
+    "topic": "europe",
+    "type": "tf",
+    "stem": "Greece is believed to be the origin of Vitis vinifera.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The slides name Turkey as the believed origin of Vitis vinifera.",
+    "source": {
+      "deck": "Europe",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "eurasia"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "eur-087",
+    "topic": "europe",
+    "type": "match",
+    "stem": "Match each grape or wine to its country.",
+    "choices": [
+      "Cyprus",
+      "Georgia",
+      "Greece",
+      "Hungary",
+      "Israel",
+      "Lebanon",
+      "Turkey"
+    ],
+    "answer": [
+      0,
+      5,
+      6,
+      2
+    ],
+    "explanation": "Commandaria: Cyprus. Obaideh: Lebanon. Boğazkere: Turkey. Assyrtiko: Greece.",
+    "source": {
+      "deck": "Europe",
+      "slide": 69
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "eurasia",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Commandaria",
+      "Obaideh",
+      "Boğazkere",
+      "Assyrtiko"
+    ]
+  }
+]

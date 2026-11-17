@@ -457,5 +457,230 @@
       "deck": "Italy",
       "slide": 24
     }
+  },
+  {
+    "term": "Opposite pairing",
+    "definition": "The wine balances what the food has too much of: softness against salt, bitter and sour; acidity against sweet tendency and fat; tannin or alcohol against oiliness and succulence.",
+    "topic": "pairing",
+    "source": {
+      "deck": "Analysis",
+      "slide": 55
+    }
+  },
+  {
+    "term": "Parallel pairing",
+    "definition": "The wine matches the food: a dessert with an equally sweet wine, aromatic or spiced food with an aromatic wine.",
+    "topic": "pairing",
+    "source": {
+      "deck": "Analysis",
+      "slide": 57
+    }
+  },
+  {
+    "term": "Sweet tendency",
+    "definition": "The natural sweetish taste of a savoury dish (egg, rice, pumpkin, seafood); balanced by acidity.",
+    "topic": "pairing",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    }
+  },
+  {
+    "term": "Succulence",
+    "definition": "Juiciness released in the mouth, as in a semi-cooked steak; balanced by tannicity or alcohol.",
+    "topic": "pairing",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    }
+  },
+  {
+    "term": "Fattiness",
+    "definition": "The coating sensation of solid fat, as in cheese; balanced by acidity or effervescence.",
+    "topic": "pairing",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    }
+  },
+  {
+    "term": "Oiliness",
+    "definition": "The sensation of liquid fat, as in olive oil; balanced by tannicity or alcohol.",
+    "topic": "pairing",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    }
+  },
+  {
+    "term": "Cavatappi",
+    "definition": "The sommelier's knife: two-stage lever, corkscrew and a small blade to cut the foil below the neck.",
+    "topic": "servicing",
+    "source": {
+      "deck": "Servicing",
+      "slide": 16
+    }
+  },
+  {
+    "term": "Glacette",
+    "definition": "A thermostatic bowl that keeps sparkling, white and rosé wine cold at the table.",
+    "topic": "servicing",
+    "source": {
+      "deck": "Servicing",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Coravin",
+    "definition": "Pours wine through a needle in the cork and replaces it with argon, so the bottle is never opened.",
+    "topic": "servicing",
+    "source": {
+      "deck": "Servicing",
+      "slide": 51
+    }
+  },
+  {
+    "term": "Acescenza",
+    "definition": "Wine disease from aerobic bacteria in low-alcohol wine: cloudy, smelling of vinegar and acetaldehyde.",
+    "topic": "servicing",
+    "source": {
+      "deck": "Servicing",
+      "slide": 59
+    }
+  },
+  {
+    "term": "Amarore",
+    "definition": "Wine disease from anaerobic bacteria in reds kept too long: yellowish, pungent, very bitter.",
+    "topic": "servicing",
+    "source": {
+      "deck": "Servicing",
+      "slide": 63
+    }
+  },
+  {
+    "term": "Diastase",
+    "definition": "Enzyme that breaks barley starch into fermentable maltose and unfermentable dextrin.",
+    "topic": "beer",
+    "source": {
+      "deck": "Beer",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Lupulin",
+    "definition": "Yellow powder in female hop flowers holding the resins (bitterness, foam) and essential oils (perfume).",
+    "topic": "beer",
+    "source": {
+      "deck": "Beer",
+      "slide": 12
+    }
+  },
+  {
+    "term": "Brussels lace",
+    "definition": "Merletti di Bruxelles: the foam left on the glass wall after each sip of a good beer.",
+    "topic": "beer",
+    "source": {
+      "deck": "Beer",
+      "slide": 30
+    }
+  },
+  {
+    "term": "Lambic",
+    "definition": "Belgian beer from spontaneous fermentation; Gueuze blends old and young Lambic, Kriek adds cherry, Frambozen raspberry.",
+    "topic": "beer",
+    "source": {
+      "deck": "Beer",
+      "slide": 28
+    }
+  },
+  {
+    "term": "Alambic Charentais",
+    "definition": "Copper pot still for Cognac's double distillation to 65-72%; Armagnac uses the continuous Alambic Armagnaçais.",
+    "topic": "beer",
+    "source": {
+      "deck": "Beer",
+      "slide": 55
+    }
+  },
+  {
+    "term": "Myoglobin",
+    "definition": "Iron-rich muscle pigment that gives meat its colour: white, red or black (game).",
+    "topic": "deli",
+    "source": {
+      "deck": "Deli",
+      "slide": 36
+    }
+  },
+  {
+    "term": "Pasta filata",
+    "definition": "Stretched-curd cheese family: Mozzarella, Provolone, Kashkaval.",
+    "topic": "deli",
+    "source": {
+      "deck": "Deli",
+      "slide": 52
+    }
+  },
+  {
+    "term": "Flor",
+    "definition": "Natural yeast film on Sherry that keeps out air and gives a nutty scent; grows at about 14.5% alcohol.",
+    "topic": "europe",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    }
+  },
+  {
+    "term": "Puttonyos",
+    "definition": "The sweetness scale of Tokaji Aszú, from 3 to 6.",
+    "topic": "europe",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    }
+  },
+  {
+    "term": "Prädikat",
+    "definition": "German ripeness levels within QmP: Kabinett, Spätlese, Auslese, Beerenauslese, Eiswein, Trockenbeerenauslese.",
+    "topic": "europe",
+    "source": {
+      "deck": "Europe",
+      "slide": 37
+    }
+  },
+  {
+    "term": "Pinotage",
+    "definition": "South Africa's grape: Pinot Noir × Cinsaut, bred by Abraham Perold in 1924.",
+    "topic": "newworld",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    }
+  },
+  {
+    "term": "Carménère",
+    "definition": "Chile's signature red, Bordeaux's lost Grand Vidure, identified in 1994.",
+    "topic": "newworld",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    }
+  },
+  {
+    "term": "AVA",
+    "definition": "American Viticultural Area: the US designation, zoning by region only.",
+    "topic": "newworld",
+    "source": {
+      "deck": "New World",
+      "slide": 13
+    }
+  },
+  {
+    "term": "Wine of Origin",
+    "definition": "South Africa's designation: Region, District, Ward.",
+    "topic": "newworld",
+    "source": {
+      "deck": "New World",
+      "slide": 6
+    }
   }
 ]

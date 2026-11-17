@@ -4,6 +4,7 @@ import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Diagram from '../components/Diagram'
 import NetworkDiagram from '../components/NetworkDiagram'
+import PairingChart, { type PairingSpec } from '../components/PairingChart'
 import type { DiagramSpec } from '../lib/diagram'
 import { api, type Mode, type Network, type Question, type Verdict } from '../lib/api'
 import { duration } from '../lib/format'
@@ -78,6 +79,12 @@ export default function Runner() {
     if (!question?.data) return null
     const d = question.data as { kind?: string }
     return d.kind === 'bpmn' || d.kind === 'wbs' || d.kind === 'matrix' ? (question.data as DiagramSpec) : null
+  }, [question])
+
+  const pairing = useMemo(() => {
+    if (!question?.data) return null
+    const d = question.data as { kind?: string }
+    return d.kind === 'pairing' ? (question.data as PairingSpec) : null
   }, [question])
 
   const scenario = useMemo(() => {
@@ -166,7 +173,11 @@ export default function Runner() {
         <span>
           {index + 1} of {run.questions.length}
         </span>
-        <span className="text-ink-faint">{question.topicTitle}</span>
+        {question.part ? (
+          <span className="font-semibold text-ink">{question.part}</span>
+        ) : (
+          <span className="text-ink-faint">{question.topicTitle}</span>
+        )}
         <span className="ml-auto tabular-nums">
           {limit > 0 ? (
             <span style={{ color: remaining < 120 ? 'var(--critical)' : undefined }}>
@@ -200,6 +211,12 @@ export default function Runner() {
       <div className="prose mt-7 text-[1.02rem]" style={{ fontFamily: 'Archivo, sans-serif', lineHeight: 1.45 }}>
         <Markdown remarkPlugins={[remarkGfm]}>{question.stem}</Markdown>
       </div>
+
+      {pairing && (
+        <div className="mt-4 border border-line bg-surface p-3">
+          <PairingChart spec={pairing} />
+        </div>
+      )}
 
       {network && (
         <div className="mt-4 border border-line bg-surface p-3">

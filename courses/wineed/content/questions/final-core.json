@@ -1,0 +1,393 @@
+[
+  {
+    "id": "fin-001",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "On the pairing chart a dish scores 8 on fattiness and 3 on sweet tendency. What score does the completing wine get on acidity / effervescence?",
+    "choices": [
+      "3",
+      "5.5",
+      "8",
+      "11"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Plot the leading component of the group the axis faces: max(8, 3) = 8.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "polygon"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-002",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "On the pairing chart a dish scores 2 on juiciness and 6 on oiliness. What score does the completing wine get on alcoholicity / tannicity?",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "6"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "The alcohol/tannin axis faces juiciness and oiliness; the leading one is 6.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "polygon"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-003",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "A wine with high acidity balances a dish with a strong sweet tendency.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Opposite pairing.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-004",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "A wine with high tannicity balances a dish with strong solid fattiness.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Fattiness needs acidity or effervescence; tannicity answers oiliness and succulence.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-005",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "A dish high in persistence, spiciness and aromaticity needs a wine of matching intensity and persistence.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Parallel pairing.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 57
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-006",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "The sommelier presents the wine from the customer's right.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "From the left; pouring is from the right.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "servicing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-007",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "In a cellar, sparkling wine is stored at the bottom and the most important reds at the top.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Temperature rises slightly from the floor.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 54
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "servicing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-008",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "Filante, Agrodolce, Girato and Amarore are caused by aerobic bacteria.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They are anaerobic; Fioretta and Acescenza are aerobic.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 60
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "servicing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-009",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "Lager yeast works at low temperature and settles at the bottom of the vat.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "S. carlsbergensis, 5-10 °C. Ale yeast (S. cerevisiae) works at 15-25 °C and rises to the top.",
+    "source": {
+      "deck": "Beer",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "beer"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-010",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "Armagnac comes from Normandy.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Armagnac is Gascogne; Calvados is Normandy.",
+    "source": {
+      "deck": "Beer",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "beer"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-011",
+    "topic": "final-core",
+    "type": "tf",
+    "stem": "Game is black meat.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "White: veal, rabbit, lamb, chicken. Red: beef, pork, horse. Black: game.",
+    "source": {
+      "deck": "Deli",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "deli"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-012",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "Which country is Pinotage the signature grape of?",
+    "choices": [
+      "South Africa",
+      "Australia",
+      "New Zealand",
+      "Chile"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Pinot Noir × Cinsaut, Abraham Perold, 1924.",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-013",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "Which country is Carménère the signature grape of?",
+    "choices": [
+      "Argentina",
+      "Chile",
+      "Uruguay",
+      "South Africa"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bordeaux's lost Grand Vidure.",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-014",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "Marlborough is a designation of which country?",
+    "choices": [
+      "Australia",
+      "South Africa",
+      "New Zealand",
+      "USA"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Sauvignon Blanc; Cloudy Bay.",
+    "source": {
+      "deck": "New World",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-015",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "Tokaji is a designation of which country?",
+    "choices": [
+      "Austria",
+      "Romania",
+      "Slovenia",
+      "Hungary"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Furmint with botrytis, graded in puttonyos.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "fin-016",
+    "topic": "final-core",
+    "type": "mcq",
+    "stem": "Which grape is the backbone of Rioja?",
+    "choices": [
+      "Tempranillo",
+      "Garnacha",
+      "Touriga Nacional",
+      "Monastrell"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "About 70% Tempranillo.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "country"
+    ],
+    "examFocus": true
+  }
+]

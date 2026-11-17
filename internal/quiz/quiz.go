@@ -463,13 +463,21 @@ func caseQuestions(set *content.Set, id string, rnd *rand.Rand) ([]content.Quest
 // the player has not mastered, so repeated mocks work through the bank.
 func paper(set *content.Set, parts []course.Part, hist History, rnd *rand.Rand) ([]content.Question, error) {
 	var out []content.Question
+	label := func(qs []content.Question, title string) []content.Question {
+		labelled := make([]content.Question, len(qs))
+		for i, q := range qs {
+			q.Part = title
+			labelled[i] = q
+		}
+		return labelled
+	}
 	for _, p := range parts {
 		if gen, ok := econGenerators[p.Generator]; ok {
 			qs, err := gen(p.Count, rnd)
 			if err != nil {
 				return nil, err
 			}
-			out = append(out, qs...)
+			out = append(out, label(qs, p.Title)...)
 			continue
 		}
 		if p.Case {
@@ -480,14 +488,14 @@ func paper(set *content.Set, parts []course.Part, hist History, rnd *rand.Rand) 
 			if p.Count > 0 && len(qs) > p.Count {
 				qs = qs[:p.Count]
 			}
-			out = append(out, qs...)
+			out = append(out, label(qs, p.Title)...)
 			continue
 		}
 		pool := candidates(set, Mode{topics: p.Topics, tags: p.Tags, types: p.Types}, "")
 		if len(pool) < p.Count {
 			return nil, fmt.Errorf("part %q needs %d questions and has %d", p.Title, p.Count, len(pool))
 		}
-		out = append(out, pickFresh(pool, hist, p.Count, rnd)...)
+		out = append(out, label(pickFresh(pool, hist, p.Count, rnd), p.Title)...)
 	}
 	return out, nil
 }

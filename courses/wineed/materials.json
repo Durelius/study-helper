@@ -1,9 +1,50 @@
 {
   "root": "~/chula/wine_ed/course_materials",
   "decks": [
-    { "deck": "Intro", "title": "Introduction to Wine Education", "pdf": "Introduction_to_Wine_Education_6264_17229224895484_6264_17410702426508_6264_17490899135468_6264_1754-6264-17858142915734.pdf" },
-    { "deck": "Analysis", "title": "Wine Analysis and Food Pairing Technique", "pdf": "Week02_Food_and_Wine_Pairing_Technique_6264_17241476869042_6264_17368437641601_6264_17494406576528_6-6264-17870086409229.pdf" },
-    { "deck": "France", "title": "Wine Producer: France", "pdf": "France_Inter_Material_6264_16620954816053_6264_16938159276437_6264_17072096348140_6264_1725258709355-6264-17876389969260.pdf" },
-    { "deck": "Italy", "title": "Wine Producer: Italy", "pdf": "Italy_Inter_Material_6264_17263197894230_6264_17404607623829_6264_17579911359860-6264-17893683019929.pdf" }
+    {
+      "deck": "Intro",
+      "title": "Introduction to Wine Education",
+      "pdf": "Introduction_to_Wine_Education_6264_17229224895484_6264_17410702426508_6264_17490899135468_6264_1754-6264-17858142915734.pdf"
+    },
+    {
+      "deck": "Analysis",
+      "title": "Wine Analysis and Food Pairing Technique",
+      "pdf": "Week02_Food_and_Wine_Pairing_Technique_6264_17241476869042_6264_17368437641601_6264_17494406576528_6-6264-17870086409229.pdf"
+    },
+    {
+      "deck": "France",
+      "title": "Wine Producer: France",
+      "pdf": "France_Inter_Material_6264_16620954816053_6264_16938159276437_6264_17072096348140_6264_1725258709355-6264-17876389969260.pdf"
+    },
+    {
+      "deck": "Italy",
+      "title": "Wine Producer: Italy",
+      "pdf": "Italy_Inter_Material_6264_17263197894230_6264_17404607623829_6264_17579911359860-6264-17893683019929.pdf"
+    },
+    {
+      "deck": "Europe",
+      "title": "Wine Producer: Europe and Eurasia",
+      "pdf": "Europe_and_Eurasia_Inter_Material_6264_17277113025825_6264_17423676913252_6264_17510031107170_6264_1-6264-17906433877864.pdf"
+    },
+    {
+      "deck": "New World",
+      "title": "Wine Producer: New World",
+      "pdf": "New_World_6264_17289032127783_6264_17611816292956_6264_17737136805670-6264-17919398519702.pdf"
+    },
+    {
+      "deck": "Servicing",
+      "title": "Wine Servicing",
+      "pdf": "Wine_Servicing_6264_16963044752271_6264_17120402841675_6264_17307120406466_6264_17427931093769_6264_-6264-17924594873210.pdf"
+    },
+    {
+      "deck": "Beer",
+      "title": "Beers and Distillates",
+      "pdf": "Beer_and_Distillates_Material_6264_17319132375523_6264_17605029085581-6264-17936813959960.pdf"
+    },
+    {
+      "deck": "Deli",
+      "title": "Delicatessen",
+      "pdf": "Delicatessen_Material_6264_17312987351689_6264_17448140762317_6264_17523156553532_6264_1763703249169-6264-17942091925556.pdf"
+    }
   ]
 }

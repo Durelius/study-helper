@@ -1,0 +1,2886 @@
+[
+  {
+    "id": "cty-001",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "Cyprus",
+      "France",
+      "Greece",
+      "Spain",
+      "Switzerland",
+      "Turkey",
+      "USA"
+    ],
+    "answer": [
+      1,
+      6,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Xynisteri: Cyprus. Boğazkere: Turkey. Sciacarello: France. Aghiorghitiko: Greece. Airén: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 69
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Xynisteri",
+      "Boğazkere",
+      "Sciacarello",
+      "Aghiorghitiko",
+      "Airén"
+    ]
+  },
+  {
+    "id": "cty-002",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Croatia",
+      "Georgia",
+      "Germany",
+      "Japan",
+      "Lebanon",
+      "Mexico",
+      "Serbia",
+      "Switzerland"
+    ],
+    "answer": [
+      0,
+      4,
+      1,
+      7,
+      2
+    ],
+    "explanation": "Plavac Mali: Croatia. Merwah: Lebanon. Mtsvane: Georgia. Bondola: Switzerland. Trollinger: Germany.",
+    "source": {
+      "deck": "Europe",
+      "slide": 61
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Plavac Mali",
+      "Merwah",
+      "Mtsvane",
+      "Bondola",
+      "Trollinger"
+    ]
+  },
+  {
+    "id": "cty-003",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Argentina",
+      "Austria",
+      "Bulgaria",
+      "Greece",
+      "India",
+      "Romania",
+      "Serbia"
+    ],
+    "answer": [
+      2,
+      4,
+      3,
+      0,
+      3
+    ],
+    "explanation": "Dimiat: Bulgaria. Anabeshahi: India. Xinomavro: Greece. Torrontés: Argentina. Aghiorghitiko: Greece.",
+    "source": {
+      "deck": "Europe",
+      "slide": 56
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Dimiat",
+      "Anabeshahi",
+      "Xinomavro",
+      "Torrontés",
+      "Aghiorghitiko"
+    ]
+  },
+  {
+    "id": "cty-004",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Austria",
+      "Bulgaria",
+      "Hungary",
+      "India",
+      "Italy",
+      "Romania",
+      "Serbia",
+      "USA"
+    ],
+    "answer": [
+      0,
+      6,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Blauer Wildbacher: Austria. Prokupac: Serbia. Melnik: Bulgaria. Furmint: Hungary. Aglianico: Italy.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Blauer Wildbacher",
+      "Prokupac",
+      "Melnik",
+      "Furmint",
+      "Aglianico"
+    ]
+  },
+  {
+    "id": "cty-005",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Austria",
+      "Chile",
+      "India",
+      "Japan",
+      "Portugal",
+      "South Africa",
+      "Spain"
+    ],
+    "answer": [
+      5,
+      4,
+      2,
+      0,
+      0
+    ],
+    "explanation": "Pinotage: South Africa. Fernão Pires: Portugal. Anabeshahi: India. Neuburger: Austria. Zierfandler: Austria.",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Pinotage",
+      "Fernão Pires",
+      "Anabeshahi",
+      "Neuburger",
+      "Zierfandler"
+    ]
+  },
+  {
+    "id": "cty-006",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "France",
+      "Italy",
+      "Portugal",
+      "Romania",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      5,
+      3,
+      0,
+      2,
+      5
+    ],
+    "explanation": "Palomino: Spain. Touriga Nacional: Portugal. Gamza: Bulgaria. Corvina: Italy. Xarel-lo: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Palomino",
+      "Touriga Nacional",
+      "Gamza",
+      "Corvina",
+      "Xarel-lo"
+    ]
+  },
+  {
+    "id": "cty-007",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "Georgia",
+      "Greece",
+      "Lebanon",
+      "Portugal",
+      "Romania",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      4,
+      5,
+      7,
+      2,
+      6
+    ],
+    "explanation": "Fernão Pires: Portugal. Fetească Neagră: Romania. Humagne Rouge: Switzerland. Xinomavro: Greece. Parellada: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Fernão Pires",
+      "Fetească Neagră",
+      "Humagne Rouge",
+      "Xinomavro",
+      "Parellada"
+    ]
+  },
+  {
+    "id": "cty-008",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Austria",
+      "France",
+      "Hungary",
+      "Italy",
+      "Japan",
+      "Mexico",
+      "Portugal",
+      "Spain"
+    ],
+    "answer": [
+      3,
+      1,
+      7,
+      0,
+      2
+    ],
+    "explanation": "Aglianico: Italy. Gamay: France. Airén: Spain. Blauer Wildbacher: Austria. Furmint: Hungary.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Aglianico",
+      "Gamay",
+      "Airén",
+      "Blauer Wildbacher",
+      "Furmint"
+    ]
+  },
+  {
+    "id": "cty-009",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Chile",
+      "Croatia",
+      "Greece",
+      "Hungary",
+      "Italy",
+      "Lebanon",
+      "Portugal",
+      "Switzerland"
+    ],
+    "answer": [
+      2,
+      3,
+      6,
+      1,
+      4
+    ],
+    "explanation": "Moschofilero: Greece. Juhfark: Hungary. Touriga Nacional: Portugal. Plavac Mali: Croatia. Nerello Mascalese: Italy.",
+    "source": {
+      "deck": "Europe",
+      "slide": 66
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Moschofilero",
+      "Juhfark",
+      "Touriga Nacional",
+      "Plavac Mali",
+      "Nerello Mascalese"
+    ]
+  },
+  {
+    "id": "cty-010",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "Chile",
+      "Cyprus",
+      "Greece",
+      "New Zealand",
+      "Spain",
+      "Switzerland",
+      "Turkey"
+    ],
+    "answer": [
+      0,
+      1,
+      5,
+      7,
+      3
+    ],
+    "explanation": "Gamza: Bulgaria. Carménère: Chile. Xarel-lo: Spain. Boğazkere: Turkey. Assyrtiko: Greece.",
+    "source": {
+      "deck": "Europe",
+      "slide": 56
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Gamza",
+      "Carménère",
+      "Xarel-lo",
+      "Boğazkere",
+      "Assyrtiko"
+    ]
+  },
+  {
+    "id": "cty-011",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Canada",
+      "Chile",
+      "Hungary",
+      "India",
+      "Japan",
+      "Mexico",
+      "Portugal",
+      "Switzerland"
+    ],
+    "answer": [
+      2,
+      1,
+      6,
+      3,
+      4
+    ],
+    "explanation": "Juhfark: Hungary. Carménère: Chile. Touriga Nacional: Portugal. Anabeshahi: India. Koshu: Japan.",
+    "source": {
+      "deck": "Europe",
+      "slide": 50
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Juhfark",
+      "Carménère",
+      "Touriga Nacional",
+      "Anabeshahi",
+      "Koshu"
+    ]
+  },
+  {
+    "id": "cty-012",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Georgia",
+      "Hungary",
+      "Italy",
+      "Lebanon",
+      "Mexico",
+      "Portugal",
+      "Serbia",
+      "Spain"
+    ],
+    "answer": [
+      1,
+      0,
+      5,
+      3,
+      7
+    ],
+    "explanation": "Hárslevelű: Hungary. Mtsvane: Georgia. Arinto: Portugal. Merwah: Lebanon. Airén: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Hárslevelű",
+      "Mtsvane",
+      "Arinto",
+      "Merwah",
+      "Airén"
+    ]
+  },
+  {
+    "id": "cty-013",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Georgia",
+      "Germany",
+      "Hungary",
+      "Lebanon",
+      "New Zealand",
+      "Portugal",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      1,
+      5,
+      6,
+      0,
+      7
+    ],
+    "explanation": "Trollinger: Germany. Arinto: Portugal. Airén: Spain. Mtsvane: Georgia. Cornalin: Switzerland.",
+    "source": {
+      "deck": "Europe",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Trollinger",
+      "Arinto",
+      "Airén",
+      "Mtsvane",
+      "Cornalin"
+    ]
+  },
+  {
+    "id": "cty-014",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Australia",
+      "Austria",
+      "Germany",
+      "Greece",
+      "Lebanon",
+      "Portugal",
+      "Switzerland",
+      "Turkey"
+    ],
+    "answer": [
+      6,
+      3,
+      1,
+      5,
+      4
+    ],
+    "explanation": "Bondola: Switzerland. Savatiano: Greece. Blauer Wildbacher: Austria. Touriga Nacional: Portugal. Merwah: Lebanon.",
+    "source": {
+      "deck": "Europe",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Bondola",
+      "Savatiano",
+      "Blauer Wildbacher",
+      "Touriga Nacional",
+      "Merwah"
+    ]
+  },
+  {
+    "id": "cty-015",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Croatia",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Portugal",
+      "Serbia",
+      "Spain"
+    ],
+    "answer": [
+      4,
+      2,
+      2,
+      0,
+      3
+    ],
+    "explanation": "Fernão Pires: Portugal. Juhfark: Hungary. Hárslevelű: Hungary. Graševina: Croatia. Nerello Mascalese: Italy.",
+    "source": {
+      "deck": "Europe",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Fernão Pires",
+      "Juhfark",
+      "Hárslevelű",
+      "Graševina",
+      "Nerello Mascalese"
+    ]
+  },
+  {
+    "id": "cty-016",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Austria",
+      "Cyprus",
+      "France",
+      "Greece",
+      "Portugal",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      4,
+      3,
+      4,
+      0,
+      5
+    ],
+    "explanation": "Antão Vaz: Portugal. Aghiorghitiko: Greece. Baga: Portugal. Zierfandler: Austria. Palomino: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Antão Vaz",
+      "Aghiorghitiko",
+      "Baga",
+      "Zierfandler",
+      "Palomino"
+    ]
+  },
+  {
+    "id": "cty-017",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Australia",
+      "Bulgaria",
+      "Croatia",
+      "Germany",
+      "India",
+      "Italy",
+      "Mexico",
+      "Spain"
+    ],
+    "answer": [
+      3,
+      1,
+      7,
+      5,
+      4
+    ],
+    "explanation": "Trollinger: Germany. Mavrud: Bulgaria. Palomino: Spain. Nerello Mascalese: Italy. Anabeshahi: India.",
+    "source": {
+      "deck": "Europe",
+      "slide": 40
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Trollinger",
+      "Mavrud",
+      "Palomino",
+      "Nerello Mascalese",
+      "Anabeshahi"
+    ]
+  },
+  {
+    "id": "cty-018",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Greece",
+      "Hungary",
+      "India",
+      "Italy",
+      "Lebanon",
+      "New Zealand",
+      "Spain",
+      "Turkey"
+    ],
+    "answer": [
+      6,
+      0,
+      3,
+      4,
+      1
+    ],
+    "explanation": "Albariño: Spain. Aghiorghitiko: Greece. Glera: Italy. Merwah: Lebanon. Furmint: Hungary.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Albariño",
+      "Aghiorghitiko",
+      "Glera",
+      "Merwah",
+      "Furmint"
+    ]
+  },
+  {
+    "id": "cty-019",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Argentina",
+      "Chile",
+      "Cyprus",
+      "Germany",
+      "Greece",
+      "Hungary",
+      "Italy",
+      "Portugal"
+    ],
+    "answer": [
+      1,
+      4,
+      5,
+      6,
+      0
+    ],
+    "explanation": "Carménère: Chile. Xinomavro: Greece. Juhfark: Hungary. Corvina: Italy. Torrontés: Argentina.",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Carménère",
+      "Xinomavro",
+      "Juhfark",
+      "Corvina",
+      "Torrontés"
+    ]
+  },
+  {
+    "id": "cty-020",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Argentina",
+      "Croatia",
+      "Italy",
+      "Lebanon",
+      "Romania",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      6,
+      6,
+      4,
+      2,
+      1
+    ],
+    "explanation": "Cornalin: Switzerland. Humagne Rouge: Switzerland. Fetească Neagră: Romania. Aglianico: Italy. Graševina: Croatia.",
+    "source": {
+      "deck": "Europe",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Cornalin",
+      "Humagne Rouge",
+      "Fetească Neagră",
+      "Aglianico",
+      "Graševina"
+    ]
+  },
+  {
+    "id": "cty-021",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "Greece",
+      "Hungary",
+      "Italy",
+      "South Africa",
+      "Spain",
+      "USA"
+    ],
+    "answer": [
+      3,
+      5,
+      2,
+      1,
+      3
+    ],
+    "explanation": "Glera: Italy. Parellada: Spain. Hárslevelű: Hungary. Savatiano: Greece. Aglianico: Italy.",
+    "source": {
+      "deck": "Italy",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Glera",
+      "Parellada",
+      "Hárslevelű",
+      "Savatiano",
+      "Aglianico"
+    ]
+  },
+  {
+    "id": "cty-022",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "Canada",
+      "Chile",
+      "Germany",
+      "Japan",
+      "Romania",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      2,
+      3,
+      0,
+      7,
+      6
+    ],
+    "explanation": "Carménère: Chile. Spätburgunder: Germany. Dimiat: Bulgaria. Cornalin: Switzerland. Verdejo: Spain.",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Carménère",
+      "Spätburgunder",
+      "Dimiat",
+      "Cornalin",
+      "Verdejo"
+    ]
+  },
+  {
+    "id": "cty-023",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Argentina",
+      "Austria",
+      "Greece",
+      "Romania",
+      "Serbia",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      5,
+      4,
+      5,
+      6,
+      0
+    ],
+    "explanation": "Albariño: Spain. Prokupac: Serbia. Parellada: Spain. Cornalin: Switzerland. Torrontés: Argentina.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Albariño",
+      "Prokupac",
+      "Parellada",
+      "Cornalin",
+      "Torrontés"
+    ]
+  },
+  {
+    "id": "cty-024",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each grape variety to its country.",
+    "choices": [
+      "Bulgaria",
+      "Croatia",
+      "Georgia",
+      "Greece",
+      "Romania",
+      "Serbia",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      6,
+      5,
+      0,
+      3,
+      7
+    ],
+    "explanation": "Airén: Spain. Prokupac: Serbia. Mavrud: Bulgaria. Moschofilero: Greece. Humagne Rouge: Switzerland.",
+    "source": {
+      "deck": "Europe",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "grape-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Airén",
+      "Prokupac",
+      "Mavrud",
+      "Moschofilero",
+      "Humagne Rouge"
+    ]
+  },
+  {
+    "id": "cty-025",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Austria",
+      "Chile",
+      "Greece",
+      "Hungary",
+      "New Zealand",
+      "Spain",
+      "USA"
+    ],
+    "answer": [
+      3,
+      5,
+      2,
+      5,
+      4
+    ],
+    "explanation": "Bikavér (Eger): Hungary. Jerez DO (Sherry): Spain. Retsina: Greece. Rueda DO: Spain. Hawke's Bay: New Zealand.",
+    "source": {
+      "deck": "Europe",
+      "slide": 50
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Bikavér (Eger)",
+      "Jerez DO (Sherry)",
+      "Retsina",
+      "Rueda DO",
+      "Hawke's Bay"
+    ]
+  },
+  {
+    "id": "cty-026",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Argentina",
+      "Chile",
+      "Hungary",
+      "Portugal",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      4,
+      4,
+      3,
+      3,
+      1
+    ],
+    "explanation": "Rueda DO: Spain. Cava: Spain. Madeira: Portugal. Vinho Verde DOC: Portugal. Casablanca Valley: Chile.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Rueda DO",
+      "Cava",
+      "Madeira",
+      "Vinho Verde DOC",
+      "Casablanca Valley"
+    ]
+  },
+  {
+    "id": "cty-027",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Australia",
+      "Canada",
+      "Chile",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Romania",
+      "Switzerland"
+    ],
+    "answer": [
+      0,
+      1,
+      5,
+      7,
+      4
+    ],
+    "explanation": "Coonawarra: Australia. Niagara Peninsula: Canada. Barolo DOCG: Italy. Nostrano: Switzerland. Tokaji: Hungary.",
+    "source": {
+      "deck": "New World",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Coonawarra",
+      "Niagara Peninsula",
+      "Barolo DOCG",
+      "Nostrano",
+      "Tokaji"
+    ]
+  },
+  {
+    "id": "cty-028",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Canada",
+      "Chile",
+      "Cyprus",
+      "Italy",
+      "Mexico",
+      "New Zealand",
+      "South Africa",
+      "Spain"
+    ],
+    "answer": [
+      3,
+      7,
+      5,
+      6,
+      0
+    ],
+    "explanation": "Prosecco DOCG: Italy. Rueda DO: Spain. Hawke's Bay: New Zealand. Méthode Cap Classique: South Africa. Niagara Peninsula: Canada.",
+    "source": {
+      "deck": "Italy",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Prosecco DOCG",
+      "Rueda DO",
+      "Hawke's Bay",
+      "Méthode Cap Classique",
+      "Niagara Peninsula"
+    ]
+  },
+  {
+    "id": "cty-029",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Canada",
+      "Chile",
+      "France",
+      "Greece",
+      "Hungary",
+      "India",
+      "Portugal",
+      "Switzerland"
+    ],
+    "answer": [
+      3,
+      6,
+      1,
+      2,
+      7
+    ],
+    "explanation": "Retsina: Greece. Bairrada DOC: Portugal. Casablanca Valley: Chile. Chablis: France. Nostrano: Switzerland.",
+    "source": {
+      "deck": "Europe",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Retsina",
+      "Bairrada DOC",
+      "Casablanca Valley",
+      "Chablis",
+      "Nostrano"
+    ]
+  },
+  {
+    "id": "cty-030",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Australia",
+      "Cyprus",
+      "France",
+      "Germany",
+      "Greece",
+      "Italy",
+      "Romania",
+      "Spain"
+    ],
+    "answer": [
+      2,
+      4,
+      7,
+      5,
+      0
+    ],
+    "explanation": "Madiran: France. Retsina: Greece. Rías Baixas DO: Spain. Taurasi DOCG: Italy. Clare Valley: Australia.",
+    "source": {
+      "deck": "France",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Madiran",
+      "Retsina",
+      "Rías Baixas DO",
+      "Taurasi DOCG",
+      "Clare Valley"
+    ]
+  },
+  {
+    "id": "cty-031",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "France",
+      "Germany",
+      "Italy",
+      "Lebanon",
+      "Spain",
+      "Turkey",
+      "USA"
+    ],
+    "answer": [
+      4,
+      2,
+      0,
+      6,
+      4
+    ],
+    "explanation": "Rías Baixas DO: Spain. Barolo DOCG: Italy. Pauillac: France. Willamette Valley AVA: USA. Priorat DOCa: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Rías Baixas DO",
+      "Barolo DOCG",
+      "Pauillac",
+      "Willamette Valley AVA",
+      "Priorat DOCa"
+    ]
+  },
+  {
+    "id": "cty-032",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Australia",
+      "Chile",
+      "France",
+      "Greece",
+      "Italy",
+      "Portugal",
+      "Serbia",
+      "Spain"
+    ],
+    "answer": [
+      1,
+      2,
+      7,
+      4,
+      0
+    ],
+    "explanation": "Casablanca Valley: Chile. Madiran: France. Priorat DOCa: Spain. Taurasi DOCG: Italy. Barossa Valley: Australia.",
+    "source": {
+      "deck": "New World",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Casablanca Valley",
+      "Madiran",
+      "Priorat DOCa",
+      "Taurasi DOCG",
+      "Barossa Valley"
+    ]
+  },
+  {
+    "id": "cty-033",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Australia",
+      "Germany",
+      "Lebanon",
+      "Serbia",
+      "South Africa",
+      "Spain",
+      "Turkey",
+      "USA"
+    ],
+    "answer": [
+      4,
+      7,
+      2,
+      5,
+      0
+    ],
+    "explanation": "Stellenbosch: South Africa. Willamette Valley AVA: USA. Bekaa Valley: Lebanon. Jerez DO (Sherry): Spain. Clare Valley: Australia.",
+    "source": {
+      "deck": "New World",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Stellenbosch",
+      "Willamette Valley AVA",
+      "Bekaa Valley",
+      "Jerez DO (Sherry)",
+      "Clare Valley"
+    ]
+  },
+  {
+    "id": "cty-034",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Argentina",
+      "Chile",
+      "France",
+      "Greece",
+      "India",
+      "Italy",
+      "Japan",
+      "Spain"
+    ],
+    "answer": [
+      0,
+      5,
+      2,
+      7,
+      1
+    ],
+    "explanation": "Salta: Argentina. Barolo DOCG: Italy. Pauillac: France. Priorat DOCa: Spain. Maipo Valley: Chile.",
+    "source": {
+      "deck": "New World",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Salta",
+      "Barolo DOCG",
+      "Pauillac",
+      "Priorat DOCa",
+      "Maipo Valley"
+    ]
+  },
+  {
+    "id": "cty-035",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Argentina",
+      "Australia",
+      "New Zealand",
+      "South Africa",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      4,
+      1,
+      1,
+      4,
+      2
+    ],
+    "explanation": "Rioja DOCa: Spain. Coonawarra: Australia. Hunter Valley: Australia. Priorat DOCa: Spain. Marlborough: New Zealand.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Rioja DOCa",
+      "Coonawarra",
+      "Hunter Valley",
+      "Priorat DOCa",
+      "Marlborough"
+    ]
+  },
+  {
+    "id": "cty-036",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Austria",
+      "Canada",
+      "France",
+      "Germany",
+      "Hungary",
+      "Italy",
+      "Japan"
+    ],
+    "answer": [
+      1,
+      0,
+      2,
+      4,
+      2
+    ],
+    "explanation": "Niagara Peninsula: Canada. Schilcher: Austria. Chablis: France. Bikavér (Eger): Hungary. Madiran: France.",
+    "source": {
+      "deck": "New World",
+      "slide": 57
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Niagara Peninsula",
+      "Schilcher",
+      "Chablis",
+      "Bikavér (Eger)",
+      "Madiran"
+    ]
+  },
+  {
+    "id": "cty-037",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Australia",
+      "France",
+      "Georgia",
+      "New Zealand",
+      "Portugal",
+      "South Africa",
+      "Spain",
+      "USA"
+    ],
+    "answer": [
+      5,
+      0,
+      4,
+      6,
+      1
+    ],
+    "explanation": "Stellenbosch: South Africa. Hunter Valley: Australia. Bairrada DOC: Portugal. Jerez DO (Sherry): Spain. Chablis: France.",
+    "source": {
+      "deck": "New World",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Stellenbosch",
+      "Hunter Valley",
+      "Bairrada DOC",
+      "Jerez DO (Sherry)",
+      "Chablis"
+    ]
+  },
+  {
+    "id": "cty-038",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Australia",
+      "Austria",
+      "Greece",
+      "Hungary",
+      "Japan",
+      "New Zealand",
+      "South Africa",
+      "Spain"
+    ],
+    "answer": [
+      2,
+      3,
+      1,
+      7,
+      5
+    ],
+    "explanation": "Retsina: Greece. Tokaji: Hungary. Schilcher: Austria. Rueda DO: Spain. Central Otago: New Zealand.",
+    "source": {
+      "deck": "Europe",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Retsina",
+      "Tokaji",
+      "Schilcher",
+      "Rueda DO",
+      "Central Otago"
+    ]
+  },
+  {
+    "id": "cty-039",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Cyprus",
+      "France",
+      "Italy",
+      "Japan",
+      "Spain",
+      "Switzerland"
+    ],
+    "answer": [
+      4,
+      2,
+      4,
+      1,
+      4
+    ],
+    "explanation": "Priorat DOCa: Spain. Barolo DOCG: Italy. Rías Baixas DO: Spain. Pauillac: France. Rueda DO: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Priorat DOCa",
+      "Barolo DOCG",
+      "Rías Baixas DO",
+      "Pauillac",
+      "Rueda DO"
+    ]
+  },
+  {
+    "id": "cty-040",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its country.",
+    "choices": [
+      "Bulgaria",
+      "Italy",
+      "Lebanon",
+      "Portugal",
+      "Spain",
+      "Turkey"
+    ],
+    "answer": [
+      3,
+      1,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Vinho Verde DOC: Portugal. Brunello di Montalcino DOCG: Italy. Taurasi DOCG: Italy. Douro DOC: Portugal. Priorat DOCa: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Vinho Verde DOC",
+      "Brunello di Montalcino DOCG",
+      "Taurasi DOCG",
+      "Douro DOC",
+      "Priorat DOCa"
+    ]
+  },
+  {
+    "id": "cty-041",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Bondola",
+      "Cabernet Sauvignon",
+      "Furmint",
+      "Gamza",
+      "Glera",
+      "Koshu",
+      "Parellada",
+      "Tempranillo"
+    ],
+    "answer": [
+      7,
+      2,
+      4,
+      1,
+      0
+    ],
+    "explanation": "Ribera del Duero DO: Tempranillo. Tokaji: Furmint. Prosecco DOCG: Glera. Pauillac: Cabernet Sauvignon. Nostrano: Bondola.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Ribera del Duero DO",
+      "Tokaji",
+      "Prosecco DOCG",
+      "Pauillac",
+      "Nostrano"
+    ]
+  },
+  {
+    "id": "cty-042",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Carménère",
+      "Chardonnay",
+      "Gamay",
+      "Glera",
+      "Pinot Noir",
+      "Tannat",
+      "Tempranillo",
+      "Torrontés"
+    ],
+    "answer": [
+      5,
+      6,
+      7,
+      1,
+      4
+    ],
+    "explanation": "Madiran: Tannat. Ribera del Duero DO: Tempranillo. Salta: Torrontés. Chablis: Chardonnay. Central Otago: Pinot Noir.",
+    "source": {
+      "deck": "France",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Madiran",
+      "Ribera del Duero DO",
+      "Salta",
+      "Chablis",
+      "Central Otago"
+    ]
+  },
+  {
+    "id": "cty-043",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Arinto",
+      "Boğazkere",
+      "Cabernet Sauvignon",
+      "Koshu",
+      "Savatiano",
+      "Shiraz",
+      "Tannat",
+      "Torrontés"
+    ],
+    "answer": [
+      0,
+      6,
+      7,
+      5,
+      2
+    ],
+    "explanation": "Bucelas DOC: Arinto. Madiran: Tannat. Salta: Torrontés. Barossa Valley: Shiraz. Pauillac: Cabernet Sauvignon.",
+    "source": {
+      "deck": "Europe",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Bucelas DOC",
+      "Madiran",
+      "Salta",
+      "Barossa Valley",
+      "Pauillac"
+    ]
+  },
+  {
+    "id": "cty-044",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Corvina",
+      "Malbec",
+      "Mourvèdre",
+      "Obaideh",
+      "Palomino",
+      "Pinot Noir",
+      "Tempranillo",
+      "Touriga Nacional"
+    ],
+    "answer": [
+      2,
+      4,
+      7,
+      6,
+      5
+    ],
+    "explanation": "Bandol: Mourvèdre. Jerez DO (Sherry): Palomino. Douro DOC: Touriga Nacional. Rioja DOCa: Tempranillo. Willamette Valley AVA: Pinot Noir.",
+    "source": {
+      "deck": "France",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Bandol",
+      "Jerez DO (Sherry)",
+      "Douro DOC",
+      "Rioja DOCa",
+      "Willamette Valley AVA"
+    ]
+  },
+  {
+    "id": "cty-045",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Arinto",
+      "Cabernet Sauvignon",
+      "Fetească Neagră",
+      "Gamza",
+      "Pinot Noir",
+      "Prokupac",
+      "Sangiovese",
+      "Sémillon"
+    ],
+    "answer": [
+      1,
+      6,
+      0,
+      7,
+      4
+    ],
+    "explanation": "Coonawarra: Cabernet Sauvignon. Brunello di Montalcino DOCG: Sangiovese. Bucelas DOC: Arinto. Hunter Valley: Sémillon. Central Otago: Pinot Noir.",
+    "source": {
+      "deck": "New World",
+      "slide": 41
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Coonawarra",
+      "Brunello di Montalcino DOCG",
+      "Bucelas DOC",
+      "Hunter Valley",
+      "Central Otago"
+    ]
+  },
+  {
+    "id": "cty-046",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Assyrtiko",
+      "Blauer Wildbacher",
+      "Fernão Pires",
+      "Furmint",
+      "Neuburger",
+      "Sangiovese",
+      "Tannat",
+      "Verdejo"
+    ],
+    "answer": [
+      5,
+      1,
+      3,
+      7,
+      6
+    ],
+    "explanation": "Brunello di Montalcino DOCG: Sangiovese. Schilcher: Blauer Wildbacher. Tokaji: Furmint. Rueda DO: Verdejo. Madiran: Tannat.",
+    "source": {
+      "deck": "Italy",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Brunello di Montalcino DOCG",
+      "Schilcher",
+      "Tokaji",
+      "Rueda DO",
+      "Madiran"
+    ]
+  },
+  {
+    "id": "cty-047",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Fernão Pires",
+      "Fetească Neagră",
+      "Glera",
+      "Pinot Noir",
+      "Sauvignon Blanc",
+      "Sémillon",
+      "Touriga Nacional"
+    ],
+    "answer": [
+      4,
+      0,
+      6,
+      5,
+      7
+    ],
+    "explanation": "Willamette Valley AVA: Pinot Noir. Coonawarra: Cabernet Sauvignon. Hunter Valley: Sémillon. Marlborough: Sauvignon Blanc. Douro DOC: Touriga Nacional.",
+    "source": {
+      "deck": "New World",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Willamette Valley AVA",
+      "Coonawarra",
+      "Hunter Valley",
+      "Marlborough",
+      "Douro DOC"
+    ]
+  },
+  {
+    "id": "cty-048",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Albariño",
+      "Melnik",
+      "Mourvèdre",
+      "Pinot Noir",
+      "Sauvignon Blanc",
+      "Tempranillo",
+      "Touriga Nacional",
+      "Verdejo"
+    ],
+    "answer": [
+      7,
+      3,
+      0,
+      5,
+      2
+    ],
+    "explanation": "Rueda DO: Verdejo. Central Otago: Pinot Noir. Rías Baixas DO: Albariño. Ribera del Duero DO: Tempranillo. Bandol: Mourvèdre.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Rueda DO",
+      "Central Otago",
+      "Rías Baixas DO",
+      "Ribera del Duero DO",
+      "Bandol"
+    ]
+  },
+  {
+    "id": "cty-049",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Bondola",
+      "Cabernet Sauvignon",
+      "Chardonnay",
+      "Merwah",
+      "Moschofilero",
+      "Savatiano",
+      "Tempranillo",
+      "Touriga Nacional"
+    ],
+    "answer": [
+      5,
+      0,
+      2,
+      1,
+      6
+    ],
+    "explanation": "Retsina: Savatiano. Nostrano: Bondola. Chablis: Chardonnay. Pauillac: Cabernet Sauvignon. Ribera del Duero DO: Tempranillo.",
+    "source": {
+      "deck": "Europe",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Retsina",
+      "Nostrano",
+      "Chablis",
+      "Pauillac",
+      "Ribera del Duero DO"
+    ]
+  },
+  {
+    "id": "cty-050",
+    "topic": "countries",
+    "type": "match",
+    "stem": "Match each designation to its grape variety.",
+    "choices": [
+      "Bondola",
+      "Glera",
+      "Humagne Rouge",
+      "Pinot Noir",
+      "Pošip",
+      "Riesling",
+      "Savatiano",
+      "Tempranillo"
+    ],
+    "answer": [
+      6,
+      3,
+      5,
+      7,
+      0
+    ],
+    "explanation": "Retsina: Savatiano. Central Otago: Pinot Noir. Clare Valley: Riesling. Rioja DOCa: Tempranillo. Nostrano: Bondola.",
+    "source": {
+      "deck": "Europe",
+      "slide": 65
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "designation-country",
+      "designation-grape",
+      "paper"
+    ],
+    "examFocus": true,
+    "items": [
+      "Retsina",
+      "Central Otago",
+      "Clare Valley",
+      "Rioja DOCa",
+      "Nostrano"
+    ]
+  },
+  {
+    "id": "cty-051",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Pinotage is a grape variety of which country?",
+    "choices": [
+      "Greece",
+      "Switzerland",
+      "Austria",
+      "South Africa"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Pinotage: South Africa.",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-052",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Carménère is a grape variety of which country?",
+    "choices": [
+      "Chile",
+      "Greece",
+      "Georgia",
+      "Spain"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Carménère: Chile.",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-053",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Torrontés is a grape variety of which country?",
+    "choices": [
+      "Portugal",
+      "Argentina",
+      "Turkey",
+      "USA"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Torrontés: Argentina.",
+    "source": {
+      "deck": "New World",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-054",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Touriga Nacional is a grape variety of which country?",
+    "choices": [
+      "Italy",
+      "Hungary",
+      "Portugal",
+      "Croatia"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Touriga Nacional: Portugal.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-055",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Furmint is a grape variety of which country?",
+    "choices": [
+      "USA",
+      "Germany",
+      "Croatia",
+      "Hungary"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Furmint: Hungary.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-056",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Assyrtiko is a grape variety of which country?",
+    "choices": [
+      "Greece",
+      "Spain",
+      "New Zealand",
+      "Georgia"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Assyrtiko: Greece.",
+    "source": {
+      "deck": "Europe",
+      "slide": 67
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-057",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Xinomavro is a grape variety of which country?",
+    "choices": [
+      "France",
+      "Greece",
+      "Turkey",
+      "Canada"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Xinomavro: Greece.",
+    "source": {
+      "deck": "Europe",
+      "slide": 66
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-058",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Fetească Neagră is a grape variety of which country?",
+    "choices": [
+      "South Africa",
+      "Georgia",
+      "Romania",
+      "Bulgaria"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Fetească Neagră: Romania.",
+    "source": {
+      "deck": "Europe",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-059",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Mavrud is a grape variety of which country?",
+    "choices": [
+      "Cyprus",
+      "Turkey",
+      "Switzerland",
+      "Bulgaria"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Mavrud: Bulgaria.",
+    "source": {
+      "deck": "Europe",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-060",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Plavac Mali is a grape variety of which country?",
+    "choices": [
+      "Croatia",
+      "New Zealand",
+      "India",
+      "Brazil"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Plavac Mali: Croatia.",
+    "source": {
+      "deck": "Europe",
+      "slide": 61
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-061",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Albariño is a grape variety of which country?",
+    "choices": [
+      "Argentina",
+      "Spain",
+      "Turkey",
+      "France"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Albariño: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-062",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Palomino is a grape variety of which country?",
+    "choices": [
+      "Switzerland",
+      "Canada",
+      "Spain",
+      "Argentina"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Palomino: Spain.",
+    "source": {
+      "deck": "Europe",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-063",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Koshu is a grape variety of which country?",
+    "choices": [
+      "Bulgaria",
+      "Romania",
+      "Mexico",
+      "Japan"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Koshu: Japan.",
+    "source": {
+      "deck": "New World",
+      "slide": 64
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-064",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Boğazkere is a grape variety of which country?",
+    "choices": [
+      "Turkey",
+      "Spain",
+      "Georgia",
+      "Bulgaria"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Boğazkere: Turkey.",
+    "source": {
+      "deck": "Europe",
+      "slide": 72
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-065",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Obaideh is a grape variety of which country?",
+    "choices": [
+      "Greece",
+      "Lebanon",
+      "South Africa",
+      "Croatia"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Obaideh: Lebanon.",
+    "source": {
+      "deck": "Europe",
+      "slide": 70
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-066",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Blauer Wildbacher is a grape variety of which country?",
+    "choices": [
+      "Greece",
+      "Brazil",
+      "Austria",
+      "Germany"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Blauer Wildbacher: Austria.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-067",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Xynisteri is a grape variety of which country?",
+    "choices": [
+      "Serbia",
+      "Japan",
+      "India",
+      "Cyprus"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Xynisteri: Cyprus.",
+    "source": {
+      "deck": "Europe",
+      "slide": 69
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-068",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Baga is a grape variety of which country?",
+    "choices": [
+      "Portugal",
+      "France",
+      "Australia",
+      "Switzerland"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Baga: Portugal.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-069",
+    "topic": "countries",
+    "type": "mcq",
+    "stem": "Trollinger is a grape variety of which country?",
+    "choices": [
+      "Spain",
+      "Germany",
+      "Georgia",
+      "Croatia"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Trollinger: Germany.",
+    "source": {
+      "deck": "Europe",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "grape-country"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "cty-070",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Tokaji is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Tokaji: Hungary, made from Furmint.",
+    "source": {
+      "deck": "Europe",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "hungary"
+    ]
+  },
+  {
+    "id": "cty-071",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Commandaria is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Commandaria: Cyprus.",
+    "source": {
+      "deck": "Europe",
+      "slide": 69
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "cyprus"
+    ]
+  },
+  {
+    "id": "cty-072",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Retsina is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Retsina: Greece, made from Savatiano.",
+    "source": {
+      "deck": "Europe",
+      "slide": 65
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "greece"
+    ]
+  },
+  {
+    "id": "cty-073",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Stellenbosch is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Stellenbosch: South Africa.",
+    "source": {
+      "deck": "New World",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "south africa"
+    ]
+  },
+  {
+    "id": "cty-074",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Marlborough is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Marlborough: New Zealand, made from Sauvignon Blanc.",
+    "source": {
+      "deck": "New World",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "new zealand"
+    ]
+  },
+  {
+    "id": "cty-075",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Barossa Valley is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Barossa Valley: Australia, made from Shiraz.",
+    "source": {
+      "deck": "New World",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "australia"
+    ]
+  },
+  {
+    "id": "cty-076",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Maipo Valley is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Maipo Valley: Chile, made from Cabernet Sauvignon.",
+    "source": {
+      "deck": "New World",
+      "slide": 28
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "chile"
+    ]
+  },
+  {
+    "id": "cty-077",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Mendoza is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Mendoza: Argentina, made from Malbec.",
+    "source": {
+      "deck": "New World",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "argentina"
+    ]
+  },
+  {
+    "id": "cty-078",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Napa Valley AVA is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Napa Valley AVA: USA, made from Cabernet Sauvignon.",
+    "source": {
+      "deck": "New World",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "usa",
+      "us",
+      "united states",
+      "america"
+    ]
+  },
+  {
+    "id": "cty-079",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Vinho Verde DOC is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Vinho Verde DOC: Portugal.",
+    "source": {
+      "deck": "Europe",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "portugal"
+    ]
+  },
+  {
+    "id": "cty-080",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Rioja DOCa is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Rioja DOCa: Spain, made from Tempranillo.",
+    "source": {
+      "deck": "Europe",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "spain"
+    ]
+  },
+  {
+    "id": "cty-081",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Bekaa Valley is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Bekaa Valley: Lebanon.",
+    "source": {
+      "deck": "Europe",
+      "slide": 70
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "lebanon"
+    ]
+  },
+  {
+    "id": "cty-082",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Schilcher is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Schilcher: Austria, made from Blauer Wildbacher.",
+    "source": {
+      "deck": "Europe",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "austria"
+    ]
+  },
+  {
+    "id": "cty-083",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Coonawarra is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Coonawarra: Australia, made from Cabernet Sauvignon.",
+    "source": {
+      "deck": "New World",
+      "slide": 41
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "australia"
+    ]
+  },
+  {
+    "id": "cty-084",
+    "topic": "countries",
+    "type": "text",
+    "stem": "Central Otago is a designation of which country?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Central Otago: New Zealand, made from Pinot Noir.",
+    "source": {
+      "deck": "New World",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "designation-country"
+    ],
+    "examFocus": true,
+    "accept": [
+      "new zealand"
+    ]
+  }
+]

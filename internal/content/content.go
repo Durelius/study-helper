@@ -54,6 +54,9 @@ type Question struct {
 	// CaseID is set on questions that belong to a case study, so the runner knows to
 	// show the scenario alongside them.
 	CaseID string `json:"caseId,omitempty"`
+	// Part is the exam part a paper drew this question for ("Part 1 · Wine & food
+	// pairing"), so the runner can label where you are in a mock exam.
+	Part string `json:"part,omitempty"`
 	// Data carries a generated question's diagram — an activity network, a set of
 	// earned-value figures — for the client to draw. Authored questions leave it nil.
 	Data json.RawMessage `json:"data,omitempty"`

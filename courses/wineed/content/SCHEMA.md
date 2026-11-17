@@ -5,27 +5,39 @@ slide, it does not go in. The general formats (lecture front matter, question fi
 `text` questions, glossary) are the same as in `courses/vitsup/content/SCHEMA.md`; this file
 covers what is specific to this course.
 
-## The paper (`examformat.md`)
+## The papers (`examformat.md`)
 
-| Part | Format | Points | Topic |
+**Final** (the `exam` mode and `final-1` … `final-4`):
+
+| Part | Format | Points | Source |
 |---|---|---|---|
-| 1 Wine label | questions about a label | 5 | `labels` |
-| 2 Aromas + Introduction | true / false | 10 | `intro-aromas` |
-| 3 French wine | match region ↔ grape | 5 | `france` |
-| 4 Italian wine | match designation ↔ region | 5 | `italy` |
+| 1 Wine & food pairing | complete the wine or food polygon | 5 | `pairing` generator (internal/quiz/pairing.go) + `pairing` topic |
+| 2 True / false | true / false on the sessions after the midterm | 10 | `servicing`, `beer`, `deli` |
+| 3 Grape ↔ country | one five-pair match | 5 | `countries`, tag `grape-country` |
+| 4 Designation ↔ country or grape | one five-pair match | 5 | `countries`, tag `designation-country` |
+
+**Midterm** (done): label, aromas/intro true/false, France match, Italy match.
 
 ## Topic ids
 
 | id | prefix | source |
 |---|---|---|
-| `exam-core` | `core` | all four parts |
+| `final-core` | `fin` | all final parts |
+| `pairing` | `par` | Analysis 33-64, pairing sheet |
+| `servicing` | `srv` | Servicing deck |
+| `beer` | `bds` | Beer deck |
+| `deli` | `del` | Deli deck |
+| `countries` | `cty` | Europe, New World, France, Italy — only grapes tied to ONE country |
+| `europe` | `eur` | Europe deck |
+| `newworld` | `nwo` | New World deck |
+| `exam-core` | `core` | midterm, all four parts |
 | `labels` | `lab` | Intro 51-55, France 18-19/36, Italy 16-18 |
 | `intro-aromas` | `aro` | Intro deck; Analysis (Week 2) 4-33 |
 | `france` | `fra` | France deck |
 | `italy` | `ita` | Italy deck |
 
-Decks are cited as `Intro`, `Analysis`, `France`, `Italy` (slide = PDF page), the names in
-`../materials.json`.
+Decks are cited as `Intro`, `Analysis`, `France`, `Italy`, `Europe`, `New World`,
+`Servicing`, `Beer`, `Deli` (slide = PDF page), the names in `../materials.json`.
 
 ## Match questions (`type: "match"`)
 

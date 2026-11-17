@@ -1,0 +1,1411 @@
+[
+  {
+    "id": "del-001",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Egg white begins to cook at 60-64°C and the yolk at 65-70°C.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "So sauces with egg white cook faster than those with whole egg.",
+    "source": {
+      "deck": "Deli",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "egg"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-002",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "A hard-fried egg is considered the easiest to digest.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The soft-boiled egg is easiest to digest.",
+    "source": {
+      "deck": "Deli",
+      "slide": 5
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "egg"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-003",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "A goose egg is about twice the size of a hen egg, with an oily shell.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A goose egg is three times larger.",
+    "source": {
+      "deck": "Deli",
+      "slide": 4
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "egg"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-004",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "An omelette is folded in half while the inside is still creamy, whereas a frittata is cooked on both sides.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Poached: 3 minutes in water and vinegar. Soft-boiled: 4-6 minutes from cold water.",
+    "source": {
+      "deck": "Deli",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "egg"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-005",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Eggs with mushrooms need a wine with persistence and quality aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Mushrooms add aroma; cheese adds flavour, needing a soft wine.",
+    "source": {
+      "deck": "Deli",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "egg",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-006",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Boiled eggs pair with sweet, aged white wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Boiled eggs suit dry, young, fresh whites; the wine need not be complex unless there is sauce or spice.",
+    "source": {
+      "deck": "Deli",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "egg",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-007",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Olives contain about 20-25% oil and 50% water.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Plus a little sugar and about 2% other substances such as polyphenols and vitamin E.",
+    "source": {
+      "deck": "Deli",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "oil"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-008",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Extra virgin olive oil is mainly triglycerides of monounsaturated oleic acid.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It helps the liver and bile flow and controls cholesterol.",
+    "source": {
+      "deck": "Deli",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "oil"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-009",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Palm oil has a low smoke point, so it is poor for frying.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Palm oil has a high smoke point, which makes it good for frying.",
+    "source": {
+      "deck": "Deli",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "oil"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-010",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Butter is about 80% fat and starts to melt at 28-35°C.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "100 g gives 750 kcal and 250 mg cholesterol. Salted butter has 3-5% salt.",
+    "source": {
+      "deck": "Deli",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "butter"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-011",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Margarine is made by hydrogenation, which at too high a temperature produces trans fatty acids.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Hydrogen into vegetable oil at 160-180°C with a nickel or platinum catalyst. It melts at 40°C.",
+    "source": {
+      "deck": "Deli",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "butter"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-012",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "A French person eats on average 19 kg of butter a year.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "About 9 kg, and falling for health reasons.",
+    "source": {
+      "deck": "Deli",
+      "slide": 13
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "butter"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-013",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Grape vinegar needs over 6% acid and under 1.5% alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Acetobacter turns ethanol into acetic acid.",
+    "source": {
+      "deck": "Deli",
+      "slide": 17
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "vinegar"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-014",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Balsamic is aged in a Solera of small barrels for at least 12 years.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "White grape juice is cooked at 70-80°C first to partly caramelise the sugar.",
+    "source": {
+      "deck": "Deli",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vinegar"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-015",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Which two Italian cities are famous for balsamic vinegar?",
+    "choices": [
+      "Parma and Bologna",
+      "Modena and Verona",
+      "Siena and Reggio Emilia",
+      "Modena and Reggio Emilia"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Balsamic dishes need a soft, full-bodied, intense, persistent wine.",
+    "source": {
+      "deck": "Deli",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "vinegar"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-016",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Leek gives the most tender, rounded flavour of the onion family and is used in thick soups.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Shallots are more delicate than onions; garlic is pungent.",
+    "source": {
+      "deck": "Deli",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "herbs"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-017",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Basil is used mainly on grilled dishes and to mask the strong smell of game.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "That is rosemary. Basil is the Mediterranean leaf herb, aromatic when young.",
+    "source": {
+      "deck": "Deli",
+      "slide": 21
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "herbs"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-018",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Juniper is used to remove the gamey smell of wild meat such as venison and wild rabbit.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Saffron gives yellow colour and a sweet scent.",
+    "source": {
+      "deck": "Deli",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "spices"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-019",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Nutmeg and clove come from Sri Lanka.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Nutmeg and clove come from the Moluccas in Indonesia; cinnamon comes from Sri Lanka.",
+    "source": {
+      "deck": "Deli",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spices"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-020",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Paprika is made by blending two types of chili pepper and is used a lot in Eastern Europe.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Black pepper is pungent; pink pepper more aromatic.",
+    "source": {
+      "deck": "Deli",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spices"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-021",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Star anise comes from Japan and Korea.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Star anise comes from China and Vietnam.",
+    "source": {
+      "deck": "Deli",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "spices"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-022",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Dry pasta is made from durum wheat and water; fresh pasta adds hen eggs.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fresh pasta must be refrigerated and does not keep.",
+    "source": {
+      "deck": "Deli",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "pasta"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-023",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Pizza was born in Rome in 1830.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Pizza was born in Naples (Napoli) in 1830.",
+    "source": {
+      "deck": "Deli",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "pasta"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-024",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Which rice varieties are best for risotto?",
+    "choices": [
+      "Carnaroli and Arborio",
+      "Jasmine and Basmati",
+      "Arborio and Basmati",
+      "Black rice and Carnaroli"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "They have the right starch for a creamy texture. Jasmine and Basmati are long-grain.",
+    "source": {
+      "deck": "Deli",
+      "slide": 28
+    },
+    "difficulty": 1,
+    "tags": [
+      "rice"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-025",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Seafood added to pasta or rice increases its sweet tendency, so a fresh white balances it.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Spiced rice and curry need a wine with high aromatic stability.",
+    "source": {
+      "deck": "Deli",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "pasta",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-026",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Tomato-sauce pasta with basil can pair with a medium-bodied, fresh white or a rosé.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Pasta with butter and parmesan suits a moderately soft, fresh, not heavy white.",
+    "source": {
+      "deck": "Deli",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "pasta",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-027",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Asparagus is the vegetable with a sour tendency.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Tomato has the sour tendency; asparagus has sweet and bitter tendencies.",
+    "source": {
+      "deck": "Deli",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vegetable"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-028",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Bitter vegetables need a wine with high tannin.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bitter vegetables need a very smooth (soft) wine, red or white depending on the dish.",
+    "source": {
+      "deck": "Deli",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vegetable",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-029",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Baked potatoes with rosemary can pair with a fragrant white such as Riesling.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "They have persistence and sweet tendency.",
+    "source": {
+      "deck": "Deli",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vegetable",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-030",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Black truffles have a sweeter aroma and a higher price than white truffles.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "White truffles are sweeter-smelling and more expensive.",
+    "source": {
+      "deck": "Deli",
+      "slide": 34
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "truffle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-031",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Beans contain 30-50% starch, which gives them a sweet tendency.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fresh beans such as winged beans also have a bitter tendency.",
+    "source": {
+      "deck": "Deli",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "vegetable"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-032",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Which group does game belong to in the meat colour system?",
+    "choices": [
+      "Red meat",
+      "Black meat",
+      "White meat",
+      "Dark meat"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "White: veal, rabbit, lamb, goat, chicken, turkey. Red: beef, pork, goat, horse, buffalo. Black: game.",
+    "source": {
+      "deck": "Deli",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "meat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-033",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Veal and lamb are classed as red meat.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Both are white meat; red meat includes beef, pork, horse and buffalo.",
+    "source": {
+      "deck": "Deli",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "meat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-034",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Meat colour comes mainly from myoglobin, a muscle pigment rich in iron.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is also found in blood.",
+    "source": {
+      "deck": "Deli",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "meat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-035",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Only female pheasant is usually eaten, as it is more fragrant.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Stewed or grilled.",
+    "source": {
+      "deck": "Deli",
+      "slide": 37
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "meat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-036",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Foie gras on bread pairs with sweet wines such as Sauternes or Barsac.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Also Muffa Nobile. Foie gras has sweet tendency, tenderness and some bitterness.",
+    "source": {
+      "deck": "Deli",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "meat",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-037",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Grilled meat with charred skin calls for a soft wine with some tannin to balance its juiciness.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fried meat calls for a fresh wine with moderate tannin.",
+    "source": {
+      "deck": "Deli",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "meat",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-038",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Game is paired with light, low-intensity red wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Game is complex and heavily seasoned: it needs a red with very high body, intensity and long aroma.",
+    "source": {
+      "deck": "Deli",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "meat",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-039",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Which cured meat is made from pork cheek?",
+    "choices": [
+      "Pancetta",
+      "Bresaola",
+      "Guanciale",
+      "Prosciutto"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Pancetta: pork belly. Bresaola: beef. Prosciutto: pork leg. Mortadella and Würstel are cooked.",
+    "source": {
+      "deck": "Deli",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "meat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-040",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Bresaola is cured pork belly.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bresaola is cured beef; pork belly is Pancetta.",
+    "source": {
+      "deck": "Deli",
+      "slide": 42
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "meat"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-041",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Fatty cured meats can pair with sparkling wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The bubbles cleanse the palate. Salty cured meats need a soft wine and no bitter wines.",
+    "source": {
+      "deck": "Deli",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "meat",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-042",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Smoked cured meat pairs best with a big, full-bodied red.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Smoked meat takes a soft red with moderate tannin; a big body should be avoided.",
+    "source": {
+      "deck": "Deli",
+      "slide": 43
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "meat",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-043",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "High-fat fish has more than 10% fat; low-fat fish less than 3%.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Fillets are 18-20% protein.",
+    "source": {
+      "deck": "Deli",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "seafood"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-044",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Crustaceans are low in fat but very high in cholesterol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "0.5-2% fat, 80-150 mg cholesterol per 100 g.",
+    "source": {
+      "deck": "Deli",
+      "slide": 46
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "seafood"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-045",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Which fish does caviar come from?",
+    "choices": [
+      "Salmon",
+      "Cod",
+      "Tuna",
+      "Sturgeon"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Sturgeon; Beluga, Ship, Osetra and Sevruga give differently flavoured caviar. In Russia it is paired with vodka.",
+    "source": {
+      "deck": "Deli",
+      "slide": 48
+    },
+    "difficulty": 1,
+    "tags": [
+      "seafood"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-046",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Belon and Marennes are famous oysters from France's Atlantic coast.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Brittany and Normandy. Oysters are rich in zinc.",
+    "source": {
+      "deck": "Deli",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "seafood"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-047",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Oysters pair with a tannic red wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Oysters, with salt, oiliness and aroma, pair with a soft sparkling wine.",
+    "source": {
+      "deck": "Deli",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "seafood",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-048",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Eel is easy to pair and suits a light still white.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Eel, salty and oily, is hard to pair but can go with a sparkling red.",
+    "source": {
+      "deck": "Deli",
+      "slide": 49
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "seafood",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-049",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Fried seafood pairs with a white of high body and high alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Steamed or boiled seafood is neutral and takes a fresh, flavourful white.",
+    "source": {
+      "deck": "Deli",
+      "slide": 49
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "seafood",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-050",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Pectin is the enzyme used to curdle milk for cheese.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Rennet (gastric enzyme) curdles the milk.",
+    "source": {
+      "deck": "Deli",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "cheese"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-051",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Buffalo's milk tends to give cheese a sour taste.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Goat's milk tends to give a sour taste.",
+    "source": {
+      "deck": "Deli",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "cheese"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-052",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Which cheese is a blue (internal mould) cheese?",
+    "choices": [
+      "Gorgonzola",
+      "Camembert",
+      "Emmental",
+      "Provolone"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Internal mould: Roquefort, Gorgonzola, Stilton, Danablu. Camembert and Brie: surface mould. Emmental: Swiss-type with eyes. Provolone: pasta filata.",
+    "source": {
+      "deck": "Deli",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "cheese"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-053",
+    "topic": "deli",
+    "type": "mcq",
+    "stem": "Mozzarella belongs to which cheese family?",
+    "choices": [
+      "Surface mould",
+      "Pasta filata",
+      "Extra-hard",
+      "Acid-coagulated"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "With Provolone and Kashkaval.",
+    "source": {
+      "deck": "Deli",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "cheese"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-054",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Brie and Camembert pair best with soft white wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Soft, short-aged cheese also suits soft Chardonnay or Sauvignon Blanc.",
+    "source": {
+      "deck": "Deli",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "cheese",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-055",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Blue cheeses such as Gorgonzola, Roquefort and Stilton suit very full-bodied reds or soft sweet wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Their salinity needs softness or sweetness to balance it.",
+    "source": {
+      "deck": "Deli",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "cheese",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-056",
+    "topic": "deli",
+    "type": "tf",
+    "stem": "Parmigiano Reggiano and Pecorino Romano pair with a young, fresh white.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Hard, intense cheeses take a bottle-aged, evolved red with body, or a smooth sparkling wine.",
+    "source": {
+      "deck": "Deli",
+      "slide": 53
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "cheese",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "del-057",
+    "topic": "deli",
+    "type": "match",
+    "stem": "Match each cheese to its family.",
+    "choices": [
+      "Acid-coagulated",
+      "Extra-hard",
+      "High salt",
+      "Internal mould",
+      "Pasta filata",
+      "Surface mould",
+      "Surface-ripened",
+      "Swiss-type (eyes)"
+    ],
+    "answer": [
+      3,
+      5,
+      7,
+      2,
+      1
+    ],
+    "explanation": "Roquefort: internal mould. Brie: surface mould. Emmental: eyes from lactate metabolism. Feta: high salt. Parmesan: extra-hard.",
+    "source": {
+      "deck": "Deli",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "cheese"
+    ],
+    "examFocus": true,
+    "items": [
+      "Roquefort",
+      "Brie",
+      "Emmental",
+      "Feta",
+      "Parmesan"
+    ]
+  }
+]

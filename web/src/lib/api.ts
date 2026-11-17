@@ -17,6 +17,8 @@ export type Question = {
   difficulty: number
   examFocus: boolean
   data?: unknown
+  /** The exam part a mock paper drew this question for. */
+  part?: string
 }
 
 export type Topic = {

@@ -3,162 +3,239 @@
   "title": "Wine Education",
   "code": "2000064",
   "shortName": "Wine Education",
-  "exam": "2026-10-06T09:00:00+07:00",
-  "generators": [],
+  "exam": "2026-11-24T09:00:00+07:00",
+  "generators": [
+    "pairing"
+  ],
   "topics": [
     {
+      "id": "final-core",
+      "title": "Final Core: The Paper in One Page",
+      "weight": 0
+    },
+    {
+      "id": "pairing",
+      "title": "Food & Wine Pairing Chart",
+      "weight": 5
+    },
+    {
+      "id": "servicing",
+      "title": "Wine Servicing",
+      "weight": 4
+    },
+    {
+      "id": "beer",
+      "title": "Beers & Distillates",
+      "weight": 3
+    },
+    {
+      "id": "deli",
+      "title": "Delicatessen",
+      "weight": 3
+    },
+    {
+      "id": "countries",
+      "title": "Grapes & Designations by Country",
+      "weight": 5
+    },
+    {
+      "id": "europe",
+      "title": "Wine Producer: Europe & Eurasia",
+      "weight": 3
+    },
+    {
+      "id": "newworld",
+      "title": "Wine Producer: New World",
+      "weight": 3
+    },
+    {
       "id": "exam-core",
-      "title": "Exam Core: The Paper in One Page",
+      "title": "Midterm Core: The Paper in One Page",
       "weight": 0
     },
     {
       "id": "labels",
       "title": "Reading a Wine Label",
-      "weight": 5
+      "weight": 1
     },
     {
       "id": "intro-aromas",
       "title": "Introduction & Aromas of Wine",
-      "weight": 10
+      "weight": 1
     },
     {
       "id": "france",
       "title": "Wine Producer: France",
-      "weight": 5
+      "weight": 1
     },
     {
       "id": "italy",
       "title": "Wine Producer: Italy",
-      "weight": 5
+      "weight": 1
     }
   ],
   "modes": [
     {
       "id": "exam",
+      "title": "Final exam",
       "count": 17,
-      "timeLimitSec": 1800,
-      "blurb": "The real paper, part by part: a label, 10 true/false, a French match, an Italian match.",
-      "why": "Same order and shape as the midterm. Part 1 puts one label in front of you with five questions; Part 2 is ten true/false, half on aromas and half on the introduction; Parts 3 and 4 are one five-pair match each. Every run prefers what you have not mastered yet, so repeat it until the bank runs dry.",
-      "title": "Mock exam",
+      "timeLimitSec": 2700,
       "parts": [
         {
-          "title": "Part 1 · Wine label",
-          "case": true,
-          "count": 5
+          "title": "Final exam part 1: Wine & food pairing",
+          "count": 5,
+          "generator": "pairing"
         },
         {
-          "title": "Part 2 · Aromas",
-          "count": 5,
+          "title": "Final exam part 2: True or false",
+          "count": 10,
           "topics": [
-            "intro-aromas"
+            "servicing",
+            "beer",
+            "deli"
           ],
           "types": [
             "tf"
-          ],
-          "tags": [
-            "aromas",
-            "families",
-            "degustation",
-            "visual",
-            "colour",
-            "temperature"
           ]
         },
         {
-          "title": "Part 2 · Introduction",
-          "count": 5,
-          "topics": [
-            "intro-aromas"
-          ],
-          "types": [
-            "tf"
-          ],
-          "tags": [
-            "definitions",
-            "origin",
-            "vine",
-            "grape",
-            "ripening",
-            "terroir",
-            "types",
-            "vinification",
-            "sparkling",
-            "varietals"
-          ]
-        },
-        {
-          "title": "Part 3 · French wine",
+          "title": "Final exam part 3: Grape ↔ country",
           "count": 1,
           "topics": [
-            "france"
+            "countries"
           ],
           "types": [
             "match"
           ],
           "tags": [
-            "paper"
+            "grape-country"
           ]
         },
         {
-          "title": "Part 4 · Italian wine",
+          "title": "Final exam part 4: Designation ↔ country or grape",
           "count": 1,
           "topics": [
-            "italy"
+            "countries"
           ],
           "types": [
             "match"
           ],
           "tags": [
-            "paper"
+            "designation-country"
           ]
         }
-      ]
+      ],
+      "blurb": "The whole final paper, in order: pairing polygons, true/false, grape ↔ country, designation ↔ country.",
+      "why": "Same order and weight as the final: Part 1 (5 pts) completes food-and-wine polygons, Part 2 (10 pts) is ten true/false items on the sessions after the midterm, Parts 3 and 4 (5 pts each) are one five-pair match each. Each run prefers what you have not mastered yet."
     },
     {
-      "id": "exam-core",
-      "title": "Exam core",
+      "id": "final-1",
+      "title": "Final exam part 1: Wine & food pairing",
+      "count": 10,
+      "parts": [
+        {
+          "title": "Final exam part 1: Wine & food pairing",
+          "count": 10,
+          "generator": "pairing"
+        }
+      ],
+      "blurb": "A dish or a wine on the AIS pairing chart: complete the other polygon, or read the result.",
+      "why": "Freshly generated every time. Each wine axis faces the food it balances: acidity ↔ sweet tendency and fattiness, alcohol/tannin ↔ juiciness and oiliness, softness ↔ salt, bitter and sour, intensity ↔ persistence and spice."
+    },
+    {
+      "id": "final-2",
+      "title": "Final exam part 2: True or false",
+      "count": 20,
+      "parts": [
+        {
+          "title": "Final exam part 2: True or false",
+          "count": 20,
+          "topics": [
+            "servicing",
+            "beer",
+            "deli"
+          ],
+          "types": [
+            "tf"
+          ]
+        }
+      ],
+      "blurb": "Wine Servicing, Beers & Distillates and Delicatessen as true/false.",
+      "why": "A false statement is a true one with one fact swapped for its neighbour: left for right, aerobic for anaerobic, Normandy for Gascogne. Learn the pairs, not the gist."
+    },
+    {
+      "id": "final-3",
+      "title": "Final exam part 3: Grape ↔ country",
+      "count": 5,
+      "parts": [
+        {
+          "title": "Final exam part 3: Grape ↔ country",
+          "count": 5,
+          "topics": [
+            "countries"
+          ],
+          "types": [
+            "match"
+          ],
+          "tags": [
+            "grape-country"
+          ]
+        }
+      ],
+      "blurb": "Five grapes, a pool of countries with spares.",
+      "why": "Every pool has spare countries, so the last pair never falls out by elimination. Only grapes tied to one country on the slides are used."
+    },
+    {
+      "id": "final-4",
+      "title": "Final exam part 4: Designation ↔ country or grape",
+      "count": 5,
+      "parts": [
+        {
+          "title": "Final exam part 4: Designation ↔ country or grape",
+          "count": 5,
+          "topics": [
+            "countries"
+          ],
+          "types": [
+            "match"
+          ],
+          "tags": [
+            "designation-country"
+          ]
+        }
+      ],
+      "blurb": "Designations from Europe and the New World, matched to country or grape.",
+      "why": "Rioja, Tokaji and Marlborough sit beside Barolo and Chablis: the paper can draw on any producer deck."
+    },
+    {
+      "id": "final-core",
+      "title": "Final core",
       "count": 20,
       "topics": [
-        "exam-core"
+        "final-core",
+        "pairing",
+        "countries"
       ],
-      "blurb": "The highest-yield facts from all four parts.",
-      "why": "One pass over what decides each part: the label terms, the aroma stages, the French grapes and the Italian designations."
+      "blurb": "The highest-yield facts for the final, mixed.",
+      "why": "One pass over what decides each part of the final."
     },
     {
       "id": "true-false",
-      "title": "True or false",
+      "title": "True or false (all)",
       "count": 25,
       "types": [
         "tf"
       ],
-      "blurb": "Part 2 is all true/false. Drill the swapped facts.",
-      "why": "A false statement here is a true one with one fact swapped for its neighbour: malic for tartaric, primary for tertiary, Côte de Nuits for Côte de Beaune."
-    },
-    {
-      "id": "matching",
-      "title": "Matching",
-      "count": 10,
-      "types": [
-        "match"
-      ],
-      "blurb": "Region to grape, designation to region — like Parts 3 and 4.",
-      "why": "Every pool has spare answers and some answers repeat, so you cannot get the last pair by elimination. Know each pair cold."
-    },
-    {
-      "id": "labels",
-      "title": "Read the label",
-      "count": 12,
       "topics": [
-        "labels"
+        "servicing",
+        "beer",
+        "deli",
+        "pairing",
+        "europe",
+        "newworld"
       ],
-      "blurb": "A label in front of you: what is each part?",
-      "why": "Part 1. Designation vs producer vs vineyard vs commercial name, and Riserva vs Superiore vs Classico."
-    },
-    {
-      "id": "case",
-      "title": "Label cards",
-      "blurb": "One real-style label, five questions about it.",
-      "why": "Part 1 of the paper: read the label in front of you, then answer without guessing from the wording."
+      "blurb": "Every true/false item from the material since the midterm.",
+      "why": "Part 2 is worth double. Drill the swapped facts."
     }
   ]
 }

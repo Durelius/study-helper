@@ -1,0 +1,1408 @@
+[
+  {
+    "id": "nwo-001",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "What is the most cultivated grape in South Africa?",
+    "choices": [
+      "Chenin Blanc",
+      "Pinotage",
+      "Colombard",
+      "Sauvignon Blanc"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Chenin Blanc, historically used for distillates.",
+    "source": {
+      "deck": "New World",
+      "slide": 5
+    },
+    "difficulty": 1,
+    "tags": [
+      "south-africa",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-002",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Pinotage is a cross between which two grapes?",
+    "choices": [
+      "Pinot Noir and Shiraz",
+      "Pinot Noir and Cinsaut",
+      "Pinot Gris and Cinsaut",
+      "Pinot Noir and Grenache"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bred by Professor Abraham Perold in 1924; commercial from 1961.",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "south-africa",
+      "pinotage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-003",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Pinotage was created by Professor Abraham Perold in 1961.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Created in 1924; it became commercially interesting in 1961, 35 years later.",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "south-africa",
+      "pinotage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-004",
+    "topic": "newworld",
+    "type": "text",
+    "stem": "What is a South African blend that includes Pinotage called?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Cape Blend.",
+    "source": {
+      "deck": "New World",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "south-africa",
+      "pinotage"
+    ],
+    "examFocus": true,
+    "accept": [
+      "cape blend"
+    ]
+  },
+  {
+    "id": "nwo-005",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "What is South African Traditional Method sparkling wine called?",
+    "choices": [
+      "Cap Crémant",
+      "Cape Sekt",
+      "Méthode Cap Classique",
+      "Méthode Stellenbosch"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "MCC — made the same way as Champagne.",
+    "source": {
+      "deck": "New World",
+      "slide": 5
+    },
+    "difficulty": 1,
+    "tags": [
+      "south-africa",
+      "sparkling"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-006",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "What is the South African designation on wine labels?",
+    "choices": [
+      "American Viticultural Area",
+      "Geographic Indication",
+      "Denominación de Origen",
+      "Wine of Origin (WO)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "WO uses Region, District and Ward (wards are divided by terroir). AVA is American, GI Australian.",
+    "source": {
+      "deck": "New World",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "south-africa",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-007",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Stellenbosch is moderated by False Bay, which regulates temperature and reduces disease.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is South Africa's key region, with research institutes in viticulture.",
+    "source": {
+      "deck": "New World",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "south-africa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-008",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Klein Karoo is known for Port-style wines, its terroir being compared to Portugal's Douro.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A hot inland region in the south.",
+    "source": {
+      "deck": "New World",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "south-africa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-009",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Constantia Ward makes botrytis sweet wine from Chardonnay.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Constantia's botrytis sweet wines are made from Sauvignon Blanc.",
+    "source": {
+      "deck": "New World",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "south-africa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-010",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which South African district makes Rhône-style reds?",
+    "choices": [
+      "Swartland",
+      "Darling",
+      "Walker Bay",
+      "Elgin"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Swartland has a long summer. Darling: Sauvignon Blanc. Walker Bay: Burgundy-style Chardonnay and Pinot Noir.",
+    "source": {
+      "deck": "New World",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "south-africa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-011",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "The KWV, set up in 1957, controlled vineyard quotas until it abandoned the old rules in 1997.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "South Africa is now one of the top 10 producers.",
+    "source": {
+      "deck": "New World",
+      "slide": 4
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "south-africa",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-012",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Who built the winery in Napa Valley in 1966 that led California's revival?",
+    "choices": [
+      "Baron Rothschild",
+      "Robert Mondavi",
+      "Simon van der Stel",
+      "James Busby"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Robert Mondavi.",
+    "source": {
+      "deck": "New World",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "usa",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-013",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "American wine regions are defined as American Viticultural Areas (AVAs), which zone by region.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "AVA is zoning by region only.",
+    "source": {
+      "deck": "New World",
+      "slide": 13
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "usa",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-014",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which grape is genetically the same as Italy's Primitivo?",
+    "choices": [
+      "Petite Sirah",
+      "Barbera",
+      "Zinfandel",
+      "Carignan"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Zinfandel comes from Croatia and Puglia; Italian immigrants planted it in Northern California.",
+    "source": {
+      "deck": "New World",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "usa",
+      "zinfandel"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-015",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "White Zinfandel, or blush wine, is a dry white wine created in California.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "White Zinfandel is a sweet pink wine.",
+    "source": {
+      "deck": "New World",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "usa",
+      "zinfandel"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-016",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "What is the most widely grown red grape in California?",
+    "choices": [
+      "Zinfandel",
+      "Merlot",
+      "Pinot Noir",
+      "Cabernet Sauvignon"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Cabernet Sauvignon, then Zinfandel and Merlot. Chardonnay is the most grown white.",
+    "source": {
+      "deck": "New World",
+      "slide": 14
+    },
+    "difficulty": 1,
+    "tags": [
+      "usa",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-017",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Willamette Valley in Oregon is known for Zinfandel.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Willamette Valley is a Pinot Noir region.",
+    "source": {
+      "deck": "New World",
+      "slide": 21
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "usa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-018",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Carneros is the Napa AVA cooled by Pacific breezes, growing Chardonnay and Pinot Noir.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Most other Napa AVAs (Rutherford, Oakville, Stags Leap…) are Cabernet Sauvignon.",
+    "source": {
+      "deck": "New World",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "usa",
+      "ava"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-019",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Russian River Valley is a warm Sonoma AVA growing Cabernet Sauvignon.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Russian River Valley is cool and foggy: Pinot Noir and Chardonnay. Alexander Valley is the hot Cabernet one.",
+    "source": {
+      "deck": "New World",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "usa",
+      "ava"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-020",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which Washington State area is known for high-quality Riesling and Merlot more intense than Bordeaux?",
+    "choices": [
+      "Columbia Valley",
+      "Willamette Valley",
+      "Finger Lakes",
+      "Walla Walla"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Columbia Valley. Willamette is Oregon; Finger Lakes is New York.",
+    "source": {
+      "deck": "New World",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "usa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-021",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "In the Finger Lakes, the lakes moderate the difference between summer and winter temperatures.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Riesling, Gewürztraminer, Merlot and Cabernet Sauvignon grow there.",
+    "source": {
+      "deck": "New World",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "usa",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-022",
+    "topic": "newworld",
+    "type": "match",
+    "stem": "Match each American AVA to its main grape.",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Chardonnay",
+      "Merlot",
+      "Pinot Noir",
+      "Riesling",
+      "Sauvignon Blanc",
+      "Shiraz"
+    ],
+    "answer": [
+      0,
+      3,
+      6,
+      1
+    ],
+    "explanation": "Rutherford (Napa): Cabernet. Santa Rita Hills: Pinot Noir. McDowell Valley (Mendocino): Shiraz. Edna Valley: Chardonnay.",
+    "source": {
+      "deck": "New World",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "match",
+      "usa",
+      "ava"
+    ],
+    "examFocus": true,
+    "items": [
+      "Rutherford",
+      "Santa Rita Hills",
+      "McDowell Valley",
+      "Edna Valley"
+    ]
+  },
+  {
+    "id": "nwo-023",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which grape is Chile's signature red, rediscovered in 1994?",
+    "choices": [
+      "Malbec",
+      "Carménère",
+      "País",
+      "Tannat"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Carménère was the Grand Vidure of Bordeaux, wiped out there by phylloxera but surviving in Chile.",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "chile",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-024",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Chile was spared phylloxera thanks to the Andes, the Atacama Desert and the Pacific monsoon.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The barriers are the Andes, the Atacama Desert and the south pole (cold south).",
+    "source": {
+      "deck": "New World",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "chile",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-025",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Cabernet Sauvignon is the most widely grown red grape in Chile.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Carménère is the signature, but Cabernet is the most planted.",
+    "source": {
+      "deck": "New World",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "chile",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-026",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which is Chile's coolest wine region?",
+    "choices": [
+      "Maipo Valley",
+      "Colchagua Valley",
+      "Casablanca Valley",
+      "Aconcagua Valley"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Casablanca: Chardonnay, Sauvignon Blanc, Pinot Noir.",
+    "source": {
+      "deck": "New World",
+      "slide": 27
+    },
+    "difficulty": 1,
+    "tags": [
+      "chile",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-027",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which valley is the centre of the Chilean wine industry, known for Cabernet Sauvignon with blackcurrant and eucalyptus?",
+    "choices": [
+      "Bío-Bío Valley",
+      "Limarí Valley",
+      "Itata Valley",
+      "Maipo Valley"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Maipo, in the Andes foothills at 400-1,000 m.",
+    "source": {
+      "deck": "New World",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "chile",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-028",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Leyda in the San Antonio Valley is cooled by the Humboldt current.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It grows Chardonnay and Pinot Noir.",
+    "source": {
+      "deck": "New World",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "chile",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-029",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which grape made Argentina famous?",
+    "choices": [
+      "Malbec",
+      "Torrontés",
+      "Bonarda",
+      "Carménère"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Planted by the French in the early 20th century; it does better than in France thanks to more southern-hemisphere sun.",
+    "source": {
+      "deck": "New World",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "argentina",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-030",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which Argentinian white grape is believed to come from Galicia in Spain?",
+    "choices": [
+      "Pedro Giménez",
+      "Torrontés",
+      "Moscatel",
+      "Sémillon"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Torrontés; Salta makes 90% of its production from it.",
+    "source": {
+      "deck": "New World",
+      "slide": 32
+    },
+    "difficulty": 1,
+    "tags": [
+      "argentina",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-031",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Salta produces about 70% of Argentina's wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Mendoza produces about 70%; Salta is the high-altitude Torrontés region.",
+    "source": {
+      "deck": "New World",
+      "slide": 31
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "argentina",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-032",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Salta's vineyards reach 2,200 m, and 90% of its production is Malbec.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Salta's production is 90% Torrontés.",
+    "source": {
+      "deck": "New World",
+      "slide": 34
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "argentina",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-033",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which Mendoza area is newly developed in the Andes foothills at 900-1,500 m?",
+    "choices": [
+      "East Mendoza",
+      "North Mendoza",
+      "Uco Valley",
+      "Río Negro"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Uco Valley; Upper Mendoza River at 1,000 m makes aromatic, high-acid Malbec.",
+    "source": {
+      "deck": "New World",
+      "slide": 33
+    },
+    "difficulty": 3,
+    "tags": [
+      "argentina",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-034",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which grape is most planted in Australia?",
+    "choices": [
+      "Cabernet Sauvignon",
+      "Chardonnay",
+      "Grenache",
+      "Shiraz"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Shiraz, mainly in the Barossa Valley and McLaren Vale. Cabernet is second.",
+    "source": {
+      "deck": "New World",
+      "slide": 39
+    },
+    "difficulty": 1,
+    "tags": [
+      "australia",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-035",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Coonawarra is famous for Bordeaux-style Cabernet Sauvignon grown on terra rossa.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Terra rossa is its red soil.",
+    "source": {
+      "deck": "New World",
+      "slide": 41
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "australia",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-036",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which Australian region makes Sémillon that can age 15-20 years in bottle?",
+    "choices": [
+      "Hunter Valley",
+      "Clare Valley",
+      "Barossa Valley",
+      "Margaret River"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Hunter Valley, New South Wales.",
+    "source": {
+      "deck": "New World",
+      "slide": 42
+    },
+    "difficulty": 1,
+    "tags": [
+      "australia",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-037",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Sémillon is the speciality of the Clare and Eden Valleys.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Clare and Eden Valleys: Riesling. Sémillon belongs to the Hunter Valley.",
+    "source": {
+      "deck": "New World",
+      "slide": 39
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "australia",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-038",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Australia's regions are classified as Geographic Indications (GI), introduced in 1994.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "South-East Australia / State / Zone / Region.",
+    "source": {
+      "deck": "New World",
+      "slide": 38
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "australia",
+      "classification"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-039",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Tasmania is Australia's warmest wine region.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Tasmania is the coldest and most sea-influenced.",
+    "source": {
+      "deck": "New World",
+      "slide": 43
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "australia",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-040",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which Western Australian region is compared to Bordeaux's Right Bank?",
+    "choices": [
+      "Swan District",
+      "Margaret River",
+      "Great Southern",
+      "Pemberton"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Margaret River, warm and sunny with ocean winds.",
+    "source": {
+      "deck": "New World",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "australia",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-041",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Phylloxera hit Victoria in 1875 while South Australia stayed unaffected.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Geelong is named as where phylloxera started.",
+    "source": {
+      "deck": "New World",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "australia",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-042",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "What share of New Zealand's plantings is Sauvignon Blanc?",
+    "choices": [
+      "24%",
+      "62%",
+      "42%",
+      "12%"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Sauvignon Blanc overtook Chardonnay, once the most planted.",
+    "source": {
+      "deck": "New World",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "new-zealand",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-043",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which New Zealand region holds more than half of its producers and made Sauvignon Blanc famous through Cloudy Bay?",
+    "choices": [
+      "Hawke's Bay",
+      "Central Otago",
+      "Gisborne",
+      "Marlborough"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Marlborough began production in 1973.",
+    "source": {
+      "deck": "New World",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "new-zealand",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-044",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Central Otago is a cold region whose delicate, expensive Pinot Noir is hard to make.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Only Pinot Noir, Chardonnay and Riesling grow there.",
+    "source": {
+      "deck": "New World",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "new-zealand",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-045",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Hawke's Bay is a cool region specialising in Pinot Noir.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Hawke's Bay is warm and makes Bordeaux blends from Cabernet Sauvignon and Merlot. Wellington & Wairarapa is the Pinot Noir area.",
+    "source": {
+      "deck": "New World",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "new-zealand",
+      "region"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-046",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which grape is Uruguay's most cultivated, known locally as Harriague?",
+    "choices": [
+      "Tannat",
+      "Malbec",
+      "Carménère",
+      "Bonarda"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Tannat comes from south-west France and gives dark, blackberry-flavoured wine.",
+    "source": {
+      "deck": "New World",
+      "slide": 60
+    },
+    "difficulty": 1,
+    "tags": [
+      "others",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-047",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Canadian icewine is made from Vidal and Riesling harvested at about -18°C.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Harvested at about -8°C.",
+    "source": {
+      "deck": "New World",
+      "slide": 57
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "others",
+      "canada"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-048",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Georgia's main red grape, giving dark wine with berry aromas, is:",
+    "choices": [
+      "Rkatsiteli",
+      "Saperavi",
+      "Vranac",
+      "Prokupac"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Saperavi. Rkatsiteli and Mtsvane are whites. Vranac is Montenegrin/Macedonian; Prokupac is Serbian.",
+    "source": {
+      "deck": "New World",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "others",
+      "grape"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-049",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Moldova claims to be the birthplace of viticulture, over 7,000 years ago.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Georgia makes the 7,000-year claim; Moldova has grown grapes for over 3,000 years.",
+    "source": {
+      "deck": "New World",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "others",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-050",
+    "topic": "newworld",
+    "type": "text",
+    "stem": "What is the distilled grape spirit Peru is known for?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Pisco; Peru's warm climate allows two crops a year.",
+    "source": {
+      "deck": "New World",
+      "slide": 61
+    },
+    "difficulty": 1,
+    "tags": [
+      "others"
+    ],
+    "examFocus": true,
+    "accept": [
+      "pisco"
+    ]
+  },
+  {
+    "id": "nwo-051",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which company did Zhang Bishi found in Shandong in 1892?",
+    "choices": [
+      "Great Wall",
+      "Dynasty",
+      "Changyu",
+      "Grace"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Changyu Wine Company.",
+    "source": {
+      "deck": "New World",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "others",
+      "china"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-052",
+    "topic": "newworld",
+    "type": "mcq",
+    "stem": "Which grape was traditionally used for wine in Japan?",
+    "choices": [
+      "Kerner",
+      "Yamasachi",
+      "Niagara",
+      "Koshu"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Koshu. Hokkaido, Japan's most famous region, uses Kerner and Niagara (white) and Yamasachi, Merlot, Zweigelt (red).",
+    "source": {
+      "deck": "New World",
+      "slide": 64
+    },
+    "difficulty": 2,
+    "tags": [
+      "others",
+      "japan"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-053",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Luxembourg's vineyards lie on the Mosel and make mostly dry whites from Rivaner (Müller-Thurgau).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Also Elbling, Pinot Blanc and Pinot Gris.",
+    "source": {
+      "deck": "New World",
+      "slide": 52
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "others",
+      "europe"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-054",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Mexico's main wine region is Baja California, best known for the Guadalupe Valley.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Reds from Cabernet Sauvignon, Merlot and Nebbiolo.",
+    "source": {
+      "deck": "New World",
+      "slide": 58
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "others",
+      "mexico"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "nwo-055",
+    "topic": "newworld",
+    "type": "tf",
+    "stem": "Algeria's reds come from Alicante Bouschet, Cinsaut and Grenache planted under French rule.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "French rule ran 1830-1962.",
+    "source": {
+      "deck": "New World",
+      "slide": 69
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "others",
+      "africa"
+    ],
+    "examFocus": true
+  }
+]

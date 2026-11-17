@@ -1,0 +1,972 @@
+[
+  {
+    "id": "par-001",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "In wine balance, sweetness, pseudo-warm sensation and roundness are on the softness side.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Hardness: acidity, tannicity, saltiness.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "balance"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-002",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "In wine balance, tannicity is on the softness side.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Tannicity is hardness, with acidity and saltiness.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "balance"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-003",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "A non-sweet white wine has no tannicity on its hardness side, since there is no tannin from the skins.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Its hardness is acidity and saltiness.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 42
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "balance"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-004",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "Which food component is the sensation of solid fat, as in cheese?",
+    "choices": [
+      "Oiliness",
+      "Succulence",
+      "Fattiness",
+      "Sweet tendency"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Oiliness is liquid fat (olive oil); succulence is juice in the mouth (a rare steak).",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "food"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-005",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "Which food component is the sensation of liquid fat, as in olive oil?",
+    "choices": [
+      "Fattiness",
+      "Succulence",
+      "Aromaticity",
+      "Oiliness"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Fattiness is solid fat, as in cheese.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "food"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-006",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Sweet tendency describes savoury dishes whose ingredients, such as egg, rice, pumpkin or seafood, are naturally sweetish.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Sweetness is reserved for sugar itself, in desserts.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "food"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-007",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Succulence is the juicy sensation of a semi-cooked steak.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It makes a lot of saliva.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "food"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-008",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Bitter and sour are scored as tendencies because in most food they are not very strong.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Saltiness, from sodium chloride, is on the hardness side.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "food"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-009",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Food sweetness is used for savoury dishes, and sweet tendency for desserts.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is the other way round: sweetness is for desserts (sugar), sweet tendency for savoury dishes.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "food"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-010",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Saltiness, bitter and sour tendency in food are balanced by softness in the wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Opposite pairing: softness from polyalcohol.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-011",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "For spicy Thai food, choose a wine with a high polyalcohol content.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The softness of the wine eases the spiciness.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-012",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Oily food is balanced by the acidity of the wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Oily food is balanced by tannicity, or a high enough alcohol content if a red does not suit the dish.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-013",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Succulent food needs enough acidity to slow the salivary glands.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Succulence needs tannicity or alcohol; acidity would make even more saliva.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-014",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Food with sweet tendency is balanced by a wine with adequate acidity.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Opposite pairing.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-015",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Solid fattiness is balanced by tannicity, which dries the tongue.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Fattiness needs acidity (more saliva) or effervescence (CO2 cleans the tongue).",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-016",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "A dessert is paired with a dry wine to contrast its sweetness.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Parallel pairing: a dessert takes a wine with the same level of sweetness.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 57
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-017",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Aromatic or spiced food is paired with a neutral wine so the food's aromas stand out.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Parallel pairing: aromatic or spiced food needs a wine with strong aroma, so the aromas last longer.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 57
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-018",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "Which pairing principle applies to a dessert and a sweet wine?",
+    "choices": [
+      "Parallel pairing",
+      "Opposite pairing",
+      "Regional pairing",
+      "Contrast pairing"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Parallel: same sweetness level. Aromatic/spicy food with aromatic wine is parallel too.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 57
+    },
+    "difficulty": 1,
+    "tags": [
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-019",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "A dish is rich in solid fat (cheese). Which wine component balances it?",
+    "choices": [
+      "Tannicity",
+      "Acidity or effervescence",
+      "Sweetness",
+      "Roundness"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Acidity brings saliva; CO2 cleans the tongue.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-020",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "A semi-cooked steak is very succulent. Which wine component balances it?",
+    "choices": [
+      "Acidity",
+      "Effervescence",
+      "Tannicity or alcohol",
+      "Sweetness"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "They slow the salivary glands.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-021",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "A dish is salty, with a bitter tendency. Which wine quality balances it?",
+    "choices": [
+      "Tannicity",
+      "Acidity",
+      "Effervescence",
+      "Softness"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Hardness in food is balanced by softness (polyalcohol) in the wine.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "principle"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-022",
+    "topic": "pairing",
+    "type": "match",
+    "stem": "Match each food component to the wine component that balances it.",
+    "choices": [
+      "Acidity",
+      "Bitterness",
+      "Colour",
+      "Effervescence",
+      "Softness",
+      "Sweetness",
+      "Tannicity or alcohol"
+    ],
+    "answer": [
+      0,
+      6,
+      4,
+      3,
+      5
+    ],
+    "explanation": "Opposite: sweet tendency ↔ acidity; succulence and oiliness ↔ tannin/alcohol; salt, bitter, sour ↔ softness; fattiness ↔ acidity/CO2. Parallel: dessert sweetness ↔ wine sweetness.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "principle"
+    ],
+    "examFocus": true,
+    "items": [
+      "Sweet tendency",
+      "Succulence",
+      "Saltiness",
+      "Fattiness",
+      "Sweetness (dessert)"
+    ]
+  },
+  {
+    "id": "par-023",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "On the 0-10 pairing score scale, \"moderately perceivable\" is:",
+    "choices": [
+      "4-6 points",
+      "2-4 points",
+      "6-8 points",
+      "8-10 points"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "0-2 imperceivable, 2-4 slightly, 4-6 moderately, 6-8 perceivable, 8-10 highly perceivable.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 58
+    },
+    "difficulty": 1,
+    "tags": [
+      "chart"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-024",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "On the pairing chart, the food is drawn in blue and the wine in red.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Food in red, wine in blue.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 59
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "chart"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-025",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "When several food components share an axis, such as saltiness, bitter and sour tendency, their average is plotted.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The maximum score of the leading component is plotted.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "chart"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-026",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "For a white wine, the acidity axis is left empty.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is tannicity that is absent for a white wine.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 60
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "chart"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-027",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "On the chart, food sweet tendency, fattiness, juiciness and oiliness are each plotted on their own axis.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The other food components share axes and the leading one is plotted.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "chart"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-028",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "Food and wine polygons have the same shape, with low scores on every axis. What does it mean?",
+    "choices": [
+      "Important and well balanced",
+      "Simple but compatible",
+      "Simple but incompatible",
+      "Food overshadows wine"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Same shape = compatible; low scores = simple.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 62
+    },
+    "difficulty": 1,
+    "tags": [
+      "chart",
+      "reading"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-029",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "Food and wine polygons have the same shape, with high scores on every axis. What does it mean?",
+    "choices": [
+      "Simple but compatible",
+      "Wine overshadows food",
+      "Important and well balanced",
+      "Simple but incompatible"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "They complement each other.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 63
+    },
+    "difficulty": 1,
+    "tags": [
+      "chart",
+      "reading"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-030",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "The dish's polygon peaks while the wine scores low on every axis. What does it mean?",
+    "choices": [
+      "Food overshadows wine",
+      "Simple but compatible",
+      "Important and well balanced",
+      "Simple but incompatible"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Different shapes: the food has elements the wine cannot balance.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 63
+    },
+    "difficulty": 2,
+    "tags": [
+      "chart",
+      "reading"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-031",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "Same shape, but the wine's polygon is larger than the food's. What does it mean?",
+    "choices": [
+      "Wine overshadows food",
+      "Food overshadows wine",
+      "Important and well balanced",
+      "Simple but incompatible"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "And the reverse — the food polygon larger — means food overshadows wine.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 64
+    },
+    "difficulty": 1,
+    "tags": [
+      "chart",
+      "reading"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-032",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Two polygons of the same shape but different sizes mean one side overshadows the other.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The larger one overshadows.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 64
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "chart",
+      "reading"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-033",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "A wine axis on the chart faces the food components it balances, so a good pairing looks like one balanced shape.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Acidity faces sweet tendency and fattiness; alcohol/tannin faces juiciness and oiliness; softness faces salt, bitter and sour.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "chart"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-034",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "A wine whose taste lasts 7-10 seconds after swallowing is:",
+    "choices": [
+      "Quite persistent",
+      "Persistent",
+      "Very persistent",
+      "Scarcely persistent"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Short <2 s, scarcely 2-4, quite 4-7, persistent 7-10, very persistent >10.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 45
+    },
+    "difficulty": 2,
+    "tags": [
+      "scale"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-035",
+    "topic": "pairing",
+    "type": "mcq",
+    "stem": "A dry wine has a sugar content of about:",
+    "choices": [
+      "10-30 g/L",
+      "30-50 g/L",
+      "1-10 g/L",
+      "50-100 g/L"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Medium-dry 10-30, medium-sweet 30-50, sweet 50-100 g/L.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 34
+    },
+    "difficulty": 1,
+    "tags": [
+      "scale"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-036",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "A \"warm\" wine has about 12.5-15% alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Light 4-7%, slightly warm 10-11%, moderately warm 11-12.5%, alcoholic >15%.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "scale"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-037",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "\"Velvety\" describes wines high in alcohol and polyalcohol, often sweet wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Sharp < scarcely soft < quite soft < soft < velvety.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "scale"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-038",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "\"Acidulous\" is the ideal acidity for a fresh young wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "\"Fresh\" fits a young wine; acidulous means unacceptably acidic.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "scale"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "par-039",
+    "topic": "pairing",
+    "type": "tf",
+    "stem": "Low serving temperature suppresses the perception of sweetness but increases the tannicity of red wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "So reds should not be served chilled.",
+    "source": {
+      "deck": "Analysis",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "scale"
+    ],
+    "examFocus": true
+  }
+]

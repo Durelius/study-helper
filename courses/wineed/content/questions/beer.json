@@ -1,0 +1,1658 @@
+[
+  {
+    "id": "bds-001",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "The Egyptians were the first to produce beer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The Sumerians in Mesopotamia were first; brewing spread from there to Egypt.",
+    "source": {
+      "deck": "Beer",
+      "slide": 4
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-002",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "The Romans and Greeks called beer \"grain mead\".",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "They called it \"malt wine\".",
+    "source": {
+      "deck": "Beer",
+      "slide": 4
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-003",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "In 1516 Duke William IV of Bavaria allowed only malt, hops and water in beer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "For health reasons and to cut imports from the north. The law applies only in Bavaria.",
+    "source": {
+      "deck": "Beer",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-004",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Josef Groll created Pilsner in 1842 at Pilsner Urquell, using light malt, soft water and Bohemian hops.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Pilsen came to mean a blonde, distinctly bitter beer.",
+    "source": {
+      "deck": "Beer",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-005",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Monks are credited with introducing hops for bitterness and their antiseptic effect against lactic bacteria.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Benedictine, Cistercian and Franciscan monks.",
+    "source": {
+      "deck": "Beer",
+      "slide": 5
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-006",
+    "topic": "beer",
+    "type": "text",
+    "stem": "Which enzyme breaks the starch in barley down into maltose and dextrin?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Diastase. Maltose is fermentable; dextrin is not and gives body and foam.",
+    "source": {
+      "deck": "Beer",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "materials"
+    ],
+    "examFocus": true,
+    "accept": [
+      "diastase"
+    ]
+  },
+  {
+    "id": "bds-007",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Dextrin is fermented by yeast into alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Dextrin is unfermentable; it gives body and compact foam. Maltose (as glucose) is fermented.",
+    "source": {
+      "deck": "Beer",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-008",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Six-row barley is the best barley for brewing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Two-row barley is the best; other types give a slightly astringent taste.",
+    "source": {
+      "deck": "Beer",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-009",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Rice gives beer a \"dry\" sensation, while maize and oats add softness.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Millet, used mainly in Africa, gives a light-bodied beer.",
+    "source": {
+      "deck": "Beer",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-010",
+    "topic": "beer",
+    "type": "text",
+    "stem": "What is the caramelised Belgian sugar added to raise alcohol without adding malt taste?",
+    "choices": [],
+    "answer": [],
+    "explanation": "Sucre candi.",
+    "source": {
+      "deck": "Beer",
+      "slide": 11
+    },
+    "difficulty": 3,
+    "tags": [
+      "materials"
+    ],
+    "examFocus": true,
+    "accept": [
+      "sucre candi",
+      "candi sugar",
+      "candi"
+    ]
+  },
+  {
+    "id": "bds-011",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Unfertilised female hop flowers are used in brewing; they are rich in lupulin.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Lupulin holds the resins and essential oils. England also uses male flowers.",
+    "source": {
+      "deck": "Beer",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-012",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Hop resins give bitterness, are antibacterial and help the foam last.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Essential oils give perfume; tannins clarify by coagulating protein.",
+    "source": {
+      "deck": "Beer",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-013",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Most of a beer's tannin-derived bitterness comes from the hops.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Hops give only 1/5; 4/5 comes from the barley husk.",
+    "source": {
+      "deck": "Beer",
+      "slide": 13
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-014",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Which hop variety is grown for aroma?",
+    "choices": [
+      "Northern Brewer",
+      "Brewer Gold",
+      "Saaz",
+      "Hallertau Magnum"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Aroma hops: Cascade, Fuggle, Hallertau Mittelfrueh, Tettnang, Spalt, Saaz. The other three are cheaper, high-yield hops.",
+    "source": {
+      "deck": "Beer",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-015",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Dry hopping, adding hops during ageing for floral scents, is done in England.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Normally hops go in during boiling.",
+    "source": {
+      "deck": "Beer",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-016",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Light beers need soft water (up to 10°F), while hard water can be used for dark beer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Hardness in French degrees: soft up to 10°F, medium 10-20°F, hard above 20°F.",
+    "source": {
+      "deck": "Beer",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-017",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Saccharomyces carlsbergensis is the top-fermenting yeast that works at 15-25°C.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "S. carlsbergensis works at low temperature (5-10°C) and settles at the bottom. S. cerevisiae works at 15-25°C and rises to the top.",
+    "source": {
+      "deck": "Beer",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials",
+      "yeast"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-018",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Saccharomyces carlsbergensis was discovered by Emil Christian Hansen at the Carlsberg brewery in 1882.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is the lager yeast.",
+    "source": {
+      "deck": "Beer",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "materials",
+      "yeast"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-019",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Malting soaks barley at 10-15°C for 48 hours, raising its moisture from 14% to 45%.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Then 6 days of germination at 14-16°C, then kilning down to 5% moisture.",
+    "source": {
+      "deck": "Beer",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "production"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-020",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Melanoidins, formed at high kilning temperatures, give dark beer its colour and aromas.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Pilsen malt is kilned at 85°C; darker malts at 100-250°C.",
+    "source": {
+      "deck": "Beer",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "production"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-021",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Hops are added to the wort during mashing.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Hops go in during the boil, which extracts bitterness, coagulates protein and deactivates the enzymes.",
+    "source": {
+      "deck": "Beer",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "production"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-022",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Maturation (secondary fermentation) is held around 0°C for 4-6 weeks.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "At about 0.5 bar pressure; it refines flavour and lets the yeast settle.",
+    "source": {
+      "deck": "Beer",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "production"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-023",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Bottles and cans are pasteurised with 60°C water for 15 minutes; kegs are heated to 70°C for seconds.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Pasteurising stops yeast regrowing and clouding the beer.",
+    "source": {
+      "deck": "Beer",
+      "slide": 21
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "production"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-024",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Beer is classified by alcohol percentage and saccharometric degree (°Plato).",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Alcohol is usually about 40% of the saccharometric degree.",
+    "source": {
+      "deck": "Beer",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-025",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Above what alcohol level is a beer a Double Malt?",
+    "choices": [
+      "5%",
+      "3.5%",
+      "8%",
+      "6%"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Non-alcoholic <0.8%, light 1.2-3.5%, beer >3.5%, special >5%, double malt >6%.",
+    "source": {
+      "deck": "Beer",
+      "slide": 23
+    },
+    "difficulty": 3,
+    "tags": [
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-026",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Lager, the low-temperature style, is the most produced and consumed beer in the world.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "High-fermentation beers are 10% of production but 50% of consumption in Bavaria and Britain.",
+    "source": {
+      "deck": "Beer",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-027",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Spontaneous fermentation is typical of Germany, in styles such as Kölsch and Alt.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Spontaneous fermentation is Belgian: Lambic and Gueuze, around Brussels and the Senne valley. Kölsch and Alt are high-fermentation.",
+    "source": {
+      "deck": "Beer",
+      "slide": 25
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-028",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Which Belgian beer is made by blending old and young Lambic?",
+    "choices": [
+      "Gueuze",
+      "Kriek",
+      "Faro",
+      "Frambozen"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Kriek adds cherry, Frambozen raspberry, Faro sugar.",
+    "source": {
+      "deck": "Beer",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-029",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Which beer is a Lambic flavoured with cherry?",
+    "choices": [
+      "Frambozen",
+      "Kriek",
+      "Faro",
+      "Saison"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Kriek = cherry; Frambozen = raspberry.",
+    "source": {
+      "deck": "Beer",
+      "slide": 28
+    },
+    "difficulty": 1,
+    "tags": [
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-030",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Where does Pils originate?",
+    "choices": [
+      "Bavaria",
+      "Dortmund",
+      "Bohemia",
+      "Vienna"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Pils from Bohemia (Czech Republic) is the origin of modern light beer.",
+    "source": {
+      "deck": "Beer",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-031",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Rauchbier from Bamberg gets its smoky taste from malt dried over a direct flame.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Light amber, smoky.",
+    "source": {
+      "deck": "Beer",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-032",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Doppelbock is the strongest version of Pils.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Doppelbock is the strongest Bock.",
+    "source": {
+      "deck": "Beer",
+      "slide": 26
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-033",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "India Pale Ale is the strongest version of Mild Ale.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "IPA is the strongest Pale Ale; Brown Ale is the strongest Mild Ale.",
+    "source": {
+      "deck": "Beer",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-034",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Trappist beer is still brewed by monks in an abbey, while Abbey beer is now commercial.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Both are 9-10%, served at 12-16°C.",
+    "source": {
+      "deck": "Beer",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "types"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-035",
+    "topic": "beer",
+    "type": "match",
+    "stem": "Match each beer style to its origin.",
+    "choices": [
+      "Bavaria",
+      "Bohemia",
+      "Cologne",
+      "Dortmund",
+      "Düsseldorf",
+      "Ireland",
+      "Vienna",
+      "Wallonia"
+    ],
+    "answer": [
+      1,
+      2,
+      4,
+      5,
+      7
+    ],
+    "explanation": "Pils: Bohemia. Kölsch: Cologne. Alt: Düsseldorf. Stout: Ireland. Saison: Wallonia, sold at harvest time.",
+    "source": {
+      "deck": "Beer",
+      "slide": 26
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "types"
+    ],
+    "examFocus": true,
+    "items": [
+      "Pils",
+      "Kölsch",
+      "Alt",
+      "Stout",
+      "Saison"
+    ]
+  },
+  {
+    "id": "bds-036",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Brussels lace is the haze that forms in old, unfiltered beer.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Brussels lace (Merletti di Bruxelles) is the foam left on the glass wall. Haze in old beer is opalescence.",
+    "source": {
+      "deck": "Beer",
+      "slide": 30
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "tasting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-037",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Violent, coarse bubbles can be caused by a rough glass surface.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Good effervescence is fine and persistent.",
+    "source": {
+      "deck": "Beer",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "tasting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-038",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Lager and Pilsner should carry 2-3 inches of foam that lasts a few minutes, while English ales keep little foam.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Foam also releases the aromas.",
+    "source": {
+      "deck": "Beer",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "tasting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-039",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Fruity aromas in beer come from esters, mostly in high-temperature fermentation beers.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Lager can smell of cooked corn; dark beer of coffee and cocoa.",
+    "source": {
+      "deck": "Beer",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "tasting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-040",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Sourness in beer comes from tannins in the barley husk.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Sourness comes from organic acids (lactic acid from bacteria), as in Weizen and Belgian Ale. Husk tannins give bitterness and astringency.",
+    "source": {
+      "deck": "Beer",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "tasting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-041",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Which beer is poured with the thickest head, 4-5 inches?",
+    "choices": [
+      "Stout",
+      "Pilsner",
+      "English ale",
+      "Weizen"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Stout ~2 in, Belgian ale 2-3 in, Pilsner 3-4 in, English ale ~1 in.",
+    "source": {
+      "deck": "Beer",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-042",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Serving temperature for Trappist and Abbey beers?",
+    "choices": [
+      "12-16 °C",
+      "5-7 °C",
+      "7-9 °C",
+      "9-11 °C"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "American lager 5-7, Lager/Pils 7-9, Weizen 9-11, Bock 10-11, Stout 10-15, Trappist 12-16.",
+    "source": {
+      "deck": "Beer",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-043",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "The pint (0.56 L) is the traditional English glass for Lager and Pilsner.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The pint is for Ale and Stout; narrow, slender glasses suit Lager and Pilsner.",
+    "source": {
+      "deck": "Beer",
+      "slide": 34
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-044",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Lager handles spicy food better than Ales, removing more capsaicin.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Ales, higher in alcohol and saccharometric degree, handle spicy food better.",
+    "source": {
+      "deck": "Beer",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "pairing"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-045",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "The Arabs invented the alembic, used first to distil essential oils and medicines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Alchemists and monks did the first distillations, 1500-1600.",
+    "source": {
+      "deck": "Beer",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "distillates",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-046",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "What is the correct order of distillate production?",
+    "choices": [
+      "Must, distillation, fermentation, ageing, stabilisation",
+      "Must, fermentation, distillation, stabilisation, ageing",
+      "Fermentation, must, distillation, ageing, stabilisation",
+      "Must, fermentation, stabilisation, distillation, ageing"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Preparation of must › fermentation › distillation › stabilisation › ageing.",
+    "source": {
+      "deck": "Beer",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "distillates"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-047",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Distillation separates volatile components by their different boiling points.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Discontinuous: the boiler is refilled each batch. Continuous: liquid is fed through columns.",
+    "source": {
+      "deck": "Beer",
+      "slide": 40
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "distillates"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-048",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Methanol in a distillate must stay below 1% of total alcohol.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It harms the body. Ethanol is 36-60% and sets the price.",
+    "source": {
+      "deck": "Beer",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "distillates"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-049",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Esters give a young distillate buttery notes, and ketones give fruity, floral ones.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Swapped: esters give fruity and floral notes; ketones give buttery ones.",
+    "source": {
+      "deck": "Beer",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "distillates"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-050",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Stabilisation chills the distillate to -10 to -20°C so heavy molecules that cause haze precipitate.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Then filtration; alcohol is first reduced with deionised water.",
+    "source": {
+      "deck": "Beer",
+      "slide": 41
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "distillates"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-051",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Serving temperature for Vodka and Aquavit?",
+    "choices": [
+      "10-12 °C",
+      "14-16 °C",
+      "0-4 °C",
+      "18-20 °C"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Young Grappa 10-12; rum and young whisky 14-16; Brandy, Cognac, Armagnac 18-20.",
+    "source": {
+      "deck": "Beer",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "distillates",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-052",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Distillates are tasted in a tulip glass of 100-120 ml.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Scotch's glass is more closed than Cognac's; Grappa's is the most open.",
+    "source": {
+      "deck": "Beer",
+      "slide": 47
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "distillates",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-053",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "What is a Scotch made only from barley malt from one distillery called?",
+    "choices": [
+      "Vatted Malt",
+      "Single Grain",
+      "Blended Scotch",
+      "Single Malt"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Several distilleries' single malts = Vatted or Pure Malt. Cereal whisky from one distillery = Single Grain.",
+    "source": {
+      "deck": "Beer",
+      "slide": 50
+    },
+    "difficulty": 1,
+    "tags": [
+      "whisky"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-054",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Bourbon is American whisky made from rye.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Bourbon is from maize; Rye Whisky is from rye.",
+    "source": {
+      "deck": "Beer",
+      "slide": 49
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "whisky"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-055",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Saké is a rice distillate.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Saké is not a distillate: it is fermented from malted rice.",
+    "source": {
+      "deck": "Beer",
+      "slide": 51
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "sake"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-056",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "What is the porcelain cup saké is served in?",
+    "choices": [
+      "Sakazuki",
+      "Tokkuri",
+      "Moromi",
+      "Masu"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Tokkuri is the ceramic bottle, warmed in water at 40-50°C; Moromi is raw saké.",
+    "source": {
+      "deck": "Beer",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "sake"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-057",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Vodka's name comes from voda or woda, meaning grain.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Voda or woda means water.",
+    "source": {
+      "deck": "Beer",
+      "slide": 52
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "vodka"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-058",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Grappa is distilled from grape pomace, the leftovers of winemaking.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The slide calls it \"grape seeds\"; freshness is essential.",
+    "source": {
+      "deck": "Beer",
+      "slide": 54
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "grappa"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-059",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Grappa Riserva or Stravecchia has been aged 18 months in oak.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Vecchia = 1 year. A single-variety Grappa needs over 85% of that grape.",
+    "source": {
+      "deck": "Beer",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "grappa"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-060",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Which grape makes up about 90% of Cognac?",
+    "choices": [
+      "Folle Blanche",
+      "Ugni Blanc",
+      "Colombard",
+      "Chenin Blanc"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Ugni Blanc, with Folle Blanche and Colombard.",
+    "source": {
+      "deck": "Beer",
+      "slide": 55
+    },
+    "difficulty": 1,
+    "tags": [
+      "cognac"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-061",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Cognac is distilled in an Alambic Charentais and aged in Limousin oak.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Two distillations, to 65-72%. Six zones, from Grande Champagne to Bois Ordinaires.",
+    "source": {
+      "deck": "Beer",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "cognac"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-062",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Armagnac is double-distilled in batches in the Alambic Charentais.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Armagnac is distilled continuously in the Alambic Armagnaçais, to 58-63%.",
+    "source": {
+      "deck": "Beer",
+      "slide": 56
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "armagnac"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-063",
+    "topic": "beer",
+    "type": "mcq",
+    "stem": "Which region does Armagnac come from?",
+    "choices": [
+      "Normandy",
+      "Charente",
+      "Gascogne",
+      "Limousin"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Sub-zones Bas Armagnac, Ténarèze and Haut Armagnac. Calvados is Normandy; Cognac is Charente.",
+    "source": {
+      "deck": "Beer",
+      "slide": 56
+    },
+    "difficulty": 1,
+    "tags": [
+      "armagnac"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-064",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Calvados is distilled from apple cider in Gascogne and aged at least 2 years in oak.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Calvados is from Normandy; Gascogne is Armagnac.",
+    "source": {
+      "deck": "Beer",
+      "slide": 57
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "calvados"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-065",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Agricultural rum is made from molasses.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Agricultural rum is from fresh cane juice (vesou); industrial rum is from molasses.",
+    "source": {
+      "deck": "Beer",
+      "slide": 58
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "rum"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-066",
+    "topic": "beer",
+    "type": "tf",
+    "stem": "Tequila Reposado is aged 3-12 months in oak.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Añejo: at least one year. Muy Añejo: 5-6 years.",
+    "source": {
+      "deck": "Beer",
+      "slide": 59
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "tequila"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "bds-067",
+    "topic": "beer",
+    "type": "match",
+    "stem": "Match each distillate to its raw material.",
+    "choices": [
+      "Agave",
+      "Apple",
+      "Grape pomace",
+      "Maize",
+      "Plum",
+      "Potato",
+      "Rice",
+      "Sugar cane"
+    ],
+    "answer": [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    "explanation": "Rum is from sugar cane; vodka from cereals and potatoes; saké (not a distillate) from rice.",
+    "source": {
+      "deck": "Beer",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "distillates"
+    ],
+    "examFocus": true,
+    "items": [
+      "Calvados",
+      "Tequila",
+      "Bourbon",
+      "Grappa",
+      "Slivovitz"
+    ]
+  }
+]

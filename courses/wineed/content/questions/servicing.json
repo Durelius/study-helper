@@ -1,0 +1,1549 @@
+[
+  {
+    "id": "srv-001",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The front-back wine menu is the most popular style and suits restaurants with a limited wine selection.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A restaurant with its own cellar and a large selection can use a photo-album menu.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-002",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A one-page wine list should be arranged by grape variety rather than by price.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A short list of one page can be arranged in order of price.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 7
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-003",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The essential information on a wine menu is the wine's name, producer, vintage and price per glass.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is the price per bottle. Tasting notes and food suggestions are optional extras.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 7
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-004",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The menu as a list of dishes shown to customers appeared in Paris in the late 18th century.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "After the French Revolution, chefs of the nobility lost their jobs and opened restaurants.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "menu",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-005",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Western menus are divided into Antipasti, Primi, Secondi, and Dessert e Formaggi.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Starter, first dish, second dish, dessert and cheese.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 9
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-006",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Menu di Terra lists seafood dishes, while Menu di Mare lists meat and vegetable dishes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is the other way round: Terra is the land (meat, poultry, game, vegetables) and Mare is the sea.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 9
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-007",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A degustation menu is best at around 4-5 dishes, each paired with a specific wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Small portions, served in wine order: sparkling, white, rosé, red, sweet.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-008",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "In a degustation menu, old and aged wines are served before new and young ones.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Young wines come before old, aged ones.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-009",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A fix menu reduces the kitchen's workload and helps sell wines that are otherwise hard to sell.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is gaining popularity in tourist cities.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 13
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-010",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Which menu type is built around a festival such as Christmas or Valentine's Day?",
+    "choices": [
+      "Menu with theme",
+      "Degustation menu",
+      "Banquet menu",
+      "Fix menu"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A themed menu can also promote a grape, region or country.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 11
+    },
+    "difficulty": 1,
+    "tags": [
+      "menu"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-011",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The sommelier's knife (cavatappi) combines a two-stage lever, a corkscrew and a small folding knife.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The knife cuts the foil (capsula) below the neck; a foil cutter is the tagliacapsula.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 16
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "equipment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-012",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The foil of a wine bottle is cut above the lip of the bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The foil is cut below the neck of the bottle.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "equipment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-013",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "What is the foil cutter called?",
+    "choices": [
+      "Cavatappi",
+      "Tagliacapsula",
+      "Glacette",
+      "Capsula"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cavatappi is the corkscrew-knife; capsula is the foil itself; a glacette is a wine cooler.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "equipment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-014",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A wine basket carries an aged red tilted slightly upward so the sediment is not stirred up.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The bottle is opened while tilted in the basket.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "equipment",
+      "decanting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-015",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A glacette is used to serve aged red wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A glacette serves sparkling, white and rosé wines; aged reds go in a basket and decanter.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "equipment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-016",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A sparkling-wine stopper is locked under the neck of the bottle so pressure cannot push it out.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Once opened, a sparkling-wine cork expands and cannot be reused.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 19
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "equipment"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-017",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Glass blowing was invented in Bohemia in the Middle Ages.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It was invented in Venice and spread to Bohemia, the Netherlands and France.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 22
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "glass",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-018",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Lead crystal wine glasses were first produced in France in the 18th century.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Lead crystal began in England in the 18th century; Baccarat in France developed it further.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "glass",
+      "history"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-019",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Above what lead oxide content (by weight) can glass be called crystal?",
+    "choices": [
+      "12%",
+      "35%",
+      "24%",
+      "6%"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "PbO raises clarity, density and refraction; too much gives a yellow tint.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "glass"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-020",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Sparkling wine is poured to about 4/5 of a flute so the perlage can be seen.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Elegant still whites in a tulip glass are poured to about 1/2-2/3.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "glass"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-021",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The coupe, once used for Champagne, is now used for sweet sparkling wines.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It spreads the aroma evenly before it reaches the nose.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 24
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "glass"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-022",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "For a very important, complex red in an oversize glass, the pour is about 1/3 of the glass.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Only about 1/6-1/7 of an oversize glass. An elegant red in a large glass is poured to about 1/4-1/3.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "glass"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-023",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Sweet wine is served in smaller quantities, in a small glass of the usual shape.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Smaller glass, same shape as the others.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 25
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "glass"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-024",
+    "topic": "servicing",
+    "type": "match",
+    "stem": "Match each glass brand to its country.",
+    "choices": [
+      "Austria",
+      "France",
+      "Germany",
+      "Italy",
+      "Thailand"
+    ],
+    "answer": [
+      0,
+      2,
+      4,
+      0
+    ],
+    "explanation": "Riedel and Zalto are Austrian (Zalto is thin, handmade, expensive). Zwiesel is German. Lucaris is a Thai brand, a good start for beginners.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 28
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "glass"
+    ],
+    "examFocus": true,
+    "items": [
+      "Riedel",
+      "Zwiesel",
+      "Lucaris",
+      "Zalto"
+    ]
+  },
+  {
+    "id": "srv-025",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Riedel's signature is a stem stained black and red.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Its glasses are rounded, with a lotus-like shape.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 28
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "glass"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-026",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "An ice bucket for white wine holds 2/3 water and 1/3 ice.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Put a dish or tray under it to stop drips on the table.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 31
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-027",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The sommelier presents the bottle from the customer's left and pours from the right.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Presentation at the left (slide 32), serving from the right (slide 37).",
+    "source": {
+      "deck": "Servicing",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-028",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "When presenting a wine, the sommelier must state its alcohol content and grape variety.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The required details are designation, cru, vintage and producer; alcohol and grape are given only if the customer asks.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 32
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-029",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The first, small pour goes to the person who ordered the wine, to taste and approve it.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Then service goes clockwise, ladies first.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-030",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Service at the table goes anticlockwise, serving gentlemen first.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Clockwise, ladies first.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-031",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "About how many portions does one bottle give?",
+    "choices": [
+      "4-5",
+      "12-14",
+      "6-7",
+      "8-10"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "So the sommelier has to watch the pour.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 37
+    },
+    "difficulty": 2,
+    "tags": [
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-032",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The glass is changed every time the wine changes.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Empty glasses are removed from the table.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 37
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-033",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The first wine served is the one with the highest temperature or the most residual sugar.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is the coolest or least sweet wine first; sweet wine last.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 33
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "serving",
+      "order"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-034",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Which sparkling wine is served first in a sequence?",
+    "choices": [
+      "Charmat Method",
+      "Brut Blanc de Blancs",
+      "Millésime",
+      "Demi-sec"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Order: Charmat Method › Crémant › Brut Blanc de Blancs › Brut Blanc de Noirs › Millésime › Demi-sec.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "serving",
+      "order"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-035",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Brut Blanc de Noirs is served before Brut Blanc de Blancs.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Blanc de Blancs comes first, then Blanc de Noirs, then Millésime, then Demi-sec.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving",
+      "order"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-036",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Under the AIS rule for official meals, the Pope is served first, then the Cardinals.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Then the head of state, president and prime minister; then ministers and ambassadors.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 38
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving",
+      "order"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-037",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "When pouring, the thumb goes in the hollow under the bottle.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Hold the bottom of the bottle with the dominant hand, without putting the thumb in the punt.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 36
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-038",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "To end a pour, the sommelier twists the wrist to cut the drip.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Any remaining drop is wiped with the cloth in the other hand.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 36
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-039",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "When opening sparkling wine, the bottle is turned while the cork is held against the turn.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Push against the cork as it lifts, to avoid a burst and noise.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 35
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-040",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "If a customer rejects a wine that has no defect, the sommelier must replace it immediately.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The immediate change is for a defective wine. For a non-defect complaint, the sommelier uses their knowledge to persuade the customer.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 37
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "serving"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-041",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A decanter has two purposes: separating sediment and oxygenating an aged wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It is used mainly for red wine.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 39
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "decanting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-042",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The candle is placed under the bottle's neck to show when sediment arrives.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Check the sediment through the decanter before putting the candle out.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 39
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "decanting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-043",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "When decanting only to oxygenate, the wine is still poured slowly while watching for sediment.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "For oxygenation alone it can be poured quickly, without watching for sediment.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 39
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "decanting"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-044",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "WINESAVE PRO protects open wine with argon, which is heavier than air and settles on the wine.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Argon is inert and odourless; one can lasts up to 150 uses and never expires.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 41
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "gadgets"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-045",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Coravin replaces the wine it pours with nitrogen.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Coravin injects argon through a needle in the cork; the cork reseals when the needle comes out.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 51
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "gadgets"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-046",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Üllo removes free sulfites from wine by Selective Sulfite Capture.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It was invented in 2014 and also aerates the wine.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 44
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "gadgets"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-047",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "The eto preserver can keep an opened wine for up to 2 weeks.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It squeezes out the gap between wine and air; eto means \"again\" in Welsh.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 48
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "gadgets"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-048",
+    "topic": "servicing",
+    "type": "match",
+    "stem": "Match each gadget to how it works.",
+    "choices": [
+      "Adds nitrogen bubbles",
+      "Argon sprayed before stopping",
+      "Captures sulfites",
+      "Freezes the wine",
+      "Needle through the cork, argon in",
+      "Pumps air out"
+    ],
+    "answer": [
+      4,
+      1,
+      2,
+      5
+    ],
+    "explanation": "Vacu Vin (1986) still needed the cork pulled; Coravin (2013) solved that.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 49
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "gadgets"
+    ],
+    "examFocus": true,
+    "items": [
+      "Coravin",
+      "WINESAVE PRO",
+      "Üllo",
+      "Vacu Vin"
+    ]
+  },
+  {
+    "id": "srv-049",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "What is the ideal temperature for storing wine?",
+    "choices": [
+      "5-8 °C",
+      "11-15 °C",
+      "16-20 °C",
+      "2-4 °C"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "With no fluctuation; an underground cellar 4-5 m deep suits it.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "storage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-050",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Wine should be stored at about 40-45% relative humidity.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The ideal is about 65-70%.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 53
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "storage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-051",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "In a cellar, sparkling wines go at the top and important reds at the bottom.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "It is the reverse: sparkling at the bottom, then white, rosé, red, and important reds at the top, since temperature rises slightly from the floor.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 54
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "storage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-052",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Bottles are stored horizontally so the wine stays in contact with the cork.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Hang tags show the wine without pulling bottles out.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 54
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "storage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-053",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A thermoelectric wine fridge cannot cool below 10°C, so it cannot hold sparkling wine at the right temperature.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "It has no moving parts and no vibration, but runs constantly and struggles above 27°C outside.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 56
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "storage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-054",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "A compressor wine fridge has no vibration and no noise.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Those are thermoelectric advantages. A compressor cools fast in any season but can be noisy, vibrates and uses greenhouse-gas coolant.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 55
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "storage"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-055",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Which wine disease leaves white patches on the surface and makes the wine odourless and tasteless?",
+    "choices": [
+      "Acescenza",
+      "Filante",
+      "Fioretta",
+      "Amarore"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Fioretta is caused by aerobic bacteria and yeast in low-alcohol wine.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 58
+    },
+    "difficulty": 1,
+    "tags": [
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-056",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Which wine disease gives a cloudy wine smelling of vinegar and acetaldehyde?",
+    "choices": [
+      "Agrodolce",
+      "Girato",
+      "Fioretta",
+      "Acescenza"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Acescenza: aerobic bacteria in low-alcohol wine.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 59
+    },
+    "difficulty": 1,
+    "tags": [
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-057",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Which disease makes white or rosé wine viscous and oily?",
+    "choices": [
+      "Filante",
+      "Girato",
+      "Amarore",
+      "Agrodolce"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Filante: anaerobic bacteria in low-sugar, low-alcohol, low-acid wine.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 60
+    },
+    "difficulty": 1,
+    "tags": [
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-058",
+    "topic": "servicing",
+    "type": "mcq",
+    "stem": "Which disease gives a red wine kept too long a yellowish colour and a very bitter taste?",
+    "choices": [
+      "Filante",
+      "Amarore",
+      "Acescenza",
+      "Girato"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Amarore: anaerobic bacteria.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 63
+    },
+    "difficulty": 1,
+    "tags": [
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-059",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Agrodolce occurs in wines with very low residual sugar and tastes bitter.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Agrodolce is found in wines with relatively high residual sugar and tastes sweet and sour, like vinegar.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 61
+    },
+    "difficulty": 1,
+    "tags": [
+      "tf",
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-060",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Girato occurs in wines that are too high in acidity.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Girato occurs in wines too low in acidity: dull, cloudy, slightly foamy, very pungent.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 62
+    },
+    "difficulty": 2,
+    "tags": [
+      "tf",
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-061",
+    "topic": "servicing",
+    "type": "tf",
+    "stem": "Fioretta and Acescenza are caused by aerobic bacteria; Filante, Agrodolce, Girato and Amarore by anaerobic bacteria.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The two aerobic ones need low alcohol to develop.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 58
+    },
+    "difficulty": 3,
+    "tags": [
+      "tf",
+      "anomalies"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "srv-062",
+    "topic": "servicing",
+    "type": "match",
+    "stem": "Match each wine disease to its symptom.",
+    "choices": [
+      "Brown sediment",
+      "Oily, viscous texture",
+      "Smell of cork",
+      "Smell of vinegar",
+      "Sweet and sour taste",
+      "Very bitter taste",
+      "White patches on the surface"
+    ],
+    "answer": [
+      6,
+      3,
+      1,
+      5,
+      4
+    ],
+    "explanation": "Girato, the sixth, is dull, cloudy and slightly foamy with a pungent smell.",
+    "source": {
+      "deck": "Servicing",
+      "slide": 58
+    },
+    "difficulty": 2,
+    "tags": [
+      "match",
+      "anomalies"
+    ],
+    "examFocus": true,
+    "items": [
+      "Fioretta",
+      "Acescenza",
+      "Filante",
+      "Amarore",
+      "Agrodolce"
+    ]
+  }
+]

@@ -69,13 +69,14 @@ type publicQuestion struct {
 	Difficulty int             `json:"difficulty"`
 	ExamFocus  bool            `json:"examFocus"`
 	Data       json.RawMessage `json:"data,omitempty"`
+	Part       string          `json:"part,omitempty"`
 }
 
 func (s *Server) public(q content.Question) publicQuestion {
 	return publicQuestion{
 		ID: q.ID, Topic: q.Topic, TopicTitle: s.Set.Title(q.Topic), Type: q.Type,
 		Stem: q.Stem, Items: q.Items, Unit: q.Unit, Choices: q.Choices, Difficulty: q.Difficulty,
-		ExamFocus: q.ExamFocus, Data: q.Data,
+		ExamFocus: q.ExamFocus, Data: q.Data, Part: q.Part,
 	}
 }
 
