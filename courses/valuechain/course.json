@@ -3,26 +3,109 @@
   "title": "Value Chain Excellence & Project Management",
   "code": "5601203",
   "shortName": "Value Chain",
-  "exam": "2026-09-23T09:00:00+07:00",
-  "generators": ["cpm"],
+  "exam": "2026-11-25T09:00:00+07:00",
+  "generators": [
+    "cpm"
+  ],
   "topics": [
-    { "id": "value-chain", "title": "Value Chain Fundamentals", "weight": 0.06 },
-    { "id": "operations", "title": "Operations Management", "weight": 0.05 },
-    { "id": "process-mapping", "title": "Process Mapping & BPMN", "weight": 0.12 },
-    { "id": "scm", "title": "Supply Chain Management", "weight": 0.03 },
-    { "id": "logistics", "title": "Supply Chain Strategy & Global Logistics", "weight": 0.02 },
-    { "id": "pm-foundations", "title": "PM Foundations & PMBOK", "weight": 0.16 },
-    { "id": "initiation", "title": "Project Initiation & Scope", "weight": 0.10 },
-    { "id": "schedule-cost", "title": "Schedule & Cost Planning", "weight": 0.24 },
-    { "id": "risk-comm-quality", "title": "Risk, Communication & Quality", "weight": 0.22 }
+    {
+      "id": "value-chain",
+      "title": "Value Chain Fundamentals",
+      "weight": 0.03
+    },
+    {
+      "id": "operations",
+      "title": "Operations Management",
+      "weight": 0.03
+    },
+    {
+      "id": "process-mapping",
+      "title": "Process Mapping & BPMN",
+      "weight": 0.05
+    },
+    {
+      "id": "scm",
+      "title": "Supply Chain Management",
+      "weight": 0.02
+    },
+    {
+      "id": "logistics",
+      "title": "Supply Chain Strategy & Global Logistics",
+      "weight": 0.02
+    },
+    {
+      "id": "pm-foundations",
+      "title": "PM Foundations & PMBOK",
+      "weight": 0.08
+    },
+    {
+      "id": "initiation",
+      "title": "Project Initiation & Scope",
+      "weight": 0.05
+    },
+    {
+      "id": "schedule-cost",
+      "title": "Schedule & Cost Planning",
+      "weight": 0.2
+    },
+    {
+      "id": "risk-comm-quality",
+      "title": "Risk, Communication & Quality",
+      "weight": 0.12
+    },
+    {
+      "id": "digital-tech",
+      "title": "Digital Technologies & Data Analytics",
+      "weight": 0.03
+    },
+    {
+      "id": "agile-execution",
+      "title": "Project Execution & Agile PM",
+      "weight": 0.04
+    },
+    {
+      "id": "project-monitoring",
+      "title": "Project Monitoring & Earned Value",
+      "weight": 0.12
+    },
+    {
+      "id": "project-closing",
+      "title": "Project Closing & Evaluation",
+      "weight": 0.12
+    },
+    {
+      "id": "strategy-benefits",
+      "title": "Strategic Alignment & Benefits",
+      "weight": 0.03
+    },
+    {
+      "id": "sustainability-resilience",
+      "title": "Sustainable & Resilient Value Chains",
+      "weight": 0.02
+    },
+    {
+      "id": "team-stakeholders",
+      "title": "Team Dynamics & Stakeholders",
+      "weight": 0.04
+    }
   ],
   "modes": [
     {
       "id": "risk",
       "title": "Risk triage",
       "count": 15,
-      "topics": ["risk-comm-quality"],
-      "tags": ["risk", "classification", "defect", "issue", "constraint", "assumption", "dependency"],
+      "topics": [
+        "risk-comm-quality"
+      ],
+      "tags": [
+        "risk",
+        "classification",
+        "defect",
+        "issue",
+        "constraint",
+        "assumption",
+        "dependency"
+      ],
       "blurb": "Risk, issue, constraint — and which source.",
       "why": "Question 2 of the exam hands you a situation and asks what kind of risk it is."
     },
@@ -30,8 +113,15 @@
       "id": "knowledge-areas",
       "title": "Knowledge areas",
       "count": 12,
-      "topics": ["pm-foundations"],
-      "tags": ["knowledge-area", "pmbok", "process-group", "life-cycle-vs"],
+      "topics": [
+        "pm-foundations"
+      ],
+      "tags": [
+        "knowledge-area",
+        "pmbok",
+        "process-group",
+        "life-cycle-vs"
+      ],
       "blurb": "Which PMBOK area does this belong to?",
       "why": "The other half of question 2. Ten areas, and the boundaries between them are where marks are lost."
     },
@@ -39,7 +129,9 @@
       "id": "bpmn",
       "title": "BPMN fix",
       "count": 12,
-      "topics": ["process-mapping"],
+      "topics": [
+        "process-mapping"
+      ],
       "examFocus": true,
       "blurb": "Spot the broken modelling rule.",
       "why": "Question 3 shows you a process model with one error in it."
@@ -48,10 +140,61 @@
       "id": "quality",
       "title": "Quality & KPIs",
       "count": 10,
-      "topics": ["risk-comm-quality"],
-      "tags": ["quality", "kpi", "metric", "cost-of-quality"],
+      "topics": [
+        "risk-comm-quality"
+      ],
+      "tags": [
+        "quality",
+        "kpi",
+        "metric",
+        "cost-of-quality"
+      ],
       "blurb": "Is that a real metric or a wish?",
       "why": "The second half of question 3: a quality statement is only worth marks if it has a metric, a target and a check."
+    },
+    {
+      "id": "final-mock",
+      "title": "Final mock",
+      "count": 32,
+      "blurb": "Noa's paper, section by section: 27 multiple choice, a critical-path question, earned value and the project brief.",
+      "why": "Built to the marks in the notes: 27 MCQ, 8 for critical path with a delay, 8 for earned value, 10 for the final project brief. 53 points in total, with no formulas given, so run it cold.",
+      "parts": [
+        {
+          "title": "Part 1 · Multiple choice (27 pts)",
+          "count": 27,
+          "types": [
+            "mcq"
+          ]
+        },
+        {
+          "title": "Part 2 · Critical path with a delay (8 pts)",
+          "count": 1,
+          "generator": "cpm"
+        },
+        {
+          "title": "Part 3 · Earned value (8 pts)",
+          "count": 2,
+          "topics": [
+            "project-monitoring"
+          ],
+          "tags": [
+            "evm"
+          ],
+          "types": [
+            "mcq",
+            "num"
+          ]
+        },
+        {
+          "title": "Part 4 · Final project brief (10 pts)",
+          "count": 4,
+          "case": true,
+          "topics": [
+            "project-closing"
+          ],
+          "caseId": "brief"
+        }
+      ]
     }
   ]
 }

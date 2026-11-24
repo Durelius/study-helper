@@ -16,6 +16,13 @@ slide, it does not go in.
 | `initiation` | Project Initiation & Scope Management | new 05 |
 | `schedule-cost` | Project Planning: Schedule & Cost | new 06 |
 | `risk-comm-quality` | Risk, Communication & Quality | new 07 |
+| `digital-tech` | Digital Technologies & Data Analytics | new 08 |
+| `agile-execution` | Project Execution & Agile PM | new 09 |
+| `project-monitoring` | Project Monitoring & Earned Value | new 10 |
+| `strategy-benefits` | Strategic Alignment & Benefits | new 11 |
+| `sustainability-resilience` | Sustainable & Resilient Value Chains | new 12 |
+| `team-stakeholders` | Team Dynamics & Stakeholders | new 13 |
+| `project-closing` | Project Closing & Evaluation | new 14 |
 
 ## `lectures/<topic>.md`
 

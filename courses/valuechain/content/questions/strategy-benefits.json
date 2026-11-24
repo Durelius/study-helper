@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sb-001",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "A project is delivered on time and within budget, but users rarely adopt it. Which description is right?",
+    "choices": [
+      "Business success without project success",
+      "Project success without business success",
+      "Project failure",
+      "Full success on every measure"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Delivery success is not business success. The project met its delivery targets, but the expected value depends on adoption and use.",
+    "source": {
+      "deck": "new 11",
+      "slide": 4
+    },
+    "difficulty": 1,
+    "tags": [
+      "success"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sb-002",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "'Lower cost of inventory errors' is an example of which of these?",
+    "choices": [
+      "Output",
+      "Outcome",
+      "Benefit",
+      "Assumption"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "A benefit is a measurable positive value. The inventory system is an output, and more accurate stock information is an outcome.",
+    "source": {
+      "deck": "new 11",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "benefits"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sb-003",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "Remaining benefits still justify the investment, and changes could improve future value. Which management decision fits?",
+    "choices": [
+      "Continue",
+      "Modify",
+      "Pause",
+      "Terminate"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Modify changes the project to improve future value. Continue would ignore the chance to improve, and terminate applies only when the expected value no longer justifies the cost.",
+    "source": {
+      "deck": "new 11",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "decisions"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sb-004",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "Which statement about money already spent on a project is correct?",
+    "choices": [
+      "It should justify continuing the project",
+      "It is a sunk cost and should not drive the next decision",
+      "It must be recovered before the project can be terminated",
+      "It is an output of the project"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Prior spending is a sunk cost. Decisions should weigh the remaining benefits against the remaining cost and risk.",
+    "source": {
+      "deck": "new 11",
+      "slide": 15
+    },
+    "difficulty": 2,
+    "tags": [
+      "sunk-cost"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sb-005",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "Who is responsible for achieving the expected business benefits?",
+    "choices": [
+      "Project manager",
+      "Benefit owner",
+      "Analyst",
+      "Sponsor"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The benefit owner is accountable for achieving the benefits. The project manager delivers outputs, and the sponsor maintains the strategic justification.",
+    "source": {
+      "deck": "new 11",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "benefits-ownership"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sb-006",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "Which level of strategic alignment decides which initiatives deserve investment?",
+    "choices": [
+      "Corporate",
+      "Portfolio",
+      "Project",
+      "Operational"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Portfolio decisions choose which initiatives to fund. Corporate sets the direction, and project level plans how one selected initiative is implemented.",
+    "source": {
+      "deck": "new 11",
+      "slide": 8
+    },
+    "difficulty": 2,
+    "tags": [
+      "alignment-levels"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sb-007",
+    "topic": "strategy-benefits",
+    "type": "mcq",
+    "stem": "At a stage-gate review, a team's prototype cannot work as designed. Which stage question is this?",
+    "choices": [
+      "Idea: Is there a real problem?",
+      "Concept: Is the proposed solution attractive?",
+      "Prototype: Can the solution work?",
+      "Scale: Can benefits be reproduced more widely?"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "The prototype stage tests whether the solution can work at all. Each gate ends with continue, revise, pause or stop.",
+    "source": {
+      "deck": "new 11",
+      "slide": 27
+    },
+    "difficulty": 2,
+    "tags": [
+      "innovation",
+      "stage-gate"
+    ],
+    "examFocus": false
+  }
+]

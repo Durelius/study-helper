@@ -1,0 +1,228 @@
+[
+  {
+    "id": "dt-001",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "A company replaces paper inventory records with an Excel database. Which term describes this?",
+    "choices": [
+      "Digital transformation",
+      "Digitalization",
+      "Digitization",
+      "Automation"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Digitization converts analog records into digital data. Using the data to improve a process is digitalization, which is the next step up.",
+    "source": {
+      "deck": "new 08",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "digitization"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "dt-002",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "Barcode scanning automatically updates inventory records in an existing process. Which term fits best?",
+    "choices": [
+      "Digitalization",
+      "Digitization",
+      "Digital transformation",
+      "Descriptive analytics"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Digitalization uses digital technology to improve an existing process. A redesigned value model would be digital transformation, which is a bigger change.",
+    "source": {
+      "deck": "new 08",
+      "slide": 6
+    },
+    "difficulty": 2,
+    "tags": [
+      "digitalization"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "dt-003",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "In the chain DATA → INFORMATION → INSIGHT → DECISION → ACTION, what is 'orders decreased 18%'?",
+    "choices": [
+      "Data",
+      "Insight",
+      "Information",
+      "Decision"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Raw daily orders of 1,250 are data. Interpreting them as an 18% decline gives information. Locating the decline in Bangkok stores would be insight.",
+    "source": {
+      "deck": "new 08",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "value-chain-flow"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "dt-004",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "Which analytics level answers 'What should we do?'",
+    "choices": [
+      "Descriptive",
+      "Diagnostic",
+      "Predictive",
+      "Prescriptive"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Prescriptive analytics recommends an action, such as a recommended inventory level. Predictive analytics only forecasts what is likely to happen.",
+    "source": {
+      "deck": "new 08",
+      "slide": 10
+    },
+    "difficulty": 1,
+    "tags": [
+      "analytics-levels"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "dt-005",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "An analyst investigates why stockouts increased. Which analytics level is this?",
+    "choices": [
+      "Predictive",
+      "Diagnostic",
+      "Prescriptive",
+      "Descriptive"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Diagnostic analytics explains why something happened. Descriptive analytics would only report that stockouts rose.",
+    "source": {
+      "deck": "new 08",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "analytics-levels"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "dt-006",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "Which task is best suited to generative AI rather than machine learning?",
+    "choices": [
+      "Predicting delivery delays from history",
+      "Drafting a risk register from project documents",
+      "Detecting fraud anomalies",
+      "Forecasting demand"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Machine learning mainly learns patterns from historical data, while generative AI generates or interprets content such as a draft register.",
+    "source": {
+      "deck": "new 08",
+      "slide": 18
+    },
+    "difficulty": 2,
+    "tags": [
+      "ai",
+      "genai"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "dt-007",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "A system places a replenishment order automatically when stock falls below a threshold. This is an example of:",
+    "choices": [
+      "Decision support",
+      "Digital twin",
+      "Automation",
+      "Descriptive analytics"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Automation acts without a human decision, such as an automatic order. Decision support only recommends an action, such as increasing safety stock.",
+    "source": {
+      "deck": "new 08",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "automation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "dt-008",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "A customer appears twice in the CRM under slightly different spellings. Which data quality dimension is violated?",
+    "choices": [
+      "Completeness",
+      "Validity",
+      "Uniqueness",
+      "Timeliness"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Uniqueness means each record is distinct with no unnecessary duplication. Validity is about formats and rules, which this record may still pass.",
+    "source": {
+      "deck": "new 08",
+      "slide": 22
+    },
+    "difficulty": 3,
+    "tags": [
+      "data-quality"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "dt-009",
+    "topic": "digital-tech",
+    "type": "mcq",
+    "stem": "An ERP integration fails for three days, so orders go unrecorded. Which type of digital risk is this?",
+    "choices": [
+      "Data risk",
+      "Cyber risk",
+      "System risk",
+      "AI risk"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "System risk covers downtime and integration failure. Data risk is about incorrect or incomplete data, and cyber risk is about unauthorised access.",
+    "source": {
+      "deck": "new 08",
+      "slide": 25
+    },
+    "difficulty": 3,
+    "tags": [
+      "digital-risk"
+    ],
+    "examFocus": false
+  }
+]

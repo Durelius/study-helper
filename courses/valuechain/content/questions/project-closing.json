@@ -1,0 +1,80 @@
+[
+  {
+    "id": "pcl-001",
+    "topic": "project-closing",
+    "type": "mcq",
+    "stem": "A team has built a prototype, but no users have tested it yet. Which status does the prototype have?",
+    "choices": ["Completed but not accepted", "Accepted", "Closed", "Terminated"],
+    "answer": [0],
+    "explanation": "The work is finished (completed) but no authorised stakeholder has approved it, so it is not accepted. Closed needs the formal closing activities too, and those come after acceptance.",
+    "source": { "deck": "new 14", "slide": 5 },
+    "difficulty": 1,
+    "tags": ["completed", "accepted", "closed"],
+    "examFocus": false
+  },
+  {
+    "id": "pcl-002",
+    "topic": "project-closing",
+    "type": "mcq",
+    "stem": "In the inventory project, which of these is an outcome rather than an output?",
+    "choices": ["The inventory management system is delivered", "Inventory accuracy improves", "Software is installed on the warehouse servers", "Staff training is completed"],
+    "answer": [1],
+    "explanation": "Output is what the project delivers. Outcome is the change that delivery causes, and improved inventory accuracy is that change. A delivered system is the output, and it is not yet proof of benefit.",
+    "source": { "deck": "new 14", "slide": 14 },
+    "difficulty": 2,
+    "tags": ["output", "outcome", "benefit"],
+    "examFocus": false
+  },
+  {
+    "id": "pcl-003",
+    "topic": "project-closing",
+    "type": "mcq",
+    "stem": "A café pilot hit its cups-issued target and its satisfaction target, but missed the cup return rate target (75% against at least 90%) and the handling time target. What decision fits best?",
+    "choices": ["Scale immediately", "Improve", "Stop", "Close without changes"],
+    "answer": [1],
+    "explanation": "The solution is promising (two targets met) but performance gaps remain, which is the textbook case for Improve. Scale needs benefits validated, and Stop needs the expected value to no longer justify investment.",
+    "source": { "deck": "new 14", "slide": 16 },
+    "difficulty": 3,
+    "tags": ["decision", "kpi"],
+    "examFocus": false
+  },
+  {
+    "id": "pcl-004",
+    "topic": "project-closing",
+    "type": "mcq",
+    "stem": "When should lessons learned be collected?",
+    "choices": ["Only at project closure", "Throughout the project", "Only after the final presentation", "Only when a problem occurs"],
+    "answer": [1],
+    "explanation": "Lessons learned are collected throughout the project. Waiting until closure loses the detail and the chance to correct course mid-project.",
+    "source": { "deck": "new 14", "slide": 17 },
+    "difficulty": 1,
+    "tags": ["lessons-learned"],
+    "examFocus": false
+  },
+  {
+    "id": "pcl-005",
+    "topic": "project-closing",
+    "type": "mcq",
+    "stem": "What is the maximum length of the final project presentation for each team?",
+    "choices": ["2 minutes", "4 minutes", "5 minutes", "10 minutes"],
+    "answer": [1],
+    "explanation": "Maximum 4 minutes per team. The timing plan (30 + 60 + 60 + 45 + 45 seconds) adds up to exactly 4 minutes.",
+    "source": { "deck": "new 14", "slide": 22 },
+    "difficulty": 1,
+    "tags": ["presentation"],
+    "examFocus": true
+  },
+  {
+    "id": "pcl-006",
+    "topic": "project-closing",
+    "type": "mcq",
+    "stem": "A student startup's café pilot started a week late because the café's approval was requested too late. Which lesson is the most actionable?",
+    "choices": ["Work faster next time", "Stakeholder approval must be planned as a project dependency", "Hire more staff for the pilot", "Start pilots earlier regardless of approval"],
+    "answer": [1],
+    "explanation": "The deck's lesson is to plan stakeholder approval as a dependency, with an approval milestone and an owner on the Gantt chart. The other options describe effort or timing without naming the root cause.",
+    "source": { "deck": "new 14", "slide": 18 },
+    "difficulty": 3,
+    "tags": ["lessons-learned", "dependency"],
+    "examFocus": true
+  }
+]

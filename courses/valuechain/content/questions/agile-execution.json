@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ae-001",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "In agile, what does 'iterative' mean?",
+    "choices": [
+      "Improving through repeated cycles",
+      "Scope is fixed and agreed upfront",
+      "The customer only sees the result at the end",
+      "The project is delivered as a single release"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Agile is adaptive, iterative and customer-focused. Iterative means improving through repeated cycles, not one fixed plan.",
+    "source": {
+      "deck": "new 09",
+      "slide": 12
+    },
+    "difficulty": 1,
+    "tags": [
+      "agile"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ae-002",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "Requirements are still evolving and the innovation is high. Which approach fits best?",
+    "choices": [
+      "Predictive",
+      "Agile",
+      "A fixed upfront baseline with no changes",
+      "Stop planning altogether"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Agile suits high uncertainty and changing requirements. Predictive suits stable requirements and known technology. Agile does not eliminate planning, it changes how often planning happens.",
+    "source": {
+      "deck": "new 09",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "agile",
+      "predictive"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ae-003",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "Which Scrum artifact is the prioritised list of all work the product may need?",
+    "choices": [
+      "Sprint backlog",
+      "Product backlog",
+      "Increment",
+      "Burndown chart"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The product backlog holds all prioritised work. The sprint backlog is only the work selected for the current sprint, and the increment is the working result of a sprint.",
+    "source": {
+      "deck": "new 09",
+      "slide": 18
+    },
+    "difficulty": 1,
+    "tags": [
+      "scrum",
+      "artifacts"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ae-004",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "How long should the Daily Scrum last?",
+    "choices": [
+      "5 minutes",
+      "15 minutes",
+      "30 minutes",
+      "60 minutes"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The Daily Scrum is a 15-minute coordination meeting focused on progress against the sprint goal and on blockers.",
+    "source": {
+      "deck": "new 09",
+      "slide": 19
+    },
+    "difficulty": 1,
+    "tags": [
+      "scrum",
+      "events"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ae-005",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "Which Scrum event asks what worked, what did not, and what the team should change in how it works?",
+    "choices": [
+      "Sprint review",
+      "Retrospective",
+      "Daily Scrum",
+      "Sprint planning"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The retrospective improves the way the team works. The sprint review improves the product, with stakeholders giving feedback on what was delivered.",
+    "source": {
+      "deck": "new 09",
+      "slide": 20
+    },
+    "difficulty": 2,
+    "tags": [
+      "scrum",
+      "events"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ae-006",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "Why does Kanban limit work in progress (WIP)?",
+    "choices": [
+      "To increase the number of tasks started at once",
+      "To reduce queues and context switching so work finishes faster",
+      "To remove the need for a backlog",
+      "To let the team work longer hours"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Without WIP limits, teams start too much, queues grow and context switching slows everything. Limiting WIP frees capacity to finish work and pull the next item.",
+    "source": {
+      "deck": "new 09",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "kanban",
+      "wip"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ae-007",
+    "topic": "agile-execution",
+    "type": "mcq",
+    "stem": "On a burndown chart, the line stays flat for three days. What does this mean?",
+    "choices": [
+      "The team is ahead of schedule",
+      "No work is being completed",
+      "Scope has been reduced",
+      "The sprint is finished"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A flat line means no work is being completed. A line above the ideal means the team may be behind, and a line that rises means work was added.",
+    "source": {
+      "deck": "new 09",
+      "slide": 24
+    },
+    "difficulty": 2,
+    "tags": [
+      "burndown"
+    ],
+    "examFocus": true
+  }
+]

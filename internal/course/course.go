@@ -54,6 +54,9 @@ type Part struct {
 	Tags   []string `json:"tags"`
 	Types  []string `json:"types"`
 	Case   bool     `json:"case"`
+	// CaseID pins a case part to one named case, so a mock always draws the same
+	// case study. Without it the part draws any case the player has not mastered.
+	CaseID string `json:"caseId"`
 	// Generator fills the part with computed questions ("oligopoly-steps", "mixed"…)
 	// so a mock exam gets fresh numbers. It must be listed in the course's generators.
 	Generator string `json:"generator"`

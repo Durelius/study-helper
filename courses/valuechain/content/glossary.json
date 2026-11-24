@@ -1249,5 +1249,302 @@
       "deck": "new 07",
       "slide": 45
     }
+  },
+  {
+    "term": "Baseline",
+    "definition": "An approved reference used to measure and control performance: scope, schedule and cost baselines.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 7
+    }
+  },
+  {
+    "term": "Scope progress vs scope change",
+    "definition": "Scope progress measures delivery against the existing plan. Scope change modifies the approved work or requirements.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 9
+    }
+  },
+  {
+    "term": "Change request",
+    "definition": "A proposal to modify an approved project. Only an approved change moves the baseline.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 33
+    }
+  },
+  {
+    "term": "BAC (Budget at Completion)",
+    "definition": "The total authorised project budget.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 24
+    }
+  },
+  {
+    "term": "PV (Planned Value)",
+    "definition": "The value of the work scheduled up to the reporting date.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 28
+    }
+  },
+  {
+    "term": "EV (Earned Value)",
+    "definition": "The value of the work actually completed, measured against the budget.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 28
+    }
+  },
+  {
+    "term": "AC (Actual Cost)",
+    "definition": "The cost actually incurred for the work performed.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 24
+    }
+  },
+  {
+    "term": "SV (Schedule Variance)",
+    "definition": "SV = EV − PV, in budget-value units, not calendar days. Negative means behind schedule.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 29
+    }
+  },
+  {
+    "term": "CV (Cost Variance)",
+    "definition": "CV = EV − AC. Negative means over budget for the work done.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 29
+    }
+  },
+  {
+    "term": "SPI (Schedule Performance Index)",
+    "definition": "SPI = EV / PV. Below 1.00 means behind schedule.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 30
+    }
+  },
+  {
+    "term": "CPI (Cost Performance Index)",
+    "definition": "CPI = EV / AC. Below 1.00 means cost inefficient.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 30
+    }
+  },
+  {
+    "term": "EAC (Estimate at Completion)",
+    "definition": "The forecast total project cost. With CPI continuing, EAC = BAC / CPI.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 31
+    }
+  },
+  {
+    "term": "Integrated change control",
+    "definition": "Identify, record, assess, develop alternatives, approve, update baselines, then communicate and implement.",
+    "topic": "project-monitoring",
+    "source": {
+      "deck": "new 10",
+      "slide": 34
+    }
+  },
+  {
+    "term": "Digitization",
+    "definition": "Converting analog information into digital data.",
+    "topic": "digital-tech",
+    "source": {
+      "deck": "new 08",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Digitalization",
+    "definition": "Using digital technology to improve an existing process.",
+    "topic": "digital-tech",
+    "source": {
+      "deck": "new 08",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Digital transformation",
+    "definition": "Redesigning how an organisation creates and delivers value using digital technology.",
+    "topic": "digital-tech",
+    "source": {
+      "deck": "new 08",
+      "slide": 6
+    }
+  },
+  {
+    "term": "Prescriptive analytics",
+    "definition": "Analytics that answers what should we do, by recommending an action.",
+    "topic": "digital-tech",
+    "source": {
+      "deck": "new 08",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Digital twin",
+    "definition": "A digital representation of a physical system or process that uses data to understand, simulate or predict its behaviour.",
+    "topic": "digital-tech",
+    "source": {
+      "deck": "new 08",
+      "slide": 19
+    }
+  },
+  {
+    "term": "Uniqueness (data quality)",
+    "definition": "Each record is distinct, with no unnecessary duplication.",
+    "topic": "digital-tech",
+    "source": {
+      "deck": "new 08",
+      "slide": 22
+    }
+  },
+  {
+    "term": "Sprint",
+    "definition": "A short, time-boxed period, usually two to four weeks, in which a scrum team completes a set amount of work.",
+    "topic": "agile-execution",
+    "source": {
+      "deck": "new 09",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Product backlog",
+    "definition": "The prioritised list of all work the product may need.",
+    "topic": "agile-execution",
+    "source": {
+      "deck": "new 09",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Work in progress (WIP) limit",
+    "definition": "A cap on how much work is in progress at once, to reduce queues and context switching.",
+    "topic": "agile-execution",
+    "source": {
+      "deck": "new 09",
+      "slide": 23
+    }
+  },
+  {
+    "term": "Burndown chart",
+    "definition": "Tracks remaining work against time. A flat line means no work is being completed.",
+    "topic": "agile-execution",
+    "source": {
+      "deck": "new 09",
+      "slide": 24
+    }
+  },
+  {
+    "term": "Sunk cost",
+    "definition": "Money already spent. It should not drive the decision to continue, modify, pause or terminate.",
+    "topic": "strategy-benefits",
+    "source": {
+      "deck": "new 11",
+      "slide": 15
+    }
+  },
+  {
+    "term": "Benefits Realization Management",
+    "definition": "The process of planning, delivering, measuring and sustaining the benefits a project is expected to produce.",
+    "topic": "strategy-benefits",
+    "source": {
+      "deck": "new 11",
+      "slide": 16
+    }
+  },
+  {
+    "term": "Output, outcome and benefit",
+    "definition": "Output is what the project delivers. Outcome is the change from using it. Benefit is the measurable positive value.",
+    "topic": "strategy-benefits",
+    "source": {
+      "deck": "new 11",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Stage-gate",
+    "definition": "Innovation checkpoints (idea, concept, prototype, pilot, scale) where a team continues, revises, pauses or stops.",
+    "topic": "strategy-benefits",
+    "source": {
+      "deck": "new 11",
+      "slide": 27
+    }
+  },
+  {
+    "term": "Upcycling",
+    "definition": "Recovered material becomes something of higher value.",
+    "topic": "sustainability-resilience",
+    "source": {
+      "deck": "new 12",
+      "slide": 17
+    }
+  },
+  {
+    "term": "Time to Recover (TTR)",
+    "definition": "How long it takes to restore operations after a disruption.",
+    "topic": "sustainability-resilience",
+    "source": {
+      "deck": "new 12",
+      "slide": 14
+    }
+  },
+  {
+    "term": "Storming",
+    "definition": "The Tuckman stage of conflict over ideas and direction.",
+    "topic": "team-stakeholders",
+    "source": {
+      "deck": "new 13",
+      "slide": 10
+    }
+  },
+  {
+    "term": "Task, process and relationship conflict",
+    "definition": "Task is about the work itself, process is about how it runs, and relationship is personal.",
+    "topic": "team-stakeholders",
+    "source": {
+      "deck": "new 13",
+      "slide": 14
+    }
+  },
+  {
+    "term": "Win–win (conditional offer)",
+    "definition": "'If you can…, then we can…': an exchange that creates value for both sides.",
+    "topic": "team-stakeholders",
+    "source": {
+      "deck": "new 13",
+      "slide": 18
+    }
+  },
+  {
+    "term": "Groupthink",
+    "definition": "Apparent agreement that is really avoidance of disagreement.",
+    "topic": "team-stakeholders",
+    "source": {
+      "deck": "new 13",
+      "slide": 7
+    }
   }
 ]
