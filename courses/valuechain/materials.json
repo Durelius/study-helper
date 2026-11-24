@@ -1,0 +1,47 @@
+{
+  "root": "~/Downloads",
+  "decks": [
+    {
+      "deck": "new 08",
+      "title": "Digital Technologies & Data Analytics",
+      "pdf": "08._Digital_Technologies_and_Data_Analytics_in_Operations__Supply_Chains__and_Project_Management-661316-17906872133985.pdf",
+      "label": "slide"
+    },
+    {
+      "deck": "new 09",
+      "title": "Project Execution & Agile PM",
+      "pdf": "09._Project_Execution___Agile_PM-661316-17913057535358.pdf",
+      "label": "slide"
+    },
+    {
+      "deck": "new 10",
+      "title": "Project Monitoring and Control",
+      "pdf": "10._Project_Monitoring_and_Control-661316-17917985356439.pdf",
+      "label": "slide"
+    },
+    {
+      "deck": "new 11",
+      "title": "Strategic Alignment, Benefits & Innovation",
+      "pdf": "11._Strategic_Alignment___Innovation-661316-17925480931080.pdf",
+      "label": "slide"
+    },
+    {
+      "deck": "new 12",
+      "title": "Sustainable & Resilient Value Chains",
+      "pdf": "12._Sustainable___Resilient_Value_Chains-661316-17931227219131.pdf",
+      "label": "slide"
+    },
+    {
+      "deck": "new 13",
+      "title": "Team Dynamics, Conflict Resolution, Negotiation & Stakeholder Engagement",
+      "pdf": "13._Team_Dynamics__Conflict_Resolution__Negotiation___Stakeholder_Engagement-661316-17937623188311.pdf",
+      "label": "slide"
+    },
+    {
+      "deck": "new 14",
+      "title": "Project Closing, Lessons Learned & Project Evaluation",
+      "pdf": "14._Project_Closing__Lessons_Learned___Project_Evaluation-661316-17938044527078.pdf",
+      "label": "slide"
+    }
+  ]
+}

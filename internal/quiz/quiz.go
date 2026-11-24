@@ -481,7 +481,11 @@ func paper(set *content.Set, parts []course.Part, hist History, rnd *rand.Rand) 
 			continue
 		}
 		if p.Case {
-			qs, err := caseQuestions(set, freshCase(set, hist, rnd), rnd)
+			caseID := p.CaseID
+			if caseID == "" {
+				caseID = freshCase(set, hist, rnd)
+			}
+			qs, err := caseQuestions(set, caseID, rnd)
 			if err != nil {
 				return nil, err
 			}

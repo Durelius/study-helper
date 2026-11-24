@@ -1,0 +1,204 @@
+[
+  {
+    "id": "ts-001",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "A team argues about which features to build. What type of conflict is this?",
+    "choices": [
+      "Task",
+      "Process",
+      "Relationship",
+      "Personal"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "A task conflict is about the work itself, such as which features to build. Disagreement about the work can improve innovation, while relationship conflict damages trust.",
+    "source": {
+      "deck": "new 13",
+      "slide": 14
+    },
+    "difficulty": 1,
+    "tags": [
+      "conflict"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ts-002",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "A team argues about who should run the user testing. What type of conflict is this?",
+    "choices": [
+      "Task",
+      "Process",
+      "Relationship",
+      "Structural"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A process conflict is about how the work gets done, such as who runs a task. The deck's three types are task, process and relationship.",
+    "source": {
+      "deck": "new 13",
+      "slide": 14
+    },
+    "difficulty": 2,
+    "tags": [
+      "conflict"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ts-003",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "Team members start disagreeing about which features the MVP should include. Which Tuckman stage is this?",
+    "choices": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Storming is conflict over ideas and direction. Forming is the first meeting, norming is when rules and trust form, and performing is high collaboration.",
+    "source": {
+      "deck": "new 13",
+      "slide": 10
+    },
+    "difficulty": 2,
+    "tags": [
+      "tuckman"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ts-004",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "Which conflict-handling style means postponing the issue or stepping away from it?",
+    "choices": [
+      "Competing",
+      "Collaborating",
+      "Avoiding",
+      "Accommodating"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Avoiding postpones or steps away. Competing acts decisively, collaborating seeks a solution that satisfies both sides, and accommodating puts the other party's concern first.",
+    "source": {
+      "deck": "new 13",
+      "slide": 15
+    },
+    "difficulty": 1,
+    "tags": [
+      "conflict-styles"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "ts-005",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "Which opening to a difficult conversation follows the recommended Fact → Impact → Request structure?",
+    "choices": [
+      "You are always irresponsible!",
+      "Last week three stock items were missing, which delayed the pilot. Could you update the sheet by Friday?",
+      "Why can't you ever do anything right?",
+      "We need to talk about your attitude."
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The structure states the fact, its impact, and a specific request for the next action. The others blame the person rather than the problem.",
+    "source": {
+      "deck": "new 13",
+      "slide": 16
+    },
+    "difficulty": 2,
+    "tags": [
+      "difficult-conversation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ts-006",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "The café says it cannot assign staff. The team replies: 'If you allow a collection point, then our team can manage it during the pilot.' Which technique is this?",
+    "choices": [
+      "Win–win: 'If you can…, then we can…'",
+      "Compromise by splitting the difference",
+      "Competing for the best position",
+      "Avoiding the topic"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "This is the win-win exchange, where each side gives something the other values. Splitting the difference is a compromise and does not create new value.",
+    "source": {
+      "deck": "new 13",
+      "slide": 18
+    },
+    "difficulty": 3,
+    "tags": [
+      "negotiation"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ts-007",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "One student wants five features and another wants two. Which is the underlying interest behind 'five features'?",
+    "choices": [
+      "Launch on time",
+      "Impress potential users",
+      "Reduce workload",
+      "Build fewer features"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Negotiation starts with interests, not positions. The five-feature position comes from wanting to impress users, so that is the interest to address.",
+    "source": {
+      "deck": "new 13",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "negotiation",
+      "interests"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "ts-008",
+    "topic": "team-stakeholders",
+    "type": "mcq",
+    "stem": "A stakeholder says the pilot 'might create problems'. What is the best response?",
+    "choices": [
+      "Ignore the concern and launch",
+      "Demonstrate the safeguards that address it",
+      "Ask the stakeholder to leave the project",
+      "Wait until the pilot is over"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "The deck's response to this objection is to demonstrate safeguards. Resistance is useful information, so treat it as input rather than opposition.",
+    "source": {
+      "deck": "new 13",
+      "slide": 21
+    },
+    "difficulty": 2,
+    "tags": [
+      "stakeholders",
+      "resistance"
+    ],
+    "examFocus": false
+  }
+]

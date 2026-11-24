@@ -1,0 +1,307 @@
+[
+  {
+    "id": "pmo-001",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "A project has PV ฿500,000, EV ฿400,000 and AC ฿450,000. What is its CPI?",
+    "choices": [
+      "0.80",
+      "0.89",
+      "1.11",
+      "1.25"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "CPI = EV / AC = 400 / 450 = 0.89. The 0.80 is SPI (EV / PV), and 1.11 is PV / AC, which is a ratio that means nothing in EVM. Both are tempting if you mix up the denominators.",
+    "source": {
+      "deck": "new 10",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "evm",
+      "cpi",
+      "spi"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "pmo-002",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "A project has PV ฿500,000, EV ฿400,000 and AC ฿450,000. What is its Schedule Variance?",
+    "choices": [
+      "−฿50,000",
+      "+฿100,000",
+      "−฿100,000",
+      "−฿450,000"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "SV = EV − PV = 400,000 − 500,000 = −฿100,000. The −฿50,000 is CV (EV − AC), so it measures cost, not schedule. SV is always EV minus PV.",
+    "source": {
+      "deck": "new 10",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "evm",
+      "sv",
+      "cv"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "pmo-003",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "A project has BAC ฿10M and CPI 0.8. Assuming the current CPI continues, what is the Estimate at Completion?",
+    "choices": [
+      "฿8.0M",
+      "฿10.8M",
+      "฿12.5M",
+      "฿14.0M"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "EAC = BAC / CPI = 10 / 0.8 = ฿12.5M. Multiplying BAC by CPI (฿8.0M) gets the direction backwards: a CPI below 1 means you pay more per unit of work, so the forecast rises.",
+    "source": {
+      "deck": "new 10",
+      "slide": 31
+    },
+    "difficulty": 3,
+    "tags": [
+      "evm",
+      "eac",
+      "forecast"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "pmo-004",
+    "topic": "project-monitoring",
+    "type": "tf",
+    "stem": "A CPI of 0.90 means the project is spending less than the value of the work it has completed.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. CPI below 1 means the project is cost inefficient: it has spent more (AC) than the work completed is worth (EV). Spending less than EV would give CPI above 1.",
+    "source": {
+      "deck": "new 10",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "evm",
+      "cpi"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "pmo-005",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "The forecast finish has moved from Week 16 to Week 18, but the sponsor has not yet approved the new deadline. Which date is the current approved baseline finish?",
+    "choices": [
+      "Week 16",
+      "Week 18 (forecast, pending)",
+      "Week 18 (approved)",
+      "Week 14"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The baseline stays at Week 16 until a change is approved. Week 18 is the forecast and the requested revision, not the baseline. Only approval through change control moves the baseline.",
+    "source": {
+      "deck": "new 10",
+      "slide": 23
+    },
+    "difficulty": 2,
+    "tags": [
+      "baseline",
+      "change-control"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "pmo-006",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "A customer asks for five additional stores in the FreshMart project. What is the correct response?",
+    "choices": [
+      "Update the schedule baseline immediately",
+      "Evaluate it as a change request",
+      "Record it as a schedule deviation",
+      "Ignore it until project closing"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A new request is a proposed scope change, so it goes through change control as a change request. It is not a deviation (that is actual or forecast performance against the baseline), and the baseline only moves after approval.",
+    "source": {
+      "deck": "new 10",
+      "slide": 33
+    },
+    "difficulty": 3,
+    "tags": [
+      "change-request",
+      "deviation"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "pmo-007",
+    "topic": "project-monitoring",
+    "type": "num",
+    "stem": "A project has EV ฿2.4M and AC ฿2.8M. What is its Cost Variance, in ฿ millions?",
+    "choices": [],
+    "answer": [],
+    "explanation": "CV = EV − AC = 2.4 − 2.8 = −0.4. The negative sign means the project is over budget for the work it has done.",
+    "source": {
+      "deck": "new 10",
+      "slide": 29
+    },
+    "difficulty": 2,
+    "tags": [
+      "evm",
+      "cv"
+    ],
+    "examFocus": true,
+    "value": -0.4,
+    "tolerance": 0.05,
+    "unit": "฿M"
+  },
+  {
+    "id": "pmo-008",
+    "topic": "project-monitoring",
+    "type": "num",
+    "stem": "A project has EV ฿2.4M and PV ฿2.8M. What is its SPI, to two decimal places?",
+    "choices": [],
+    "answer": [],
+    "explanation": "SPI = EV / PV = 2.4 / 2.8 = 0.857, which rounds to 0.86. Below 1.00 means behind schedule.",
+    "source": {
+      "deck": "new 10",
+      "slide": 30
+    },
+    "difficulty": 2,
+    "tags": [
+      "evm",
+      "spi"
+    ],
+    "examFocus": true,
+    "value": 0.86,
+    "tolerance": 0.01,
+    "unit": ""
+  },
+  {
+    "id": "pmo-009",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "Stores planned: 25. Stores deployed: 15. Stores accepted by the client: 13. Which number counts as accepted scope progress?",
+    "choices": [
+      "25",
+      "15",
+      "13",
+      "2"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Scope progress counts accepted work. Deployed stores are completed but not necessarily accepted, so only the 13 accepted stores count.",
+    "source": {
+      "deck": "new 10",
+      "slide": 12
+    },
+    "difficulty": 2,
+    "tags": [
+      "scope",
+      "acceptance"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "pmo-010",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "A sponsor approves a new project deadline. What must happen to the schedule baseline?",
+    "choices": [
+      "Nothing, because the baseline is the forecast",
+      "It is updated, because the approved change moves the baseline",
+      "The change is recorded as a deviation only",
+      "It waits until project closing"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "A deviation is performance against the baseline. An approved change to the deadline moves the baseline itself, so the schedule baseline is updated.",
+    "source": {
+      "deck": "new 10",
+      "slide": 33
+    },
+    "difficulty": 2,
+    "tags": [
+      "baseline",
+      "change-control"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "pmo-011",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "The critical path is A→B→E→G. Activity B is delayed by 2 days and cannot be recovered. What happens to the project finish?",
+    "choices": [
+      "It finishes 2 days late",
+      "It does not change",
+      "It finishes 1 day late",
+      "It finishes 4 days late"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "B is on the critical path, so every day of its delay moves the project finish unless recovered. The deck's example takes a 20-day project to 22 days.",
+    "source": {
+      "deck": "new 10",
+      "slide": 21
+    },
+    "difficulty": 3,
+    "tags": [
+      "critical-path",
+      "delay"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "pmo-012",
+    "topic": "project-monitoring",
+    "type": "mcq",
+    "stem": "Which schedule recovery option increases cost?",
+    "choices": [
+      "Reduce nonessential effort",
+      "Fast-track, by overlapping eligible activities",
+      "Crash, by adding resources to critical activities",
+      "Submit a change request for a revised date"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Crashing adds resources to critical activities, which increases cost. Fast-tracking raises rework risk instead, and reducing effort limits recovery.",
+    "source": {
+      "deck": "new 10",
+      "slide": 22
+    },
+    "difficulty": 2,
+    "tags": [
+      "recovery",
+      "crash"
+    ],
+    "examFocus": false
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sr-001",
+    "topic": "sustainability-resilience",
+    "type": "mcq",
+    "stem": "A sustainable value chain balances which three dimensions?",
+    "choices": [
+      "Economic, environmental and social",
+      "Economic, technical and legal",
+      "Cost, quality and speed",
+      "Sourcing, production and logistics"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The deck defines sustainability as balancing economic, environmental and social impacts. The other sets are either stages of the chain or the project triangle.",
+    "source": {
+      "deck": "new 12",
+      "slide": 6
+    },
+    "difficulty": 1,
+    "tags": [
+      "sustainability"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sr-002",
+    "topic": "sustainability-resilience",
+    "type": "mcq",
+    "stem": "A restaurant's packaging rises from ฿3 to ฿6 per box at 10,000 boxes a month. What is the additional monthly cost?",
+    "choices": [
+      "฿30,000",
+      "฿60,000",
+      "฿3,000",
+      "฿6,000"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The extra cost is ฿3 per box across 10,000 boxes, which is ฿30,000. ฿60,000 is the total new packaging cost, not the increase.",
+    "source": {
+      "deck": "new 12",
+      "slide": 9
+    },
+    "difficulty": 2,
+    "tags": [
+      "trade-offs"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sr-003",
+    "topic": "sustainability-resilience",
+    "type": "mcq",
+    "stem": "Which of these is a resilience focus rather than an efficiency focus?",
+    "choices": [
+      "Lowest purchase price",
+      "Single supplier",
+      "Alternative suppliers",
+      "Minimum inventory"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Resilience reduces vulnerability to disruption, and alternative suppliers do that. Efficiency focuses on normal operating cost, so the others are efficiency choices.",
+    "source": {
+      "deck": "new 12",
+      "slide": 11
+    },
+    "difficulty": 2,
+    "tags": [
+      "resilience"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sr-004",
+    "topic": "sustainability-resilience",
+    "type": "mcq",
+    "stem": "A supplier needs 8 days to recover, but the company holds only 5 days of inventory. How many days is the gap?",
+    "choices": [
+      "3 days",
+      "5 days",
+      "8 days",
+      "13 days"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "The gap is recovery time minus available cover: 8 − 5 = 3 days. That is the amount the company must cover with a backup option.",
+    "source": {
+      "deck": "new 12",
+      "slide": 14
+    },
+    "difficulty": 3,
+    "tags": [
+      "resilience",
+      "ttr"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sr-005",
+    "topic": "sustainability-resilience",
+    "type": "mcq",
+    "stem": "In a circular economy, what does upcycling mean?",
+    "choices": [
+      "The material is used for a lower-grade purpose",
+      "The recovered material becomes something of higher value",
+      "The material is recovered without changing its value",
+      "The product is sent to landfill"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Upcycling raises the value of the recovered material. Downcycling is the lower-grade use, and recycling keeps the value roughly the same.",
+    "source": {
+      "deck": "new 12",
+      "slide": 17
+    },
+    "difficulty": 1,
+    "tags": [
+      "circular"
+    ],
+    "examFocus": false
+  },
+  {
+    "id": "sr-006",
+    "topic": "sustainability-resilience",
+    "type": "mcq",
+    "stem": "A disposable container costs ฿8 per use. A reusable one costs ฿80 plus ฿5 per use. After how many uses does reuse cost less than ฿8 per use?",
+    "choices": [
+      "10",
+      "20",
+      "27",
+      "40"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Reusable cost per use is 80 / N + 5. Below ฿8 needs 80 / N < 3, so N > 26.7, which means 27 uses. At 20 uses it is ฿9 per use.",
+    "source": {
+      "deck": "new 12",
+      "slide": 19
+    },
+    "difficulty": 3,
+    "tags": [
+      "circular",
+      "reuse-cost"
+    ],
+    "examFocus": true
+  },
+  {
+    "id": "sr-007",
+    "topic": "sustainability-resilience",
+    "type": "tf",
+    "stem": "A product with a higher resale value always produces higher profit when it is recovered and sold.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "False. Processing, labour and market demand still matter, so a higher product value does not necessarily mean higher profit.",
+    "source": {
+      "deck": "new 12",
+      "slide": 17
+    },
+    "difficulty": 2,
+    "tags": [
+      "circular",
+      "profit"
+    ],
+    "examFocus": false
+  }
+]

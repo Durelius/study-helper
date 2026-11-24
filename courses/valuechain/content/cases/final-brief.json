@@ -1,0 +1,112 @@
+{
+  "id": "brief",
+  "title": "Team Nova's café pilot: the final project brief",
+  "topics": [
+    "project-closing",
+    "project-monitoring",
+    "team-stakeholders"
+  ],
+  "scenario": "Team Nova ran a two-week pilot of a reusable cup scheme in a café near campus. The plan was for the pilot to start in week 2, but the café's approval was only requested in week 3, so the pilot started a week late. Ana owned registration and Ben owned the evaluation. The team gave the café a collection point, students registered their cups, and customers returned them for a discount.\n\nAt the end of the pilot the team reported these results against their targets:\n\n- Cups issued during the pilot: 200 (target 200)\n- Cup return rate: 75% (target at least 90%)\n- Average staff handling time per return: 4 minutes (target at most 3 minutes)\n- Customer satisfaction: 85% (target at least 80%)\n\nThe café owner is willing to continue if the return rate improves. The team has to present a final project brief in four minutes, covering the overview, the status and deliverables, the project management performance, stakeholders and value, and lessons learned.",
+  "questions": [
+    {
+      "id": "case-brief-01",
+      "topic": "project-closing",
+      "type": "mcq",
+      "stem": "In the 30-second overview of the brief, which question must be answered?",
+      "choices": [
+        "How was the budget spent by category?",
+        "What problem are we solving, and what is our objective?",
+        "Which team member did which task?",
+        "What should we do differently next time?"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "The overview states the problem and the objective. Budget, responsibilities and lessons come later in the presentation.",
+      "source": {
+        "deck": "new 14",
+        "slide": 23
+      },
+      "difficulty": 2,
+      "tags": [
+        "presentation"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brief-02",
+      "topic": "project-closing",
+      "type": "mcq",
+      "stem": "'200 cups issued during the pilot' is best classified as which?",
+      "choices": [
+        "Output",
+        "Outcome",
+        "Benefit",
+        "Acceptance criterion"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Cups issued is what the pilot produced, so it is an output. The outcome is the change in behaviour, such as returns, and the benefit is the measurable value.",
+      "source": {
+        "deck": "new 14",
+        "slide": 14
+      },
+      "difficulty": 2,
+      "tags": [
+        "output-outcome-benefit"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brief-03",
+      "topic": "project-closing",
+      "type": "mcq",
+      "stem": "The return rate and handling time missed their targets, while satisfaction passed. Which decision is best supported?",
+      "choices": [
+        "Scale",
+        "Improve",
+        "Stop",
+        "Close without changes"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Some targets are met and gaps remain, so the solution is promising but needs improvement. Scale needs validated benefits, and stop needs the expected value to be gone.",
+      "source": {
+        "deck": "new 14",
+        "slide": 16
+      },
+      "difficulty": 3,
+      "tags": [
+        "decisions"
+      ],
+      "examFocus": true
+    },
+    {
+      "id": "case-brief-04",
+      "topic": "project-closing",
+      "type": "mcq",
+      "stem": "In the four lessons-learned questions, which one asks 'Why was there a difference?'",
+      "choices": [
+        "What did we expect to happen?",
+        "What actually happened?",
+        "Why was there a difference?",
+        "What should we do differently next time?"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "The four questions move from expectation to actual result, then to cause and action. The why question is the one that finds the root cause.",
+      "source": {
+        "deck": "new 14",
+        "slide": 17
+      },
+      "difficulty": 1,
+      "tags": [
+        "lessons-learned"
+      ],
+      "examFocus": true
+    }
+  ]
+}
