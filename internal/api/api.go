@@ -106,7 +106,7 @@ func (s *Server) handleCourse(w http.ResponseWriter, r *http.Request) {
 	c := s.Set.Course()
 	writeJSON(w, http.StatusOK, map[string]any{
 		"id": c.ID, "title": c.Title, "code": c.Code, "shortName": c.ShortName,
-		"exam": s.Exam.Format(time.RFC3339),
+		"exam": s.Exam.Format(time.RFC3339), "examName": c.ExamName,
 	})
 }
 

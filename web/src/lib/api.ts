@@ -69,6 +69,7 @@ export type Step = { action: 'read' | 'quiz'; mode?: string; topic?: string; lab
 
 export type Plan = {
   exam: string
+  examName: string
   secondsRemaining: number
   steps: Step[]
   seen: number
@@ -123,6 +124,7 @@ export type CourseInfo = {
   code: string
   shortName: string
   exam: string
+  examName: string
 }
 
 export type Episode = {

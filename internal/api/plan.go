@@ -188,6 +188,7 @@ func (s *Server) handlePlan(w http.ResponseWriter, r *http.Request) {
 
 	writeJSON(w, http.StatusOK, map[string]any{
 		"exam":             s.Exam.Format(time.RFC3339),
+		"examName":         s.Set.Course().ExamName,
 		"secondsRemaining": int64(remaining.Seconds()),
 		"steps":            steps,
 		"seen":             totalSeen,

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "ce-001",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "Which information is not part of an AI model's context?",
+    "choices": [
+      "Tool descriptions",
+      "The current user prompt",
+      "Conversation history",
+      "Files that the model has never received or accessed"
+    ],
+    "answer": [3],
+    "explanation": "The context is what the model has actually been given: prompt, history, tool descriptions and any files it has seen. A file the model never received cannot influence its answer.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["context", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "ce-002",
+    "topic": "context-engineering",
+    "type": "multi",
+    "stem": "Why do we need Context Engineering? Select all that apply.",
+    "choices": [
+      "To enable an AI agent to work automatically",
+      "To organise and maintain useful information in the context",
+      "To reduce problems caused by irrelevant or excessive context",
+      "To guarantee that every AI answer is correct"
+    ],
+    "answer": [1, 2],
+    "explanation": "Context engineering is the discipline of choosing what goes into the window and keeping it useful, and of trimming what does not help. It cannot guarantee correct answers, and automation is a result some agents achieve, not its defining purpose.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["context", "purpose"],
+    "examFocus": true
+  },
+  {
+    "id": "ce-003",
+    "topic": "context-engineering",
+    "type": "tf",
+    "stem": "A larger context window guarantees the model uses every token in it equally well.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "A bigger window lets more fit in, but attention to details in the middle of a long context is often weaker, and irrelevant text can distract. This is why context must be curated, not just enlarged.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["context-window", "context-rot"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-004",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "What is \"context rot\"?",
+    "choices": [
+      "The model's weights slowly degrading over months of use",
+      "Answer quality falling as the context fills with irrelevant or outdated material",
+      "The conversation being saved to disk in the wrong format",
+      "A prompt being repeated until it loses its meaning"
+    ],
+    "answer": [1],
+    "explanation": "Context rot is the decline in answer quality as a long context accumulates clutter and stale facts. It is a property of the context, not of the stored model weights.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["context-rot", "failure-mode"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-005",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "A long conversation keeps confusing the agent about what the task is. Which fix is closest to good context engineering?",
+    "choices": [
+      "Paste the entire project history into every turn",
+      "Turn off all tool descriptions",
+      "Summarise older turns and keep only the facts relevant to the current task",
+      "Raise the temperature so the model guesses less"
+    ],
+    "answer": [2],
+    "explanation": "Context engineering curates what stays in the window. Summarising old turns keeps the useful facts and drops the rest. Pasting everything adds more clutter.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["summarise", "curation"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-006",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "Why are tool descriptions part of the context?",
+    "choices": [
+      "The model reads them each turn to decide which tool to call and how",
+      "They are only shown to developers in a log",
+      "They are added after the answer has been written",
+      "They are stored in a separate database the model never reads"
+    ],
+    "answer": [0],
+    "explanation": "The model can only choose a tool from what it has been shown, so the tool descriptions are part of what it reasons over every turn.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["tools", "context"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-007",
+    "topic": "context-engineering",
+    "type": "multi",
+    "stem": "Select all that count as part of a model's context for one answer. Select all that apply.",
+    "choices": [
+      "The system prompt",
+      "The conversation history",
+      "Files the model has been given in this session",
+      "The model's training weights",
+      "The hardware the model is running on"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "The context is the input the model sees for this answer. Training weights are built in before the conversation starts, and hardware is not part of the text.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["context", "definition"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-008",
+    "topic": "context-engineering",
+    "type": "text",
+    "stem": "What is the name for the amount of text a model can consider at once, covering both prompt and reply?",
+    "choices": [],
+    "answer": [],
+    "accept": ["context window", "context length", "the context window"],
+    "explanation": "The context window, also called context length. It is measured in tokens and bounds how much the model can hold at once.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["context-window"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-009",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "A user uploads a 300-page report, but the question concerns one section. What is the context-engineering move?",
+    "choices": [
+      "Paste the whole report so nothing is missed",
+      "Retrieve and include only the section that answers the question",
+      "Ask the model to memorise the report first",
+      "Shorten the question instead"
+    ],
+    "answer": [1],
+    "explanation": "Including only the relevant material keeps the window useful and avoids the distraction of the other 299 pages. Memorising is not something a model does with a conversation.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["retrieval", "curation"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-010",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "Which of these is NOT a sign that the context holds too much irrelevant material?",
+    "choices": [
+      "The model drifts toward facts that were in the clutter but not in the question",
+      "The model overlooks an instruction that is buried deep in the context",
+      "Responses are slower and costlier",
+      "The model gives a better answer because it was given more information"
+    ],
+    "answer": [3],
+    "explanation": "More irrelevant information tends to hurt, not help. The three symptoms in the wrong options are the classic signs of distraction and cost.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["context-rot", "failure-mode"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-011",
+    "topic": "context-engineering",
+    "type": "mcq",
+    "stem": "Which of these best describes organising context?",
+    "choices": [
+      "Deciding what goes in, what stays, what is summarised, and what is fetched only when needed",
+      "Keeping every message the user has ever typed",
+      "Choosing the colour scheme of the chat window",
+      "Training a new model for each user"
+    ],
+    "answer": [0],
+    "explanation": "Organising context is a set of decisions about the window's contents over time. Keeping everything is the opposite of curation.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["context", "curation"],
+    "examFocus": false
+  },
+  {
+    "id": "ce-012",
+    "topic": "context-engineering",
+    "type": "tf",
+    "stem": "Context engineering means changing the model's weights so that it remembers more.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "Context engineering works on the input only. Changing weights is training or fine-tuning, which is a different discipline.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["context", "fine-tuning"],
+    "examFocus": false
+  }
+]

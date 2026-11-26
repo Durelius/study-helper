@@ -6,7 +6,8 @@ import { countdown } from '../lib/format'
 // runs out, for the same reason an activity does.
 const WINDOW_HOURS = 72
 
-export default function Countdown({ seconds, exam }: { seconds: number; exam?: string }) {
+export default function Countdown({ seconds, exam, name = 'midterm' }: { seconds: number; exam?: string; name?: string }) {
+  const label = name.charAt(0).toUpperCase() + name.slice(1)
   // The day and time come from the course, not from whichever course was built first.
   const when = exam
     ? new Date(exam).toLocaleString(undefined, { weekday: 'long', hour: '2-digit', minute: '2-digit', hour12: false })
@@ -18,8 +19,8 @@ export default function Countdown({ seconds, exam }: { seconds: number; exam?: s
   const critical = seconds < 12 * 3600
 
   return (
-    <section aria-label="Time until the midterm">
-      <p className="text-[0.8rem] text-ink-soft">{when ? `Midterm · ${when}` : 'Midterm'}</p>
+    <section aria-label={`Time until the ${name}`}>
+      <p className="text-[0.8rem] text-ink-soft">{when ? `${label} · ${when}` : label}</p>
       <p
         className="mt-1 font-semibold tracking-tight"
         style={{ fontSize: 'clamp(2.4rem, 7vw, 4rem)', lineHeight: 1, color: critical ? 'var(--critical)' : 'var(--ink)' }}

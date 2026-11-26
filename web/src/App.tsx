@@ -56,7 +56,7 @@ function Shell({ name, setName }: { name: string; setName: (n: string) => void }
         <div className="mx-auto flex max-w-5xl items-baseline gap-4 px-4 pt-4">
           <span className="font-semibold tracking-tight">{course?.shortName ?? '…'}</span>
           <span className="text-[0.8rem] text-ink-faint">
-            {course?.code ? `${course.code} midterm` : ''}
+            {course?.code ? `${course.code} ${course.examName}` : ''}
           </span>
           <button
             onClick={() => {

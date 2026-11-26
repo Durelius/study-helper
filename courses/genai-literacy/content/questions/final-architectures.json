@@ -1,0 +1,215 @@
+[
+  {
+    "id": "fa-001",
+    "topic": "final-architectures",
+    "type": "mcq",
+    "stem": "Which architecture is a good fit for predicting house prices in Bangkok from a table of features such as floor area, district and number of bedrooms?",
+    "choices": ["CNN", "MLP", "Transformer", "VAE"],
+    "answer": [1],
+    "explanation": "The input is a row of numbers with no grid or sequence structure, so a multilayer perceptron fits. A CNN expects spatial structure in pixels, a Transformer expects sequences of tokens, and a VAE is generative rather than predictive.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["mlp", "architecture", "predictive"],
+    "examFocus": true
+  },
+  {
+    "id": "fa-002",
+    "topic": "final-architectures",
+    "type": "multi",
+    "stem": "Why do convolution layers appear in a CNN? Select all that apply.",
+    "choices": [
+      "They guarantee that image dimensions increase exponentially",
+      "They allow hierarchical feature learning, from edges up to shapes and objects",
+      "They provide fixed-size kernels that are reused instead of connecting every pixel to every neuron",
+      "They replace the need for any training data",
+      "They let the network ignore where in the image a pattern appears"
+    ],
+    "answer": [1, 2],
+    "explanation": "Early layers find simple features and later layers combine them, which is hierarchical learning. Small kernels slid across the image share weights, which keeps the model small. Dimensions do not grow exponentially, and the sliding kernel is what makes the network sensitive to location-independent patterns, not blind to them.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["cnn", "convolution", "why"],
+    "examFocus": true
+  },
+  {
+    "id": "fa-003",
+    "topic": "final-architectures",
+    "type": "tf",
+    "stem": "A convolution kernel is slid across the whole image, so the same weights detect a pattern wherever it appears.",
+    "choices": ["True", "False"],
+    "answer": [0],
+    "explanation": "This is weight sharing. One set of kernel weights is reused at every position, which is why a CNN needs far fewer parameters than an MLP on the same image.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["cnn", "convolution", "weight-sharing"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-004",
+    "topic": "final-architectures",
+    "type": "mcq",
+    "stem": "Why is a plain MLP a poor choice for a large photograph compared with a CNN?",
+    "choices": [
+      "An MLP cannot output a number",
+      "It needs a separate weight for every pixel connection, so parameters explode and local structure is ignored",
+      "It can only process text",
+      "It cannot be trained with gradient descent"
+    ],
+    "answer": [1],
+    "explanation": "A fully connected layer links every input pixel to every neuron, so the parameter count grows with image size, and nothing in the design favours nearby pixels. A CNN reuses small kernels across the image instead.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["mlp", "cnn", "comparison"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-005",
+    "topic": "final-architectures",
+    "type": "multi",
+    "stem": "Select all statements that describe diffusion networks.",
+    "choices": [
+      "The forward process progressively adds noise to clean data over a fixed number of time steps",
+      "They compress images into a small code, like a VAE",
+      "They use embeddings to understand what kind of image you want to create",
+      "They generate only text, never images",
+      "They are predictive models that output a class label"
+    ],
+    "answer": [0, 2],
+    "explanation": "Diffusion adds noise in a fixed forward schedule and learns to reverse it, and conditioning embeddings steer what gets generated. Compressing to a code is the VAE's approach, and diffusion models are generative, not classifiers.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["diffusion", "generative"],
+    "examFocus": true
+  },
+  {
+    "id": "fa-006",
+    "topic": "final-architectures",
+    "type": "mcq",
+    "stem": "In a diffusion model, what does the learned part of the network do?",
+    "choices": [
+      "It adds noise to the training images",
+      "It predicts and removes noise at each step, turning random noise into an image",
+      "It compresses images into a latent code",
+      "It looks up the most similar image in a database"
+    ],
+    "answer": [1],
+    "explanation": "The forward process that adds noise is fixed and needs no learning. The network learns the reverse step, denoising a little at a time, so that starting from pure noise it ends at an image.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["diffusion", "reverse-process"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-007",
+    "topic": "final-architectures",
+    "type": "mcq",
+    "stem": "In a text-to-image diffusion model, what is the job of the text embeddings?",
+    "choices": [
+      "They compress the output image",
+      "They define how many noise steps the model uses",
+      "They store the training images",
+      "They tell the denoising network what kind of image to produce"
+    ],
+    "answer": [3],
+    "explanation": "The embeddings are the conditioning signal. The same noise can be denoised towards many different images, and the embedding of the prompt steers which one.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["diffusion", "conditioning", "embeddings"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-008",
+    "topic": "final-architectures",
+    "type": "mcq",
+    "stem": "Which architecture encodes its input into a latent space and then decodes samples from that space, so it can generate new data?",
+    "choices": ["MLP", "CNN", "VAE", "Diffusion network"],
+    "answer": [2],
+    "explanation": "A variational autoencoder learns a probability distribution over a latent space, so you can sample from it and decode new outputs. A plain autoencoder reconstructs inputs without that sampling structure.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["vae", "latent-space"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-009",
+    "topic": "final-architectures",
+    "type": "tf",
+    "stem": "A VAE learns a probability distribution over a latent space, so new samples can be drawn from it and decoded.",
+    "choices": ["True", "False"],
+    "answer": [0],
+    "explanation": "This sampling ability is what makes a VAE generative. Its distribution is the reason it can produce new images rather than only reconstructing the ones it saw.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["vae", "latent-space"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-010",
+    "topic": "final-architectures",
+    "type": "multi",
+    "stem": "Select all the generative architectures. Select all that apply.",
+    "choices": [
+      "VAE",
+      "MLP classifier for house prices",
+      "Diffusion network",
+      "CNN image classifier",
+      "Transformer-based language model that generates text"
+    ],
+    "answer": [0, 2, 4],
+    "explanation": "The VAE, the diffusion network and the generative Transformer all model the data and produce new samples. The MLP and the CNN in the list are predictive: they map inputs to labels or values.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["predictive-generative", "distinction"],
+    "examFocus": true
+  },
+  {
+    "id": "fa-011",
+    "topic": "final-architectures",
+    "type": "text",
+    "stem": "What does the V in VAE stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": ["variational", "variational autoencoder"],
+    "explanation": "Variational autoencoder. The V refers to variational inference, the method that lets the latent space be a distribution you can sample from.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["vae", "abbreviation"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-012",
+    "topic": "final-architectures",
+    "type": "mcq",
+    "stem": "In a CNN, early layers detect edges and later layers combine them into shapes and then objects. What is this property called?",
+    "choices": [
+      "Weight decay",
+      "Hierarchical feature learning",
+      "Gradient clipping",
+      "Mode collapse"
+    ],
+    "answer": [1],
+    "explanation": "Hierarchical feature learning means each layer builds on the one before. Weight decay, gradient clipping and mode collapse are different training ideas and do not describe this structure.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["cnn", "hierarchical"],
+    "examFocus": false
+  },
+  {
+    "id": "fa-013",
+    "topic": "final-architectures",
+    "type": "multi",
+    "stem": "Select all the statements that are true of a Multi-Layer Perceptron. Select all that apply.",
+    "choices": [
+      "It stacks layers of weighted sums passed through non-linear activations",
+      "Its layers are fully connected to the layer before",
+      "It is built around convolution kernels that slide over an image",
+      "It learns by adjusting its weights and biases to reduce prediction error"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "An MLP is a stack of fully connected layers with non-linear activations, trained by adjusting weights and biases against an error. Convolution kernels belong to the CNN, not the MLP.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["mlp", "architecture"],
+    "examFocus": false
+  }
+]

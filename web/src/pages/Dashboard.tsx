@@ -39,7 +39,7 @@ export default function Dashboard({ name }: { name: string }) {
   return (
     <div className="grid gap-10 md:grid-cols-[1.15fr_1fr]">
       <div>
-        <Countdown seconds={seconds} exam={plan.exam} />
+        <Countdown seconds={seconds} exam={plan.exam} name={plan.examName} />
 
         {next && (
           <section className="mt-8 border border-line bg-surface">

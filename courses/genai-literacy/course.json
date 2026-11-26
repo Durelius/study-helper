@@ -3,7 +3,8 @@
   "title": "Generative AI Literacy & Applications",
   "code": "5602203",
   "shortName": "GenAI Literacy",
-  "exam": "2026-09-25T13:00:00+07:00",
+  "exam": "2026-11-27T13:00:00+07:00",
+  "examName": "final",
   "generators": [],
   "topics": [
     {
@@ -55,6 +56,31 @@
       "id": "ethics-impact",
       "title": "Ethics and Impact",
       "weight": 4
+    },
+    {
+      "id": "final-architectures",
+      "title": "Final Architectures: MLP, CNN, Diffusion",
+      "weight": 12
+    },
+    {
+      "id": "prompt-engineering",
+      "title": "Prompt Engineering: Roles, Shots and Structure",
+      "weight": 14
+    },
+    {
+      "id": "context-engineering",
+      "title": "Context Engineering",
+      "weight": 12
+    },
+    {
+      "id": "loop-engineering",
+      "title": "Loop Engineering and Agents",
+      "weight": 12
+    },
+    {
+      "id": "knowledge-wiki",
+      "title": "RAG and the LLM Wiki",
+      "weight": 12
     }
   ],
   "modes": [
@@ -63,7 +89,22 @@
       "count": 10,
       "timeLimitSec": 900,
       "blurb": "Ten questions, like the real paper.",
-      "why": "The real midterm is ten questions with two ruled lines each. This draws ten across the topics in proportion to their marks. The clock is for pacing practice, not the exam's real duration."
+      "why": "The final is a Google Forms quiz of ten questions, some single-answer and some select-all. This draws ten across the topics in proportion to their marks. The clock is for pacing practice, not the exam's real duration."
+    },
+    {
+      "id": "final-quiz",
+      "title": "Final topics",
+      "count": 10,
+      "topics": [
+        "final-architectures",
+        "prompt-engineering",
+        "context-engineering",
+        "loop-engineering",
+        "knowledge-wiki"
+      ],
+      "timeLimitSec": 600,
+      "blurb": "Only the post-midterm topics and the architectures the quiz tested.",
+      "why": "Context, prompting, loops, RAG and the LLM Wiki are the material the Nov 13 quiz covered and the midterm never reached."
     },
     {
       "id": "exam-core",

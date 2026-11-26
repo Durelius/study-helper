@@ -1,0 +1,210 @@
+[
+  {
+    "id": "le-001",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "What is the human's role in loop engineering?",
+    "choices": [
+      "Dictate every step to the AI agent",
+      "Define the goal and workflow",
+      "Let the agent decide its own stop condition",
+      "Write the agent's code line by line"
+    ],
+    "answer": [1],
+    "explanation": "The human sets the goal and the shape of the workflow, and the agent carries out the steps inside that loop. Dictating every step is the opposite of loop engineering.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["human-role", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "le-002",
+    "topic": "loop-engineering",
+    "type": "multi",
+    "stem": "Select all the responsibilities that belong to the human in loop engineering. Select all that apply.",
+    "choices": [
+      "Define the goal and workflow",
+      "Dictate every step to the agent",
+      "Set the evaluation criteria",
+      "Decide the stop condition"
+    ],
+    "answer": [0, 2, 3],
+    "explanation": "The human owns the goal, the criteria that say whether output is good, and the rule for when to stop. Dictating each step removes the loop itself and is not a human responsibility in this model.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["human-role", "stop-condition", "evaluation"],
+    "examFocus": true
+  },
+  {
+    "id": "le-003",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "In loop engineering, what is an agent loop?",
+    "choices": [
+      "One prompt and one answer, then the session ends",
+      "A fixed script that never checks its own results",
+      "Planning, acting, observing the result, and checking it, repeated until a stop condition",
+      "Training the model again on its own output"
+    ],
+    "answer": [2],
+    "explanation": "The loop is the repeated cycle of plan, act, observe and check, which continues until a stop rule fires. A single prompt is not a loop, and a script without checks cannot correct itself.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["agent-loop", "definition"],
+    "examFocus": false
+  },
+  {
+    "id": "le-004",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "What is a stop condition?",
+    "choices": [
+      "The point where the model's weights are saved to disk",
+      "The token limit of a single reply",
+      "The rule that ends the loop, such as all tests passing or a maximum number of rounds",
+      "The moment the user closes the browser"
+    ],
+    "answer": [2],
+    "explanation": "A stop condition is a rule the loop checks, so it ends when the goal is met or when a limit is reached. Without one, the loop may never end.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["stop-condition"],
+    "examFocus": true
+  },
+  {
+    "id": "le-005",
+    "topic": "loop-engineering",
+    "type": "tf",
+    "stem": "Good loop engineering dictates every step to the agent so that it cannot go off track.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "Dictating every step gives up the benefit of the loop. Good practice is to set the goal, the checks and the stop rule, and let the agent choose its steps within them.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["human-role", "dictation"],
+    "examFocus": false
+  },
+  {
+    "id": "le-006",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "Why define evaluation criteria before the loop starts?",
+    "choices": [
+      "So the agent and the human share a definition of when the output counts as done and correct",
+      "So the model uses fewer tokens",
+      "So the model trains faster",
+      "So the agent can skip the stop condition"
+    ],
+    "answer": [0],
+    "explanation": "Without criteria fixed in advance, the agent can declare its own work finished. The criteria give the check something to test against.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["evaluation", "criteria"],
+    "examFocus": false
+  },
+  {
+    "id": "le-007",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "Which stop condition is the safest?",
+    "choices": [
+      "Run until the agent says it is finished",
+      "Stop after one step",
+      "Stop when all tests pass or after a set number of rounds, whichever comes first",
+      "Never stop; the human will intervene"
+    ],
+    "answer": [2],
+    "explanation": "Combining a success test with a hard limit prevents both early stopping and endless loops. Trusting the agent's own claim of completion skips the external check.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["stop-condition", "safety"],
+    "examFocus": true
+  },
+  {
+    "id": "le-008",
+    "topic": "loop-engineering",
+    "type": "multi",
+    "stem": "Select all that are good practice in loop engineering. Select all that apply.",
+    "choices": [
+      "Set a maximum number of iterations",
+      "Log each step so a human can review what the agent did",
+      "Let the agent grade its own work with no external check",
+      "Define success criteria before the loop starts",
+      "Leave out the stop condition to save time"
+    ],
+    "answer": [0, 1, 3],
+    "explanation": "Limits, logs and criteria defined up front are the core controls of a loop. Self-grading with no external check and having no stop condition are the failure modes the discipline exists to prevent.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["practice", "stop-condition", "evaluation"],
+    "examFocus": false
+  },
+  {
+    "id": "le-009",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "How does loop engineering differ from prompt engineering?",
+    "choices": [
+      "Loop engineering designs the repeated cycle around the model, while prompt engineering shapes a single request",
+      "Loop engineering trains new models, while prompt engineering writes single requests",
+      "Loop engineering chooses file formats, while prompt engineering chooses colours",
+      "There is no difference; they are two names for one practice"
+    ],
+    "answer": [0],
+    "explanation": "A prompt shapes one request. A loop designs the cycle of many steps, checks and stops around one or more model calls.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["distinction", "prompt-vs-loop"],
+    "examFocus": false
+  },
+  {
+    "id": "le-010",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "An agent keeps editing a file and then undoing its own edits. Which fix is closest to loop engineering?",
+    "choices": [
+      "Raise the temperature so it tries new things",
+      "Remove every tool the agent has",
+      "Add an observe step that compares the result with the goal, plus a stop rule",
+      "Make the initial prompt longer"
+    ],
+    "answer": [2],
+    "explanation": "The fix is structural: the loop needs to observe the result against the goal and stop or change course. Adjusting randomness or length treats the symptom, not the loop.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 3,
+    "tags": ["observe", "debugging"],
+    "examFocus": false
+  },
+  {
+    "id": "le-011",
+    "topic": "loop-engineering",
+    "type": "text",
+    "stem": "What is the name for a stop rule that ends an agent loop after a fixed number of rounds?",
+    "choices": [],
+    "answer": [],
+    "accept": ["max iterations", "maximum iterations", "iteration limit", "max rounds"],
+    "explanation": "A maximum-iterations limit, sometimes called an iteration cap. It is a safety stop that works alongside a success test.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["stop-condition"],
+    "examFocus": false
+  },
+  {
+    "id": "le-012",
+    "topic": "loop-engineering",
+    "type": "mcq",
+    "stem": "Who sets the goal and the evaluation criteria in loop engineering?",
+    "choices": [
+      "The agent itself",
+      "The human",
+      "The vector store",
+      "The model provider, automatically"
+    ],
+    "answer": [1],
+    "explanation": "The human sets the goal and criteria, because the agent cannot be the judge of its own success. The other options are not roles in the loop.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["human-role", "evaluation"],
+    "examFocus": false
+  }
+]

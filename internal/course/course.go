@@ -69,9 +69,12 @@ type Course struct {
 	Code      string `json:"code"`
 	ShortName string `json:"shortName"`
 	// Exam is the countdown target, in RFC 3339 with the course's own offset.
-	Exam   string  `json:"exam"`
-	Topics []Topic `json:"topics"`
-	Modes  []Mode  `json:"modes"`
+	Exam string `json:"exam"`
+	// ExamName is what the countdown's assessment is called, such as "midterm" or
+	// "final". It defaults to "midterm" when a course does not say.
+	ExamName string  `json:"examName"`
+	Topics   []Topic `json:"topics"`
+	Modes    []Mode  `json:"modes"`
 	// Generators names the computed drills this course offers, such as "cpm". A
 	// course that does not teach critical path simply omits it and the lab disappears.
 	Generators []string `json:"generators"`
@@ -147,6 +150,9 @@ func Load(dir string) (*Course, error) {
 	}
 	if c.ShortName == "" {
 		c.ShortName = c.Title
+	}
+	if c.ExamName == "" {
+		c.ExamName = "midterm"
 	}
 	return &c, nil
 }

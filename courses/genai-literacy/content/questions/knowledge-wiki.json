@@ -1,0 +1,195 @@
+[
+  {
+    "id": "kw-001",
+    "topic": "knowledge-wiki",
+    "type": "multi",
+    "stem": "Select all statements that correctly describe RAG. Select all that apply.",
+    "choices": [
+      "It lets you include local knowledge in your AI",
+      "It uses embeddings to find the stored passages most relevant to a question",
+      "It guarantees that the LLM's knowledge has no contradictions",
+      "It means the LLM browses the open web when it answers",
+      "It retrieves relevant passages and adds them to the prompt before the model generates"
+    ],
+    "answer": [0, 1, 4],
+    "explanation": "RAG retrieves from your own documents using embeddings, places the results in the prompt, and then generates. It does not promise a contradiction-free knowledge base, and it does not require live web search unless a search step is added.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["rag", "embeddings"],
+    "examFocus": true
+  },
+  {
+    "id": "kw-002",
+    "topic": "knowledge-wiki",
+    "type": "multi",
+    "stem": "Select all three recurring operations in an LLM Wiki.",
+    "choices": ["Ingest", "Render", "Code", "Query", "Lint"],
+    "answer": [0, 3, 4],
+    "explanation": "An LLM Wiki is kept up by ingesting new sources, answering questions by querying, and linting for contradictions and gaps. Rendering and coding are not wiki operations.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["llm-wiki", "operations"],
+    "examFocus": true
+  },
+  {
+    "id": "kw-003",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "In an LLM Wiki, what does Ingest do?",
+    "choices": [
+      "Reads a new source and writes or updates the wiki pages it bears on",
+      "Answers a user's question from the wiki",
+      "Checks the wiki for contradictions and stale claims",
+      "Renders the wiki as a website"
+    ],
+    "answer": [0],
+    "explanation": "Ingest is the write path: a new source is read and folded into the existing pages. Querying reads, and linting audits.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["llm-wiki", "ingest"],
+    "examFocus": false
+  },
+  {
+    "id": "kw-004",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "Which LLM Wiki operation looks for contradictions, gaps and stale claims?",
+    "choices": ["Ingest", "Query", "Lint", "Render"],
+    "answer": [2],
+    "explanation": "Lint is the health check on the wiki. It does not add sources or answer questions.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["llm-wiki", "lint"],
+    "examFocus": false
+  },
+  {
+    "id": "kw-005",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "A user asks a question. The system finds the relevant wiki pages and writes an answer that cites them. Which operation is this?",
+    "choices": ["Ingest", "Query", "Lint", "Code"],
+    "answer": [1],
+    "explanation": "Answering from the existing wiki is Query. The answer is grounded in pages that were already ingested.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["llm-wiki", "query"],
+    "examFocus": false
+  },
+  {
+    "id": "kw-006",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "What is the correct order of a basic RAG pipeline?",
+    "choices": [
+      "Generate an answer, then retrieve documents, then embed the question",
+      "Train the LLM on the documents, then generate the answer",
+      "Chunk and embed the documents, retrieve the chunks closest to the question, add them to the prompt, then generate",
+      "Fetch web pages, then generate without any documents"
+    ],
+    "answer": [2],
+    "explanation": "Indexing comes first: documents are split and embedded. At question time the closest chunks are retrieved, placed in the prompt, and the model generates from them.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["rag", "pipeline"],
+    "examFocus": true
+  },
+  {
+    "id": "kw-007",
+    "topic": "knowledge-wiki",
+    "type": "tf",
+    "stem": "RAG works by changing the LLM's weights so that it memorises your documents.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "RAG leaves the weights alone and supplies the relevant text at question time. Memorising documents into weights is fine-tuning.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["rag", "fine-tuning"],
+    "examFocus": false
+  },
+  {
+    "id": "kw-008",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "What is an embedding?",
+    "choices": [
+      "A vector representation of text in which similar meanings sit close together",
+      "A reserved token that marks the end of a reply",
+      "A type of prompt that gives the model a role",
+      "The hidden layer of a CNN that holds its kernels"
+    ],
+    "answer": [0],
+    "explanation": "An embedding places text in a vector space so that similar meanings are near each other. Search by similarity, and therefore RAG retrieval, depends on this.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["embeddings", "definition"],
+    "examFocus": true
+  },
+  {
+    "id": "kw-009",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "Why would you use RAG rather than fine-tuning to add a company's documents?",
+    "choices": [
+      "The documents can be updated in the store without retraining the model",
+      "RAG removes all hallucinations",
+      "Fine-tuning cannot use text at all",
+      "RAG needs no documents at all"
+    ],
+    "answer": [0],
+    "explanation": "Updating a document store is cheap, and the sources can be cited. RAG reduces some errors but does not remove them, and fine-tuning can use text.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["rag", "fine-tuning", "trade-off"],
+    "examFocus": false
+  },
+  {
+    "id": "kw-010",
+    "topic": "knowledge-wiki",
+    "type": "text",
+    "stem": "What does RAG stand for?",
+    "choices": [],
+    "answer": [],
+    "accept": ["retrieval augmented generation", "retrieval-augmented generation"],
+    "explanation": "Retrieval-augmented generation: retrieve relevant material first, then generate with it in the prompt.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["rag", "abbreviation"],
+    "examFocus": true
+  },
+  {
+    "id": "kw-011",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "In a RAG system, what is the main job of the vector store?",
+    "choices": [
+      "To store the model's weights",
+      "To find the stored chunks most similar to the question",
+      "To count the tokens in each prompt",
+      "To translate the prompt into another language"
+    ],
+    "answer": [1],
+    "explanation": "The vector store holds the embedded chunks and returns the ones closest to the question. It does not hold weights and does not generate text.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["rag", "vector-store"],
+    "examFocus": false
+  },
+  {
+    "id": "kw-012",
+    "topic": "knowledge-wiki",
+    "type": "mcq",
+    "stem": "Which is the best reason to lint an LLM Wiki on a schedule?",
+    "choices": [
+      "To make the pages load faster in a browser",
+      "To catch contradictions and stale claims as new sources are added",
+      "To remove the need for any source files",
+      "To change the model's weights"
+    ],
+    "answer": [1],
+    "explanation": "As sources accumulate, pages drift apart and older claims go stale. Linting finds these problems. Page speed, deleting sources and retraining are not reasons to lint.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["llm-wiki", "lint"],
+    "examFocus": false
+  }
+]

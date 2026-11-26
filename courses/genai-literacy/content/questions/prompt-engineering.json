@@ -1,0 +1,205 @@
+[
+  {
+    "id": "pe-001",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "What is the main purpose of defining a \"Role\" in a prompt?",
+    "choices": [
+      "To choose the file format",
+      "To save the conversation automatically",
+      "To increase the context window",
+      "To specify the AI's expertise and behaviour"
+    ],
+    "answer": [3],
+    "explanation": "A role such as \"You are a Bangkok property analyst\" sets the perspective, vocabulary and level of expertise the model answers from. It does not change the context window, saving or file formats.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["role", "prompt-structure"],
+    "examFocus": true
+  },
+  {
+    "id": "pe-002",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "What is few-shot prompting?",
+    "choices": [
+      "Asking the AI to answer with very few words",
+      "Running the same prompt many times",
+      "Removing all examples from the prompt",
+      "Giving the AI a small number of examples before asking it to complete a task"
+    ],
+    "answer": [3],
+    "explanation": "Few-shot means a handful of worked input-output examples inside the prompt, so the model copies the pattern for the new input. It is not about answer length or repetition.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["few-shot", "examples"],
+    "examFocus": true
+  },
+  {
+    "id": "pe-003",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "What is zero-shot prompting?",
+    "choices": [
+      "Giving the model examples of the answer format before the task",
+      "Asking the model to do the task with no examples in the prompt",
+      "Training the model on zero new data",
+      "Asking the model to reply with a single word"
+    ],
+    "answer": [1],
+    "explanation": "Zero-shot relies only on the instruction and the model's existing knowledge. The contrast with few-shot is the number of examples in the prompt, not the length of the reply.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["zero-shot", "examples"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-004",
+    "topic": "prompt-engineering",
+    "type": "tf",
+    "stem": "Few-shot prompting permanently changes the model's weights.",
+    "choices": ["True", "False"],
+    "answer": [1],
+    "explanation": "Few-shot changes only the input. The weights are untouched, and the examples are gone once the conversation ends. Fine-tuning is the method that changes weights.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["few-shot", "fine-tuning"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-005",
+    "topic": "prompt-engineering",
+    "type": "multi",
+    "stem": "Select all the elements that belong in a well-structured prompt. Select all that apply.",
+    "choices": [
+      "A role",
+      "The task",
+      "The output format",
+      "The hardware the model runs on",
+      "The model's weights"
+    ],
+    "answer": [0, 1, 2],
+    "explanation": "A prompt is text the user writes: who the model should be, what to do, and what shape the answer should take. Hardware and weights are properties of the system, not of the prompt.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["prompt-structure"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-006",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "A user wants a model to label support tickets as Billing, Technical or Other. They put three labelled tickets in the prompt before the new one. Which technique is this?",
+    "choices": ["Zero-shot", "Chain-of-thought", "Few-shot", "Fine-tuning"],
+    "answer": [2],
+    "explanation": "Three worked examples placed before the new input is few-shot prompting. Fine-tuning would mean training the weights on many labelled tickets.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["few-shot", "classification"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-007",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "What is the difference between the role and the task in a prompt?",
+    "choices": [
+      "The role sets the answer length and the task sets the tone",
+      "The role says who the model acts as, and the task says what it should do",
+      "The role and the task are the same instruction written twice",
+      "The role is set by the provider and the task is set by the user"
+    ],
+    "answer": [1],
+    "explanation": "Role gives the perspective and expertise; task names the job. Keeping them apart lets you change one without rewriting the other.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["role", "task"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-008",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "Why can a few worked examples work better than a long list of written rules?",
+    "choices": [
+      "They show the desired pattern directly, including format and tone",
+      "They increase the model's context window",
+      "They retrain the model on the spot",
+      "They remove the need to state a task"
+    ],
+    "answer": [0],
+    "explanation": "Examples demonstrate the output pattern more precisely than a description of it. They do not change the window size, train the model, or replace the task.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["few-shot", "examples"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-009",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "Chain-of-thought prompting asks the model to do what?",
+    "choices": [
+      "Repeat the prompt before answering",
+      "Switch to a different model for hard questions",
+      "Show intermediate reasoning steps before giving the answer",
+      "Answer in as few words as possible"
+    ],
+    "answer": [2],
+    "explanation": "Writing out intermediate steps often improves multi-step answers. The opposite instruction, answering in as few words as possible, is the reverse of what chain-of-thought asks for.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["chain-of-thought", "reasoning"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-010",
+    "topic": "prompt-engineering",
+    "type": "text",
+    "stem": "What is the name for prompting with no examples at all?",
+    "choices": [],
+    "answer": [],
+    "accept": ["zero-shot", "zero shot", "zero-shot prompting"],
+    "explanation": "Zero-shot prompting. The counterpart is few-shot, which includes a small number of examples.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["zero-shot"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-011",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "Which element of a prompt tells the model the shape its answer should take?",
+    "choices": [
+      "The role",
+      "The conversation history",
+      "The output format specification",
+      "The few-shot example"
+    ],
+    "answer": [2],
+    "explanation": "An output format specification, such as \"reply with one number in baht\", fixes the shape of the answer. The role sets expertise, history is earlier turns, and an example shows a pattern without stating the rule.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 1,
+    "tags": ["output-format", "prompt-structure"],
+    "examFocus": false
+  },
+  {
+    "id": "pe-012",
+    "topic": "prompt-engineering",
+    "type": "mcq",
+    "stem": "Which prompt is most likely to give a usable estimate of a condo's price?",
+    "choices": [
+      "Estimate the price.",
+      "Write a short poem about condos.",
+      "Price?",
+      "You are a Bangkok property analyst. Here are three sample listings with prices. Estimate this condo's price and reply with one number in baht."
+    ],
+    "answer": [3],
+    "explanation": "It has a role, examples, a task and an output format, which is what a well-structured prompt contains. The others are missing most of those elements.",
+    "source": { "deck": "Nov 13 quiz", "slide": 0 },
+    "difficulty": 2,
+    "tags": ["prompt-structure", "few-shot", "role"],
+    "examFocus": true
+  }
+]
